@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/jeewan/Downloads/Sensors_circuit_design-1/Sensors_circuit_design.sch</source>
+    <date>Wednesday, June 29, 2016 'PMt' 09:05:32 PM</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sensors_circuit_design.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="RV1">
+      <value>POT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5726CFC8</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>RC4558IDGKR</value>
+      <footprint>Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="Sensors_circuit_design-cache" part="RC4558IDGKR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5726D987</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5726DA8D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5726DAF4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5727A8C5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5727A9F3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5727AF9E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5727D8E3</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5727DEA0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>REG7805</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="Sensors_circuit_design-cache" part="REG7805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5728EEFC</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_4.5mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572BD6AC</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_4.5mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572BD755</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensors_circuit_design-cache" part="RC4558IDGKR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RC4558IDGKR</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="1IN-" type="input"/>
+        <pin num="3" name="1IN+" type="input"/>
+        <pin num="4" name="Vcc-" type="power_in"/>
+        <pin num="5" name="2IN+" type="input"/>
+        <pin num="6" name="2IN-" type="input"/>
+        <pin num="7" name="2OUT" type="output"/>
+        <pin num="8" name="Vcc+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensors_circuit_design-cache" part="REG7805">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">REG7805</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="Sensors_circuit_design-cache">
+      <uri>/Users/jeewan/Downloads/Sensors_circuit_design-1/Sensors_circuit_design-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(RV1-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="P1" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="3" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(P2-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="6"/>
+    </net>
+  </nets>
+</export>
