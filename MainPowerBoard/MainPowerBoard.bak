@@ -85,7 +85,7 @@ U 582171B3
 F0 "24 Volt Regulator" 60
 F1 "24V_regulator.sch" 60
 F2 "24V0_REG" I R 11600 1300 60 
-F3 "37V0_BATT" I L 9800 1300 60 
+F3 "VCC_BATT" I L 9800 1300 49 
 $EndSheet
 Text Notes 10000 750  0    118  ~ 24
 24V Regulators
@@ -95,15 +95,7 @@ U 58218776
 F0 "24 Volt Regulator" 60
 F1 "24V_regulator.sch" 60
 F2 "24V0_REG" I R 11600 2200 60 
-F3 "37V0_BATT" I L 9800 2200 60 
-$EndSheet
-$Sheet
-S 9800 2800 1800 600 
-U 58218996
-F0 "24 Volt Regulator" 60
-F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 3100 60 
-F3 "37V0_BATT" I L 9800 3100 60 
+F3 "VCC_BATT" I L 9800 2200 49 
 $EndSheet
 $Sheet
 S 9800 3700 1800 600 
@@ -111,7 +103,7 @@ U 5821899A
 F0 "24 Volt Regulator" 60
 F1 "24V_regulator.sch" 60
 F2 "24V0_REG" I R 11600 4000 60 
-F3 "37V0_BATT" I L 9800 4000 60 
+F3 "VCC_BATT" I L 9800 4000 49 
 $EndSheet
 $Sheet
 S 9800 4600 1800 600 
@@ -119,7 +111,7 @@ U 58219136
 F0 "24 Volt Regulator" 60
 F1 "24V_regulator.sch" 60
 F2 "24V0_REG" I R 11600 4900 60 
-F3 "37V0_BATT" I L 9800 4900 60 
+F3 "VCC_BATT" I L 9800 4900 49 
 $EndSheet
 $Sheet
 S 9800 5500 1800 600 
@@ -127,15 +119,7 @@ U 5821913A
 F0 "24 Volt Regulator" 60
 F1 "24V_regulator.sch" 60
 F2 "24V0_REG" I R 11600 5800 60 
-F3 "37V0_BATT" I L 9800 5800 60 
-$EndSheet
-$Sheet
-S 9800 6400 1800 600 
-U 5821913E
-F0 "24 Volt Regulator" 60
-F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 6700 60 
-F3 "37V0_BATT" I L 9800 6700 60 
+F3 "VCC_BATT" I L 9800 5800 49 
 $EndSheet
 $Sheet
 S 9800 7300 1800 600 
@@ -143,7 +127,7 @@ U 58219142
 F0 "24 Volt Regulator" 60
 F1 "24V_regulator.sch" 60
 F2 "24V0_REG" I R 11600 7600 60 
-F3 "37V0_BATT" I L 9800 7600 60 
+F3 "VCC_BATT" I L 9800 7600 49 
 $EndSheet
 Text Notes 9350 8600 0    118  ~ 24
 5V Regulator\n
@@ -152,8 +136,8 @@ S 9050 9000 1800 600
 U 5821AC51
 F0 "5 Volt Regulator" 60
 F1 "5V_regulator.sch" 60
-F2 "37V0_BATT" I L 9050 9300 60 
-F3 "5V0_REG" I R 10850 9300 60 
+F2 "5V0_REG" I R 10850 9300 60 
+F3 "VCC_BATT" I L 9050 9300 49 
 $EndSheet
 $Comp
 L CONN_01X08 J101
@@ -169,25 +153,19 @@ $EndComp
 Text Notes 600  700  0    118  ~ 24
 Battery interface
 Wire Wire Line
-	1150 1600 2150 1600
-Wire Wire Line
-	1150 1900 1350 1900
+	1150 1900 1450 1900
 Connection ~ 1350 1900
 Wire Wire Line
 	1150 1800 1350 1800
-Connection ~ 1350 1800
 Wire Wire Line
-	1150 1700 1350 1700
+	1150 1700 1600 1700
 Connection ~ 1350 1700
 Wire Wire Line
 	1150 1500 1350 1500
 Wire Wire Line
-	1350 1500 1350 1200
-Wire Wire Line
 	1150 1300 1350 1300
-Connection ~ 1350 1300
 Wire Wire Line
-	1150 1400 1350 1400
+	1150 1400 2150 1400
 Connection ~ 1350 1400
 Connection ~ 1350 1200
 $Sheet
@@ -195,16 +173,13 @@ S 2150 1000 1800 950
 U 582298AB
 F0 "Battery Protection" 49
 F1 "BattProtect.sch" 49
-F2 "GND_BATT" I L 2150 1600 49 
-F3 "37V0_BATT" I L 2150 1200 49 
-F4 "37V0_COMB" O R 3950 1300 49 
-F5 "GND_COMB" O R 3950 1700 49 
+F2 "GND_BATT" I L 2150 1400 49 
+F3 "GND_COMB" O R 3950 1700 49 
+F4 "VCC_BATT" I L 2150 1200 49 
+F5 "VCC_BATT_COMB" O R 3950 1300 49 
 $EndSheet
 Wire Wire Line
 	1150 1200 2150 1200
-Wire Wire Line
-	1350 1900 1350 1600
-Connection ~ 1350 1600
 Wire Wire Line
 	3950 1700 4200 1700
 Wire Wire Line
@@ -232,42 +207,23 @@ F 3 "" H 950 2950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 3000 2150 3000
-Wire Wire Line
-	1150 3300 1350 3300
+	1150 3300 1600 3300
 Connection ~ 1350 3300
 Wire Wire Line
 	1150 3200 1350 3200
-Connection ~ 1350 3200
 Wire Wire Line
-	1150 3100 1350 3100
+	1150 3100 1450 3100
 Connection ~ 1350 3100
 Wire Wire Line
 	1150 2900 1350 2900
 Wire Wire Line
-	1350 2900 1350 2600
-Wire Wire Line
 	1150 2700 1350 2700
-Connection ~ 1350 2700
 Wire Wire Line
-	1150 2800 1350 2800
+	1150 2800 2150 2800
 Connection ~ 1350 2800
 Connection ~ 1350 2600
-$Sheet
-S 2150 2400 1800 950 
-U 5822D438
-F0 "Battery Protection" 49
-F1 "BattProtect.sch" 49
-F2 "GND_BATT" I L 2150 3000 49 
-F3 "37V0_BATT" I L 2150 2600 49 
-F4 "37V0_COMB" O R 3950 2700 49 
-F5 "GND_COMB" O R 3950 3100 49 
-$EndSheet
 Wire Wire Line
 	1150 2600 2150 2600
-Wire Wire Line
-	1350 3300 1350 3000
-Connection ~ 1350 3000
 Wire Wire Line
 	3950 3100 4200 3100
 Wire Wire Line
@@ -295,25 +251,19 @@ F 3 "" H 950 4300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 4350 2150 4350
-Wire Wire Line
-	1150 4650 1350 4650
+	1150 4650 1600 4650
 Connection ~ 1350 4650
 Wire Wire Line
 	1150 4550 1350 4550
-Connection ~ 1350 4550
 Wire Wire Line
-	1150 4450 1350 4450
+	1150 4450 1450 4450
 Connection ~ 1350 4450
 Wire Wire Line
 	1150 4250 1350 4250
 Wire Wire Line
-	1350 4250 1350 3950
-Wire Wire Line
 	1150 4050 1350 4050
-Connection ~ 1350 4050
 Wire Wire Line
-	1150 4150 1350 4150
+	1150 4150 2150 4150
 Connection ~ 1350 4150
 Connection ~ 1350 3950
 $Sheet
@@ -321,16 +271,13 @@ S 2150 3750 1800 950
 U 5822D76D
 F0 "Battery Protection" 49
 F1 "BattProtect.sch" 49
-F2 "GND_BATT" I L 2150 4350 49 
-F3 "37V0_BATT" I L 2150 3950 49 
-F4 "37V0_COMB" O R 3950 4050 49 
-F5 "GND_COMB" O R 3950 4450 49 
+F2 "GND_BATT" I L 2150 4150 49 
+F3 "GND_COMB" O R 3950 4450 49 
+F4 "VCC_BATT" I L 2150 3950 49 
+F5 "VCC_BATT_COMB" O R 3950 4050 49 
 $EndSheet
 Wire Wire Line
 	1150 3950 2150 3950
-Wire Wire Line
-	1350 4650 1350 4350
-Connection ~ 1350 4350
 Wire Wire Line
 	3950 4450 4200 4450
 Wire Wire Line
@@ -346,17 +293,17 @@ F 3 "" H 4200 4750 60  0000 C CNN
 	1    4200 4750
 	1    0    0    -1  
 $EndComp
-Text Label 1950 1200 2    49   ~ 0
-37V0_BATT1
-Text Label 1950 1600 2    49   ~ 0
+Text Label 2100 1200 2    49   ~ 0
+VCC_BATT1
+Text Label 2100 1400 2    49   ~ 0
 GND_BATT1
-Text Label 1950 2600 2    49   ~ 0
-37V0_BATT2
-Text Label 1950 3000 2    49   ~ 0
+Text Label 2100 2600 2    49   ~ 0
+VCC_BATT2
+Text Label 2100 2800 2    49   ~ 0
 GND_BATT2
-Text Label 1950 3950 2    49   ~ 0
-37V0_BATT3
-Text Label 1950 4350 2    49   ~ 0
+Text Label 2100 3950 2    49   ~ 0
+VCC_BATT3
+Text Label 2100 4150 2    49   ~ 0
 GND_BATT3
 Wire Wire Line
 	3950 1300 9800 1300
@@ -369,7 +316,7 @@ Wire Wire Line
 	4800 4050 3950 4050
 Connection ~ 4800 2700
 Text Label 5600 1300 2    49   ~ 0
-37V0_BATT_COMB
+VCC_BATT_COMB
 Wire Wire Line
 	9350 2200 9800 2200
 Connection ~ 9350 1300
@@ -888,4 +835,142 @@ Wire Wire Line
 	8650 7600 8650 9300
 Wire Wire Line
 	8650 9300 9050 9300
+$Comp
+L CONN_01X08 J105
+U 1 1 5824172E
+P 950 8300
+F 0 "J105" H 950 8750 50  0000 C CNN
+F 1 "CONN_01X08" H 1050 8300 50  0001 C CNN
+F 2 "" H 950 8300 60  0000 C CNN
+F 3 "" H 950 8300 60  0000 C CNN
+	1    950  8300
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 2150 2400 1800 950 
+U 5822D438
+F0 "Battery Protection" 49
+F1 "BattProtect.sch" 49
+F2 "GND_BATT" I L 2150 2800 49 
+F3 "GND_COMB" O R 3950 3100 49 
+F4 "VCC_BATT" I L 2150 2600 49 
+F5 "VCC_BATT_COMB" O R 3950 2700 49 
+$EndSheet
+$Sheet
+S 9800 2800 1800 600 
+U 58218996
+F0 "24 Volt Regulator" 60
+F1 "24V_regulator.sch" 60
+F2 "24V0_REG" I R 11600 3100 60 
+F3 "VCC_BATT" I L 9800 3100 49 
+$EndSheet
+$Sheet
+S 9800 6400 1800 600 
+U 5821913E
+F0 "24 Volt Regulator" 60
+F1 "24V_regulator.sch" 60
+F2 "24V0_REG" I R 11600 6700 60 
+F3 "VCC_BATT" I L 9800 6700 49 
+$EndSheet
+Text Notes 6100 1050 0    49   ~ 0
+VCC_BATT varies between 42V at max charge\nand 28V at max discharge
+Wire Wire Line
+	1350 1500 1350 1400
+Wire Wire Line
+	1350 1300 1350 1200
+Wire Wire Line
+	1350 2900 1350 2800
+Wire Wire Line
+	1350 2700 1350 2600
+Wire Wire Line
+	1350 4050 1350 3950
+Wire Wire Line
+	1350 4250 1350 4150
+$Comp
+L CONN_01X04 J104
+U 1 1 582A5D5D
+P 950 5600
+F 0 "J104" H 950 5850 50  0000 C CNN
+F 1 "CONN_01X04" V 1150 5550 50  0001 C CNN
+F 2 "" H 950 5600 60  0000 C CNN
+F 3 "" H 950 5600 60  0000 C CNN
+	1    950  5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1600 1350 1600
+Wire Wire Line
+	1350 1600 1350 1700
+Wire Wire Line
+	1350 1800 1350 1900
+Wire Wire Line
+	1450 1900 1450 8250
+Wire Wire Line
+	1450 8250 1150 8250
+Wire Wire Line
+	1150 7950 1250 7950
+Wire Wire Line
+	1250 7950 1250 8250
+Connection ~ 1250 8250
+Wire Wire Line
+	1150 8150 1250 8150
+Connection ~ 1250 8150
+Wire Wire Line
+	1150 8050 1250 8050
+Connection ~ 1250 8050
+Wire Wire Line
+	1150 8350 1600 8350
+Wire Wire Line
+	1600 8350 1600 1700
+Wire Wire Line
+	1150 3000 1350 3000
+Wire Wire Line
+	1350 3000 1350 3100
+Connection ~ 1450 3100
+Wire Wire Line
+	1350 3200 1350 3300
+Connection ~ 1600 3300
+Wire Wire Line
+	1150 4350 1350 4350
+Wire Wire Line
+	1350 4350 1350 4450
+Connection ~ 1450 4450
+Wire Wire Line
+	1350 4550 1350 4650
+Connection ~ 1600 4650
+Wire Wire Line
+	1150 5450 1350 5450
+Wire Wire Line
+	1350 5450 1350 5550
+Wire Wire Line
+	1150 5550 1450 5550
+Connection ~ 1450 5550
+Connection ~ 1350 5550
+Wire Wire Line
+	1150 5650 1350 5650
+Wire Wire Line
+	1350 5650 1350 5750
+Wire Wire Line
+	1150 5750 1600 5750
+Connection ~ 1600 5750
+Connection ~ 1350 5750
+Text Label 1450 6700 1    60   ~ 0
+48V0_FROM_LINE
+Text Label 1600 6700 1    60   ~ 0
+GND_FROM_LINE
+Wire Wire Line
+	1250 8350 1250 8650
+Wire Wire Line
+	1250 8650 1150 8650
+Connection ~ 1250 8350
+Wire Wire Line
+	1150 8450 1250 8450
+Connection ~ 1250 8450
+Wire Wire Line
+	1150 8550 1250 8550
+Connection ~ 1250 8550
+Text Notes 550  5250 0    60   ~ 0
+Connector to\nemergency battery
+Text Notes 1450 8700 0    60   ~ 0
+Connector to AC/DC\nconverter
 $EndSCHEMATC

@@ -69,7 +69,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 10 13
+Sheet 8 13
 Title "Main Power Board"
 Date ""
 Rev "1"
@@ -358,8 +358,6 @@ Wire Wire Line
 Connection ~ 5300 3750
 Text HLabel 7650 3750 2    60   Input ~ 0
 5V0_REG
-Text HLabel 2550 3550 0    60   Input ~ 0
-37V0_BATT
 $Comp
 L C C104
 U 1 1 58215C01
@@ -392,4 +390,6 @@ F 6 "399-6128-ND" H 6800 4100 60  0001 C CNN "DigiKey PN"
 	1    6800 4100
 	1    0    0    -1  
 $EndComp
+Text HLabel 2550 3550 0    60   Input ~ 0
+VCC_BATT
 $EndSCHEMATC

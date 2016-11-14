@@ -79,79 +79,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L R R101
-U 1 1 5822B807
-P 2850 1800
-AR Path="/582298AB/5822B807" Ref="R101"  Part="1" 
-AR Path="/5822D438/5822B807" Ref="R101"  Part="1" 
-F 0 "R101" H 3050 1900 50  0000 C CNN
-F 1 "TBD" H 3000 1700 50  0000 C CNN
-F 2 "" V 2780 1800 30  0000 C CNN
-F 3 "" H 2850 1800 30  0000 C CNN
-	1    2850 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 1550 2850 1500
-Connection ~ 2850 1500
-Wire Wire Line
-	2850 2050 2850 2800
-Wire Wire Line
-	2850 2150 3550 2150
-Connection ~ 2850 2150
-$Comp
-L ZENER DZ101
-U 1 1 5822B813
-P 2850 3000
-AR Path="/582298AB/5822B813" Ref="DZ101"  Part="1" 
-AR Path="/5822D438/5822B813" Ref="DZ101"  Part="1" 
-F 0 "DZ101" V 2750 2800 50  0000 C CNN
-F 1 "TBD" V 2950 2850 50  0000 C CNN
-F 2 "" H 2850 3000 60  0000 C CNN
-F 3 "" H 2850 3000 60  0000 C CNN
-	1    2850 3000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3550 2150 3550 2250
-$Comp
-L R R102
-U 1 1 5822B81B
-P 3550 2500
-AR Path="/582298AB/5822B81B" Ref="R102"  Part="1" 
-AR Path="/5822D438/5822B81B" Ref="R102"  Part="1" 
-F 0 "R102" H 3750 2600 50  0000 C CNN
-F 1 "TBD" H 3700 2400 50  0000 C CNN
-F 2 "" V 3480 2500 30  0000 C CNN
-F 3 "" H 3550 2500 30  0000 C CNN
-	1    3550 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D101
-U 1 1 5822B822
-P 3550 3200
-AR Path="/582298AB/5822B822" Ref="D101"  Part="1" 
-AR Path="/5822D438/5822B822" Ref="D101"  Part="1" 
-F 0 "D101" V 3600 3350 50  0000 C CNN
-F 1 "LED" V 3450 3350 50  0000 C CNN
-F 2 "" H 3550 3200 60  0000 C CNN
-F 3 "" H 3550 3200 60  0000 C CNN
-	1    3550 3200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3550 2750 3550 3000
-Wire Wire Line
-	2850 3200 2850 3550
-Wire Wire Line
-	3550 3400 3550 3550
 Wire Wire Line
 	2150 3550 4050 3550
-Connection ~ 2850 3550
-Text Notes 3800 2900 0    49   ~ 0
-This is bad.\nDesign a better ckt.\nUse a BJT or FET or something.
 $Comp
 L FUSE F101
 U 1 1 5822B82F
@@ -178,7 +107,6 @@ F 3 "" H 4300 3550 60  0000 C CNN
 	1    4300 3550
 	1    0    0    -1  
 $EndComp
-Connection ~ 3550 3550
 Text Label 2250 3550 0    49   ~ 0
 GND_BATT
 Text Label 2300 1500 0    49   ~ 0
@@ -226,9 +154,9 @@ Wire Wire Line
 Text HLabel 2150 3550 0    49   Input ~ 0
 GND_BATT
 Text HLabel 2150 1500 0    49   Input ~ 0
-37V0_BATT
+VCC_BATT
 Text HLabel 6150 1500 2    49   Output ~ 0
-37V0_COMB
+VCC_BATT_COMB
 Text HLabel 6150 3550 2    49   Output ~ 0
 GND_COMB
 $EndSCHEMATC
