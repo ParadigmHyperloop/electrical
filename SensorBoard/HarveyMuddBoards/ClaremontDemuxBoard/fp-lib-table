@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name DUMUXSTUFF)(type KiCad)(uri "$(KIPRJMOD)/DUMUXSTUFF.pretty")(options "")(descr ""))
-)

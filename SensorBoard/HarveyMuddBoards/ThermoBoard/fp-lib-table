@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name SMAnew)(type KiCad)(uri "$(KIPRJMOD)/SMAnew.pretty")(options "")(descr ""))
-)
