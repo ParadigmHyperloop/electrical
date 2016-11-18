@@ -938,19 +938,6 @@ Connection ~ 14600 8400
 Connection ~ 14600 8100
 Wire Wire Line
 	2600 5750 2850 5750
-Wire Wire Line
-	2850 5750 2850 5950
-$Comp
-L GND #PWR?
-U 1 1 5830278C
-P 2850 5950
-F 0 "#PWR?" H 2850 5700 60  0001 C CNN
-F 1 "GND" H 2850 5800 60  0000 C CNN
-F 2 "" H 2850 5950 60  0000 C CNN
-F 3 "" H 2850 5950 60  0000 C CNN
-	1    2850 5950
-	1    0    0    -1  
-$EndComp
 Text Notes 2300 5250 0    60   ~ 0
 Connector to\nemergency battery\nfor measuring system voltage\nand setting system off
 Wire Wire Line
@@ -982,6 +969,7 @@ F2 "SYS_GND_SWITCHED" O R 7950 2500 60
 F3 "COMB_GND" I L 6150 2500 60 
 F4 "STATE" O R 7950 2150 60 
 F5 "VBATT" I L 6150 2100 60 
+F6 "BBB_ONOFF" I L 6150 1900 60 
 $EndSheet
 $Sheet
 S 9800 1900 1800 600 
@@ -1069,4 +1057,31 @@ Wire Wire Line
 	8550 2150 8550 5550
 Wire Wire Line
 	8550 5550 2600 5550
+Wire Wire Line
+	2850 5750 2850 6000
+Wire Wire Line
+	2850 6000 3400 6000
+Text Label 5600 2500 0    60   ~ 0
+COMB_GND
+Text Label 2950 6000 0    60   ~ 0
+COMB_GND
+Wire Wire Line
+	6150 1900 5550 1900
+Wire Wire Line
+	5550 1900 5550 4600
+Wire Wire Line
+	5550 4600 5200 4600
+$Comp
+L CONN_01X01 J107
+U 1 1 582FB838
+P 5000 4600
+F 0 "J107" H 5000 4700 50  0000 C CNN
+F 1 "CONN_01X01" V 5100 4600 50  0001 C CNN
+F 2 "" H 5000 4600 60  0000 C CNN
+F 3 "" H 5000 4600 60  0000 C CNN
+	1    5000 4600
+	-1   0    0    -1  
+$EndComp
+Text Notes 4350 4850 0    60   ~ 0
+Signal wire from BBB to turn off pod
 $EndSCHEMATC
