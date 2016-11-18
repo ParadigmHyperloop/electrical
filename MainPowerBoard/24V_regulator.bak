@@ -66,6 +66,7 @@ LIBS:video
 LIBS:xilinx
 LIBS:cd4013b_cmos_d-type_flip-flop
 LIBS:74aup1t34
+LIBS:ltc2954-1
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END

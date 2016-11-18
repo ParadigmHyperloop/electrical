@@ -66,6 +66,7 @@ LIBS:video
 LIBS:xilinx
 LIBS:cd4013b_cmos_d-type_flip-flop
 LIBS:74aup1t34
+LIBS:ltc2954-1
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END
@@ -750,11 +751,12 @@ F0 "On-Off Switch" 60
 F1 "OnOffSwitch.sch" 60
 F2 "SYS_GND_SWITCHED" O R 7950 2500 60 
 F3 "COMB_GND" I L 6150 2500 60 
-F4 "STATE" O R 7950 2300 60 
+F4 "STATE" O R 7950 2350 60 
 F5 "VBATT" I L 6150 2100 60 
 F6 "BBB_ONOFF" I L 6150 1900 60 
 F7 "SW_HI" O R 7950 1900 60 
 F8 "SW_LO" I R 7950 2050 60 
+F9 "BBB_INT" O R 7950 2200 60 
 $EndSheet
 $Sheet
 S 9800 1900 1800 600 
@@ -848,16 +850,8 @@ Text Label 2950 6000 0    60   ~ 0
 COMB_GND
 Wire Wire Line
 	6150 1900 5550 1900
-Wire Wire Line
-	5550 1900 5550 4700
-Wire Wire Line
-	5550 4600 5200 4600
-Text Notes 4850 5200 0    60   ~ 0
-Pins 1,2: Signal wire from BBB to turn off pod\nPins 3,4: Connector for external switch
-Wire Wire Line
-	8550 5550 8550 2300
-Wire Wire Line
-	8550 2300 7950 2300
+Text Notes 4800 5400 0    60   ~ 0
+Pins 1,2: Signal wire from BBB to turn off pod\nPin 3: Interrupt for BBB to announce shutdown\nPin 4: NC\nPins 5,6: Connector for external switch
 Wire Wire Line
 	8800 2050 8800 4800
 Wire Wire Line
@@ -866,11 +860,6 @@ Wire Wire Line
 	7950 1900 8950 1900
 Wire Wire Line
 	8950 1900 8950 4900
-Text Notes 6300 3900 0    60   ~ 0
-Connector for external switch
-Wire Wire Line
-	5550 4700 5200 4700
-Connection ~ 5550 4600
 $Comp
 L CONN_01X04 J106
 U 1 1 582F8CA3
@@ -1152,24 +1141,39 @@ F 6 "277-1844-ND" H 15050 2150 60  0001 C CNN "DigiKey PN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2600 5850
-$Comp
-L CONN_01X04 J107
-U 1 1 582FE43F
-P 5000 4750
-F 0 "J107" H 5000 5000 50  0000 C CNN
-F 1 "CONN_01X04" V 5200 4700 50  0001 C CNN
-F 2 "" H 5000 4750 60  0000 C CNN
-F 3 "" H 5000 4750 60  0000 C CNN
-F 4 "Phoenix" H 5000 4750 60  0001 C CNN "Mfg."
-F 5 "1998959" H 5000 4750 60  0001 C CNN "Mfg. PN"
-F 6 "277-1846-ND" H 5000 4750 60  0001 C CNN "DigiKey PN"
-	1    5000 4750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	8800 4800 5200 4800
 Wire Wire Line
 	8950 4900 5200 4900
 Text Notes 2350 6300 0    60   ~ 0
 Signal connectors may not use expensive/high power Phoenix parts,\nbut we will choose one with same footprint if not
+Wire Wire Line
+	8550 5550 8550 2350
+Wire Wire Line
+	8550 2350 7950 2350
+Wire Wire Line
+	7950 2200 8650 2200
+$Comp
+L CONN_01X06 J107
+U 1 1 58301BDD
+P 5000 4650
+F 0 "J107" H 5000 5000 50  0000 C CNN
+F 1 "CONN_01X06" V 5100 4650 50  0001 C CNN
+F 2 "" H 5000 4650 60  0000 C CNN
+F 3 "" H 5000 4650 60  0000 C CNN
+	1    5000 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2200 8650 4600
+Wire Wire Line
+	8650 4600 5200 4600
+Wire Wire Line
+	5550 1900 5550 4500
+Wire Wire Line
+	5550 4400 5200 4400
+Wire Wire Line
+	5550 4500 5200 4500
+Connection ~ 5550 4400
+NoConn ~ 5200 4700
 $EndSCHEMATC
