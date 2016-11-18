@@ -64,12 +64,14 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xilinx
+LIBS:cd4013b_cmos_d-type_flip-flop
+LIBS:74aup1t34
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 9 13
+Sheet 4 14
 Title ""
 Date ""
 Rev ""

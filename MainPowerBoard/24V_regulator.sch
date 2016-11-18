@@ -64,12 +64,14 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xilinx
+LIBS:cd4013b_cmos_d-type_flip-flop
+LIBS:74aup1t34
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 13
+Sheet 2 14
 Title "Main Power Board"
 Date ""
 Rev "1"
@@ -354,7 +356,7 @@ $EndComp
 Wire Wire Line
 	5300 3900 5300 3750
 Connection ~ 5300 3750
-Text HLabel 7650 3750 2    60   Input ~ 0
+Text HLabel 7650 3750 2    60   Output ~ 0
 24V0_REG
 Text HLabel 2550 3550 0    60   Input ~ 0
 VCC_BATT

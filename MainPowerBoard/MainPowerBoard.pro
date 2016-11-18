@@ -1,5 +1,7 @@
-update=Friday, November 18, 2016 'AMt' 01:18:45 AM
+update=Friday, November 18, 2016 'AMt' 04:20:33 AM
 last_client=kicad
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -69,5 +71,5 @@ LibName62=ttl_ieee
 LibName63=valves
 LibName64=video
 LibName65=xilinx
-[general]
-version=1
+LibName66=cd4013b_cmos_d-type_flip-flop
+LibName67=74aup1t34

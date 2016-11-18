@@ -64,12 +64,14 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xilinx
+LIBS:cd4013b_cmos_d-type_flip-flop
+LIBS:74aup1t34
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title "Main Power Board"
 Date ""
 Rev "1"
@@ -84,51 +86,11 @@ S 9800 1000 1800 600
 U 582171B3
 F0 "24 Volt Regulator" 60
 F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 1300 60 
-F3 "VCC_BATT" I L 9800 1300 49 
+F2 "VCC_BATT" I L 9800 1300 49 
+F3 "24V0_REG" O R 11600 1300 60 
 $EndSheet
 Text Notes 10000 750  0    118  ~ 24
 24V Regulators
-$Sheet
-S 9800 1900 1800 600 
-U 58218776
-F0 "24 Volt Regulator" 60
-F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 2200 60 
-F3 "VCC_BATT" I L 9800 2200 49 
-$EndSheet
-$Sheet
-S 9800 3700 1800 600 
-U 5821899A
-F0 "24 Volt Regulator" 60
-F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 4000 60 
-F3 "VCC_BATT" I L 9800 4000 49 
-$EndSheet
-$Sheet
-S 9800 4600 1800 600 
-U 58219136
-F0 "24 Volt Regulator" 60
-F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 4900 60 
-F3 "VCC_BATT" I L 9800 4900 49 
-$EndSheet
-$Sheet
-S 9800 5500 1800 600 
-U 5821913A
-F0 "24 Volt Regulator" 60
-F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 5800 60 
-F3 "VCC_BATT" I L 9800 5800 49 
-$EndSheet
-$Sheet
-S 9800 7300 1800 600 
-U 58219142
-F0 "24 Volt Regulator" 60
-F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 7600 60 
-F3 "VCC_BATT" I L 9800 7600 49 
-$EndSheet
 Text Notes 9350 8600 0    118  ~ 24
 5V Regulator\n
 $Sheet
@@ -136,8 +98,8 @@ S 9050 9000 1800 600
 U 5821AC51
 F0 "5 Volt Regulator" 60
 F1 "5V_regulator.sch" 60
-F2 "5V0_REG" I R 10850 9300 60 
-F3 "VCC_BATT" I L 9050 9300 49 
+F2 "VCC_BATT" I L 9050 9300 49 
+F3 "5V0_REG" O R 10850 9300 60 
 $EndSheet
 $Comp
 L CONN_01X08 J101
@@ -184,20 +146,7 @@ $EndSheet
 Wire Wire Line
 	1150 1200 2150 1200
 Wire Wire Line
-	3950 1700 4200 1700
-Wire Wire Line
-	4200 1700 4200 2000
-$Comp
-L GND #PWR?
-U 1 1 5822D0DA
-P 4200 2000
-F 0 "#PWR?" H 4200 1750 60  0001 C CNN
-F 1 "GND" H 4200 1850 60  0000 C CNN
-F 2 "" H 4200 2000 60  0000 C CNN
-F 3 "" H 4200 2000 60  0000 C CNN
-	1    4200 2000
-	1    0    0    -1  
-$EndComp
+	3950 1700 4350 1700
 Wire Wire Line
 	1150 3300 1600 3300
 Connection ~ 1350 3300
@@ -217,20 +166,7 @@ Connection ~ 1350 2600
 Wire Wire Line
 	1150 2600 2150 2600
 Wire Wire Line
-	3950 3100 4200 3100
-Wire Wire Line
-	4200 3100 4200 3400
-$Comp
-L GND #PWR?
-U 1 1 5822D443
-P 4200 3400
-F 0 "#PWR?" H 4200 3150 60  0001 C CNN
-F 1 "GND" H 4200 3250 60  0000 C CNN
-F 2 "" H 4200 3400 60  0000 C CNN
-F 3 "" H 4200 3400 60  0000 C CNN
-	1    4200 3400
-	1    0    0    -1  
-$EndComp
+	3950 3100 4350 3100
 Wire Wire Line
 	1150 4650 1600 4650
 Connection ~ 1350 4650
@@ -260,20 +196,7 @@ $EndSheet
 Wire Wire Line
 	1150 3950 2150 3950
 Wire Wire Line
-	3950 4450 4200 4450
-Wire Wire Line
-	4200 4450 4200 4750
-$Comp
-L GND #PWR?
-U 1 1 5822D778
-P 4200 4750
-F 0 "#PWR?" H 4200 4500 60  0001 C CNN
-F 1 "GND" H 4200 4600 60  0000 C CNN
-F 2 "" H 4200 4750 60  0000 C CNN
-F 3 "" H 4200 4750 60  0000 C CNN
-	1    4200 4750
-	1    0    0    -1  
-$EndComp
+	3950 4450 4350 4450
 Text Label 2100 1200 2    49   ~ 0
 VCC_BATT1
 Text Label 2100 1400 2    49   ~ 0
@@ -292,8 +215,6 @@ Connection ~ 4800 1300
 Wire Wire Line
 	4800 4050 3950 4050
 Connection ~ 4800 2700
-Text Label 5600 1300 2    49   ~ 0
-VCC_BATT_COMB_PRE
 Wire Wire Line
 	9350 2200 9800 2200
 Connection ~ 9350 1300
@@ -404,22 +325,6 @@ F2 "GND_BATT" I L 2150 2800 49
 F3 "GND_COMB" O R 3950 3100 49 
 F4 "VCC_BATT" I L 2150 2600 49 
 F5 "VCC_BATT_COMB" O R 3950 2700 49 
-$EndSheet
-$Sheet
-S 9800 2800 1800 600 
-U 58218996
-F0 "24 Volt Regulator" 60
-F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 3100 60 
-F3 "VCC_BATT" I L 9800 3100 49 
-$EndSheet
-$Sheet
-S 9800 6400 1800 600 
-U 5821913E
-F0 "24 Volt Regulator" 60
-F1 "24V_regulator.sch" 60
-F2 "24V0_REG" I R 11600 6700 60 
-F3 "VCC_BATT" I L 9800 6700 49 
 $EndSheet
 Text Notes 6150 750  0    49   ~ 0
 VCC_BATT varies between 42V at max charge\nand 28V at max discharge
@@ -1031,17 +936,6 @@ Wire Wire Line
 	14600 8700 14850 8700
 Connection ~ 14600 8400
 Connection ~ 14600 8100
-$Comp
-L CONN_01X02 J106
-U 1 1 582FE76B
-P 2400 5700
-F 0 "J106" H 2400 5850 50  0000 C CNN
-F 1 "CONN_01X02" V 2500 5700 50  0001 C CNN
-F 2 "" H 2400 5700 60  0000 C CNN
-F 3 "" H 2400 5700 60  0000 C CNN
-	1    2400 5700
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 5750 2850 5750
 Wire Wire Line
@@ -1057,14 +951,122 @@ F 3 "" H 2850 5950 60  0000 C CNN
 	1    2850 5950
 	1    0    0    -1  
 $EndComp
-Text Notes 2300 5400 0    60   ~ 0
-Connector to\nemergency battery\nfor measuring system voltage
+Text Notes 2300 5250 0    60   ~ 0
+Connector to\nemergency battery\nfor measuring system voltage\nand setting system off
 Wire Wire Line
 	4800 4050 4800 1300
 Wire Wire Line
-	3950 1300 6000 1300
-Wire Wire Line
-	9800 1300 8050 1300
+	3950 1300 9800 1300
 Text Label 9000 1300 2    49   ~ 0
 VCC_BATT_COMB
+Wire Wire Line
+	2600 5650 9350 5650
+Connection ~ 9350 5650
+$Comp
+L CONN_01X03 J106
+U 1 1 582EAD3D
+P 2400 5650
+F 0 "J106" H 2400 5850 50  0000 C CNN
+F 1 "CONN_01X03" V 2500 5650 50  0001 C CNN
+F 2 "" H 2400 5650 60  0000 C CNN
+F 3 "" H 2400 5650 60  0000 C CNN
+	1    2400 5650
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 6150 1750 1800 900 
+U 582EB20F
+F0 "On-Off Switch" 60
+F1 "OnOffSwitch.sch" 60
+F2 "SYS_GND_SWITCHED" O R 7950 2500 60 
+F3 "COMB_GND" I L 6150 2500 60 
+F4 "STATE" O R 7950 2150 60 
+F5 "VBATT" I L 6150 2100 60 
+$EndSheet
+$Sheet
+S 9800 1900 1800 600 
+U 582EC038
+F0 "24 Volt Regulator" 60
+F1 "24V_regulator.sch" 60
+F2 "VCC_BATT" I L 9800 2200 49 
+F3 "24V0_REG" O R 11600 2200 60 
+$EndSheet
+$Sheet
+S 9800 2800 1800 600 
+U 582EC16E
+F0 "24 Volt Regulator" 60
+F1 "24V_regulator.sch" 60
+F2 "VCC_BATT" I L 9800 3100 49 
+F3 "24V0_REG" O R 11600 3100 60 
+$EndSheet
+$Sheet
+S 9800 3700 1800 600 
+U 582EC573
+F0 "24 Volt Regulator" 60
+F1 "24V_regulator.sch" 60
+F2 "VCC_BATT" I L 9800 4000 49 
+F3 "24V0_REG" O R 11600 4000 60 
+$EndSheet
+$Sheet
+S 9800 4600 1800 600 
+U 582EC577
+F0 "24 Volt Regulator" 60
+F1 "24V_regulator.sch" 60
+F2 "VCC_BATT" I L 9800 4900 49 
+F3 "24V0_REG" O R 11600 4900 60 
+$EndSheet
+$Sheet
+S 9800 5500 1800 600 
+U 582EC57B
+F0 "24 Volt Regulator" 60
+F1 "24V_regulator.sch" 60
+F2 "VCC_BATT" I L 9800 5800 49 
+F3 "24V0_REG" O R 11600 5800 60 
+$EndSheet
+$Sheet
+S 9800 6400 1800 600 
+U 582EC771
+F0 "24 Volt Regulator" 60
+F1 "24V_regulator.sch" 60
+F2 "VCC_BATT" I L 9800 6700 49 
+F3 "24V0_REG" O R 11600 6700 60 
+$EndSheet
+$Sheet
+S 9800 7300 1800 600 
+U 582EC775
+F0 "24 Volt Regulator" 60
+F1 "24V_regulator.sch" 60
+F2 "VCC_BATT" I L 9800 7600 49 
+F3 "24V0_REG" O R 11600 7600 60 
+$EndSheet
+Wire Wire Line
+	4350 4450 4350 1700
+Connection ~ 4350 3100
+Wire Wire Line
+	6150 2500 4350 2500
+Connection ~ 4350 2500
+Wire Wire Line
+	7950 2500 8150 2500
+Wire Wire Line
+	8150 2500 8150 2800
+$Comp
+L GND #PWR?
+U 1 1 582EE298
+P 8150 2800
+F 0 "#PWR?" H 8150 2550 60  0001 C CNN
+F 1 "GND" H 8150 2650 60  0000 C CNN
+F 2 "" H 8150 2800 60  0000 C CNN
+F 3 "" H 8150 2800 60  0000 C CNN
+	1    8150 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2100 4800 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	7950 2150 8550 2150
+Wire Wire Line
+	8550 2150 8550 5550
+Wire Wire Line
+	8550 5550 2600 5550
 $EndSCHEMATC
