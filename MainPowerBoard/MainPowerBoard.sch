@@ -773,12 +773,10 @@ Wire Wire Line
 	14700 8400 14850 8400
 Wire Wire Line
 	13500 7600 13500 8100
-Text Notes 15200 1200 0    49   ~ 0
-24V0_REG1 - REG6\ngo to skate solenoid/MPYE pairs.\nPrimary brake solenoids also\ndistributed among these (TBD)
 Text Notes 15200 7500 0    49   ~ 0
-REG7\ndedicated to e-brake solenoids\nand high pressure solenoid
-Text Notes 15250 8500 0    49   ~ 0
-REG_8\ndedicated to IMU and NAP
+24V0_REG7\nIMU (center)\nNAP (rear left)
+Text Notes 15250 8600 0    49   ~ 0
+24V0_REG8\nFront e-brake (relay panel)\nRear e-brake (relay panel)\nHigh pressure bleed valve\n(relay panel)
 Text Notes 11950 8600 0    79   ~ 16
 NEED TO FINALIZE CONNECTOR DIVISION
 $Comp
@@ -973,4 +971,16 @@ Text Notes 550  5250 0    60   ~ 0
 Connector to\nemergency battery
 Text Notes 1450 8700 0    60   ~ 0
 Connector to AC/DC\nconverter
+Text Notes 15200 1250 0    49   ~ 0
+24V0_REG1\nFront Left MPYE\nFront left solenoid (relay panel)\nFront brake solenoid (relay panel)
+Text Notes 15200 2250 0    49   ~ 0
+24V0_REG2\nFront right MPYE\nFront right solenoid (relay panel)
+Text Notes 15200 4350 0    49   ~ 0
+24V0_REG4\nMid right MPYE\nMid right solenoid (relay panel)
+Text Notes 15200 3300 0    49   ~ 0
+24V0_REG3\nMid Left MPYE\nMid left solenoid (relay panel)\nMid brake solenoid (relay panel)
+Text Notes 15200 6450 0    49   ~ 0
+24V0_REG6\nRear right MPYE\nRear right solenoid (relay panel)
+Text Notes 15200 5400 0    49   ~ 0
+24V0_REG5\nRear Left MPYE\nRear left solenoid (relay panel)\nRear brake solenoid (relay panel)
 $EndSCHEMATC
