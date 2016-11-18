@@ -696,4 +696,16 @@ Text Notes 9300 4350 0    60   ~ 0
 Value TBD - enough to pull down\nwhen BBB is off, but not enough\nto disrupt circuit operation
 Wire Notes Line
 	8950 4450 11200 4450
+Text HLabel 1750 1900 2    60   Output ~ 0
+SW_HI
+Wire Wire Line
+	700  1900 1750 1900
+Text Label 700  1900 0    60   ~ 0
+12V0
+Text HLabel 1050 2100 0    60   Input ~ 0
+SW_LO
+Wire Wire Line
+	1050 2100 2050 2100
+Text Label 1600 2100 0    60   ~ 0
+SW_ONOFF
 $EndSCHEMATC

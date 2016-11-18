@@ -91,6 +91,9 @@ F 0 "U101" H 5700 6850 60  0000 C CNN
 F 1 "CD4013B_CMOS_D-Type_Flip-Flop" H 6000 5800 60  0001 C CNN
 F 2 "" H 6000 6350 60  0000 C CNN
 F 3 "" H 6000 6350 60  0000 C CNN
+F 4 "Texas Instruments" H 6000 6350 60  0001 C CNN "Mfg."
+F 5 "CD4013BE" H 6000 6350 60  0001 C CNN "Mfg. PN"
+F 6 "296-2033-5-ND" H 6000 6350 60  0001 C CNN "DigiKey PN"
 	1    6000 6350
 	1    0    0    -1  
 $EndComp
@@ -229,35 +232,8 @@ Text Label 6950 6050 0    60   ~ 0
 12V0
 Text Notes 5500 7200 0    60   ~ 0
 R103 is feedback resisitor\nMay want this to be a short\nneed to test\n
-$Comp
-L LM1084IS-3.3/NOPB U103
-U 1 1 582EFABB
-P 1400 4650
-F 0 "U103" H 1600 4450 40  0000 C CNN
-F 1 "LM1084IS-3.3/NOPB" H 1100 4850 40  0000 L CNN
-F 2 "TO-263" H 1400 4750 30  0000 C CIN
-F 3 "" H 1400 4650 60  0000 C CNN
-	1    1400 4650
-	1    0    0    -1  
-$EndComp
-Text Notes 1000 4250 0    60   ~ 0
-3.3V Linear Regulator
 Text Label 750  3450 0    60   ~ 0
 VBATT
-Wire Wire Line
-	1000 4600 650  4600
-Text Label 650  4600 0    60   ~ 0
-VBATT
-Wire Wire Line
-	1800 4600 2450 4600
-Text Label 2300 4600 0    60   ~ 0
-3V3
-Wire Wire Line
-	1400 4900 1400 5050
-Wire Wire Line
-	1400 5050 800  5050
-Text Label 800  5050 0    60   ~ 0
-COMB_GND
 Text HLabel 1250 1100 0    60   Input ~ 0
 BBB_ONOFF
 $Comp
@@ -280,9 +256,12 @@ L LM193 U104
 U 1 1 582F4D5D
 P 2700 6250
 F 0 "U104" H 2850 6400 60  0000 C CNN
-F 1 "LM193" H 2900 6050 60  0000 C CNN
+F 1 "LM2903" H 2900 6050 60  0000 C CNN
 F 2 "" H 2700 6250 60  0000 C CNN
 F 3 "" H 2700 6250 60  0000 C CNN
+F 4 "Texas Instruments" H 2700 6250 60  0001 C CNN "Mfg."
+F 5 "LM2903P" H 2700 6250 60  0001 C CNN "Mfg. PN"
+F 6 "296-6601-5-ND" H 2700 6250 60  0001 C CNN "DigiKey PN"
 	1    2700 6250
 	1    0    0    -1  
 $EndComp
@@ -368,7 +347,7 @@ Text Label 1350 6350 0    60   ~ 0
 VREF1
 Connection ~ 3500 6250
 Text Notes 600  2900 0    118  ~ 24
-Voltage Regulators
+Voltage Regulator
 Text Notes 550  700  0    118  ~ 24
 System Input/Output
 Wire Wire Line
@@ -619,17 +598,6 @@ Wire Notes Line
 	2800 500  2800 5150
 Wire Wire Line
 	5200 3600 5200 5050
-$Comp
-L LM193 U104
-U 2 1 582F8160
-P 7650 3700
-F 0 "U104" H 7800 3850 60  0000 C CNN
-F 1 "LM193" H 7850 3500 60  0000 C CNN
-F 2 "" H 7650 3700 60  0000 C CNN
-F 3 "" H 7650 3700 60  0000 C CNN
-	2    7650 3700
-	1    0    0    -1  
-$EndComp
 Text Label 8250 3700 0    49   ~ 0
 ONOFF_BUF_DEB
 Text Notes 6900 5000 0    49   ~ 0
@@ -696,4 +664,30 @@ Text Notes 9300 4350 0    60   ~ 0
 Value TBD - enough to pull down\nwhen BBB is off, but not enough\nto disrupt circuit operation
 Wire Notes Line
 	8950 4450 11200 4450
+Text HLabel 1750 1900 2    60   Output ~ 0
+SW_HI
+Wire Wire Line
+	700  1900 1750 1900
+Text Label 700  1900 0    60   ~ 0
+12V0
+Text HLabel 1050 2100 0    60   Input ~ 0
+SW_LO
+Wire Wire Line
+	1050 2100 2050 2100
+Text Label 1600 2100 0    60   ~ 0
+SW_ONOFF
+$Comp
+L LM193 U104
+U 2 1 583006F5
+P 7650 3700
+F 0 "U104" H 7800 3850 60  0000 C CNN
+F 1 "LM2903" H 7850 3500 60  0000 C CNN
+F 2 "" H 7650 3700 60  0000 C CNN
+F 3 "" H 7650 3700 60  0000 C CNN
+F 4 "Texas Instruments" H 7650 3700 60  0001 C CNN "Mfg."
+F 5 "LM2903P" H 7650 3700 60  0001 C CNN "Mfg. PN"
+F 6 "296-6601-5-ND" H 7650 3700 60  0001 C CNN "DigiKey PN"
+	2    7650 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
