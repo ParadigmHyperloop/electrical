@@ -1,4 +1,4 @@
-update=Friday, November 18, 2016 'PMt' 05:56:33 PM
+update=Sunday, November 20, 2016 'PMt' 06:42:28 PM
 last_client=kicad
 [general]
 version=1
@@ -74,3 +74,4 @@ LibName65=xilinx
 LibName66=cd4013b_cmos_d-type_flip-flop
 LibName67=74aup1t34
 LibName68=ltc2954-1
+LibName69=testpoint

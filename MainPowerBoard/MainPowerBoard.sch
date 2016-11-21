@@ -67,6 +67,7 @@ LIBS:xilinx
 LIBS:cd4013b_cmos_d-type_flip-flop
 LIBS:74aup1t34
 LIBS:ltc2954-1
+LIBS:testpoint
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END
@@ -327,8 +328,8 @@ F3 "GND_COMB" O R 3950 3100 49
 F4 "VCC_BATT" I L 2150 2600 49 
 F5 "VCC_BATT_COMB" O R 3950 2700 49 
 $EndSheet
-Text Notes 6150 750  0    49   ~ 0
-VCC_BATT varies between 42V at max charge\nand 28V at max discharge
+Text Notes 6150 1200 0    49   ~ 0
+VCC_BATT varies between 48V (external power),\n42V at max battery charge level,\nand 28V at max discharge level
 Wire Wire Line
 	1350 1500 1350 1400
 Wire Wire Line
@@ -733,7 +734,7 @@ Connection ~ 14600 8400
 Connection ~ 14600 8100
 Wire Wire Line
 	2600 5750 2850 5750
-Text Notes 2300 5250 0    60   ~ 0
+Text Notes 2000 5250 0    60   ~ 0
 Connector to\nemergency battery\nfor measuring system voltage\nand setting system off
 Wire Wire Line
 	4800 4050 4800 1300
@@ -814,8 +815,6 @@ F1 "24V_regulator.sch" 60
 F2 "VCC_BATT" I L 9800 7600 49 
 F3 "24V0_REG" O R 11600 7600 60 
 $EndSheet
-Wire Wire Line
-	4350 4450 4350 1700
 Connection ~ 4350 3100
 Wire Wire Line
 	6150 2500 4350 2500
@@ -850,7 +849,7 @@ Text Label 2950 6000 0    60   ~ 0
 COMB_GND
 Wire Wire Line
 	6150 1900 5550 1900
-Text Notes 4800 5400 0    60   ~ 0
+Text Notes 5650 4500 0    60   ~ 0
 Pins 1,2: Signal wire from BBB to turn off pod\nPin 3: Interrupt for BBB to announce shutdown\nPin 4: NC\nPins 5,6: Connector for external switch
 Wire Wire Line
 	8800 2050 8800 4800
@@ -1142,12 +1141,6 @@ F 6 "277-1844-ND" H 15050 2150 60  0001 C CNN "DigiKey PN"
 $EndComp
 NoConn ~ 2600 5850
 Wire Wire Line
-	8800 4800 5200 4800
-Wire Wire Line
-	8950 4900 5200 4900
-Text Notes 2350 6300 0    60   ~ 0
-Signal connectors may not use expensive/high power Phoenix parts,\nbut we will choose one with same footprint if not
-Wire Wire Line
 	8550 5550 8550 2350
 Wire Wire Line
 	8550 2350 7950 2350
@@ -1156,24 +1149,183 @@ Wire Wire Line
 $Comp
 L CONN_01X06 J107
 U 1 1 58301BDD
-P 5000 4650
-F 0 "J107" H 5000 5000 50  0000 C CNN
-F 1 "CONN_01X06" V 5100 4650 50  0001 C CNN
-F 2 "" H 5000 4650 60  0000 C CNN
-F 3 "" H 5000 4650 60  0000 C CNN
-	1    5000 4650
+P 5250 4650
+F 0 "J107" H 5250 5000 50  0000 C CNN
+F 1 "CONN_01X06" V 5350 4650 50  0001 C CNN
+F 2 "" H 5250 4650 60  0000 C CNN
+F 3 "" H 5250 4650 60  0000 C CNN
+	1    5250 4650
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	8650 2200 8650 4600
 Wire Wire Line
-	8650 4600 5200 4600
-Wire Wire Line
 	5550 1900 5550 4500
-Wire Wire Line
-	5550 4400 5200 4400
-Wire Wire Line
-	5550 4500 5200 4500
 Connection ~ 5550 4400
-NoConn ~ 5200 4700
+$Comp
+L Testpoint TP101
+U 1 1 58327A43
+P 5500 1000
+F 0 "TP101" V 5550 1400 60  0000 C CNN
+F 1 "Testpoint" H 5550 1000 60  0001 C CNN
+F 2 "" H 5500 1000 60  0000 C CNN
+F 3 "" H 5500 1000 60  0000 C CNN
+	1    5500 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 1200 5350 1300
+Connection ~ 5350 1300
+Wire Wire Line
+	6800 8600 7100 8600
+Connection ~ 4350 4450
+$Comp
+L Testpoint TP114
+U 1 1 583299A3
+P 6600 8450
+F 0 "TP114" H 6900 8600 60  0000 C CNN
+F 1 "Testpoint" H 6650 8450 60  0001 C CNN
+F 2 "" H 6600 8450 60  0000 C CNN
+F 3 "" H 6600 8450 60  0000 C CNN
+	1    6600 8450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Testpoint TP113
+U 1 1 58329B3B
+P 6600 8300
+F 0 "TP113" H 6900 8450 60  0000 C CNN
+F 1 "Testpoint" H 6650 8300 60  0001 C CNN
+F 2 "" H 6600 8300 60  0000 C CNN
+F 3 "" H 6600 8300 60  0000 C CNN
+	1    6600 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Testpoint TP112
+U 1 1 58329BFD
+P 6600 8150
+F 0 "TP112" H 6900 8300 60  0000 C CNN
+F 1 "Testpoint" H 6650 8150 60  0001 C CNN
+F 2 "" H 6600 8150 60  0000 C CNN
+F 3 "" H 6600 8150 60  0000 C CNN
+	1    6600 8150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Testpoint TP111
+U 1 1 58329CC4
+P 6600 8000
+F 0 "TP111" H 6900 8150 60  0000 C CNN
+F 1 "Testpoint" H 6650 8000 60  0001 C CNN
+F 2 "" H 6600 8000 60  0000 C CNN
+F 3 "" H 6600 8000 60  0000 C CNN
+	1    6600 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Testpoint TP110
+U 1 1 58329D8D
+P 6600 7850
+F 0 "TP110" H 6900 8000 60  0000 C CNN
+F 1 "Testpoint" H 6650 7850 60  0001 C CNN
+F 2 "" H 6600 7850 60  0000 C CNN
+F 3 "" H 6600 7850 60  0000 C CNN
+	1    6600 7850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Testpoint TP119
+U 1 1 5832A16A
+P 7300 8750
+F 0 "TP119" H 7550 8900 60  0000 C CNN
+F 1 "Testpoint" H 7350 8750 60  0001 C CNN
+F 2 "" H 7300 8750 60  0000 C CNN
+F 3 "" H 7300 8750 60  0000 C CNN
+	1    7300 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoint TP118
+U 1 1 5832A3D6
+P 7300 8600
+F 0 "TP118" H 7550 8750 60  0000 C CNN
+F 1 "Testpoint" H 7350 8600 60  0001 C CNN
+F 2 "" H 7300 8600 60  0000 C CNN
+F 3 "" H 7300 8600 60  0000 C CNN
+	1    7300 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoint TP117
+U 1 1 5832A56E
+P 7300 8450
+F 0 "TP117" H 7550 8600 60  0000 C CNN
+F 1 "Testpoint" H 7350 8450 60  0001 C CNN
+F 2 "" H 7300 8450 60  0000 C CNN
+F 3 "" H 7300 8450 60  0000 C CNN
+	1    7300 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoint TP116
+U 1 1 5832A644
+P 7300 8300
+F 0 "TP116" H 7550 8450 60  0000 C CNN
+F 1 "Testpoint" H 7350 8300 60  0001 C CNN
+F 2 "" H 7300 8300 60  0000 C CNN
+F 3 "" H 7300 8300 60  0000 C CNN
+	1    7300 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoint TP115
+U 1 1 5832A713
+P 7300 8150
+F 0 "TP115" H 7550 8300 60  0000 C CNN
+F 1 "Testpoint" H 7350 8150 60  0001 C CNN
+F 2 "" H 7300 8150 60  0000 C CNN
+F 3 "" H 7300 8150 60  0000 C CNN
+	1    7300 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4400 5550 4400
+Wire Wire Line
+	5550 4500 5450 4500
+Wire Wire Line
+	8650 4600 5450 4600
+Wire Wire Line
+	8800 4800 5450 4800
+Wire Wire Line
+	8950 4900 5450 4900
+NoConn ~ 5450 4700
+Wire Wire Line
+	7100 8000 6800 8000
+Wire Wire Line
+	6950 8000 6950 8800
+Connection ~ 6950 8150
+Connection ~ 6950 8000
+Wire Wire Line
+	6800 8150 7100 8150
+Wire Wire Line
+	6800 8300 7100 8300
+Connection ~ 6950 8300
+Wire Wire Line
+	6800 8450 7100 8450
+Connection ~ 6950 8450
+Connection ~ 6950 8600
+$Comp
+L GND #PWR?
+U 1 1 5832E881
+P 6950 8800
+F 0 "#PWR?" H 6950 8550 60  0001 C CNN
+F 1 "GND" H 6950 8650 60  0000 C CNN
+F 2 "" H 6950 8800 60  0000 C CNN
+F 3 "" H 6950 8800 60  0000 C CNN
+	1    6950 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4450 4350 1700
 $EndSCHEMATC
