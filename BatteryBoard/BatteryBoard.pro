@@ -1,7 +1,5 @@
-update=Sunday, November 20, 2016 'PMt' 11:56:37 PM
+update=Monday, November 21, 2016 'AMt' 02:41:11 AM
 last_client=kicad
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -72,3 +70,5 @@ LibName63=valves
 LibName64=video
 LibName65=xilinx
 LibName66=bq76930
+[general]
+version=1
