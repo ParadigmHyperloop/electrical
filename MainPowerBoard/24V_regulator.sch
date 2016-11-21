@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MainPowerBoard-rescue
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
@@ -54,6 +53,7 @@ LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
+LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -64,12 +64,15 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xilinx
+LIBS:cd4013b_cmos_d-type_flip-flop
+LIBS:74aup1t34
+LIBS:ltc2954-1
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 13
+Sheet 2 14
 Title "Main Power Board"
 Date ""
 Rev "1"
@@ -80,7 +83,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LM2576HVT-ADJ-RESCUE-MainPowerBoard U101
+L LM2576HVT-ADJ U101
 U 1 1 582157AA
 P 4550 3650
 F 0 "U101" H 4250 3900 40  0000 C CNN
@@ -91,11 +94,9 @@ F 3 "" H 4550 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-MainPowerBoard C101
+L C C101
 U 1 1 58215866
 P 3350 3850
-AR Path="/58215866" Ref="C101"  Part="1" 
-AR Path="/582171B3/58215866" Ref="C101"  Part="1" 
 F 0 "C101" H 3400 3950 50  0000 L CNN
 F 1 "470uF" H 3400 3750 50  0000 L CNN
 F 2 "" H 3388 3700 30  0000 C CNN
@@ -173,11 +174,9 @@ $EndComp
 Wire Wire Line
 	6200 3750 7650 3750
 $Comp
-L C-RESCUE-MainPowerBoard C102
+L C C102
 U 1 1 58215AE9
 P 6350 4100
-AR Path="/58215AE9" Ref="C102"  Part="1" 
-AR Path="/582171B3/58215AE9" Ref="C102"  Part="1" 
 F 0 "C102" H 6400 4200 50  0000 L CNN
 F 1 "470uF" H 6400 4000 50  0000 L CNN
 F 2 "" H 6388 3950 30  0000 C CNN
@@ -189,11 +188,9 @@ F 6 "399-6128-ND" H 6350 4100 60  0001 C CNN "DigiKey PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-MainPowerBoard C103
+L C C103
 U 1 1 58215BD5
 P 6800 4100
-AR Path="/58215BD5" Ref="C103"  Part="1" 
-AR Path="/582171B3/58215BD5" Ref="C103"  Part="1" 
 F 0 "C103" H 6850 4200 50  0000 L CNN
 F 1 "470uF" H 6850 4000 50  0000 L CNN
 F 2 "" H 6838 3950 30  0000 C CNN
@@ -205,11 +202,9 @@ F 6 "399-6128-ND" H 6800 4100 60  0001 C CNN "DigiKey PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-MainPowerBoard C104
+L C C104
 U 1 1 58215C01
 P 7250 4100
-AR Path="/58215C01" Ref="C104"  Part="1" 
-AR Path="/582171B3/58215C01" Ref="C104"  Part="1" 
 F 0 "C104" H 7300 4200 50  0000 L CNN
 F 1 "470uF" H 7300 4000 50  0000 L CNN
 F 2 "" H 7288 3950 30  0000 C CNN
@@ -269,7 +264,7 @@ F 3 "" H 7250 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-MainPowerBoard R101
+L R R101
 U 1 1 58215E00
 P 4900 2700
 F 0 "R101" V 4800 2850 50  0000 C CNN
@@ -283,7 +278,7 @@ F 6 "1.00KXBK-ND" H 4900 2700 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L POT-RESCUE-MainPowerBoard VR101
+L POT VR101
 U 1 1 58216000
 P 5750 2700
 F 0 "VR101" H 5600 2600 50  0000 C CNN
@@ -362,7 +357,7 @@ $EndComp
 Wire Wire Line
 	5300 3900 5300 3750
 Connection ~ 5300 3750
-Text HLabel 7650 3750 2    60   Input ~ 0
+Text HLabel 7650 3750 2    60   Output ~ 0
 24V0_REG
 Text HLabel 2550 3550 0    60   Input ~ 0
 VCC_BATT
