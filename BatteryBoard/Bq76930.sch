@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -424,6 +424,50 @@ F 3 "" H 2200 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L R R?
+U 1 1 582AA500
+P 3100 7500
+F 0 "R?" V 3180 7500 50  0000 C CNN
+F 1 "R" V 3100 7500 50  0000 C CNN
+F 2 "" V 3030 7500 50  0000 C CNN
+F 3 "" H 3100 7500 50  0000 C CNN
+	1    3100 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 582AA5AD
+P 2550 6950
+F 0 "C?" H 2575 7050 50  0000 L CNN
+F 1 "C" H 2575 6850 50  0000 L CNN
+F 2 "" H 2588 6800 50  0000 C CNN
+F 3 "" H 2550 6950 50  0000 C CNN
+	1    2550 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 582AA662
+P 3100 6950
+F 0 "C?" H 3125 7050 50  0000 L CNN
+F 1 "C" H 3125 6850 50  0000 L CNN
+F 2 "" H 3138 6800 50  0000 C CNN
+F 3 "" H 3100 6950 50  0000 C CNN
+	1    3100 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 582AA6EB
+P 3750 6950
+F 0 "C?" H 3775 7050 50  0000 L CNN
+F 1 "C" H 3775 6850 50  0000 L CNN
+F 2 "" H 3788 6800 50  0000 C CNN
+F 3 "" H 3750 6950 50  0000 C CNN
+	1    3750 6950
+	0    1    1    0   
+$EndComp
+$Comp
 L D D?
 U 1 1 582AA7F7
 P 5250 800
@@ -444,6 +488,28 @@ F 2 "" H 5000 1050 50  0000 C CNN
 F 3 "" H 5000 1050 50  0000 C CNN
 	1    5000 1050
 	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 582AA9EF
+P 8700 2200
+F 0 "R?" V 8780 2200 50  0000 C CNN
+F 1 "R" V 8700 2200 50  0000 C CNN
+F 2 "" V 8630 2200 50  0000 C CNN
+F 3 "" H 8700 2200 50  0000 C CNN
+	1    8700 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 582AAB48
+P 8700 2850
+F 0 "C?" H 8725 2950 50  0000 L CNN
+F 1 "C" H 8725 2750 50  0000 L CNN
+F 2 "" H 8738 2700 50  0000 C CNN
+F 3 "" H 8700 2850 50  0000 C CNN
+	1    8700 2850
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C?
@@ -523,6 +589,17 @@ F 3 "" H 1150 7500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L R R?
+U 1 1 582AB466
+P 6500 7200
+F 0 "R?" V 6580 7200 50  0000 C CNN
+F 1 "R" V 6500 7200 50  0000 C CNN
+F 2 "" V 6430 7200 50  0000 C CNN
+F 3 "" H 6500 7200 50  0000 C CNN
+	1    6500 7200
+	-1   0    0    1   
+$EndComp
+$Comp
 L Earth #PWR?
 U 1 1 582AB578
 P 6000 4550
@@ -532,6 +609,28 @@ F 2 "" H 6000 4550 50  0000 C CNN
 F 3 "" H 6000 4550 50  0000 C CNN
 	1    6000 4550
 	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 582AB619
+P 5800 6400
+F 0 "R?" V 5880 6400 50  0000 C CNN
+F 1 "R" V 5800 6400 50  0000 C CNN
+F 2 "" V 5730 6400 50  0000 C CNN
+F 3 "" H 5800 6400 50  0000 C CNN
+	1    5800 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 582AB6D3
+P 5800 6700
+F 0 "D?" H 5800 6800 50  0000 C CNN
+F 1 "D" H 5800 6600 50  0000 C CNN
+F 2 "" H 5800 6700 50  0000 C CNN
+F 3 "" H 5800 6700 50  0000 C CNN
+	1    5800 6700
+	-1   0    0    1   
 $EndComp
 $Comp
 L Earth #PWR?
@@ -576,6 +675,160 @@ F 2 "" H 1750 6150 50  0000 C CNN
 F 3 "" H 1750 6150 50  0000 C CNN
 	1    1750 6150
 	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 582AE510
+P 2150 7250
+F 0 "#PWR?" H 2150 7000 50  0001 C CNN
+F 1 "Earth" H 2150 7100 50  0001 C CNN
+F 2 "" H 2150 7250 50  0000 C CNN
+F 3 "" H 2150 7250 50  0000 C CNN
+	1    2150 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 582AE5BD
+P 4300 7250
+F 0 "#PWR?" H 4300 7000 50  0001 C CNN
+F 1 "Earth" H 4300 7100 50  0001 C CNN
+F 2 "" H 4300 7250 50  0000 C CNN
+F 3 "" H 4300 7250 50  0000 C CNN
+	1    4300 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 582AE829
+P 2800 7250
+F 0 "R?" V 2880 7250 50  0000 C CNN
+F 1 "R" V 2800 7250 50  0000 C CNN
+F 2 "" V 2730 7250 50  0000 C CNN
+F 3 "" H 2800 7250 50  0000 C CNN
+	1    2800 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 582AEA64
+P 3550 7250
+F 0 "R?" V 3630 7250 50  0000 C CNN
+F 1 "R" V 3550 7250 50  0000 C CNN
+F 2 "" V 3480 7250 50  0000 C CNN
+F 3 "" H 3550 7250 50  0000 C CNN
+	1    3550 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 582AF14F
+P 5000 7150
+F 0 "C?" H 5025 7250 50  0000 L CNN
+F 1 "C" H 5025 7050 50  0000 L CNN
+F 2 "" H 5038 7000 50  0000 C CNN
+F 3 "" H 5000 7150 50  0000 C CNN
+	1    5000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 582AF21E
+P 5150 7150
+F 0 "C?" H 5175 7250 50  0000 L CNN
+F 1 "C" H 5175 7050 50  0000 L CNN
+F 2 "" H 5188 7000 50  0000 C CNN
+F 3 "" H 5150 7150 50  0000 C CNN
+	1    5150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 582AF2DB
+P 5250 7150
+F 0 "C?" H 5275 7250 50  0000 L CNN
+F 1 "C" H 5275 7050 50  0000 L CNN
+F 2 "" H 5288 7000 50  0000 C CNN
+F 3 "" H 5250 7150 50  0000 C CNN
+	1    5250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 582AF448
+P 5950 7150
+F 0 "C?" H 5975 7250 50  0000 L CNN
+F 1 "C" H 5975 7050 50  0000 L CNN
+F 2 "" H 5988 7000 50  0000 C CNN
+F 3 "" H 5950 7150 50  0000 C CNN
+	1    5950 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 582AF51C
+P 6100 7150
+F 0 "C?" H 6125 7250 50  0000 L CNN
+F 1 "C" H 6125 7050 50  0000 L CNN
+F 2 "" H 6138 7000 50  0000 C CNN
+F 3 "" H 6100 7150 50  0000 C CNN
+	1    6100 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 582AF5E4
+P 6250 7150
+F 0 "C?" H 6275 7250 50  0000 L CNN
+F 1 "C" H 6275 7050 50  0000 L CNN
+F 2 "" H 6288 7000 50  0000 C CNN
+F 3 "" H 6250 7150 50  0000 C CNN
+	1    6250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 582AF6AF
+P 6100 7450
+F 0 "D?" H 6100 7550 50  0000 C CNN
+F 1 "D" H 6100 7350 50  0000 C CNN
+F 2 "" H 6100 7450 50  0000 C CNN
+F 3 "" H 6100 7450 50  0000 C CNN
+	1    6100 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 582AF9D7
+P 5150 7450
+F 0 "D?" H 5150 7550 50  0000 C CNN
+F 1 "D" H 5150 7350 50  0000 C CNN
+F 2 "" H 5150 7450 50  0000 C CNN
+F 3 "" H 5150 7450 50  0000 C CNN
+	1    5150 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 582AFAB8
+P 5150 7700
+F 0 "D?" H 5150 7800 50  0000 C CNN
+F 1 "D" H 5150 7600 50  0000 C CNN
+F 2 "" H 5150 7700 50  0000 C CNN
+F 3 "" H 5150 7700 50  0000 C CNN
+	1    5150 7700
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D?
+U 1 1 582AFDBF
+P 6100 7700
+F 0 "D?" H 6100 7800 50  0000 C CNN
+F 1 "D" H 6100 7600 50  0000 C CNN
+F 2 "" H 6100 7700 50  0000 C CNN
+F 3 "" H 6100 7700 50  0000 C CNN
+	1    6100 7700
+	1    0    0    -1  
 $EndComp
 $Comp
 L bq76930 U?
@@ -655,6 +908,83 @@ F 3 "" H 8950 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L D D?
+U 1 1 582B1323
+P 5350 5900
+F 0 "D?" H 5350 6000 50  0000 C CNN
+F 1 "D" H 5350 5800 50  0000 C CNN
+F 2 "" H 5350 5900 50  0000 C CNN
+F 3 "" H 5350 5900 50  0000 C CNN
+	1    5350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 582B1DD9
+P 4700 7200
+F 0 "R?" V 4780 7200 50  0000 C CNN
+F 1 "R" V 4700 7200 50  0000 C CNN
+F 2 "" V 4630 7200 50  0000 C CNN
+F 3 "" H 4700 7200 50  0000 C CNN
+	1    4700 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 582B3186
+P 5200 6600
+F 0 "C?" H 5225 6700 50  0000 L CNN
+F 1 "C" H 5225 6500 50  0000 L CNN
+F 2 "" H 5238 6450 50  0000 C CNN
+F 3 "" H 5200 6600 50  0000 C CNN
+	1    5200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 582B3273
+P 5300 6600
+F 0 "C?" H 5325 6700 50  0000 L CNN
+F 1 "C" H 5325 6500 50  0000 L CNN
+F 2 "" H 5338 6450 50  0000 C CNN
+F 3 "" H 5300 6600 50  0000 C CNN
+	1    5300 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 582B3365
+P 5400 6600
+F 0 "C?" H 5425 6700 50  0000 L CNN
+F 1 "C" H 5425 6500 50  0000 L CNN
+F 2 "" H 5438 6450 50  0000 C CNN
+F 3 "" H 5400 6600 50  0000 C CNN
+	1    5400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 582B34AC
+P 5300 6300
+F 0 "D?" H 5300 6400 50  0000 C CNN
+F 1 "D" H 5300 6200 50  0000 C CNN
+F 2 "" H 5300 6300 50  0000 C CNN
+F 3 "" H 5300 6300 50  0000 C CNN
+	1    5300 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 582B4054
+P 5400 6900
+F 0 "#PWR?" H 5400 6650 50  0001 C CNN
+F 1 "Earth" H 5400 6750 50  0001 C CNN
+F 2 "" H 5400 6900 50  0000 C CNN
+F 3 "" H 5400 6900 50  0000 C CNN
+	1    5400 6900
+	1    0    0    -1  
+$EndComp
+$Comp
 L Earth #PWR?
 U 1 1 582B4848
 P 9700 6050
@@ -664,6 +994,17 @@ F 2 "" H 9700 6050 50  0000 C CNN
 F 3 "" H 9700 6050 50  0000 C CNN
 	1    9700 6050
 	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 582B5555
+P 8950 3350
+F 0 "R?" V 9030 3350 50  0000 C CNN
+F 1 "R" V 8950 3350 50  0000 C CNN
+F 2 "" V 8880 3350 50  0000 C CNN
+F 3 "" H 8950 3350 50  0000 C CNN
+	1    8950 3350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L SW_PUSH SW?
@@ -677,60 +1018,49 @@ F 3 "" H 7050 4550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X11 P?
-U 1 1 582E685B
-P -600 1700
-F 0 "P?" H -600 2300 50  0000 C CNN
-F 1 "CONN_01X11" V -500 1700 50  0000 C CNN
-F 2 "" H -600 1700 50  0000 C CNN
-F 3 "" H -600 1700 50  0000 C CNN
-	1    -600 1700
-	-1   0    0    -1  
+L C C?
+U 1 1 582B80EF
+P 8200 2650
+F 0 "C?" H 8225 2750 50  0000 L CNN
+F 1 "C" H 8225 2550 50  0000 L CNN
+F 2 "" H 8238 2500 50  0000 C CNN
+F 3 "" H 8200 2650 50  0000 C CNN
+	1    8200 2650
+	0    1    1    0   
 $EndComp
-$Sheet
-S 5050 6450 1100 500 
-U 582E95F2
-F0 "Bottom Fets and Resistors" 60
-F1 "Bottom Fets and Resistors.sch" 60
-$EndSheet
-$Sheet
-S 2350 7050 800  450 
-U 582E9E1A
-F0 "Bottom Capacitors and Resistors" 60
-F1 "Bottom Capacitors and Resistors.sch" 60
-$EndSheet
-Text HLabel 2350 7250 0    60   Input ~ 0
-E1
-Text HLabel 3150 7250 2    60   Output ~ 0
-E2
-Text HLabel 3000 7050 1    60   Output ~ 0
-E3
-Text HLabel 2550 7050 1    60   Output ~ 0
-E4
-Text HLabel 5050 6650 0    60   Input ~ 0
-C1
-Text HLabel 5350 6400 1    60   Output ~ 0
-C2
-Text HLabel 5850 6450 1    60   Output ~ 0
-C3
-Text HLabel 6150 6700 2    60   Output ~ 0
-C4
-$Sheet
-S 8150 2700 950  550 
-U 582EB580
-F0 "Sheet582EB57F" 60
-F1 "Top Right Components.sch" 60
-$EndSheet
-Text HLabel 8500 3300 3    60   Input ~ 0
-F1
-Text HLabel 8150 2950 0    60   Input ~ 0
-F2
-Text HLabel 8750 3250 3    60   Input ~ 0
-F3
-Text HLabel 8150 2800 0    60   Input ~ 0
-F4
-Text HLabel 8650 2600 1    60   Output ~ 0
-F5
+$Comp
+L C C?
+U 1 1 582B8278
+P 8200 2750
+F 0 "C?" H 8225 2850 50  0000 L CNN
+F 1 "C" H 8225 2650 50  0000 L CNN
+F 2 "" H 8238 2600 50  0000 C CNN
+F 3 "" H 8200 2750 50  0000 C CNN
+	1    8200 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 582B854E
+P 8200 2850
+F 0 "C?" H 8225 2950 50  0000 L CNN
+F 1 "C" H 8225 2750 50  0000 L CNN
+F 2 "" H 8238 2700 50  0000 C CNN
+F 3 "" H 8200 2850 50  0000 C CNN
+	1    8200 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 582B8646
+P 7900 2750
+F 0 "D?" H 7900 2850 50  0000 C CNN
+F 1 "D" H 7900 2650 50  0000 C CNN
+F 2 "" H 7900 2750 50  0000 C CNN
+F 3 "" H 7900 2750 50  0000 C CNN
+	1    7900 2750
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	1150 2950 1150 2800
 Wire Wire Line
@@ -851,7 +1181,39 @@ Wire Wire Line
 	1900 4350 1900 4400
 Connection ~ 2200 4350
 Connection ~ 1150 6450
+Wire Wire Line
+	1150 7450 2450 7450
 Connection ~ 1150 7450
+Wire Wire Line
+	2450 7450 2450 7500
+Wire Wire Line
+	2450 7500 2950 7500
+Wire Wire Line
+	2800 7400 2800 7500
+Connection ~ 2800 7500
+Wire Wire Line
+	3250 7500 5050 7500
+Wire Wire Line
+	3550 7400 3550 7500
+Connection ~ 3550 7500
+Wire Wire Line
+	3600 6950 3250 6950
+Wire Wire Line
+	2950 6950 2700 6950
+Wire Wire Line
+	2400 6950 2150 6950
+Wire Wire Line
+	2150 6950 2150 7250
+Wire Wire Line
+	3900 6950 4300 6950
+Wire Wire Line
+	4300 6950 4300 7250
+Wire Wire Line
+	3550 6700 3550 7100
+Connection ~ 3550 6950
+Wire Wire Line
+	2800 6600 2800 7100
+Connection ~ 2800 6950
 Wire Wire Line
 	3300 6450 3300 4250
 Wire Wire Line
@@ -932,11 +1294,115 @@ Wire Wire Line
 Wire Wire Line
 	3850 4450 4900 4450
 Wire Wire Line
+	5150 7600 5050 7600
+Wire Wire Line
+	5050 7600 5050 7500
+Wire Wire Line
+	5000 7700 4850 7700
+Wire Wire Line
+	4850 7700 4850 7500
+Connection ~ 4850 7500
+Wire Wire Line
+	5000 7500 5000 7300
+Connection ~ 5000 7500
+Wire Wire Line
+	5250 7300 5250 7550
+Wire Wire Line
+	5250 7550 5950 7550
+Wire Wire Line
+	5950 7550 5950 7300
+Wire Wire Line
+	5900 7550 5900 7700
+Wire Wire Line
+	5900 7700 5950 7700
+Connection ~ 5900 7550
+Wire Wire Line
+	6250 7700 6550 7700
+Wire Wire Line
+	6100 7600 6500 7600
+Wire Wire Line
+	6250 7600 6250 7300
+Wire Wire Line
+	6350 7600 6350 7700
+Connection ~ 6350 7700
+Connection ~ 6250 7600
+Wire Wire Line
+	6500 7600 6500 7350
+Connection ~ 6350 7600
+Wire Wire Line
+	5950 7000 6250 7000
+Connection ~ 6100 7000
+Wire Wire Line
+	6500 7050 6500 6800
+Wire Wire Line
+	6500 6800 6100 6800
+Wire Wire Line
+	6100 6400 6100 7000
+Wire Wire Line
+	6100 6700 5950 6700
+Connection ~ 6100 6800
+Wire Wire Line
+	6100 6400 5950 6400
+Connection ~ 6100 6700
+Wire Wire Line
+	5400 6400 5650 6400
+Wire Wire Line
+	5550 6250 5550 6700
+Wire Wire Line
+	5550 6700 5650 6700
+Wire Wire Line
+	5550 6250 5500 6250
+Connection ~ 5550 6400
+Wire Wire Line
+	5200 5900 5000 5900
+Wire Wire Line
+	5000 5900 5000 6750
+Wire Wire Line
+	5000 7000 5250 7000
+Connection ~ 5150 7000
+Wire Wire Line
+	5000 7000 5000 6800
+Wire Wire Line
+	5000 6800 4650 6800
+Wire Wire Line
+	4700 7050 4700 6900
+Wire Wire Line
+	4700 6900 5000 6900
+Connection ~ 5000 6900
+Wire Wire Line
+	4700 7350 4700 7500
+Connection ~ 4700 7500
+Wire Wire Line
+	4650 6800 4650 5500
+Wire Wire Line
+	4650 5500 5550 5500
+Wire Wire Line
 	5550 5500 5550 4550
+Wire Wire Line
+	5400 6400 5400 6450
+Wire Wire Line
+	5500 6250 5500 5900
+Wire Wire Line
+	5300 6150 5200 6150
+Wire Wire Line
+	5200 6150 5200 6450
+Wire Wire Line
+	5000 6750 5400 6750
+Connection ~ 5300 6750
+Wire Wire Line
+	5400 6750 5400 6900
+Connection ~ 5200 6750
+Wire Wire Line
+	5000 6350 4850 6350
+Wire Wire Line
+	4850 6350 4850 5650
+Wire Wire Line
+	4850 5650 5750 5650
 Wire Wire Line
 	5750 5650 5750 4450
 Wire Wire Line
 	5750 4450 5550 4450
+Connection ~ 5000 6350
 Wire Wire Line
 	4950 4550 4950 5350
 Wire Wire Line
@@ -987,7 +1453,9 @@ Wire Wire Line
 	8950 3800 8950 3950
 Connection ~ 8950 3800
 Wire Wire Line
-	5500 3650 7850 3650
+	9100 3350 9400 3350
+Wire Wire Line
+	5500 3650 7350 3650
 Wire Wire Line
 	5550 4050 6700 4050
 Wire Wire Line
@@ -1037,7 +1505,37 @@ Wire Wire Line
 	5550 3150 6150 3150
 Wire Wire Line
 	6150 3150 6150 2350
+Wire Wire Line
+	6150 2350 8700 2350
+Wire Wire Line
+	7750 2750 7750 3950
+Wire Wire Line
+	7750 3950 8000 3950
+Wire Wire Line
+	7750 2900 8050 2900
+Wire Wire Line
+	8050 2900 8050 2850
+Connection ~ 7750 2900
+Wire Wire Line
+	8300 2850 8500 2850
+Wire Wire Line
+	8500 2850 8500 3000
+Wire Wire Line
+	8500 3000 8700 3000
+Wire Wire Line
+	8700 2350 8700 2700
+Wire Wire Line
+	8050 2650 8050 1800
+Wire Wire Line
+	8050 1800 8700 1800
+Wire Wire Line
+	8700 650  8700 2050
 Connection ~ 8700 650 
+Connection ~ 8700 1800
+Wire Wire Line
+	8350 2650 8350 2850
+Connection ~ 8350 2850
+Connection ~ 8350 2750
 Wire Wire Line
 	5150 1050 5900 1050
 Wire Wire Line
@@ -1049,33 +1547,13 @@ Wire Wire Line
 	6500 800  6500 2350
 Connection ~ 6500 2350
 Wire Wire Line
-	8550 3950 8750 3950
+	8700 3000 8700 3950
 Wire Wire Line
-	6150 2350 7800 2350
+	8700 3950 8550 3950
 Wire Wire Line
-	7800 2350 7800 2800
+	7300 3650 8200 3650
 Wire Wire Line
-	7800 2800 8100 2800
+	8200 3650 8200 3350
 Wire Wire Line
-	7850 3650 7850 2950
-Wire Wire Line
-	7850 2950 8100 2950
-Wire Wire Line
-	8000 3950 8000 3550
-Wire Wire Line
-	8000 3550 8500 3550
-Wire Wire Line
-	8500 3550 8500 3300
-Wire Wire Line
-	8750 3950 8750 3300
-Wire Wire Line
-	8650 2600 8650 650 
-Wire Wire Line
-	8650 650  8700 650 
-Wire Wire Line
-	5000 6650 4450 6650
-Wire Wire Line
-	4450 6650 4450 7250
-Wire Wire Line
-	4450 7250 3150 7250
+	8200 3350 8800 3350
 $EndSCHEMATC

@@ -1,7 +1,5 @@
-update=Friday, November 18, 2016 'PMt' 05:56:33 PM
+update=Sunday, November 20, 2016 'PMt' 10:30:21 PM
 last_client=kicad
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -74,3 +72,6 @@ LibName65=xilinx
 LibName66=cd4013b_cmos_d-type_flip-flop
 LibName67=74aup1t34
 LibName68=ltc2954-1
+LibName69=testpoint
+[general]
+version=1
