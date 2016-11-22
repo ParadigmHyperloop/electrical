@@ -70,7 +70,7 @@ EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 2
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -118,7 +118,7 @@ VCC
 Text HLabel 8400 6700 2    60   Output ~ 0
 SCL
 Text HLabel 6250 7100 0    60   Output ~ 0
-GPIO
+ALERT
 Text HLabel 8400 6800 2    60   Output ~ 0
 SDA
 Text HLabel 8950 9600 2    60   Output ~ 0

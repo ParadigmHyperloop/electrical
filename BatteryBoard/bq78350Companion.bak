@@ -80,16 +80,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1500 1400 0    60   Input ~ 0
+Text HLabel 1850 1600 0    60   Input ~ 0
 VCC
-Text HLabel 1500 2300 0    60   Input ~ 0
+Text HLabel 1900 2400 0    60   Input ~ 0
 SDA
 Text HLabel 1900 3050 0    60   Input ~ 0
 SCL
 Text HLabel 1850 3800 0    60   Input ~ 0
 ALERT
-Wire Wire Line
-	1500 1400 2100 1400
-Text Label 1950 1400 0    60   ~ 0
-VCC
 $EndSCHEMATC
