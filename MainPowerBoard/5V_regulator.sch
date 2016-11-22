@@ -185,7 +185,7 @@ F 6 "M8380-ND" V 5900 3750 60  0001 C CNN "DigiKey PN"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6200 3750 8900 3750
+	6200 3750 9400 3750
 $Comp
 L CP1 C102
 U 1 1 58215AE9
@@ -360,7 +360,7 @@ $EndComp
 Wire Wire Line
 	5300 3900 5300 3750
 Connection ~ 5300 3750
-Text HLabel 8900 3750 2    60   Output ~ 0
+Text HLabel 9400 3750 2    60   Output ~ 0
 5V0_REG
 Text HLabel 2200 3550 0    60   Input ~ 0
 VCC_BATT
@@ -538,4 +538,46 @@ F 6 "399-6128-ND" H 7250 4100 60  0001 C CNN "DigiKey PN"
 	1    7250 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L LED D102
+U 1 1 5833B83C
+P 9100 4600
+F 0 "D102" V 9200 4750 50  0000 C CNN
+F 1 "LED" H 9100 4500 50  0001 C CNN
+F 2 "" H 9100 4600 60  0000 C CNN
+F 3 "" H 9100 4600 60  0000 C CNN
+	1    9100 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R102
+U 1 1 5833B843
+P 9100 4050
+F 0 "R102" H 9250 3950 50  0000 C CNN
+F 1 "R" H 9250 4150 50  0000 C CNN
+F 2 "" V 9030 4050 30  0000 C CNN
+F 3 "" H 9100 4050 30  0000 C CNN
+	1    9100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4300 9100 4400
+Wire Wire Line
+	9100 4800 9100 4900
+$Comp
+L GND #PWR?
+U 1 1 5833B84C
+P 9100 4900
+F 0 "#PWR?" H 9100 4650 60  0001 C CNN
+F 1 "GND" H 9100 4750 60  0000 C CNN
+F 2 "" H 9100 4900 60  0000 C CNN
+F 3 "" H 9100 4900 60  0000 C CNN
+	1    9100 4900
+	1    0    0    -1  
+$EndComp
+Text Notes 9200 4400 0    60   ~ 0
+Make these 1206 SMT
+Wire Wire Line
+	9100 3800 9100 3750
+Connection ~ 9100 3750
 $EndSCHEMATC

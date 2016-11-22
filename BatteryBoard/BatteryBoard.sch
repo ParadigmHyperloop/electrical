@@ -141,9 +141,9 @@ Wire Wire Line
 Wire Wire Line
 	2550 4100 2900 4100
 Wire Wire Line
-	1250 4200 2450 4200
+	2450 4200 1250 4200
 Wire Wire Line
-	2450 4200 2450 3950
+	2450 3400 2450 4200
 Wire Wire Line
 	2450 3950 2900 3950
 Wire Wire Line
@@ -189,4 +189,15 @@ F 3 "" H 2450 5650 60  0000 C CNN
 	1    2450 5650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 3400 3900 3400
+Connection ~ 2450 3950
+Text Label 2450 3400 0    60   ~ 0
+PACK_POS
+$Sheet
+S 6950 3750 1850 1850
+U 58339E23
+F0 "bq78350 Companion Controller" 60
+F1 "bq78350Companion.sch" 60
+$EndSheet
 $EndSCHEMATC
