@@ -1,7 +1,5 @@
-update=Sunday, November 27, 2016 'AMt' 01:36:02 AM
+update=Sunday, November 27, 2016 'PMt' 01:12:30 PM
 last_client=kicad
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../hyperCustom.pretty
@@ -77,3 +75,5 @@ LibName68=74aup1t34
 LibName69=ltc2954-1
 LibName70=testpoint
 LibName71=lmr16030s
+[general]
+version=1
