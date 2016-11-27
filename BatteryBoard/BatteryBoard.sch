@@ -65,6 +65,7 @@ LIBS:valves
 LIBS:video
 LIBS:xilinx
 LIBS:bq76930
+LIBS:bq78350
 LIBS:BatteryBoard-cache
 EELAYER 25 0
 EELAYER END

@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# bq76930CompanionController
+#
+DEF bq76930CompanionController U 0 40 Y Y 1 F N
+F0 "U" 50 600 60 H V C CNN
+F1 "bq76930CompanionController" 50 600 60 H V C CNN
+F2 "" 50 600 60 H I C CNN
+F3 "" 50 600 60 H I C CNN
+DRAW
+T 0 -300 -250 60 0 0 0 GPIO Normal 0 C C
+T 0 -300 150 60 0 0 0 SCL Normal 0 C C
+T 0 -300 -50 60 0 0 0 SDA Normal 0 C C
+T 0 -300 350 60 0 0 0 VCC Normal 0 C C
+T 0 -300 -450 60 0 0 0 VSS Normal 0 C C
+S -450 -500 -400 -400 0 1 0 N
+S -450 -300 -400 -200 0 1 0 N
+S -450 0 -400 -100 0 1 0 N
+S -450 300 -400 400 0 1 0 N
+S -400 -100 -400 -200 0 1 0 N
+S -400 200 -450 100 0 1 0 N
+S 500 -550 -400 450 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

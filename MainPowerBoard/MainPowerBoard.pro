@@ -1,4 +1,4 @@
-update=Friday, November 25, 2016 'AMt' 02:10:14 AM
+update=Sunday, November 27, 2016 'AMt' 01:36:02 AM
 last_client=kicad
 [general]
 version=1
@@ -76,3 +76,4 @@ LibName67=cd4013b_cmos_d-type_flip-flop
 LibName68=74aup1t34
 LibName69=ltc2954-1
 LibName70=testpoint
+LibName71=lmr16030s
