@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:LEDBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -38,7 +39,7 @@ Date "11-26-16"
 Rev ""
 Comp "Openloop"
 Comment1 "4 led's for our purposes, extra leads for led's in the future"
-Comment2 ""
+Comment2 "This board accepts status inputs of various types/levels and implements custom conversion for each and display on LEDs on exterior of pod. It includes some unused connectors/circuits/LEDs for future additions."
 Comment3 ""
 Comment4 ""
 $EndDescr
