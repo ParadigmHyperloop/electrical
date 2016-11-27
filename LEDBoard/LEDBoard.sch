@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 21
 Title "LED Board"
 Date "11-26-16"
 Rev ""
@@ -44,130 +44,154 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2900 1800 700  500 
+S 1100 1300 700  500 
 U 583A699B
-F0 "SOT2" 60
-F1 "SOT2.sch" 60
-F2 "Vin +" I L 2900 1900 60 
-F3 "GND" I L 2900 2050 60 
-F4 "Vin -" I L 2900 2200 60 
-F5 "Vcc" I R 3600 1900 60 
-F6 "Vout" O R 3600 2150 60 
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 1100 1600 60 
+$EndSheet
+$Sheet
+S 1100 2100 700  500 
+U 583ACA1C
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 1100 2400 60 
+$EndSheet
+$Sheet
+S 1100 2900 700  500 
+U 583ACAFB
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 1100 3200 60 
+$EndSheet
+$Sheet
+S 1100 3700 700  500 
+U 583ACAFE
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 1100 4000 60 
+$EndSheet
+$Sheet
+S 1100 4450 700  500 
+U 583ACB74
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 1100 4750 60 
+$EndSheet
+$Sheet
+S 2850 1300 700  500 
+U 583ACE7E
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 2850 1600 60 
+$EndSheet
+$Sheet
+S 2850 2100 700  500 
+U 583ACE81
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 2850 2400 60 
+$EndSheet
+$Sheet
+S 2850 2900 700  500 
+U 583ACE84
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 2850 3200 60 
+$EndSheet
+$Sheet
+S 2850 3700 700  500 
+U 583ACE87
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 2850 4000 60 
+$EndSheet
+$Sheet
+S 2850 4450 700  500 
+U 583ACE8A
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 2850 4750 60 
+$EndSheet
+$Sheet
+S 4650 1300 700  500 
+U 583AD5B9
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 4650 1600 60 
+$EndSheet
+$Sheet
+S 4650 2100 700  500 
+U 583AD5BC
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 4650 2400 60 
+$EndSheet
+$Sheet
+S 4650 2900 700  500 
+U 583AD5BF
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 4650 3200 60 
+$EndSheet
+$Sheet
+S 4650 3700 700  500 
+U 583AD5C2
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 4650 4000 60 
+$EndSheet
+$Sheet
+S 4650 4450 700  500 
+U 583AD5C5
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 4650 4750 60 
+$EndSheet
+$Sheet
+S 6350 1300 700  500 
+U 583AD5C8
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 6350 1600 60 
+$EndSheet
+$Sheet
+S 6350 2100 700  500 
+U 583AD5CB
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 6350 2400 60 
+$EndSheet
+$Sheet
+S 6350 2900 700  500 
+U 583AD5CE
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 6350 3200 60 
+$EndSheet
+$Sheet
+S 6350 3700 700  500 
+U 583AD5D1
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 6350 4000 60 
+$EndSheet
+$Sheet
+S 6350 4450 700  500 
+U 583AD5D4
+F0 " Indicator Circuit for <item>" 60
+F1 "IndCkt.sch" 60
+F2 "Vin" I L 6350 4750 60 
 $EndSheet
 $Comp
-L LED D?
-U 1 1 583A7260
-P 4250 2150
-F 0 "D?" H 4250 2250 50  0000 C CNN
-F 1 "LED-Red" H 4250 2050 50  0000 C CNN
-F 2 "" H 4250 2150 50  0000 C CNN
-F 3 "" H 4250 2150 50  0000 C CNN
-	1    4250 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 583A72AB
-P 5000 2150
-F 0 "R?" V 5080 2150 50  0000 C CNN
-F 1 "R" V 5000 2150 50  0000 C CNN
-F 2 "" V 4930 2150 50  0000 C CNN
-F 3 "" H 5000 2150 50  0000 C CNN
-	1    5000 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4050 2150 3600 2150
-Wire Wire Line
-	4850 2150 4450 2150
-Wire Wire Line
-	5150 2150 5550 2150
-$Comp
-L VCC #PWR?
-U 1 1 583A734F
-P 5550 2150
-F 0 "#PWR?" H 5550 2000 50  0001 C CNN
-F 1 "VCC" H 5550 2300 50  0000 C CNN
-F 2 "" H 5550 2150 50  0000 C CNN
-F 3 "" H 5550 2150 50  0000 C CNN
-	1    5550 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Battery BT-9V
-U 1 1 583A7522
-P 7750 1200
-F 0 "BT-9V" H 7850 1250 50  0000 L CNN
-F 1 "Battery" H 7850 1150 50  0000 L CNN
-F 2 "" V 7750 1240 50  0000 C CNN
-F 3 "" V 7750 1240 50  0000 C CNN
-	1    7750 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 583A756B
-P 7450 1200
-F 0 "#PWR?" H 7450 950 50  0001 C CNN
-F 1 "GND" H 7450 1050 50  0000 C CNN
-F 2 "" H 7450 1200 50  0000 C CNN
-F 3 "" H 7450 1200 50  0000 C CNN
-	1    7450 1200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7600 1200 7450 1200
-$Comp
-L R R?
-U 1 1 583A7609
-P 5000 1850
-F 0 "R?" V 5080 1850 50  0000 C CNN
-F 1 "R" V 5000 1850 50  0000 C CNN
-F 2 "" V 4930 1850 50  0000 C CNN
-F 3 "" H 5000 1850 50  0000 C CNN
-	1    5000 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D?
-U 1 1 583A765A
-P 4500 1850
-F 0 "D?" H 4500 1950 50  0000 C CNN
-F 1 "LED-Green" H 4500 1750 50  0000 C CNN
-F 2 "" H 4500 1850 50  0000 C CNN
-F 3 "" H 4500 1850 50  0000 C CNN
-	1    4500 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 583A769A
-P 4200 1850
-F 0 "#PWR?" H 4200 1600 50  0001 C CNN
-F 1 "GND" H 4200 1700 50  0000 C CNN
-F 2 "" H 4200 1850 50  0000 C CNN
-F 3 "" H 4200 1850 50  0000 C CNN
-	1    4200 1850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5350 2150 5350 1850
-Wire Wire Line
-	5350 1850 5150 1850
-Connection ~ 5350 2150
-Wire Wire Line
-	4850 1850 4700 1850
-Wire Wire Line
-	4300 1850 4200 1850
-$Comp
-L LM193 U?
-U 1 1 583A7B90
-P 10000 1250
-F 0 "U?" H 10150 1400 50  0000 C CNN
-F 1 "LM193" H 10250 1100 50  0000 C CNN
-F 2 "" H 10000 1250 50  0000 C CNN
-F 3 "" H 10000 1250 50  0000 C CNN
-	1    10000 1250
+L CONN_01X02 P?
+U 1 1 583ADF07
+P 9000 1750
+F 0 "P?" H 9000 1900 50  0000 C CNN
+F 1 "connector to 9V battery" V 9100 1750 50  0000 C CNN
+F 2 "" H 9000 1750 50  0000 C CNN
+F 3 "" H 9000 1750 50  0000 C CNN
+	1    9000 1750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
