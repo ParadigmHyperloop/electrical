@@ -1,0 +1,3757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/jmassucco17/Documents/Northeastern/2016 Fall/OpenLoop/full_electrical/MainPowerBoard/MainPowerBoard.sch</source>
+    <date>Monday, November 28, 2016 'AMt' 11:41:05 AM</date>
+    <tool>Eeschema (2014-10-31 BZR 5247)-product</tool>
+  </design>
+  <components>
+    <comp ref="J101">
+      <value>CONN_01X08</value>
+      <footprint>hyperCustom:CONN_1720521</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1720521</field>
+        <field name="DigiKey PN">277-6727-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582247BE</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>CONN_01X04</value>
+      <footprint>hyperCustom:CONN_1998959</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998959</field>
+        <field name="DigiKey PN">277-1846-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582A5D5D</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>CONN_01X08</value>
+      <footprint>hyperCustom:CONN_1720521</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1720521</field>
+        <field name="DigiKey PN">277-6727-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582EE87B</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>CONN_01X08</value>
+      <footprint>hyperCustom:CONN_1720521</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1720521</field>
+        <field name="DigiKey PN">277-6727-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582EEA12</tstamp>
+    </comp>
+    <comp ref="J105">
+      <value>CONN_01X04</value>
+      <footprint>hyperCustom:CONN_1998959</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998959</field>
+        <field name="DigiKey PN">277-1846-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582EF7F6</tstamp>
+    </comp>
+    <comp ref="J110">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582F199C</tstamp>
+    </comp>
+    <comp ref="J109">
+      <value>CONN_01X04</value>
+      <footprint>hyperCustom:CONN_1998959</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998959</field>
+        <field name="DigiKey PN">277-1846-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582F8947</tstamp>
+    </comp>
+    <comp ref="J111">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582F9B97</tstamp>
+    </comp>
+    <comp ref="J112">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FA345</tstamp>
+    </comp>
+    <comp ref="J115">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FA4AA</tstamp>
+    </comp>
+    <comp ref="J116">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FA4B3</tstamp>
+    </comp>
+    <comp ref="J117">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FA4BC</tstamp>
+    </comp>
+    <comp ref="J120">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FA61E</tstamp>
+    </comp>
+    <comp ref="J121">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FA627</tstamp>
+    </comp>
+    <comp ref="J122">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FA630</tstamp>
+    </comp>
+    <comp ref="J127">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FAC1B</tstamp>
+    </comp>
+    <comp ref="J128">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FAC24</tstamp>
+    </comp>
+    <comp ref="J129">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FAC2D</tstamp>
+    </comp>
+    <comp ref="J125">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FAD70</tstamp>
+    </comp>
+    <comp ref="J126">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FAD79</tstamp>
+    </comp>
+    <comp ref="J123">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FAEBC</tstamp>
+    </comp>
+    <comp ref="J124">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FAEC5</tstamp>
+    </comp>
+    <comp ref="J118">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FB010</tstamp>
+    </comp>
+    <comp ref="J119">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FB019</tstamp>
+    </comp>
+    <comp ref="J113">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FB16A</tstamp>
+    </comp>
+    <comp ref="J114">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_1998933</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998933</field>
+        <field name="DigiKey PN">277-1844-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FB173</tstamp>
+    </comp>
+    <comp ref="TP101">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58327A43</tstamp>
+    </comp>
+    <comp ref="J108">
+      <value>CONN_01X04</value>
+      <footprint>hyperCustom:CONN_1998959</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998959</field>
+        <field name="DigiKey PN">277-1846-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583AFDF4</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C00D1</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C128C</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C1379</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C1D29</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C604D</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C658F</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C6717</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C67F8</tstamp>
+    </comp>
+    <comp ref="J106">
+      <value>CONN_01X04</value>
+      <footprint>hyperCustom:CONN_1998959</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1998959</field>
+        <field name="DigiKey PN">277-1846-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C9637</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C9651</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C964B</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C9645</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583C963F</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583CE44C</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583CE452</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583CE458</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583CE45E</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583CE6A8</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583CE7CC</tstamp>
+    </comp>
+    <comp ref="J107">
+      <value>CONN_01X06</value>
+      <footprint>hyperCustom:CONN_1720505</footprint>
+      <fields>
+        <field name="Mfg">Phoenix</field>
+        <field name="Mfg P/N">1720505</field>
+        <field name="Digikey P/N">277-6961-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583CEC9B</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>LED</value>
+      <footprint>hyperCustom:D_1206_HandSoldering</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>5833A6D6</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>5833A728</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>LMR16030S</value>
+      <libsource lib="lmr16030s" part="LMR16030S"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583A8678</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583A8A9A</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583A8B4B</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>2.2uF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583A8CF1</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW080545K3FKEA</field>
+        <field name="DigiKey PN">541-20.0KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583B2967</tstamp>
+    </comp>
+    <comp ref="VR201">
+      <value>1M</value>
+      <fields>
+        <field name="Mfg.">Bourns</field>
+        <field name="Mfg. PN">3299W-1-105LF</field>
+        <field name="DigiKey PN">3299W-105LF-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583B2A2E</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>DIODESCH</value>
+      <footprint>Diodes_SMD:SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">SK310A-TP</field>
+        <field name="DigiKey PN">SK310A-TPCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583B2BCB</tstamp>
+    </comp>
+    <comp ref="L201">
+      <value>39uH</value>
+      <fields>
+        <field name="Mfg.">Sumida</field>
+        <field name="Mfg. PN">CDRH127/LDNP-470MC</field>
+        <field name="DigiKey PN">308-1339-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583B2D59</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2521-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583B399E</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583B4188</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583B43AD</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583D36BC</tstamp>
+    </comp>
+    <comp ref="D203">
+      <value>18V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583D8D48</tstamp>
+    </comp>
+    <comp ref="D204">
+      <value>30V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583D986C</tstamp>
+    </comp>
+    <comp ref="D205">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583D99E5</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>47.5k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Panasonic</field>
+        <field name="Mfg. PN">ERJ-8ENF4752V</field>
+        <field name="DigiKey PN">P47.5KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 1/" tstamps="/582171B3/"/>
+      <tstamp>583E258D</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>LED</value>
+      <footprint>hyperCustom:D_1206_HandSoldering</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E0161</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E0168</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>LMR16030S</value>
+      <libsource lib="lmr16030s" part="LMR16030S"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E0173</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E017F</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>47.5k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Panasonic</field>
+        <field name="Mfg. PN">ERJ-8ENF4752V</field>
+        <field name="DigiKey PN">P47.5KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E01A5</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>2.2uF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E01AF</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Yageo</field>
+        <field name="Mfg. PN">RC1206FR-0712KL</field>
+        <field name="DigiKey PN">311-12.0KFRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E01D3</tstamp>
+    </comp>
+    <comp ref="VR301">
+      <value>100k</value>
+      <fields>
+        <field name="Mfg.">Bourns</field>
+        <field name="Mfg. PN">3299W-1-104LF</field>
+        <field name="DigiKey PN">3299W-104LF-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E01DD</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>DIODESCH</value>
+      <footprint>Diodes_SMD:SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">SK310A-TP</field>
+        <field name="DigiKey PN">SK310A-TPCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E01EA</tstamp>
+    </comp>
+    <comp ref="L301">
+      <value>15uH</value>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">SLF10165T-150M3R13PF</field>
+        <field name="DigiKey PN">445-6479-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E01FC</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2521-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E0216</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>47uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">GRM31CR61A476KE15L</field>
+        <field name="DigiKey PN">490-9673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E0224</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E0249</tstamp>
+    </comp>
+    <comp ref="D303">
+      <value>6V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E0260</tstamp>
+    </comp>
+    <comp ref="D304">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/5 Volt Regulator/" tstamps="/5821AC51/"/>
+      <tstamp>583E0270</tstamp>
+    </comp>
+    <comp ref="F402">
+      <value>W57-XB7A4A10-15</value>
+      <footprint>hyperCustom:Cbreak_TEconn_W57-XB7A4A10-15</footprint>
+      <fields>
+        <field name="Mfg.">TE Connectivity</field>
+        <field name="Mfg. PN">W57-XB7A4A10-15</field>
+        <field name="DigiKey PN">PB534-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>5822B82F</tstamp>
+    </comp>
+    <comp ref="SW402">
+      <value>S1A</value>
+      <footprint>hyperCustom:SW_NKK_S1A</footprint>
+      <fields>
+        <field name="Mfg.">NKK Switches</field>
+        <field name="Mfg. PN">S1A</field>
+        <field name="DigiKey PN">360-2893-ND</field>
+      </fields>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>58322DC6</tstamp>
+    </comp>
+    <comp ref="D401">
+      <value>APT60S20BG</value>
+      <footprint>TO_SOT_Packages_THT:TO-247_Vertical_Neutral123</footprint>
+      <fields>
+        <field name="Mfg.">Microsemi</field>
+        <field name="Mfg. PN">APT60S20BG</field>
+        <field name="DigiKey PN">APT60S20BG-ND</field>
+      </fields>
+      <libsource lib="MainPowerBoard-rescue" part="DIODE-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>58323FCF</tstamp>
+    </comp>
+    <comp ref="SW401">
+      <value>S1A</value>
+      <footprint>hyperCustom:SW_NKK_S1A</footprint>
+      <fields>
+        <field name="Mfg.">NKK Switches</field>
+        <field name="Mfg. PN">S1A</field>
+        <field name="DigiKey PN">360-2893-ND</field>
+      </fields>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>58324766</tstamp>
+    </comp>
+    <comp ref="TP401">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>583276C3</tstamp>
+    </comp>
+    <comp ref="TP404">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>5832774E</tstamp>
+    </comp>
+    <comp ref="TP402">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>58327786</tstamp>
+    </comp>
+    <comp ref="TP403">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>583277B3</tstamp>
+    </comp>
+    <comp ref="F401">
+      <value>W57-XB7A4A10-15</value>
+      <footprint>hyperCustom:Cbreak_TEconn_W57-XB7A4A10-15</footprint>
+      <fields>
+        <field name="Mfg.">TE Connectivity</field>
+        <field name="Mfg. PN">W57-XB7A4A10-15</field>
+        <field name="DigiKey PN">PB534-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>5833C40E</tstamp>
+    </comp>
+    <comp ref="D403">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>583BADDF</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>583BAE4E</tstamp>
+    </comp>
+    <comp ref="D404">
+      <value>50V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>583D65D9</tstamp>
+    </comp>
+    <comp ref="D405">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>583D66FA</tstamp>
+    </comp>
+    <comp ref="D402">
+      <value>25V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/Battery Protection -- 1/" tstamps="/582298AB/"/>
+      <tstamp>583D7BA8</tstamp>
+    </comp>
+    <comp ref="F502">
+      <value>W57-XB7A4A10-15</value>
+      <footprint>hyperCustom:Cbreak_TEconn_W57-XB7A4A10-15</footprint>
+      <fields>
+        <field name="Mfg.">TE Connectivity</field>
+        <field name="Mfg. PN">W57-XB7A4A10-15</field>
+        <field name="DigiKey PN">PB534-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>5822B82F</tstamp>
+    </comp>
+    <comp ref="SW502">
+      <value>S1A</value>
+      <footprint>hyperCustom:SW_NKK_S1A</footprint>
+      <fields>
+        <field name="Mfg.">NKK Switches</field>
+        <field name="Mfg. PN">S1A</field>
+        <field name="DigiKey PN">360-2893-ND</field>
+      </fields>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>58322DC6</tstamp>
+    </comp>
+    <comp ref="D501">
+      <value>APT60S20BG</value>
+      <footprint>TO_SOT_Packages_THT:TO-247_Vertical_Neutral123</footprint>
+      <fields>
+        <field name="Mfg.">Microsemi</field>
+        <field name="Mfg. PN">APT60S20BG</field>
+        <field name="DigiKey PN">APT60S20BG-ND</field>
+      </fields>
+      <libsource lib="MainPowerBoard-rescue" part="DIODE-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>58323FCF</tstamp>
+    </comp>
+    <comp ref="SW501">
+      <value>S1A</value>
+      <footprint>hyperCustom:SW_NKK_S1A</footprint>
+      <fields>
+        <field name="Mfg.">NKK Switches</field>
+        <field name="Mfg. PN">S1A</field>
+        <field name="DigiKey PN">360-2893-ND</field>
+      </fields>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>58324766</tstamp>
+    </comp>
+    <comp ref="TP501">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>583276C3</tstamp>
+    </comp>
+    <comp ref="TP504">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>5832774E</tstamp>
+    </comp>
+    <comp ref="TP502">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>58327786</tstamp>
+    </comp>
+    <comp ref="TP503">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>583277B3</tstamp>
+    </comp>
+    <comp ref="F501">
+      <value>W57-XB7A4A10-15</value>
+      <footprint>hyperCustom:Cbreak_TEconn_W57-XB7A4A10-15</footprint>
+      <fields>
+        <field name="Mfg.">TE Connectivity</field>
+        <field name="Mfg. PN">W57-XB7A4A10-15</field>
+        <field name="DigiKey PN">PB534-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>5833C40E</tstamp>
+    </comp>
+    <comp ref="D503">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>583BADDF</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>583BAE4E</tstamp>
+    </comp>
+    <comp ref="D504">
+      <value>50V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>583D65D9</tstamp>
+    </comp>
+    <comp ref="D505">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>583D66FA</tstamp>
+    </comp>
+    <comp ref="D502">
+      <value>25V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/Battery Protection -- 3/" tstamps="/5822D76D/"/>
+      <tstamp>583D7BA8</tstamp>
+    </comp>
+    <comp ref="F602">
+      <value>W57-XB7A4A10-15</value>
+      <footprint>hyperCustom:Cbreak_TEconn_W57-XB7A4A10-15</footprint>
+      <fields>
+        <field name="Mfg.">TE Connectivity</field>
+        <field name="Mfg. PN">W57-XB7A4A10-15</field>
+        <field name="DigiKey PN">PB534-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>5822B82F</tstamp>
+    </comp>
+    <comp ref="SW602">
+      <value>S1A</value>
+      <footprint>hyperCustom:SW_NKK_S1A</footprint>
+      <fields>
+        <field name="Mfg.">NKK Switches</field>
+        <field name="Mfg. PN">S1A</field>
+        <field name="DigiKey PN">360-2893-ND</field>
+      </fields>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>58322DC6</tstamp>
+    </comp>
+    <comp ref="D601">
+      <value>APT60S20BG</value>
+      <footprint>TO_SOT_Packages_THT:TO-247_Vertical_Neutral123</footprint>
+      <fields>
+        <field name="Mfg.">Microsemi</field>
+        <field name="Mfg. PN">APT60S20BG</field>
+        <field name="DigiKey PN">APT60S20BG-ND</field>
+      </fields>
+      <libsource lib="MainPowerBoard-rescue" part="DIODE-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>58323FCF</tstamp>
+    </comp>
+    <comp ref="SW601">
+      <value>S1A</value>
+      <footprint>hyperCustom:SW_NKK_S1A</footprint>
+      <fields>
+        <field name="Mfg.">NKK Switches</field>
+        <field name="Mfg. PN">S1A</field>
+        <field name="DigiKey PN">360-2893-ND</field>
+      </fields>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>58324766</tstamp>
+    </comp>
+    <comp ref="TP601">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>583276C3</tstamp>
+    </comp>
+    <comp ref="TP604">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>5832774E</tstamp>
+    </comp>
+    <comp ref="TP602">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>58327786</tstamp>
+    </comp>
+    <comp ref="TP603">
+      <value>Testpoint</value>
+      <footprint>hyperCustom:TP_SMT_Keystone</footprint>
+      <libsource lib="testpoint" part="Testpoint"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>583277B3</tstamp>
+    </comp>
+    <comp ref="F601">
+      <value>W57-XB7A4A10-15</value>
+      <footprint>hyperCustom:Cbreak_TEconn_W57-XB7A4A10-15</footprint>
+      <fields>
+        <field name="Mfg.">TE Connectivity</field>
+        <field name="Mfg. PN">W57-XB7A4A10-15</field>
+        <field name="DigiKey PN">PB534-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>5833C40E</tstamp>
+    </comp>
+    <comp ref="D603">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>583BADDF</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>583BAE4E</tstamp>
+    </comp>
+    <comp ref="D604">
+      <value>50V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>583D65D9</tstamp>
+    </comp>
+    <comp ref="D605">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>583D66FA</tstamp>
+    </comp>
+    <comp ref="D602">
+      <value>25V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/Battery Protection -- 2/" tstamps="/5822D438/"/>
+      <tstamp>583D7BA8</tstamp>
+    </comp>
+    <comp ref="U701">
+      <value>ZXTR2012Z-7</value>
+      <footprint>hyperCustom:Reg_SOT89-3_Diodes_PinNames</footprint>
+      <fields>
+        <field name="Mfg.">Diodes Inc.</field>
+        <field name="Mfg. PN">ZXTR2012Z-7</field>
+        <field name="DigiKey PN">ZXTR2012Z-7DICT-ND</field>
+      </fields>
+      <libsource lib="regul" part="LM7812"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>582EED5E</tstamp>
+    </comp>
+    <comp ref="SW701">
+      <value>KS-01Q-01</value>
+      <footprint>hyperCustom:SW_Eswitch_KS-01Q-01</footprint>
+      <fields>
+        <field name="Mfg.">E-Switch</field>
+        <field name="Mfg. PN">KS-01Q-01</field>
+        <field name="DigiKey PN">EG4791-ND</field>
+      </fields>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>582F035F</tstamp>
+    </comp>
+    <comp ref="U702">
+      <value>TLV272IP</value>
+      <footprint>hyperCustom:OpAmp_DIP_Pitch_2-54mm</footprint>
+      <fields>
+        <field name="Mfg.">Texas Instruments</field>
+        <field name="Mfg. PN">TLV272IP</field>
+        <field name="DigiKey PN">296-12671-5-ND</field>
+      </fields>
+      <libsource lib="MainPowerBoard-rescue" part="TL071-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>583004CD</tstamp>
+    </comp>
+    <comp ref="R702">
+      <value>500k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>58300625</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>100k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>58300675</tstamp>
+    </comp>
+    <comp ref="C702">
+      <value>C</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="C-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>58302549</tstamp>
+    </comp>
+    <comp ref="C701">
+      <value>C</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="C-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>5830278C</tstamp>
+    </comp>
+    <comp ref="U703">
+      <value>LTC2950-1</value>
+      <libsource lib="MainPowerBoard-cache" part="LTC2950-1"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>583AA3A9</tstamp>
+    </comp>
+    <comp ref="R704">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>583B57D1</tstamp>
+    </comp>
+    <comp ref="D701">
+      <value>LED - RED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>583D8105</tstamp>
+    </comp>
+    <comp ref="R705">
+      <value>R</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>583D8313</tstamp>
+    </comp>
+    <comp ref="D702">
+      <value>LED - GRN</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>583D8463</tstamp>
+    </comp>
+    <comp ref="R703">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/On-Off Switch/" tstamps="/582EB20F/"/>
+      <tstamp>583D8662</tstamp>
+    </comp>
+    <comp ref="D802">
+      <value>LED</value>
+      <footprint>hyperCustom:D_1206_HandSoldering</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>5833A6D6</tstamp>
+    </comp>
+    <comp ref="R804">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>5833A728</tstamp>
+    </comp>
+    <comp ref="U801">
+      <value>LMR16030S</value>
+      <libsource lib="lmr16030s" part="LMR16030S"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583A8678</tstamp>
+    </comp>
+    <comp ref="C801">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583A8A9A</tstamp>
+    </comp>
+    <comp ref="C802">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583A8B4B</tstamp>
+    </comp>
+    <comp ref="C803">
+      <value>2.2uF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583A8CF1</tstamp>
+    </comp>
+    <comp ref="R803">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW080545K3FKEA</field>
+        <field name="DigiKey PN">541-20.0KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583B2967</tstamp>
+    </comp>
+    <comp ref="VR801">
+      <value>1M</value>
+      <fields>
+        <field name="Mfg.">Bourns</field>
+        <field name="Mfg. PN">3299W-1-105LF</field>
+        <field name="DigiKey PN">3299W-105LF-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583B2A2E</tstamp>
+    </comp>
+    <comp ref="D801">
+      <value>DIODESCH</value>
+      <footprint>Diodes_SMD:SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">SK310A-TP</field>
+        <field name="DigiKey PN">SK310A-TPCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583B2BCB</tstamp>
+    </comp>
+    <comp ref="L801">
+      <value>39uH</value>
+      <fields>
+        <field name="Mfg.">Sumida</field>
+        <field name="Mfg. PN">CDRH127/LDNP-470MC</field>
+        <field name="DigiKey PN">308-1339-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583B2D59</tstamp>
+    </comp>
+    <comp ref="C804">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2521-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583B399E</tstamp>
+    </comp>
+    <comp ref="C805">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583B4188</tstamp>
+    </comp>
+    <comp ref="C806">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583B43AD</tstamp>
+    </comp>
+    <comp ref="R801">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583D36BC</tstamp>
+    </comp>
+    <comp ref="D803">
+      <value>18V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583D8D48</tstamp>
+    </comp>
+    <comp ref="D804">
+      <value>30V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583D986C</tstamp>
+    </comp>
+    <comp ref="D805">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583D99E5</tstamp>
+    </comp>
+    <comp ref="R802">
+      <value>47.5k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Panasonic</field>
+        <field name="Mfg. PN">ERJ-8ENF4752V</field>
+        <field name="DigiKey PN">P47.5KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 2/" tstamps="/583A870A/"/>
+      <tstamp>583E258D</tstamp>
+    </comp>
+    <comp ref="D902">
+      <value>LED</value>
+      <footprint>hyperCustom:D_1206_HandSoldering</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>5833A6D6</tstamp>
+    </comp>
+    <comp ref="R904">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>5833A728</tstamp>
+    </comp>
+    <comp ref="U901">
+      <value>LMR16030S</value>
+      <libsource lib="lmr16030s" part="LMR16030S"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583A8678</tstamp>
+    </comp>
+    <comp ref="C901">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583A8A9A</tstamp>
+    </comp>
+    <comp ref="C902">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583A8B4B</tstamp>
+    </comp>
+    <comp ref="C903">
+      <value>2.2uF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583A8CF1</tstamp>
+    </comp>
+    <comp ref="R903">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW080545K3FKEA</field>
+        <field name="DigiKey PN">541-20.0KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583B2967</tstamp>
+    </comp>
+    <comp ref="VR901">
+      <value>1M</value>
+      <fields>
+        <field name="Mfg.">Bourns</field>
+        <field name="Mfg. PN">3299W-1-105LF</field>
+        <field name="DigiKey PN">3299W-105LF-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583B2A2E</tstamp>
+    </comp>
+    <comp ref="D901">
+      <value>DIODESCH</value>
+      <footprint>Diodes_SMD:SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">SK310A-TP</field>
+        <field name="DigiKey PN">SK310A-TPCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583B2BCB</tstamp>
+    </comp>
+    <comp ref="L901">
+      <value>39uH</value>
+      <fields>
+        <field name="Mfg.">Sumida</field>
+        <field name="Mfg. PN">CDRH127/LDNP-470MC</field>
+        <field name="DigiKey PN">308-1339-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583B2D59</tstamp>
+    </comp>
+    <comp ref="C904">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2521-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583B399E</tstamp>
+    </comp>
+    <comp ref="C905">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583B4188</tstamp>
+    </comp>
+    <comp ref="C906">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583B43AD</tstamp>
+    </comp>
+    <comp ref="R901">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583D36BC</tstamp>
+    </comp>
+    <comp ref="D903">
+      <value>18V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583D8D48</tstamp>
+    </comp>
+    <comp ref="D904">
+      <value>30V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583D986C</tstamp>
+    </comp>
+    <comp ref="D905">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583D99E5</tstamp>
+    </comp>
+    <comp ref="R902">
+      <value>47.5k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Panasonic</field>
+        <field name="Mfg. PN">ERJ-8ENF4752V</field>
+        <field name="DigiKey PN">P47.5KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 3/" tstamps="/583A88E6/"/>
+      <tstamp>583E258D</tstamp>
+    </comp>
+    <comp ref="D1002">
+      <value>LED</value>
+      <footprint>hyperCustom:D_1206_HandSoldering</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>5833A6D6</tstamp>
+    </comp>
+    <comp ref="R1004">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>5833A728</tstamp>
+    </comp>
+    <comp ref="U1001">
+      <value>LMR16030S</value>
+      <libsource lib="lmr16030s" part="LMR16030S"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583A8678</tstamp>
+    </comp>
+    <comp ref="C1001">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583A8A9A</tstamp>
+    </comp>
+    <comp ref="C1002">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583A8B4B</tstamp>
+    </comp>
+    <comp ref="C1003">
+      <value>2.2uF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583A8CF1</tstamp>
+    </comp>
+    <comp ref="R1003">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW080545K3FKEA</field>
+        <field name="DigiKey PN">541-20.0KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583B2967</tstamp>
+    </comp>
+    <comp ref="VR1001">
+      <value>1M</value>
+      <fields>
+        <field name="Mfg.">Bourns</field>
+        <field name="Mfg. PN">3299W-1-105LF</field>
+        <field name="DigiKey PN">3299W-105LF-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583B2A2E</tstamp>
+    </comp>
+    <comp ref="D1001">
+      <value>DIODESCH</value>
+      <footprint>Diodes_SMD:SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">SK310A-TP</field>
+        <field name="DigiKey PN">SK310A-TPCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583B2BCB</tstamp>
+    </comp>
+    <comp ref="L1001">
+      <value>39uH</value>
+      <fields>
+        <field name="Mfg.">Sumida</field>
+        <field name="Mfg. PN">CDRH127/LDNP-470MC</field>
+        <field name="DigiKey PN">308-1339-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583B2D59</tstamp>
+    </comp>
+    <comp ref="C1004">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2521-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583B399E</tstamp>
+    </comp>
+    <comp ref="C1005">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583B4188</tstamp>
+    </comp>
+    <comp ref="C1006">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583B43AD</tstamp>
+    </comp>
+    <comp ref="R1001">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583D36BC</tstamp>
+    </comp>
+    <comp ref="D1003">
+      <value>18V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583D8D48</tstamp>
+    </comp>
+    <comp ref="D1004">
+      <value>30V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583D986C</tstamp>
+    </comp>
+    <comp ref="D1005">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583D99E5</tstamp>
+    </comp>
+    <comp ref="R1002">
+      <value>47.5k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Panasonic</field>
+        <field name="Mfg. PN">ERJ-8ENF4752V</field>
+        <field name="DigiKey PN">P47.5KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 4/" tstamps="/583A8D1D/"/>
+      <tstamp>583E258D</tstamp>
+    </comp>
+    <comp ref="D1102">
+      <value>LED</value>
+      <footprint>hyperCustom:D_1206_HandSoldering</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>5833A6D6</tstamp>
+    </comp>
+    <comp ref="R1104">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>5833A728</tstamp>
+    </comp>
+    <comp ref="U1101">
+      <value>LMR16030S</value>
+      <libsource lib="lmr16030s" part="LMR16030S"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583A8678</tstamp>
+    </comp>
+    <comp ref="C1101">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583A8A9A</tstamp>
+    </comp>
+    <comp ref="C1102">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583A8B4B</tstamp>
+    </comp>
+    <comp ref="C1103">
+      <value>2.2uF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583A8CF1</tstamp>
+    </comp>
+    <comp ref="R1103">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW080545K3FKEA</field>
+        <field name="DigiKey PN">541-20.0KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583B2967</tstamp>
+    </comp>
+    <comp ref="VR1101">
+      <value>1M</value>
+      <fields>
+        <field name="Mfg.">Bourns</field>
+        <field name="Mfg. PN">3299W-1-105LF</field>
+        <field name="DigiKey PN">3299W-105LF-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583B2A2E</tstamp>
+    </comp>
+    <comp ref="D1101">
+      <value>DIODESCH</value>
+      <footprint>Diodes_SMD:SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">SK310A-TP</field>
+        <field name="DigiKey PN">SK310A-TPCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583B2BCB</tstamp>
+    </comp>
+    <comp ref="L1101">
+      <value>39uH</value>
+      <fields>
+        <field name="Mfg.">Sumida</field>
+        <field name="Mfg. PN">CDRH127/LDNP-470MC</field>
+        <field name="DigiKey PN">308-1339-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583B2D59</tstamp>
+    </comp>
+    <comp ref="C1104">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2521-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583B399E</tstamp>
+    </comp>
+    <comp ref="C1105">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583B4188</tstamp>
+    </comp>
+    <comp ref="C1106">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583B43AD</tstamp>
+    </comp>
+    <comp ref="R1101">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583D36BC</tstamp>
+    </comp>
+    <comp ref="D1103">
+      <value>18V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583D8D48</tstamp>
+    </comp>
+    <comp ref="D1104">
+      <value>30V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583D986C</tstamp>
+    </comp>
+    <comp ref="D1105">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583D99E5</tstamp>
+    </comp>
+    <comp ref="R1102">
+      <value>47.5k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Panasonic</field>
+        <field name="Mfg. PN">ERJ-8ENF4752V</field>
+        <field name="DigiKey PN">P47.5KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 5/" tstamps="/583A8D22/"/>
+      <tstamp>583E258D</tstamp>
+    </comp>
+    <comp ref="D1202">
+      <value>LED</value>
+      <footprint>hyperCustom:D_1206_HandSoldering</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>5833A6D6</tstamp>
+    </comp>
+    <comp ref="R1204">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>5833A728</tstamp>
+    </comp>
+    <comp ref="U1201">
+      <value>LMR16030S</value>
+      <libsource lib="lmr16030s" part="LMR16030S"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583A8678</tstamp>
+    </comp>
+    <comp ref="C1201">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583A8A9A</tstamp>
+    </comp>
+    <comp ref="C1202">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583A8B4B</tstamp>
+    </comp>
+    <comp ref="C1203">
+      <value>2.2uF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583A8CF1</tstamp>
+    </comp>
+    <comp ref="R1203">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW080545K3FKEA</field>
+        <field name="DigiKey PN">541-20.0KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583B2967</tstamp>
+    </comp>
+    <comp ref="VR1201">
+      <value>1M</value>
+      <fields>
+        <field name="Mfg.">Bourns</field>
+        <field name="Mfg. PN">3299W-1-105LF</field>
+        <field name="DigiKey PN">3299W-105LF-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583B2A2E</tstamp>
+    </comp>
+    <comp ref="D1201">
+      <value>DIODESCH</value>
+      <footprint>Diodes_SMD:SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">SK310A-TP</field>
+        <field name="DigiKey PN">SK310A-TPCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583B2BCB</tstamp>
+    </comp>
+    <comp ref="L1201">
+      <value>39uH</value>
+      <fields>
+        <field name="Mfg.">Sumida</field>
+        <field name="Mfg. PN">CDRH127/LDNP-470MC</field>
+        <field name="DigiKey PN">308-1339-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583B2D59</tstamp>
+    </comp>
+    <comp ref="C1204">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2521-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583B399E</tstamp>
+    </comp>
+    <comp ref="C1205">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583B4188</tstamp>
+    </comp>
+    <comp ref="C1206">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583B43AD</tstamp>
+    </comp>
+    <comp ref="R1201">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583D36BC</tstamp>
+    </comp>
+    <comp ref="D1203">
+      <value>18V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583D8D48</tstamp>
+    </comp>
+    <comp ref="D1204">
+      <value>30V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583D986C</tstamp>
+    </comp>
+    <comp ref="D1205">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583D99E5</tstamp>
+    </comp>
+    <comp ref="R1202">
+      <value>47.5k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Panasonic</field>
+        <field name="Mfg. PN">ERJ-8ENF4752V</field>
+        <field name="DigiKey PN">P47.5KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 6/" tstamps="/583A8D27/"/>
+      <tstamp>583E258D</tstamp>
+    </comp>
+    <comp ref="D1302">
+      <value>LED</value>
+      <footprint>hyperCustom:D_1206_HandSoldering</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>5833A6D6</tstamp>
+    </comp>
+    <comp ref="R1304">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>5833A728</tstamp>
+    </comp>
+    <comp ref="U1301">
+      <value>LMR16030S</value>
+      <libsource lib="lmr16030s" part="LMR16030S"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583A8678</tstamp>
+    </comp>
+    <comp ref="C1301">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583A8A9A</tstamp>
+    </comp>
+    <comp ref="C1302">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583A8B4B</tstamp>
+    </comp>
+    <comp ref="C1303">
+      <value>2.2uF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583A8CF1</tstamp>
+    </comp>
+    <comp ref="R1303">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW080545K3FKEA</field>
+        <field name="DigiKey PN">541-20.0KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583B2967</tstamp>
+    </comp>
+    <comp ref="VR1301">
+      <value>1M</value>
+      <fields>
+        <field name="Mfg.">Bourns</field>
+        <field name="Mfg. PN">3299W-1-105LF</field>
+        <field name="DigiKey PN">3299W-105LF-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583B2A2E</tstamp>
+    </comp>
+    <comp ref="D1301">
+      <value>DIODESCH</value>
+      <footprint>Diodes_SMD:SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">SK310A-TP</field>
+        <field name="DigiKey PN">SK310A-TPCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583B2BCB</tstamp>
+    </comp>
+    <comp ref="L1301">
+      <value>39uH</value>
+      <fields>
+        <field name="Mfg.">Sumida</field>
+        <field name="Mfg. PN">CDRH127/LDNP-470MC</field>
+        <field name="DigiKey PN">308-1339-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583B2D59</tstamp>
+    </comp>
+    <comp ref="C1304">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2521-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583B399E</tstamp>
+    </comp>
+    <comp ref="C1305">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583B4188</tstamp>
+    </comp>
+    <comp ref="C1306">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583B43AD</tstamp>
+    </comp>
+    <comp ref="R1301">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583D36BC</tstamp>
+    </comp>
+    <comp ref="D1303">
+      <value>18V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583D8D48</tstamp>
+    </comp>
+    <comp ref="D1304">
+      <value>30V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583D986C</tstamp>
+    </comp>
+    <comp ref="D1305">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583D99E5</tstamp>
+    </comp>
+    <comp ref="R1302">
+      <value>47.5k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Panasonic</field>
+        <field name="Mfg. PN">ERJ-8ENF4752V</field>
+        <field name="DigiKey PN">P47.5KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 7/" tstamps="/583A9416/"/>
+      <tstamp>583E258D</tstamp>
+    </comp>
+    <comp ref="D1402">
+      <value>LED</value>
+      <footprint>hyperCustom:D_1206_HandSoldering</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>5833A6D6</tstamp>
+    </comp>
+    <comp ref="R1404">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>5833A728</tstamp>
+    </comp>
+    <comp ref="U1401">
+      <value>LMR16030S</value>
+      <libsource lib="lmr16030s" part="LMR16030S"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583A8678</tstamp>
+    </comp>
+    <comp ref="C1401">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583A8A9A</tstamp>
+    </comp>
+    <comp ref="C1402">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-4497-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583A8B4B</tstamp>
+    </comp>
+    <comp ref="C1403">
+      <value>2.2uF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2673-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583A8CF1</tstamp>
+    </comp>
+    <comp ref="R1403">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW080545K3FKEA</field>
+        <field name="DigiKey PN">541-20.0KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583B2967</tstamp>
+    </comp>
+    <comp ref="VR1401">
+      <value>1M</value>
+      <fields>
+        <field name="Mfg.">Bourns</field>
+        <field name="Mfg. PN">3299W-1-105LF</field>
+        <field name="DigiKey PN">3299W-105LF-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583B2A2E</tstamp>
+    </comp>
+    <comp ref="D1401">
+      <value>DIODESCH</value>
+      <footprint>Diodes_SMD:SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">SK310A-TP</field>
+        <field name="DigiKey PN">SK310A-TPCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583B2BCB</tstamp>
+    </comp>
+    <comp ref="L1401">
+      <value>39uH</value>
+      <fields>
+        <field name="Mfg.">Sumida</field>
+        <field name="Mfg. PN">CDRH127/LDNP-470MC</field>
+        <field name="DigiKey PN">308-1339-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583B2D59</tstamp>
+    </comp>
+    <comp ref="C1404">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">TDK</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">445-2521-2-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583B399E</tstamp>
+    </comp>
+    <comp ref="C1405">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583B4188</tstamp>
+    </comp>
+    <comp ref="C1406">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Murata</field>
+        <field name="Mfg. PN">C3225X7R2A225K230AB</field>
+        <field name="DigiKey PN">490-6521-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583B43AD</tstamp>
+    </comp>
+    <comp ref="R1401">
+      <value>0</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583D36BC</tstamp>
+    </comp>
+    <comp ref="D1403">
+      <value>18V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583D8D48</tstamp>
+    </comp>
+    <comp ref="D1404">
+      <value>30V</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583D986C</tstamp>
+    </comp>
+    <comp ref="D1405">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583D99E5</tstamp>
+    </comp>
+    <comp ref="R1402">
+      <value>47.5k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Panasonic</field>
+        <field name="Mfg. PN">ERJ-8ENF4752V</field>
+        <field name="DigiKey PN">P47.5KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/24 Volt Regulator -- 8/" tstamps="/583A941B/"/>
+      <tstamp>583E258D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MainPowerBoard-rescue" part="C-RESCUE-MainPowerBoard">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-MainPowerBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MainPowerBoard-rescue" part="DIODE-RESCUE-MainPowerBoard">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-RESCUE-MainPowerBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MainPowerBoard-rescue" part="LED-RESCUE-MainPowerBoard">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-MainPowerBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MainPowerBoard-rescue" part="R-RESCUE-MainPowerBoard">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-MainPowerBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MainPowerBoard-rescue" part="TL071-RESCUE-MainPowerBoard">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL071-RESCUE-MainPowerBoard</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="passive"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="DIODE">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="DIODESCH">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPST">
+      <description>Interrupteur simple</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="7805">
+      <aliases>
+        <alias>LM7805</alias>
+        <alias>LM7812</alias>
+        <alias>78L05</alias>
+      </aliases>
+      <description>Linear Regulator +5V</description>
+      <docs>regulator\lm78xx.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7805</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VI" name="VI" type="input"/>
+        <pin num="VO" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmr16030s" part="LMR16030S">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMR16030S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="input"/>
+        <pin num="2" name="VIN" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="RT/SYNC" type="input"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="SS" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="SW" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="testpoint" part="Testpoint">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">Testpoint</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MainPowerBoard-cache" part="LTC2950-1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC2950-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="~PB" type="input"/>
+        <pin num="3" name="ONT" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~INT" type="input"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="OFFT" type="input"/>
+        <pin num="8" name="~KILL" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MainPowerBoard-rescue">
+      <uri>/Users/jmassucco17/Documents/Northeastern/2016 Fall/OpenLoop/full_electrical/MainPowerBoard/MainPowerBoard-rescue.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Users/jmassucco17/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Users/jmassucco17/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/Users/jmassucco17/Library/Application Support/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="MainPowerBoard-cache">
+      <uri>/Users/jmassucco17/Documents/Northeastern/2016 Fall/OpenLoop/full_electrical/MainPowerBoard/MainPowerBoard-cache.lib</uri>
+    </library>
+    <library logical="testpoint">
+      <uri>/Users/jmassucco17/Documents/Northeastern/2016 Fall/OpenLoop/full_electrical/MainPowerBoard/testpoint.lib</uri>
+    </library>
+    <library logical="lmr16030s">
+      <uri>/Users/jmassucco17/Documents/Northeastern/2016 Fall/OpenLoop/full_electrical/MainPowerBoard/lmr16030s.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/48V0_FROM_LINE">
+      <node ref="J104" pin="2"/>
+      <node ref="J104" pin="1"/>
+      <node ref="J105" pin="2"/>
+      <node ref="J105" pin="1"/>
+      <node ref="J103" pin="6"/>
+      <node ref="J103" pin="5"/>
+      <node ref="J102" pin="6"/>
+      <node ref="J102" pin="5"/>
+      <node ref="J101" pin="8"/>
+      <node ref="J101" pin="7"/>
+    </net>
+    <net code="2" name="Net-(J107-Pad3)">
+      <node ref="J107" pin="3"/>
+      <node ref="R110" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J106-Pad4)">
+      <node ref="J106" pin="4"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J106-Pad3)">
+      <node ref="R103" pin="2"/>
+      <node ref="J106" pin="3"/>
+    </net>
+    <net code="5" name="Net-(J106-Pad1)">
+      <node ref="R101" pin="2"/>
+      <node ref="J106" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J106-Pad2)">
+      <node ref="J106" pin="2"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J107-Pad5)">
+      <node ref="J107" pin="5"/>
+      <node ref="R112" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J107-Pad2)">
+      <node ref="R109" pin="2"/>
+      <node ref="J107" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J107-Pad4)">
+      <node ref="R111" pin="2"/>
+      <node ref="J107" pin="4"/>
+    </net>
+    <net code="10" name="Net-(J107-Pad1)">
+      <node ref="R108" pin="2"/>
+      <node ref="J107" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J107-Pad6)">
+      <node ref="R113" pin="2"/>
+      <node ref="J107" pin="6"/>
+    </net>
+    <net code="12" name="Net-(J108-Pad2)">
+      <node ref="J108" pin="2"/>
+      <node ref="R115" pin="2"/>
+    </net>
+    <net code="13" name="/Battery Protection -- 2/VCC_BATT_COMB">
+      <node ref="R601" pin="1"/>
+      <node ref="D604" pin="2"/>
+      <node ref="D605" pin="2"/>
+      <node ref="SW602" pin="2"/>
+      <node ref="R106" pin="2"/>
+    </net>
+    <net code="14" name="/Battery Protection -- 1/VCC_BATT_COMB">
+      <node ref="D404" pin="2"/>
+      <node ref="SW402" pin="2"/>
+      <node ref="R105" pin="2"/>
+      <node ref="D405" pin="2"/>
+      <node ref="R401" pin="1"/>
+    </net>
+    <net code="15" name="Net-(J108-Pad1)">
+      <node ref="R114" pin="2"/>
+      <node ref="J108" pin="1"/>
+    </net>
+    <net code="16" name="Net-(J108-Pad3)">
+      <node ref="J108" pin="3"/>
+      <node ref="R116" pin="2"/>
+    </net>
+    <net code="17" name="Net-(J108-Pad4)">
+      <node ref="R117" pin="2"/>
+      <node ref="J108" pin="4"/>
+    </net>
+    <net code="18" name="/Battery Protection -- 3/VCC_BATT_COMB">
+      <node ref="R107" pin="2"/>
+      <node ref="D505" pin="2"/>
+      <node ref="R501" pin="1"/>
+      <node ref="D504" pin="2"/>
+      <node ref="SW502" pin="2"/>
+    </net>
+    <net code="19" name="/24 Volt Regulator -- 1/24V0_REG">
+      <node ref="VR201" pin="3"/>
+      <node ref="J112" pin="1"/>
+      <node ref="J111" pin="1"/>
+      <node ref="C205" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="L201" pin="2"/>
+      <node ref="D205" pin="2"/>
+      <node ref="J110" pin="1"/>
+      <node ref="D204" pin="2"/>
+      <node ref="R204" pin="1"/>
+    </net>
+    <net code="20" name="/24 Volt Regulator -- 2/24V0_REG">
+      <node ref="D804" pin="2"/>
+      <node ref="VR801" pin="3"/>
+      <node ref="C805" pin="1"/>
+      <node ref="C806" pin="1"/>
+      <node ref="D805" pin="2"/>
+      <node ref="L801" pin="2"/>
+      <node ref="J113" pin="1"/>
+      <node ref="J114" pin="1"/>
+      <node ref="R804" pin="1"/>
+    </net>
+    <net code="21" name="/24 Volt Regulator -- 3/24V0_REG">
+      <node ref="J115" pin="1"/>
+      <node ref="J116" pin="1"/>
+      <node ref="J117" pin="1"/>
+      <node ref="VR901" pin="3"/>
+      <node ref="C906" pin="1"/>
+      <node ref="D905" pin="2"/>
+      <node ref="R904" pin="1"/>
+      <node ref="D904" pin="2"/>
+      <node ref="C905" pin="1"/>
+      <node ref="L901" pin="2"/>
+    </net>
+    <net code="22" name="/24 Volt Regulator -- 4/24V0_REG">
+      <node ref="VR1001" pin="3"/>
+      <node ref="D1005" pin="2"/>
+      <node ref="R1004" pin="1"/>
+      <node ref="J119" pin="1"/>
+      <node ref="J118" pin="1"/>
+      <node ref="C1005" pin="1"/>
+      <node ref="C1006" pin="1"/>
+      <node ref="D1004" pin="2"/>
+      <node ref="L1001" pin="2"/>
+    </net>
+    <net code="23" name="/24 Volt Regulator -- 5/24V0_REG">
+      <node ref="D1104" pin="2"/>
+      <node ref="R1104" pin="1"/>
+      <node ref="D1105" pin="2"/>
+      <node ref="J120" pin="1"/>
+      <node ref="J121" pin="1"/>
+      <node ref="J122" pin="1"/>
+      <node ref="C1106" pin="1"/>
+      <node ref="VR1101" pin="3"/>
+      <node ref="L1101" pin="2"/>
+      <node ref="C1105" pin="1"/>
+    </net>
+    <net code="24" name="/24 Volt Regulator -- 6/24V0_REG">
+      <node ref="D1204" pin="2"/>
+      <node ref="C1206" pin="1"/>
+      <node ref="D1205" pin="2"/>
+      <node ref="C1205" pin="1"/>
+      <node ref="J123" pin="1"/>
+      <node ref="J124" pin="1"/>
+      <node ref="L1201" pin="2"/>
+      <node ref="VR1201" pin="3"/>
+      <node ref="R1204" pin="1"/>
+    </net>
+    <net code="25" name="/Battery Protection -- 1/VCC_BATT">
+      <node ref="D401" pin="1"/>
+      <node ref="J101" pin="1"/>
+      <node ref="J101" pin="2"/>
+      <node ref="TP401" pin="~"/>
+    </net>
+    <net code="26" name="/Battery Protection -- 1/GND_BATT">
+      <node ref="TP402" pin="~"/>
+      <node ref="F401" pin="1"/>
+      <node ref="J101" pin="3"/>
+      <node ref="J101" pin="4"/>
+    </net>
+    <net code="27" name="/Battery Protection -- 3/VCC_BATT">
+      <node ref="TP501" pin="~"/>
+      <node ref="J103" pin="1"/>
+      <node ref="J103" pin="2"/>
+      <node ref="D501" pin="1"/>
+    </net>
+    <net code="28" name="/Battery Protection -- 3/GND_BATT">
+      <node ref="TP502" pin="~"/>
+      <node ref="F501" pin="1"/>
+      <node ref="J103" pin="3"/>
+      <node ref="J103" pin="4"/>
+    </net>
+    <net code="29" name="/GND_FROM_LINE">
+      <node ref="J101" pin="6"/>
+      <node ref="J101" pin="5"/>
+      <node ref="J103" pin="7"/>
+      <node ref="J103" pin="8"/>
+      <node ref="J105" pin="3"/>
+      <node ref="J105" pin="4"/>
+      <node ref="J104" pin="3"/>
+      <node ref="J104" pin="4"/>
+      <node ref="J102" pin="8"/>
+      <node ref="J102" pin="7"/>
+    </net>
+    <net code="30" name="/24 Volt Regulator -- 7/24V0_REG">
+      <node ref="D1305" pin="2"/>
+      <node ref="D1304" pin="2"/>
+      <node ref="L1301" pin="2"/>
+      <node ref="J126" pin="1"/>
+      <node ref="J125" pin="1"/>
+      <node ref="R1304" pin="1"/>
+      <node ref="C1306" pin="1"/>
+      <node ref="C1305" pin="1"/>
+      <node ref="VR1301" pin="3"/>
+    </net>
+    <net code="31" name="/24 Volt Regulator -- 8/24V0_REG">
+      <node ref="J128" pin="1"/>
+      <node ref="J127" pin="1"/>
+      <node ref="J129" pin="1"/>
+      <node ref="D1405" pin="2"/>
+      <node ref="R1404" pin="1"/>
+      <node ref="C1405" pin="1"/>
+      <node ref="L1401" pin="2"/>
+      <node ref="C1406" pin="1"/>
+      <node ref="D1404" pin="2"/>
+      <node ref="VR1401" pin="3"/>
+    </net>
+    <net code="32" name="/5 Volt Regulator/5V0_REG">
+      <node ref="D303" pin="2"/>
+      <node ref="J109" pin="2"/>
+      <node ref="J109" pin="1"/>
+      <node ref="C304" pin="1"/>
+      <node ref="L301" pin="2"/>
+      <node ref="VR301" pin="3"/>
+      <node ref="D304" pin="2"/>
+      <node ref="R304" pin="1"/>
+    </net>
+    <net code="33" name="/Battery Protection -- 2/VCC_BATT">
+      <node ref="D601" pin="1"/>
+      <node ref="TP601" pin="~"/>
+      <node ref="J102" pin="1"/>
+      <node ref="J102" pin="2"/>
+    </net>
+    <net code="34" name="/Battery Protection -- 2/GND_BATT">
+      <node ref="F601" pin="1"/>
+      <node ref="TP602" pin="~"/>
+      <node ref="J102" pin="3"/>
+      <node ref="J102" pin="4"/>
+    </net>
+    <net code="35" name="/On-Off Switch/BBB_ONOFF">
+      <node ref="U702" pin="3"/>
+      <node ref="R115" pin="1"/>
+      <node ref="R114" pin="1"/>
+      <node ref="R704" pin="2"/>
+    </net>
+    <net code="36" name="/24 Volt Regulator -- 1/ENABLE">
+      <node ref="R301" pin="2"/>
+      <node ref="R1001" pin="2"/>
+      <node ref="R1201" pin="2"/>
+      <node ref="U703" pin="6"/>
+      <node ref="R108" pin="1"/>
+      <node ref="R1401" pin="2"/>
+      <node ref="R801" pin="2"/>
+      <node ref="R901" pin="2"/>
+      <node ref="R705" pin="2"/>
+      <node ref="R1101" pin="2"/>
+      <node ref="R1301" pin="2"/>
+      <node ref="D702" pin="1"/>
+      <node ref="R703" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="37" name="/On-Off Switch/SW_HI">
+      <node ref="R110" pin="1"/>
+      <node ref="U703" pin="2"/>
+      <node ref="SW701" pin="2"/>
+    </net>
+    <net code="38" name="/On-Off Switch/BBB_INT">
+      <node ref="U703" pin="5"/>
+      <node ref="R116" pin="1"/>
+    </net>
+    <net code="39" name="/On-Off Switch/VBATT">
+      <node ref="U1001" pin="2"/>
+      <node ref="C1001" pin="1"/>
+      <node ref="C1002" pin="1"/>
+      <node ref="U801" pin="2"/>
+      <node ref="C801" pin="1"/>
+      <node ref="C802" pin="1"/>
+      <node ref="C902" pin="1"/>
+      <node ref="C901" pin="1"/>
+      <node ref="U1101" pin="2"/>
+      <node ref="C1101" pin="1"/>
+      <node ref="C1102" pin="1"/>
+      <node ref="U901" pin="2"/>
+      <node ref="U701" pin="VI"/>
+      <node ref="U201" pin="2"/>
+      <node ref="U1301" pin="2"/>
+      <node ref="U1401" pin="2"/>
+      <node ref="C1401" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="C1402" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="R118" pin="2"/>
+      <node ref="R118" pin="1"/>
+      <node ref="R107" pin="1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="R105" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C1301" pin="1"/>
+      <node ref="C1302" pin="1"/>
+      <node ref="TP101" pin="~"/>
+      <node ref="U1201" pin="2"/>
+      <node ref="C301" pin="1"/>
+      <node ref="U301" pin="2"/>
+      <node ref="C1201" pin="1"/>
+      <node ref="C1202" pin="1"/>
+    </net>
+    <net code="40" name="Net-(C204-Pad1)">
+      <node ref="U201" pin="1"/>
+      <node ref="C204" pin="1"/>
+    </net>
+    <net code="41" name="Net-(VR201-Pad1)">
+      <node ref="VR201" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C204-Pad2)">
+      <node ref="L201" pin="1"/>
+      <node ref="U201" pin="8"/>
+      <node ref="D201" pin="2"/>
+      <node ref="C204" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D202-Pad2)">
+      <node ref="D202" pin="2"/>
+      <node ref="D203" pin="2"/>
+    </net>
+    <net code="44" name="Net-(R201-Pad1)">
+      <node ref="U201" pin="3"/>
+      <node ref="R201" pin="1"/>
+    </net>
+    <net code="45" name="Net-(R202-Pad1)">
+      <node ref="U201" pin="4"/>
+      <node ref="R202" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D202-Pad1)">
+      <node ref="R204" pin="2"/>
+      <node ref="D202" pin="1"/>
+    </net>
+    <net code="47" name="Net-(R203-Pad1)">
+      <node ref="VR201" pin="2"/>
+      <node ref="U201" pin="5"/>
+      <node ref="R203" pin="1"/>
+    </net>
+    <net code="48" name="Net-(C203-Pad1)">
+      <node ref="U201" pin="6"/>
+      <node ref="C203" pin="1"/>
+    </net>
+    <net code="49" name="Net-(VR301-Pad1)">
+      <node ref="VR301" pin="1"/>
+    </net>
+    <net code="50" name="Net-(C303-Pad1)">
+      <node ref="U301" pin="1"/>
+      <node ref="C303" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C303-Pad2)">
+      <node ref="C303" pin="2"/>
+      <node ref="L301" pin="1"/>
+      <node ref="U301" pin="8"/>
+      <node ref="D301" pin="2"/>
+    </net>
+    <net code="52" name="Net-(R301-Pad1)">
+      <node ref="R301" pin="1"/>
+      <node ref="U301" pin="3"/>
+    </net>
+    <net code="53" name="Net-(R302-Pad1)">
+      <node ref="R302" pin="1"/>
+      <node ref="U301" pin="4"/>
+    </net>
+    <net code="54" name="Net-(D302-Pad1)">
+      <node ref="R304" pin="2"/>
+      <node ref="D302" pin="1"/>
+    </net>
+    <net code="55" name="Net-(R303-Pad1)">
+      <node ref="R303" pin="1"/>
+      <node ref="VR301" pin="2"/>
+      <node ref="U301" pin="5"/>
+    </net>
+    <net code="56" name="Net-(C302-Pad1)">
+      <node ref="C302" pin="1"/>
+      <node ref="U301" pin="6"/>
+    </net>
+    <net code="57" name="Net-(F401-Pad2)">
+      <node ref="SW401" pin="1"/>
+      <node ref="TP403" pin="~"/>
+      <node ref="F401" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D402-Pad1)">
+      <node ref="D403" pin="1"/>
+      <node ref="D402" pin="1"/>
+    </net>
+    <net code="59" name="Net-(D402-Pad2)">
+      <node ref="D402" pin="2"/>
+      <node ref="R401" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D401-Pad2)">
+      <node ref="F402" pin="1"/>
+      <node ref="D401" pin="2"/>
+    </net>
+    <net code="61" name="Net-(F402-Pad2)">
+      <node ref="SW402" pin="1"/>
+      <node ref="TP404" pin="~"/>
+      <node ref="F402" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D601-Pad2)">
+      <node ref="D601" pin="2"/>
+      <node ref="F602" pin="1"/>
+    </net>
+    <net code="63" name="Net-(D602-Pad1)">
+      <node ref="D603" pin="1"/>
+      <node ref="D602" pin="1"/>
+    </net>
+    <net code="64" name="Net-(D602-Pad2)">
+      <node ref="R601" pin="2"/>
+      <node ref="D602" pin="2"/>
+    </net>
+    <net code="65" name="Net-(F602-Pad2)">
+      <node ref="SW602" pin="1"/>
+      <node ref="F602" pin="2"/>
+      <node ref="TP604" pin="~"/>
+    </net>
+    <net code="66" name="Net-(F601-Pad2)">
+      <node ref="F601" pin="2"/>
+      <node ref="SW601" pin="1"/>
+      <node ref="TP603" pin="~"/>
+    </net>
+    <net code="67" name="Net-(F501-Pad2)">
+      <node ref="SW501" pin="1"/>
+      <node ref="TP503" pin="~"/>
+      <node ref="F501" pin="2"/>
+    </net>
+    <net code="68" name="Net-(F502-Pad2)">
+      <node ref="TP504" pin="~"/>
+      <node ref="F502" pin="2"/>
+      <node ref="SW502" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D501-Pad2)">
+      <node ref="D501" pin="2"/>
+      <node ref="F502" pin="1"/>
+    </net>
+    <net code="70" name="GND">
+      <node ref="D1405" pin="1"/>
+      <node ref="C1405" pin="2"/>
+      <node ref="C1001" pin="2"/>
+      <node ref="D1003" pin="1"/>
+      <node ref="C1406" pin="2"/>
+      <node ref="U1001" pin="7"/>
+      <node ref="C1002" pin="2"/>
+      <node ref="R1402" pin="2"/>
+      <node ref="C1303" pin="2"/>
+      <node ref="C902" pin="2"/>
+      <node ref="R1403" pin="2"/>
+      <node ref="D1401" pin="1"/>
+      <node ref="C901" pin="2"/>
+      <node ref="U901" pin="7"/>
+      <node ref="U1401" pin="7"/>
+      <node ref="C1401" pin="2"/>
+      <node ref="C1402" pin="2"/>
+      <node ref="D901" pin="1"/>
+      <node ref="R903" pin="2"/>
+      <node ref="D903" pin="1"/>
+      <node ref="C1403" pin="2"/>
+      <node ref="R1002" pin="2"/>
+      <node ref="D1005" pin="1"/>
+      <node ref="D1403" pin="1"/>
+      <node ref="D1004" pin="1"/>
+      <node ref="D1404" pin="1"/>
+      <node ref="C903" pin="2"/>
+      <node ref="C1005" pin="2"/>
+      <node ref="C1006" pin="2"/>
+      <node ref="C1205" pin="2"/>
+      <node ref="C1206" pin="2"/>
+      <node ref="C1306" pin="2"/>
+      <node ref="C1305" pin="2"/>
+      <node ref="D1101" pin="1"/>
+      <node ref="R1103" pin="2"/>
+      <node ref="C1103" pin="2"/>
+      <node ref="D1201" pin="1"/>
+      <node ref="U1201" pin="7"/>
+      <node ref="D1204" pin="1"/>
+      <node ref="C1201" pin="2"/>
+      <node ref="D1203" pin="1"/>
+      <node ref="C1202" pin="2"/>
+      <node ref="R1202" pin="2"/>
+      <node ref="C1203" pin="2"/>
+      <node ref="D1205" pin="1"/>
+      <node ref="R1203" pin="2"/>
+      <node ref="C1105" pin="2"/>
+      <node ref="C1106" pin="2"/>
+      <node ref="U1301" pin="7"/>
+      <node ref="R1102" pin="2"/>
+      <node ref="C1301" pin="2"/>
+      <node ref="D1001" pin="1"/>
+      <node ref="R1303" pin="2"/>
+      <node ref="R1003" pin="2"/>
+      <node ref="D1301" pin="1"/>
+      <node ref="C1003" pin="2"/>
+      <node ref="D1303" pin="1"/>
+      <node ref="D1304" pin="1"/>
+      <node ref="C1102" pin="2"/>
+      <node ref="D1305" pin="1"/>
+      <node ref="C1101" pin="2"/>
+      <node ref="U1101" pin="7"/>
+      <node ref="R1302" pin="2"/>
+      <node ref="C1302" pin="2"/>
+      <node ref="D1105" pin="1"/>
+      <node ref="D1104" pin="1"/>
+      <node ref="D1103" pin="1"/>
+      <node ref="C304" pin="2"/>
+      <node ref="D301" pin="1"/>
+      <node ref="D302" pin="2"/>
+      <node ref="U301" pin="7"/>
+      <node ref="C301" pin="2"/>
+      <node ref="D303" pin="1"/>
+      <node ref="D304" pin="1"/>
+      <node ref="D205" pin="1"/>
+      <node ref="D204" pin="1"/>
+      <node ref="D203" pin="1"/>
+      <node ref="C203" pin="2"/>
+      <node ref="R203" pin="2"/>
+      <node ref="D201" pin="1"/>
+      <node ref="U201" pin="7"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="D605" pin="1"/>
+      <node ref="D604" pin="1"/>
+      <node ref="D603" pin="2"/>
+      <node ref="SW501" pin="2"/>
+      <node ref="D503" pin="2"/>
+      <node ref="D505" pin="1"/>
+      <node ref="D504" pin="1"/>
+      <node ref="D404" pin="1"/>
+      <node ref="D405" pin="1"/>
+      <node ref="C302" pin="2"/>
+      <node ref="R302" pin="2"/>
+      <node ref="R303" pin="2"/>
+      <node ref="SW601" pin="2"/>
+      <node ref="SW401" pin="2"/>
+      <node ref="D403" pin="2"/>
+      <node ref="J109" pin="4"/>
+      <node ref="J111" pin="2"/>
+      <node ref="J112" pin="2"/>
+      <node ref="R112" pin="1"/>
+      <node ref="R111" pin="1"/>
+      <node ref="R113" pin="1"/>
+      <node ref="R202" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="R103" pin="1"/>
+      <node ref="R104" pin="1"/>
+      <node ref="R117" pin="1"/>
+      <node ref="J129" pin="2"/>
+      <node ref="J110" pin="2"/>
+      <node ref="J109" pin="3"/>
+      <node ref="J128" pin="2"/>
+      <node ref="J127" pin="2"/>
+      <node ref="J122" pin="2"/>
+      <node ref="J121" pin="2"/>
+      <node ref="J120" pin="2"/>
+      <node ref="J117" pin="2"/>
+      <node ref="J116" pin="2"/>
+      <node ref="J115" pin="2"/>
+      <node ref="J114" pin="2"/>
+      <node ref="J113" pin="2"/>
+      <node ref="J119" pin="2"/>
+      <node ref="J118" pin="2"/>
+      <node ref="J124" pin="2"/>
+      <node ref="J123" pin="2"/>
+      <node ref="J126" pin="2"/>
+      <node ref="J125" pin="2"/>
+      <node ref="R802" pin="2"/>
+      <node ref="D805" pin="1"/>
+      <node ref="D804" pin="1"/>
+      <node ref="D803" pin="1"/>
+      <node ref="C802" pin="2"/>
+      <node ref="U701" pin="GND"/>
+      <node ref="SW701" pin="1"/>
+      <node ref="C702" pin="2"/>
+      <node ref="C701" pin="2"/>
+      <node ref="U703" pin="4"/>
+      <node ref="C805" pin="2"/>
+      <node ref="C806" pin="2"/>
+      <node ref="C905" pin="2"/>
+      <node ref="C906" pin="2"/>
+      <node ref="R902" pin="2"/>
+      <node ref="D905" pin="1"/>
+      <node ref="D904" pin="1"/>
+      <node ref="C801" pin="2"/>
+      <node ref="U801" pin="7"/>
+      <node ref="D801" pin="1"/>
+      <node ref="R803" pin="2"/>
+      <node ref="C803" pin="2"/>
+      <node ref="U702" pin="4"/>
+      <node ref="D702" pin="2"/>
+      <node ref="R701" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D502-Pad1)">
+      <node ref="D502" pin="1"/>
+      <node ref="D503" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D502-Pad2)">
+      <node ref="D502" pin="2"/>
+      <node ref="R501" pin="2"/>
+    </net>
+    <net code="73" name="Net-(R701-Pad1)">
+      <node ref="R701" pin="1"/>
+      <node ref="U702" pin="2"/>
+      <node ref="R702" pin="2"/>
+    </net>
+    <net code="74" name="Net-(C702-Pad1)">
+      <node ref="C702" pin="1"/>
+      <node ref="U703" pin="7"/>
+    </net>
+    <net code="75" name="Net-(C701-Pad1)">
+      <node ref="U703" pin="3"/>
+      <node ref="C701" pin="1"/>
+    </net>
+    <net code="76" name="/On-Off Switch/12V0">
+      <node ref="R703" pin="1"/>
+      <node ref="R704" pin="1"/>
+      <node ref="D701" pin="1"/>
+      <node ref="U703" pin="1"/>
+      <node ref="U702" pin="7"/>
+      <node ref="U701" pin="VO"/>
+    </net>
+    <net code="77" name="Net-(D701-Pad2)">
+      <node ref="D701" pin="2"/>
+      <node ref="R705" pin="1"/>
+    </net>
+    <net code="78" name="/On-Off Switch/BBB_ONOFF_12V">
+      <node ref="R702" pin="1"/>
+      <node ref="U702" pin="6"/>
+      <node ref="U703" pin="8"/>
+    </net>
+    <net code="79" name="Net-(C804-Pad1)">
+      <node ref="U801" pin="1"/>
+      <node ref="C804" pin="1"/>
+    </net>
+    <net code="80" name="Net-(VR801-Pad1)">
+      <node ref="VR801" pin="1"/>
+    </net>
+    <net code="81" name="Net-(C804-Pad2)">
+      <node ref="U801" pin="8"/>
+      <node ref="L801" pin="1"/>
+      <node ref="D801" pin="2"/>
+      <node ref="C804" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D802-Pad2)">
+      <node ref="D803" pin="2"/>
+      <node ref="D802" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R801-Pad1)">
+      <node ref="U801" pin="3"/>
+      <node ref="R801" pin="1"/>
+    </net>
+    <net code="84" name="Net-(R802-Pad1)">
+      <node ref="U801" pin="4"/>
+      <node ref="R802" pin="1"/>
+    </net>
+    <net code="85" name="Net-(D802-Pad1)">
+      <node ref="D802" pin="1"/>
+      <node ref="R804" pin="2"/>
+    </net>
+    <net code="86" name="Net-(R803-Pad1)">
+      <node ref="R803" pin="1"/>
+      <node ref="U801" pin="5"/>
+      <node ref="VR801" pin="2"/>
+    </net>
+    <net code="87" name="Net-(C803-Pad1)">
+      <node ref="U801" pin="6"/>
+      <node ref="C803" pin="1"/>
+    </net>
+    <net code="88" name="Net-(C904-Pad1)">
+      <node ref="C904" pin="1"/>
+      <node ref="U901" pin="1"/>
+    </net>
+    <net code="89" name="Net-(VR901-Pad1)">
+      <node ref="VR901" pin="1"/>
+    </net>
+    <net code="90" name="Net-(C904-Pad2)">
+      <node ref="C904" pin="2"/>
+      <node ref="U901" pin="8"/>
+      <node ref="L901" pin="1"/>
+      <node ref="D901" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D902-Pad2)">
+      <node ref="D902" pin="2"/>
+      <node ref="D903" pin="2"/>
+    </net>
+    <net code="92" name="Net-(R901-Pad1)">
+      <node ref="U901" pin="3"/>
+      <node ref="R901" pin="1"/>
+    </net>
+    <net code="93" name="Net-(R902-Pad1)">
+      <node ref="U901" pin="4"/>
+      <node ref="R902" pin="1"/>
+    </net>
+    <net code="94" name="Net-(D902-Pad1)">
+      <node ref="D902" pin="1"/>
+      <node ref="R904" pin="2"/>
+    </net>
+    <net code="95" name="Net-(R903-Pad1)">
+      <node ref="VR901" pin="2"/>
+      <node ref="R903" pin="1"/>
+      <node ref="U901" pin="5"/>
+    </net>
+    <net code="96" name="Net-(C903-Pad1)">
+      <node ref="C903" pin="1"/>
+      <node ref="U901" pin="6"/>
+    </net>
+    <net code="97" name="Net-(C1004-Pad1)">
+      <node ref="U1001" pin="1"/>
+      <node ref="C1004" pin="1"/>
+    </net>
+    <net code="98" name="Net-(VR1001-Pad1)">
+      <node ref="VR1001" pin="1"/>
+    </net>
+    <net code="99" name="Net-(C1004-Pad2)">
+      <node ref="U1001" pin="8"/>
+      <node ref="L1001" pin="1"/>
+      <node ref="C1004" pin="2"/>
+      <node ref="D1001" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D1002-Pad2)">
+      <node ref="D1003" pin="2"/>
+      <node ref="D1002" pin="2"/>
+    </net>
+    <net code="101" name="Net-(R1001-Pad1)">
+      <node ref="R1001" pin="1"/>
+      <node ref="U1001" pin="3"/>
+    </net>
+    <net code="102" name="Net-(R1002-Pad1)">
+      <node ref="R1002" pin="1"/>
+      <node ref="U1001" pin="4"/>
+    </net>
+    <net code="103" name="Net-(D1002-Pad1)">
+      <node ref="D1002" pin="1"/>
+      <node ref="R1004" pin="2"/>
+    </net>
+    <net code="104" name="Net-(R1003-Pad1)">
+      <node ref="VR1001" pin="2"/>
+      <node ref="U1001" pin="5"/>
+      <node ref="R1003" pin="1"/>
+    </net>
+    <net code="105" name="Net-(C1003-Pad1)">
+      <node ref="C1003" pin="1"/>
+      <node ref="U1001" pin="6"/>
+    </net>
+    <net code="106" name="Net-(C1104-Pad1)">
+      <node ref="U1101" pin="1"/>
+      <node ref="C1104" pin="1"/>
+    </net>
+    <net code="107" name="Net-(VR1101-Pad1)">
+      <node ref="VR1101" pin="1"/>
+    </net>
+    <net code="108" name="Net-(C1104-Pad2)">
+      <node ref="D1101" pin="2"/>
+      <node ref="L1101" pin="1"/>
+      <node ref="U1101" pin="8"/>
+      <node ref="C1104" pin="2"/>
+    </net>
+    <net code="109" name="Net-(D1102-Pad2)">
+      <node ref="D1102" pin="2"/>
+      <node ref="D1103" pin="2"/>
+    </net>
+    <net code="110" name="Net-(R1101-Pad1)">
+      <node ref="U1101" pin="3"/>
+      <node ref="R1101" pin="1"/>
+    </net>
+    <net code="111" name="Net-(R1102-Pad1)">
+      <node ref="U1101" pin="4"/>
+      <node ref="R1102" pin="1"/>
+    </net>
+    <net code="112" name="Net-(D1102-Pad1)">
+      <node ref="R1104" pin="2"/>
+      <node ref="D1102" pin="1"/>
+    </net>
+    <net code="113" name="Net-(R1103-Pad1)">
+      <node ref="U1101" pin="5"/>
+      <node ref="VR1101" pin="2"/>
+      <node ref="R1103" pin="1"/>
+    </net>
+    <net code="114" name="Net-(C1103-Pad1)">
+      <node ref="U1101" pin="6"/>
+      <node ref="C1103" pin="1"/>
+    </net>
+    <net code="115" name="Net-(C1204-Pad1)">
+      <node ref="C1204" pin="1"/>
+      <node ref="U1201" pin="1"/>
+    </net>
+    <net code="116" name="Net-(VR1201-Pad1)">
+      <node ref="VR1201" pin="1"/>
+    </net>
+    <net code="117" name="Net-(C1204-Pad2)">
+      <node ref="U1201" pin="8"/>
+      <node ref="L1201" pin="1"/>
+      <node ref="C1204" pin="2"/>
+      <node ref="D1201" pin="2"/>
+    </net>
+    <net code="118" name="Net-(D1202-Pad2)">
+      <node ref="D1203" pin="2"/>
+      <node ref="D1202" pin="2"/>
+    </net>
+    <net code="119" name="Net-(R1201-Pad1)">
+      <node ref="R1201" pin="1"/>
+      <node ref="U1201" pin="3"/>
+    </net>
+    <net code="120" name="Net-(R1202-Pad1)">
+      <node ref="R1202" pin="1"/>
+      <node ref="U1201" pin="4"/>
+    </net>
+    <net code="121" name="Net-(D1202-Pad1)">
+      <node ref="D1202" pin="1"/>
+      <node ref="R1204" pin="2"/>
+    </net>
+    <net code="122" name="Net-(R1203-Pad1)">
+      <node ref="U1201" pin="5"/>
+      <node ref="R1203" pin="1"/>
+      <node ref="VR1201" pin="2"/>
+    </net>
+    <net code="123" name="Net-(C1203-Pad1)">
+      <node ref="U1201" pin="6"/>
+      <node ref="C1203" pin="1"/>
+    </net>
+    <net code="124" name="Net-(C1304-Pad1)">
+      <node ref="C1304" pin="1"/>
+      <node ref="U1301" pin="1"/>
+    </net>
+    <net code="125" name="Net-(VR1301-Pad1)">
+      <node ref="VR1301" pin="1"/>
+    </net>
+    <net code="126" name="Net-(C1304-Pad2)">
+      <node ref="L1301" pin="1"/>
+      <node ref="U1301" pin="8"/>
+      <node ref="D1301" pin="2"/>
+      <node ref="C1304" pin="2"/>
+    </net>
+    <net code="127" name="Net-(D1302-Pad2)">
+      <node ref="D1302" pin="2"/>
+      <node ref="D1303" pin="2"/>
+    </net>
+    <net code="128" name="Net-(R1301-Pad1)">
+      <node ref="U1301" pin="3"/>
+      <node ref="R1301" pin="1"/>
+    </net>
+    <net code="129" name="Net-(R1302-Pad1)">
+      <node ref="U1301" pin="4"/>
+      <node ref="R1302" pin="1"/>
+    </net>
+    <net code="130" name="Net-(D1302-Pad1)">
+      <node ref="D1302" pin="1"/>
+      <node ref="R1304" pin="2"/>
+    </net>
+    <net code="131" name="Net-(R1303-Pad1)">
+      <node ref="R1303" pin="1"/>
+      <node ref="VR1301" pin="2"/>
+      <node ref="U1301" pin="5"/>
+    </net>
+    <net code="132" name="Net-(C1303-Pad1)">
+      <node ref="U1301" pin="6"/>
+      <node ref="C1303" pin="1"/>
+    </net>
+    <net code="133" name="Net-(C1404-Pad1)">
+      <node ref="U1401" pin="1"/>
+      <node ref="C1404" pin="1"/>
+    </net>
+    <net code="134" name="Net-(VR1401-Pad1)">
+      <node ref="VR1401" pin="1"/>
+    </net>
+    <net code="135" name="Net-(C1404-Pad2)">
+      <node ref="L1401" pin="1"/>
+      <node ref="C1404" pin="2"/>
+      <node ref="U1401" pin="8"/>
+      <node ref="D1401" pin="2"/>
+    </net>
+    <net code="136" name="Net-(R1402-Pad1)">
+      <node ref="U1401" pin="4"/>
+      <node ref="R1402" pin="1"/>
+    </net>
+    <net code="137" name="Net-(D1402-Pad2)">
+      <node ref="D1402" pin="2"/>
+      <node ref="D1403" pin="2"/>
+    </net>
+    <net code="138" name="Net-(R1401-Pad1)">
+      <node ref="R1401" pin="1"/>
+      <node ref="U1401" pin="3"/>
+    </net>
+    <net code="139" name="Net-(C1403-Pad1)">
+      <node ref="U1401" pin="6"/>
+      <node ref="C1403" pin="1"/>
+    </net>
+    <net code="140" name="Net-(D1402-Pad1)">
+      <node ref="R1404" pin="2"/>
+      <node ref="D1402" pin="1"/>
+    </net>
+    <net code="141" name="Net-(R1403-Pad1)">
+      <node ref="U1401" pin="5"/>
+      <node ref="R1403" pin="1"/>
+      <node ref="VR1401" pin="2"/>
+    </net>
+  </nets>
+</export>
