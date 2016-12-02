@@ -1,0 +1,848 @@
+Info: Reading netlist file "/Users/jmassucco17/Documents/Northeastern/2016 Fall/OpenLoop/full_electrical/MainPowerBoard/MainPowerBoard.net".
+
+Info: Using references to match components and footprints.
+
+Error: Component 'U1301' footprint 'LMR16030S_8-PowerSOIC_TI.kicad_mod' was not found in any libraries in the footprint library table.
+
+Error: Component 'U1401' footprint 'LMR16030S_8-PowerSOIC_TI.kicad_mod' was not found in any libraries in the footprint library table.
+
+Error: Component 'U201' footprint 'LMR16030S_8-PowerSOIC_TI.kicad_mod' was not found in any libraries in the footprint library table.
+
+Error: Component 'U801' footprint 'LMR16030S_8-PowerSOIC_TI.kicad_mod' was not found in any libraries in the footprint library table.
+
+Error: Component 'U1001' footprint 'LMR16030S_8-PowerSOIC_TI.kicad_mod' was not found in any libraries in the footprint library table.
+
+Error: Component 'U1101' footprint 'LMR16030S_8-PowerSOIC_TI.kicad_mod' was not found in any libraries in the footprint library table.
+
+Error: Component 'U1201' footprint 'LMR16030S_8-PowerSOIC_TI.kicad_mod' was not found in any libraries in the footprint library table.
+
+Error: Component 'U901' footprint 'LMR16030S_8-PowerSOIC_TI.kicad_mod' was not found in any libraries in the footprint library table.
+
+Error: No footprint defined for component 'R501'.
+
+Error: No footprint defined for component 'L201'.
+
+Error: No footprint defined for component 'F601'.
+
+Error: No footprint defined for component 'R901'.
+
+Error: No footprint defined for component 'R601'.
+
+Error: No footprint defined for component 'VR201'.
+
+Error: No footprint defined for component 'VR1401'.
+
+Error: No footprint defined for component 'L901'.
+
+Error: No footprint defined for component 'L1401'.
+
+Error: No footprint defined for component 'VR901'.
+
+Error: No footprint defined for component 'U703'.
+
+Error: No footprint defined for component 'R1401'.
+
+Error: No footprint defined for component 'R801'.
+
+Error: No footprint defined for component 'L801'.
+
+Error: No footprint defined for component 'VR801'.
+
+Error: No footprint defined for component 'R1201'.
+
+Error: No footprint defined for component 'VR301'.
+
+Error: No footprint defined for component 'L1201'.
+
+Error: No footprint defined for component 'VR1201'.
+
+Error: No footprint defined for component 'U301'.
+
+Error: No footprint defined for component 'L301'.
+
+Error: No footprint defined for component 'R1101'.
+
+Error: No footprint defined for component 'F401'.
+
+Error: No footprint defined for component 'L1101'.
+
+Error: No footprint defined for component 'VR1101'.
+
+Error: No footprint defined for component 'VR1301'.
+
+Error: No footprint defined for component 'R401'.
+
+Error: No footprint defined for component 'L1301'.
+
+Error: No footprint defined for component 'R201'.
+
+Error: No footprint defined for component 'F501'.
+
+Error: No footprint defined for component 'R1301'.
+
+Error: No footprint defined for component 'R1001'.
+
+Error: No footprint defined for component 'L1001'.
+
+Error: No footprint defined for component 'VR1001'.
+
+Info: Checking netlist component footprint "C201:/582171B3/583A8A9A:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C202:/582171B3/583A8B4B:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C203:/582171B3/583A8CF1:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "C203:/582171B3/583A8CF1" pin "1" net name from "" to "Net-(C203-Pad1)".
+
+Info: Checking netlist component footprint "C204:/582171B3/583B399E:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "C204:/582171B3/583B399E" pin "1" net name from "" to "Net-(C204-Pad1)".
+
+Info: Checking netlist component footprint "C205:/582171B3/583B4188:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C206:/582171B3/583B43AD:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C301:/5821AC51/583E017F:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C302:/5821AC51/583E01AF:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "C302:/5821AC51/583E01AF" pin "1" net name from "" to "Net-(C302-Pad1)".
+
+Info: Checking netlist component footprint "C303:/5821AC51/583E0216:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "C303:/5821AC51/583E0216" pin "1" net name from "" to "Net-(C303-Pad1)".
+
+Info: Checking netlist component footprint "C304:/5821AC51/583E0224:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C701:/582EB20F/5830278C:Capacitors_SMD:C_1206_HandSoldering".
+
+Replacing component "C701:/582EB20F/5830278C" footprint "SMD_Packages:SMD-1206_Pol" with "Capacitors_SMD:C_1206_HandSoldering".
+
+Changing component "C701:/582EB20F/5830278C" pin "1" net name from "" to "Net-(C701-Pad1)".
+
+Changing component "C701:/582EB20F/5830278C" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C702:/582EB20F/584154CF:SMD_Packages:SMD-1206_Pol".
+
+Changing component "C702:/582EB20F/58302549" value from "C" to "10uF".
+
+Info: Changing component path "C702:/582EB20F/58302549" to "/582EB20F/584154CF".
+
+Changing component "C702:/582EB20F/584154CF" pin "1" net name from "" to "/On-Off Switch/12V0".
+
+Info: Checking netlist component footprint "C703:/582EB20F/584156A9:Capacitors_SMD:C_1206_HandSoldering".
+
+Adding new component "C703:/582EB20F/584156A9" footprint "Capacitors_SMD:C_1206_HandSoldering".
+
+Changing component "C703:/582EB20F/584156A9" pin "1" net name from "" to "Net-(C703-Pad1)".
+
+Changing component "C703:/582EB20F/584156A9" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C801:/583A870A/583A8A9A:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C802:/583A870A/583A8B4B:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C803:/583A870A/583A8CF1:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "C803:/583A870A/583A8CF1" pin "1" net name from "" to "Net-(C803-Pad1)".
+
+Info: Checking netlist component footprint "C804:/583A870A/583B399E:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "C804:/583A870A/583B399E" pin "1" net name from "" to "Net-(C804-Pad1)".
+
+Info: Checking netlist component footprint "C805:/583A870A/583B4188:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C806:/583A870A/583B43AD:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C901:/583A88E6/583A8A9A:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C902:/583A88E6/583A8B4B:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C903:/583A88E6/583A8CF1:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "C903:/583A88E6/583A8CF1" pin "1" net name from "" to "Net-(C903-Pad1)".
+
+Info: Checking netlist component footprint "C904:/583A88E6/583B399E:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "C904:/583A88E6/583B399E" pin "1" net name from "" to "Net-(C904-Pad1)".
+
+Info: Checking netlist component footprint "C905:/583A88E6/583B4188:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C906:/583A88E6/583B43AD:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1001:/583A8D1D/583A8A9A:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1002:/583A8D1D/583A8B4B:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1003:/583A8D1D/583A8CF1:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "C1003:/583A8D1D/583A8CF1" pin "1" net name from "" to "Net-(C1003-Pad1)".
+
+Info: Checking netlist component footprint "C1004:/583A8D1D/583B399E:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "C1004:/583A8D1D/583B399E" pin "1" net name from "" to "Net-(C1004-Pad1)".
+
+Info: Checking netlist component footprint "C1005:/583A8D1D/583B4188:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1006:/583A8D1D/583B43AD:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1101:/583A8D22/583A8A9A:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1102:/583A8D22/583A8B4B:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1103:/583A8D22/583A8CF1:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "C1103:/583A8D22/583A8CF1" pin "1" net name from "" to "Net-(C1103-Pad1)".
+
+Info: Checking netlist component footprint "C1104:/583A8D22/583B399E:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "C1104:/583A8D22/583B399E" pin "1" net name from "" to "Net-(C1104-Pad1)".
+
+Info: Checking netlist component footprint "C1105:/583A8D22/583B4188:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1106:/583A8D22/583B43AD:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1201:/583A8D27/583A8A9A:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1202:/583A8D27/583A8B4B:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1203:/583A8D27/583A8CF1:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "C1203:/583A8D27/583A8CF1" pin "1" net name from "" to "Net-(C1203-Pad1)".
+
+Info: Checking netlist component footprint "C1204:/583A8D27/583B399E:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "C1204:/583A8D27/583B399E" pin "1" net name from "" to "Net-(C1204-Pad1)".
+
+Info: Checking netlist component footprint "C1205:/583A8D27/583B4188:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1206:/583A8D27/583B43AD:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1301:/583A9416/583A8A9A:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1302:/583A9416/583A8B4B:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1303:/583A9416/583A8CF1:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "C1303:/583A9416/583A8CF1" pin "1" net name from "" to "Net-(C1303-Pad1)".
+
+Info: Checking netlist component footprint "C1304:/583A9416/583B399E:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "C1304:/583A9416/583B399E" pin "1" net name from "" to "Net-(C1304-Pad1)".
+
+Info: Checking netlist component footprint "C1305:/583A9416/583B4188:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1306:/583A9416/583B43AD:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1401:/583A941B/583A8A9A:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1402:/583A941B/583A8B4B:Capacitors_SMD:C_1210_HandSoldering".
+
+Info: Checking netlist component footprint "C1403:/583A941B/583A8CF1:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "C1403:/583A941B/583A8CF1" pin "1" net name from "" to "Net-(C1403-Pad1)".
+
+Info: Checking netlist component footprint "C1404:/583A941B/583B399E:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "C1404:/583A941B/583B399E" pin "1" net name from "" to "Net-(C1404-Pad1)".
+
+Info: Checking netlist component footprint "C1405:/583A941B/583B4188:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "C1406:/583A941B/583B43AD:Capacitors_SMD:C_1206_HandSoldering".
+
+Info: Checking netlist component footprint "D201:/582171B3/583B2BCB:Diodes_SMD:SMA_Handsoldering".
+
+Info: Checking netlist component footprint "D202:/582171B3/583D0112:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D203:/582171B3/583D8D48:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D204:/582171B3/583D986C:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D301:/5821AC51/583E01EA:Diodes_SMD:SMA_Handsoldering".
+
+Info: Checking netlist component footprint "D302:/5821AC51/583D15F5:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D303:/5821AC51/583E0260:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D401:/582298AB/58323FCF:TO_SOT_Packages_THT:TO-247_Vertical_Neutral123".
+
+Changing component "D401:/582298AB/58323FCF" pin "2" net name from "" to "Net-(D401-Pad2)".
+
+Info: Checking netlist component footprint "D402:/582298AB/583D7BA8:Diodes_SMD:SOD-123".
+
+Changing component "D402:/582298AB/583D7BA8" pin "2" net name from "" to "Net-(D402-Pad2)".
+
+Info: Checking netlist component footprint "D403:/582298AB/583BADDF:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D404:/582298AB/583D65D9:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D501:/5822D76D/58323FCF:TO_SOT_Packages_THT:TO-247_Vertical_Neutral123".
+
+Changing component "D501:/5822D76D/58323FCF" pin "2" net name from "" to "Net-(D501-Pad2)".
+
+Info: Checking netlist component footprint "D502:/5822D76D/583D7BA8:Diodes_SMD:SOD-123".
+
+Changing component "D502:/5822D76D/583D7BA8" pin "2" net name from "" to "Net-(D502-Pad2)".
+
+Info: Checking netlist component footprint "D503:/5822D76D/583BADDF:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D504:/5822D76D/583D65D9:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D601:/5822D438/58323FCF:TO_SOT_Packages_THT:TO-247_Vertical_Neutral123".
+
+Changing component "D601:/5822D438/58323FCF" pin "2" net name from "" to "Net-(D601-Pad2)".
+
+Info: Checking netlist component footprint "D602:/5822D438/583D7BA8:Diodes_SMD:SOD-123".
+
+Changing component "D602:/5822D438/583D7BA8" pin "2" net name from "" to "Net-(D602-Pad2)".
+
+Info: Checking netlist component footprint "D603:/5822D438/583BADDF:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D604:/5822D438/583D65D9:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D701:/582EB20F/583D8105:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D702:/582EB20F/583CFC72:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D801:/583A870A/583B2BCB:Diodes_SMD:SMA_Handsoldering".
+
+Info: Checking netlist component footprint "D802:/583A870A/583D0112:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D803:/583A870A/583D8D48:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D804:/583A870A/583D986C:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D901:/583A88E6/583B2BCB:Diodes_SMD:SMA_Handsoldering".
+
+Info: Checking netlist component footprint "D902:/583A88E6/583D0112:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D903:/583A88E6/583D8D48:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D904:/583A88E6/583D986C:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1001:/583A8D1D/583B2BCB:Diodes_SMD:SMA_Handsoldering".
+
+Info: Checking netlist component footprint "D1002:/583A8D1D/583D0112:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D1003:/583A8D1D/583D8D48:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1004:/583A8D1D/583D986C:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1101:/583A8D22/583B2BCB:Diodes_SMD:SMA_Handsoldering".
+
+Info: Checking netlist component footprint "D1102:/583A8D22/583D0112:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D1103:/583A8D22/583D8D48:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1104:/583A8D22/583D986C:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1201:/583A8D27/583B2BCB:Diodes_SMD:SMA_Handsoldering".
+
+Info: Checking netlist component footprint "D1202:/583A8D27/583D0112:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D1203:/583A8D27/583D8D48:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1204:/583A8D27/583D986C:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1301:/583A9416/583B2BCB:Diodes_SMD:SMA_Handsoldering".
+
+Info: Checking netlist component footprint "D1302:/583A9416/583D0112:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D1303:/583A9416/583D8D48:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1304:/583A9416/583D986C:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1401:/583A941B/583B2BCB:Diodes_SMD:SMA_Handsoldering".
+
+Info: Checking netlist component footprint "D1402:/583A941B/583D0112:LEDs:LED_1206".
+
+Info: Checking netlist component footprint "D1403:/583A941B/583D8D48:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "D1404:/583A941B/583D986C:Diodes_SMD:SMB_Handsoldering".
+
+Info: Checking netlist component footprint "F401:/582298AB/5822B82F:".
+
+Error: Cannot add new component "F401:/582298AB/5822B82F" due to missing footprint "".
+
+Info: Checking netlist component footprint "F501:/5822D76D/5822B82F:".
+
+Error: Cannot add new component "F501:/5822D76D/5822B82F" due to missing footprint "".
+
+Info: Checking netlist component footprint "F601:/5822D438/5822B82F:".
+
+Error: Cannot add new component "F601:/5822D438/5822B82F" due to missing footprint "".
+
+Info: Checking netlist component footprint "J101:/583EA264:hyperCustom:CONN_PHOENIX_1844236_4PIN".
+
+Info: Checking netlist component footprint "J102:/5840AF9B:hyperCustom:CONN_PHOENIX_1844236_4PIN".
+
+Info: Checking netlist component footprint "J103:/5840B109:hyperCustom:CONN_PHOENIX_1844236_4PIN".
+
+Info: Checking netlist component footprint "J104:/583F1FED:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J105:/5840D73E:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J106:/5840B56E:hyperCustom:CONN_PHOENIX_1844236_4PIN".
+
+Info: Checking netlist component footprint "J107:/583CEC9B:hyperCustom:CONN_PHOENIX_1844252_6PIN".
+
+Info: Checking netlist component footprint "J108:/5840B6F0:hyperCustom:CONN_PHOENIX_1844236_4PIN".
+
+Info: Checking netlist component footprint "J109:/5840C175:hyperCustom:CONN_PHOENIX_1844236_4PIN".
+
+Info: Checking netlist component footprint "J110:/5840FC3E:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J111:/5840FC35:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J112:/5840FC2C:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J113:/5840FC23:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J114:/5840FC1A:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J115:/5840F409:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J116:/5840F400:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J117:/5840F3F7:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J118:/5840F3EE:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J119:/5840F3E5:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J120:/5840EBCA:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J121:/5840EBC1:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J122:/5840EBB8:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J123:/5840E9E8:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J124:/5840E9DF:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J125:/5840E7A8:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J126:/5840E62F:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J127:/5840E4BC:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J128:/5840E34E:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "J129:/5840DA93:hyperCustom:CONN_PHOENIX_1844210_2PIN".
+
+Info: Checking netlist component footprint "L201:/582171B3/583B2D59:".
+
+Error: Cannot add new component "L201:/582171B3/583B2D59" due to missing footprint "".
+
+Info: Checking netlist component footprint "L301:/5821AC51/583E01FC:".
+
+Error: Cannot add new component "L301:/5821AC51/583E01FC" due to missing footprint "".
+
+Info: Checking netlist component footprint "L801:/583A870A/583B2D59:".
+
+Error: Cannot add new component "L801:/583A870A/583B2D59" due to missing footprint "".
+
+Info: Checking netlist component footprint "L901:/583A88E6/583B2D59:".
+
+Error: Cannot add new component "L901:/583A88E6/583B2D59" due to missing footprint "".
+
+Info: Checking netlist component footprint "L1001:/583A8D1D/583B2D59:".
+
+Error: Cannot add new component "L1001:/583A8D1D/583B2D59" due to missing footprint "".
+
+Info: Checking netlist component footprint "L1101:/583A8D22/583B2D59:".
+
+Error: Cannot add new component "L1101:/583A8D22/583B2D59" due to missing footprint "".
+
+Info: Checking netlist component footprint "L1201:/583A8D27/583B2D59:".
+
+Error: Cannot add new component "L1201:/583A8D27/583B2D59" due to missing footprint "".
+
+Info: Checking netlist component footprint "L1301:/583A9416/583B2D59:".
+
+Error: Cannot add new component "L1301:/583A9416/583B2D59" due to missing footprint "".
+
+Info: Checking netlist component footprint "L1401:/583A941B/583B2D59:".
+
+Error: Cannot add new component "L1401:/583A941B/583B2D59" due to missing footprint "".
+
+Info: Checking netlist component footprint "R101:/583C963F:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R102:/583CDBD4:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R103:/583CDCB1:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R104:/583CDD91:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R105:/583CE35A:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R106:/583CE363:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R107:/583CE36C:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R108:/583CE375:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R109:/583CE4F8:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R110:/583CE501:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R111:/583CDE72:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R112:/583CDF83:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R113:/583CE067:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R113:/583CE067" pin "1" net name from "" to "/BBB_INT".
+
+Info: Checking netlist component footprint "R114:/583CE14D:Resistors_SMD:R_1206_HandSoldering".
+
+Info: Checking netlist component footprint "R201:/582171B3/583D36BC:".
+
+Error: Cannot add new component "R201:/582171B3/583D36BC" due to missing footprint "".
+
+Info: Checking netlist component footprint "R202:/582171B3/583E258D:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R202:/582171B3/583E258D" pin "1" net name from "" to "Net-(R202-Pad1)".
+
+Info: Checking netlist component footprint "R203:/582171B3/583B2967:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R203:/582171B3/583B2967" pin "1" net name from "" to "Net-(R203-Pad1)".
+
+Info: Checking netlist component footprint "R204:/582171B3/5833A728:Resistors_SMD:R_1210".
+
+Info: Checking netlist component footprint "R301:/5821AC51/583D60AB:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R301:/5821AC51/583D60AB" pin "1" net name from "" to "Net-(R301-Pad1)".
+
+Info: Checking netlist component footprint "R302:/5821AC51/583E01A5:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R302:/5821AC51/583E01A5" pin "1" net name from "" to "Net-(R302-Pad1)".
+
+Info: Checking netlist component footprint "R303:/5821AC51/583E01D3:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R303:/5821AC51/583E01D3" pin "1" net name from "" to "Net-(R303-Pad1)".
+
+Info: Checking netlist component footprint "R304:/5821AC51/583E0168:Resistors_SMD:R_1210".
+
+Info: Checking netlist component footprint "R401:/582298AB/583BAE4E:".
+
+Error: Cannot add new component "R401:/582298AB/583BAE4E" due to missing footprint "".
+
+Info: Checking netlist component footprint "R501:/5822D76D/583BAE4E:".
+
+Error: Cannot add new component "R501:/5822D76D/583BAE4E" due to missing footprint "".
+
+Info: Checking netlist component footprint "R601:/5822D438/583BAE4E:".
+
+Error: Cannot add new component "R601:/5822D438/583BAE4E" due to missing footprint "".
+
+Info: Checking netlist component footprint "R701:/582EB20F/58300675:SMD_Packages:SMD-1206_Pol".
+
+Info: Checking netlist component footprint "R702:/582EB20F/58300625:SMD_Packages:SMD-1206_Pol".
+
+Changing component "R702:/582EB20F/58300625" pin "1" net name from "/On-Off Switch/BBB_ONOFF_12V" to "/On-Off Switch/BBB_KILL_12V".
+
+Info: Checking netlist component footprint "R703:/582EB20F/583D8662:SMD_Packages:SMD-1206_Pol".
+
+Info: Checking netlist component footprint "R704:/582EB20F/583B57D1:SMD_Packages:SMD-1206_Pol".
+
+Info: Checking netlist component footprint "R705:/582EB20F/583D8313:SMD_Packages:SMD-1206_Pol".
+
+Info: Checking netlist component footprint "R706:/582EB20F/5840F3D3:SMD_Packages:SMD-1206_Pol".
+
+Adding new component "R706:/582EB20F/5840F3D3" footprint "SMD_Packages:SMD-1206_Pol".
+
+Changing component "R706:/582EB20F/5840F3D3" pin "1" net name from "" to "/On-Off Switch/12V0".
+
+Changing component "R706:/582EB20F/5840F3D3" pin "2" net name from "" to "/BBB_INT".
+
+Info: Checking netlist component footprint "R801:/583A870A/583D36BC:".
+
+Error: Cannot add new component "R801:/583A870A/583D36BC" due to missing footprint "".
+
+Info: Checking netlist component footprint "R802:/583A870A/583E258D:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R802:/583A870A/583E258D" pin "1" net name from "" to "Net-(R802-Pad1)".
+
+Info: Checking netlist component footprint "R803:/583A870A/583B2967:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R803:/583A870A/583B2967" pin "1" net name from "" to "Net-(R803-Pad1)".
+
+Info: Checking netlist component footprint "R804:/583A870A/5833A728:Resistors_SMD:R_1210".
+
+Info: Checking netlist component footprint "R901:/583A88E6/583D36BC:".
+
+Error: Cannot add new component "R901:/583A88E6/583D36BC" due to missing footprint "".
+
+Info: Checking netlist component footprint "R902:/583A88E6/583E258D:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R902:/583A88E6/583E258D" pin "1" net name from "" to "Net-(R902-Pad1)".
+
+Info: Checking netlist component footprint "R903:/583A88E6/583B2967:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R903:/583A88E6/583B2967" pin "1" net name from "" to "Net-(R903-Pad1)".
+
+Info: Checking netlist component footprint "R904:/583A88E6/5833A728:Resistors_SMD:R_1210".
+
+Info: Checking netlist component footprint "R1001:/583A8D1D/583D36BC:".
+
+Error: Cannot add new component "R1001:/583A8D1D/583D36BC" due to missing footprint "".
+
+Info: Checking netlist component footprint "R1002:/583A8D1D/583E258D:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1002:/583A8D1D/583E258D" pin "1" net name from "" to "Net-(R1002-Pad1)".
+
+Info: Checking netlist component footprint "R1003:/583A8D1D/583B2967:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1003:/583A8D1D/583B2967" pin "1" net name from "" to "Net-(R1003-Pad1)".
+
+Info: Checking netlist component footprint "R1004:/583A8D1D/5833A728:Resistors_SMD:R_1210".
+
+Info: Checking netlist component footprint "R1101:/583A8D22/583D36BC:".
+
+Error: Cannot add new component "R1101:/583A8D22/583D36BC" due to missing footprint "".
+
+Info: Checking netlist component footprint "R1102:/583A8D22/583E258D:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1102:/583A8D22/583E258D" pin "1" net name from "" to "Net-(R1102-Pad1)".
+
+Info: Checking netlist component footprint "R1103:/583A8D22/583B2967:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1103:/583A8D22/583B2967" pin "1" net name from "" to "Net-(R1103-Pad1)".
+
+Info: Checking netlist component footprint "R1104:/583A8D22/5833A728:Resistors_SMD:R_1210".
+
+Info: Checking netlist component footprint "R1201:/583A8D27/583D36BC:".
+
+Error: Cannot add new component "R1201:/583A8D27/583D36BC" due to missing footprint "".
+
+Info: Checking netlist component footprint "R1202:/583A8D27/583E258D:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1202:/583A8D27/583E258D" pin "1" net name from "" to "Net-(R1202-Pad1)".
+
+Info: Checking netlist component footprint "R1203:/583A8D27/583B2967:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1203:/583A8D27/583B2967" pin "1" net name from "" to "Net-(R1203-Pad1)".
+
+Info: Checking netlist component footprint "R1204:/583A8D27/5833A728:Resistors_SMD:R_1210".
+
+Info: Checking netlist component footprint "R1301:/583A9416/583D36BC:".
+
+Error: Cannot add new component "R1301:/583A9416/583D36BC" due to missing footprint "".
+
+Info: Checking netlist component footprint "R1302:/583A9416/583E258D:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1302:/583A9416/583E258D" pin "1" net name from "" to "Net-(R1302-Pad1)".
+
+Info: Checking netlist component footprint "R1303:/583A9416/583B2967:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1303:/583A9416/583B2967" pin "1" net name from "" to "Net-(R1303-Pad1)".
+
+Info: Checking netlist component footprint "R1304:/583A9416/5833A728:Resistors_SMD:R_1210".
+
+Info: Checking netlist component footprint "R1401:/583A941B/583D36BC:".
+
+Error: Cannot add new component "R1401:/583A941B/583D36BC" due to missing footprint "".
+
+Info: Checking netlist component footprint "R1402:/583A941B/583E258D:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1402:/583A941B/583E258D" pin "1" net name from "" to "Net-(R1402-Pad1)".
+
+Info: Checking netlist component footprint "R1403:/583A941B/583B2967:Resistors_SMD:R_1206_HandSoldering".
+
+Changing component "R1403:/583A941B/583B2967" pin "1" net name from "" to "Net-(R1403-Pad1)".
+
+Info: Checking netlist component footprint "R1404:/583A941B/5833A728:Resistors_SMD:R_1210".
+
+Info: Checking netlist component footprint "SW701:/582EB20F/582F035F:hyperCustom:SW_Eswitch_KS-01Q-01".
+
+Info: Checking netlist component footprint "TP101:/58327A43:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "TP401:/582298AB/583276C3:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "TP402:/582298AB/58327786:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "TP403:/582298AB/5832774E:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "TP501:/5822D76D/583276C3:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "TP502:/5822D76D/58327786:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "TP503:/5822D76D/5832774E:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "TP601:/5822D438/583276C3:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "TP602:/5822D438/58327786:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "TP603:/5822D438/5832774E:hyperCustom:TP_SMT_Keystone".
+
+Info: Checking netlist component footprint "U201:/582171B3/583A8678:LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Error: Cannot add new component "U201:/582171B3/583A8678" due to missing footprint "LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Info: Checking netlist component footprint "U301:/5821AC51/583E0173:".
+
+Error: Cannot add new component "U301:/5821AC51/583E0173" due to missing footprint "".
+
+Info: Checking netlist component footprint "U701:/582EB20F/582EED5E:hyperCustom:Reg_SOT89-3_Diodes_PinNames".
+
+Info: Checking netlist component footprint "U702:/582EB20F/583004CD:hyperCustom:OpAmp_DIP_Pitch_2-54mm".
+
+Changing component "U702:/582EB20F/583004CD" pin "6" net name from "/On-Off Switch/BBB_ONOFF_12V" to "/On-Off Switch/BBB_KILL_12V".
+
+Info: Checking netlist component footprint "U703:/582EB20F/583AA3A9:".
+
+Error: Cannot add new component "U703:/582EB20F/583AA3A9" due to missing footprint "".
+
+Info: Checking netlist component footprint "U801:/583A870A/583A8678:LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Error: Cannot add new component "U801:/583A870A/583A8678" due to missing footprint "LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Info: Checking netlist component footprint "U901:/583A88E6/583A8678:LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Error: Cannot add new component "U901:/583A88E6/583A8678" due to missing footprint "LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Info: Checking netlist component footprint "U1001:/583A8D1D/583A8678:LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Error: Cannot add new component "U1001:/583A8D1D/583A8678" due to missing footprint "LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Info: Checking netlist component footprint "U1101:/583A8D22/583A8678:LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Error: Cannot add new component "U1101:/583A8D22/583A8678" due to missing footprint "LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Info: Checking netlist component footprint "U1201:/583A8D27/583A8678:LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Error: Cannot add new component "U1201:/583A8D27/583A8678" due to missing footprint "LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Info: Checking netlist component footprint "U1301:/583A9416/583A8678:LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Error: Cannot add new component "U1301:/583A9416/583A8678" due to missing footprint "LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Info: Checking netlist component footprint "U1401:/583A941B/583A8678:LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Error: Cannot add new component "U1401:/583A941B/583A8678" due to missing footprint "LMR16030S_8-PowerSOIC_TI.kicad_mod".
+
+Info: Checking netlist component footprint "VR201:/582171B3/583B2A2E:".
+
+Error: Cannot add new component "VR201:/582171B3/583B2A2E" due to missing footprint "".
+
+Info: Checking netlist component footprint "VR301:/5821AC51/583E01DD:".
+
+Error: Cannot add new component "VR301:/5821AC51/583E01DD" due to missing footprint "".
+
+Info: Checking netlist component footprint "VR801:/583A870A/583B2A2E:".
+
+Error: Cannot add new component "VR801:/583A870A/583B2A2E" due to missing footprint "".
+
+Info: Checking netlist component footprint "VR901:/583A88E6/583B2A2E:".
+
+Error: Cannot add new component "VR901:/583A88E6/583B2A2E" due to missing footprint "".
+
+Info: Checking netlist component footprint "VR1001:/583A8D1D/583B2A2E:".
+
+Error: Cannot add new component "VR1001:/583A8D1D/583B2A2E" due to missing footprint "".
+
+Info: Checking netlist component footprint "VR1101:/583A8D22/583B2A2E:".
+
+Error: Cannot add new component "VR1101:/583A8D22/583B2A2E" due to missing footprint "".
+
+Info: Checking netlist component footprint "VR1201:/583A8D27/583B2A2E:".
+
+Error: Cannot add new component "VR1201:/583A8D27/583B2A2E" due to missing footprint "".
+
+Info: Checking netlist component footprint "VR1301:/583A9416/583B2A2E:".
+
+Error: Cannot add new component "VR1301:/583A9416/583B2A2E" due to missing footprint "".
+
+Info: Checking netlist component footprint "VR1401:/583A941B/583B2A2E:".
+
+Error: Cannot add new component "VR1401:/583A941B/583B2A2E" due to missing footprint "".
+
+Remove single pad net "Net-(C1003-Pad1)" on "C1003" pad '1'
+
+Remove single pad net "Net-(C1004-Pad1)" on "C1004" pad '1'
+
+Remove single pad net "Net-(C1103-Pad1)" on "C1103" pad '1'
+
+Remove single pad net "Net-(C1104-Pad1)" on "C1104" pad '1'
+
+Remove single pad net "Net-(C1203-Pad1)" on "C1203" pad '1'
+
+Remove single pad net "Net-(C1204-Pad1)" on "C1204" pad '1'
+
+Remove single pad net "Net-(C1303-Pad1)" on "C1303" pad '1'
+
+Remove single pad net "Net-(C1304-Pad1)" on "C1304" pad '1'
+
+Remove single pad net "Net-(C1403-Pad1)" on "C1403" pad '1'
+
+Remove single pad net "Net-(C1404-Pad1)" on "C1404" pad '1'
+
+Remove single pad net "Net-(C203-Pad1)" on "C203" pad '1'
+
+Remove single pad net "Net-(C204-Pad1)" on "C204" pad '1'
+
+Remove single pad net "Net-(C302-Pad1)" on "C302" pad '1'
+
+Remove single pad net "Net-(C303-Pad1)" on "C303" pad '1'
+
+Remove single pad net "Net-(C701-Pad1)" on "C701" pad '1'
+
+Remove single pad net "Net-(C703-Pad1)" on "C703" pad '1'
+
+Remove single pad net "Net-(C803-Pad1)" on "C803" pad '1'
+
+Remove single pad net "Net-(C804-Pad1)" on "C804" pad '1'
+
+Remove single pad net "Net-(C903-Pad1)" on "C903" pad '1'
+
+Remove single pad net "Net-(C904-Pad1)" on "C904" pad '1'
+
+Remove single pad net "Net-(D401-Pad2)" on "D401" pad '2'
+
+Remove single pad net "Net-(D402-Pad2)" on "D402" pad '2'
+
+Remove single pad net "Net-(D501-Pad2)" on "D501" pad '2'
+
+Remove single pad net "Net-(D502-Pad2)" on "D502" pad '2'
+
+Remove single pad net "Net-(D601-Pad2)" on "D601" pad '2'
+
+Remove single pad net "Net-(D602-Pad2)" on "D602" pad '2'
+
+Remove single pad net "Net-(R1002-Pad1)" on "R1002" pad '1'
+
+Remove single pad net "Net-(R1003-Pad1)" on "R1003" pad '1'
+
+Remove single pad net "Net-(R1102-Pad1)" on "R1102" pad '1'
+
+Remove single pad net "Net-(R1103-Pad1)" on "R1103" pad '1'
+
+Remove single pad net "Net-(R1202-Pad1)" on "R1202" pad '1'
+
+Remove single pad net "Net-(R1203-Pad1)" on "R1203" pad '1'
+
+Remove single pad net "Net-(R1302-Pad1)" on "R1302" pad '1'
+
+Remove single pad net "Net-(R1303-Pad1)" on "R1303" pad '1'
+
+Remove single pad net "Net-(R1402-Pad1)" on "R1402" pad '1'
+
+Remove single pad net "Net-(R1403-Pad1)" on "R1403" pad '1'
+
+Remove single pad net "Net-(R202-Pad1)" on "R202" pad '1'
+
+Remove single pad net "Net-(R203-Pad1)" on "R203" pad '1'
+
+Remove single pad net "Net-(R301-Pad1)" on "R301" pad '1'
+
+Remove single pad net "Net-(R302-Pad1)" on "R302" pad '1'
+
+Remove single pad net "Net-(R303-Pad1)" on "R303" pad '1'
+
+Remove single pad net "Net-(R802-Pad1)" on "R802" pad '1'
+
+Remove single pad net "Net-(R803-Pad1)" on "R803" pad '1'
+
+Remove single pad net "Net-(R902-Pad1)" on "R902" pad '1'
+
