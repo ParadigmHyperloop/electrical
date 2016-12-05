@@ -70,6 +70,7 @@ LIBS:74aup1t34
 LIBS:ltc2954-1
 LIBS:testpoint
 LIBS:lmr16030s
+LIBS:tlc393
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END
