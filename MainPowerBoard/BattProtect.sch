@@ -72,6 +72,8 @@ LIBS:testpoint
 LIBS:lmr16030s
 LIBS:tlc393
 LIBS:on-diode
+LIBS:mounting_hole
+LIBS:tlv271
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END

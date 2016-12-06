@@ -1,4 +1,4 @@
-update=Monday, December 05, 2016 'AMt' 04:27:28 AM
+update=Tuesday, December 06, 2016 'AMt' 02:17:21 AM
 last_client=kicad
 [general]
 version=1
@@ -79,3 +79,5 @@ LibName70=testpoint
 LibName71=lmr16030s
 LibName72=tlc393
 LibName73=on-diode
+LibName74=mounting_hole
+LibName75=tlv271
