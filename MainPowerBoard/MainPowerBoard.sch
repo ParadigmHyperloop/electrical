@@ -313,17 +313,6 @@ F4 "BBB_ONOFF" I L 6150 2350 60
 F5 "BBB_INT" O L 6150 2550 60 
 F6 "SW_HI" I R 7950 2050 60 
 $EndSheet
-$Comp
-L Testpoint TP101
-U 1 1 58327A43
-P 5500 1000
-F 0 "TP101" V 5550 1400 60  0000 C CNN
-F 1 "Testpoint" H 5550 1000 60  0001 C CNN
-F 2 "hyperCustom:TP_SMT_Keystone" H 5500 1000 60  0001 C CNN
-F 3 "" H 5500 1000 60  0000 C CNN
-	1    5500 1000
-	0    -1   -1   0   
-$EndComp
 Text Notes 4300 5850 0    60   ~ 0
 Connector to LED board\n
 Text Label 5800 6100 0    60   ~ 0
@@ -925,9 +914,6 @@ Wire Wire Line
 	14600 8700 14850 8700
 Connection ~ 14600 8400
 Connection ~ 14600 8100
-Wire Wire Line
-	5350 1200 5350 1300
-Connection ~ 5350 1300
 Wire Wire Line
 	5150 4550 5300 4550
 Wire Wire Line
