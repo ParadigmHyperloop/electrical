@@ -67,6 +67,7 @@ LIBS:video
 LIBS:xilinx
 LIBS:bq76930
 LIBS:bq78350
+LIBS:mos_n
 LIBS:BatteryBoard-cache
 EELAYER 25 0
 EELAYER END

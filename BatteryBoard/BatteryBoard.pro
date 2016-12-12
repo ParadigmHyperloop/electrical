@@ -1,4 +1,4 @@
-update=Saturday, December 10, 2016 'PMt' 07:08:44 PM
+update=Sunday, December 11, 2016 'PMt' 07:37:05 PM
 last_client=kicad
 [general]
 version=1
@@ -74,3 +74,4 @@ LibName65=video
 LibName66=xilinx
 LibName67=bq76930
 LibName68=bq78350
+LibName69=mos_n
