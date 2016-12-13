@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MOSFET_P
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOS_P
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP PFET
+F transistors/mos/*.*
+$ENDCMP
+#
+#End Doc Library

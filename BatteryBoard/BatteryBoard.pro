@@ -1,4 +1,4 @@
-update=Sunday, December 11, 2016 'PMt' 07:37:05 PM
+update=Monday, December 12, 2016 'PMt' 10:54:09 PM
 last_client=kicad
 [general]
 version=1
@@ -75,3 +75,6 @@ LibName66=xilinx
 LibName67=bq76930
 LibName68=bq78350
 LibName69=mos_n
+LibName70=mos_n_pinnums
+LibName71=ab2_transistor
+LibName72=mos_p_pinnums

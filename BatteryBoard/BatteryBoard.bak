@@ -68,6 +68,9 @@ LIBS:xilinx
 LIBS:bq76930
 LIBS:bq78350
 LIBS:mos_n
+LIBS:mos_n_pinnums
+LIBS:ab2_transistor
+LIBS:mos_p_pinnums
 LIBS:BatteryBoard-cache
 EELAYER 25 0
 EELAYER END
@@ -161,10 +164,10 @@ Wire Wire Line
 NoConn ~ 1250 5300
 Connection ~ 2450 5450
 $Comp
-L GND #PWR?
+L GND #PWR01
 U 1 1 58329E98
 P 2450 5650
-F 0 "#PWR?" H 2450 5400 60  0001 C CNN
+F 0 "#PWR01" H 2450 5400 60  0001 C CNN
 F 1 "GND" H 2450 5500 60  0000 C CNN
 F 2 "" H 2450 5650 60  0000 C CNN
 F 3 "" H 2450 5650 60  0000 C CNN
