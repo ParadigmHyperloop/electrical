@@ -85,7 +85,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 38 41
+Sheet 41 41
 Title ""
 Date ""
 Rev ""
@@ -102,9 +102,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2750 4400 2750
 Wire Wire Line
-	4400 2750 4400 3350
-Wire Wire Line
-	4400 3350 4400 3450
+	4400 2750 4400 3450
 $Comp
 L C C?
 U 1 1 586A5184
@@ -151,9 +149,7 @@ F 3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.
 $EndComp
 Connection ~ 4400 3350
 Wire Wire Line
-	5200 3350 5350 3350
-Wire Wire Line
-	5350 3350 5700 3350
+	5200 3350 5700 3350
 Wire Wire Line
 	5350 3350 5350 3500
 Connection ~ 5350 3350
@@ -162,11 +158,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3750 4400 4350
 Wire Wire Line
-	4400 4350 4650 4350
-Wire Wire Line
-	4650 4350 4950 4350
-Wire Wire Line
-	4950 4350 5350 4350
+	4400 4350 5350 4350
 Wire Wire Line
 	5350 4350 5350 3800
 Connection ~ 4950 4350
