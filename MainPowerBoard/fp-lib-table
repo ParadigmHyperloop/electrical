@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name hyperCustom)(type KiCad)(uri "/Users/jmassucco17/Documents/Northeastern/2016 Fall/OpenLoop/full_electrical/hyperCustom.pretty")(options "")(descr ""))
   (lib (name TO_SOT_Packages_THT)(type Github)(uri "$(KIGITHUB)/TO_SOT_Packages_THT.pretty")(options "")(descr ""))
+  (lib (name hyperCustom)(type KiCad)(uri "/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/hyperCustom.pretty")(options "")(descr ""))
 )
