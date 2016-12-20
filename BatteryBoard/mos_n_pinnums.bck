@@ -8,4 +8,8 @@ $CMP MOS_N
 F transistors/mos/*.*
 $ENDCMP
 #
+$CMP NFET
+F transistors/mos/*.*
+$ENDCMP
+#
 #End Doc Library
