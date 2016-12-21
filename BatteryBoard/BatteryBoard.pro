@@ -1,4 +1,4 @@
-update=Monday, December 12, 2016 'PMt' 10:54:09 PM
+update=Wednesday, December 21, 2016 'AMt' 12:33:48 AM
 last_client=kicad
 [general]
 version=1
@@ -78,3 +78,5 @@ LibName69=mos_n
 LibName70=mos_n_pinnums
 LibName71=ab2_transistor
 LibName72=mos_p_pinnums
+LibName73=BST82,215_nfet
+LibName74=AOB290L_nfet
