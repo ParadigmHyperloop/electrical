@@ -91,25 +91,25 @@ $EndDescr
 Text HLabel 1450 1600 0    60   Input ~ 0
 PACK_POS
 Text HLabel 1450 2100 0    60   Input ~ 0
-VC9
+C9
 Text HLabel 1450 2600 0    60   Input ~ 0
-VC8
+C8
 Text HLabel 1450 3100 0    60   Input ~ 0
-VC7
+C7
 Text HLabel 1450 3600 0    60   Input ~ 0
-VC6
+C6
 Text HLabel 1450 4800 0    60   Input ~ 0
-VC5
+C5
 Text HLabel 1450 5500 0    60   Input ~ 0
-VC4
+C4
 Text HLabel 1450 6000 0    60   Input ~ 0
-VC3
+C3
 Text HLabel 1450 6500 0    60   Input ~ 0
-VC2
+C2
 Text HLabel 1450 7000 0    60   Input ~ 0
-VC1
+C1
 Text HLabel 1450 8050 0    60   Input ~ 0
-PACK_NEG
+C0
 $Comp
 L bq76930 U101
 U 1 1 58328447
@@ -1732,10 +1732,10 @@ F 6 "785-1329-1-ND" H 7400 9500 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L AOB290L Q?
+L AOB290L Q302
 U 1 1 585A6D46
 P 8000 9500
-F 0 "Q?" H 8010 9670 50  0000 R CNN
+F 0 "Q302" H 8010 9670 50  0000 R CNN
 F 1 "AOB290L" V 8200 9600 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:TO-263-3Lead" H 8000 9500 60  0001 C CNN
 F 3 "" H 8000 9500 60  0000 C CNN

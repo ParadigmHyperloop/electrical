@@ -634,9 +634,9 @@ SMBD
 Text Label 4200 8500 0    60   ~ 0
 SMBC
 Text HLabel 7950 8300 2    60   Output ~ 0
-SMBD
+SMBD_O
 Text HLabel 7950 8500 2    60   Output ~ 0
-SMBC
+SMBC_O
 Text Notes 2900 750  2    118  ~ 24
 bq78350 Signal Breakout
 Wire Notes Line
