@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP DIODE_PIN
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library
