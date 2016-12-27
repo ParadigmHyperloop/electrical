@@ -1,4 +1,4 @@
-update=Monday, December 26, 2016 'AMt' 12:48:19 AM
+update=Monday, December 26, 2016 'PMt' 07:07:39 PM
 last_client=kicad
 [general]
 version=1
@@ -82,3 +82,4 @@ LibName73=BST82,215_nfet
 LibName74=AOB290L_nfet
 LibName75=mounting_hole
 LibName76=diode_pin
+LibName77=mmbta92fsct-nd

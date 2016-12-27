@@ -75,6 +75,7 @@ LIBS:BST82,215_nfet
 LIBS:AOB290L_nfet
 LIBS:mounting_hole
 LIBS:diode_pin
+LIBS:mmbta92fsct-nd
 LIBS:BatteryBoard-cache
 EELAYER 25 0
 EELAYER END
@@ -285,7 +286,7 @@ Text Label 1200 1750 0    60   ~ 0
 Text HLabel 1150 9000 0    60   Input ~ 0
 PRECHG
 $Comp
-L 2SA1016 Q201
+L MMBTA92FSCT-ND Q201
 U 1 1 584CEB22
 P 2250 6700
 F 0 "Q201" H 2250 6551 40  0000 R CNN
