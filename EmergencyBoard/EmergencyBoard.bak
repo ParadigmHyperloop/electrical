@@ -1,0 +1,399 @@
+EESchema Schematic File Version 2
+LIBS:transistors
+LIBS:device
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+EELAYER 25 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 J?
+U 1 1 58674999
+P 1100 1400
+F 0 "J?" H 1100 1550 50  0000 C CNN
+F 1 "CONN_01X02" V 1200 1400 50  0001 C CNN
+F 2 "" H 1100 1400 60  0000 C CNN
+F 3 "" H 1100 1400 60  0000 C CNN
+	1    1100 1400
+	-1   0    0    -1  
+$EndComp
+Text Notes 700  750  0    118  ~ 24
+Battery Connector
+Wire Wire Line
+	1300 1350 3100 1350
+Wire Wire Line
+	2050 1350 2050 1100
+$Comp
+L VCC #PWR?
+U 1 1 58674A33
+P 2050 1100
+F 0 "#PWR?" H 2050 950 60  0001 C CNN
+F 1 "VCC" H 2050 1250 60  0000 C CNN
+F 2 "" H 2050 1100 60  0000 C CNN
+F 3 "" H 2050 1100 60  0000 C CNN
+	1    2050 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1450 1400 1450
+Wire Wire Line
+	1400 1450 1400 1650
+$Comp
+L GND #PWR?
+U 1 1 58674A50
+P 1400 1650
+F 0 "#PWR?" H 1400 1400 60  0001 C CNN
+F 1 "GND" H 1400 1500 60  0000 C CNN
+F 2 "" H 1400 1650 60  0000 C CNN
+F 3 "" H 1400 1650 60  0000 C CNN
+	1    1400 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 1350
+$Comp
+L ZENER D?
+U 1 1 58674A75
+P 2200 1650
+F 0 "D?" V 2300 1800 50  0000 C CNN
+F 1 "48V" V 2100 1800 50  0000 C CNN
+F 2 "" H 2200 1650 60  0000 C CNN
+F 3 "" H 2200 1650 60  0000 C CNN
+	1    2200 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1850 2200 1950
+$Comp
+L GND #PWR?
+U 1 1 58674AAF
+P 2200 1950
+F 0 "#PWR?" H 2200 1700 60  0001 C CNN
+F 1 "GND" H 2200 1800 60  0000 C CNN
+F 2 "" H 2200 1950 60  0000 C CNN
+F 3 "" H 2200 1950 60  0000 C CNN
+	1    2200 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1450 2200 1350
+Connection ~ 2200 1350
+$Comp
+L DIODE D?
+U 1 1 58674ACD
+P 2550 1650
+F 0 "D?" V 2650 1800 50  0000 C CNN
+F 1 "DIODE" H 2550 1550 50  0001 C CNN
+F 2 "" H 2550 1650 60  0000 C CNN
+F 3 "" H 2550 1650 60  0000 C CNN
+	1    2550 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 1450 2550 1350
+Connection ~ 2550 1350
+Wire Wire Line
+	2550 1850 2550 1950
+$Comp
+L GND #PWR?
+U 1 1 58674B1D
+P 2550 1950
+F 0 "#PWR?" H 2550 1700 60  0001 C CNN
+F 1 "GND" H 2550 1800 60  0000 C CNN
+F 2 "" H 2550 1950 60  0000 C CNN
+F 3 "" H 2550 1950 60  0000 C CNN
+	1    2550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1350 3100 1400
+$Comp
+L ZENER D?
+U 1 1 58674B44
+P 3100 1600
+F 0 "D?" V 3200 1800 50  0000 C CNN
+F 1 "24V" V 3000 1800 50  0000 C CNN
+F 2 "" H 3100 1600 60  0000 C CNN
+F 3 "" H 3100 1600 60  0000 C CNN
+	1    3100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58674B77
+P 3100 2200
+F 0 "R?" H 2900 2350 50  0000 C CNN
+F 1 "R" H 2900 2150 50  0000 C CNN
+F 2 "" V 3030 2200 30  0000 C CNN
+F 3 "" H 3100 2200 30  0000 C CNN
+	1    3100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 58674BA2
+P 3100 2750
+F 0 "D?" V 3050 2550 50  0000 C CNN
+F 1 "GREEN" V 3300 2550 50  0000 C CNN
+F 2 "" H 3100 2750 60  0000 C CNN
+F 3 "" H 3100 2750 60  0000 C CNN
+	1    3100 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 1800 3100 1950
+Wire Wire Line
+	3100 2450 3100 2550
+Wire Wire Line
+	3100 2950 3100 3050
+$Comp
+L GND #PWR?
+U 1 1 58674C26
+P 3100 3050
+F 0 "#PWR?" H 3100 2800 60  0001 C CNN
+F 1 "GND" H 3100 2900 60  0000 C CNN
+F 2 "" H 3100 3050 60  0000 C CNN
+F 3 "" H 3100 3050 60  0000 C CNN
+	1    3100 3050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	500  3500 3500 3500
+Wire Notes Line
+	3500 500  3500 7300
+Text Notes 600  3750 0    118  ~ 24
+24V Connectors
+$Comp
+L CONN_01X02 J?
+U 1 1 58674D47
+P 850 4250
+F 0 "J?" H 850 4400 50  0000 C CNN
+F 1 "CONN_01X02" V 950 4250 50  0001 C CNN
+F 2 "" H 850 4250 60  0000 C CNN
+F 3 "" H 850 4250 60  0000 C CNN
+	1    850  4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4200 2000 4200
+Text Label 1250 4200 0    60   ~ 0
+CLAMP_BRK1_24V
+Wire Wire Line
+	1050 4300 1200 4300
+Wire Wire Line
+	1200 4300 1200 4400
+$Comp
+L GND #PWR?
+U 1 1 58674EBC
+P 1200 4400
+F 0 "#PWR?" H 1200 4150 60  0001 C CNN
+F 1 "GND" H 1200 4250 60  0000 C CNN
+F 2 "" H 1200 4400 60  0000 C CNN
+F 3 "" H 1200 4400 60  0000 C CNN
+	1    1200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 58674F78
+P 850 4850
+F 0 "J?" H 850 5000 50  0000 C CNN
+F 1 "CONN_01X02" V 950 4850 50  0001 C CNN
+F 2 "" H 850 4850 60  0000 C CNN
+F 3 "" H 850 4850 60  0000 C CNN
+	1    850  4850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4800 2000 4800
+Text Label 1250 4800 0    60   ~ 0
+CLAMP_BRK2_24V
+Wire Wire Line
+	1050 4900 1200 4900
+Wire Wire Line
+	1200 4900 1200 5000
+$Comp
+L GND #PWR?
+U 1 1 58674F82
+P 1200 5000
+F 0 "#PWR?" H 1200 4750 60  0001 C CNN
+F 1 "GND" H 1200 4850 60  0000 C CNN
+F 2 "" H 1200 5000 60  0000 C CNN
+F 3 "" H 1200 5000 60  0000 C CNN
+	1    1200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 5867503E
+P 850 5550
+F 0 "J?" H 850 5700 50  0000 C CNN
+F 1 "CONN_01X02" V 950 5550 50  0001 C CNN
+F 2 "" H 850 5550 60  0000 C CNN
+F 3 "" H 850 5550 60  0000 C CNN
+	1    850  5550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 5500 2000 5500
+Text Label 1250 5500 0    60   ~ 0
+AUX_BRK1_24V
+Wire Wire Line
+	1050 5600 1200 5600
+Wire Wire Line
+	1200 5600 1200 5700
+$Comp
+L GND #PWR?
+U 1 1 58675048
+P 1200 5700
+F 0 "#PWR?" H 1200 5450 60  0001 C CNN
+F 1 "GND" H 1200 5550 60  0000 C CNN
+F 2 "" H 1200 5700 60  0000 C CNN
+F 3 "" H 1200 5700 60  0000 C CNN
+	1    1200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 5867504E
+P 850 6150
+F 0 "J?" H 850 6300 50  0000 C CNN
+F 1 "CONN_01X02" V 950 6150 50  0001 C CNN
+F 2 "" H 850 6150 60  0000 C CNN
+F 3 "" H 850 6150 60  0000 C CNN
+	1    850  6150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6100 2000 6100
+Text Label 1250 6100 0    60   ~ 0
+AUX_BRK2_24V
+Wire Wire Line
+	1050 6200 1200 6200
+Wire Wire Line
+	1200 6200 1200 6300
+$Comp
+L GND #PWR?
+U 1 1 58675058
+P 1200 6300
+F 0 "#PWR?" H 1200 6050 60  0001 C CNN
+F 1 "GND" H 1200 6150 60  0000 C CNN
+F 2 "" H 1200 6300 60  0000 C CNN
+F 3 "" H 1200 6300 60  0000 C CNN
+	1    1200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 586750E0
+P 850 6850
+F 0 "J?" H 850 7000 50  0000 C CNN
+F 1 "CONN_01X02" V 950 6850 50  0001 C CNN
+F 2 "" H 850 6850 60  0000 C CNN
+F 3 "" H 850 6850 60  0000 C CNN
+	1    850  6850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6800 2000 6800
+Text Label 1250 6800 0    60   ~ 0
+AUX_BRK3_24V
+Wire Wire Line
+	1050 6900 1200 6900
+Wire Wire Line
+	1200 6900 1200 7000
+$Comp
+L GND #PWR?
+U 1 1 586750EA
+P 1200 7000
+F 0 "#PWR?" H 1200 6750 60  0001 C CNN
+F 1 "GND" H 1200 6850 60  0000 C CNN
+F 2 "" H 1200 7000 60  0000 C CNN
+F 3 "" H 1200 7000 60  0000 C CNN
+	1    1200 7000
+	1    0    0    -1  
+$EndComp
+Text Notes 1550 4400 0    60   ~ 0
+Connect to 24V Regulator 1
+Text Notes 1550 5050 0    60   ~ 0
+Connect to 24V Regulator 8
+Text Notes 1500 5750 0    60   ~ 0
+Connect to 24V Regulator 3
+Text Notes 1500 6350 0    60   ~ 0
+Connect to 24V Regulator 5
+Text Notes 1500 7050 0    60   ~ 0
+Connect to 24V Regulator 6
+Wire Notes Line
+	3500 7300 500  7300
+$EndSCHEMATC
