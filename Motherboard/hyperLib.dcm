@@ -10,6 +10,11 @@ D Connector, single row, 01x23
 K connector
 $ENDCMP
 #
+$CMP CONN_02X25
+D Connector, double row, 02x25
+K connector
+$ENDCMP
+#
 $CMP LMV321RILT
 D Op Amp in 5-pin package
 K op amp amplifier operational 

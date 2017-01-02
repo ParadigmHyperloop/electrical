@@ -1,4 +1,4 @@
-update=12/16/2016 12:45:53 PM
+update=12/30/2016 6:38:10 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=hyperCustom.pretty
 [eeschema/libraries]
 LibName1=Motherboard-rescue
 LibName2=hyperLib
