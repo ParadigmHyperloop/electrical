@@ -1,0 +1,36 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BBB_header_left
+D Connector, single row, 01x23
+K connector
+$ENDCMP
+#
+$CMP BBB_header_right
+D Connector, single row, 01x23
+K connector
+$ENDCMP
+#
+$CMP CONN_02X25
+D Connector, double row, 02x25
+K connector
+$ENDCMP
+#
+$CMP LMV321RILT
+D Op Amp in 5-pin package
+K op amp amplifier operational 
+F http://www.ti.com/lit/gpn/opa376
+$ENDCMP
+#
+$CMP MAX5550
+D Dual, 10-Bit, Programmable, 30mA High-Output-Current DAC, 16 TQFN
+K Dual DAC 10-Bit
+F http://datasheets.maximintegrated.com/en/ds/MAX5550.pdf
+$ENDCMP
+#
+$CMP OPA656
+D Op Amp in 5-pin package
+K op amp amplifier operational 
+F http://www.ti.com/lit/gpn/opa376
+$ENDCMP
+#
+#End Doc Library
