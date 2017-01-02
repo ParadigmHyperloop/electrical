@@ -1,2 +1,0 @@
-# LED Board
-This board accepts status inputs of various types/levels and implements custom conversion for each and display on LEDs on exterior of pod. It includes some unused connectors/circuits/LEDs for future additions.
