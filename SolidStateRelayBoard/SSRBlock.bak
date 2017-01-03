@@ -1,0 +1,240 @@
+EESchema Schematic File Version 2
+LIBS:transistors
+LIBS:device
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:ssr
+LIBS:SSRBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4800 1950 0    60   Input ~ 0
+5V0
+Text HLabel 3850 3250 0    60   Input ~ 0
+CONTROL
+Text HLabel 7200 2700 2    60   Input ~ 0
+SUPPLY
+Text HLabel 7200 2850 2    60   Output ~ 0
+LOAD
+$Comp
+L NPN Q?
+U 1 1 586B33BB
+P 5100 3250
+F 0 "Q?" H 5100 3100 50  0000 R CNN
+F 1 "NPN" H 5100 3400 50  0000 R CNN
+F 2 "" H 5100 3250 60  0000 C CNN
+F 3 "" H 5100 3250 60  0000 C CNN
+	1    5100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 586B33E9
+P 5200 2300
+F 0 "R?" H 5000 2450 50  0000 C CNN
+F 1 "910" H 5050 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5130 2300 30  0001 C CNN
+F 3 "" H 5200 2300 30  0000 C CNN
+F 4 "Yageo" H 5200 2300 60  0001 C CNN "Mfg."
+F 5 "RC1206FR-07910RL" H 5200 2300 60  0001 C CNN "Mfg. PN"
+F 6 "311-910FRCT-ND" H 5200 2300 60  0001 C CNN "DigiKey PN"
+	1    5200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 586B3431
+P 4400 3250
+F 0 "R?" V 4300 3050 50  0000 C CNN
+F 1 "50k" V 4300 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4330 3250 30  0001 C CNN
+F 3 "" H 4400 3250 30  0000 C CNN
+F 4 "Yageo" V 4400 3250 60  0001 C CNN "Mfg."
+F 5 "RC1206FR-0749K9L" V 4400 3250 60  0001 C CNN "Mfg. PN"
+F 6 "311-49.9KFRCT-ND" V 4400 3250 60  0001 C CNN "DigiKey PN"
+	1    4400 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 2850 7200 2850
+Wire Wire Line
+	6500 2700 7200 2700
+Wire Wire Line
+	5200 2700 5200 2550
+Wire Wire Line
+	5200 2050 5200 1950
+Wire Wire Line
+	5200 1950 4800 1950
+Wire Wire Line
+	5200 2850 5200 3050
+Wire Wire Line
+	5200 3450 5200 3600
+$Comp
+L GND #PWR?
+U 1 1 586B354B
+P 5200 3600
+F 0 "#PWR?" H 5200 3350 60  0001 C CNN
+F 1 "GND" H 5200 3450 60  0000 C CNN
+F 2 "" H 5200 3600 60  0000 C CNN
+F 3 "" H 5200 3600 60  0000 C CNN
+	1    5200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3250 4650 3250
+Wire Wire Line
+	4150 3250 3850 3250
+$Comp
+L ZENER D?
+U 1 1 586B3681
+P 4050 3500
+F 0 "D?" V 4150 3700 50  0000 C CNN
+F 1 "3.5V" V 3950 3700 50  0000 C CNN
+F 2 "" H 4050 3500 60  0000 C CNN
+F 3 "" H 4050 3500 60  0000 C CNN
+	1    4050 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3300 4050 3250
+Connection ~ 4050 3250
+Wire Wire Line
+	4050 3700 4050 3750
+$Comp
+L GND #PWR?
+U 1 1 586B36D9
+P 4050 3750
+F 0 "#PWR?" H 4050 3500 60  0001 C CNN
+F 1 "GND" H 4050 3600 60  0000 C CNN
+F 2 "" H 4050 3750 60  0000 C CNN
+F 3 "" H 4050 3750 60  0000 C CNN
+	1    4050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 586B39A4
+P 4800 3600
+F 0 "R?" H 4650 3750 50  0000 C CNN
+F 1 "1M" H 4650 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4730 3600 30  0001 C CNN
+F 3 "" H 4800 3600 30  0000 C CNN
+F 4 "Yageo" H 4800 3600 60  0001 C CNN "Mfg."
+F 5 "RC1206JR-071ML" H 4800 3600 60  0001 C CNN "Mfg. PN"
+F 6 "311-1.0MERCT-ND" H 4800 3600 60  0001 C CNN "DigiKey PN"
+	1    4800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3350 4800 3250
+Connection ~ 4800 3250
+Wire Wire Line
+	4800 3850 4800 3950
+$Comp
+L GND #PWR?
+U 1 1 586B3A19
+P 4800 3950
+F 0 "#PWR?" H 4800 3700 60  0001 C CNN
+F 1 "GND" H 4800 3800 60  0000 C CNN
+F 2 "" H 4800 3950 60  0000 C CNN
+F 3 "" H 4800 3950 60  0000 C CNN
+	1    4800 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5500 3000
+Wire Wire Line
+	5200 2700 5500 2700
+Wire Wire Line
+	5200 2850 5500 2850
+Wire Wire Line
+	6500 3000 6800 3000
+Wire Wire Line
+	6800 3000 6800 2700
+Connection ~ 6800 2700
+$Comp
+L SSR U?
+U 1 1 586D88E1
+P 6000 2850
+F 0 "U?" H 5750 3150 60  0000 C CNN
+F 1 "SSR" H 6200 2550 60  0000 C CNN
+F 2 "" H 6000 2850 60  0001 C CNN
+F 3 "" H 6000 2850 60  0001 C CNN
+F 4 "Vishay" H 6000 2850 60  0001 C CNN "Mfg."
+F 5 "VO14642AABTR" H 6000 2850 60  0001 C CNN "Mfg. PN"
+F 6 "VO14642AABCT-ND" H 6000 2850 60  0001 C CNN "DigiKey PN"
+	1    6000 2850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
