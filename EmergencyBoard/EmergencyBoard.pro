@@ -1,4 +1,4 @@
-update=Saturday, December 31, 2016 'AMt' 12:59:15 AM
+update=Sunday, January 01, 2017 'PMt' 09:02:15 PM
 last_client=kicad
 [general]
 version=1
@@ -71,3 +71,4 @@ LibName62=ttl_ieee
 LibName63=valves
 LibName64=video
 LibName65=xilinx
+LibName66=lmr16030s

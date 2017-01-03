@@ -64,11 +64,13 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xilinx
+LIBS:lmr16030s
+LIBS:EmergencyBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -80,8 +82,10 @@ Comment4 ""
 $EndDescr
 Text HLabel 2000 2300 0    60   Input ~ 0
 24V_RAIL
-Text HLabel 2000 2900 0    60   Input ~ 0
+Text HLabel 2000 3150 0    60   Input ~ 0
 PUSHER_PRESENT_L
 Text HLabel 8150 2700 2    60   Output ~ 0
 RELAY_CONTROL
+Text HLabel 2000 2750 0    60   Input ~ 0
+OPC_CONTROL
 $EndSCHEMATC
