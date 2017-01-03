@@ -64,12 +64,14 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xilinx
+LIBS:lmr16030s
+LIBS:ssr
 LIBS:EmergencyBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 15
 Title ""
 Date ""
 Rev ""
@@ -79,12 +81,167 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2000 2300 0    60   Input ~ 0
+Text HLabel 2100 950  0    60   Input ~ 0
 24V_RAIL
 Text HLabel 2000 3150 0    60   Input ~ 0
 PUSHER_PRESENT_L
 Text HLabel 8150 2700 2    60   Output ~ 0
 RELAY_CONTROL
-Text HLabel 2000 2750 0    60   Input ~ 0
-OPC_CONTROL
+Text HLabel 3250 1200 0    60   Input ~ 0
+5V0
+$Comp
+L LM193 U?
+U 1 1 586D4306
+P 3650 1700
+F 0 "U?" H 3800 1850 60  0000 C CNN
+F 1 "LM193" H 3850 1500 60  0000 C CNN
+F 2 "" H 3650 1700 60  0000 C CNN
+F 3 "" H 3650 1700 60  0000 C CNN
+	1    3650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1300 3550 1200
+Wire Wire Line
+	3550 1200 3250 1200
+Text Label 3350 1200 0    60   ~ 0
+5V0
+Wire Wire Line
+	3550 2100 3550 2250
+$Comp
+L GND #PWR?
+U 1 1 586D4350
+P 3550 2250
+F 0 "#PWR?" H 3550 2000 60  0001 C CNN
+F 1 "GND" H 3550 2100 60  0000 C CNN
+F 2 "" H 3550 2250 60  0000 C CNN
+F 3 "" H 3550 2250 60  0000 C CNN
+	1    3550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 586D4367
+P 4350 1350
+F 0 "R?" V 4430 1350 50  0000 C CNN
+F 1 "R" V 4357 1351 50  0000 C CNN
+F 2 "" V 4280 1350 30  0000 C CNN
+F 3 "" H 4350 1350 30  0000 C CNN
+	1    4350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 586D439B
+P 4700 1700
+F 0 "C?" H 4750 1800 50  0000 L CNN
+F 1 "C" H 4750 1600 50  0000 L CNN
+F 2 "" H 4738 1550 30  0000 C CNN
+F 3 "" H 4700 1700 60  0000 C CNN
+	1    4700 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 1700 4500 1700
+Wire Wire Line
+	4350 1600 4350 1700
+Connection ~ 4350 1700
+Wire Wire Line
+	4350 1100 4350 1000
+Wire Wire Line
+	4350 1000 4100 1000
+Text Label 4100 1000 0    60   ~ 0
+5V0
+Text Notes 3650 750  0    60   ~ 0
+Capacitor AC-couples signal to generate\na pulse trigger when 24V rail drops low
+$Comp
+L R R?
+U 1 1 586D4419
+P 2250 1300
+F 0 "R?" H 2100 1450 50  0000 C CNN
+F 1 "400k" H 2100 1150 50  0000 C CNN
+F 2 "" V 2180 1300 30  0000 C CNN
+F 3 "" H 2250 1300 30  0000 C CNN
+	1    2250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1550 2250 1700
+Wire Wire Line
+	2100 950  2250 950 
+Wire Wire Line
+	2250 950  2250 1050
+Wire Wire Line
+	2250 1600 3150 1600
+Connection ~ 2250 1600
+Wire Wire Line
+	2250 2200 2250 2300
+$Comp
+L GND #PWR?
+U 1 1 586D45B8
+P 2250 2300
+F 0 "#PWR?" H 2250 2050 60  0001 C CNN
+F 1 "GND" H 2250 2150 60  0000 C CNN
+F 2 "" H 2250 2300 60  0000 C CNN
+F 3 "" H 2250 2300 60  0000 C CNN
+	1    2250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 586D4624
+P 2250 1950
+F 0 "R?" H 2100 2100 50  0000 C CNN
+F 1 "100k" H 2100 1800 50  0000 C CNN
+F 2 "" V 2180 1950 30  0000 C CNN
+F 3 "" H 2250 1950 30  0000 C CNN
+	1    2250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 586D4779
+P 2750 2150
+F 0 "R?" H 2600 2300 50  0000 C CNN
+F 1 "100k" H 2600 2000 50  0000 C CNN
+F 2 "" V 2680 2150 30  0000 C CNN
+F 3 "" H 2750 2150 30  0000 C CNN
+	1    2750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 586D47C7
+P 2750 1250
+F 0 "R?" H 2600 1400 50  0000 C CNN
+F 1 "40k" H 2600 1100 50  0000 C CNN
+F 2 "" V 2680 1250 30  0000 C CNN
+F 3 "" H 2750 1250 30  0000 C CNN
+	1    2750 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1900 2750 1500
+Wire Wire Line
+	3150 1800 2750 1800
+Connection ~ 2750 1800
+Wire Wire Line
+	2750 2400 2750 2550
+$Comp
+L GND #PWR?
+U 1 1 586D4861
+P 2750 2550
+F 0 "#PWR?" H 2750 2300 60  0001 C CNN
+F 1 "GND" H 2750 2400 60  0000 C CNN
+F 2 "" H 2750 2550 60  0000 C CNN
+F 3 "" H 2750 2550 60  0000 C CNN
+	1    2750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1000 2750 850 
+Wire Wire Line
+	2750 850  2500 850 
+Text Label 2500 850  0    60   ~ 0
+5V0
 $EndSCHEMATC

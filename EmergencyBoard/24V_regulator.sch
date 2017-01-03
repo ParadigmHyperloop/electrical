@@ -65,12 +65,13 @@ LIBS:valves
 LIBS:video
 LIBS:xilinx
 LIBS:lmr16030s
+LIBS:ssr
 LIBS:EmergencyBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 8
+Sheet 4 15
 Title "Main Power Board"
 Date ""
 Rev "1"

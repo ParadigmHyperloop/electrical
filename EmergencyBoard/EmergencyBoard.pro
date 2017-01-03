@@ -1,4 +1,4 @@
-update=Sunday, January 01, 2017 'PMt' 09:02:15 PM
+update=Tuesday, January 03, 2017 'AMt' 12:33:17 AM
 last_client=kicad
 [general]
 version=1
@@ -72,3 +72,4 @@ LibName63=valves
 LibName64=video
 LibName65=xilinx
 LibName66=lmr16030s
+LibName67=/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/SolidStateRelayBoard/ssr
