@@ -1,4 +1,4 @@
-update=Tuesday, January 03, 2017 'AMt' 12:08:03 AM
+update=Tuesday, January 03, 2017 'PMt' 11:08:31 PM
 last_client=kicad
 [general]
 version=1
@@ -72,3 +72,5 @@ LibName63=valves
 LibName64=video
 LibName65=xilinx
 LibName66=ssr
+LibName67=mmbt2222alt1g
+LibName68=mounting_hole
