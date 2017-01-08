@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/PusherProtectionBoard/PusherProtectionBoard.sch</source>
-    <date>Saturday, January 07, 2017 'PMt' 11:12:47 PM</date>
+    <date>Sunday, January 08, 2017 'AMt' 04:34:32 AM</date>
     <tool>Eeschema 4.0.4-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -246,8 +246,6 @@
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <fields>
         <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-0710KL</field>
-        <field name="DigiKey PN">311-10KERCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -389,6 +387,18 @@
       <sheetpath names="/Brake Interlock - Clamp Brake 1/" tstamps="/586F303A/"/>
       <tstamp>586D88E1</tstamp>
     </comp>
+    <comp ref="Q301">
+      <value>NFET</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Fairchild</field>
+        <field name="Mfg. PN">BSS123</field>
+        <field name="DigiKey PN">BSS123NCT-ND</field>
+      </fields>
+      <libsource lib="mos_n_pinnums" part="NFET"/>
+      <sheetpath names="/Brake Interlock - Clamp Brake 1/" tstamps="/586F303A/"/>
+      <tstamp>587234D6</tstamp>
+    </comp>
     <comp ref="R401">
       <value>910</value>
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
@@ -412,6 +422,18 @@
       <libsource lib="ssr" part="SSR"/>
       <sheetpath names="/Brake Interlock - Clamp Brake 2/" tstamps="/586F4007/"/>
       <tstamp>586D88E1</tstamp>
+    </comp>
+    <comp ref="Q401">
+      <value>NFET</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Fairchild</field>
+        <field name="Mfg. PN">BSS123</field>
+        <field name="DigiKey PN">BSS123NCT-ND</field>
+      </fields>
+      <libsource lib="mos_n_pinnums" part="NFET"/>
+      <sheetpath names="/Brake Interlock - Clamp Brake 2/" tstamps="/586F4007/"/>
+      <tstamp>587234D6</tstamp>
     </comp>
     <comp ref="R501">
       <value>910</value>
@@ -437,6 +459,18 @@
       <sheetpath names="/Brake Interlock - Aux Brake 1/" tstamps="/586F48EB/"/>
       <tstamp>586D88E1</tstamp>
     </comp>
+    <comp ref="Q501">
+      <value>NFET</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Fairchild</field>
+        <field name="Mfg. PN">BSS123</field>
+        <field name="DigiKey PN">BSS123NCT-ND</field>
+      </fields>
+      <libsource lib="mos_n_pinnums" part="NFET"/>
+      <sheetpath names="/Brake Interlock - Aux Brake 1/" tstamps="/586F48EB/"/>
+      <tstamp>587234D6</tstamp>
+    </comp>
     <comp ref="R601">
       <value>910</value>
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
@@ -461,6 +495,18 @@
       <sheetpath names="/Brake Interlock - Aux Brake 2/" tstamps="/586F4915/"/>
       <tstamp>586D88E1</tstamp>
     </comp>
+    <comp ref="Q601">
+      <value>NFET</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Fairchild</field>
+        <field name="Mfg. PN">BSS123</field>
+        <field name="DigiKey PN">BSS123NCT-ND</field>
+      </fields>
+      <libsource lib="mos_n_pinnums" part="NFET"/>
+      <sheetpath names="/Brake Interlock - Aux Brake 2/" tstamps="/586F4915/"/>
+      <tstamp>587234D6</tstamp>
+    </comp>
     <comp ref="R701">
       <value>910</value>
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
@@ -484,6 +530,18 @@
       <libsource lib="ssr" part="SSR"/>
       <sheetpath names="/Brake Interlock - Aux Brake 3/" tstamps="/586F4B64/"/>
       <tstamp>586D88E1</tstamp>
+    </comp>
+    <comp ref="Q701">
+      <value>NFET</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Fairchild</field>
+        <field name="Mfg. PN">BSS123</field>
+        <field name="DigiKey PN">BSS123NCT-ND</field>
+      </fields>
+      <libsource lib="mos_n_pinnums" part="NFET"/>
+      <sheetpath names="/Brake Interlock - Aux Brake 3/" tstamps="/586F4B64/"/>
+      <tstamp>587234D6</tstamp>
     </comp>
   </components>
   <libparts>
@@ -629,54 +687,59 @@
     <library logical="conn">
       <uri>/Users/jmassucco17/Library/Application Support/kicad/library/conn.lib</uri>
     </library>
-    <library logical="ssr">
-      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/SolidStateRelayBoard/ssr.lib</uri>
-    </library>
     <library logical="LM2936HV">
       <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/PusherProtectionBoard/LM2936HV.lib</uri>
-    </library>
-    <library logical="mos_n_pinnums">
-      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/PusherProtectionBoard/mos_n_pinnums.lib</uri>
     </library>
     <library logical="mounting_hole">
       <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/PusherProtectionBoard/mounting_hole.lib</uri>
     </library>
+    <library logical="ssr">
+      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/SolidStateRelayBoard/ssr.lib</uri>
+    </library>
+    <library logical="mos_n_pinnums">
+      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/PusherProtectionBoard/mos_n_pinnums.lib</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="GND">
-      <node ref="J109" pin="2"/>
-      <node ref="J104" pin="2"/>
-      <node ref="J106" pin="2"/>
+      <node ref="Q401" pin="2"/>
+      <node ref="R201" pin="2"/>
       <node ref="J102" pin="4"/>
       <node ref="J102" pin="3"/>
-      <node ref="R201" pin="2"/>
       <node ref="U101" pin="2"/>
-      <node ref="Q201" pin="2"/>
-      <node ref="J107" pin="2"/>
       <node ref="J111" pin="2"/>
-      <node ref="J112" pin="2"/>
+      <node ref="J106" pin="2"/>
+      <node ref="Q501" pin="2"/>
+      <node ref="C101" pin="2"/>
       <node ref="J103" pin="2"/>
       <node ref="J101" pin="2"/>
-      <node ref="J110" pin="2"/>
       <node ref="J105" pin="2"/>
-      <node ref="J114" pin="1"/>
-      <node ref="J113" pin="2"/>
+      <node ref="Q301" pin="2"/>
+      <node ref="Q201" pin="2"/>
+      <node ref="J109" pin="2"/>
+      <node ref="J104" pin="2"/>
       <node ref="J108" pin="2"/>
-      <node ref="C101" pin="2"/>
+      <node ref="J112" pin="2"/>
+      <node ref="Q701" pin="2"/>
+      <node ref="J110" pin="2"/>
       <node ref="J117" pin="1"/>
-      <node ref="J115" pin="1"/>
       <node ref="J116" pin="1"/>
+      <node ref="J115" pin="1"/>
+      <node ref="J114" pin="1"/>
+      <node ref="Q601" pin="2"/>
+      <node ref="J107" pin="2"/>
+      <node ref="J113" pin="2"/>
     </net>
     <net code="2" name="5V0">
-      <node ref="R102" pin="2"/>
-      <node ref="R301" pin="1"/>
       <node ref="R701" pin="1"/>
+      <node ref="R102" pin="2"/>
+      <node ref="R601" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="R301" pin="1"/>
       <node ref="R101" pin="1"/>
       <node ref="R401" pin="1"/>
       <node ref="U101" pin="1"/>
       <node ref="R501" pin="1"/>
-      <node ref="C101" pin="1"/>
-      <node ref="R601" pin="1"/>
     </net>
     <net code="3" name="/Brake Interlock - Aux Brake 3/24V_SUPPLY">
       <node ref="U701" pin="4"/>
@@ -688,25 +751,25 @@
       <node ref="U701" pin="5"/>
     </net>
     <net code="5" name="/Brake Interlock - Aux Brake 1/PUSHER">
-      <node ref="U501" pin="2"/>
-      <node ref="U401" pin="2"/>
-      <node ref="D101" pin="1"/>
-      <node ref="U301" pin="2"/>
-      <node ref="Q201" pin="3"/>
-      <node ref="U701" pin="2"/>
-      <node ref="R102" pin="1"/>
-      <node ref="U601" pin="2"/>
+      <node ref="Q301" pin="1"/>
       <node ref="J103" pin="1"/>
       <node ref="J102" pin="1"/>
+      <node ref="Q501" pin="1"/>
+      <node ref="Q401" pin="1"/>
+      <node ref="D101" pin="1"/>
+      <node ref="Q601" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="Q701" pin="1"/>
+      <node ref="Q201" pin="3"/>
     </net>
     <net code="6" name="/Pusher Delay/OPC_PUSHER_REL_DELAY">
-      <node ref="J102" pin="2"/>
       <node ref="R201" pin="1"/>
+      <node ref="J102" pin="2"/>
       <node ref="Q201" pin="1"/>
     </net>
     <net code="7" name="Net-(D101-Pad2)">
-      <node ref="D101" pin="2"/>
       <node ref="R101" pin="2"/>
+      <node ref="D101" pin="2"/>
     </net>
     <net code="8" name="/Brake Interlock - Clamp Brake 1/24V_SUPPLY">
       <node ref="J104" pin="1"/>
@@ -718,21 +781,21 @@
       <node ref="J109" pin="1"/>
     </net>
     <net code="10" name="/Brake Interlock - Clamp Brake 2/24V_SUPPLY">
+      <node ref="U401" pin="4"/>
       <node ref="J105" pin="1"/>
       <node ref="U401" pin="6"/>
-      <node ref="U401" pin="4"/>
     </net>
     <net code="11" name="Net-(J101-Pad1)">
-      <node ref="U101" pin="8"/>
       <node ref="J101" pin="1"/>
+      <node ref="U101" pin="8"/>
     </net>
     <net code="12" name="/Brake Interlock - Aux Brake 1/TO_BRAKE">
       <node ref="U501" pin="5"/>
       <node ref="J111" pin="1"/>
     </net>
     <net code="13" name="/Brake Interlock - Aux Brake 2/24V_SUPPLY">
-      <node ref="U601" pin="6"/>
       <node ref="U601" pin="4"/>
+      <node ref="U601" pin="6"/>
       <node ref="J107" pin="1"/>
     </net>
     <net code="14" name="/Brake Interlock - Aux Brake 2/TO_BRAKE">
@@ -740,48 +803,68 @@
       <node ref="U601" pin="5"/>
     </net>
     <net code="15" name="/Brake Interlock - Clamp Brake 2/TO_BRAKE">
-      <node ref="U401" pin="5"/>
       <node ref="J110" pin="1"/>
+      <node ref="U401" pin="5"/>
     </net>
     <net code="16" name="/Brake Interlock - Aux Brake 1/24V_SUPPLY">
-      <node ref="J106" pin="1"/>
       <node ref="U501" pin="4"/>
       <node ref="U501" pin="6"/>
+      <node ref="J106" pin="1"/>
     </net>
     <net code="17" name="Net-(U301-Pad3)">
       <node ref="U301" pin="3"/>
     </net>
-    <net code="18" name="Net-(R301-Pad2)">
-      <node ref="U301" pin="1"/>
-      <node ref="R301" pin="2"/>
+    <net code="18" name="Net-(Q301-Pad3)">
+      <node ref="Q301" pin="3"/>
+      <node ref="U301" pin="2"/>
     </net>
-    <net code="19" name="Net-(U401-Pad3)">
+    <net code="19" name="Net-(R301-Pad2)">
+      <node ref="R301" pin="2"/>
+      <node ref="U301" pin="1"/>
+    </net>
+    <net code="20" name="Net-(U401-Pad3)">
       <node ref="U401" pin="3"/>
     </net>
-    <net code="20" name="Net-(R401-Pad2)">
+    <net code="21" name="Net-(Q401-Pad3)">
+      <node ref="U401" pin="2"/>
+      <node ref="Q401" pin="3"/>
+    </net>
+    <net code="22" name="Net-(R401-Pad2)">
       <node ref="U401" pin="1"/>
       <node ref="R401" pin="2"/>
     </net>
-    <net code="21" name="Net-(U501-Pad3)">
+    <net code="23" name="Net-(U501-Pad3)">
       <node ref="U501" pin="3"/>
     </net>
-    <net code="22" name="Net-(R501-Pad2)">
+    <net code="24" name="Net-(Q501-Pad3)">
+      <node ref="U501" pin="2"/>
+      <node ref="Q501" pin="3"/>
+    </net>
+    <net code="25" name="Net-(R501-Pad2)">
       <node ref="U501" pin="1"/>
       <node ref="R501" pin="2"/>
     </net>
-    <net code="23" name="Net-(U601-Pad3)">
+    <net code="26" name="Net-(U601-Pad3)">
       <node ref="U601" pin="3"/>
     </net>
-    <net code="24" name="Net-(R601-Pad2)">
+    <net code="27" name="Net-(Q601-Pad3)">
+      <node ref="Q601" pin="3"/>
+      <node ref="U601" pin="2"/>
+    </net>
+    <net code="28" name="Net-(R601-Pad2)">
       <node ref="U601" pin="1"/>
       <node ref="R601" pin="2"/>
     </net>
-    <net code="25" name="Net-(R701-Pad2)">
-      <node ref="R701" pin="2"/>
-      <node ref="U701" pin="1"/>
-    </net>
-    <net code="26" name="Net-(U701-Pad3)">
+    <net code="29" name="Net-(U701-Pad3)">
       <node ref="U701" pin="3"/>
+    </net>
+    <net code="30" name="Net-(Q701-Pad3)">
+      <node ref="Q701" pin="3"/>
+      <node ref="U701" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R701-Pad2)">
+      <node ref="U701" pin="1"/>
+      <node ref="R701" pin="2"/>
     </net>
   </nets>
 </export>
