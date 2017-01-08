@@ -1,4 +1,4 @@
-update=Tuesday, January 03, 2017 'AMt' 12:33:17 AM
+update=Saturday, January 07, 2017 'PMt' 10:14:39 PM
 last_client=kicad
 [general]
 version=1
@@ -73,3 +73,9 @@ LibName64=video
 LibName65=xilinx
 LibName66=lmr16030s
 LibName67=/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/SolidStateRelayBoard/ssr
+LibName68=mmbt2222alt1g
+LibName69=5voltregulator
+LibName70=lmx93
+LibName71=mos_n_pinnums
+LibName72=LM2936HV
+LibName73=mounting_hole

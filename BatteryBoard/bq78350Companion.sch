@@ -1426,4 +1426,8 @@ Wire Wire Line
 	4200 5950 4200 5700
 Connection ~ 4200 5950
 Connection ~ 4200 5700
+Text Notes 4950 5400 0    60   ~ 0
+NOSTUFF
+Text Notes 4950 5600 0    60   ~ 0
+NOSTUFF
 $EndSCHEMATC
