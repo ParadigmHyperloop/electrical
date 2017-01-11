@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name moboFootprints)(type KiCad)(uri "C:\\Users\\Luke Merkl\\Desktop\\full_electrical\\Motherboard\\moboFootprints.pretty")(options "")(descr ""))
+  (lib (name thermoFootprints)(type KiCad)(uri "$(KIPRJMOD)\\thermoFootprints.pretty")(options "")(descr ""))
+)

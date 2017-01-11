@@ -1,0 +1,4819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/lukemerkl/Desktop/THBO/Thermoboard.sch</source>
+    <date>Thursday, January 05, 2017 'PMt' 12:04:15 PM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Thermoboard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/sheet586796DF/" tstamps="/5866FBDE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/sheet58677ED1/" tstamps="/58677ED6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/sheet58677FA8/" tstamps="/58677FAD/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/sheet58678359/" tstamps="/5867835E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/sheet58678C44/" tstamps="/58678C4C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/sheet58678C45/" tstamps="/58678C5A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/sheet58678C46/" tstamps="/58678C68/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/sheet58678C47/" tstamps="/58678C76/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/sheet5867A098/" tstamps="/5867A0A0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/sheet5867A099/" tstamps="/5867A0AE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/sheet5867A09A/" tstamps="/5867A0BC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/sheet5867A09B/" tstamps="/5867A0CA/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/sheet5867B428/" tstamps="/5867B430/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="15" name="/sheet5867B429/" tstamps="/5867B43E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="16" name="/sheet5867B42A/" tstamps="/5867B44C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="17" name="/sheet5867B42B/" tstamps="/5867B45A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="18" name="/sheet5868210E/" tstamps="/58682122/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="19" name="/sheet5868210F/" tstamps="/58682130/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="20" name="/sheet58682110/" tstamps="/5868213E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="21" name="/sheet58682111/" tstamps="/5868214C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="22" name="/sheet58682112/" tstamps="/5868215A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="23" name="/sheet58682113/" tstamps="/58682168/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="24" name="/sheet58682114/" tstamps="/58682176/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="25" name="/sheet58682115/" tstamps="/58682184/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="26" name="/sheet58682116/" tstamps="/58682192/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="27" name="/sheet58682117/" tstamps="/586821A0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="28" name="/sheet58682118/" tstamps="/586821AE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="29" name="/sheet58682119/" tstamps="/586821BC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="30" name="/sheet5868211A/" tstamps="/586821CA/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="31" name="/sheet5868211B/" tstamps="/586821D8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="32" name="/sheet5868211C/" tstamps="/586821E6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="33" name="/sheet5868211D/" tstamps="/586821F4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tempAmp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P102">
+      <value>CONN_02X08</value>
+      <footprint>moboFootprints:Molex_16pin_milliGrid</footprint>
+      <fields>
+        <field name="Digikey P/N">WM18864-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586A3C83</tstamp>
+    </comp>
+    <comp ref="P104">
+      <value>CONN_02X08</value>
+      <footprint>moboFootprints:Molex_16pin_milliGrid</footprint>
+      <fields>
+        <field name="Digikey P/N">WM18864-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586B1C00</tstamp>
+    </comp>
+    <comp ref="P103">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F519A</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58803416</tstamp>
+    </comp>
+    <comp ref="P120">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588998C9</tstamp>
+    </comp>
+    <comp ref="P121">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58899B3C</tstamp>
+    </comp>
+    <comp ref="P122">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58899DA4</tstamp>
+    </comp>
+    <comp ref="P123">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889A017</tstamp>
+    </comp>
+    <comp ref="P124">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889A285</tstamp>
+    </comp>
+    <comp ref="P125">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889A839</tstamp>
+    </comp>
+    <comp ref="P126">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889A840</tstamp>
+    </comp>
+    <comp ref="P127">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889A847</tstamp>
+    </comp>
+    <comp ref="P128">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889A84E</tstamp>
+    </comp>
+    <comp ref="P129">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889A855</tstamp>
+    </comp>
+    <comp ref="P130">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889B420</tstamp>
+    </comp>
+    <comp ref="P131">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889B427</tstamp>
+    </comp>
+    <comp ref="P132">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889B42E</tstamp>
+    </comp>
+    <comp ref="P133">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889B435</tstamp>
+    </comp>
+    <comp ref="P134">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5889B43C</tstamp>
+    </comp>
+    <comp ref="P105">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD74A</tstamp>
+    </comp>
+    <comp ref="P106">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD751</tstamp>
+    </comp>
+    <comp ref="P107">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD758</tstamp>
+    </comp>
+    <comp ref="P108">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD75F</tstamp>
+    </comp>
+    <comp ref="P109">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD766</tstamp>
+    </comp>
+    <comp ref="P110">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD76D</tstamp>
+    </comp>
+    <comp ref="P111">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD774</tstamp>
+    </comp>
+    <comp ref="P112">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD77B</tstamp>
+    </comp>
+    <comp ref="P113">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD782</tstamp>
+    </comp>
+    <comp ref="P114">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD789</tstamp>
+    </comp>
+    <comp ref="P115">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD790</tstamp>
+    </comp>
+    <comp ref="P116">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD797</tstamp>
+    </comp>
+    <comp ref="P117">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD79E</tstamp>
+    </comp>
+    <comp ref="P118">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD7A5</tstamp>
+    </comp>
+    <comp ref="P119">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588AD7AC</tstamp>
+    </comp>
+    <comp ref="P135">
+      <value>CONN_01X02</value>
+      <footprint>thermoFootprints:phoenix_2pin_3.5mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">277-2416-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>589019F0</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>OPA380</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Digikey P/N">296-16860-1-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="OPA380"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5890A723</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">RHM1.00KYCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5890E1BC</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">408-1814-1-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5890E4B1</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1356-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>589315F7</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>589318E2</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>10</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">RCL10DCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58932A51</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet586796DF/" tstamps="/5866FBDE/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet586796DF/" tstamps="/5866FBDE/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet586796DF/" tstamps="/5866FBDE/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet586796DF/" tstamps="/5866FBDE/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet586796DF/" tstamps="/5866FBDE/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet586796DF/" tstamps="/5866FBDE/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet586796DF/" tstamps="/5866FBDE/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet586796DF/" tstamps="/5866FBDE/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58677ED1/" tstamps="/58677ED6/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58677ED1/" tstamps="/58677ED6/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58677ED1/" tstamps="/58677ED6/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58677ED1/" tstamps="/58677ED6/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58677ED1/" tstamps="/58677ED6/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58677ED1/" tstamps="/58677ED6/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58677ED1/" tstamps="/58677ED6/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58677ED1/" tstamps="/58677ED6/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58677FA8/" tstamps="/58677FAD/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58677FA8/" tstamps="/58677FAD/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58677FA8/" tstamps="/58677FAD/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58677FA8/" tstamps="/58677FAD/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58677FA8/" tstamps="/58677FAD/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58677FA8/" tstamps="/58677FAD/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58677FA8/" tstamps="/58677FAD/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58677FA8/" tstamps="/58677FAD/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C503">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678359/" tstamps="/5867835E/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678359/" tstamps="/5867835E/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C504">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678359/" tstamps="/5867835E/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678359/" tstamps="/5867835E/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678359/" tstamps="/5867835E/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678359/" tstamps="/5867835E/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678359/" tstamps="/5867835E/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58678359/" tstamps="/5867835E/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C603">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C44/" tstamps="/58678C4C/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C602">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C44/" tstamps="/58678C4C/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C604">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C44/" tstamps="/58678C4C/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C44/" tstamps="/58678C4C/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R603">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C44/" tstamps="/58678C4C/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R602">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C44/" tstamps="/58678C4C/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C601">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C44/" tstamps="/58678C4C/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U601">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58678C44/" tstamps="/58678C4C/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C703">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C45/" tstamps="/58678C5A/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C702">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C45/" tstamps="/58678C5A/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C704">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C45/" tstamps="/58678C5A/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C45/" tstamps="/58678C5A/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R703">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C45/" tstamps="/58678C5A/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R702">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C45/" tstamps="/58678C5A/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C701">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C45/" tstamps="/58678C5A/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U701">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58678C45/" tstamps="/58678C5A/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C803">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C46/" tstamps="/58678C68/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C802">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C46/" tstamps="/58678C68/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C804">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C46/" tstamps="/58678C68/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R801">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C46/" tstamps="/58678C68/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R803">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C46/" tstamps="/58678C68/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R802">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C46/" tstamps="/58678C68/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C801">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C46/" tstamps="/58678C68/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U801">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58678C46/" tstamps="/58678C68/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C903">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C47/" tstamps="/58678C76/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C902">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C47/" tstamps="/58678C76/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C904">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C47/" tstamps="/58678C76/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R901">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C47/" tstamps="/58678C76/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R903">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C47/" tstamps="/58678C76/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R902">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58678C47/" tstamps="/58678C76/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C901">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58678C47/" tstamps="/58678C76/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U901">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58678C47/" tstamps="/58678C76/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1003">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A098/" tstamps="/5867A0A0/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1002">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A098/" tstamps="/5867A0A0/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1004">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A098/" tstamps="/5867A0A0/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1001">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A098/" tstamps="/5867A0A0/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1003">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A098/" tstamps="/5867A0A0/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1002">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A098/" tstamps="/5867A0A0/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1001">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A098/" tstamps="/5867A0A0/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1001">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5867A098/" tstamps="/5867A0A0/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1103">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A099/" tstamps="/5867A0AE/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1102">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A099/" tstamps="/5867A0AE/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1104">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A099/" tstamps="/5867A0AE/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1101">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A099/" tstamps="/5867A0AE/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1103">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A099/" tstamps="/5867A0AE/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1102">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A099/" tstamps="/5867A0AE/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1101">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A099/" tstamps="/5867A0AE/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1101">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5867A099/" tstamps="/5867A0AE/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1203">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A09A/" tstamps="/5867A0BC/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1202">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A09A/" tstamps="/5867A0BC/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1204">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A09A/" tstamps="/5867A0BC/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1201">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A09A/" tstamps="/5867A0BC/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1203">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A09A/" tstamps="/5867A0BC/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1202">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A09A/" tstamps="/5867A0BC/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1201">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A09A/" tstamps="/5867A0BC/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1201">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5867A09A/" tstamps="/5867A0BC/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1303">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A09B/" tstamps="/5867A0CA/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1302">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A09B/" tstamps="/5867A0CA/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1304">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A09B/" tstamps="/5867A0CA/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1301">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A09B/" tstamps="/5867A0CA/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1303">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A09B/" tstamps="/5867A0CA/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1302">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867A09B/" tstamps="/5867A0CA/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1301">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867A09B/" tstamps="/5867A0CA/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1301">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5867A09B/" tstamps="/5867A0CA/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1403">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B428/" tstamps="/5867B430/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1402">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B428/" tstamps="/5867B430/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1404">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B428/" tstamps="/5867B430/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1401">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B428/" tstamps="/5867B430/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1403">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B428/" tstamps="/5867B430/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1402">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B428/" tstamps="/5867B430/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1401">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B428/" tstamps="/5867B430/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1401">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5867B428/" tstamps="/5867B430/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1503">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B429/" tstamps="/5867B43E/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1502">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B429/" tstamps="/5867B43E/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1504">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B429/" tstamps="/5867B43E/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1501">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B429/" tstamps="/5867B43E/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1503">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B429/" tstamps="/5867B43E/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1502">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B429/" tstamps="/5867B43E/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1501">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B429/" tstamps="/5867B43E/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1501">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5867B429/" tstamps="/5867B43E/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1603">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B42A/" tstamps="/5867B44C/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1602">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B42A/" tstamps="/5867B44C/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1604">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B42A/" tstamps="/5867B44C/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1601">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B42A/" tstamps="/5867B44C/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1603">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B42A/" tstamps="/5867B44C/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1602">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B42A/" tstamps="/5867B44C/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1601">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B42A/" tstamps="/5867B44C/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1601">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5867B42A/" tstamps="/5867B44C/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1703">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B42B/" tstamps="/5867B45A/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1702">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B42B/" tstamps="/5867B45A/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1704">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B42B/" tstamps="/5867B45A/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1701">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B42B/" tstamps="/5867B45A/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1703">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B42B/" tstamps="/5867B45A/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1702">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5867B42B/" tstamps="/5867B45A/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1701">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5867B42B/" tstamps="/5867B45A/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1701">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5867B42B/" tstamps="/5867B45A/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1803">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868210E/" tstamps="/58682122/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1802">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868210E/" tstamps="/58682122/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1804">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868210E/" tstamps="/58682122/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1801">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868210E/" tstamps="/58682122/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1803">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868210E/" tstamps="/58682122/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1802">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868210E/" tstamps="/58682122/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1801">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868210E/" tstamps="/58682122/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1801">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5868210E/" tstamps="/58682122/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C1903">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868210F/" tstamps="/58682130/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C1902">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868210F/" tstamps="/58682130/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C1904">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868210F/" tstamps="/58682130/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R1901">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868210F/" tstamps="/58682130/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R1903">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868210F/" tstamps="/58682130/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R1902">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868210F/" tstamps="/58682130/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C1901">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868210F/" tstamps="/58682130/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U1901">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5868210F/" tstamps="/58682130/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2003">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682110/" tstamps="/5868213E/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2002">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682110/" tstamps="/5868213E/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2004">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682110/" tstamps="/5868213E/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2001">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682110/" tstamps="/5868213E/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2003">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682110/" tstamps="/5868213E/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2002">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682110/" tstamps="/5868213E/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2001">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682110/" tstamps="/5868213E/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2001">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682110/" tstamps="/5868213E/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2103">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682111/" tstamps="/5868214C/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2102">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682111/" tstamps="/5868214C/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2104">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682111/" tstamps="/5868214C/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2101">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682111/" tstamps="/5868214C/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2103">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682111/" tstamps="/5868214C/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2102">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682111/" tstamps="/5868214C/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2101">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682111/" tstamps="/5868214C/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2101">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682111/" tstamps="/5868214C/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2203">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682112/" tstamps="/5868215A/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2202">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682112/" tstamps="/5868215A/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2204">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682112/" tstamps="/5868215A/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2201">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682112/" tstamps="/5868215A/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2203">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682112/" tstamps="/5868215A/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2202">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682112/" tstamps="/5868215A/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2201">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682112/" tstamps="/5868215A/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2201">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682112/" tstamps="/5868215A/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2303">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682113/" tstamps="/58682168/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2302">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682113/" tstamps="/58682168/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2304">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682113/" tstamps="/58682168/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2301">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682113/" tstamps="/58682168/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2303">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682113/" tstamps="/58682168/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2302">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682113/" tstamps="/58682168/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2301">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682113/" tstamps="/58682168/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2301">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682113/" tstamps="/58682168/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2403">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682114/" tstamps="/58682176/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2402">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682114/" tstamps="/58682176/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2404">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682114/" tstamps="/58682176/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2401">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682114/" tstamps="/58682176/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2403">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682114/" tstamps="/58682176/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2402">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682114/" tstamps="/58682176/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2401">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682114/" tstamps="/58682176/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2401">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682114/" tstamps="/58682176/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2503">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682115/" tstamps="/58682184/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2502">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682115/" tstamps="/58682184/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2504">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682115/" tstamps="/58682184/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2501">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682115/" tstamps="/58682184/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2503">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682115/" tstamps="/58682184/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2502">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682115/" tstamps="/58682184/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2501">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682115/" tstamps="/58682184/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2501">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682115/" tstamps="/58682184/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2603">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682116/" tstamps="/58682192/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2602">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682116/" tstamps="/58682192/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2604">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682116/" tstamps="/58682192/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2601">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682116/" tstamps="/58682192/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2603">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682116/" tstamps="/58682192/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2602">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682116/" tstamps="/58682192/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2601">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682116/" tstamps="/58682192/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2601">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682116/" tstamps="/58682192/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2703">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682117/" tstamps="/586821A0/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2702">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682117/" tstamps="/586821A0/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2704">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682117/" tstamps="/586821A0/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2701">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682117/" tstamps="/586821A0/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2703">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682117/" tstamps="/586821A0/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2702">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682117/" tstamps="/586821A0/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2701">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682117/" tstamps="/586821A0/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2701">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682117/" tstamps="/586821A0/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2803">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682118/" tstamps="/586821AE/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2802">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682118/" tstamps="/586821AE/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2804">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682118/" tstamps="/586821AE/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2801">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682118/" tstamps="/586821AE/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2803">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682118/" tstamps="/586821AE/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2802">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682118/" tstamps="/586821AE/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2801">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682118/" tstamps="/586821AE/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2801">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682118/" tstamps="/586821AE/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C2903">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682119/" tstamps="/586821BC/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C2902">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682119/" tstamps="/586821BC/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C2904">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682119/" tstamps="/586821BC/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R2901">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682119/" tstamps="/586821BC/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R2903">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682119/" tstamps="/586821BC/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R2902">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet58682119/" tstamps="/586821BC/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C2901">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet58682119/" tstamps="/586821BC/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U2901">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet58682119/" tstamps="/586821BC/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C3003">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211A/" tstamps="/586821CA/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C3002">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211A/" tstamps="/586821CA/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C3004">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211A/" tstamps="/586821CA/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R3001">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211A/" tstamps="/586821CA/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R3003">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211A/" tstamps="/586821CA/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R3002">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211A/" tstamps="/586821CA/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C3001">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211A/" tstamps="/586821CA/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U3001">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5868211A/" tstamps="/586821CA/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C3103">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211B/" tstamps="/586821D8/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C3102">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211B/" tstamps="/586821D8/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C3104">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211B/" tstamps="/586821D8/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R3101">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211B/" tstamps="/586821D8/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R3103">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211B/" tstamps="/586821D8/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R3102">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211B/" tstamps="/586821D8/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C3101">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211B/" tstamps="/586821D8/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U3101">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5868211B/" tstamps="/586821D8/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C3203">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211C/" tstamps="/586821E6/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C3202">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211C/" tstamps="/586821E6/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C3204">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211C/" tstamps="/586821E6/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R3201">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211C/" tstamps="/586821E6/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R3203">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211C/" tstamps="/586821E6/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R3202">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211C/" tstamps="/586821E6/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C3201">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211C/" tstamps="/586821E6/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U3201">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5868211C/" tstamps="/586821E6/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+    <comp ref="C3303">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">1276-1946-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211D/" tstamps="/586821F4/"/>
+      <tstamp>584CBB6A</tstamp>
+    </comp>
+    <comp ref="C3302">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211D/" tstamps="/586821F4/"/>
+      <tstamp>584CBBFF</tstamp>
+    </comp>
+    <comp ref="C3304">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211D/" tstamps="/586821F4/"/>
+      <tstamp>584CBC36</tstamp>
+    </comp>
+    <comp ref="R3301">
+      <value>SAT</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00MHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211D/" tstamps="/586821F4/"/>
+      <tstamp>584CBC83</tstamp>
+    </comp>
+    <comp ref="R3303">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211D/" tstamps="/586821F4/"/>
+      <tstamp>584CBCEC</tstamp>
+    </comp>
+    <comp ref="R3302">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-150HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/sheet5868211D/" tstamps="/586821F4/"/>
+      <tstamp>584CBE31</tstamp>
+    </comp>
+    <comp ref="C3301">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/sheet5868211D/" tstamps="/586821F4/"/>
+      <tstamp>584D00E4</tstamp>
+    </comp>
+    <comp ref="U3301">
+      <value>AD849X</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AD8497ARMZ-ND</field>
+      </fields>
+      <libsource lib="hyperLib" part="AD849X"/>
+      <sheetpath names="/sheet5868211D/" tstamps="/586821F4/"/>
+      <tstamp>584CBAFB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="hyperLib" part="AD849X">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD849X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-In" type="input"/>
+        <pin num="2" name="REF" type="power_in"/>
+        <pin num="3" name="-Vs" type="power_in"/>
+        <pin num="4" name="N.C" type="NotConnected"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="OUT" type="input"/>
+        <pin num="7" name="+Vs" type="power_in"/>
+        <pin num="8" name="+IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X08">
+      <description>Connector, double row, 02x08</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X08</fp>
+        <fp>Pin_Header_Angled_2X08</fp>
+        <fp>Socket_Strip_Straight_2X08</fp>
+        <fp>Socket_Strip_Angled_2X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hyperLib" part="OPA380">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA380</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N.C" type="input"/>
+        <pin num="2" name="-In" type="input"/>
+        <pin num="3" name="+In" type="input"/>
+        <pin num="4" name="V-" type="input"/>
+        <pin num="5" name="N.C" type="input"/>
+        <pin num="6" name="Out" type="input"/>
+        <pin num="7" name="V+" type="input"/>
+        <pin num="8" name="N.C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="hyperLib">
+      <uri>/Users/lukemerkl/Desktop/THBO/hyperLib.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/sheet586796DF/OUT">
+      <node ref="P102" pin="2"/>
+      <node ref="U201" pin="5"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="2" name="/sheet58677ED1/OUT">
+      <node ref="P102" pin="4"/>
+      <node ref="U301" pin="6"/>
+      <node ref="U301" pin="5"/>
+    </net>
+    <net code="3" name="/sheet58677FA8/OUT">
+      <node ref="U401" pin="5"/>
+      <node ref="U401" pin="6"/>
+      <node ref="P102" pin="6"/>
+    </net>
+    <net code="4" name="/sheet58678359/OUT">
+      <node ref="U501" pin="5"/>
+      <node ref="U501" pin="6"/>
+      <node ref="P102" pin="8"/>
+    </net>
+    <net code="5" name="/sheet58678C44/OUT">
+      <node ref="U601" pin="5"/>
+      <node ref="U601" pin="6"/>
+      <node ref="P102" pin="10"/>
+    </net>
+    <net code="6" name="/sheet58678C45/OUT">
+      <node ref="P102" pin="12"/>
+      <node ref="U701" pin="5"/>
+      <node ref="U701" pin="6"/>
+    </net>
+    <net code="7" name="/sheet58678C46/OUT">
+      <node ref="P102" pin="14"/>
+      <node ref="U801" pin="6"/>
+      <node ref="U801" pin="5"/>
+    </net>
+    <net code="8" name="/sheet58678C47/OUT">
+      <node ref="U901" pin="6"/>
+      <node ref="U901" pin="5"/>
+      <node ref="P102" pin="16"/>
+    </net>
+    <net code="9" name="/sheet5867A098/OUT">
+      <node ref="U1001" pin="6"/>
+      <node ref="U1001" pin="5"/>
+      <node ref="P102" pin="15"/>
+    </net>
+    <net code="10" name="/sheet5867A099/OUT">
+      <node ref="P102" pin="13"/>
+      <node ref="U1101" pin="5"/>
+      <node ref="U1101" pin="6"/>
+    </net>
+    <net code="11" name="/sheet5867A09A/OUT">
+      <node ref="P102" pin="11"/>
+      <node ref="U1201" pin="5"/>
+      <node ref="U1201" pin="6"/>
+    </net>
+    <net code="12" name="/sheet5867A09B/OUT">
+      <node ref="P102" pin="9"/>
+      <node ref="U1301" pin="5"/>
+      <node ref="U1301" pin="6"/>
+    </net>
+    <net code="13" name="/sheet5867B428/OUT">
+      <node ref="U1401" pin="6"/>
+      <node ref="U1401" pin="5"/>
+      <node ref="P102" pin="7"/>
+    </net>
+    <net code="14" name="/sheet5867B429/OUT">
+      <node ref="P102" pin="5"/>
+      <node ref="U1501" pin="5"/>
+      <node ref="U1501" pin="6"/>
+    </net>
+    <net code="15" name="/sheet5868211C/OUT">
+      <node ref="U3201" pin="6"/>
+      <node ref="U3201" pin="5"/>
+      <node ref="P104" pin="3"/>
+    </net>
+    <net code="16" name="/sheet5868211D/OUT">
+      <node ref="P104" pin="1"/>
+      <node ref="U3301" pin="5"/>
+      <node ref="U3301" pin="6"/>
+    </net>
+    <net code="17" name="/sheet58682115/OUT">
+      <node ref="U2501" pin="5"/>
+      <node ref="U2501" pin="6"/>
+      <node ref="P104" pin="16"/>
+    </net>
+    <net code="18" name="/sheet58682110/OUT">
+      <node ref="U2001" pin="5"/>
+      <node ref="U2001" pin="6"/>
+      <node ref="P104" pin="6"/>
+    </net>
+    <net code="19" name="/sheet5868210F/OUT">
+      <node ref="P104" pin="4"/>
+      <node ref="U1901" pin="5"/>
+      <node ref="U1901" pin="6"/>
+    </net>
+    <net code="20" name="/sheet5868210E/OUT">
+      <node ref="U1801" pin="5"/>
+      <node ref="U1801" pin="6"/>
+      <node ref="P104" pin="2"/>
+    </net>
+    <net code="21" name="/sheet5868211B/OUT">
+      <node ref="U3101" pin="5"/>
+      <node ref="U3101" pin="6"/>
+      <node ref="P104" pin="5"/>
+    </net>
+    <net code="22" name="/sheet58682116/OUT">
+      <node ref="P104" pin="15"/>
+      <node ref="U2601" pin="5"/>
+      <node ref="U2601" pin="6"/>
+    </net>
+    <net code="23" name="/sheet58682117/OUT">
+      <node ref="P104" pin="13"/>
+      <node ref="U2701" pin="5"/>
+      <node ref="U2701" pin="6"/>
+    </net>
+    <net code="24" name="/sheet58682118/OUT">
+      <node ref="U2801" pin="6"/>
+      <node ref="U2801" pin="5"/>
+      <node ref="P104" pin="11"/>
+    </net>
+    <net code="25" name="/sheet58682119/OUT">
+      <node ref="P104" pin="9"/>
+      <node ref="U2901" pin="5"/>
+      <node ref="U2901" pin="6"/>
+    </net>
+    <net code="26" name="/sheet5868211A/OUT">
+      <node ref="P104" pin="7"/>
+      <node ref="U3001" pin="5"/>
+      <node ref="U3001" pin="6"/>
+    </net>
+    <net code="27" name="/sheet58682114/OUT">
+      <node ref="U2401" pin="6"/>
+      <node ref="U2401" pin="5"/>
+      <node ref="P104" pin="14"/>
+    </net>
+    <net code="28" name="/sheet58682113/OUT">
+      <node ref="U2301" pin="5"/>
+      <node ref="U2301" pin="6"/>
+      <node ref="P104" pin="12"/>
+    </net>
+    <net code="29" name="/sheet58682112/OUT">
+      <node ref="U2201" pin="6"/>
+      <node ref="U2201" pin="5"/>
+      <node ref="P104" pin="10"/>
+    </net>
+    <net code="30" name="/sheet58682111/OUT">
+      <node ref="U2101" pin="6"/>
+      <node ref="P104" pin="8"/>
+      <node ref="U2101" pin="5"/>
+    </net>
+    <net code="31" name="/sheet58682115/+IN">
+      <node ref="P127" pin="1"/>
+      <node ref="R2503" pin="2"/>
+    </net>
+    <net code="32" name="/sheet58682114/+IN">
+      <node ref="R2403" pin="2"/>
+      <node ref="P126" pin="1"/>
+    </net>
+    <net code="33" name="/sheet58682113/+IN">
+      <node ref="R2303" pin="2"/>
+      <node ref="P125" pin="1"/>
+    </net>
+    <net code="34" name="/sheet58682112/+IN">
+      <node ref="R2203" pin="2"/>
+      <node ref="P124" pin="1"/>
+    </net>
+    <net code="35" name="/sheet58682111/+IN">
+      <node ref="R2103" pin="2"/>
+      <node ref="P123" pin="1"/>
+    </net>
+    <net code="36" name="/sheet58682110/+IN">
+      <node ref="P122" pin="1"/>
+      <node ref="R2003" pin="2"/>
+    </net>
+    <net code="37" name="/sheet5868210F/+IN">
+      <node ref="R1903" pin="2"/>
+      <node ref="P121" pin="1"/>
+    </net>
+    <net code="38" name="/sheet5868210E/+IN">
+      <node ref="R1803" pin="2"/>
+      <node ref="P120" pin="1"/>
+    </net>
+    <net code="39" name="/sheet5867B42B/OUT">
+      <node ref="P102" pin="1"/>
+      <node ref="U1701" pin="5"/>
+      <node ref="U1701" pin="6"/>
+    </net>
+    <net code="40" name="GND">
+      <node ref="U701" pin="3"/>
+      <node ref="C2101" pin="1"/>
+      <node ref="C2004" pin="2"/>
+      <node ref="C2002" pin="1"/>
+      <node ref="C702" pin="1"/>
+      <node ref="C801" pin="1"/>
+      <node ref="C601" pin="1"/>
+      <node ref="C902" pin="1"/>
+      <node ref="C904" pin="2"/>
+      <node ref="R901" pin="1"/>
+      <node ref="R1501" pin="1"/>
+      <node ref="U2001" pin="3"/>
+      <node ref="U901" pin="3"/>
+      <node ref="U801" pin="3"/>
+      <node ref="C1504" pin="2"/>
+      <node ref="C604" pin="2"/>
+      <node ref="U1501" pin="3"/>
+      <node ref="R601" pin="1"/>
+      <node ref="C701" pin="1"/>
+      <node ref="C1502" pin="1"/>
+      <node ref="R2101" pin="1"/>
+      <node ref="C2204" pin="2"/>
+      <node ref="R701" pin="1"/>
+      <node ref="C704" pin="2"/>
+      <node ref="R2001" pin="1"/>
+      <node ref="U2101" pin="3"/>
+      <node ref="U2201" pin="3"/>
+      <node ref="C2102" pin="1"/>
+      <node ref="C602" pin="1"/>
+      <node ref="C802" pin="1"/>
+      <node ref="C804" pin="2"/>
+      <node ref="R801" pin="1"/>
+      <node ref="C2001" pin="1"/>
+      <node ref="C2104" pin="2"/>
+      <node ref="C2202" pin="1"/>
+      <node ref="R1601" pin="1"/>
+      <node ref="C1301" pin="1"/>
+      <node ref="U1201" pin="3"/>
+      <node ref="C1202" pin="1"/>
+      <node ref="C1204" pin="2"/>
+      <node ref="C1804" pin="2"/>
+      <node ref="C1802" pin="1"/>
+      <node ref="U1801" pin="3"/>
+      <node ref="U1601" pin="3"/>
+      <node ref="C1602" pin="1"/>
+      <node ref="C1101" pin="1"/>
+      <node ref="U1401" pin="3"/>
+      <node ref="C1604" pin="2"/>
+      <node ref="U1701" pin="3"/>
+      <node ref="U1301" pin="3"/>
+      <node ref="C1302" pin="1"/>
+      <node ref="C1304" pin="2"/>
+      <node ref="R1301" pin="1"/>
+      <node ref="C1601" pin="1"/>
+      <node ref="R1201" pin="1"/>
+      <node ref="C1701" pin="1"/>
+      <node ref="R1701" pin="1"/>
+      <node ref="C1704" pin="2"/>
+      <node ref="C1201" pin="1"/>
+      <node ref="C1702" pin="1"/>
+      <node ref="U1001" pin="3"/>
+      <node ref="R1901" pin="1"/>
+      <node ref="C1904" pin="2"/>
+      <node ref="C1902" pin="1"/>
+      <node ref="C1002" pin="1"/>
+      <node ref="C1004" pin="2"/>
+      <node ref="R1001" pin="1"/>
+      <node ref="U1901" pin="3"/>
+      <node ref="C1901" pin="1"/>
+      <node ref="C901" pin="1"/>
+      <node ref="C1401" pin="1"/>
+      <node ref="U1101" pin="3"/>
+      <node ref="C1801" pin="1"/>
+      <node ref="R1401" pin="1"/>
+      <node ref="C1404" pin="2"/>
+      <node ref="C1102" pin="1"/>
+      <node ref="C1104" pin="2"/>
+      <node ref="C1402" pin="1"/>
+      <node ref="R1101" pin="1"/>
+      <node ref="R1801" pin="1"/>
+      <node ref="C1001" pin="1"/>
+      <node ref="C1501" pin="1"/>
+      <node ref="C2804" pin="2"/>
+      <node ref="C2802" pin="1"/>
+      <node ref="U2801" pin="3"/>
+      <node ref="C2701" pin="1"/>
+      <node ref="R2701" pin="1"/>
+      <node ref="C2704" pin="2"/>
+      <node ref="C2702" pin="1"/>
+      <node ref="U2701" pin="3"/>
+      <node ref="R2901" pin="1"/>
+      <node ref="C2904" pin="2"/>
+      <node ref="C2902" pin="1"/>
+      <node ref="U2901" pin="3"/>
+      <node ref="C2801" pin="1"/>
+      <node ref="R2801" pin="1"/>
+      <node ref="C2501" pin="1"/>
+      <node ref="R2501" pin="1"/>
+      <node ref="U201" pin="3"/>
+      <node ref="C2504" pin="2"/>
+      <node ref="C2502" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="U2501" pin="3"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C2601" pin="1"/>
+      <node ref="R2601" pin="1"/>
+      <node ref="C2604" pin="2"/>
+      <node ref="C2602" pin="1"/>
+      <node ref="U2601" pin="3"/>
+      <node ref="R3201" pin="1"/>
+      <node ref="C3204" pin="2"/>
+      <node ref="C3202" pin="1"/>
+      <node ref="C102" pin="2"/>
+      <node ref="U3201" pin="3"/>
+      <node ref="C101" pin="1"/>
+      <node ref="C3301" pin="1"/>
+      <node ref="R3301" pin="1"/>
+      <node ref="C3304" pin="2"/>
+      <node ref="C3302" pin="1"/>
+      <node ref="U3301" pin="3"/>
+      <node ref="R102" pin="2"/>
+      <node ref="U101" pin="4"/>
+      <node ref="C3201" pin="1"/>
+      <node ref="C3001" pin="1"/>
+      <node ref="R3001" pin="1"/>
+      <node ref="C3004" pin="2"/>
+      <node ref="C3002" pin="1"/>
+      <node ref="U3001" pin="3"/>
+      <node ref="C2901" pin="1"/>
+      <node ref="P101" pin="2"/>
+      <node ref="C3101" pin="1"/>
+      <node ref="R3101" pin="1"/>
+      <node ref="C3104" pin="2"/>
+      <node ref="C3102" pin="1"/>
+      <node ref="U3101" pin="3"/>
+      <node ref="C301" pin="1"/>
+      <node ref="R501" pin="1"/>
+      <node ref="C504" pin="2"/>
+      <node ref="C502" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="C2201" pin="1"/>
+      <node ref="R2401" pin="1"/>
+      <node ref="C2404" pin="2"/>
+      <node ref="C2402" pin="1"/>
+      <node ref="U2401" pin="3"/>
+      <node ref="R2301" pin="1"/>
+      <node ref="C2304" pin="2"/>
+      <node ref="C2302" pin="1"/>
+      <node ref="C401" pin="1"/>
+      <node ref="U401" pin="3"/>
+      <node ref="C402" pin="1"/>
+      <node ref="U501" pin="3"/>
+      <node ref="C2301" pin="1"/>
+      <node ref="C404" pin="2"/>
+      <node ref="U2301" pin="3"/>
+      <node ref="R401" pin="1"/>
+      <node ref="U301" pin="3"/>
+      <node ref="C2401" pin="1"/>
+      <node ref="C501" pin="1"/>
+      <node ref="R2201" pin="1"/>
+      <node ref="C302" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="C304" pin="2"/>
+      <node ref="U601" pin="3"/>
+    </net>
+    <net code="41" name="+5V">
+      <node ref="C2101" pin="2"/>
+      <node ref="C1601" pin="2"/>
+      <node ref="P101" pin="1"/>
+      <node ref="U1301" pin="7"/>
+      <node ref="U3101" pin="7"/>
+      <node ref="U1501" pin="7"/>
+      <node ref="U2301" pin="7"/>
+      <node ref="U601" pin="7"/>
+      <node ref="C3301" pin="2"/>
+      <node ref="U701" pin="7"/>
+      <node ref="U2201" pin="7"/>
+      <node ref="C3101" pin="2"/>
+      <node ref="U3201" pin="7"/>
+      <node ref="R101" pin="1"/>
+      <node ref="U101" pin="7"/>
+      <node ref="C601" pin="2"/>
+      <node ref="C1501" pin="2"/>
+      <node ref="U1401" pin="7"/>
+      <node ref="U1601" pin="7"/>
+      <node ref="C2201" pin="2"/>
+      <node ref="C3201" pin="2"/>
+      <node ref="U501" pin="7"/>
+      <node ref="U3301" pin="7"/>
+      <node ref="C1301" pin="2"/>
+      <node ref="C1401" pin="2"/>
+      <node ref="C501" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C2401" pin="2"/>
+      <node ref="U2001" pin="7"/>
+      <node ref="C1001" pin="2"/>
+      <node ref="C2601" pin="2"/>
+      <node ref="U301" pin="7"/>
+      <node ref="C801" pin="2"/>
+      <node ref="U2701" pin="7"/>
+      <node ref="C1801" pin="2"/>
+      <node ref="U1101" pin="7"/>
+      <node ref="U2401" pin="7"/>
+      <node ref="C2701" pin="2"/>
+      <node ref="C901" pin="2"/>
+      <node ref="U2501" pin="7"/>
+      <node ref="C1901" pin="2"/>
+      <node ref="U201" pin="7"/>
+      <node ref="U1001" pin="7"/>
+      <node ref="C201" pin="2"/>
+      <node ref="U1901" pin="7"/>
+      <node ref="C2501" pin="2"/>
+      <node ref="U901" pin="7"/>
+      <node ref="U2601" pin="7"/>
+      <node ref="C2301" pin="2"/>
+      <node ref="C1701" pin="2"/>
+      <node ref="C2901" pin="2"/>
+      <node ref="C701" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C3001" pin="2"/>
+      <node ref="U1701" pin="7"/>
+      <node ref="U2101" pin="7"/>
+      <node ref="C1201" pin="2"/>
+      <node ref="U3001" pin="7"/>
+      <node ref="U1801" pin="7"/>
+      <node ref="U2801" pin="7"/>
+      <node ref="C301" pin="2"/>
+      <node ref="C2001" pin="2"/>
+      <node ref="C1101" pin="2"/>
+      <node ref="U401" pin="7"/>
+      <node ref="U1201" pin="7"/>
+      <node ref="U2901" pin="7"/>
+      <node ref="U801" pin="7"/>
+      <node ref="C2801" pin="2"/>
+    </net>
+    <net code="42" name="/sheet5868211D/-IN">
+      <node ref="R3301" pin="2"/>
+      <node ref="R3302" pin="2"/>
+      <node ref="P135" pin="2"/>
+    </net>
+    <net code="43" name="/sheet5868211C/-IN">
+      <node ref="R3201" pin="2"/>
+      <node ref="R3202" pin="2"/>
+      <node ref="P134" pin="2"/>
+    </net>
+    <net code="44" name="/sheet5868211B/-IN">
+      <node ref="P133" pin="2"/>
+      <node ref="R3102" pin="2"/>
+      <node ref="R3101" pin="2"/>
+    </net>
+    <net code="45" name="/sheet5868211A/-IN">
+      <node ref="R3001" pin="2"/>
+      <node ref="P132" pin="2"/>
+      <node ref="R3002" pin="2"/>
+    </net>
+    <net code="46" name="/sheet58682119/-IN">
+      <node ref="P131" pin="2"/>
+      <node ref="R2902" pin="2"/>
+      <node ref="R2901" pin="2"/>
+    </net>
+    <net code="47" name="/sheet58682118/+IN">
+      <node ref="R2803" pin="2"/>
+      <node ref="P130" pin="1"/>
+    </net>
+    <net code="48" name="Net-(U101-Pad8)">
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="49" name="Net-(U101-Pad5)">
+      <node ref="U101" pin="5"/>
+    </net>
+    <net code="50" name="Net-(U101-Pad1)">
+      <node ref="U101" pin="1"/>
+    </net>
+    <net code="51" name="/sheet5868211D/+IN">
+      <node ref="P135" pin="1"/>
+      <node ref="R3303" pin="2"/>
+    </net>
+    <net code="52" name="/sheet5867B42B/-IN">
+      <node ref="R1702" pin="2"/>
+      <node ref="P119" pin="2"/>
+      <node ref="R1701" pin="2"/>
+    </net>
+    <net code="53" name="/sheet5867B42A/-IN">
+      <node ref="R1601" pin="2"/>
+      <node ref="R1602" pin="2"/>
+      <node ref="P118" pin="2"/>
+    </net>
+    <net code="54" name="/sheet5867B429/-IN">
+      <node ref="R1501" pin="2"/>
+      <node ref="R1502" pin="2"/>
+      <node ref="P117" pin="2"/>
+    </net>
+    <net code="55" name="/sheet5867B428/-IN">
+      <node ref="R1402" pin="2"/>
+      <node ref="R1401" pin="2"/>
+      <node ref="P116" pin="2"/>
+    </net>
+    <net code="56" name="/sheet5867A09B/-IN">
+      <node ref="P115" pin="2"/>
+      <node ref="R1301" pin="2"/>
+      <node ref="R1302" pin="2"/>
+    </net>
+    <net code="57" name="/sheet5867A09A/-IN">
+      <node ref="R1202" pin="2"/>
+      <node ref="P114" pin="2"/>
+      <node ref="R1201" pin="2"/>
+    </net>
+    <net code="58" name="/sheet5867A099/-IN">
+      <node ref="R1102" pin="2"/>
+      <node ref="R1101" pin="2"/>
+      <node ref="P113" pin="2"/>
+    </net>
+    <net code="59" name="/sheet5867A099/+IN">
+      <node ref="R1103" pin="2"/>
+      <node ref="P113" pin="1"/>
+    </net>
+    <net code="60" name="/sheet5867A098/-IN">
+      <node ref="R1002" pin="2"/>
+      <node ref="R1001" pin="2"/>
+      <node ref="P112" pin="2"/>
+    </net>
+    <net code="61" name="/sheet5867A098/+IN">
+      <node ref="P112" pin="1"/>
+      <node ref="R1003" pin="2"/>
+    </net>
+    <net code="62" name="Vref">
+      <node ref="U1001" pin="2"/>
+      <node ref="U3001" pin="2"/>
+      <node ref="U1901" pin="2"/>
+      <node ref="U601" pin="2"/>
+      <node ref="U501" pin="2"/>
+      <node ref="U2301" pin="2"/>
+      <node ref="U2601" pin="2"/>
+      <node ref="U201" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="U2401" pin="2"/>
+      <node ref="U2501" pin="2"/>
+      <node ref="U401" pin="2"/>
+      <node ref="U2001" pin="2"/>
+      <node ref="U901" pin="2"/>
+      <node ref="U2901" pin="2"/>
+      <node ref="U801" pin="2"/>
+      <node ref="U2101" pin="2"/>
+      <node ref="U2701" pin="2"/>
+      <node ref="U2201" pin="2"/>
+      <node ref="U701" pin="2"/>
+      <node ref="U2801" pin="2"/>
+      <node ref="U1401" pin="2"/>
+      <node ref="R103" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="U3201" pin="2"/>
+      <node ref="U1301" pin="2"/>
+      <node ref="U1701" pin="2"/>
+      <node ref="U1801" pin="2"/>
+      <node ref="U3101" pin="2"/>
+      <node ref="U1201" pin="2"/>
+      <node ref="U1501" pin="2"/>
+      <node ref="U1101" pin="2"/>
+      <node ref="U3301" pin="2"/>
+      <node ref="U1601" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R103-Pad2)">
+      <node ref="U101" pin="2"/>
+      <node ref="U101" pin="6"/>
+      <node ref="R103" pin="2"/>
+    </net>
+    <net code="64" name="Net-(R101-Pad2)">
+      <node ref="U101" pin="3"/>
+      <node ref="R101" pin="2"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="65" name="/sheet58682113/-IN">
+      <node ref="R2301" pin="2"/>
+      <node ref="R2302" pin="2"/>
+      <node ref="P125" pin="2"/>
+    </net>
+    <net code="66" name="/sheet58682112/-IN">
+      <node ref="R2201" pin="2"/>
+      <node ref="P124" pin="2"/>
+      <node ref="R2202" pin="2"/>
+    </net>
+    <net code="67" name="/sheet58682111/-IN">
+      <node ref="R2102" pin="2"/>
+      <node ref="P123" pin="2"/>
+      <node ref="R2101" pin="2"/>
+    </net>
+    <net code="68" name="/sheet58682110/-IN">
+      <node ref="R2002" pin="2"/>
+      <node ref="P122" pin="2"/>
+      <node ref="R2001" pin="2"/>
+    </net>
+    <net code="69" name="/sheet5868210F/-IN">
+      <node ref="R1902" pin="2"/>
+      <node ref="P121" pin="2"/>
+      <node ref="R1901" pin="2"/>
+    </net>
+    <net code="70" name="/sheet5868210E/-IN">
+      <node ref="P120" pin="2"/>
+      <node ref="R1801" pin="2"/>
+      <node ref="R1802" pin="2"/>
+    </net>
+    <net code="71" name="/sheet586796DF/-IN">
+      <node ref="R201" pin="2"/>
+      <node ref="R202" pin="2"/>
+      <node ref="P103" pin="2"/>
+    </net>
+    <net code="72" name="/sheet58678C46/-IN">
+      <node ref="P110" pin="2"/>
+      <node ref="R801" pin="2"/>
+      <node ref="R802" pin="2"/>
+    </net>
+    <net code="73" name="/sheet58678C45/-IN">
+      <node ref="R701" pin="2"/>
+      <node ref="P109" pin="2"/>
+      <node ref="R702" pin="2"/>
+    </net>
+    <net code="74" name="/sheet58678C44/-IN">
+      <node ref="R601" pin="2"/>
+      <node ref="R602" pin="2"/>
+      <node ref="P108" pin="2"/>
+    </net>
+    <net code="75" name="/sheet58678359/-IN">
+      <node ref="R502" pin="2"/>
+      <node ref="R501" pin="2"/>
+      <node ref="P107" pin="2"/>
+    </net>
+    <net code="76" name="/sheet58677FA8/-IN">
+      <node ref="R402" pin="2"/>
+      <node ref="R401" pin="2"/>
+      <node ref="P106" pin="2"/>
+    </net>
+    <net code="77" name="/sheet58677ED1/-IN">
+      <node ref="P105" pin="2"/>
+      <node ref="R301" pin="2"/>
+      <node ref="R302" pin="2"/>
+    </net>
+    <net code="78" name="/sheet5868211C/+IN">
+      <node ref="P134" pin="1"/>
+      <node ref="R3203" pin="2"/>
+    </net>
+    <net code="79" name="/sheet5868211B/+IN">
+      <node ref="P133" pin="1"/>
+      <node ref="R3103" pin="2"/>
+    </net>
+    <net code="80" name="/sheet5868211A/+IN">
+      <node ref="R3003" pin="2"/>
+      <node ref="P132" pin="1"/>
+    </net>
+    <net code="81" name="/sheet58682119/+IN">
+      <node ref="P131" pin="1"/>
+      <node ref="R2903" pin="2"/>
+    </net>
+    <net code="82" name="/sheet58682117/-IN">
+      <node ref="R2702" pin="2"/>
+      <node ref="R2701" pin="2"/>
+      <node ref="P129" pin="2"/>
+    </net>
+    <net code="83" name="/sheet58682117/+IN">
+      <node ref="R2703" pin="2"/>
+      <node ref="P129" pin="1"/>
+    </net>
+    <net code="84" name="/sheet58682116/-IN">
+      <node ref="R2601" pin="2"/>
+      <node ref="R2602" pin="2"/>
+      <node ref="P128" pin="2"/>
+    </net>
+    <net code="85" name="/sheet58682116/+IN">
+      <node ref="R2603" pin="2"/>
+      <node ref="P128" pin="1"/>
+    </net>
+    <net code="86" name="/sheet58682115/-IN">
+      <node ref="P127" pin="2"/>
+      <node ref="R2501" pin="2"/>
+      <node ref="R2502" pin="2"/>
+    </net>
+    <net code="87" name="/sheet58682114/-IN">
+      <node ref="P126" pin="2"/>
+      <node ref="R2402" pin="2"/>
+      <node ref="R2401" pin="2"/>
+    </net>
+    <net code="88" name="/sheet58682118/-IN">
+      <node ref="R2801" pin="2"/>
+      <node ref="R2802" pin="2"/>
+      <node ref="P130" pin="2"/>
+    </net>
+    <net code="89" name="/sheet58677FA8/+IN">
+      <node ref="P106" pin="1"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="90" name="/sheet58677ED1/+IN">
+      <node ref="R303" pin="2"/>
+      <node ref="P105" pin="1"/>
+    </net>
+    <net code="91" name="/sheet586796DF/+IN">
+      <node ref="R203" pin="2"/>
+      <node ref="P103" pin="1"/>
+    </net>
+    <net code="92" name="/sheet58678C44/+IN">
+      <node ref="R603" pin="2"/>
+      <node ref="P108" pin="1"/>
+    </net>
+    <net code="93" name="/sheet58678359/+IN">
+      <node ref="R503" pin="2"/>
+      <node ref="P107" pin="1"/>
+    </net>
+    <net code="94" name="/sheet5867B42B/+IN">
+      <node ref="R1703" pin="2"/>
+      <node ref="P119" pin="1"/>
+    </net>
+    <net code="95" name="/sheet5867B42A/+IN">
+      <node ref="R1603" pin="2"/>
+      <node ref="P118" pin="1"/>
+    </net>
+    <net code="96" name="/sheet5867B429/+IN">
+      <node ref="R1503" pin="2"/>
+      <node ref="P117" pin="1"/>
+    </net>
+    <net code="97" name="/sheet5867B42A/OUT">
+      <node ref="P102" pin="3"/>
+      <node ref="U1601" pin="5"/>
+      <node ref="U1601" pin="6"/>
+    </net>
+    <net code="98" name="/sheet5867B428/+IN">
+      <node ref="R1403" pin="2"/>
+      <node ref="P116" pin="1"/>
+    </net>
+    <net code="99" name="/sheet5867A09B/+IN">
+      <node ref="R1303" pin="2"/>
+      <node ref="P115" pin="1"/>
+    </net>
+    <net code="100" name="/sheet5867A09A/+IN">
+      <node ref="R1203" pin="2"/>
+      <node ref="P114" pin="1"/>
+    </net>
+    <net code="101" name="/sheet58678C47/-IN">
+      <node ref="R902" pin="2"/>
+      <node ref="R901" pin="2"/>
+      <node ref="P111" pin="2"/>
+    </net>
+    <net code="102" name="/sheet58678C47/+IN">
+      <node ref="R903" pin="2"/>
+      <node ref="P111" pin="1"/>
+    </net>
+    <net code="103" name="/sheet58678C46/+IN">
+      <node ref="P110" pin="1"/>
+      <node ref="R803" pin="2"/>
+    </net>
+    <net code="104" name="/sheet58678C45/+IN">
+      <node ref="R703" pin="2"/>
+      <node ref="P109" pin="1"/>
+    </net>
+    <net code="105" name="Net-(U201-Pad4)">
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="106" name="Net-(C203-Pad1)">
+      <node ref="C204" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="U201" pin="8"/>
+      <node ref="C203" pin="1"/>
+    </net>
+    <net code="107" name="Net-(C202-Pad2)">
+      <node ref="U201" pin="1"/>
+      <node ref="R202" pin="1"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C203" pin="2"/>
+    </net>
+    <net code="108" name="Net-(U301-Pad4)">
+      <node ref="U301" pin="4"/>
+    </net>
+    <net code="109" name="Net-(C303-Pad1)">
+      <node ref="C304" pin="1"/>
+      <node ref="U301" pin="8"/>
+      <node ref="C303" pin="1"/>
+      <node ref="R303" pin="1"/>
+    </net>
+    <net code="110" name="Net-(C302-Pad2)">
+      <node ref="U301" pin="1"/>
+      <node ref="R302" pin="1"/>
+      <node ref="C303" pin="2"/>
+      <node ref="C302" pin="2"/>
+    </net>
+    <net code="111" name="Net-(U401-Pad4)">
+      <node ref="U401" pin="4"/>
+    </net>
+    <net code="112" name="Net-(C403-Pad1)">
+      <node ref="R403" pin="1"/>
+      <node ref="C404" pin="1"/>
+      <node ref="U401" pin="8"/>
+      <node ref="C403" pin="1"/>
+    </net>
+    <net code="113" name="Net-(C402-Pad2)">
+      <node ref="C403" pin="2"/>
+      <node ref="U401" pin="1"/>
+      <node ref="C402" pin="2"/>
+      <node ref="R402" pin="1"/>
+    </net>
+    <net code="114" name="Net-(U501-Pad4)">
+      <node ref="U501" pin="4"/>
+    </net>
+    <net code="115" name="Net-(C503-Pad1)">
+      <node ref="R503" pin="1"/>
+      <node ref="C504" pin="1"/>
+      <node ref="C503" pin="1"/>
+      <node ref="U501" pin="8"/>
+    </net>
+    <net code="116" name="Net-(C502-Pad2)">
+      <node ref="U501" pin="1"/>
+      <node ref="C503" pin="2"/>
+      <node ref="C502" pin="2"/>
+      <node ref="R502" pin="1"/>
+    </net>
+    <net code="117" name="Net-(U601-Pad4)">
+      <node ref="U601" pin="4"/>
+    </net>
+    <net code="118" name="Net-(C603-Pad1)">
+      <node ref="U601" pin="8"/>
+      <node ref="C604" pin="1"/>
+      <node ref="R603" pin="1"/>
+      <node ref="C603" pin="1"/>
+    </net>
+    <net code="119" name="Net-(C602-Pad2)">
+      <node ref="C602" pin="2"/>
+      <node ref="U601" pin="1"/>
+      <node ref="R602" pin="1"/>
+      <node ref="C603" pin="2"/>
+    </net>
+    <net code="120" name="Net-(U701-Pad4)">
+      <node ref="U701" pin="4"/>
+    </net>
+    <net code="121" name="Net-(C703-Pad1)">
+      <node ref="C704" pin="1"/>
+      <node ref="R703" pin="1"/>
+      <node ref="C703" pin="1"/>
+      <node ref="U701" pin="8"/>
+    </net>
+    <net code="122" name="Net-(C702-Pad2)">
+      <node ref="U701" pin="1"/>
+      <node ref="R702" pin="1"/>
+      <node ref="C703" pin="2"/>
+      <node ref="C702" pin="2"/>
+    </net>
+    <net code="123" name="Net-(U801-Pad4)">
+      <node ref="U801" pin="4"/>
+    </net>
+    <net code="124" name="Net-(C803-Pad1)">
+      <node ref="R803" pin="1"/>
+      <node ref="C804" pin="1"/>
+      <node ref="U801" pin="8"/>
+      <node ref="C803" pin="1"/>
+    </net>
+    <net code="125" name="Net-(C802-Pad2)">
+      <node ref="R802" pin="1"/>
+      <node ref="U801" pin="1"/>
+      <node ref="C802" pin="2"/>
+      <node ref="C803" pin="2"/>
+    </net>
+    <net code="126" name="Net-(U901-Pad4)">
+      <node ref="U901" pin="4"/>
+    </net>
+    <net code="127" name="Net-(C903-Pad1)">
+      <node ref="C903" pin="1"/>
+      <node ref="R903" pin="1"/>
+      <node ref="C904" pin="1"/>
+      <node ref="U901" pin="8"/>
+    </net>
+    <net code="128" name="Net-(C902-Pad2)">
+      <node ref="C902" pin="2"/>
+      <node ref="C903" pin="2"/>
+      <node ref="U901" pin="1"/>
+      <node ref="R902" pin="1"/>
+    </net>
+    <net code="129" name="Net-(U1001-Pad4)">
+      <node ref="U1001" pin="4"/>
+    </net>
+    <net code="130" name="Net-(C1003-Pad1)">
+      <node ref="R1003" pin="1"/>
+      <node ref="C1004" pin="1"/>
+      <node ref="C1003" pin="1"/>
+      <node ref="U1001" pin="8"/>
+    </net>
+    <net code="131" name="Net-(C1002-Pad2)">
+      <node ref="R1002" pin="1"/>
+      <node ref="C1002" pin="2"/>
+      <node ref="C1003" pin="2"/>
+      <node ref="U1001" pin="1"/>
+    </net>
+    <net code="132" name="Net-(U1101-Pad4)">
+      <node ref="U1101" pin="4"/>
+    </net>
+    <net code="133" name="Net-(C1103-Pad1)">
+      <node ref="U1101" pin="8"/>
+      <node ref="C1103" pin="1"/>
+      <node ref="C1104" pin="1"/>
+      <node ref="R1103" pin="1"/>
+    </net>
+    <net code="134" name="Net-(C1102-Pad2)">
+      <node ref="U1101" pin="1"/>
+      <node ref="C1103" pin="2"/>
+      <node ref="C1102" pin="2"/>
+      <node ref="R1102" pin="1"/>
+    </net>
+    <net code="135" name="Net-(U1201-Pad4)">
+      <node ref="U1201" pin="4"/>
+    </net>
+    <net code="136" name="Net-(C1203-Pad1)">
+      <node ref="U1201" pin="8"/>
+      <node ref="C1203" pin="1"/>
+      <node ref="C1204" pin="1"/>
+      <node ref="R1203" pin="1"/>
+    </net>
+    <net code="137" name="Net-(C1202-Pad2)">
+      <node ref="R1202" pin="1"/>
+      <node ref="C1202" pin="2"/>
+      <node ref="C1203" pin="2"/>
+      <node ref="U1201" pin="1"/>
+    </net>
+    <net code="138" name="Net-(U1301-Pad4)">
+      <node ref="U1301" pin="4"/>
+    </net>
+    <net code="139" name="Net-(C1303-Pad1)">
+      <node ref="C1304" pin="1"/>
+      <node ref="R1303" pin="1"/>
+      <node ref="U1301" pin="8"/>
+      <node ref="C1303" pin="1"/>
+    </net>
+    <net code="140" name="Net-(C1302-Pad2)">
+      <node ref="R1302" pin="1"/>
+      <node ref="C1302" pin="2"/>
+      <node ref="C1303" pin="2"/>
+      <node ref="U1301" pin="1"/>
+    </net>
+    <net code="141" name="Net-(U1401-Pad4)">
+      <node ref="U1401" pin="4"/>
+    </net>
+    <net code="142" name="Net-(C1403-Pad1)">
+      <node ref="R1403" pin="1"/>
+      <node ref="C1404" pin="1"/>
+      <node ref="U1401" pin="8"/>
+      <node ref="C1403" pin="1"/>
+    </net>
+    <net code="143" name="Net-(C1402-Pad2)">
+      <node ref="C1403" pin="2"/>
+      <node ref="C1402" pin="2"/>
+      <node ref="R1402" pin="1"/>
+      <node ref="U1401" pin="1"/>
+    </net>
+    <net code="144" name="Net-(U1501-Pad4)">
+      <node ref="U1501" pin="4"/>
+    </net>
+    <net code="145" name="Net-(C1503-Pad1)">
+      <node ref="C1503" pin="1"/>
+      <node ref="U1501" pin="8"/>
+      <node ref="C1504" pin="1"/>
+      <node ref="R1503" pin="1"/>
+    </net>
+    <net code="146" name="Net-(C1502-Pad2)">
+      <node ref="C1503" pin="2"/>
+      <node ref="R1502" pin="1"/>
+      <node ref="C1502" pin="2"/>
+      <node ref="U1501" pin="1"/>
+    </net>
+    <net code="147" name="Net-(U1601-Pad4)">
+      <node ref="U1601" pin="4"/>
+    </net>
+    <net code="148" name="Net-(C1603-Pad1)">
+      <node ref="R1603" pin="1"/>
+      <node ref="C1604" pin="1"/>
+      <node ref="C1603" pin="1"/>
+      <node ref="U1601" pin="8"/>
+    </net>
+    <net code="149" name="Net-(C1602-Pad2)">
+      <node ref="C1602" pin="2"/>
+      <node ref="C1603" pin="2"/>
+      <node ref="R1602" pin="1"/>
+      <node ref="U1601" pin="1"/>
+    </net>
+    <net code="150" name="Net-(U1701-Pad4)">
+      <node ref="U1701" pin="4"/>
+    </net>
+    <net code="151" name="Net-(C1703-Pad1)">
+      <node ref="C1703" pin="1"/>
+      <node ref="U1701" pin="8"/>
+      <node ref="R1703" pin="1"/>
+      <node ref="C1704" pin="1"/>
+    </net>
+    <net code="152" name="Net-(C1702-Pad2)">
+      <node ref="R1702" pin="1"/>
+      <node ref="C1702" pin="2"/>
+      <node ref="C1703" pin="2"/>
+      <node ref="U1701" pin="1"/>
+    </net>
+    <net code="153" name="Net-(U1801-Pad4)">
+      <node ref="U1801" pin="4"/>
+    </net>
+    <net code="154" name="Net-(C1803-Pad1)">
+      <node ref="R1803" pin="1"/>
+      <node ref="C1804" pin="1"/>
+      <node ref="C1803" pin="1"/>
+      <node ref="U1801" pin="8"/>
+    </net>
+    <net code="155" name="Net-(C1802-Pad2)">
+      <node ref="C1802" pin="2"/>
+      <node ref="C1803" pin="2"/>
+      <node ref="U1801" pin="1"/>
+      <node ref="R1802" pin="1"/>
+    </net>
+    <net code="156" name="Net-(U1901-Pad4)">
+      <node ref="U1901" pin="4"/>
+    </net>
+    <net code="157" name="Net-(C1903-Pad1)">
+      <node ref="U1901" pin="8"/>
+      <node ref="C1903" pin="1"/>
+      <node ref="C1904" pin="1"/>
+      <node ref="R1903" pin="1"/>
+    </net>
+    <net code="158" name="Net-(C1902-Pad2)">
+      <node ref="U1901" pin="1"/>
+      <node ref="C1903" pin="2"/>
+      <node ref="C1902" pin="2"/>
+      <node ref="R1902" pin="1"/>
+    </net>
+    <net code="159" name="Net-(U2001-Pad4)">
+      <node ref="U2001" pin="4"/>
+    </net>
+    <net code="160" name="Net-(C2003-Pad1)">
+      <node ref="U2001" pin="8"/>
+      <node ref="C2003" pin="1"/>
+      <node ref="C2004" pin="1"/>
+      <node ref="R2003" pin="1"/>
+    </net>
+    <net code="161" name="Net-(C2002-Pad2)">
+      <node ref="U2001" pin="1"/>
+      <node ref="C2003" pin="2"/>
+      <node ref="C2002" pin="2"/>
+      <node ref="R2002" pin="1"/>
+    </net>
+    <net code="162" name="Net-(U2101-Pad4)">
+      <node ref="U2101" pin="4"/>
+    </net>
+    <net code="163" name="Net-(C2103-Pad1)">
+      <node ref="C2104" pin="1"/>
+      <node ref="R2103" pin="1"/>
+      <node ref="C2103" pin="1"/>
+      <node ref="U2101" pin="8"/>
+    </net>
+    <net code="164" name="Net-(C2102-Pad2)">
+      <node ref="C2103" pin="2"/>
+      <node ref="C2102" pin="2"/>
+      <node ref="R2102" pin="1"/>
+      <node ref="U2101" pin="1"/>
+    </net>
+    <net code="165" name="Net-(U2201-Pad4)">
+      <node ref="U2201" pin="4"/>
+    </net>
+    <net code="166" name="Net-(C2203-Pad1)">
+      <node ref="U2201" pin="8"/>
+      <node ref="C2203" pin="1"/>
+      <node ref="C2204" pin="1"/>
+      <node ref="R2203" pin="1"/>
+    </net>
+    <net code="167" name="Net-(C2202-Pad2)">
+      <node ref="C2203" pin="2"/>
+      <node ref="R2202" pin="1"/>
+      <node ref="U2201" pin="1"/>
+      <node ref="C2202" pin="2"/>
+    </net>
+    <net code="168" name="Net-(U2301-Pad4)">
+      <node ref="U2301" pin="4"/>
+    </net>
+    <net code="169" name="Net-(C2303-Pad1)">
+      <node ref="C2304" pin="1"/>
+      <node ref="R2303" pin="1"/>
+      <node ref="C2303" pin="1"/>
+      <node ref="U2301" pin="8"/>
+    </net>
+    <net code="170" name="Net-(C2302-Pad2)">
+      <node ref="C2303" pin="2"/>
+      <node ref="C2302" pin="2"/>
+      <node ref="R2302" pin="1"/>
+      <node ref="U2301" pin="1"/>
+    </net>
+    <net code="171" name="Net-(U2401-Pad4)">
+      <node ref="U2401" pin="4"/>
+    </net>
+    <net code="172" name="Net-(C2403-Pad1)">
+      <node ref="U2401" pin="8"/>
+      <node ref="C2403" pin="1"/>
+      <node ref="C2404" pin="1"/>
+      <node ref="R2403" pin="1"/>
+    </net>
+    <net code="173" name="Net-(C2402-Pad2)">
+      <node ref="U2401" pin="1"/>
+      <node ref="C2403" pin="2"/>
+      <node ref="C2402" pin="2"/>
+      <node ref="R2402" pin="1"/>
+    </net>
+    <net code="174" name="Net-(U2501-Pad4)">
+      <node ref="U2501" pin="4"/>
+    </net>
+    <net code="175" name="Net-(C2503-Pad1)">
+      <node ref="U2501" pin="8"/>
+      <node ref="C2503" pin="1"/>
+      <node ref="R2503" pin="1"/>
+      <node ref="C2504" pin="1"/>
+    </net>
+    <net code="176" name="Net-(C2502-Pad2)">
+      <node ref="U2501" pin="1"/>
+      <node ref="C2503" pin="2"/>
+      <node ref="C2502" pin="2"/>
+      <node ref="R2502" pin="1"/>
+    </net>
+    <net code="177" name="Net-(U2601-Pad4)">
+      <node ref="U2601" pin="4"/>
+    </net>
+    <net code="178" name="Net-(C2603-Pad1)">
+      <node ref="R2603" pin="1"/>
+      <node ref="C2603" pin="1"/>
+      <node ref="U2601" pin="8"/>
+      <node ref="C2604" pin="1"/>
+    </net>
+    <net code="179" name="Net-(C2602-Pad2)">
+      <node ref="C2602" pin="2"/>
+      <node ref="C2603" pin="2"/>
+      <node ref="R2602" pin="1"/>
+      <node ref="U2601" pin="1"/>
+    </net>
+    <net code="180" name="Net-(U2701-Pad4)">
+      <node ref="U2701" pin="4"/>
+    </net>
+    <net code="181" name="Net-(C2703-Pad1)">
+      <node ref="U2701" pin="8"/>
+      <node ref="C2703" pin="1"/>
+      <node ref="C2704" pin="1"/>
+      <node ref="R2703" pin="1"/>
+    </net>
+    <net code="182" name="Net-(C2702-Pad2)">
+      <node ref="U2701" pin="1"/>
+      <node ref="R2702" pin="1"/>
+      <node ref="C2703" pin="2"/>
+      <node ref="C2702" pin="2"/>
+    </net>
+    <net code="183" name="Net-(U2801-Pad4)">
+      <node ref="U2801" pin="4"/>
+    </net>
+    <net code="184" name="Net-(C2803-Pad1)">
+      <node ref="C2803" pin="1"/>
+      <node ref="R2803" pin="1"/>
+      <node ref="C2804" pin="1"/>
+      <node ref="U2801" pin="8"/>
+    </net>
+    <net code="185" name="Net-(C2802-Pad2)">
+      <node ref="R2802" pin="1"/>
+      <node ref="C2803" pin="2"/>
+      <node ref="U2801" pin="1"/>
+      <node ref="C2802" pin="2"/>
+    </net>
+    <net code="186" name="Net-(U2901-Pad4)">
+      <node ref="U2901" pin="4"/>
+    </net>
+    <net code="187" name="Net-(C2903-Pad1)">
+      <node ref="R2903" pin="1"/>
+      <node ref="C2903" pin="1"/>
+      <node ref="U2901" pin="8"/>
+      <node ref="C2904" pin="1"/>
+    </net>
+    <net code="188" name="Net-(C2902-Pad2)">
+      <node ref="R2902" pin="1"/>
+      <node ref="C2902" pin="2"/>
+      <node ref="U2901" pin="1"/>
+      <node ref="C2903" pin="2"/>
+    </net>
+    <net code="189" name="Net-(U3001-Pad4)">
+      <node ref="U3001" pin="4"/>
+    </net>
+    <net code="190" name="Net-(C3003-Pad1)">
+      <node ref="R3003" pin="1"/>
+      <node ref="C3003" pin="1"/>
+      <node ref="U3001" pin="8"/>
+      <node ref="C3004" pin="1"/>
+    </net>
+    <net code="191" name="Net-(C3002-Pad2)">
+      <node ref="U3001" pin="1"/>
+      <node ref="C3002" pin="2"/>
+      <node ref="C3003" pin="2"/>
+      <node ref="R3002" pin="1"/>
+    </net>
+    <net code="192" name="Net-(U3101-Pad4)">
+      <node ref="U3101" pin="4"/>
+    </net>
+    <net code="193" name="Net-(C3103-Pad1)">
+      <node ref="U3101" pin="8"/>
+      <node ref="C3103" pin="1"/>
+      <node ref="C3104" pin="1"/>
+      <node ref="R3103" pin="1"/>
+    </net>
+    <net code="194" name="Net-(C3102-Pad2)">
+      <node ref="R3102" pin="1"/>
+      <node ref="U3101" pin="1"/>
+      <node ref="C3102" pin="2"/>
+      <node ref="C3103" pin="2"/>
+    </net>
+    <net code="195" name="Net-(U3201-Pad4)">
+      <node ref="U3201" pin="4"/>
+    </net>
+    <net code="196" name="Net-(C3203-Pad1)">
+      <node ref="C3203" pin="1"/>
+      <node ref="C3204" pin="1"/>
+      <node ref="U3201" pin="8"/>
+      <node ref="R3203" pin="1"/>
+    </net>
+    <net code="197" name="Net-(C3202-Pad2)">
+      <node ref="U3201" pin="1"/>
+      <node ref="R3202" pin="1"/>
+      <node ref="C3203" pin="2"/>
+      <node ref="C3202" pin="2"/>
+    </net>
+    <net code="198" name="Net-(U3301-Pad4)">
+      <node ref="U3301" pin="4"/>
+    </net>
+    <net code="199" name="Net-(C3303-Pad1)">
+      <node ref="U3301" pin="8"/>
+      <node ref="C3303" pin="1"/>
+      <node ref="R3303" pin="1"/>
+      <node ref="C3304" pin="1"/>
+    </net>
+    <net code="200" name="Net-(C3302-Pad2)">
+      <node ref="R3302" pin="1"/>
+      <node ref="C3303" pin="2"/>
+      <node ref="U3301" pin="1"/>
+      <node ref="C3302" pin="2"/>
+    </net>
+  </nets>
+</export>
