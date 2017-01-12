@@ -11,7 +11,7 @@ K connector
 $ENDCMP
 #
 $CMP CONN_02X25
-D Connector, double row, 02x25
+D Mating connector
 K connector
 $ENDCMP
 #
