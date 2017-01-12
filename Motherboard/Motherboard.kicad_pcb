@@ -3,7 +3,7 @@
   (general
     (links 951)
     (no_connects 52)
-    (area 32.5891 -155.65628 302.994061 239.909013)
+    (area 41.023859 44.197679 244.403861 234.278641)
     (thickness 1.6)
     (drawings 10)
     (tracks 3094)
@@ -99,7 +99,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../../MOBO/))
+      (outputdirectory R1.1Gerb/))
   )
 
   (net 0 "")
