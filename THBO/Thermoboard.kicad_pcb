@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ThermoCu_gerber/))
+      (outputdirectory gerbers/))
   )
 
   (net 0 "")
