@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N3906
+D -50V Vce, -0.15A Ic, Low Noise Audio PNP Transistor, TO-92
+K Low Noise Audio PNP Transistor
+F http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf
+$ENDCMP
+#
+$CMP Transistor_PNP_MicroCommCo_2N3906
+D -50V Vce, -0.15A Ic, Low Noise Audio PNP Transistor, TO-92
+K Low Noise Audio PNP Transistor
+F http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf
+$ENDCMP
+#
+#End Doc Library
