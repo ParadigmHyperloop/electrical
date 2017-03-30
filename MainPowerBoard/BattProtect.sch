@@ -54,7 +54,6 @@ LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -167,7 +166,7 @@ Wire Wire Line
 	2800 1300 2800 1500
 Connection ~ 2800 1500
 $Comp
-L LED D403
+L LED-RESCUE-MainPowerBoard D403
 U 1 1 583BADDF
 P 3600 3250
 AR Path="/582298AB/583BADDF" Ref="D403"  Part="1" 
@@ -184,7 +183,7 @@ F 6 "754-1944-1-ND" V 3600 3250 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R401
+L R-RESCUE-MainPowerBoard R401
 U 1 1 583BAE4E
 P 3600 1850
 AR Path="/582298AB/583BAE4E" Ref="R401"  Part="1" 

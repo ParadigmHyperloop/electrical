@@ -54,7 +54,6 @@ LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -322,7 +321,7 @@ Text Label 6500 1100 0    49   ~ 0
 Text Label 7700 2000 0    49   ~ 0
 BBB_KILL
 $Comp
-L LED D701
+L LED-RESCUE-MainPowerBoard D701
 U 1 1 583D8105
 P 9400 1400
 F 0 "D701" V 9350 1550 50  0000 C CNN
@@ -653,7 +652,7 @@ VREF
 Text Label 8800 2300 0    60   ~ 0
 RED_NEG
 $Comp
-L LED D702
+L LED-RESCUE-MainPowerBoard D702
 U 1 1 58451D89
 P 10700 1400
 F 0 "D702" V 10650 1550 50  0000 C CNN

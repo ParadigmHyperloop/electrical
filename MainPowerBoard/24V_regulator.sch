@@ -54,7 +54,6 @@ LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -154,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3700 3500 3700
 $Comp
-L C C201
+L C-RESCUE-MainPowerBoard C201
 U 1 1 583A8A9A
 P 1800 3800
 AR Path="/582171B3/583A8A9A" Ref="C201"  Part="1" 
@@ -165,6 +164,7 @@ AR Path="/583A8D22/583A8A9A" Ref="C1101"  Part="1"
 AR Path="/583A8D27/583A8A9A" Ref="C1201"  Part="1" 
 AR Path="/583A9416/583A8A9A" Ref="C1301"  Part="1" 
 AR Path="/583A941B/583A8A9A" Ref="C1401"  Part="1" 
+AR Path="/583A8A9A" Ref="C1401"  Part="1" 
 F 0 "C1401" H 1850 3900 50  0000 L CNN
 F 1 "2.2uF" H 1850 3700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210_HandSoldering" H 1838 3650 30  0001 C CNN
@@ -176,7 +176,7 @@ F 6 "445-4497-1-ND" H 1800 3800 60  0001 C CNN "DigiKey PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C202
+L C-RESCUE-MainPowerBoard C202
 U 1 1 583A8B4B
 P 2250 3800
 AR Path="/582171B3/583A8B4B" Ref="C202"  Part="1" 
@@ -187,6 +187,7 @@ AR Path="/583A8D22/583A8B4B" Ref="C1102"  Part="1"
 AR Path="/583A8D27/583A8B4B" Ref="C1202"  Part="1" 
 AR Path="/583A9416/583A8B4B" Ref="C1302"  Part="1" 
 AR Path="/583A941B/583A8B4B" Ref="C1402"  Part="1" 
+AR Path="/583A8B4B" Ref="C1402"  Part="1" 
 F 0 "C1402" H 2300 3900 50  0000 L CNN
 F 1 "2.2uF" H 2300 3700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210_HandSoldering" H 2288 3650 30  0001 C CNN
@@ -246,7 +247,7 @@ F 3 "" H 2250 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C203
+L C-RESCUE-MainPowerBoard C203
 U 1 1 583A8CF1
 P 3400 4650
 AR Path="/582171B3/583A8CF1" Ref="C203"  Part="1" 
@@ -257,6 +258,7 @@ AR Path="/583A8D22/583A8CF1" Ref="C1103"  Part="1"
 AR Path="/583A8D27/583A8CF1" Ref="C1203"  Part="1" 
 AR Path="/583A9416/583A8CF1" Ref="C1303"  Part="1" 
 AR Path="/583A941B/583A8CF1" Ref="C1403"  Part="1" 
+AR Path="/583A8CF1" Ref="C1403"  Part="1" 
 F 0 "C1403" H 3450 4750 50  0000 L CNN
 F 1 "2.2uF" H 3450 4550 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 3438 4500 30  0001 C CNN
@@ -341,7 +343,7 @@ F 3 "" H 5000 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R203
+L R-RESCUE-MainPowerBoard R203
 U 1 1 583B2967
 P 6900 4650
 AR Path="/582171B3/583B2967" Ref="R203"  Part="1" 
@@ -363,7 +365,7 @@ F 6 "541-20.0KFCT-ND" H 6900 4650 60  0001 C CNN "DigiKey PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT VR201
+L POT-RESCUE-MainPowerBoard VR201
 U 1 1 583B2A2E
 P 6900 4050
 AR Path="/582171B3/583B2A2E" Ref="VR201"  Part="1" 
@@ -435,7 +437,7 @@ $EndComp
 Wire Wire Line
 	5400 3550 5400 4300
 $Comp
-L INDUCTOR L201
+L INDUCTOR-RESCUE-MainPowerBoard L201
 U 1 1 583B2D59
 P 6000 3700
 AR Path="/582171B3/583B2D59" Ref="L201"  Part="1" 
@@ -493,7 +495,7 @@ Wire Wire Line
 	6300 4300 6300 4000
 NoConn ~ 7150 4050
 $Comp
-L C C204
+L C-RESCUE-MainPowerBoard C204
 U 1 1 583B399E
 P 5400 3350
 AR Path="/582171B3/583B399E" Ref="C204"  Part="1" 
@@ -504,6 +506,7 @@ AR Path="/583A8D22/583B399E" Ref="C1104"  Part="1"
 AR Path="/583A8D27/583B399E" Ref="C1204"  Part="1" 
 AR Path="/583A9416/583B399E" Ref="C1304"  Part="1" 
 AR Path="/583A941B/583B399E" Ref="C1404"  Part="1" 
+AR Path="/583B399E" Ref="C1404"  Part="1" 
 F 0 "C1404" H 5450 3450 50  0000 L CNN
 F 1 "0.1uF" H 5450 3250 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 5438 3200 30  0001 C CNN
@@ -523,7 +526,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 3000 5400 3150
 $Comp
-L C C205
+L C-RESCUE-MainPowerBoard C205
 U 1 1 583B4188
 P 7650 4150
 AR Path="/582171B3/583B4188" Ref="C205"  Part="1" 
@@ -534,6 +537,7 @@ AR Path="/583A8D22/583B4188" Ref="C1105"  Part="1"
 AR Path="/583A8D27/583B4188" Ref="C1205"  Part="1" 
 AR Path="/583A9416/583B4188" Ref="C1305"  Part="1" 
 AR Path="/583A941B/583B4188" Ref="C1405"  Part="1" 
+AR Path="/583B4188" Ref="C1405"  Part="1" 
 F 0 "C1405" H 7700 4250 50  0000 L CNN
 F 1 "4.7uF" H 7700 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7688 4000 30  0001 C CNN
@@ -569,7 +573,7 @@ Wire Wire Line
 	7650 3950 7650 3700
 Connection ~ 7650 3700
 $Comp
-L C C206
+L C-RESCUE-MainPowerBoard C206
 U 1 1 583B43AD
 P 8100 4150
 AR Path="/582171B3/583B43AD" Ref="C206"  Part="1" 
@@ -580,6 +584,7 @@ AR Path="/583A8D22/583B43AD" Ref="C1106"  Part="1"
 AR Path="/583A8D27/583B43AD" Ref="C1206"  Part="1" 
 AR Path="/583A9416/583B43AD" Ref="C1306"  Part="1" 
 AR Path="/583A941B/583B43AD" Ref="C1406"  Part="1" 
+AR Path="/583B43AD" Ref="C1406"  Part="1" 
 F 0 "C1406" H 8150 4250 50  0000 L CNN
 F 1 "4.7uF" H 8150 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8138 4000 30  0001 C CNN
@@ -619,7 +624,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 5450 2650 5450
 $Comp
-L R R201
+L R-RESCUE-MainPowerBoard R201
 U 1 1 583D36BC
 P 1900 5450
 AR Path="/582171B3/583D36BC" Ref="R201"  Part="1" 
@@ -731,7 +736,7 @@ Wire Wire Line
 	9200 4200 9200 3700
 Connection ~ 9200 3700
 $Comp
-L R R202
+L R-RESCUE-MainPowerBoard R202
 U 1 1 583E258D
 P 2900 4600
 AR Path="/582171B3/583E258D" Ref="R202"  Part="1" 
@@ -753,7 +758,7 @@ F 6 "P47.5KFCT-ND" H 2900 4600 60  0001 C CNN "DigiKey PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D202
+L LED-RESCUE-MainPowerBoard D202
 U 1 1 583D0112
 P 8600 4600
 AR Path="/582171B3/583D0112" Ref="D202"  Part="1" 

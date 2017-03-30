@@ -54,7 +54,6 @@ LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -164,7 +163,7 @@ Text Label 13100 7600 2    49   ~ 0
 Text Notes 15200 7500 0    49   ~ 0
 24V0_REG7\nIMU (center)\nNAP (rear left)
 Text Notes 15250 8600 0    49   ~ 0
-24V0_REG8\nFront e-brake (relay panel)\nRear e-brake (relay panel)\nHigh pressure bleed valve\n(relay panel)
+24V0_REG8\nFront e-brake (relay panel)\nRear e-brake (relay panel)\nLow pressure bleed valve\n(relay panel)
 Text Label 11100 9300 0    49   ~ 0
 5V0_REG
 $Sheet
@@ -475,7 +474,7 @@ F 3 "" H 5850 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R111
+L R-RESCUE-MainPowerBoard R111
 U 1 1 583CDE72
 P 5700 4300
 F 0 "R111" V 5600 4450 50  0000 C CNN
@@ -489,7 +488,7 @@ F 6 "311-0.0ERCT-ND" V 5700 4300 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R112
+L R-RESCUE-MainPowerBoard R112
 U 1 1 583CDF83
 P 5700 4500
 F 0 "R112" V 5600 4650 50  0000 C CNN
@@ -503,7 +502,7 @@ F 6 "311-0.0ERCT-ND" V 5700 4500 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R113
+L R-RESCUE-MainPowerBoard R113
 U 1 1 583CE067
 P 5700 4700
 F 0 "R113" V 5600 4850 50  0000 C CNN
@@ -517,7 +516,7 @@ F 6 "311-0.0ERCT-ND" V 5700 4700 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R114
+L R-RESCUE-MainPowerBoard R114
 U 1 1 583CE14D
 P 5700 4900
 F 0 "R114" V 5600 5050 50  0000 C CNN
@@ -531,7 +530,7 @@ F 6 "311-0.0ERCT-ND" V 5700 4900 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R105
+L R-RESCUE-MainPowerBoard R105
 U 1 1 583CE35A
 P 5250 6100
 F 0 "R105" V 5150 6250 50  0000 C CNN
@@ -545,7 +544,7 @@ F 6 "311-0.0ERCT-ND" V 5250 6100 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R106
+L R-RESCUE-MainPowerBoard R106
 U 1 1 583CE363
 P 5250 6300
 F 0 "R106" V 5150 6450 50  0000 C CNN
@@ -559,7 +558,7 @@ F 6 "311-0.0ERCT-ND" V 5250 6300 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R107
+L R-RESCUE-MainPowerBoard R107
 U 1 1 583CE36C
 P 5250 6500
 F 0 "R107" V 5150 6650 50  0000 C CNN
@@ -573,7 +572,7 @@ F 6 "311-0.0ERCT-ND" V 5250 6500 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R108
+L R-RESCUE-MainPowerBoard R108
 U 1 1 583CE375
 P 5250 6700
 F 0 "R108" V 5150 6850 50  0000 C CNN
@@ -587,7 +586,7 @@ F 6 "311-0.0ERCT-ND" V 5250 6700 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R109
+L R-RESCUE-MainPowerBoard R109
 U 1 1 583CE4F8
 P 5250 6900
 F 0 "R109" V 5150 7050 50  0000 C CNN
@@ -601,7 +600,7 @@ F 6 "311-0.0ERCT-ND" V 5250 6900 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R110
+L R-RESCUE-MainPowerBoard R110
 U 1 1 583CE501
 P 5250 7100
 F 0 "R110" V 5150 7250 50  0000 C CNN
@@ -1613,7 +1612,7 @@ F 6 "277-2427-ND" H 2300 5900 60  0001 C CNN "Digikey PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R101
+L R-RESCUE-MainPowerBoard R101
 U 1 1 585853FA
 P 3050 5400
 F 0 "R101" V 2950 5550 50  0000 C CNN
@@ -1627,7 +1626,7 @@ F 6 "311-0.0ERCT-ND" V 3050 5400 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R102
+L R-RESCUE-MainPowerBoard R102
 U 1 1 58585403
 P 3050 5600
 F 0 "R102" V 2950 5750 50  0000 C CNN
@@ -1641,7 +1640,7 @@ F 6 "311-0.0ERCT-ND" V 3050 5600 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R103
+L R-RESCUE-MainPowerBoard R103
 U 1 1 5858540C
 P 3050 5800
 F 0 "R103" V 2950 5950 50  0000 C CNN
@@ -1655,7 +1654,7 @@ F 6 "311-0.0ERCT-ND" V 3050 5800 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R104
+L R-RESCUE-MainPowerBoard R104
 U 1 1 58585415
 P 3050 6000
 F 0 "R104" V 2950 6150 50  0000 C CNN
@@ -1669,7 +1668,7 @@ F 6 "311-0.0ERCT-ND" V 3050 6000 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R115
+L R-RESCUE-MainPowerBoard R115
 U 1 1 5858541E
 P 3050 6200
 F 0 "R115" V 2950 6350 50  0000 C CNN
@@ -1683,7 +1682,7 @@ F 6 "311-0.0ERCT-ND" V 3050 6200 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R116
+L R-RESCUE-MainPowerBoard R116
 U 1 1 58585427
 P 3050 6400
 F 0 "R116" V 2950 6550 50  0000 C CNN
@@ -1775,7 +1774,7 @@ F 3 "" H 5300 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D104
+L LED-RESCUE-MainPowerBoard D104
 U 1 1 58584237
 P 3300 9500
 F 0 "D104" V 3250 9650 50  0000 C CNN
@@ -1789,7 +1788,7 @@ F 6 "754-1944-1-ND" V 3300 9500 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R117
+L R-RESCUE-MainPowerBoard R117
 U 1 1 58584241
 P 3300 8100
 F 0 "R117" H 3450 8200 50  0000 C CNN
