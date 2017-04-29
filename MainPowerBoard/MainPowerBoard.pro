@@ -1,4 +1,4 @@
-update=3/30/2017 12:35:21 PM
+update=4/29/2017 7:19:18 PM
 last_client=kicad
 [general]
 version=1
@@ -81,3 +81,4 @@ LibName72=tlc393
 LibName73=on-diode
 LibName74=mounting_hole
 LibName75=tlv271
+LibName76=LTC4357
