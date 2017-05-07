@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SSRBoard-rescue
 LIBS:transistors
 LIBS:device
 LIBS:74xgxx
@@ -54,7 +55,6 @@ LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -121,7 +121,7 @@ F 6 "MMBT2222ALT1GOSCT-ND" H 5100 3250 60  0001 C CNN "DigiKey PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R203
+L R-RESCUE-SSRBoard R203
 U 1 1 586B33E9
 P 5200 2300
 AR Path="/586B2B8E/586B33E9" Ref="R203"  Part="1" 
@@ -151,7 +151,7 @@ F 6 "311-910FRCT-ND" H 5200 2300 60  0001 C CNN "DigiKey PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R201
+L R-RESCUE-SSRBoard R201
 U 1 1 586B3431
 P 4400 3250
 AR Path="/586B2B8E/586B3431" Ref="R201"  Part="1" 
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3250 4150 3250
 $Comp
-L ZENER D201
+L ZENER-RESCUE-SSRBoard D201
 U 1 1 586B3681
 P 3350 3500
 AR Path="/586B2B8E/586B3681" Ref="D201"  Part="1" 
@@ -288,7 +288,7 @@ F 3 "" H 3350 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R202
+L R-RESCUE-SSRBoard R202
 U 1 1 586B39A4
 P 4800 3600
 AR Path="/586B2B8E/586B39A4" Ref="R202"  Part="1" 
@@ -390,7 +390,7 @@ F 6 "VO14642AABCT-ND" H 6000 2850 60  0001 C CNN "DigiKey PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D202
+L LED-RESCUE-SSRBoard D202
 U 1 1 586E6B18
 P 3850 3550
 AR Path="/586B2B8E/586E6B18" Ref="D202"  Part="1" 
@@ -409,6 +409,7 @@ AR Path="/586B796C/586E6B18" Ref="D1402"  Part="1"
 AR Path="/586B797A/586E6B18" Ref="D1502"  Part="1" 
 AR Path="/586B7988/586E6B18" Ref="D1602"  Part="1" 
 AR Path="/586B7996/586E6B18" Ref="D1702"  Part="1" 
+AR Path="/586E6B18" Ref="D202"  Part="1" 
 F 0 "D202" H 3850 3650 50  0000 C CNN
 F 1 "LED" H 3850 3450 50  0000 C CNN
 F 2 "hyperCustom:SOD-123" H 3850 3550 60  0001 C CNN
@@ -420,7 +421,7 @@ F 6 "754-1939-1-ND" H 3850 3550 60  0001 C CNN "DigiKey PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R204
+L R-RESCUE-SSRBoard R204
 U 1 1 586E6B5D
 P 3850 4100
 AR Path="/586B2B8E/586E6B5D" Ref="R204"  Part="1" 
