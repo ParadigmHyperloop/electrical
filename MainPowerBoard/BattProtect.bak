@@ -73,12 +73,13 @@ LIBS:tlc393
 LIBS:on-diode
 LIBS:mounting_hole
 LIBS:tlv271
+LIBS:LTC4357
 LIBS:MainPowerBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 16
+Sheet 5 14
 Title ""
 Date ""
 Rev ""
