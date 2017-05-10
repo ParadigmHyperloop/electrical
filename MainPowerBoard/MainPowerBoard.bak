@@ -1222,7 +1222,7 @@ $Sheet
 S 15450 10950 1800 600 
 U 58F68A20
 F0 "5 Volt Regulator -- 2" 60
-F1 "5V_regulator.sch" 60
+F1 "24V_regulator.sch" 60
 F2 "5V0_REG" O R 17250 11250 60 
 F3 "VCC_BATT" I L 15450 11250 60 
 F4 "ENABLE" I L 15450 11450 60 
