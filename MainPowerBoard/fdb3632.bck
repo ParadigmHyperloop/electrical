@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDB3632
+D 200V Vds, N-Channel MOSFET, TO-92
+K N-Channel MOSFET
+F http://www.vishay.com/docs/70215/70215.pdf
+$ENDCMP
+#
+#End Doc Library
