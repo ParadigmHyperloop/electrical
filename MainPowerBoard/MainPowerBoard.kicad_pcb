@@ -3,7 +3,7 @@
   (general
     (links 628)
     (no_connects 41)
-    (area -0.075001 -0.075001 177.875001 177.875001)
+    (area -5.675 -5.675 182.885 183.575)
     (thickness 1.6)
     (drawings 74)
     (tracks 2132)
@@ -15,7 +15,7 @@
   (page B)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 2)
@@ -7954,10 +7954,10 @@
     (pad 3 thru_hole circle (at 5 5) (size 1.5 1.5) (drill 1.1) (layers *.Cu *.Mask))
   )
 
-  (module hyperCustom:TP_SMT_Keystone (layer F.Cu) (tedit 59110771) (tstamp 58581159)
+  (module hyperCustom:TP_SMT_Keystone (layer F.Cu) (tedit 591CCA85) (tstamp 58581159)
     (at 83.371 9.217 180)
     (path /58580B9E)
-    (fp_text reference TP102 (at 0.44 3.375 180) (layer F.SilkS)
+    (fp_text reference TP102 (at 0.567 2.613 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Testpoint (at 0.7366 -2.921 180) (layer F.Fab)
@@ -10473,8 +10473,8 @@
   (gr_text "J127: 5V REG\n1-2: 5V, 3-4: GND\n1.5A, 3A MAX" (at 85.852 163.576) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "Main Power Board, Rev 2\nDesigned by James Massucco\n© Paradigm 2016" (at 151.5 174.6) (layer F.SilkS) (tstamp 5849CCC2)
-    (effects (font (size 1 1) (thickness 0.15)) (justify right))
+  (gr_text "Main Power Board, Rev 3\nDesigned by James Massucco\nUpdated by Darryl Day\n© Paradigm 2017" (at 151.5 174.6) (layer F.SilkS) (tstamp 5849CCC2)
+    (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right))
   )
   (gr_text - (at 27.7 147.5) (layer F.SilkS) (tstamp 5849CB4E)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
