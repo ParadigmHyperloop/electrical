@@ -1930,4 +1930,23 @@ Wire Wire Line
 Connection ~ 5800 8400
 Wire Notes Line
 	6600 500  6600 7350
+$Comp
+L XTR117 U?
+U 1 1 59143935
+P 14200 1650
+F 0 "U?" H 14200 1250 60  0000 C CNN
+F 1 "XTR117" H 14200 1950 60  0000 C CNN
+F 2 "" H 14200 2650 60  0001 C CNN
+F 3 "" H 14200 2650 60  0001 C CNN
+	1    14200 1650
+	1    0    0    -1  
+$EndComp
+Text Label 8100 8200 2    60   ~ 0
+Data_In
+Text Label 8100 8300 2    60   ~ 0
+Clock_In
+Text Label 14150 3850 0    60   ~ 0
+Data_In
+Text Label 14150 4000 0    60   ~ 0
+Clock_In
 $EndSCHEMATC
