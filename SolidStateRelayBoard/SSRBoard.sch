@@ -1994,5 +1994,5 @@ F 3 "" H 14750 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 14750 1450 0    60   ~ 0
-5VoltOut
+PWM
 $EndSCHEMATC
