@@ -15,6 +15,11 @@ D Mating connector
 K connector
 $ENDCMP
 #
+$CMP Ferrite__BLM21_Murata
+D Resistor
+K R DEV
+$ENDCMP
+#
 $CMP LMV321RILT
 D Op Amp in 5-pin package
 K op amp amplifier operational 
