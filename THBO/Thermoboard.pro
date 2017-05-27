@@ -1,4 +1,4 @@
-update=12/30/2016 10:43:52 AM
+update=5/25/2017 9:08:32 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -110,3 +110,4 @@ LibName78=Worldsemi
 LibName79=Xicor
 LibName80=Zilog
 LibName81=hyperLib
+LibName82=mounting_hole

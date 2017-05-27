@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name thermoFootprints)(type KiCad)(uri "$(KIPRJMOD)/thermoFootprints.pretty")(options "")(descr ""))
+  (lib (name thermoFootprintsLocal)(type KiCad)(uri D:/GitHub/full_electrical/THBO/thermoFootprints.pretty)(options "")(descr ""))
+  (lib (name moboFootprints)(type KiCad)(uri D:/GitHub/full_electrical/Motherboard/moboFootprints.pretty)(options "")(descr ""))
 )

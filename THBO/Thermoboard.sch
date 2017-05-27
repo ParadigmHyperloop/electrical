@@ -80,6 +80,7 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:Zilog
 LIBS:hyperLib
+LIBS:mounting_hole
 LIBS:Thermoboard-cache
 EELAYER 25 0
 EELAYER END
@@ -96,1387 +97,3327 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5400 3550 550  350 
+S 2750 6450 550  350 
 U 5866FBDE
-F0 "sheet586796DF" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 3650 60 
-F3 "-IN" I L 5400 3800 60 
-F4 "OUT" I R 5950 3750 60 
+F0 "Thermocouple Amplifier -- 1" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 6550 60 
+F3 "-IN" I L 2750 6700 60 
+F4 "OUT" I R 3300 6650 60 
 $EndSheet
-Text Notes 4550 10400 2    98   ~ 0
-EXTRA/\nSPARE\n\n
-Wire Wire Line
-	5950 3750 10000 3750
-Wire Wire Line
-	5950 4250 9900 4250
-Wire Wire Line
-	5950 4750 9800 4750
-Wire Wire Line
-	5950 5250 9700 5250
-Wire Wire Line
-	5950 5750 9600 5750
-Wire Wire Line
-	5950 6250 9500 6250
-Wire Wire Line
-	5950 6750 9400 6750
-Wire Wire Line
-	5950 9750 9700 9750
-Wire Wire Line
-	5950 9250 9600 9250
-Wire Wire Line
-	5950 8750 9500 8750
-Wire Wire Line
-	5950 8250 9400 8250
-Wire Wire Line
-	5950 7750 9300 7750
-Wire Wire Line
-	5950 7250 7950 7250
-Wire Wire Line
-	4150 14150 4200 14150
-Wire Wire Line
-	4200 14150 4200 12000
-Wire Wire Line
-	4200 12000 5400 12000
-Wire Wire Line
-	5400 12150 4250 12150
-Wire Wire Line
-	4250 12150 4250 14250
-Wire Wire Line
-	4250 14250 4150 14250
-Wire Wire Line
-	4150 14350 4300 14350
-Wire Wire Line
-	4300 14350 4300 12500
-Wire Wire Line
-	4300 12500 5400 12500
-Wire Wire Line
-	5400 12650 4350 12650
-Wire Wire Line
-	4350 12650 4350 14450
-Wire Wire Line
-	4350 14450 4150 14450
-Wire Wire Line
-	4150 14550 4400 14550
-Wire Wire Line
-	4400 14550 4400 13000
-Wire Wire Line
-	4400 13000 5400 13000
-Wire Wire Line
-	5400 13150 4450 13150
-Wire Wire Line
-	4450 13150 4450 14650
-Wire Wire Line
-	4450 14650 4150 14650
-Wire Wire Line
-	4150 14750 4500 14750
-Wire Wire Line
-	4500 14750 4500 13500
-Wire Wire Line
-	4500 13500 5400 13500
-Wire Wire Line
-	5400 13650 4550 13650
-Wire Wire Line
-	4550 13650 4550 14850
-Wire Wire Line
-	4550 14850 4150 14850
-Wire Wire Line
-	4150 14950 4600 14950
-Wire Wire Line
-	4600 14950 4600 14000
-Wire Wire Line
-	4600 14000 5400 14000
-Wire Wire Line
-	5400 14150 4650 14150
-Wire Wire Line
-	4650 14150 4650 15050
-Wire Wire Line
-	4650 15050 4150 15050
-Wire Wire Line
-	4150 15150 4700 15150
-Wire Wire Line
-	4700 15150 4700 14500
-Wire Wire Line
-	4700 14500 5400 14500
-Wire Wire Line
-	5400 14650 4750 14650
-Wire Wire Line
-	4750 14650 4750 15250
-Wire Wire Line
-	4750 15250 4150 15250
-Wire Wire Line
-	4150 15350 4800 15350
-Wire Wire Line
-	4800 15350 4800 15000
-Wire Wire Line
-	4800 15000 5400 15000
-Wire Wire Line
-	5400 15150 4850 15150
-Wire Wire Line
-	4850 15150 4850 15450
-Wire Wire Line
-	4850 15450 4150 15450
-Wire Wire Line
-	4150 15550 4850 15550
-Wire Wire Line
-	4850 15550 4850 15500
-Wire Wire Line
-	4850 15500 5400 15500
-Wire Wire Line
-	5400 15650 4150 15650
-Wire Wire Line
-	4150 17250 4150 19650
-Wire Wire Line
-	4150 19650 5400 19650
-Wire Wire Line
-	5400 19500 4200 19500
-Wire Wire Line
-	4200 19500 4200 17150
-Wire Wire Line
-	4200 17150 4150 17150
-Wire Wire Line
-	4150 17050 4250 17050
-Wire Wire Line
-	4250 17050 4250 19150
-Wire Wire Line
-	4250 19150 5400 19150
-Wire Wire Line
-	5400 19000 4300 19000
-Wire Wire Line
-	4300 19000 4300 16950
-Wire Wire Line
-	4300 16950 4150 16950
-Wire Wire Line
-	4150 16850 4350 16850
-Wire Wire Line
-	4350 16850 4350 18650
-Wire Wire Line
-	4350 18650 5400 18650
-Wire Wire Line
-	5400 18500 4400 18500
-Wire Wire Line
-	4400 18500 4400 16750
-Wire Wire Line
-	4400 16750 4150 16750
-Wire Wire Line
-	4150 16650 4450 16650
-Wire Wire Line
-	4450 16650 4450 18150
-Wire Wire Line
-	4450 18150 5400 18150
-Wire Wire Line
-	5400 18000 4500 18000
-Wire Wire Line
-	4500 18000 4500 16550
-Wire Wire Line
-	4500 16550 4150 16550
-Wire Wire Line
-	4150 16450 4550 16450
-Wire Wire Line
-	4550 16450 4550 17650
-Wire Wire Line
-	4550 17650 5400 17650
-Wire Wire Line
-	5400 17500 4600 17500
-Wire Wire Line
-	4600 17500 4600 16350
-Wire Wire Line
-	4600 16350 4150 16350
-Wire Wire Line
-	4150 16250 4650 16250
-Wire Wire Line
-	4650 16250 4650 17150
-Wire Wire Line
-	4650 17150 5400 17150
-Wire Wire Line
-	4150 16150 4700 16150
-Wire Wire Line
-	4700 16150 4700 17000
-Wire Wire Line
-	4700 17000 5400 17000
-Wire Wire Line
-	5400 16650 4750 16650
-Wire Wire Line
-	4750 16650 4750 16050
-Wire Wire Line
-	4750 16050 4150 16050
-Wire Wire Line
-	5400 16500 4800 16500
-Wire Wire Line
-	4800 16500 4800 15950
-Wire Wire Line
-	4800 15950 4150 15950
-Wire Wire Line
-	5400 16150 4850 16150
-Wire Wire Line
-	4850 16150 4850 15850
-Wire Wire Line
-	4850 15850 4150 15850
-Wire Wire Line
-	5400 16000 4900 16000
-Wire Wire Line
-	4900 16000 4900 15750
-Wire Wire Line
-	4900 15750 4150 15750
-Wire Wire Line
-	4150 5650 4200 5650
-Wire Wire Line
-	4200 5650 4200 3650
-Wire Wire Line
-	4200 3650 5400 3650
-Wire Wire Line
-	5400 3800 4250 3800
-Wire Wire Line
-	4250 3800 4250 5750
-Wire Wire Line
-	4250 5750 4150 5750
-Wire Wire Line
-	4150 6000 4300 6000
-Wire Wire Line
-	4300 6000 4300 4150
-Wire Wire Line
-	4300 4150 5400 4150
-Wire Wire Line
-	5400 4300 4350 4300
-Wire Wire Line
-	4350 4300 4350 6100
-Wire Wire Line
-	4350 6100 4150 6100
-Wire Wire Line
-	4150 6200 4400 6200
-Wire Wire Line
-	4400 6200 4400 4650
-Wire Wire Line
-	4400 4650 5400 4650
-Wire Wire Line
-	5400 4800 4450 4800
-Wire Wire Line
-	4450 4800 4450 6300
-Wire Wire Line
-	4450 6300 4150 6300
-Wire Wire Line
-	4150 6400 4500 6400
-Wire Wire Line
-	4500 6400 4500 5150
-Wire Wire Line
-	4500 5150 5400 5150
-Wire Wire Line
-	5400 5300 4550 5300
-Wire Wire Line
-	4550 5300 4550 6500
-Wire Wire Line
-	4550 6500 4150 6500
-Wire Wire Line
-	4150 6600 4600 6600
-Wire Wire Line
-	4600 6600 4600 5650
-Wire Wire Line
-	4600 5650 5400 5650
-Wire Wire Line
-	5400 5800 4650 5800
-Wire Wire Line
-	4650 5800 4650 6700
-Wire Wire Line
-	4650 6700 4150 6700
-Wire Wire Line
-	4150 6800 4700 6800
-Wire Wire Line
-	4700 6800 4700 6150
-Wire Wire Line
-	4700 6150 5400 6150
-Wire Wire Line
-	5400 6300 4750 6300
-Wire Wire Line
-	4750 6300 4750 6900
-Wire Wire Line
-	4750 6900 4150 6900
-Wire Wire Line
-	4150 7000 4800 7000
-Wire Wire Line
-	4800 7000 4800 6650
-Wire Wire Line
-	4800 6650 5400 6650
-Wire Wire Line
-	5400 6800 4850 6800
-Wire Wire Line
-	4850 6800 4850 7100
-Wire Wire Line
-	4850 7100 4150 7100
-Wire Wire Line
-	4150 7200 4850 7200
-Wire Wire Line
-	4850 7200 4850 7150
-Wire Wire Line
-	4850 7150 5400 7150
-Wire Wire Line
-	5400 7300 4150 7300
-Wire Wire Line
-	4150 8300 4450 8300
-Wire Wire Line
-	4450 8300 4450 9800
-Wire Wire Line
-	4450 9800 5400 9800
-Wire Wire Line
-	5400 9650 4500 9650
-Wire Wire Line
-	4500 9650 4500 8200
-Wire Wire Line
-	4500 8200 4150 8200
-Wire Wire Line
-	4150 8100 4550 8100
-Wire Wire Line
-	4550 8100 4550 9300
-Wire Wire Line
-	4550 9300 5400 9300
-Wire Wire Line
-	5400 9150 4600 9150
-Wire Wire Line
-	4600 9150 4600 8000
-Wire Wire Line
-	4600 8000 4150 8000
-Wire Wire Line
-	4150 7900 4650 7900
-Wire Wire Line
-	4650 7900 4650 8800
-Wire Wire Line
-	4650 8800 5400 8800
-Wire Wire Line
-	4150 7800 4700 7800
-Wire Wire Line
-	4700 7800 4700 8650
-Wire Wire Line
-	4700 8650 5400 8650
-Wire Wire Line
-	5400 8300 4750 8300
-Wire Wire Line
-	4750 8300 4750 7700
-Wire Wire Line
-	4750 7700 4150 7700
-Wire Wire Line
-	5400 8150 4800 8150
-Wire Wire Line
-	4800 8150 4800 7600
-Wire Wire Line
-	4800 7600 4150 7600
-Wire Wire Line
-	5400 7800 4850 7800
-Wire Wire Line
-	4850 7800 4850 7500
-Wire Wire Line
-	4850 7500 4150 7500
-Wire Wire Line
-	5400 7650 4900 7650
-Wire Wire Line
-	4900 7650 4900 7400
-Wire Wire Line
-	4900 7400 4150 7400
-Wire Wire Line
-	5950 10750 9900 10750
-Wire Wire Line
-	5950 10250 9800 10250
-Wire Wire Line
-	4150 8400 4400 8400
-Wire Wire Line
-	4400 8400 4400 10150
-Wire Wire Line
-	4400 10150 5400 10150
-Wire Wire Line
-	5400 10300 4350 10300
-Wire Wire Line
-	4350 10300 4350 8500
-Wire Wire Line
-	4350 8500 4150 8500
-Wire Wire Line
-	4150 8600 4300 8600
-Wire Wire Line
-	4300 8600 4300 10650
-Wire Wire Line
-	4300 10650 5400 10650
-Wire Wire Line
-	5400 10800 4250 10800
-Wire Wire Line
-	4250 10800 4250 8700
-Wire Wire Line
-	4250 8700 4150 8700
-Wire Wire Line
-	4150 8800 4200 8800
-Wire Wire Line
-	4200 8800 4200 11150
-Wire Wire Line
-	4200 11150 5400 11150
-Wire Wire Line
-	5400 11300 4150 11300
-Wire Wire Line
-	4150 11300 4150 8900
-Wire Wire Line
-	5950 11250 10000 11250
 $Sheet
-S 5400 4050 550  350 
+S 2750 7250 550  350 
 U 58677ED6
-F0 "sheet58677ED1" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 4150 60 
-F3 "-IN" I L 5400 4300 60 
-F4 "OUT" I R 5950 4250 60 
+F0 "Thermocouple Amplifier -- 2" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 7350 60 
+F3 "-IN" I L 2750 7500 60 
+F4 "OUT" I R 3300 7450 60 
 $EndSheet
 $Sheet
-S 5400 4550 550  350 
+S 2750 8050 550  350 
 U 58677FAD
-F0 "sheet58677FA8" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 4650 60 
-F3 "-IN" I L 5400 4800 60 
-F4 "OUT" I R 5950 4750 60 
+F0 "Thermocouple Amplifier -- 3" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 8150 60 
+F3 "-IN" I L 2750 8300 60 
+F4 "OUT" I R 3300 8250 60 
 $EndSheet
 $Sheet
-S 5400 5050 550  350 
+S 2750 8800 550  350 
 U 5867835E
-F0 "sheet58678359" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 5150 60 
-F3 "-IN" I L 5400 5300 60 
-F4 "OUT" I R 5950 5250 60 
+F0 "Thermocouple Amplifier -- 4" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 8900 60 
+F3 "-IN" I L 2750 9050 60 
+F4 "OUT" I R 3300 9000 60 
 $EndSheet
 $Sheet
-S 5400 5550 550  350 
+S 2750 9550 550  350 
 U 58678C4C
-F0 "sheet58678C44" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 5650 60 
-F3 "-IN" I L 5400 5800 60 
-F4 "OUT" I R 5950 5750 60 
+F0 "Thermocouple Amplifier -- 5" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 9650 60 
+F3 "-IN" I L 2750 9800 60 
+F4 "OUT" I R 3300 9750 60 
 $EndSheet
 $Sheet
-S 5400 6050 550  350 
+S 2750 10350 550  350 
 U 58678C5A
-F0 "sheet58678C45" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 6150 60 
-F3 "-IN" I L 5400 6300 60 
-F4 "OUT" I R 5950 6250 60 
+F0 "Thermocouple Amplifier -- 6" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 10450 60 
+F3 "-IN" I L 2750 10600 60 
+F4 "OUT" I R 3300 10550 60 
 $EndSheet
 $Sheet
-S 5400 6550 550  350 
+S 2750 11150 550  350 
 U 58678C68
-F0 "sheet58678C46" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 6650 60 
-F3 "-IN" I L 5400 6800 60 
-F4 "OUT" I R 5950 6750 60 
+F0 "Thermocouple Amplifier -- 7" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 11250 60 
+F3 "-IN" I L 2750 11400 60 
+F4 "OUT" I R 3300 11350 60 
 $EndSheet
 $Sheet
-S 5400 7050 550  350 
+S 2750 11950 550  350 
 U 58678C76
-F0 "sheet58678C47" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 7150 60 
-F3 "-IN" I L 5400 7300 60 
-F4 "OUT" I R 5950 7250 60 
+F0 "Thermocouple Amplifier -- 8" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 12050 60 
+F3 "-IN" I L 2750 12200 60 
+F4 "OUT" I R 3300 12150 60 
 $EndSheet
 $Sheet
-S 5400 7550 550  350 
+S 2750 12700 550  350 
 U 5867A0A0
-F0 "sheet5867A098" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 7650 60 
-F3 "-IN" I L 5400 7800 60 
-F4 "OUT" I R 5950 7750 60 
+F0 "Thermocouple Amplifier -- 9" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 12800 60 
+F3 "-IN" I L 2750 12950 60 
+F4 "OUT" I R 3300 12900 60 
 $EndSheet
 $Sheet
-S 5400 8050 550  350 
+S 2750 13450 550  350 
 U 5867A0AE
-F0 "sheet5867A099" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 8150 60 
-F3 "-IN" I L 5400 8300 60 
-F4 "OUT" I R 5950 8250 60 
+F0 "Thermocouple Amplifier -- 10" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 13550 60 
+F3 "-IN" I L 2750 13700 60 
+F4 "OUT" I R 3300 13650 60 
 $EndSheet
 $Sheet
-S 5400 8550 550  350 
+S 2750 14250 550  350 
 U 5867A0BC
-F0 "sheet5867A09A" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 8650 60 
-F3 "-IN" I L 5400 8800 60 
-F4 "OUT" I R 5950 8750 60 
+F0 "Thermocouple Amplifier -- 11" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 14350 60 
+F3 "-IN" I L 2750 14500 60 
+F4 "OUT" I R 3300 14450 60 
 $EndSheet
 $Sheet
-S 5400 9050 550  350 
+S 2750 15050 550  350 
 U 5867A0CA
-F0 "sheet5867A09B" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 9150 60 
-F3 "-IN" I L 5400 9300 60 
-F4 "OUT" I R 5950 9250 60 
+F0 "Thermocouple Amplifier -- 12" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 15150 60 
+F3 "-IN" I L 2750 15300 60 
+F4 "OUT" I R 3300 15250 60 
 $EndSheet
 $Sheet
-S 5400 9550 550  350 
+S 2750 15850 550  350 
 U 5867B430
-F0 "sheet5867B428" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 9650 60 
-F3 "-IN" I L 5400 9800 60 
-F4 "OUT" I R 5950 9750 60 
+F0 "Thermocouple Amplifier -- 13" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 15950 60 
+F3 "-IN" I L 2750 16100 60 
+F4 "OUT" I R 3300 16050 60 
 $EndSheet
 $Sheet
-S 5400 10050 550  350 
+S 2750 16600 550  350 
 U 5867B43E
-F0 "sheet5867B429" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 10150 60 
-F3 "-IN" I L 5400 10300 60 
-F4 "OUT" I R 5950 10250 60 
+F0 "Thermocouple Amplifier -- 14" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 16700 60 
+F3 "-IN" I L 2750 16850 60 
+F4 "OUT" I R 3300 16800 60 
 $EndSheet
 $Sheet
-S 5400 10550 550  350 
+S 2750 17350 550  350 
 U 5867B44C
-F0 "sheet5867B42A" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 10650 60 
-F3 "-IN" I L 5400 10800 60 
-F4 "OUT" I R 5950 10750 60 
+F0 "Thermocouple Amplifier -- 15" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 17450 60 
+F3 "-IN" I L 2750 17600 60 
+F4 "OUT" I R 3300 17550 60 
 $EndSheet
 $Sheet
-S 5400 11050 550  350 
+S 2750 18150 550  350 
 U 5867B45A
-F0 "sheet5867B42B" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 11150 60 
-F3 "-IN" I L 5400 11300 60 
-F4 "OUT" I R 5950 11250 60 
+F0 "Thermocouple Amplifier -- 16" 60
+F1 "tempAmp_L.sch" 60
+F2 "+IN" I L 2750 18250 60 
+F3 "-IN" I L 2750 18400 60 
+F4 "OUT" I R 3300 18350 60 
 $EndSheet
 $Sheet
-S 5400 11900 550  350 
+S 10050 6450 550  350 
 U 58682122
-F0 "sheet5868210E" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 12000 60 
-F3 "-IN" I L 5400 12150 60 
-F4 "OUT" I R 5950 12100 60 
+F0 "Thermocouple Amplifier -- 17" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 6550 60 
+F3 "-IN" I L 10050 6700 60 
+F4 "OUT" I R 10600 6650 60 
 $EndSheet
 $Sheet
-S 5400 12400 550  350 
+S 10050 7250 550  350 
 U 58682130
-F0 "sheet5868210F" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 12500 60 
-F3 "-IN" I L 5400 12650 60 
-F4 "OUT" I R 5950 12600 60 
+F0 "Thermocouple Amplifier -- 18" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 7350 60 
+F3 "-IN" I L 10050 7500 60 
+F4 "OUT" I R 10600 7450 60 
 $EndSheet
 $Sheet
-S 5400 12900 550  350 
+S 10050 8050 550  350 
 U 5868213E
-F0 "sheet58682110" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 13000 60 
-F3 "-IN" I L 5400 13150 60 
-F4 "OUT" I R 5950 13100 60 
+F0 "Thermocouple Amplifier -- 19" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 8150 60 
+F3 "-IN" I L 10050 8300 60 
+F4 "OUT" I R 10600 8250 60 
 $EndSheet
 $Sheet
-S 5400 13400 550  350 
+S 10050 8800 550  350 
 U 5868214C
-F0 "sheet58682111" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 13500 60 
-F3 "-IN" I L 5400 13650 60 
-F4 "OUT" I R 5950 13600 60 
+F0 "Thermocouple Amplifier -- 20" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 8900 60 
+F3 "-IN" I L 10050 9050 60 
+F4 "OUT" I R 10600 9000 60 
 $EndSheet
 $Sheet
-S 5400 13900 550  350 
+S 10050 9550 550  350 
 U 5868215A
-F0 "sheet58682112" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 14000 60 
-F3 "-IN" I L 5400 14150 60 
-F4 "OUT" I R 5950 14100 60 
+F0 "Thermocouple Amplifier -- 21" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 9650 60 
+F3 "-IN" I L 10050 9800 60 
+F4 "OUT" I R 10600 9750 60 
 $EndSheet
 $Sheet
-S 5400 14400 550  350 
+S 10050 10350 550  350 
 U 58682168
-F0 "sheet58682113" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 14500 60 
-F3 "-IN" I L 5400 14650 60 
-F4 "OUT" I R 5950 14600 60 
+F0 "Thermocouple Amplifier -- 22" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 10450 60 
+F3 "-IN" I L 10050 10600 60 
+F4 "OUT" I R 10600 10550 60 
 $EndSheet
 $Sheet
-S 5400 14900 550  350 
+S 10050 11150 550  350 
 U 58682176
-F0 "sheet58682114" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 15000 60 
-F3 "-IN" I L 5400 15150 60 
-F4 "OUT" I R 5950 15100 60 
+F0 "Thermocouple Amplifier -- 23" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 11250 60 
+F3 "-IN" I L 10050 11400 60 
+F4 "OUT" I R 10600 11350 60 
 $EndSheet
 $Sheet
-S 5400 15400 550  350 
+S 10050 11950 550  350 
 U 58682184
-F0 "sheet58682115" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 15500 60 
-F3 "-IN" I L 5400 15650 60 
-F4 "OUT" I R 5950 15600 60 
+F0 "Thermocouple Amplifier -- 24" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 12050 60 
+F3 "-IN" I L 10050 12200 60 
+F4 "OUT" I R 10600 12150 60 
 $EndSheet
 $Sheet
-S 5400 15900 550  350 
+S 10050 12700 550  350 
 U 58682192
-F0 "sheet58682116" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 16000 60 
-F3 "-IN" I L 5400 16150 60 
-F4 "OUT" I R 5950 16100 60 
+F0 "Thermocouple Amplifier -- 25" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 12800 60 
+F3 "-IN" I L 10050 12950 60 
+F4 "OUT" I R 10600 12900 60 
 $EndSheet
 $Sheet
-S 5400 16400 550  350 
+S 10050 13450 550  350 
 U 586821A0
-F0 "sheet58682117" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 16500 60 
-F3 "-IN" I L 5400 16650 60 
-F4 "OUT" I R 5950 16600 60 
+F0 "Thermocouple Amplifier -- 26" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 13550 60 
+F3 "-IN" I L 10050 13700 60 
+F4 "OUT" I R 10600 13650 60 
 $EndSheet
 $Sheet
-S 5400 16900 550  350 
+S 10050 14250 550  350 
 U 586821AE
-F0 "sheet58682118" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 17000 60 
-F3 "-IN" I L 5400 17150 60 
-F4 "OUT" I R 5950 17100 60 
+F0 "Thermocouple Amplifier -- 27" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 14350 60 
+F3 "-IN" I L 10050 14500 60 
+F4 "OUT" I R 10600 14450 60 
 $EndSheet
 $Sheet
-S 5400 17400 550  350 
+S 10050 15050 550  350 
 U 586821BC
-F0 "sheet58682119" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 17500 60 
-F3 "-IN" I L 5400 17650 60 
-F4 "OUT" I R 5950 17600 60 
+F0 "Thermocouple Amplifier -- 28" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 15150 60 
+F3 "-IN" I L 10050 15300 60 
+F4 "OUT" I R 10600 15250 60 
 $EndSheet
 $Sheet
-S 5400 17900 550  350 
+S 10050 15850 550  350 
 U 586821CA
-F0 "sheet5868211A" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 18000 60 
-F3 "-IN" I L 5400 18150 60 
-F4 "OUT" I R 5950 18100 60 
+F0 "Thermocouple Amplifier -- 29" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 15950 60 
+F3 "-IN" I L 10050 16100 60 
+F4 "OUT" I R 10600 16050 60 
 $EndSheet
 $Sheet
-S 5400 18400 550  350 
+S 10050 16600 550  350 
 U 586821D8
-F0 "sheet5868211B" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 18500 60 
-F3 "-IN" I L 5400 18650 60 
-F4 "OUT" I R 5950 18600 60 
+F0 "Thermocouple Amplifier -- 30" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 16700 60 
+F3 "-IN" I L 10050 16850 60 
+F4 "OUT" I R 10600 16800 60 
 $EndSheet
 $Sheet
-S 5400 18900 550  350 
+S 10050 17350 550  350 
 U 586821E6
-F0 "sheet5868211C" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 19000 60 
-F3 "-IN" I L 5400 19150 60 
-F4 "OUT" I R 5950 19100 60 
+F0 "Thermocouple Amplifier -- 31" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 17450 60 
+F3 "-IN" I L 10050 17600 60 
+F4 "OUT" I R 10600 17550 60 
 $EndSheet
 $Sheet
-S 5400 19400 550  350 
+S 10050 18150 550  350 
 U 586821F4
-F0 "sheet5868211D" 60
-F1 "tempAmp.sch" 60
-F2 "+IN" I L 5400 19500 60 
-F3 "-IN" I L 5400 19650 60 
-F4 "OUT" I R 5950 19600 60 
+F0 "Thermocouple Amplifier -- 32" 60
+F1 "tempAmp_R.sch" 60
+F2 "+IN" I L 10050 18250 60 
+F3 "-IN" I L 10050 18400 60 
+F4 "OUT" I R 10600 18350 60 
 $EndSheet
-Text GLabel 1200 850  2    60   Input ~ 0
-+5V
+Text GLabel 2400 3550 2    60   Input ~ 0
++5V_L
 Wire Wire Line
-	1100 1050 1200 1050
+	1200 3550 2400 3550
 Wire Wire Line
-	1200 1050 1200 850 
-Wire Wire Line
-	1100 1150 1200 1150
+	1200 3650 1300 3650
 $Comp
 L GND #PWR01
 U 1 1 5869DD18
-P 1200 1150
-F 0 "#PWR01" H 1200 900 50  0001 C CNN
-F 1 "GND" H 1200 1000 50  0000 C CNN
-F 2 "" H 1200 1150 50  0000 C CNN
-F 3 "" H 1200 1150 50  0000 C CNN
-	1    1200 1150
+P 1300 3750
+F 0 "#PWR01" H 1300 3500 50  0001 C CNN
+F 1 "GND" H 1300 3600 50  0000 C CNN
+F 2 "" H 1300 3750 50  0000 C CNN
+F 3 "" H 1300 3750 50  0000 C CNN
+	1    1300 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_02X08 P102
 U 1 1 586A3C83
-P 9650 7300
-F 0 "P102" H 9650 7750 50  0000 C CNN
-F 1 "CONN_02X08" V 9650 7300 50  0000 C CNN
-F 2 "moboFootprints:Molex_16pin_milliGrid" H 9650 6100 50  0001 C CNN
-F 3 "" H 9650 6100 50  0000 C CNN
-F 4 "WM18864-ND" H 9650 7300 60  0001 C CNN "Digikey P/N"
-	1    9650 7300
+P 6200 11850
+F 0 "P102" H 6200 12300 50  0000 C CNN
+F 1 "CONN_02X08" V 6200 11850 50  0000 C CNN
+F 2 "moboFootprints:Molex_16pin_milliGrid" H 6200 10650 50  0001 C CNN
+F 3 "" H 6200 10650 50  0000 C CNN
+F 4 "WM18864-ND" H 6200 11850 60  0001 C CNN "Digikey P/N"
+	1    6200 11850
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	10000 11250 10000 7550
-Wire Wire Line
-	9900 10750 9900 7550
-Wire Wire Line
-	9800 10250 9800 7550
-Wire Wire Line
-	9700 9750 9700 7550
-Wire Wire Line
-	9600 9250 9600 7550
-Wire Wire Line
-	9500 8750 9500 7550
-Wire Wire Line
-	9400 8250 9400 7550
-Wire Wire Line
-	9300 7750 9300 7550
-Wire Wire Line
-	7950 7250 7950 7050
-Wire Wire Line
-	7950 7050 9300 7050
-Wire Wire Line
-	9400 6750 9400 7050
-Wire Wire Line
-	9500 6250 9500 7050
-Wire Wire Line
-	9600 5750 9600 7050
-Wire Wire Line
-	9700 5250 9700 7050
-Wire Wire Line
-	9800 4750 9800 7050
-Wire Wire Line
-	9900 4250 9900 7050
-Wire Wire Line
-	10000 3750 10000 7050
-Wire Wire Line
-	5950 12100 10000 12100
-Wire Wire Line
-	5950 12600 9900 12600
-Wire Wire Line
-	5950 13100 9800 13100
-Wire Wire Line
-	5950 13600 9700 13600
-Wire Wire Line
-	5950 14100 9600 14100
-Wire Wire Line
-	5950 14600 9500 14600
-Wire Wire Line
-	5950 15100 9400 15100
-Wire Wire Line
-	5950 18100 9700 18100
-Wire Wire Line
-	5950 17600 9600 17600
-Wire Wire Line
-	5950 17100 9500 17100
-Wire Wire Line
-	5950 16600 9400 16600
-Wire Wire Line
-	5950 16100 9300 16100
-Wire Wire Line
-	5950 15600 7950 15600
-Wire Wire Line
-	5950 19100 9900 19100
-Wire Wire Line
-	5950 18600 9800 18600
-Wire Wire Line
-	5950 19600 10000 19600
-$Comp
-L CONN_02X08 P104
-U 1 1 586B1C00
-P 9650 15650
-F 0 "P104" H 9650 16100 50  0000 C CNN
-F 1 "CONN_02X08" V 9650 15650 50  0000 C CNN
-F 2 "moboFootprints:Molex_16pin_milliGrid" H 9650 14450 50  0001 C CNN
-F 3 "" H 9650 14450 50  0000 C CNN
-F 4 "WM18864-ND" H 9650 15650 60  0001 C CNN "Digikey P/N"
-	1    9650 15650
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	10000 19600 10000 15900
-Wire Wire Line
-	9900 19100 9900 15900
-Wire Wire Line
-	9800 18600 9800 15900
-Wire Wire Line
-	9700 18100 9700 15900
-Wire Wire Line
-	9600 17600 9600 15900
-Wire Wire Line
-	9500 17100 9500 15900
-Wire Wire Line
-	9400 16600 9400 15900
-Wire Wire Line
-	9300 16100 9300 15900
-Wire Wire Line
-	7950 15600 7950 15400
-Wire Wire Line
-	7950 15400 9300 15400
-Wire Wire Line
-	9400 15100 9400 15400
-Wire Wire Line
-	9500 14600 9500 15400
-Wire Wire Line
-	9600 14100 9600 15400
-Wire Wire Line
-	9700 13600 9700 15400
-Wire Wire Line
-	9800 13100 9800 15400
-Wire Wire Line
-	9900 12600 9900 15400
-Wire Wire Line
-	10000 12100 10000 15400
 $Comp
 L CONN_01X02 P103
 U 1 1 587F519A
-P 3950 5700
-F 0 "P103" H 3950 5850 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 5700 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 5700 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 5700 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 5700 60  0001 C CNN "Digikey P/N"
-	1    3950 5700
+P 1200 6600
+F 0 "P103" H 1200 6750 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 6600 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 6600 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 6600 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 6600 60  0001 C CNN "Digikey P/N"
+	1    1200 6600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_01X02 P101
 U 1 1 58803416
-P 900 1100
-F 0 "P101" H 900 1250 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 1100 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 900 1100 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 900 1100 50  0001 C CNN
-F 4 "277-2416-ND" H 900 1100 60  0001 C CNN "Digikey P/N"
-	1    900  1100
+P 1000 3600
+F 0 "P101" H 1000 3750 50  0000 C CNN
+F 1 "CONN_01X02" V 1100 3600 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1000 3600 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1000 3600 50  0001 C CNN
+F 4 "277-2416-ND" H 1000 3600 60  0001 C CNN "Digikey P/N"
+	1    1000 3600
 	-1   0    0    -1  
 $EndComp
-$Comp
-L CONN_01X02 P120
-U 1 1 588998C9
-P 3950 14200
-F 0 "P120" H 3950 14350 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 14200 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 14200 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 14200 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 14200 60  0001 C CNN "Digikey P/N"
-	1    3950 14200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P121
-U 1 1 58899B3C
-P 3950 14400
-F 0 "P121" H 3950 14550 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 14400 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 14400 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 14400 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 14400 60  0001 C CNN "Digikey P/N"
-	1    3950 14400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P122
-U 1 1 58899DA4
-P 3950 14600
-F 0 "P122" H 3950 14750 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 14600 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 14600 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 14600 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 14600 60  0001 C CNN "Digikey P/N"
-	1    3950 14600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P123
-U 1 1 5889A017
-P 3950 14800
-F 0 "P123" H 3950 14950 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 14800 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 14800 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 14800 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 14800 60  0001 C CNN "Digikey P/N"
-	1    3950 14800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P124
-U 1 1 5889A285
-P 3950 15000
-F 0 "P124" H 3950 15150 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 15000 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 15000 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 15000 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 15000 60  0001 C CNN "Digikey P/N"
-	1    3950 15000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P125
-U 1 1 5889A839
-P 3950 15200
-F 0 "P125" H 3950 15350 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 15200 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 15200 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 15200 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 15200 60  0001 C CNN "Digikey P/N"
-	1    3950 15200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P126
-U 1 1 5889A840
-P 3950 15400
-F 0 "P126" H 3950 15550 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 15400 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 15400 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 15400 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 15400 60  0001 C CNN "Digikey P/N"
-	1    3950 15400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P127
-U 1 1 5889A847
-P 3950 15600
-F 0 "P127" H 3950 15750 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 15600 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 15600 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 15600 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 15600 60  0001 C CNN "Digikey P/N"
-	1    3950 15600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P128
-U 1 1 5889A84E
-P 3950 15800
-F 0 "P128" H 3950 15950 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 15800 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 15800 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 15800 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 15800 60  0001 C CNN "Digikey P/N"
-	1    3950 15800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P129
-U 1 1 5889A855
-P 3950 16000
-F 0 "P129" H 3950 16150 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 16000 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 16000 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 16000 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 16000 60  0001 C CNN "Digikey P/N"
-	1    3950 16000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P130
-U 1 1 5889B420
-P 3950 16200
-F 0 "P130" H 3950 16350 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 16200 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 16200 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 16200 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 16200 60  0001 C CNN "Digikey P/N"
-	1    3950 16200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P131
-U 1 1 5889B427
-P 3950 16400
-F 0 "P131" H 3950 16550 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 16400 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 16400 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 16400 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 16400 60  0001 C CNN "Digikey P/N"
-	1    3950 16400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P132
-U 1 1 5889B42E
-P 3950 16600
-F 0 "P132" H 3950 16750 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 16600 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 16600 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 16600 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 16600 60  0001 C CNN "Digikey P/N"
-	1    3950 16600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P133
-U 1 1 5889B435
-P 3950 16800
-F 0 "P133" H 3950 16950 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 16800 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 16800 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 16800 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 16800 60  0001 C CNN "Digikey P/N"
-	1    3950 16800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P134
-U 1 1 5889B43C
-P 3950 17000
-F 0 "P134" H 3950 17150 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 17000 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 17000 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 17000 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 17000 60  0001 C CNN "Digikey P/N"
-	1    3950 17000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P105
-U 1 1 588AD74A
-P 3950 6050
-F 0 "P105" H 3950 6200 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 6050 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 6050 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 6050 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 6050 60  0001 C CNN "Digikey P/N"
-	1    3950 6050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P106
-U 1 1 588AD751
-P 3950 6250
-F 0 "P106" H 3950 6400 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 6250 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 6250 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 6250 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 6250 60  0001 C CNN "Digikey P/N"
-	1    3950 6250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P107
-U 1 1 588AD758
-P 3950 6450
-F 0 "P107" H 3950 6600 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 6450 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 6450 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 6450 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 6450 60  0001 C CNN "Digikey P/N"
-	1    3950 6450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P108
-U 1 1 588AD75F
-P 3950 6650
-F 0 "P108" H 3950 6800 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 6650 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 6650 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 6650 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 6650 60  0001 C CNN "Digikey P/N"
-	1    3950 6650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P109
-U 1 1 588AD766
-P 3950 6850
-F 0 "P109" H 3950 7000 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 6850 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 6850 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 6850 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 6850 60  0001 C CNN "Digikey P/N"
-	1    3950 6850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P110
-U 1 1 588AD76D
-P 3950 7050
-F 0 "P110" H 3950 7200 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 7050 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 7050 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 7050 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 7050 60  0001 C CNN "Digikey P/N"
-	1    3950 7050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P111
-U 1 1 588AD774
-P 3950 7250
-F 0 "P111" H 3950 7400 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 7250 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 7250 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 7250 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 7250 60  0001 C CNN "Digikey P/N"
-	1    3950 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P112
-U 1 1 588AD77B
-P 3950 7450
-F 0 "P112" H 3950 7600 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 7450 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 7450 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 7450 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 7450 60  0001 C CNN "Digikey P/N"
-	1    3950 7450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P113
-U 1 1 588AD782
-P 3950 7650
-F 0 "P113" H 3950 7800 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 7650 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 7650 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 7650 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 7650 60  0001 C CNN "Digikey P/N"
-	1    3950 7650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P114
-U 1 1 588AD789
-P 3950 7850
-F 0 "P114" H 3950 8000 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 7850 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 7850 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 7850 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 7850 60  0001 C CNN "Digikey P/N"
-	1    3950 7850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P115
-U 1 1 588AD790
-P 3950 8050
-F 0 "P115" H 3950 8200 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 8050 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 8050 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 8050 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 8050 60  0001 C CNN "Digikey P/N"
-	1    3950 8050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P116
-U 1 1 588AD797
-P 3950 8250
-F 0 "P116" H 3950 8400 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 8250 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 8250 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 8250 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 8250 60  0001 C CNN "Digikey P/N"
-	1    3950 8250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P117
-U 1 1 588AD79E
-P 3950 8450
-F 0 "P117" H 3950 8600 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 8450 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 8450 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 8450 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 8450 60  0001 C CNN "Digikey P/N"
-	1    3950 8450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P118
-U 1 1 588AD7A5
-P 3950 8650
-F 0 "P118" H 3950 8800 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 8650 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 8650 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 8650 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 8650 60  0001 C CNN "Digikey P/N"
-	1    3950 8650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P119
-U 1 1 588AD7AC
-P 3950 8850
-F 0 "P119" H 3950 9000 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 8850 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 8850 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 8850 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 8850 60  0001 C CNN "Digikey P/N"
-	1    3950 8850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P135
-U 1 1 589019F0
-P 3950 17200
-F 0 "P135" H 3950 17350 50  0000 C CNN
-F 1 "CONN_01X02" V 4050 17200 50  0001 C CNN
-F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 3950 17200 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 3950 17200 50  0001 C CNN
-F 4 "277-2416-ND" H 3950 17200 60  0001 C CNN "Digikey P/N"
-	1    3950 17200
-	-1   0    0    -1  
-$EndComp
-Wire Notes Line
-	1950 500  1950 1800
-Wire Notes Line
-	1950 1800 500  1800
 $Comp
 L OPA380 U101
 U 1 1 5890A723
-P 3650 1800
-F 0 "U101" H 4600 1850 60  0000 C CNN
-F 1 "OPA380" H 3750 1400 60  0000 C CNN
-F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 3650 1800 60  0001 C CNN
-F 3 "" H 3650 1800 60  0001 C CNN
-F 4 "296-16860-1-ND" H 3650 1800 60  0001 C CNN "Digikey P/N"
-	1    3650 1800
+P 4900 3800
+F 0 "U101" H 5850 3850 60  0000 C CNN
+F 1 "OPA380" H 5000 3400 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 4900 3800 60  0001 C CNN
+F 3 "" H 4900 3800 60  0001 C CNN
+F 4 "296-16860-1-ND" H 4900 3800 60  0001 C CNN "Digikey P/N"
+	1    4900 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R101
 U 1 1 5890E1BC
-P 2650 1550
-F 0 "R101" V 2730 1550 50  0000 C CNN
-F 1 "R" V 2650 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2580 1550 50  0001 C CNN
-F 3 "" H 2650 1550 50  0000 C CNN
-F 4 "RHM1.00KYCT-ND" V 2650 1550 60  0001 C CNN "Digikey P/N"
-	1    2650 1550
+P 3900 3550
+F 0 "R101" V 3980 3550 50  0000 C CNN
+F 1 "3k" V 3900 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3830 3550 50  0001 C CNN
+F 3 "" H 3900 3550 50  0000 C CNN
+F 4 "Susumu" V 3900 3550 60  0001 C CNN "Mfg."
+F 5 "HRG3216P-3001-D-T1" V 3900 3550 60  0001 C CNN "Mfg. P/N"
+F 6 "408-1910-1-ND" V 3900 3550 60  0001 C CNN "Digikey P/N"
+	1    3900 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R102
 U 1 1 5890E4B1
-P 2650 2150
-F 0 "R102" V 2730 2150 50  0000 C CNN
-F 1 "R" V 2650 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2580 2150 50  0001 C CNN
-F 3 "" H 2650 2150 50  0000 C CNN
-F 4 "408-1814-1-ND" V 2650 2150 60  0001 C CNN "Digikey P/N"
-	1    2650 2150
+P 3900 4150
+F 0 "R102" V 3980 4150 50  0000 C CNN
+F 1 "1k" V 3900 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3830 4150 50  0001 C CNN
+F 3 "" H 3900 4150 50  0000 C CNN
+F 4 "Susumu" V 3900 4150 60  0001 C CNN "Mfg."
+F 5 "PRG3216P-1001-D-T5" V 3900 4150 60  0001 C CNN "Mfg. P/N"
+F 6 "408-1806-1-ND" V 3900 4150 60  0001 C CNN "Digikey P/N"
+	1    3900 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 1900 2650 1900
+	4700 3900 3900 3900
 Wire Wire Line
-	2650 1700 2650 2000
-Connection ~ 2650 1900
+	3900 3700 3900 4000
+Connection ~ 3900 3900
 $Comp
 L GND #PWR02
 U 1 1 5890F935
-P 2650 2500
-F 0 "#PWR02" H 2650 2250 50  0001 C CNN
-F 1 "GND" H 2650 2350 50  0000 C CNN
-F 2 "" H 2650 2500 50  0000 C CNN
-F 3 "" H 2650 2500 50  0000 C CNN
-	1    2650 2500
+P 3900 4500
+F 0 "#PWR02" H 3900 4250 50  0001 C CNN
+F 1 "GND" H 3900 4350 50  0000 C CNN
+F 2 "" H 3900 4500 50  0000 C CNN
+F 3 "" H 3900 4500 50  0000 C CNN
+	1    3900 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 2500 2650 2300
+	3900 4500 3900 4300
 $Comp
 L GND #PWR03
 U 1 1 5890FE46
-P 4050 2450
-F 0 "#PWR03" H 4050 2200 50  0001 C CNN
-F 1 "GND" H 4050 2300 50  0000 C CNN
-F 2 "" H 4050 2450 50  0000 C CNN
-F 3 "" H 4050 2450 50  0000 C CNN
-	1    4050 2450
+P 5300 4450
+F 0 "#PWR03" H 5300 4200 50  0001 C CNN
+F 1 "GND" H 5300 4300 50  0000 C CNN
+F 2 "" H 5300 4450 50  0000 C CNN
+F 3 "" H 5300 4450 50  0000 C CNN
+	1    5300 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 2450 4050 2350
-Text GLabel 2650 1400 1    60   Input ~ 0
-+5V
+	5300 4450 5300 4350
+Text GLabel 3900 3400 1    60   Input ~ 0
++5V_L
 Wire Wire Line
-	3450 1800 3450 1300
+	4700 3800 4700 3300
 Wire Wire Line
-	3450 1300 4800 1300
+	4700 3300 6050 3300
 Wire Wire Line
-	4800 1300 4800 1900
+	6050 3300 6050 3900
 Wire Wire Line
-	4650 1900 5100 1900
-Connection ~ 4800 1900
-Text GLabel 4150 1150 1    60   Input ~ 0
-+5V
+	5900 3900 6350 3900
+Connection ~ 6050 3900
+Text GLabel 5400 3150 1    60   Input ~ 0
++5V_L
 Wire Wire Line
-	4150 1450 4150 1150
+	5400 3450 5400 3150
 $Comp
 L C C101
 U 1 1 589315F7
-P 4300 1450
-F 0 "C101" V 4200 1550 50  0000 L CNN
-F 1 "1uF" H 4325 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4338 1300 50  0001 C CNN
-F 3 "" H 4300 1450 50  0000 C CNN
-F 4 "311-1356-1-ND" V 4300 1450 60  0001 C CNN "Digikey P/N"
-	1    4300 1450
+P 5550 3450
+F 0 "C101" V 5450 3550 50  0000 L CNN
+F 1 "1uF" H 5575 3350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5588 3300 50  0001 C CNN
+F 3 "" H 5550 3450 50  0000 C CNN
+F 4 "311-1356-1-ND" V 5550 3450 60  0001 C CNN "Digikey P/N"
+	1    5550 3450
 	0    1    1    0   
 $EndComp
 $Comp
 L C C102
 U 1 1 589318E2
-P 5550 2200
-F 0 "C102" H 5575 2300 50  0000 L CNN
-F 1 "SAT" H 5575 2100 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 5588 2050 50  0001 C CNN
-F 3 "" H 5550 2200 50  0000 C CNN
-	1    5550 2200
+P 6800 4200
+F 0 "C102" H 6825 4300 50  0000 L CNN
+F 1 "SAT" H 6825 4100 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 6838 4050 50  0001 C CNN
+F 3 "" H 6800 4200 50  0000 C CNN
+	1    6800 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R103
 U 1 1 58932A51
-P 5250 1900
-F 0 "R103" V 5330 1900 50  0000 C CNN
-F 1 "10" V 5250 1900 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5180 1900 50  0001 C CNN
-F 3 "" H 5250 1900 50  0000 C CNN
-F 4 "RCL10DCT-ND" V 5250 1900 60  0001 C CNN "Digikey P/N"
-	1    5250 1900
+P 6500 3900
+F 0 "R103" V 6580 3900 50  0000 C CNN
+F 1 "0" V 6500 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6430 3900 50  0001 C CNN
+F 3 "" H 6500 3900 50  0000 C CNN
+F 4 "Vishay Dale" V 6500 3900 60  0001 C CNN "Mfg."
+F 5 "RCA06120000Z0EALS" V 6500 3900 60  0001 C CNN "Mfg. P/N"
+F 6 "749-1062-1-ND" V 6500 3900 60  0001 C CNN "Digikey P/N"
+	1    6500 3900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5550 2050 5550 1900
+	6800 4050 6800 3900
 Wire Wire Line
-	5550 1900 5400 1900
+	6800 3900 6650 3900
 $Comp
 L GND #PWR04
 U 1 1 58935FC2
-P 5550 2350
-F 0 "#PWR04" H 5550 2100 50  0001 C CNN
-F 1 "GND" H 5550 2200 50  0000 C CNN
-F 2 "" H 5550 2350 50  0000 C CNN
-F 3 "" H 5550 2350 50  0000 C CNN
-	1    5550 2350
+P 6800 4350
+F 0 "#PWR04" H 6800 4100 50  0001 C CNN
+F 1 "GND" H 6800 4200 50  0000 C CNN
+F 2 "" H 6800 4350 50  0000 C CNN
+F 3 "" H 6800 4350 50  0000 C CNN
+	1    6800 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 5893CAF4
-P 4700 1450
-F 0 "#PWR05" H 4700 1200 50  0001 C CNN
-F 1 "GND" H 4700 1300 50  0000 C CNN
-F 2 "" H 4700 1450 50  0000 C CNN
-F 3 "" H 4700 1450 50  0000 C CNN
-	1    4700 1450
+P 5950 3450
+F 0 "#PWR05" H 5950 3200 50  0001 C CNN
+F 1 "GND" H 5950 3300 50  0000 C CNN
+F 2 "" H 5950 3450 50  0000 C CNN
+F 3 "" H 5950 3450 50  0000 C CNN
+	1    5950 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 1450 4700 1450
-Text GLabel 5550 1900 2    60   Input ~ 0
-Vref
+	5700 3450 5950 3450
+Text GLabel 6800 3900 2    60   Input ~ 0
+Vref_L
+$Comp
+L CONN_02X02 J101
+U 1 1 592A4206
+P 2050 6300
+F 0 "J101" H 2050 6450 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 6150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 5100 50  0001 C CNN
+F 3 "" H 2050 5100 50  0001 C CNN
+	1    2050 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 6550 2750 6550
+Wire Wire Line
+	1400 6650 2650 6650
+Wire Wire Line
+	2650 6650 2650 6700
+Wire Wire Line
+	2650 6700 2750 6700
+Wire Wire Line
+	1600 6250 1800 6250
+Connection ~ 1600 6550
+Connection ~ 2300 6650
+Wire Wire Line
+	2300 6250 2450 6250
+Wire Wire Line
+	2450 6250 2450 6300
+Wire Wire Line
+	1800 6350 1700 6350
+Wire Wire Line
+	1700 6350 1700 6400
+$Comp
+L GND #PWR?
+U 1 1 592C755C
+P 2450 6300
+F 0 "#PWR?" H 2450 6050 50  0001 C CNN
+F 1 "GND" H 2550 6200 50  0000 C CNN
+F 2 "" H 2450 6300 50  0001 C CNN
+F 3 "" H 2450 6300 50  0001 C CNN
+	1    2450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 592C782C
+P 1700 6400
+F 0 "#PWR?" H 1700 6150 50  0001 C CNN
+F 1 "GND" H 1800 6300 50  0000 C CNN
+F 2 "" H 1700 6400 50  0001 C CNN
+F 3 "" H 1700 6400 50  0001 C CNN
+	1    1700 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6350 2300 6650
+Wire Wire Line
+	1600 6250 1600 6550
+$Comp
+L CONN_01X02 P105
+U 1 1 5930004A
+P 1200 7400
+F 0 "P105" H 1200 7550 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 7400 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 7400 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 7400 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 7400 60  0001 C CNN "Digikey P/N"
+	1    1200 7400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J102
+U 1 1 59300050
+P 2050 7100
+F 0 "J102" H 2050 7250 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 6950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 5900 50  0001 C CNN
+F 3 "" H 2050 5900 50  0001 C CNN
+	1    2050 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 7350 2750 7350
+Wire Wire Line
+	1400 7450 2650 7450
+Wire Wire Line
+	2650 7450 2650 7500
+Wire Wire Line
+	2650 7500 2750 7500
+Wire Wire Line
+	1600 7050 1800 7050
+Connection ~ 1600 7350
+Connection ~ 2300 7450
+Wire Wire Line
+	2300 7050 2450 7050
+Wire Wire Line
+	2450 7050 2450 7100
+Wire Wire Line
+	1800 7150 1700 7150
+Wire Wire Line
+	1700 7150 1700 7200
+$Comp
+L GND #PWR?
+U 1 1 59300061
+P 2450 7100
+F 0 "#PWR?" H 2450 6850 50  0001 C CNN
+F 1 "GND" H 2550 7000 50  0000 C CNN
+F 2 "" H 2450 7100 50  0001 C CNN
+F 3 "" H 2450 7100 50  0001 C CNN
+	1    2450 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59300067
+P 1700 7200
+F 0 "#PWR?" H 1700 6950 50  0001 C CNN
+F 1 "GND" H 1800 7100 50  0000 C CNN
+F 2 "" H 1700 7200 50  0001 C CNN
+F 3 "" H 1700 7200 50  0001 C CNN
+	1    1700 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 7150 2300 7450
+Wire Wire Line
+	1600 7050 1600 7350
+$Comp
+L CONN_01X02 P106
+U 1 1 59300637
+P 1200 8200
+F 0 "P106" H 1200 8350 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 8200 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 8200 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 8200 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 8200 60  0001 C CNN "Digikey P/N"
+	1    1200 8200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J103
+U 1 1 5930063E
+P 2050 7900
+F 0 "J103" H 2050 8050 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 7750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 6700 50  0001 C CNN
+F 3 "" H 2050 6700 50  0001 C CNN
+	1    2050 7900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 8150 2750 8150
+Wire Wire Line
+	1400 8250 2650 8250
+Wire Wire Line
+	2650 8250 2650 8300
+Wire Wire Line
+	2650 8300 2750 8300
+Wire Wire Line
+	1600 7850 1800 7850
+Connection ~ 1600 8150
+Connection ~ 2300 8250
+Wire Wire Line
+	2300 7850 2450 7850
+Wire Wire Line
+	2450 7850 2450 7900
+Wire Wire Line
+	1800 7950 1700 7950
+Wire Wire Line
+	1700 7950 1700 8000
+$Comp
+L GND #PWR?
+U 1 1 59300650
+P 2450 7900
+F 0 "#PWR?" H 2450 7650 50  0001 C CNN
+F 1 "GND" H 2550 7800 50  0000 C CNN
+F 2 "" H 2450 7900 50  0001 C CNN
+F 3 "" H 2450 7900 50  0001 C CNN
+	1    2450 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59300656
+P 1700 8000
+F 0 "#PWR?" H 1700 7750 50  0001 C CNN
+F 1 "GND" H 1800 7900 50  0000 C CNN
+F 2 "" H 1700 8000 50  0001 C CNN
+F 3 "" H 1700 8000 50  0001 C CNN
+	1    1700 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 7950 2300 8250
+Wire Wire Line
+	1600 7850 1600 8150
+$Comp
+L CONN_01X02 P107
+U 1 1 593023A2
+P 1200 8950
+F 0 "P107" H 1200 9100 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 8950 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 8950 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 8950 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 8950 60  0001 C CNN "Digikey P/N"
+	1    1200 8950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J104
+U 1 1 593023A9
+P 2050 8650
+F 0 "J104" H 2050 8800 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 8500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 7450 50  0001 C CNN
+F 3 "" H 2050 7450 50  0001 C CNN
+	1    2050 8650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 8900 2750 8900
+Wire Wire Line
+	1400 9000 2650 9000
+Wire Wire Line
+	2650 9000 2650 9050
+Wire Wire Line
+	2650 9050 2750 9050
+Wire Wire Line
+	1600 8600 1800 8600
+Connection ~ 1600 8900
+Connection ~ 2300 9000
+Wire Wire Line
+	2300 8600 2450 8600
+Wire Wire Line
+	2450 8600 2450 8650
+Wire Wire Line
+	1800 8700 1700 8700
+Wire Wire Line
+	1700 8700 1700 8750
+$Comp
+L GND #PWR?
+U 1 1 593023BB
+P 2450 8650
+F 0 "#PWR?" H 2450 8400 50  0001 C CNN
+F 1 "GND" H 2550 8550 50  0000 C CNN
+F 2 "" H 2450 8650 50  0001 C CNN
+F 3 "" H 2450 8650 50  0001 C CNN
+	1    2450 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 593023C1
+P 1700 8750
+F 0 "#PWR?" H 1700 8500 50  0001 C CNN
+F 1 "GND" H 1800 8650 50  0000 C CNN
+F 2 "" H 1700 8750 50  0001 C CNN
+F 3 "" H 1700 8750 50  0001 C CNN
+	1    1700 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 8700 2300 9000
+Wire Wire Line
+	1600 8600 1600 8900
+$Comp
+L CONN_01X02 P108
+U 1 1 59302792
+P 1200 9700
+F 0 "P108" H 1200 9850 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 9700 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 9700 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 9700 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 9700 60  0001 C CNN "Digikey P/N"
+	1    1200 9700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J105
+U 1 1 59302799
+P 2050 9400
+F 0 "J105" H 2050 9550 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 9250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 8200 50  0001 C CNN
+F 3 "" H 2050 8200 50  0001 C CNN
+	1    2050 9400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 9650 2750 9650
+Wire Wire Line
+	1400 9750 2650 9750
+Wire Wire Line
+	2650 9750 2650 9800
+Wire Wire Line
+	2650 9800 2750 9800
+Wire Wire Line
+	1600 9350 1800 9350
+Connection ~ 1600 9650
+Connection ~ 2300 9750
+Wire Wire Line
+	2300 9350 2450 9350
+Wire Wire Line
+	2450 9350 2450 9400
+Wire Wire Line
+	1800 9450 1700 9450
+Wire Wire Line
+	1700 9450 1700 9500
+$Comp
+L GND #PWR?
+U 1 1 593027AB
+P 2450 9400
+F 0 "#PWR?" H 2450 9150 50  0001 C CNN
+F 1 "GND" H 2550 9300 50  0000 C CNN
+F 2 "" H 2450 9400 50  0001 C CNN
+F 3 "" H 2450 9400 50  0001 C CNN
+	1    2450 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 593027B1
+P 1700 9500
+F 0 "#PWR?" H 1700 9250 50  0001 C CNN
+F 1 "GND" H 1800 9400 50  0000 C CNN
+F 2 "" H 1700 9500 50  0001 C CNN
+F 3 "" H 1700 9500 50  0001 C CNN
+	1    1700 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 9450 2300 9750
+Wire Wire Line
+	1600 9350 1600 9650
+$Comp
+L CONN_01X02 P109
+U 1 1 5930EE55
+P 1200 10500
+F 0 "P109" H 1200 10650 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 10500 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 10500 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 10500 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 10500 60  0001 C CNN "Digikey P/N"
+	1    1200 10500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J106
+U 1 1 5930EE5B
+P 2050 10200
+F 0 "J106" H 2050 10350 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 10050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 9000 50  0001 C CNN
+F 3 "" H 2050 9000 50  0001 C CNN
+	1    2050 10200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 10450 2750 10450
+Wire Wire Line
+	1400 10550 2650 10550
+Wire Wire Line
+	2650 10550 2650 10600
+Wire Wire Line
+	2650 10600 2750 10600
+Wire Wire Line
+	1600 10150 1800 10150
+Connection ~ 1600 10450
+Connection ~ 2300 10550
+Wire Wire Line
+	2300 10150 2450 10150
+Wire Wire Line
+	2450 10150 2450 10200
+Wire Wire Line
+	1800 10250 1700 10250
+Wire Wire Line
+	1700 10250 1700 10300
+$Comp
+L GND #PWR?
+U 1 1 5930EE6C
+P 2450 10200
+F 0 "#PWR?" H 2450 9950 50  0001 C CNN
+F 1 "GND" H 2550 10100 50  0000 C CNN
+F 2 "" H 2450 10200 50  0001 C CNN
+F 3 "" H 2450 10200 50  0001 C CNN
+	1    2450 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5930EE72
+P 1700 10300
+F 0 "#PWR?" H 1700 10050 50  0001 C CNN
+F 1 "GND" H 1800 10200 50  0000 C CNN
+F 2 "" H 1700 10300 50  0001 C CNN
+F 3 "" H 1700 10300 50  0001 C CNN
+	1    1700 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 10250 2300 10550
+Wire Wire Line
+	1600 10150 1600 10450
+$Comp
+L CONN_01X02 P110
+U 1 1 5930EE80
+P 1200 11300
+F 0 "P110" H 1200 11450 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 11300 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 11300 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 11300 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 11300 60  0001 C CNN "Digikey P/N"
+	1    1200 11300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J107
+U 1 1 5930EE86
+P 2050 11000
+F 0 "J107" H 2050 11150 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 10850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 9800 50  0001 C CNN
+F 3 "" H 2050 9800 50  0001 C CNN
+	1    2050 11000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 11250 2750 11250
+Wire Wire Line
+	1400 11350 2650 11350
+Wire Wire Line
+	2650 11350 2650 11400
+Wire Wire Line
+	2650 11400 2750 11400
+Wire Wire Line
+	1600 10950 1800 10950
+Connection ~ 1600 11250
+Connection ~ 2300 11350
+Wire Wire Line
+	2300 10950 2450 10950
+Wire Wire Line
+	2450 10950 2450 11000
+Wire Wire Line
+	1800 11050 1700 11050
+Wire Wire Line
+	1700 11050 1700 11100
+$Comp
+L GND #PWR?
+U 1 1 5930EE97
+P 2450 11000
+F 0 "#PWR?" H 2450 10750 50  0001 C CNN
+F 1 "GND" H 2550 10900 50  0000 C CNN
+F 2 "" H 2450 11000 50  0001 C CNN
+F 3 "" H 2450 11000 50  0001 C CNN
+	1    2450 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5930EE9D
+P 1700 11100
+F 0 "#PWR?" H 1700 10850 50  0001 C CNN
+F 1 "GND" H 1800 11000 50  0000 C CNN
+F 2 "" H 1700 11100 50  0001 C CNN
+F 3 "" H 1700 11100 50  0001 C CNN
+	1    1700 11100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 11050 2300 11350
+Wire Wire Line
+	1600 10950 1600 11250
+$Comp
+L CONN_01X02 P111
+U 1 1 5930EEAB
+P 1200 12100
+F 0 "P111" H 1200 12250 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 12100 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 12100 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 12100 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 12100 60  0001 C CNN "Digikey P/N"
+	1    1200 12100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J108
+U 1 1 5930EEB1
+P 2050 11800
+F 0 "J108" H 2050 11950 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 11650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 10600 50  0001 C CNN
+F 3 "" H 2050 10600 50  0001 C CNN
+	1    2050 11800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 12050 2750 12050
+Wire Wire Line
+	1400 12150 2650 12150
+Wire Wire Line
+	2650 12150 2650 12200
+Wire Wire Line
+	2650 12200 2750 12200
+Wire Wire Line
+	1600 11750 1800 11750
+Connection ~ 1600 12050
+Connection ~ 2300 12150
+Wire Wire Line
+	2300 11750 2450 11750
+Wire Wire Line
+	2450 11750 2450 11800
+Wire Wire Line
+	1800 11850 1700 11850
+Wire Wire Line
+	1700 11850 1700 11900
+$Comp
+L GND #PWR?
+U 1 1 5930EEC2
+P 2450 11800
+F 0 "#PWR?" H 2450 11550 50  0001 C CNN
+F 1 "GND" H 2550 11700 50  0000 C CNN
+F 2 "" H 2450 11800 50  0001 C CNN
+F 3 "" H 2450 11800 50  0001 C CNN
+	1    2450 11800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5930EEC8
+P 1700 11900
+F 0 "#PWR?" H 1700 11650 50  0001 C CNN
+F 1 "GND" H 1800 11800 50  0000 C CNN
+F 2 "" H 1700 11900 50  0001 C CNN
+F 3 "" H 1700 11900 50  0001 C CNN
+	1    1700 11900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 11850 2300 12150
+Wire Wire Line
+	1600 11750 1600 12050
+$Comp
+L CONN_01X02 P112
+U 1 1 5930EED6
+P 1200 12850
+F 0 "P112" H 1200 13000 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 12850 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 12850 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 12850 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 12850 60  0001 C CNN "Digikey P/N"
+	1    1200 12850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J109
+U 1 1 5930EEDC
+P 2050 12550
+F 0 "J109" H 2050 12700 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 12400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 11350 50  0001 C CNN
+F 3 "" H 2050 11350 50  0001 C CNN
+	1    2050 12550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 12800 2750 12800
+Wire Wire Line
+	1400 12900 2650 12900
+Wire Wire Line
+	2650 12900 2650 12950
+Wire Wire Line
+	2650 12950 2750 12950
+Wire Wire Line
+	1600 12500 1800 12500
+Connection ~ 1600 12800
+Connection ~ 2300 12900
+Wire Wire Line
+	2300 12500 2450 12500
+Wire Wire Line
+	2450 12500 2450 12550
+Wire Wire Line
+	1800 12600 1700 12600
+Wire Wire Line
+	1700 12600 1700 12650
+$Comp
+L GND #PWR?
+U 1 1 5930EEED
+P 2450 12550
+F 0 "#PWR?" H 2450 12300 50  0001 C CNN
+F 1 "GND" H 2550 12450 50  0000 C CNN
+F 2 "" H 2450 12550 50  0001 C CNN
+F 3 "" H 2450 12550 50  0001 C CNN
+	1    2450 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5930EEF3
+P 1700 12650
+F 0 "#PWR?" H 1700 12400 50  0001 C CNN
+F 1 "GND" H 1800 12550 50  0000 C CNN
+F 2 "" H 1700 12650 50  0001 C CNN
+F 3 "" H 1700 12650 50  0001 C CNN
+	1    1700 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 12600 2300 12900
+Wire Wire Line
+	1600 12500 1600 12800
+$Comp
+L CONN_01X02 P113
+U 1 1 5930EF01
+P 1200 13600
+F 0 "P113" H 1200 13750 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 13600 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 13600 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 13600 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 13600 60  0001 C CNN "Digikey P/N"
+	1    1200 13600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J110
+U 1 1 5930EF07
+P 2050 13300
+F 0 "J110" H 2050 13450 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 13150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 12100 50  0001 C CNN
+F 3 "" H 2050 12100 50  0001 C CNN
+	1    2050 13300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 13550 2750 13550
+Wire Wire Line
+	1400 13650 2650 13650
+Wire Wire Line
+	2650 13650 2650 13700
+Wire Wire Line
+	2650 13700 2750 13700
+Wire Wire Line
+	1600 13250 1800 13250
+Connection ~ 1600 13550
+Connection ~ 2300 13650
+Wire Wire Line
+	2300 13250 2450 13250
+Wire Wire Line
+	2450 13250 2450 13300
+Wire Wire Line
+	1800 13350 1700 13350
+Wire Wire Line
+	1700 13350 1700 13400
+$Comp
+L GND #PWR?
+U 1 1 5930EF18
+P 2450 13300
+F 0 "#PWR?" H 2450 13050 50  0001 C CNN
+F 1 "GND" H 2550 13200 50  0000 C CNN
+F 2 "" H 2450 13300 50  0001 C CNN
+F 3 "" H 2450 13300 50  0001 C CNN
+	1    2450 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5930EF1E
+P 1700 13400
+F 0 "#PWR?" H 1700 13150 50  0001 C CNN
+F 1 "GND" H 1800 13300 50  0000 C CNN
+F 2 "" H 1700 13400 50  0001 C CNN
+F 3 "" H 1700 13400 50  0001 C CNN
+	1    1700 13400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 13350 2300 13650
+Wire Wire Line
+	1600 13250 1600 13550
+$Comp
+L CONN_01X02 P114
+U 1 1 59328D71
+P 1200 14400
+F 0 "P114" H 1200 14550 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 14400 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 14400 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 14400 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 14400 60  0001 C CNN "Digikey P/N"
+	1    1200 14400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J111
+U 1 1 59328D77
+P 2050 14100
+F 0 "J111" H 2050 14250 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 13950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 12900 50  0001 C CNN
+F 3 "" H 2050 12900 50  0001 C CNN
+	1    2050 14100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 14350 2750 14350
+Wire Wire Line
+	1400 14450 2650 14450
+Wire Wire Line
+	2650 14450 2650 14500
+Wire Wire Line
+	2650 14500 2750 14500
+Wire Wire Line
+	1600 14050 1800 14050
+Connection ~ 1600 14350
+Connection ~ 2300 14450
+Wire Wire Line
+	2300 14050 2450 14050
+Wire Wire Line
+	2450 14050 2450 14100
+Wire Wire Line
+	1800 14150 1700 14150
+Wire Wire Line
+	1700 14150 1700 14200
+$Comp
+L GND #PWR?
+U 1 1 59328D88
+P 2450 14100
+F 0 "#PWR?" H 2450 13850 50  0001 C CNN
+F 1 "GND" H 2550 14000 50  0000 C CNN
+F 2 "" H 2450 14100 50  0001 C CNN
+F 3 "" H 2450 14100 50  0001 C CNN
+	1    2450 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59328D8E
+P 1700 14200
+F 0 "#PWR?" H 1700 13950 50  0001 C CNN
+F 1 "GND" H 1800 14100 50  0000 C CNN
+F 2 "" H 1700 14200 50  0001 C CNN
+F 3 "" H 1700 14200 50  0001 C CNN
+	1    1700 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 14150 2300 14450
+Wire Wire Line
+	1600 14050 1600 14350
+$Comp
+L CONN_01X02 P115
+U 1 1 59328D9C
+P 1200 15200
+F 0 "P115" H 1200 15350 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 15200 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 15200 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 15200 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 15200 60  0001 C CNN "Digikey P/N"
+	1    1200 15200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J112
+U 1 1 59328DA2
+P 2050 14900
+F 0 "J112" H 2050 15050 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 14750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 13700 50  0001 C CNN
+F 3 "" H 2050 13700 50  0001 C CNN
+	1    2050 14900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 15150 2750 15150
+Wire Wire Line
+	1400 15250 2650 15250
+Wire Wire Line
+	2650 15250 2650 15300
+Wire Wire Line
+	2650 15300 2750 15300
+Wire Wire Line
+	1600 14850 1800 14850
+Connection ~ 1600 15150
+Connection ~ 2300 15250
+Wire Wire Line
+	2300 14850 2450 14850
+Wire Wire Line
+	2450 14850 2450 14900
+Wire Wire Line
+	1800 14950 1700 14950
+Wire Wire Line
+	1700 14950 1700 15000
+$Comp
+L GND #PWR?
+U 1 1 59328DB3
+P 2450 14900
+F 0 "#PWR?" H 2450 14650 50  0001 C CNN
+F 1 "GND" H 2550 14800 50  0000 C CNN
+F 2 "" H 2450 14900 50  0001 C CNN
+F 3 "" H 2450 14900 50  0001 C CNN
+	1    2450 14900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59328DB9
+P 1700 15000
+F 0 "#PWR?" H 1700 14750 50  0001 C CNN
+F 1 "GND" H 1800 14900 50  0000 C CNN
+F 2 "" H 1700 15000 50  0001 C CNN
+F 3 "" H 1700 15000 50  0001 C CNN
+	1    1700 15000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 14950 2300 15250
+Wire Wire Line
+	1600 14850 1600 15150
+$Comp
+L CONN_01X02 P116
+U 1 1 59328DC7
+P 1200 16000
+F 0 "P116" H 1200 16150 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 16000 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 16000 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 16000 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 16000 60  0001 C CNN "Digikey P/N"
+	1    1200 16000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J113
+U 1 1 59328DCD
+P 2050 15700
+F 0 "J113" H 2050 15850 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 15550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 14500 50  0001 C CNN
+F 3 "" H 2050 14500 50  0001 C CNN
+	1    2050 15700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 15950 2750 15950
+Wire Wire Line
+	1400 16050 2650 16050
+Wire Wire Line
+	2650 16050 2650 16100
+Wire Wire Line
+	2650 16100 2750 16100
+Wire Wire Line
+	1600 15650 1800 15650
+Connection ~ 1600 15950
+Connection ~ 2300 16050
+Wire Wire Line
+	2300 15650 2450 15650
+Wire Wire Line
+	2450 15650 2450 15700
+Wire Wire Line
+	1800 15750 1700 15750
+Wire Wire Line
+	1700 15750 1700 15800
+$Comp
+L GND #PWR?
+U 1 1 59328DDE
+P 2450 15700
+F 0 "#PWR?" H 2450 15450 50  0001 C CNN
+F 1 "GND" H 2550 15600 50  0000 C CNN
+F 2 "" H 2450 15700 50  0001 C CNN
+F 3 "" H 2450 15700 50  0001 C CNN
+	1    2450 15700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59328DE4
+P 1700 15800
+F 0 "#PWR?" H 1700 15550 50  0001 C CNN
+F 1 "GND" H 1800 15700 50  0000 C CNN
+F 2 "" H 1700 15800 50  0001 C CNN
+F 3 "" H 1700 15800 50  0001 C CNN
+	1    1700 15800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 15750 2300 16050
+Wire Wire Line
+	1600 15650 1600 15950
+$Comp
+L CONN_01X02 P117
+U 1 1 59328DF2
+P 1200 16750
+F 0 "P117" H 1200 16900 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 16750 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 16750 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 16750 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 16750 60  0001 C CNN "Digikey P/N"
+	1    1200 16750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J114
+U 1 1 59328DF8
+P 2050 16450
+F 0 "J114" H 2050 16600 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 16300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 15250 50  0001 C CNN
+F 3 "" H 2050 15250 50  0001 C CNN
+	1    2050 16450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 16700 2750 16700
+Wire Wire Line
+	1400 16800 2650 16800
+Wire Wire Line
+	2650 16800 2650 16850
+Wire Wire Line
+	2650 16850 2750 16850
+Wire Wire Line
+	1600 16400 1800 16400
+Connection ~ 1600 16700
+Connection ~ 2300 16800
+Wire Wire Line
+	2300 16400 2450 16400
+Wire Wire Line
+	2450 16400 2450 16450
+Wire Wire Line
+	1800 16500 1700 16500
+Wire Wire Line
+	1700 16500 1700 16550
+$Comp
+L GND #PWR?
+U 1 1 59328E09
+P 2450 16450
+F 0 "#PWR?" H 2450 16200 50  0001 C CNN
+F 1 "GND" H 2550 16350 50  0000 C CNN
+F 2 "" H 2450 16450 50  0001 C CNN
+F 3 "" H 2450 16450 50  0001 C CNN
+	1    2450 16450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59328E0F
+P 1700 16550
+F 0 "#PWR?" H 1700 16300 50  0001 C CNN
+F 1 "GND" H 1800 16450 50  0000 C CNN
+F 2 "" H 1700 16550 50  0001 C CNN
+F 3 "" H 1700 16550 50  0001 C CNN
+	1    1700 16550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 16500 2300 16800
+Wire Wire Line
+	1600 16400 1600 16700
+$Comp
+L CONN_01X02 P118
+U 1 1 59328E1D
+P 1200 17500
+F 0 "P118" H 1200 17650 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 17500 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 17500 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 17500 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 17500 60  0001 C CNN "Digikey P/N"
+	1    1200 17500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J115
+U 1 1 59328E23
+P 2050 17200
+F 0 "J115" H 2050 17350 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 17050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 16000 50  0001 C CNN
+F 3 "" H 2050 16000 50  0001 C CNN
+	1    2050 17200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 17450 2750 17450
+Wire Wire Line
+	1400 17550 2650 17550
+Wire Wire Line
+	2650 17550 2650 17600
+Wire Wire Line
+	2650 17600 2750 17600
+Wire Wire Line
+	1600 17150 1800 17150
+Connection ~ 1600 17450
+Connection ~ 2300 17550
+Wire Wire Line
+	2300 17150 2450 17150
+Wire Wire Line
+	2450 17150 2450 17200
+Wire Wire Line
+	1800 17250 1700 17250
+Wire Wire Line
+	1700 17250 1700 17300
+$Comp
+L GND #PWR?
+U 1 1 59328E34
+P 2450 17200
+F 0 "#PWR?" H 2450 16950 50  0001 C CNN
+F 1 "GND" H 2550 17100 50  0000 C CNN
+F 2 "" H 2450 17200 50  0001 C CNN
+F 3 "" H 2450 17200 50  0001 C CNN
+	1    2450 17200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59328E3A
+P 1700 17300
+F 0 "#PWR?" H 1700 17050 50  0001 C CNN
+F 1 "GND" H 1800 17200 50  0000 C CNN
+F 2 "" H 1700 17300 50  0001 C CNN
+F 3 "" H 1700 17300 50  0001 C CNN
+	1    1700 17300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 17250 2300 17550
+Wire Wire Line
+	1600 17150 1600 17450
+$Comp
+L CONN_01X02 P119
+U 1 1 59328E48
+P 1200 18300
+F 0 "P119" H 1200 18450 50  0000 C CNN
+F 1 "CONN_01X02" V 1300 18300 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 1200 18300 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 1200 18300 50  0001 C CNN
+F 4 "277-2416-ND" H 1200 18300 60  0001 C CNN "Digikey P/N"
+	1    1200 18300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J116
+U 1 1 59328E4E
+P 2050 18000
+F 0 "J116" H 2050 18150 50  0000 C CNN
+F 1 "CONN_02X02" H 2050 17850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2050 16800 50  0001 C CNN
+F 3 "" H 2050 16800 50  0001 C CNN
+	1    2050 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 18250 2750 18250
+Wire Wire Line
+	1400 18350 2650 18350
+Wire Wire Line
+	2650 18350 2650 18400
+Wire Wire Line
+	2650 18400 2750 18400
+Wire Wire Line
+	1600 17950 1800 17950
+Connection ~ 1600 18250
+Connection ~ 2300 18350
+Wire Wire Line
+	2300 17950 2450 17950
+Wire Wire Line
+	2450 17950 2450 18000
+Wire Wire Line
+	1800 18050 1700 18050
+Wire Wire Line
+	1700 18050 1700 18100
+$Comp
+L GND #PWR?
+U 1 1 59328E5F
+P 2450 18000
+F 0 "#PWR?" H 2450 17750 50  0001 C CNN
+F 1 "GND" H 2550 17900 50  0000 C CNN
+F 2 "" H 2450 18000 50  0001 C CNN
+F 3 "" H 2450 18000 50  0001 C CNN
+	1    2450 18000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59328E65
+P 1700 18100
+F 0 "#PWR?" H 1700 17850 50  0001 C CNN
+F 1 "GND" H 1800 18000 50  0000 C CNN
+F 2 "" H 1700 18100 50  0001 C CNN
+F 3 "" H 1700 18100 50  0001 C CNN
+	1    1700 18100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 18050 2300 18350
+Wire Wire Line
+	1600 17950 1600 18250
+Wire Wire Line
+	3300 6650 3950 6650
+Text Label 3950 6650 0    60   ~ 0
+THERMO_OUPUT_1
+Wire Wire Line
+	3300 7450 3950 7450
+Text Label 3950 7450 0    60   ~ 0
+THERMO_OUPUT_2
+Wire Wire Line
+	3300 8250 3950 8250
+Text Label 3950 8250 0    60   ~ 0
+THERMO_OUPUT_3
+Wire Wire Line
+	3300 9000 3950 9000
+Text Label 3950 9000 0    60   ~ 0
+THERMO_OUPUT_4
+Wire Wire Line
+	3300 9750 3950 9750
+Text Label 3950 9750 0    60   ~ 0
+THERMO_OUPUT_5
+Wire Wire Line
+	3300 10550 3950 10550
+Text Label 3950 10550 0    60   ~ 0
+THERMO_OUPUT_6
+Wire Wire Line
+	3300 11350 3950 11350
+Text Label 3950 11350 0    60   ~ 0
+THERMO_OUPUT_7
+Wire Wire Line
+	3300 12150 3950 12150
+Text Label 3950 12150 0    60   ~ 0
+THERMO_OUPUT_8
+Wire Wire Line
+	3300 12900 3950 12900
+Text Label 3950 12900 0    60   ~ 0
+THERMO_OUPUT_9
+Wire Wire Line
+	3300 13650 3950 13650
+Text Label 3950 13650 0    60   ~ 0
+THERMO_OUPUT_10
+Wire Wire Line
+	3300 14450 3950 14450
+Text Label 3950 14450 0    60   ~ 0
+THERMO_OUPUT_11
+Wire Wire Line
+	3300 15250 3950 15250
+Text Label 3950 15250 0    60   ~ 0
+THERMO_OUPUT_12
+Wire Wire Line
+	3300 16050 3950 16050
+Text Label 3950 16050 0    60   ~ 0
+THERMO_OUPUT_13
+Wire Wire Line
+	3300 16800 3950 16800
+Text Label 3950 16800 0    60   ~ 0
+THERMO_OUPUT_14
+Wire Wire Line
+	3300 17550 3950 17550
+Text Label 3950 17550 0    60   ~ 0
+THERMO_OUPUT_15
+Wire Wire Line
+	3300 18350 3950 18350
+Text Label 3950 18350 0    60   ~ 0
+THERMO_OUPUT_16
+Wire Wire Line
+	5850 11600 5850 10950
+Text Label 5850 10950 1    60   ~ 0
+THERMO_OUPUT_8
+Wire Wire Line
+	5950 11600 5950 10950
+Text Label 5950 10950 1    60   ~ 0
+THERMO_OUPUT_7
+Wire Wire Line
+	6050 11600 6050 10950
+Text Label 6050 10950 1    60   ~ 0
+THERMO_OUPUT_6
+Wire Wire Line
+	6150 11600 6150 10950
+Text Label 6150 10950 1    60   ~ 0
+THERMO_OUPUT_5
+Wire Wire Line
+	6250 11600 6250 10950
+Text Label 6250 10950 1    60   ~ 0
+THERMO_OUPUT_4
+Wire Wire Line
+	6350 11600 6350 10950
+Text Label 6350 10950 1    60   ~ 0
+THERMO_OUPUT_3
+Wire Wire Line
+	6450 11600 6450 10950
+Text Label 6450 10950 1    60   ~ 0
+THERMO_OUPUT_2
+Wire Wire Line
+	6550 11600 6550 10950
+Text Label 6550 10950 1    60   ~ 0
+THERMO_OUPUT_1
+Wire Wire Line
+	5850 12100 5850 12750
+Text Label 5850 12750 3    60   ~ 0
+THERMO_OUPUT_9
+Wire Wire Line
+	5950 12100 5950 12750
+Text Label 5950 12750 3    60   ~ 0
+THERMO_OUPUT_10
+Wire Wire Line
+	6050 12100 6050 12750
+Text Label 6050 12750 3    60   ~ 0
+THERMO_OUPUT_11
+Wire Wire Line
+	6150 12100 6150 12750
+Text Label 6150 12750 3    60   ~ 0
+THERMO_OUPUT_12
+Wire Wire Line
+	6250 12100 6250 12750
+Text Label 6250 12750 3    60   ~ 0
+THERMO_OUPUT_13
+Wire Wire Line
+	6350 12100 6350 12750
+Text Label 6350 12750 3    60   ~ 0
+THERMO_OUPUT_14
+Wire Wire Line
+	6450 12100 6450 12750
+Text Label 6450 12750 3    60   ~ 0
+THERMO_OUPUT_15
+Wire Wire Line
+	6550 12100 6550 12750
+Text Label 6550 12750 3    60   ~ 0
+THERMO_OUPUT_16
+$Comp
+L CONN_02X08 P104
+U 1 1 595F8923
+P 13400 11900
+F 0 "P104" H 13400 12350 50  0000 C CNN
+F 1 "CONN_02X08" V 13400 11900 50  0000 C CNN
+F 2 "moboFootprints:Molex_16pin_milliGrid" H 13400 10700 50  0001 C CNN
+F 3 "" H 13400 10700 50  0000 C CNN
+F 4 "WM18864-ND" H 13400 11900 60  0001 C CNN "Digikey P/N"
+	1    13400 11900
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P120
+U 1 1 595F892A
+P 8500 6600
+F 0 "P120" H 8500 6750 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 6600 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 6600 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 6600 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 6600 60  0001 C CNN "Digikey P/N"
+	1    8500 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J117
+U 1 1 595F8930
+P 9350 6300
+F 0 "J117" H 9350 6450 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 6150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 5100 50  0001 C CNN
+F 3 "" H 9350 5100 50  0001 C CNN
+	1    9350 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 6550 10050 6550
+Wire Wire Line
+	8700 6650 9950 6650
+Wire Wire Line
+	9950 6650 9950 6700
+Wire Wire Line
+	9950 6700 10050 6700
+Wire Wire Line
+	8900 6250 9100 6250
+Connection ~ 8900 6550
+Connection ~ 9600 6650
+Wire Wire Line
+	9600 6250 9750 6250
+Wire Wire Line
+	9750 6250 9750 6300
+Wire Wire Line
+	9100 6350 9000 6350
+Wire Wire Line
+	9000 6350 9000 6400
+$Comp
+L GND #PWR?
+U 1 1 595F8941
+P 9750 6300
+F 0 "#PWR?" H 9750 6050 50  0001 C CNN
+F 1 "GND" H 9850 6200 50  0000 C CNN
+F 2 "" H 9750 6300 50  0001 C CNN
+F 3 "" H 9750 6300 50  0001 C CNN
+	1    9750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8947
+P 9000 6400
+F 0 "#PWR?" H 9000 6150 50  0001 C CNN
+F 1 "GND" H 9100 6300 50  0000 C CNN
+F 2 "" H 9000 6400 50  0001 C CNN
+F 3 "" H 9000 6400 50  0001 C CNN
+	1    9000 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 6350 9600 6650
+Wire Wire Line
+	8900 6250 8900 6550
+$Comp
+L CONN_01X02 P121
+U 1 1 595F8950
+P 8500 7400
+F 0 "P121" H 8500 7550 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 7400 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 7400 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 7400 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 7400 60  0001 C CNN "Digikey P/N"
+	1    8500 7400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J118
+U 1 1 595F8956
+P 9350 7100
+F 0 "J118" H 9350 7250 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 6950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 5900 50  0001 C CNN
+F 3 "" H 9350 5900 50  0001 C CNN
+	1    9350 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 7350 10050 7350
+Wire Wire Line
+	8700 7450 9950 7450
+Wire Wire Line
+	9950 7450 9950 7500
+Wire Wire Line
+	9950 7500 10050 7500
+Wire Wire Line
+	8900 7050 9100 7050
+Connection ~ 8900 7350
+Connection ~ 9600 7450
+Wire Wire Line
+	9600 7050 9750 7050
+Wire Wire Line
+	9750 7050 9750 7100
+Wire Wire Line
+	9100 7150 9000 7150
+Wire Wire Line
+	9000 7150 9000 7200
+$Comp
+L GND #PWR?
+U 1 1 595F8967
+P 9750 7100
+F 0 "#PWR?" H 9750 6850 50  0001 C CNN
+F 1 "GND" H 9850 7000 50  0000 C CNN
+F 2 "" H 9750 7100 50  0001 C CNN
+F 3 "" H 9750 7100 50  0001 C CNN
+	1    9750 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F896D
+P 9000 7200
+F 0 "#PWR?" H 9000 6950 50  0001 C CNN
+F 1 "GND" H 9100 7100 50  0000 C CNN
+F 2 "" H 9000 7200 50  0001 C CNN
+F 3 "" H 9000 7200 50  0001 C CNN
+	1    9000 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 7150 9600 7450
+Wire Wire Line
+	8900 7050 8900 7350
+$Comp
+L CONN_01X02 P122
+U 1 1 595F8976
+P 8500 8200
+F 0 "P122" H 8500 8350 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 8200 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 8200 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 8200 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 8200 60  0001 C CNN "Digikey P/N"
+	1    8500 8200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J119
+U 1 1 595F897C
+P 9350 7900
+F 0 "J119" H 9350 8050 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 7750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 6700 50  0001 C CNN
+F 3 "" H 9350 6700 50  0001 C CNN
+	1    9350 7900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 8150 10050 8150
+Wire Wire Line
+	8700 8250 9950 8250
+Wire Wire Line
+	9950 8250 9950 8300
+Wire Wire Line
+	9950 8300 10050 8300
+Wire Wire Line
+	8900 7850 9100 7850
+Connection ~ 8900 8150
+Connection ~ 9600 8250
+Wire Wire Line
+	9600 7850 9750 7850
+Wire Wire Line
+	9750 7850 9750 7900
+Wire Wire Line
+	9100 7950 9000 7950
+Wire Wire Line
+	9000 7950 9000 8000
+$Comp
+L GND #PWR?
+U 1 1 595F898D
+P 9750 7900
+F 0 "#PWR?" H 9750 7650 50  0001 C CNN
+F 1 "GND" H 9850 7800 50  0000 C CNN
+F 2 "" H 9750 7900 50  0001 C CNN
+F 3 "" H 9750 7900 50  0001 C CNN
+	1    9750 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8993
+P 9000 8000
+F 0 "#PWR?" H 9000 7750 50  0001 C CNN
+F 1 "GND" H 9100 7900 50  0000 C CNN
+F 2 "" H 9000 8000 50  0001 C CNN
+F 3 "" H 9000 8000 50  0001 C CNN
+	1    9000 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 7950 9600 8250
+Wire Wire Line
+	8900 7850 8900 8150
+$Comp
+L CONN_01X02 P123
+U 1 1 595F899C
+P 8500 8950
+F 0 "P123" H 8500 9100 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 8950 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 8950 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 8950 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 8950 60  0001 C CNN "Digikey P/N"
+	1    8500 8950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J120
+U 1 1 595F89A2
+P 9350 8650
+F 0 "J120" H 9350 8800 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 8500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 7450 50  0001 C CNN
+F 3 "" H 9350 7450 50  0001 C CNN
+	1    9350 8650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 8900 10050 8900
+Wire Wire Line
+	8700 9000 9950 9000
+Wire Wire Line
+	9950 9000 9950 9050
+Wire Wire Line
+	9950 9050 10050 9050
+Wire Wire Line
+	8900 8600 9100 8600
+Connection ~ 8900 8900
+Connection ~ 9600 9000
+Wire Wire Line
+	9600 8600 9750 8600
+Wire Wire Line
+	9750 8600 9750 8650
+Wire Wire Line
+	9100 8700 9000 8700
+Wire Wire Line
+	9000 8700 9000 8750
+$Comp
+L GND #PWR?
+U 1 1 595F89B3
+P 9750 8650
+F 0 "#PWR?" H 9750 8400 50  0001 C CNN
+F 1 "GND" H 9850 8550 50  0000 C CNN
+F 2 "" H 9750 8650 50  0001 C CNN
+F 3 "" H 9750 8650 50  0001 C CNN
+	1    9750 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F89B9
+P 9000 8750
+F 0 "#PWR?" H 9000 8500 50  0001 C CNN
+F 1 "GND" H 9100 8650 50  0000 C CNN
+F 2 "" H 9000 8750 50  0001 C CNN
+F 3 "" H 9000 8750 50  0001 C CNN
+	1    9000 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 8700 9600 9000
+Wire Wire Line
+	8900 8600 8900 8900
+$Comp
+L CONN_01X02 P124
+U 1 1 595F89C2
+P 8500 9700
+F 0 "P124" H 8500 9850 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 9700 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 9700 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 9700 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 9700 60  0001 C CNN "Digikey P/N"
+	1    8500 9700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J121
+U 1 1 595F89C8
+P 9350 9400
+F 0 "J121" H 9350 9550 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 9250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 8200 50  0001 C CNN
+F 3 "" H 9350 8200 50  0001 C CNN
+	1    9350 9400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 9650 10050 9650
+Wire Wire Line
+	8700 9750 9950 9750
+Wire Wire Line
+	9950 9750 9950 9800
+Wire Wire Line
+	9950 9800 10050 9800
+Wire Wire Line
+	8900 9350 9100 9350
+Connection ~ 8900 9650
+Connection ~ 9600 9750
+Wire Wire Line
+	9600 9350 9750 9350
+Wire Wire Line
+	9750 9350 9750 9400
+Wire Wire Line
+	9100 9450 9000 9450
+Wire Wire Line
+	9000 9450 9000 9500
+$Comp
+L GND #PWR?
+U 1 1 595F89D9
+P 9750 9400
+F 0 "#PWR?" H 9750 9150 50  0001 C CNN
+F 1 "GND" H 9850 9300 50  0000 C CNN
+F 2 "" H 9750 9400 50  0001 C CNN
+F 3 "" H 9750 9400 50  0001 C CNN
+	1    9750 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F89DF
+P 9000 9500
+F 0 "#PWR?" H 9000 9250 50  0001 C CNN
+F 1 "GND" H 9100 9400 50  0000 C CNN
+F 2 "" H 9000 9500 50  0001 C CNN
+F 3 "" H 9000 9500 50  0001 C CNN
+	1    9000 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 9450 9600 9750
+Wire Wire Line
+	8900 9350 8900 9650
+$Comp
+L CONN_01X02 P125
+U 1 1 595F89E8
+P 8500 10500
+F 0 "P125" H 8500 10650 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 10500 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 10500 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 10500 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 10500 60  0001 C CNN "Digikey P/N"
+	1    8500 10500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J122
+U 1 1 595F89EE
+P 9350 10200
+F 0 "J122" H 9350 10350 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 10050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 9000 50  0001 C CNN
+F 3 "" H 9350 9000 50  0001 C CNN
+	1    9350 10200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 10450 10050 10450
+Wire Wire Line
+	8700 10550 9950 10550
+Wire Wire Line
+	9950 10550 9950 10600
+Wire Wire Line
+	9950 10600 10050 10600
+Wire Wire Line
+	8900 10150 9100 10150
+Connection ~ 8900 10450
+Connection ~ 9600 10550
+Wire Wire Line
+	9600 10150 9750 10150
+Wire Wire Line
+	9750 10150 9750 10200
+Wire Wire Line
+	9100 10250 9000 10250
+Wire Wire Line
+	9000 10250 9000 10300
+$Comp
+L GND #PWR?
+U 1 1 595F89FF
+P 9750 10200
+F 0 "#PWR?" H 9750 9950 50  0001 C CNN
+F 1 "GND" H 9850 10100 50  0000 C CNN
+F 2 "" H 9750 10200 50  0001 C CNN
+F 3 "" H 9750 10200 50  0001 C CNN
+	1    9750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8A05
+P 9000 10300
+F 0 "#PWR?" H 9000 10050 50  0001 C CNN
+F 1 "GND" H 9100 10200 50  0000 C CNN
+F 2 "" H 9000 10300 50  0001 C CNN
+F 3 "" H 9000 10300 50  0001 C CNN
+	1    9000 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 10250 9600 10550
+Wire Wire Line
+	8900 10150 8900 10450
+$Comp
+L CONN_01X02 P126
+U 1 1 595F8A0E
+P 8500 11300
+F 0 "P126" H 8500 11450 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 11300 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 11300 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 11300 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 11300 60  0001 C CNN "Digikey P/N"
+	1    8500 11300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J123
+U 1 1 595F8A14
+P 9350 11000
+F 0 "J123" H 9350 11150 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 10850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 9800 50  0001 C CNN
+F 3 "" H 9350 9800 50  0001 C CNN
+	1    9350 11000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 11250 10050 11250
+Wire Wire Line
+	8700 11350 9950 11350
+Wire Wire Line
+	9950 11350 9950 11400
+Wire Wire Line
+	9950 11400 10050 11400
+Wire Wire Line
+	8900 10950 9100 10950
+Connection ~ 8900 11250
+Connection ~ 9600 11350
+Wire Wire Line
+	9600 10950 9750 10950
+Wire Wire Line
+	9750 10950 9750 11000
+Wire Wire Line
+	9100 11050 9000 11050
+Wire Wire Line
+	9000 11050 9000 11100
+$Comp
+L GND #PWR?
+U 1 1 595F8A25
+P 9750 11000
+F 0 "#PWR?" H 9750 10750 50  0001 C CNN
+F 1 "GND" H 9850 10900 50  0000 C CNN
+F 2 "" H 9750 11000 50  0001 C CNN
+F 3 "" H 9750 11000 50  0001 C CNN
+	1    9750 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8A2B
+P 9000 11100
+F 0 "#PWR?" H 9000 10850 50  0001 C CNN
+F 1 "GND" H 9100 11000 50  0000 C CNN
+F 2 "" H 9000 11100 50  0001 C CNN
+F 3 "" H 9000 11100 50  0001 C CNN
+	1    9000 11100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 11050 9600 11350
+Wire Wire Line
+	8900 10950 8900 11250
+$Comp
+L CONN_01X02 P127
+U 1 1 595F8A34
+P 8500 12100
+F 0 "P127" H 8500 12250 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 12100 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 12100 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 12100 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 12100 60  0001 C CNN "Digikey P/N"
+	1    8500 12100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J124
+U 1 1 595F8A3A
+P 9350 11800
+F 0 "J124" H 9350 11950 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 11650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 10600 50  0001 C CNN
+F 3 "" H 9350 10600 50  0001 C CNN
+	1    9350 11800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 12050 10050 12050
+Wire Wire Line
+	8700 12150 9950 12150
+Wire Wire Line
+	9950 12150 9950 12200
+Wire Wire Line
+	9950 12200 10050 12200
+Wire Wire Line
+	8900 11750 9100 11750
+Connection ~ 8900 12050
+Connection ~ 9600 12150
+Wire Wire Line
+	9600 11750 9750 11750
+Wire Wire Line
+	9750 11750 9750 11800
+Wire Wire Line
+	9100 11850 9000 11850
+Wire Wire Line
+	9000 11850 9000 11900
+$Comp
+L GND #PWR?
+U 1 1 595F8A4B
+P 9750 11800
+F 0 "#PWR?" H 9750 11550 50  0001 C CNN
+F 1 "GND" H 9850 11700 50  0000 C CNN
+F 2 "" H 9750 11800 50  0001 C CNN
+F 3 "" H 9750 11800 50  0001 C CNN
+	1    9750 11800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8A51
+P 9000 11900
+F 0 "#PWR?" H 9000 11650 50  0001 C CNN
+F 1 "GND" H 9100 11800 50  0000 C CNN
+F 2 "" H 9000 11900 50  0001 C CNN
+F 3 "" H 9000 11900 50  0001 C CNN
+	1    9000 11900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 11850 9600 12150
+Wire Wire Line
+	8900 11750 8900 12050
+$Comp
+L CONN_01X02 P128
+U 1 1 595F8A5A
+P 8500 12850
+F 0 "P128" H 8500 13000 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 12850 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 12850 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 12850 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 12850 60  0001 C CNN "Digikey P/N"
+	1    8500 12850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J125
+U 1 1 595F8A60
+P 9350 12550
+F 0 "J125" H 9350 12700 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 12400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 11350 50  0001 C CNN
+F 3 "" H 9350 11350 50  0001 C CNN
+	1    9350 12550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 12800 10050 12800
+Wire Wire Line
+	8700 12900 9950 12900
+Wire Wire Line
+	9950 12900 9950 12950
+Wire Wire Line
+	9950 12950 10050 12950
+Wire Wire Line
+	8900 12500 9100 12500
+Connection ~ 8900 12800
+Connection ~ 9600 12900
+Wire Wire Line
+	9600 12500 9750 12500
+Wire Wire Line
+	9750 12500 9750 12550
+Wire Wire Line
+	9100 12600 9000 12600
+Wire Wire Line
+	9000 12600 9000 12650
+$Comp
+L GND #PWR?
+U 1 1 595F8A71
+P 9750 12550
+F 0 "#PWR?" H 9750 12300 50  0001 C CNN
+F 1 "GND" H 9850 12450 50  0000 C CNN
+F 2 "" H 9750 12550 50  0001 C CNN
+F 3 "" H 9750 12550 50  0001 C CNN
+	1    9750 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8A77
+P 9000 12650
+F 0 "#PWR?" H 9000 12400 50  0001 C CNN
+F 1 "GND" H 9100 12550 50  0000 C CNN
+F 2 "" H 9000 12650 50  0001 C CNN
+F 3 "" H 9000 12650 50  0001 C CNN
+	1    9000 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 12600 9600 12900
+Wire Wire Line
+	8900 12500 8900 12800
+$Comp
+L CONN_01X02 P129
+U 1 1 595F8A80
+P 8500 13600
+F 0 "P129" H 8500 13750 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 13600 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 13600 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 13600 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 13600 60  0001 C CNN "Digikey P/N"
+	1    8500 13600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J126
+U 1 1 595F8A86
+P 9350 13300
+F 0 "J126" H 9350 13450 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 13150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 12100 50  0001 C CNN
+F 3 "" H 9350 12100 50  0001 C CNN
+	1    9350 13300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 13550 10050 13550
+Wire Wire Line
+	8700 13650 9950 13650
+Wire Wire Line
+	9950 13650 9950 13700
+Wire Wire Line
+	9950 13700 10050 13700
+Wire Wire Line
+	8900 13250 9100 13250
+Connection ~ 8900 13550
+Connection ~ 9600 13650
+Wire Wire Line
+	9600 13250 9750 13250
+Wire Wire Line
+	9750 13250 9750 13300
+Wire Wire Line
+	9100 13350 9000 13350
+Wire Wire Line
+	9000 13350 9000 13400
+$Comp
+L GND #PWR?
+U 1 1 595F8A97
+P 9750 13300
+F 0 "#PWR?" H 9750 13050 50  0001 C CNN
+F 1 "GND" H 9850 13200 50  0000 C CNN
+F 2 "" H 9750 13300 50  0001 C CNN
+F 3 "" H 9750 13300 50  0001 C CNN
+	1    9750 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8A9D
+P 9000 13400
+F 0 "#PWR?" H 9000 13150 50  0001 C CNN
+F 1 "GND" H 9100 13300 50  0000 C CNN
+F 2 "" H 9000 13400 50  0001 C CNN
+F 3 "" H 9000 13400 50  0001 C CNN
+	1    9000 13400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 13350 9600 13650
+Wire Wire Line
+	8900 13250 8900 13550
+$Comp
+L CONN_01X02 P130
+U 1 1 595F8AA6
+P 8500 14400
+F 0 "P130" H 8500 14550 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 14400 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 14400 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 14400 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 14400 60  0001 C CNN "Digikey P/N"
+	1    8500 14400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J127
+U 1 1 595F8AAC
+P 9350 14100
+F 0 "J127" H 9350 14250 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 13950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 12900 50  0001 C CNN
+F 3 "" H 9350 12900 50  0001 C CNN
+	1    9350 14100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 14350 10050 14350
+Wire Wire Line
+	8700 14450 9950 14450
+Wire Wire Line
+	9950 14450 9950 14500
+Wire Wire Line
+	9950 14500 10050 14500
+Wire Wire Line
+	8900 14050 9100 14050
+Connection ~ 8900 14350
+Connection ~ 9600 14450
+Wire Wire Line
+	9600 14050 9750 14050
+Wire Wire Line
+	9750 14050 9750 14100
+Wire Wire Line
+	9100 14150 9000 14150
+Wire Wire Line
+	9000 14150 9000 14200
+$Comp
+L GND #PWR?
+U 1 1 595F8ABD
+P 9750 14100
+F 0 "#PWR?" H 9750 13850 50  0001 C CNN
+F 1 "GND" H 9850 14000 50  0000 C CNN
+F 2 "" H 9750 14100 50  0001 C CNN
+F 3 "" H 9750 14100 50  0001 C CNN
+	1    9750 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8AC3
+P 9000 14200
+F 0 "#PWR?" H 9000 13950 50  0001 C CNN
+F 1 "GND" H 9100 14100 50  0000 C CNN
+F 2 "" H 9000 14200 50  0001 C CNN
+F 3 "" H 9000 14200 50  0001 C CNN
+	1    9000 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 14150 9600 14450
+Wire Wire Line
+	8900 14050 8900 14350
+$Comp
+L CONN_01X02 P131
+U 1 1 595F8ACC
+P 8500 15200
+F 0 "P131" H 8500 15350 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 15200 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 15200 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 15200 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 15200 60  0001 C CNN "Digikey P/N"
+	1    8500 15200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J128
+U 1 1 595F8AD2
+P 9350 14900
+F 0 "J128" H 9350 15050 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 14750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 13700 50  0001 C CNN
+F 3 "" H 9350 13700 50  0001 C CNN
+	1    9350 14900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 15150 10050 15150
+Wire Wire Line
+	8700 15250 9950 15250
+Wire Wire Line
+	9950 15250 9950 15300
+Wire Wire Line
+	9950 15300 10050 15300
+Wire Wire Line
+	8900 14850 9100 14850
+Connection ~ 8900 15150
+Connection ~ 9600 15250
+Wire Wire Line
+	9600 14850 9750 14850
+Wire Wire Line
+	9750 14850 9750 14900
+Wire Wire Line
+	9100 14950 9000 14950
+Wire Wire Line
+	9000 14950 9000 15000
+$Comp
+L GND #PWR?
+U 1 1 595F8AE3
+P 9750 14900
+F 0 "#PWR?" H 9750 14650 50  0001 C CNN
+F 1 "GND" H 9850 14800 50  0000 C CNN
+F 2 "" H 9750 14900 50  0001 C CNN
+F 3 "" H 9750 14900 50  0001 C CNN
+	1    9750 14900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8AE9
+P 9000 15000
+F 0 "#PWR?" H 9000 14750 50  0001 C CNN
+F 1 "GND" H 9100 14900 50  0000 C CNN
+F 2 "" H 9000 15000 50  0001 C CNN
+F 3 "" H 9000 15000 50  0001 C CNN
+	1    9000 15000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 14950 9600 15250
+Wire Wire Line
+	8900 14850 8900 15150
+$Comp
+L CONN_01X02 P132
+U 1 1 595F8AF2
+P 8500 16000
+F 0 "P132" H 8500 16150 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 16000 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 16000 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 16000 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 16000 60  0001 C CNN "Digikey P/N"
+	1    8500 16000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J129
+U 1 1 595F8AF8
+P 9350 15700
+F 0 "J129" H 9350 15850 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 15550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 14500 50  0001 C CNN
+F 3 "" H 9350 14500 50  0001 C CNN
+	1    9350 15700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 15950 10050 15950
+Wire Wire Line
+	8700 16050 9950 16050
+Wire Wire Line
+	9950 16050 9950 16100
+Wire Wire Line
+	9950 16100 10050 16100
+Wire Wire Line
+	8900 15650 9100 15650
+Connection ~ 8900 15950
+Connection ~ 9600 16050
+Wire Wire Line
+	9600 15650 9750 15650
+Wire Wire Line
+	9750 15650 9750 15700
+Wire Wire Line
+	9100 15750 9000 15750
+Wire Wire Line
+	9000 15750 9000 15800
+$Comp
+L GND #PWR?
+U 1 1 595F8B09
+P 9750 15700
+F 0 "#PWR?" H 9750 15450 50  0001 C CNN
+F 1 "GND" H 9850 15600 50  0000 C CNN
+F 2 "" H 9750 15700 50  0001 C CNN
+F 3 "" H 9750 15700 50  0001 C CNN
+	1    9750 15700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8B0F
+P 9000 15800
+F 0 "#PWR?" H 9000 15550 50  0001 C CNN
+F 1 "GND" H 9100 15700 50  0000 C CNN
+F 2 "" H 9000 15800 50  0001 C CNN
+F 3 "" H 9000 15800 50  0001 C CNN
+	1    9000 15800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 15750 9600 16050
+Wire Wire Line
+	8900 15650 8900 15950
+$Comp
+L CONN_01X02 P133
+U 1 1 595F8B18
+P 8500 16750
+F 0 "P133" H 8500 16900 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 16750 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 16750 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 16750 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 16750 60  0001 C CNN "Digikey P/N"
+	1    8500 16750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J130
+U 1 1 595F8B1E
+P 9350 16450
+F 0 "J130" H 9350 16600 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 16300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 15250 50  0001 C CNN
+F 3 "" H 9350 15250 50  0001 C CNN
+	1    9350 16450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 16700 10050 16700
+Wire Wire Line
+	8700 16800 9950 16800
+Wire Wire Line
+	9950 16800 9950 16850
+Wire Wire Line
+	9950 16850 10050 16850
+Wire Wire Line
+	8900 16400 9100 16400
+Connection ~ 8900 16700
+Connection ~ 9600 16800
+Wire Wire Line
+	9600 16400 9750 16400
+Wire Wire Line
+	9750 16400 9750 16450
+Wire Wire Line
+	9100 16500 9000 16500
+Wire Wire Line
+	9000 16500 9000 16550
+$Comp
+L GND #PWR?
+U 1 1 595F8B2F
+P 9750 16450
+F 0 "#PWR?" H 9750 16200 50  0001 C CNN
+F 1 "GND" H 9850 16350 50  0000 C CNN
+F 2 "" H 9750 16450 50  0001 C CNN
+F 3 "" H 9750 16450 50  0001 C CNN
+	1    9750 16450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8B35
+P 9000 16550
+F 0 "#PWR?" H 9000 16300 50  0001 C CNN
+F 1 "GND" H 9100 16450 50  0000 C CNN
+F 2 "" H 9000 16550 50  0001 C CNN
+F 3 "" H 9000 16550 50  0001 C CNN
+	1    9000 16550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 16500 9600 16800
+Wire Wire Line
+	8900 16400 8900 16700
+$Comp
+L CONN_01X02 P134
+U 1 1 595F8B3E
+P 8500 17500
+F 0 "P134" H 8500 17650 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 17500 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 17500 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 17500 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 17500 60  0001 C CNN "Digikey P/N"
+	1    8500 17500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J131
+U 1 1 595F8B44
+P 9350 17200
+F 0 "J131" H 9350 17350 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 17050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 16000 50  0001 C CNN
+F 3 "" H 9350 16000 50  0001 C CNN
+	1    9350 17200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 17450 10050 17450
+Wire Wire Line
+	8700 17550 9950 17550
+Wire Wire Line
+	9950 17550 9950 17600
+Wire Wire Line
+	9950 17600 10050 17600
+Wire Wire Line
+	8900 17150 9100 17150
+Connection ~ 8900 17450
+Connection ~ 9600 17550
+Wire Wire Line
+	9600 17150 9750 17150
+Wire Wire Line
+	9750 17150 9750 17200
+Wire Wire Line
+	9100 17250 9000 17250
+Wire Wire Line
+	9000 17250 9000 17300
+$Comp
+L GND #PWR?
+U 1 1 595F8B55
+P 9750 17200
+F 0 "#PWR?" H 9750 16950 50  0001 C CNN
+F 1 "GND" H 9850 17100 50  0000 C CNN
+F 2 "" H 9750 17200 50  0001 C CNN
+F 3 "" H 9750 17200 50  0001 C CNN
+	1    9750 17200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8B5B
+P 9000 17300
+F 0 "#PWR?" H 9000 17050 50  0001 C CNN
+F 1 "GND" H 9100 17200 50  0000 C CNN
+F 2 "" H 9000 17300 50  0001 C CNN
+F 3 "" H 9000 17300 50  0001 C CNN
+	1    9000 17300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 17250 9600 17550
+Wire Wire Line
+	8900 17150 8900 17450
+$Comp
+L CONN_01X02 P135
+U 1 1 595F8B64
+P 8500 18300
+F 0 "P135" H 8500 18450 50  0000 C CNN
+F 1 "CONN_01X02" V 8600 18300 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8500 18300 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8500 18300 50  0001 C CNN
+F 4 "277-2416-ND" H 8500 18300 60  0001 C CNN "Digikey P/N"
+	1    8500 18300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X02 J132
+U 1 1 595F8B6A
+P 9350 18000
+F 0 "J132" H 9350 18150 50  0000 C CNN
+F 1 "CONN_02X02" H 9350 17850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 9350 16800 50  0001 C CNN
+F 3 "" H 9350 16800 50  0001 C CNN
+	1    9350 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 18250 10050 18250
+Wire Wire Line
+	8700 18350 9950 18350
+Wire Wire Line
+	9950 18350 9950 18400
+Wire Wire Line
+	9950 18400 10050 18400
+Wire Wire Line
+	8900 17950 9100 17950
+Connection ~ 8900 18250
+Connection ~ 9600 18350
+Wire Wire Line
+	9600 17950 9750 17950
+Wire Wire Line
+	9750 17950 9750 18000
+Wire Wire Line
+	9100 18050 9000 18050
+Wire Wire Line
+	9000 18050 9000 18100
+$Comp
+L GND #PWR?
+U 1 1 595F8B7B
+P 9750 18000
+F 0 "#PWR?" H 9750 17750 50  0001 C CNN
+F 1 "GND" H 9850 17900 50  0000 C CNN
+F 2 "" H 9750 18000 50  0001 C CNN
+F 3 "" H 9750 18000 50  0001 C CNN
+	1    9750 18000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595F8B81
+P 9000 18100
+F 0 "#PWR?" H 9000 17850 50  0001 C CNN
+F 1 "GND" H 9100 18000 50  0000 C CNN
+F 2 "" H 9000 18100 50  0001 C CNN
+F 3 "" H 9000 18100 50  0001 C CNN
+	1    9000 18100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 18050 9600 18350
+Wire Wire Line
+	8900 17950 8900 18250
+Wire Wire Line
+	10600 6650 11250 6650
+Text Label 11250 6650 0    60   ~ 0
+THERMO_OUPUT_17
+Wire Wire Line
+	10600 7450 11250 7450
+Text Label 11250 7450 0    60   ~ 0
+THERMO_OUPUT_18
+Wire Wire Line
+	10600 8250 11250 8250
+Text Label 11250 8250 0    60   ~ 0
+THERMO_OUPUT_19
+Wire Wire Line
+	10600 9000 11250 9000
+Text Label 11250 9000 0    60   ~ 0
+THERMO_OUPUT_20
+Wire Wire Line
+	10600 9750 11250 9750
+Text Label 11250 9750 0    60   ~ 0
+THERMO_OUPUT_21
+Wire Wire Line
+	10600 10550 11250 10550
+Text Label 11250 10550 0    60   ~ 0
+THERMO_OUPUT_22
+Wire Wire Line
+	10600 11350 11250 11350
+Text Label 11250 11350 0    60   ~ 0
+THERMO_OUPUT_23
+Wire Wire Line
+	10600 12150 11250 12150
+Text Label 11250 12150 0    60   ~ 0
+THERMO_OUPUT_24
+Wire Wire Line
+	10600 12900 11250 12900
+Text Label 11250 12900 0    60   ~ 0
+THERMO_OUPUT_25
+Wire Wire Line
+	10600 13650 11250 13650
+Text Label 11250 13650 0    60   ~ 0
+THERMO_OUPUT_26
+Wire Wire Line
+	10600 14450 11250 14450
+Text Label 11250 14450 0    60   ~ 0
+THERMO_OUPUT_27
+Wire Wire Line
+	10600 15250 11250 15250
+Text Label 11250 15250 0    60   ~ 0
+THERMO_OUPUT_28
+Wire Wire Line
+	10600 16050 11250 16050
+Text Label 11250 16050 0    60   ~ 0
+THERMO_OUPUT_29
+Wire Wire Line
+	10600 16800 11250 16800
+Text Label 11250 16800 0    60   ~ 0
+THERMO_OUPUT_30
+Wire Wire Line
+	10600 17550 11250 17550
+Text Label 11250 17550 0    60   ~ 0
+THERMO_OUPUT_31
+Wire Wire Line
+	10600 18350 11250 18350
+Text Label 11250 18350 0    60   ~ 0
+THERMO_OUPUT_32
+Wire Wire Line
+	13050 11650 13050 11000
+Text Label 13050 11000 1    60   ~ 0
+THERMO_OUPUT_24
+Wire Wire Line
+	13150 11650 13150 11000
+Text Label 13150 11000 1    60   ~ 0
+THERMO_OUPUT_23
+Wire Wire Line
+	13250 11650 13250 11000
+Text Label 13250 11000 1    60   ~ 0
+THERMO_OUPUT_22
+Wire Wire Line
+	13350 11650 13350 11000
+Text Label 13350 11000 1    60   ~ 0
+THERMO_OUPUT_21
+Wire Wire Line
+	13450 11650 13450 11000
+Text Label 13450 11000 1    60   ~ 0
+THERMO_OUPUT_20
+Wire Wire Line
+	13550 11650 13550 11000
+Text Label 13550 11000 1    60   ~ 0
+THERMO_OUPUT_19
+Wire Wire Line
+	13650 11650 13650 11000
+Text Label 13650 11000 1    60   ~ 0
+THERMO_OUPUT_18
+Wire Wire Line
+	13750 11650 13750 11000
+Text Label 13750 11000 1    60   ~ 0
+THERMO_OUPUT_17
+Wire Wire Line
+	13050 12150 13050 12800
+Text Label 13750 12800 3    60   ~ 0
+THERMO_OUPUT_32
+Wire Wire Line
+	13150 12150 13150 12800
+Text Label 13650 12800 3    60   ~ 0
+THERMO_OUPUT_31
+Wire Wire Line
+	13250 12150 13250 12800
+Text Label 13550 12800 3    60   ~ 0
+THERMO_OUPUT_30
+Wire Wire Line
+	13350 12150 13350 12800
+Text Label 13450 12800 3    60   ~ 0
+THERMO_OUPUT_29
+Wire Wire Line
+	13450 12150 13450 12800
+Text Label 13350 12800 3    60   ~ 0
+THERMO_OUPUT_28
+Wire Wire Line
+	13550 12150 13550 12800
+Text Label 13250 12800 3    60   ~ 0
+THERMO_OUPUT_27
+Wire Wire Line
+	13650 12150 13650 12800
+Text Label 13150 12800 3    60   ~ 0
+THERMO_OUPUT_26
+Wire Wire Line
+	13750 12150 13750 12800
+Text Label 13050 12800 3    60   ~ 0
+THERMO_OUPUT_25
+Wire Wire Line
+	1300 3650 1300 3750
+Text Notes 1800 1350 0    315  ~ 0
+Thermoboard (LEFT)
+Text Notes 8850 1400 0    315  ~ 0
+Thermoboard (RIGHT)
+Text Notes 2250 2450 0    118  ~ 0
+Power Input and Voltage Reference
+Text Notes 9550 2450 0    118  ~ 0
+Power Input and Voltage Reference
+Text Notes 2750 5800 0    118  ~ 0
+Thermocouple Amplifiers
+Text Notes 10250 5800 0    118  ~ 0
+Thermocouple Amplifiers
+Wire Notes Line
+	500  2000 14950 2000
+Wire Notes Line
+	7600 500  7600 22900
+Wire Notes Line
+	14950 18950 500  18950
+Wire Notes Line
+	500  5300 14950 5300
+Text GLabel 9800 3550 2    60   Input ~ 0
++5V_R
+Wire Wire Line
+	8300 3650 8400 3650
+$Comp
+L GND #PWR?
+U 1 1 594195A0
+P 8400 3750
+F 0 "#PWR?" H 8400 3500 50  0001 C CNN
+F 1 "GND" H 8400 3600 50  0000 C CNN
+F 2 "" H 8400 3750 50  0000 C CNN
+F 3 "" H 8400 3750 50  0000 C CNN
+	1    8400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P136
+U 1 1 594195A7
+P 8100 3600
+F 0 "P136" H 8100 3750 50  0000 C CNN
+F 1 "CONN_01X02" V 8200 3600 50  0001 C CNN
+F 2 "thermoFootprints:phoenix_2pin_3.5mm" H 8100 3600 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1844210.pdf" H 8100 3600 50  0001 C CNN
+F 4 "277-2416-ND" H 8100 3600 60  0001 C CNN "Digikey P/N"
+	1    8100 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OPA380 U102
+U 1 1 594195AE
+P 12350 3750
+F 0 "U102" H 13300 3800 60  0000 C CNN
+F 1 "OPA380" H 12450 3350 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 12350 3750 60  0001 C CNN
+F 3 "" H 12350 3750 60  0001 C CNN
+F 4 "296-16860-1-ND" H 12350 3750 60  0001 C CNN "Digikey P/N"
+	1    12350 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 3850 11350 3850
+Wire Wire Line
+	11350 3650 11350 3950
+Connection ~ 11350 3850
+$Comp
+L GND #PWR?
+U 1 1 594195C5
+P 11350 4450
+F 0 "#PWR?" H 11350 4200 50  0001 C CNN
+F 1 "GND" H 11350 4300 50  0000 C CNN
+F 2 "" H 11350 4450 50  0000 C CNN
+F 3 "" H 11350 4450 50  0000 C CNN
+	1    11350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 4450 11350 4250
+$Comp
+L GND #PWR?
+U 1 1 594195CC
+P 12750 4400
+F 0 "#PWR?" H 12750 4150 50  0001 C CNN
+F 1 "GND" H 12750 4250 50  0000 C CNN
+F 2 "" H 12750 4400 50  0000 C CNN
+F 3 "" H 12750 4400 50  0000 C CNN
+	1    12750 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 4400 12750 4300
+Text GLabel 11350 3350 1    60   Input ~ 0
++5V_R
+Wire Wire Line
+	12150 3750 12150 3250
+Wire Wire Line
+	12150 3250 13500 3250
+Wire Wire Line
+	13500 3250 13500 3850
+Wire Wire Line
+	13350 3850 13800 3850
+Connection ~ 13500 3850
+Text GLabel 12850 3100 1    60   Input ~ 0
++5V_R
+Wire Wire Line
+	12850 3400 12850 3100
+$Comp
+L C C103
+U 1 1 594195DC
+P 13000 3400
+F 0 "C103" V 12900 3500 50  0000 L CNN
+F 1 "1uF" H 13025 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 13038 3250 50  0001 C CNN
+F 3 "" H 13000 3400 50  0000 C CNN
+F 4 "311-1356-1-ND" V 13000 3400 60  0001 C CNN "Digikey P/N"
+	1    13000 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L C C104
+U 1 1 594195E2
+P 14250 4150
+F 0 "C104" H 14275 4250 50  0000 L CNN
+F 1 "SAT" H 14275 4050 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 14288 4000 50  0001 C CNN
+F 3 "" H 14250 4150 50  0000 C CNN
+	1    14250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R106
+U 1 1 594195E9
+P 13950 3850
+F 0 "R106" V 14030 3850 50  0000 C CNN
+F 1 "0" V 13950 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 13880 3850 50  0001 C CNN
+F 3 "" H 13950 3850 50  0000 C CNN
+F 4 "Vishay Dale" V 13950 3850 60  0001 C CNN "Mfg."
+F 5 "RCA06120000Z0EALS" V 13950 3850 60  0001 C CNN "Mfg. P/N"
+F 6 "749-1062-1-ND" V 13950 3850 60  0001 C CNN "Digikey P/N"
+	1    13950 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14250 4000 14250 3850
+Wire Wire Line
+	14250 3850 14100 3850
+$Comp
+L GND #PWR?
+U 1 1 594195F1
+P 14250 4300
+F 0 "#PWR?" H 14250 4050 50  0001 C CNN
+F 1 "GND" H 14250 4150 50  0000 C CNN
+F 2 "" H 14250 4300 50  0000 C CNN
+F 3 "" H 14250 4300 50  0000 C CNN
+	1    14250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 594195F7
+P 13400 3400
+F 0 "#PWR?" H 13400 3150 50  0001 C CNN
+F 1 "GND" H 13400 3250 50  0000 C CNN
+F 2 "" H 13400 3400 50  0000 C CNN
+F 3 "" H 13400 3400 50  0000 C CNN
+	1    13400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 3400 13400 3400
+Text GLabel 14250 3850 2    60   Input ~ 0
+Vref_R
+Wire Wire Line
+	8400 3650 8400 3750
+Wire Notes Line
+	14950 500  14950 18950
+$Comp
+L R R104
+U 1 1 5930D0C6
+P 11350 3500
+F 0 "R104" V 11430 3500 50  0000 C CNN
+F 1 "3k" V 11350 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 11280 3500 50  0001 C CNN
+F 3 "" H 11350 3500 50  0000 C CNN
+F 4 "Susumu" V 11350 3500 60  0001 C CNN "Mfg."
+F 5 "HRG3216P-3001-D-T1" V 11350 3500 60  0001 C CNN "Mfg. P/N"
+F 6 "408-1910-1-ND" V 11350 3500 60  0001 C CNN "Digikey P/N"
+	1    11350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R105
+U 1 1 5930D46D
+P 11350 4100
+F 0 "R105" V 11430 4100 50  0000 C CNN
+F 1 "1k" V 11350 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 11280 4100 50  0001 C CNN
+F 3 "" H 11350 4100 50  0000 C CNN
+F 4 "Susumu" V 11350 4100 60  0001 C CNN "Mfg."
+F 5 "PRG3216P-1001-D-T5" V 11350 4100 60  0001 C CNN "Mfg. P/N"
+F 6 "408-1806-1-ND" V 11350 4100 60  0001 C CNN "Digikey P/N"
+	1    11350 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 10500 3900 0    60   ~ 0
+Vref = 1.25V
+Text Notes 3050 3950 0    60   ~ 0
+Vref = 1.25V
+$Comp
+L MOUNTING_HOLE J133
+U 1 1 5927731C
+P 3650 20150
+F 0 "J133" H 3750 20350 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 3950 19950 60  0000 C CNN
+F 2 "hyperCustom:MountingHole_5.5mm_Pad_Via" H 3650 20150 60  0001 C CNN
+F 3 "" H 3650 20150 60  0001 C CNN
+	1    3650 20150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE J134
+U 1 1 59281D2B
+P 3650 20700
+F 0 "J134" H 3750 20900 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 3950 20500 60  0000 C CNN
+F 2 "hyperCustom:MountingHole_5.5mm_Pad_Via" H 3650 20700 60  0001 C CNN
+F 3 "" H 3650 20700 60  0001 C CNN
+	1    3650 20700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE J135
+U 1 1 59282083
+P 3650 21250
+F 0 "J135" H 3750 21450 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 3950 21050 60  0000 C CNN
+F 2 "hyperCustom:MountingHole_5.5mm_Pad_Via" H 3650 21250 60  0001 C CNN
+F 3 "" H 3650 21250 60  0001 C CNN
+	1    3650 21250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 20150 3450 22150
+Connection ~ 3450 20700
+Connection ~ 3450 21250
+$Comp
+L GND #PWR?
+U 1 1 59297075
+P 3450 22150
+F 0 "#PWR?" H 3450 21900 50  0001 C CNN
+F 1 "GND" H 3450 22000 50  0000 C CNN
+F 2 "" H 3450 22150 50  0000 C CNN
+F 3 "" H 3450 22150 50  0000 C CNN
+	1    3450 22150
+	1    0    0    -1  
+$EndComp
+Text Notes 3150 19500 0    118  ~ 0
+Mounting Holes
+$Comp
+L LED D101
+U 1 1 5933D67C
+P 1900 4300
+F 0 "D101" H 1900 4400 50  0000 C CNN
+F 1 "GREEN" H 1900 4200 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 1900 4300 50  0001 C CNN
+F 3 "" H 1900 4300 50  0001 C CNN
+F 4 "Kingbright" H 1900 4300 60  0001 C CNN "Mfg."
+F 5 "APT3216LZGCK" H 1900 4300 60  0001 C CNN "Mfg. PN"
+F 6 "754-1944-1-ND" H 1900 4300 60  0001 C CNN "DigiKey PN"
+	1    1900 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R107
+U 1 1 5933D9EF
+P 1900 3850
+F 0 "R107" V 1980 3850 50  0000 C CNN
+F 1 "300" V 1900 3850 50  0000 C CNN
+F 2 "SMD_Packages:SMD-1206_Pol" V 1830 3850 50  0001 C CNN
+F 3 "" H 1900 3850 50  0001 C CNN
+F 4 "Panasonic" V 1900 3850 60  0001 C CNN "Mfg."
+F 5 "ERJ-P08J301V" V 1900 3850 60  0001 C CNN "Mfg. PN"
+F 6 "P300ALCT-ND" V 1900 3850 60  0001 C CNN "DigiKey PN"
+	1    1900 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3700 1900 3550
+Connection ~ 1900 3550
+Wire Wire Line
+	1900 4150 1900 4000
+Wire Wire Line
+	1900 4450 1900 4700
+$Comp
+L GND #PWR?
+U 1 1 59340D3A
+P 1900 4700
+F 0 "#PWR?" H 1900 4450 50  0001 C CNN
+F 1 "GND" H 1900 4550 50  0000 C CNN
+F 2 "" H 1900 4700 50  0000 C CNN
+F 3 "" H 1900 4700 50  0000 C CNN
+	1    1900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D102
+U 1 1 5936F7B2
+P 9250 4300
+F 0 "D102" H 9250 4400 50  0000 C CNN
+F 1 "GREEN" H 9250 4200 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 9250 4300 50  0001 C CNN
+F 3 "" H 9250 4300 50  0001 C CNN
+F 4 "Kingbright" H 9250 4300 60  0001 C CNN "Mfg."
+F 5 "APT3216LZGCK" H 9250 4300 60  0001 C CNN "Mfg. PN"
+F 6 "754-1944-1-ND" H 9250 4300 60  0001 C CNN "DigiKey PN"
+	1    9250 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R108
+U 1 1 5936F7BB
+P 9250 3850
+F 0 "R108" V 9330 3850 50  0000 C CNN
+F 1 "300" V 9250 3850 50  0000 C CNN
+F 2 "SMD_Packages:SMD-1206_Pol" V 9180 3850 50  0001 C CNN
+F 3 "" H 9250 3850 50  0001 C CNN
+F 4 "Panasonic" V 9250 3850 60  0001 C CNN "Mfg."
+F 5 "ERJ-P08J301V" V 9250 3850 60  0001 C CNN "Mfg. PN"
+F 6 "P300ALCT-ND" V 9250 3850 60  0001 C CNN "DigiKey PN"
+	1    9250 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3550 9250 3700
+Wire Wire Line
+	9250 4150 9250 4000
+Wire Wire Line
+	9250 4450 9250 4700
+$Comp
+L GND #PWR?
+U 1 1 5936F7C4
+P 9250 4700
+F 0 "#PWR?" H 9250 4450 50  0001 C CNN
+F 1 "GND" H 9250 4550 50  0000 C CNN
+F 2 "" H 9250 4700 50  0000 C CNN
+F 3 "" H 9250 4700 50  0000 C CNN
+	1    9250 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9250 3550
+Wire Wire Line
+	8300 3550 9800 3550
+$Comp
+L MOUNTING_HOLE J136
+U 1 1 593B6463
+P 3650 21800
+F 0 "J136" H 3750 22000 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 3950 21600 60  0000 C CNN
+F 2 "hyperCustom:MountingHole_5.5mm_Pad_Via" H 3650 21800 60  0001 C CNN
+F 3 "" H 3650 21800 60  0001 C CNN
+	1    3650 21800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 21800
 $EndSCHEMATC
