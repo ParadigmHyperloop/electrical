@@ -3,7 +3,7 @@
   (general
     (links 334)
     (no_connects 86)
-    (area -17.876191 -5.17 203.275001 94.145)
+    (area -14.066191 -5.17 203.275001 94.145)
     (thickness 1.6)
     (drawings 24)
     (tracks 1367)
@@ -7734,7 +7734,7 @@
   )
 
   (module Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm (layer F.Cu) (tedit 54130A77) (tstamp 5910A89C)
-    (at -8.89 33.02)
+    (at -7.62 39.37)
     (descr "TSSOP28: plastic thin shrink small outline package; 28 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot361-1_po.pdf)")
     (tags "SSOP 0.65")
     (path /59111ED8)
