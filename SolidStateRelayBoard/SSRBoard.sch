@@ -1312,7 +1312,8 @@ F 0 "U101" H 13650 5550 60  0000 C CNN
 F 1 "LEDDriverSSR" H 13600 7850 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm" H 13600 7850 60  0001 C CNN
 F 3 "" H 13600 7850 60  0001 C CNN
-F 4 "568-5931-1-ND" H 13600 6450 60  0001 C CNN "Field4"
+F 4 "568-5931-1-ND" H 13600 6450 60  0001 C CNN "Digikey PN"
+F 5 "https://www.digikey.com/products/en?keywords=568-5931-1-ND" H 13600 6450 60  0001 C CNN "Link"
 	1    13600 6450
 	1    0    0    -1  
 $EndComp
@@ -1675,12 +1676,13 @@ F 0 "U102" H 14200 1250 60  0000 C CNN
 F 1 "XTR117" H 14200 1950 60  0000 C CNN
 F 2 "hyperCustom:TSSOP-8_3x3mm_Pitch0.65mmSSR" H 14200 2650 60  0001 C CNN
 F 3 "" H 14200 2650 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/XTR117AIDGKT/296-18744-1-ND/863564" H 14200 1650 60  0001 C CNN "link"
 	1    14200 1650
 	1    0    0    -1  
 $EndComp
-Text Label 8100 8200 2    60   ~ 0
+Text Label 8350 8500 0    60   ~ 0
 Data_In
-Text Label 8100 8300 2    60   ~ 0
+Text Label 8350 8600 0    60   ~ 0
 Clock_In
 Text Label 14200 5350 0    60   ~ 0
 Data_In
@@ -1724,6 +1726,8 @@ F 0 "Q101" H 15150 1825 50  0000 L CNN
 F 1 "2SC1815" H 15150 1750 50  0000 L CNN
 F 2 "hyperCustom:TO-220-3_Vertical" H 15150 1675 50  0001 L CIN
 F 3 "" H 14950 1750 50  0000 L CNN
+F 4 "https://www.digikey.com/product-detail/en/fairchild-on-semiconductor/TIP29C/TIP29CFS-ND/458804" H 14950 1750 60  0001 C CNN "link"
+F 5 "TIP29CFS-ND" H 14950 1750 60  0001 C CNN "PN"
 	1    14950 1750
 	1    0    0    -1  
 $EndComp
@@ -1756,6 +1760,7 @@ F 0 "U103" H 14200 2300 60  0000 C CNN
 F 1 "XTR117" H 14200 3000 60  0000 C CNN
 F 2 "hyperCustom:TSSOP-8_3x3mm_Pitch0.65mmSSR" H 14200 3700 60  0001 C CNN
 F 3 "" H 14200 3700 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/XTR117AIDGKT/296-18744-1-ND/863564" H 14200 2700 60  0001 C CNN "Link"
 	1    14200 2700
 	1    0    0    -1  
 $EndComp
@@ -1790,7 +1795,9 @@ P 14950 2800
 F 0 "Q102" H 15150 2875 50  0000 L CNN
 F 1 "2SC1815" H 15150 2800 50  0000 L CNN
 F 2 "hyperCustom:TO-220-3_Vertical" H 15150 2725 50  0001 L CIN
-F 3 "" H 14950 2800 50  0000 L CNN
+F 3 "" H 14950 2800 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/fairchild-on-semiconductor/TIP29C/TIP29CFS-ND/458804" H 14950 2800 60  0001 C CNN "link"
+F 5 "TIP29CFS-ND" H 14950 2800 60  0001 C CNN "PN"
 	1    14950 2800
 	1    0    0    -1  
 $EndComp
@@ -1820,7 +1827,8 @@ P 14200 3800
 F 0 "U104" H 14200 3400 60  0000 C CNN
 F 1 "XTR117" H 14200 4100 60  0000 C CNN
 F 2 "hyperCustom:TSSOP-8_3x3mm_Pitch0.65mmSSR" H 14200 4800 60  0001 C CNN
-F 3 "" H 14200 4800 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/xtr117.pdf" H 14200 4800 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/XTR117AIDGKT/296-18744-1-ND/863564" H 14200 3800 60  0001 C CNN "LInk"
 	1    14200 3800
 	1    0    0    -1  
 $EndComp
@@ -1855,7 +1863,9 @@ P 14950 3900
 F 0 "Q103" H 15150 3975 50  0000 L CNN
 F 1 "2SC1815" H 15150 3900 50  0000 L CNN
 F 2 "hyperCustom:TO-220-3_Vertical" H 15150 3825 50  0001 L CIN
-F 3 "" H 14950 3900 50  0000 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/TI/TIP29.pdf" H 14950 3900 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/fairchild-on-semiconductor/TIP29C/TIP29CFS-ND/458804" H 14950 3900 60  0001 C CNN "Link"
+F 5 "TIP29CFS-ND" H 14950 3900 60  0001 C CNN "PN"
 	1    14950 3900
 	1    0    0    -1  
 $EndComp
@@ -1882,17 +1892,6 @@ Text Label 13150 2650 2    60   ~ 0
 MPYE1
 Text Label 13150 3750 2    60   ~ 0
 MPYE2
-$Comp
-L CONN_01X02 P101
-U 1 1 592D54A5
-P 8300 8250
-F 0 "P101" H 8300 8400 50  0000 C CNN
-F 1 "CONN_01X02" V 8400 8250 50  0000 C CNN
-F 2 "hyperCustom:CONN_PHOENIX_1844210_2PIN" H 8300 8250 50  0001 C CNN
-F 3 "" H 8300 8250 50  0000 C CNN
-	1    8300 8250
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_01X02 P104
 U 1 1 592CD4FD
@@ -2120,4 +2119,18 @@ NoConn ~ 13000 5200
 NoConn ~ 14200 5650
 NoConn ~ 14200 5800
 NoConn ~ 14200 5950
+$Comp
+L CONN_01X02 P101
+U 1 1 592D102A
+P 8150 8550
+F 0 "P101" H 8150 8700 50  0000 C CNN
+F 1 "CONN_01X02" V 8250 8550 50  0001 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844210_2PIN" H 8150 8550 60  0001 C CNN
+F 3 "" H 8150 8550 60  0000 C CNN
+F 4 "Phoenix" H 8150 8550 60  0001 C CNN "Mfg."
+F 5 "1844210" H 8150 8550 60  0001 C CNN "Mfg. PN"
+F 6 "277-2416-ND" H 8150 8550 60  0001 C CNN "DigiKey PN"
+	1    8150 8550
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
