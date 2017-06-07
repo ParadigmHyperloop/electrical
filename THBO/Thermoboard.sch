@@ -3420,4 +3420,10 @@ F 3 "" H 3650 21800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3450 21800
+NoConn ~ 5200 4350
+NoConn ~ 5400 4350
+NoConn ~ 5500 4350
+NoConn ~ 12650 4300
+NoConn ~ 12850 4300
+NoConn ~ 12950 4300
 $EndSCHEMATC

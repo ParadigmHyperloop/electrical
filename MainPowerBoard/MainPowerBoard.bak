@@ -1919,4 +1919,6 @@ Wire Wire Line
 Wire Wire Line
 	17250 11250 18600 11250
 Connection ~ 18450 11250
+Text Notes 19000 11300 0    49   ~ 0
+Sensors
 $EndSCHEMATC

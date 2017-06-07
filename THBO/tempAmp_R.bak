@@ -80,6 +80,7 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:Zilog
 LIBS:hyperLib
+LIBS:mounting_hole
 LIBS:Thermoboard-cache
 EELAYER 25 0
 EELAYER END
