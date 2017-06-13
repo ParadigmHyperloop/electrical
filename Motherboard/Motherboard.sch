@@ -86,7 +86,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title "Motherboard"
 Date "2017-05-22"
 Rev "2"
@@ -251,8 +251,6 @@ Text Label 2100 5850 0    60   ~ 0
 CTS
 Text Label 2100 5750 0    60   ~ 0
 RTS
-Wire Bus Line
-	7550 850  7550 1550
 Entry Wire Line
 	7450 1550 7550 1450
 Entry Wire Line
@@ -268,7 +266,7 @@ SDA1
 Wire Bus Line
 	7600 3300 5200 3300
 Wire Bus Line
-	7600 2600 7600 3300
+	7600 2250 7600 3300
 Entry Wire Line
 	7500 2600 7600 2700
 Entry Wire Line
@@ -319,4 +317,54 @@ Wire Wire Line
 	1900 2250 2550 2250
 Wire Wire Line
 	1900 2400 2550 2400
+Wire Wire Line
+	7150 2350 7500 2350
+Wire Wire Line
+	7150 2450 7500 2450
+Text Label 7150 2450 0    60   ~ 0
+RTS
+Text Label 7150 2350 0    60   ~ 0
+CTS
+Text Notes 6700 2400 0    60   ~ 0
+Place at layout
+Entry Wire Line
+	7450 1750 7550 1650
+Entry Wire Line
+	7450 1850 7550 1750
+Wire Wire Line
+	7150 1750 7450 1750
+Wire Wire Line
+	7150 1850 7450 1850
+Text Label 7150 1750 0    60   ~ 0
+SCL2
+Text Label 7150 1850 0    60   ~ 0
+SDA2
+Wire Bus Line
+	7550 850  7550 1550
+Wire Bus Line
+	7550 1750 7550 1650
+Wire Bus Line
+	7550 1650 8100 1650
+Wire Bus Line
+	8100 1650 8100 1200
+Entry Wire Line
+	8200 1300 8100 1200
+Entry Wire Line
+	8200 1400 8100 1300
+Wire Wire Line
+	8500 1400 8200 1400
+Wire Wire Line
+	8500 1300 8200 1300
+Text Label 8500 1400 2    60   ~ 0
+SCL2
+Text Label 8500 1300 2    60   ~ 0
+SDA2
+Text Notes 8000 1650 2    60   ~ 0
+I2C_2
+$Sheet
+S 7600 4350 1850 1000
+U 593DFC8A
+F0 "MOBO_power" 60
+F1 "Power.sch" 60
+$EndSheet
 $EndSCHEMATC

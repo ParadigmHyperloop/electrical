@@ -86,7 +86,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title "Motherboard"
 Date "2017-05-22"
 Rev "2"
@@ -180,9 +180,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 3500 2050 3500
 Wire Bus Line
-	8150 650  8150 750 
-Wire Bus Line
-	8150 750  8150 850 
+	8150 650  8150 850 
 Entry Wire Line
 	8150 650  8250 750 
 Entry Wire Line
@@ -200,25 +198,11 @@ SDA1
 Text Label 8250 850  0    60   ~ 0
 SCL1
 Wire Bus Line
-	5200 3300 5200 3500
-Wire Bus Line
-	5200 3500 5200 3600
-Wire Bus Line
-	5200 3600 5200 3700
-Wire Bus Line
-	5200 3700 5200 3800
-Wire Bus Line
-	5200 3800 5200 5400
+	5200 3300 5200 5400
 Wire Bus Line
 	5200 5400 2750 5400
 Wire Bus Line
-	2750 5400 2750 5650
-Wire Bus Line
-	2750 5650 2750 5750
-Wire Bus Line
-	2750 5750 2750 5850
-Wire Bus Line
-	2750 5850 2750 5950
+	2750 5400 2750 5950
 Entry Wire Line
 	5100 3400 5200 3500
 Entry Wire Line
@@ -267,10 +251,6 @@ Text Label 2100 5850 0    60   ~ 0
 CTS
 Text Label 2100 5750 0    60   ~ 0
 RTS
-Wire Bus Line
-	7550 850  7550 1450
-Wire Bus Line
-	7550 1450 7550 1550
 Entry Wire Line
 	7450 1550 7550 1450
 Entry Wire Line
@@ -286,11 +266,7 @@ SDA1
 Wire Bus Line
 	7600 3300 5200 3300
 Wire Bus Line
-	7600 2600 7600 2700
-Wire Bus Line
-	7600 2700 7600 2800
-Wire Bus Line
-	7600 2800 7600 3300
+	7600 2250 7600 3300
 Entry Wire Line
 	7500 2600 7600 2700
 Entry Wire Line
@@ -304,13 +280,9 @@ RX_UART
 Text Label 7150 2600 0    60   ~ 0
 TX_UART
 Wire Bus Line
-	1900 2750 5250 2750
+	5250 2750 1900 2750
 Wire Bus Line
-	5250 2750 5250 2250
-Wire Bus Line
-	5250 2250 5250 2150
-Wire Bus Line
-	5250 2150 5250 2050
+	5250 2050 5250 2750
 Entry Wire Line
 	5250 2050 5350 1950
 Entry Wire Line
@@ -337,4 +309,62 @@ Wire Wire Line
 	2200 2650 1900 2650
 Text Label 2200 2650 2    60   ~ 0
 ~CS
+Text Notes 2450 1650 3    60   ~ 0
+DETERMINE AT LAYOUT\n
+Wire Wire Line
+	1900 2100 2550 2100
+Wire Wire Line
+	1900 2250 2550 2250
+Wire Wire Line
+	1900 2400 2550 2400
+Wire Wire Line
+	7150 2350 7500 2350
+Wire Wire Line
+	7150 2450 7500 2450
+Text Label 7150 2450 0    60   ~ 0
+RTS
+Text Label 7150 2350 0    60   ~ 0
+CTS
+Text Notes 6700 2400 0    60   ~ 0
+Place at layout
+Entry Wire Line
+	7450 1750 7550 1650
+Entry Wire Line
+	7450 1850 7550 1750
+Wire Wire Line
+	7150 1750 7450 1750
+Wire Wire Line
+	7150 1850 7450 1850
+Text Label 7150 1750 0    60   ~ 0
+SCL2
+Text Label 7150 1850 0    60   ~ 0
+SDA2
+Wire Bus Line
+	7550 850  7550 1550
+Wire Bus Line
+	7550 1750 7550 1650
+Wire Bus Line
+	7550 1650 8100 1650
+Wire Bus Line
+	8100 1650 8100 1200
+Entry Wire Line
+	8200 1300 8100 1200
+Entry Wire Line
+	8200 1400 8100 1300
+Wire Wire Line
+	8500 1400 8200 1400
+Wire Wire Line
+	8500 1300 8200 1300
+Text Label 8500 1400 2    60   ~ 0
+SCL2
+Text Label 8500 1300 2    60   ~ 0
+SDA2
+Text Notes 8000 1650 2    60   ~ 0
+I2C_2
+$Sheet
+S 7600 4350 1850 1000
+U 593DFC8A
+F0 "MOBO_power" 60
+F1 "Power.sch" 60
+$EndSheet
 $EndSCHEMATC
