@@ -1,4 +1,4 @@
-update=Saturday, May 06, 2017 'PMt' 08:36:45 PM
+update=Wednesday, June 14, 2017 'PMt' 02:58:07 PM
 last_client=kicad
 [general]
 version=1
@@ -75,3 +75,13 @@ LibName66=xilinx
 LibName67=ssr
 LibName68=mmbt2222alt1g
 LibName69=mounting_hole
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
