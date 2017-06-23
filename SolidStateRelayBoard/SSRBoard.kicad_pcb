@@ -7824,7 +7824,7 @@
   (gr_text SSR1 (at 42.39 31.14) (layer F.SilkS) (tstamp 586DB4C2)
     (effects (font (size 1.2 1.2) (thickness 0.3)) (justify left))
   )
-  (gr_text "Solid State Relay Board, Rev 2\nChris Reusch\nJames Massucco Rev 1\n© Paradigm 2017\n\n" (at 175.26 83.82) (layer F.SilkS) (tstamp 586DB4BC)
+  (gr_text "Solid State Relay Board, Rev 2.1\nChris Reusch\nJames Massucco Rev 1\n© Paradigm 2017\n\n" (at 175.26 83.82) (layer F.SilkS) (tstamp 586DB4BC)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
   (gr_text - (at 32.96 10.12) (layer F.SilkS) (tstamp 586DAA71)
