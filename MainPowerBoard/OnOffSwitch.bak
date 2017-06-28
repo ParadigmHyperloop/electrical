@@ -899,7 +899,7 @@ Wire Wire Line
 	3250 9900 3600 9900
 Text Label 3250 9200 2    60   ~ 0
 24V_REG_8_GPIO
-Text Label 3250 8300 2    60   ~ 0
+Text Label 3250 9000 2    60   ~ 0
 5V_REG_1_GPIO
 Wire Wire Line
 	3250 8300 3600 8300
@@ -1054,13 +1054,13 @@ Text Label 10500 9300 0    60   ~ 0
 5V_REG_1_GPIO
 Text Label 4100 8100 0    60   ~ 0
 5V0
-Text Label 3600 9000 2    60   ~ 0
+Text Label 3250 8300 2    60   ~ 0
 SW_ONOFF
-Text Label 3600 8800 2    60   ~ 0
+Text Label 3250 8800 2    60   ~ 0
 BBB_KILL_5V
-Text Label 3600 8600 2    60   ~ 0
+Text Label 3250 8600 2    60   ~ 0
 BBB_INT
-Text Label 3600 8400 2    60   ~ 0
+Text Label 3250 8400 2    60   ~ 0
 STATE
 Text HLabel 1300 1600 0    60   Input ~ 0
 SDA
@@ -1119,4 +1119,12 @@ Text GLabel 10500 9500 2    60   Input ~ 0
 NoConn ~ 3600 8900
 NoConn ~ 3600 8700
 NoConn ~ 3600 8500
+Wire Wire Line
+	3250 8400 3600 8400
+Wire Wire Line
+	3600 8600 3250 8600
+Wire Wire Line
+	3250 8800 3600 8800
+Wire Wire Line
+	3600 9000 3250 9000
 $EndSCHEMATC

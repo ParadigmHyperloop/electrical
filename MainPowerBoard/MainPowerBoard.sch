@@ -1433,10 +1433,6 @@ Connection ~ 8900 9450
 Wire Wire Line
 	8650 9450 8900 9450
 Wire Wire Line
-	8900 9250 8900 9600
-Wire Wire Line
-	8650 9250 8900 9250
-Wire Wire Line
 	12050 4200 12350 4200
 Wire Wire Line
 	12050 4800 12350 4800
@@ -1930,4 +1926,10 @@ Text Label 9650 1950 2    60   ~ 0
 GPIO_SDA
 Text Label 9650 2100 2    60   ~ 0
 GPIO_SCL
+Wire Wire Line
+	8900 9450 8900 9600
+Wire Wire Line
+	8650 9250 8950 9250
+Text Label 8950 9250 0    60   ~ 0
+BBB_INT
 $EndSCHEMATC
