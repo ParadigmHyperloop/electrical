@@ -8218,7 +8218,7 @@
   (gr_text "P105-109\nU101 ADDR:\n1-2: 1\n2-3: 0" (at 16.51 36.068) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_text "P105-P109\nPin1: +5V | SIG | GND\n\n" (at 9.652 65.532) (layer F.SilkS)
+  (gr_text "P105-P109\nPin1: +5V | SIG | GND\n\n" (at 14.224 15.748) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_text SSR13 (at 152.4 31) (layer F.SilkS) (tstamp 586DB4EE)

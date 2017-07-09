@@ -2,8 +2,8 @@
 
   (general
     (links 359)
-    (no_connects 82)
-    (area -0.075001 -0.075001 215.975001 88.975001)
+    (no_connects 1)
+    (area -0.075001 -23.524 398.892 168.26)
     (thickness 1.6)
     (drawings 28)
     (tracks 1707)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 2)
@@ -5069,7 +5069,7 @@
     (pad "" thru_hole circle (at 2.926815 -2.926815) (size 0.7 0.7) (drill 0.6) (layers *.Cu *.Mask))
   )
 
-  (module hyperCustom:MountingHole_5.5mm_Pad_Via (layer F.Cu) (tedit 596279A7) (tstamp 586CD998)
+  (module hyperCustom:MountingHole_5.5mm_Pad_Via (layer F.Cu) (tedit 59627CA5) (tstamp 586CD998)
     (at 196.596 81.28)
     (descr "Mounting Hole 5.5mm")
     (tags "mounting hole 5.5mm")
@@ -5082,7 +5082,7 @@
     )
     (fp_circle (center 0 0) (end 5.5 0) (layer Cmts.User) (width 0.15))
     (fp_circle (center 0 0) (end 5.75 0) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole circle (at 196.596 81.28) (size 11 11) (drill 5.5) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -0.036 0) (size 11 11) (drill 5.5) (layers *.Cu *.Mask)
       (net 2 GND) (zone_connect 2))
     (pad "" thru_hole circle (at 4.125 0) (size 0.7 0.7) (drill 0.6) (layers *.Cu *.Mask))
     (pad "" thru_hole circle (at 2.926815 2.926815) (size 0.7 0.7) (drill 0.6) (layers *.Cu *.Mask))
