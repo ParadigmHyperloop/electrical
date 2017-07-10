@@ -5453,7 +5453,7 @@
   )
 
   (module hyperCustom:ParadigmLogo_0_5x0_5 (layer F.Cu) (tedit 0) (tstamp 586DB4BA)
-    (at 112.268 115.824)
+    (at 134.62 38.608)
     (fp_text reference G*** (at 0.254 0.254) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
