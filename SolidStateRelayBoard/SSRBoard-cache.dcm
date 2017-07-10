@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Q_PMOS_DGS_SSR
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 #End Doc Library
