@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
-    (links 421)
-    (no_connects 19)
-    (area -0.075001 -0.075001 209.371001 88.975001)
+    (links 408)
+    (no_connects 6)
+    (area -0.075001 -23.524 243.663239 94.675)
     (thickness 1.6)
     (drawings 28)
     (tracks 1850)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 2)
@@ -5494,8 +5494,8 @@
   )
 
   (module hyperCustom:ParadigmLogo_0_5x0_5 (layer F.Cu) (tedit 0) (tstamp 586DB4BA)
-    (at 134.62 38.608)
-    (fp_text reference G*** (at 0.254 0.254) (layer F.SilkS) hide
+    (at 193.548 35.052)
+    (fp_text reference G*** (at -0.508 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
     (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
