@@ -1,7 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP NFET
-F transistors/mos/*.*
-$ENDCMP
-#
-#End Doc Library

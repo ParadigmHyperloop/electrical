@@ -443,7 +443,7 @@ L R R108
 U 1 1 596431EF
 P 7500 3800
 F 0 "R108" H 7650 4000 50  0000 C CNN
-F 1 "1430" H 7650 3850 50  0000 C CNN
+F 1 "1M" H 7650 3850 50  0000 C CNN
 F 2 "" V 7430 3800 30  0000 C CNN
 F 3 "" H 7500 3800 30  0000 C CNN
 	1    7500 3800
@@ -468,7 +468,7 @@ L R R109
 U 1 1 5964441F
 P 7900 4150
 F 0 "R109" V 7800 4000 50  0000 C CNN
-F 1 "714k" V 7800 4350 50  0000 C CNN
+F 1 "1k" V 7800 4350 50  0000 C CNN
 F 2 "" V 7830 4150 30  0000 C CNN
 F 3 "" H 7900 4150 30  0000 C CNN
 	1    7900 4150
@@ -500,7 +500,7 @@ L C C102
 U 1 1 59644791
 P 8300 4700
 F 0 "C102" H 8350 4800 50  0000 L CNN
-F 1 "1uF" H 8350 4600 50  0000 L CNN
+F 1 "68nF" H 8350 4600 50  0000 L CNN
 F 2 "" H 8338 4550 30  0000 C CNN
 F 3 "" H 8300 4700 60  0000 C CNN
 	1    8300 4700
@@ -555,10 +555,8 @@ Wire Wire Line
 Wire Wire Line
 	9650 3400 9650 3850
 Wire Wire Line
-	7500 3400 9650 3400
+	7500 3400 11000 3400
 Connection ~ 8900 3400
-Wire Wire Line
-	10250 4250 11050 4250
 Wire Wire Line
 	9650 4650 9650 5000
 $Comp
@@ -572,10 +570,10 @@ F 3 "" H 9650 5000 60  0000 C CNN
 	1    9650 5000
 	1    0    0    -1  
 $EndComp
-Text Label 10400 4250 0    60   ~ 0
+Text Label 10400 4800 0    60   ~ 0
 MAIN_FET_EN_L
-Text Notes 7750 2950 0    60   ~ 0
-Delay time from BMS_DISCHARGE_EN_L  ¯¯|_ _  to MAIN_FET_EN_L ¯¯|_ _\n		delay time = 0.7 * (R109 * C) = 50ms\n\n\nDelay time for pack off (rising edges):\n		delay time = 0.7 * (R108 * C) = 1ms\n\nReference: http://home.cogeco.ca/~~rpaisley4/ComparatorTimeDelay3.GIF
+Text Notes 7750 3050 0    60   ~ 0
+Delay time from BMS_DISCHARGE_EN_L  ¯¯|_ _  to MAIN_FET_EN_L ¯¯|_ _\n		delay time = 0.7 * (R109 * C) = 50ms\n\n\nDelay time for pack off (rising edges):\n		delay time = 0.7 * (R108 * C) = 50us\n\nReference: http://home.cogeco.ca/~~rpaisley4/Comparators.html\nNote: remove the second tilde (~~) from URL source (it's an escape char)
 Wire Wire Line
 	7350 4400 7700 4400
 Wire Wire Line
@@ -816,4 +814,40 @@ Wire Wire Line
 Connection ~ 3200 6450
 Wire Wire Line
 	3200 7200 3200 7000
+$Comp
+L LED D?
+U 1 1 5964564F
+P 11000 3700
+F 0 "D?" V 10900 3500 50  0000 C CNN
+F 1 "LED" V 11100 3500 50  0000 C CNN
+F 2 "" H 11000 3700 60  0000 C CNN
+F 3 "" H 11000 3700 60  0000 C CNN
+	1    11000 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10250 4250 10450 4250
+Wire Wire Line
+	10350 4250 10350 4800
+Wire Wire Line
+	10350 4800 11100 4800
+Wire Wire Line
+	11000 3400 11000 3500
+Connection ~ 9650 3400
+$Comp
+L R R?
+U 1 1 59645967
+P 10700 4250
+F 0 "R?" V 10600 4100 50  0000 C CNN
+F 1 "R" V 10600 4450 50  0000 C CNN
+F 2 "" V 10630 4250 30  0000 C CNN
+F 3 "" H 10700 4250 30  0000 C CNN
+	1    10700 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11000 3900 11000 4250
+Wire Wire Line
+	11000 4250 10950 4250
+Connection ~ 10350 4250
 $EndSCHEMATC

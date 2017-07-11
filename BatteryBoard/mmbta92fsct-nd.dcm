@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MMBTA92FSCT-ND
-D 2SA1016, 50V Vce, 0.15A Ic, Low Noise Audio PNP Transistor, TO-92
-K Low Noise Audio PNP Transistor
-F http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf
-$ENDCMP
-#
-#End Doc Library
