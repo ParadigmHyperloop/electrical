@@ -67,6 +67,7 @@ LIBS:xilinx
 LIBS:555
 LIBS:lt3060
 LIBS:lm321_5pin
+LIBS:AOB290L_nfet
 LIBS:BatteryBoard-cache
 EELAYER 25 0
 EELAYER END
@@ -135,18 +136,7 @@ F 3 "" H 3000 2600 60  0000 C CNN
 $EndComp
 Connection ~ 3000 2300
 Wire Wire Line
-	3000 2800 3000 2900
-$Comp
-L GND #PWR301
-U 1 1 59657940
-P 3000 2900
-F 0 "#PWR301" H 3000 2650 60  0001 C CNN
-F 1 "GND" H 3000 2750 60  0000 C CNN
-F 2 "" H 3000 2900 60  0000 C CNN
-F 3 "" H 3000 2900 60  0000 C CNN
-	1    3000 2900
-	1    0    0    -1  
-$EndComp
+	3000 2800 3000 3000
 Wire Wire Line
 	3950 2250 3600 2250
 Connection ~ 3000 2050
@@ -154,18 +144,7 @@ Connection ~ 3600 2250
 Wire Wire Line
 	3600 1900 3600 2350
 Wire Wire Line
-	3600 2850 3600 2900
-$Comp
-L GND #PWR302
-U 1 1 5965794B
-P 3600 2900
-F 0 "#PWR302" H 3600 2650 60  0001 C CNN
-F 1 "GND" H 3600 2750 60  0000 C CNN
-F 2 "" H 3600 2900 60  0000 C CNN
-F 3 "" H 3600 2900 60  0000 C CNN
-	1    3600 2900
-	1    0    0    -1  
-$EndComp
+	3600 3000 3600 2850
 $Comp
 L R R303
 U 1 1 59657951
@@ -183,18 +162,7 @@ Wire Wire Line
 	4350 1300 4350 1750
 Connection ~ 3600 1300
 Wire Wire Line
-	4350 2550 4350 2900
-$Comp
-L GND #PWR303
-U 1 1 5965795C
-P 4350 2900
-F 0 "#PWR303" H 4350 2650 60  0001 C CNN
-F 1 "GND" H 4350 2750 60  0000 C CNN
-F 2 "" H 4350 2900 60  0000 C CNN
-F 3 "" H 4350 2900 60  0000 C CNN
-	1    4350 2900
-	1    0    0    -1  
-$EndComp
+	4350 3000 4350 2550
 Text Notes 6650 1700 0    60   ~ 0
 Delay time from BMS_DISCHARGE_EN_L  ¯¯|_ _  to MAIN_FET_EN_L ¯¯|_ _\n		delay time = 0.7 * (R109 * C) = 50ms\n\n\nDelay time for pack off (rising edges):\n		delay time = 0.7 * (R108 * C) = 50us\n\nReference: http://home.cogeco.ca/~~rpaisley4/Comparators.html\nNote: remove the second tilde (~~) from URL source (it's an escape char)
 Wire Wire Line
@@ -249,4 +217,10 @@ F 6 "LM321MFX/NOPBCT-ND" H 4450 2150 60  0001 C CNN "Digi-Key PN"
 	1    4450 2150
 	1    0    0    -1  
 $EndComp
+Text HLabel 2700 3000 0    60   Input ~ 0
+BMS_GND
+Wire Wire Line
+	2700 3000 4350 3000
+Connection ~ 3000 3000
+Connection ~ 3600 3000
 $EndSCHEMATC

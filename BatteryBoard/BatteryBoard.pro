@@ -1,4 +1,4 @@
-update=Thursday, July 13, 2017 'AMt' 02:29:44 AM
+update=Thursday, July 13, 2017 'AMt' 11:29:11 AM
 last_client=kicad
 [general]
 version=1
@@ -74,3 +74,4 @@ LibName65=xilinx
 LibName66=555
 LibName67=lt3060
 LibName68=lm321_5pin
+LibName69=AOB290L_nfet
