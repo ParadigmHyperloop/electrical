@@ -1,4 +1,4 @@
-update=Wednesday, July 12, 2017 'PMt' 04:43:00 PM
+update=Thursday, July 13, 2017 'AMt' 12:04:02 AM
 last_client=kicad
 [general]
 version=1
@@ -72,3 +72,4 @@ LibName63=valves
 LibName64=video
 LibName65=xilinx
 LibName66=555
+LibName67=lt3014b
