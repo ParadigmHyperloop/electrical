@@ -108,8 +108,6 @@ Wire Wire Line
 	2050 3150 2050 3000
 Wire Wire Line
 	2050 2500 2050 2400
-Wire Wire Line
-	2050 2400 4300 2400
 Text Label 2050 2400 0    60   ~ 0
 15V0
 $Comp
@@ -125,7 +123,7 @@ F 3 "" H 2500 3150 60  0000 C CNN
 $EndComp
 Connection ~ 2050 3150
 Wire Wire Line
-	2700 3150 3500 3150
+	4300 3150 2700 3150
 $Comp
 L R R202
 U 1 1 59655F45
@@ -202,7 +200,7 @@ Wire Wire Line
 	4700 2150 4900 2150
 Connection ~ 4700 2000
 Wire Wire Line
-	4300 2400 4300 1800
+	4300 1800 4300 3150
 Wire Wire Line
 	4300 1800 4900 1800
 Connection ~ 4700 2150
@@ -234,7 +232,6 @@ Wire Wire Line
 	4700 3300 4700 3500
 Wire Wire Line
 	3500 2550 3500 2400
-Connection ~ 3500 2400
 Wire Wire Line
 	3500 3150 3500 2950
 $Comp
@@ -262,4 +259,7 @@ Wire Wire Line
 	4200 3500 5750 3500
 Connection ~ 4700 3500
 Connection ~ 5450 3500
+Connection ~ 3500 3150
+Wire Wire Line
+	3500 2400 2050 2400
 $EndSCHEMATC
