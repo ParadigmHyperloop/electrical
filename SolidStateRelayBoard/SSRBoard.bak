@@ -3240,11 +3240,7 @@ $EndComp
 Text Notes 4650 5150 0    118  ~ 24
 Power Connector
 Wire Wire Line
-	9100 8550 8800 8550
-Wire Wire Line
-	8800 8550 8800 8450
-Wire Wire Line
-	8800 8450 8450 8450
+	8450 8550 9100 8550
 $Comp
 L R R135
 U 1 1 59648BAA
@@ -3343,4 +3339,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 5600 5650 5600
 Connection ~ 5500 5600
+Wire Wire Line
+	8450 8550 8450 8450
+Wire Wire Line
+	8800 8550 8800 8450
+Connection ~ 8800 8550
 $EndSCHEMATC
