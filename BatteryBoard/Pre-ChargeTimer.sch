@@ -68,6 +68,7 @@ LIBS:555
 LIBS:lt3060
 LIBS:lm321_5pin
 LIBS:AOB290L_nfet
+LIBS:mounting_hole
 LIBS:BatteryBoard-cache
 EELAYER 25 0
 EELAYER END
