@@ -1,4 +1,4 @@
-update=Sunday, July 16, 2017 'PMt' 11:07:33 PM
+update=Monday, July 17, 2017 'PMt' 04:02:26 PM
 last_client=kicad
 [general]
 version=1
@@ -76,3 +76,4 @@ LibName67=lt3060
 LibName68=lm321_5pin
 LibName69=AOB290L_nfet
 LibName70=mounting_hole
+LibName71=pnp_bjt
