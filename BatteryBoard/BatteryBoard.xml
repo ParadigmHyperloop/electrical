@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/Paradigm/full_electrical/BatteryBoard/BatteryBoard.sch</source>
+    <date>Wednesday, July 19, 2017 'AMt' 09:59:26 AM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BatteryBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Pre-Charge Timer/" tstamps="/596556ED/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Pre-ChargeTimer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Discharge Timer/" tstamps="/5965731E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DischargeTimer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J102">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1923869_2PIN</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1923869</field>
+        <field name="Digi-Key PN">277-6570-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59628EE7</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>0.001</value>
+      <footprint>hyperCustom:RSNS_VISHAY_WSR21L000FEA</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">WSR21L000FEA</field>
+        <field name="Digi-Key PN">WSRA-.001CT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59629279</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59629405</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Samsung</field>
+        <field name="Mfg. PN">CL31B106KAHNNNE</field>
+        <field name="Digi-Key PN">1276-1804-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596298AD</tstamp>
+    </comp>
+    <comp ref="Q102">
+      <value>AOB290L</value>
+      <footprint>hyperCustom:DD-PAK_TO263_AOB290L</footprint>
+      <fields>
+        <field name="Mfg.">Alpha &amp; Omega</field>
+        <field name="Mfg. PN">AOB290L</field>
+        <field name="Digi-Key PN">785-1329-1-ND</field>
+      </fields>
+      <libsource lib="AOB290L_nfet" part="AOB290L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963DFAE</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963E765</tstamp>
+    </comp>
+    <comp ref="Q101">
+      <value>PNP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Fairchild</field>
+        <field name="Mfg. PN">MMBTA92</field>
+        <field name="Digi-Key PN">MMBTA92FSCT-ND</field>
+      </fields>
+      <libsource lib="pnp_bjt" part="PNP_BJT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963E81A</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963EA1E</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963F896</tstamp>
+    </comp>
+    <comp ref="Q103">
+      <value>MOS_N</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg.">Fairchild</field>
+        <field name="Mfg. PN">BSS123</field>
+        <field name="Digi-Key PN">BSS123NCT-ND</field>
+      </fields>
+      <libsource lib="AOB290L_nfet" part="NFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963FBCB</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW08051M00FKEA</field>
+        <field name="Digi-Key PN">541-1.00MCCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963FBD3</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_2512_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963FF36</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>GRN</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596524D9</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59652B72</tstamp>
+    </comp>
+    <comp ref="F101">
+      <value>7A</value>
+      <footprint>hyperCustom:Fuseholder_5x20mm_Wurth</footprint>
+      <fields>
+        <field name="Mfg.">Wurth Electronics</field>
+        <field name="Mfg. PN">696103201002</field>
+        <field name="Digi-Key PN">732-11372-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5965B483</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>CONN_01X06</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1844252_6PIN</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1844252</field>
+        <field name="Digi-Key PN">277-2427-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5965C69D</tstamp>
+    </comp>
+    <comp ref="F102">
+      <value>1A</value>
+      <footprint>hyperCustom:Fuse_SMD_2410</footprint>
+      <fields>
+        <field name="Mfg.">Bel Fuse</field>
+        <field name="Mfg. PN">0679H1000-05</field>
+        <field name="Digi-Key PN">507-2046-2-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59668D85</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>CONN_01X06</value>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1862894</field>
+        <field name="Digi-Key PN">277-6439-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59674956</tstamp>
+    </comp>
+    <comp ref="J105">
+      <value>CONN_01X02</value>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1912401</field>
+        <field name="Digi-Key PN">277-14370-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59674A61</tstamp>
+    </comp>
+    <comp ref="F104">
+      <value>7A</value>
+      <fields>
+        <field name="Mfg.">Bel Fuse</field>
+        <field name="Mfg. PN">5TT 7-R</field>
+        <field name="Digi-Key PN">507-1301-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59674D65</tstamp>
+    </comp>
+    <comp ref="F105">
+      <value>10A</value>
+      <fields>
+        <field name="Mfg.">Schurter</field>
+        <field name="Mfg. PN">0034.0911</field>
+        <field name="Digi-Key PN">486-2503-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5967573A</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966F1B3</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5967021E</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>ZENER</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596720A3</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Samsung</field>
+        <field name="Mfg. PN">CL31B105KCHNNNE</field>
+        <field name="Digi-Key PN">1276-1838-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5967384A</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>NOSTUFF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59670CF8</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>NOSTUFF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596756AA</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1923869_2PIN</footprint>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1923869</field>
+        <field name="Digi-Key PN">277-6570-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5967A3D8</tstamp>
+    </comp>
+    <comp ref="Q104">
+      <value>NOSTUFF</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <libsource lib="AOB290L_nfet" part="NFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5967CECE</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>NOSTUFF</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5967D6F1</tstamp>
+    </comp>
+    <comp ref="J106">
+      <value>CONN_01X02</value>
+      <fields>
+        <field name="Mfg.">Phoenix</field>
+        <field name="Mfg. PN">1912401</field>
+        <field name="Digi-Key PN">277-14370-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596817E0</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_2512_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59682D0A</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Vishay Dale</field>
+        <field name="Mfg. PN">CRCW08051M00FKEA</field>
+        <field name="Digi-Key PN">541-1.00MCCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59684795</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596876D0</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59687781</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>GRN</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59687A1B</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>RED</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59687B00</tstamp>
+    </comp>
+    <comp ref="F103">
+      <value>1A</value>
+      <footprint>hyperCustom:Fuse_SMD_2410</footprint>
+      <fields>
+        <field name="Mfg.">Bel Fuse</field>
+        <field name="Mfg. PN">0679H1000-05</field>
+        <field name="Digi-Key PN">507-2046-2-ND</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5967910D</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59682E7D</tstamp>
+    </comp>
+    <comp ref="J107">
+      <value>MOUNTING_HOLE</value>
+      <footprint>hyperCustom:MountingHole_5.5mm_Pad_Via</footprint>
+      <libsource lib="mounting_hole" part="MOUNTING_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C2C78</tstamp>
+    </comp>
+    <comp ref="J108">
+      <value>MOUNTING_HOLE</value>
+      <footprint>hyperCustom:MountingHole_5.5mm_Pad_Via</footprint>
+      <libsource lib="mounting_hole" part="MOUNTING_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C3570</tstamp>
+    </comp>
+    <comp ref="J109">
+      <value>MOUNTING_HOLE</value>
+      <footprint>hyperCustom:MountingHole_5.5mm_Pad_Via</footprint>
+      <libsource lib="mounting_hole" part="MOUNTING_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C362F</tstamp>
+    </comp>
+    <comp ref="J110">
+      <value>MOUNTING_HOLE</value>
+      <footprint>hyperCustom:MountingHole_5.5mm_Pad_Via</footprint>
+      <libsource lib="mounting_hole" part="MOUNTING_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C36F1</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>LT3060</value>
+      <libsource lib="lt3060" part="LT3060"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596D12F6</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Pre-Charge Timer/" tstamps="/596556ED/"/>
+      <tstamp>59655F30</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Pre-Charge Timer/" tstamps="/596556ED/"/>
+      <tstamp>59655F3C</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Pre-Charge Timer/" tstamps="/596556ED/"/>
+      <tstamp>59655F45</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>DIODE</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">1N4148X-TP</field>
+        <field name="Digi-Key PN">1N4148XTPMSCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/Pre-Charge Timer/" tstamps="/596556ED/"/>
+      <tstamp>59655F4C</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Pre-Charge Timer/" tstamps="/596556ED/"/>
+      <tstamp>59655F5C</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Pre-Charge Timer/" tstamps="/596556ED/"/>
+      <tstamp>59655F72</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Pre-Charge Timer/" tstamps="/596556ED/"/>
+      <tstamp>59655F81</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Pre-Charge Timer/" tstamps="/596556ED/"/>
+      <tstamp>59655F88</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>555</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Mfg.">Texas Instruments</field>
+        <field name="Mfg. PN">LMC555CMX/NOPB</field>
+        <field name="Digi-Key PN">LMC555CMX/NOPBCT-ND</field>
+      </fields>
+      <libsource lib="555" part="555"/>
+      <sheetpath names="/Pre-Charge Timer/" tstamps="/596556ED/"/>
+      <tstamp>59655F28</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Discharge Timer/" tstamps="/5965731E/"/>
+      <tstamp>59657917</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Discharge Timer/" tstamps="/5965731E/"/>
+      <tstamp>59657923</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>68nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Discharge Timer/" tstamps="/5965731E/"/>
+      <tstamp>59657937</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>500k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Discharge Timer/" tstamps="/5965731E/"/>
+      <tstamp>59657951</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>500k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Discharge Timer/" tstamps="/5965731E/"/>
+      <tstamp>59657966</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>DIODE</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="Mfg.">Micro</field>
+        <field name="Mfg. PN">1N4148X-TP</field>
+        <field name="Digi-Key PN">1N4148XTPMSCT-ND</field>
+      </fields>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/Discharge Timer/" tstamps="/5965731E/"/>
+      <tstamp>59686805</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>LM321</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Texas Instruments</field>
+        <field name="Mfg. PN">LM321MFX/NOPB</field>
+        <field name="Digi-Key PN">LM321MFX/NOPBCT-ND</field>
+      </fields>
+      <libsource lib="lm321_5pin" part="LM321_5pin"/>
+      <sheetpath names="/Discharge Timer/" tstamps="/5965731E/"/>
+      <tstamp>59686CFB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="555" part="555">
+      <docs>ns/lm555.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="RST" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AOB290L_nfet" part="AOB290L">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AOB290L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="DIODE">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lm321_5pin" part="LM321_5pin">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM321_5pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="V-" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="V+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lt3060" part="LT3060">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3060</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~SHDN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="IN" type="input"/>
+        <pin num="6" name="OUT" type="input"/>
+        <pin num="7" name="ADJ" type="input"/>
+        <pin num="8" name="REF/BYP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="mounting_hole" part="MOUNTING_HOLE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MOUNTING_HOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AOB290L_nfet" part="NFET">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NFET</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pnp_bjt" part="PNP_BJT">
+      <docs>transistors/bipolar/*.*</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PNP_BJT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Users/jmassucco17/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Users/jmassucco17/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="lm321_5pin">
+      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/Paradigm/full_electrical/BatteryBoard/lm321_5pin.lib</uri>
+    </library>
+    <library logical="pnp_bjt">
+      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/Paradigm/full_electrical/BatteryBoard/pnp_bjt.lib</uri>
+    </library>
+    <library logical="AOB290L_nfet">
+      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/Paradigm/full_electrical/BatteryBoard/AOB290L_nfet.lib</uri>
+    </library>
+    <library logical="555">
+      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/Paradigm/full_electrical/BatteryBoard/555.lib</uri>
+    </library>
+    <library logical="lt3060">
+      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/Paradigm/full_electrical/BatteryBoard/lt3060.lib</uri>
+    </library>
+    <library logical="mounting_hole">
+      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/Paradigm/full_electrical/BatteryBoard/mounting_hole.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C103-Pad1)">
+      <node ref="C103" pin="1"/>
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="2" name="Net-(R109-Pad2)">
+      <node ref="R111" pin="1"/>
+      <node ref="R109" pin="2"/>
+      <node ref="U101" pin="7"/>
+    </net>
+    <net code="3" name="Net-(J105-Pad1)">
+      <node ref="J105" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J104-Pad6)">
+      <node ref="J104" pin="6"/>
+    </net>
+    <net code="5" name="Net-(J104-Pad5)">
+      <node ref="J104" pin="5"/>
+    </net>
+    <net code="6" name="Net-(J104-Pad4)">
+      <node ref="J104" pin="4"/>
+    </net>
+    <net code="7" name="Net-(J104-Pad3)">
+      <node ref="J104" pin="3"/>
+    </net>
+    <net code="8" name="Net-(J104-Pad2)">
+      <node ref="J104" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J104-Pad1)">
+      <node ref="J104" pin="1"/>
+    </net>
+    <net code="10" name="Net-(Q101-Pad1)">
+      <node ref="Q101" pin="1"/>
+      <node ref="R104" pin="2"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="11" name="Net-(Q101-Pad3)">
+      <node ref="Q101" pin="3"/>
+      <node ref="R107" pin="1"/>
+    </net>
+    <net code="12" name="Net-(Q102-Pad1)">
+      <node ref="Q102" pin="1"/>
+      <node ref="R107" pin="2"/>
+      <node ref="R113" pin="1"/>
+    </net>
+    <net code="13" name="Net-(F105-Pad2)">
+      <node ref="F105" pin="2"/>
+    </net>
+    <net code="14" name="Net-(F105-Pad1)">
+      <node ref="F105" pin="1"/>
+    </net>
+    <net code="15" name="Net-(F104-Pad2)">
+      <node ref="F104" pin="2"/>
+    </net>
+    <net code="16" name="Net-(F104-Pad1)">
+      <node ref="F104" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J105-Pad2)">
+      <node ref="J105" pin="2"/>
+    </net>
+    <net code="18" name="Net-(J108-Pad1)">
+      <node ref="J108" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J107-Pad1)">
+      <node ref="J107" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J110-Pad1)">
+      <node ref="J110" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J109-Pad1)">
+      <node ref="J109" pin="1"/>
+    </net>
+    <net code="22" name="/BMS_GND">
+      <node ref="R113" pin="2"/>
+      <node ref="R105" pin="2"/>
+      <node ref="R102" pin="2"/>
+      <node ref="Q102" pin="3"/>
+      <node ref="R103" pin="1"/>
+      <node ref="R115" pin="1"/>
+    </net>
+    <net code="23" name="/READY_PWR">
+      <node ref="J101" pin="1"/>
+      <node ref="F103" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D104-Pad1)">
+      <node ref="D104" pin="1"/>
+      <node ref="R114" pin="2"/>
+    </net>
+    <net code="25" name="/15V0">
+      <node ref="U201" pin="8"/>
+      <node ref="R202" pin="1"/>
+      <node ref="D201" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="D103" pin="2"/>
+      <node ref="U201" pin="4"/>
+      <node ref="R201" pin="1"/>
+      <node ref="D102" pin="2"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="R106" pin="2"/>
+      <node ref="U301" pin="5"/>
+      <node ref="C101" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="R303" pin="1"/>
+      <node ref="D101" pin="1"/>
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="26" name="/BMS_GND_LOW_CURR">
+      <node ref="C103" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="R115" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="U201" pin="1"/>
+      <node ref="R111" pin="2"/>
+      <node ref="J101" pin="6"/>
+      <node ref="R304" pin="2"/>
+      <node ref="D101" pin="2"/>
+      <node ref="U101" pin="4"/>
+      <node ref="U101" pin="3"/>
+      <node ref="U101" pin="2"/>
+      <node ref="R114" pin="1"/>
+      <node ref="R108" pin="1"/>
+      <node ref="C301" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D102-Pad1)">
+      <node ref="R108" pin="2"/>
+      <node ref="D102" pin="1"/>
+    </net>
+    <net code="28" name="Net-(J106-Pad2)">
+      <node ref="J106" pin="2"/>
+    </net>
+    <net code="29" name="Net-(J106-Pad1)">
+      <node ref="J106" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D103-Pad1)">
+      <node ref="D103" pin="1"/>
+      <node ref="R118" pin="2"/>
+    </net>
+    <net code="31" name="/MAIN_FET_EN_L">
+      <node ref="U301" pin="4"/>
+      <node ref="R104" pin="1"/>
+      <node ref="R118" pin="1"/>
+    </net>
+    <net code="32" name="/SYSTEM_GND">
+      <node ref="R112" pin="2"/>
+      <node ref="Q102" pin="2"/>
+      <node ref="R116" pin="1"/>
+      <node ref="J103" pin="2"/>
+    </net>
+    <net code="33" name="Net-(Q103-Pad3)">
+      <node ref="Q103" pin="3"/>
+      <node ref="R116" pin="2"/>
+      <node ref="Q104" pin="2"/>
+    </net>
+    <net code="34" name="/PACK_POS_FUSED">
+      <node ref="F101" pin="2"/>
+      <node ref="J103" pin="1"/>
+    </net>
+    <net code="35" name="/CELL_10_POS">
+      <node ref="J102" pin="1"/>
+      <node ref="F102" pin="1"/>
+      <node ref="F101" pin="1"/>
+    </net>
+    <net code="36" name="/BMS_DISCHARGE_EN_L">
+      <node ref="R302" pin="2"/>
+      <node ref="R301" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="D301" pin="2"/>
+      <node ref="J101" pin="3"/>
+    </net>
+    <net code="37" name="/CELL_10_POS_FUSED">
+      <node ref="C102" pin="1"/>
+      <node ref="U101" pin="1"/>
+      <node ref="F102" pin="2"/>
+      <node ref="U101" pin="5"/>
+    </net>
+    <net code="38" name="/CURR_SHUNT_POS">
+      <node ref="J101" pin="4"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="39" name="/CURR_SHUNT_NEG">
+      <node ref="J101" pin="5"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="40" name="Net-(Q103-Pad2)">
+      <node ref="R110" pin="2"/>
+      <node ref="Q104" pin="3"/>
+      <node ref="Q103" pin="2"/>
+      <node ref="R105" pin="1"/>
+    </net>
+    <net code="41" name="/PRECHG_FET_EN">
+      <node ref="R110" pin="1"/>
+      <node ref="Q104" pin="1"/>
+      <node ref="R112" pin="1"/>
+      <node ref="Q103" pin="1"/>
+      <node ref="D104" pin="2"/>
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="42" name="/BMS_READY_PWR_FUSED">
+      <node ref="F103" pin="2"/>
+      <node ref="J101" pin="2"/>
+    </net>
+    <net code="43" name="/CELL_1_NEG">
+      <node ref="J102" pin="2"/>
+      <node ref="R103" pin="2"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="44" name="Net-(C202-Pad2)">
+      <node ref="C202" pin="2"/>
+      <node ref="R204" pin="2"/>
+    </net>
+    <net code="45" name="Net-(R203-Pad2)">
+      <node ref="U201" pin="7"/>
+      <node ref="U201" pin="6"/>
+      <node ref="R203" pin="2"/>
+      <node ref="R204" pin="1"/>
+    </net>
+    <net code="46" name="Net-(C203-Pad2)">
+      <node ref="U201" pin="5"/>
+      <node ref="C203" pin="2"/>
+    </net>
+    <net code="47" name="Net-(C201-Pad1)">
+      <node ref="U201" pin="2"/>
+      <node ref="C201" pin="1"/>
+      <node ref="D201" pin="2"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="48" name="Net-(C301-Pad1)">
+      <node ref="C301" pin="1"/>
+      <node ref="R302" pin="1"/>
+      <node ref="D301" pin="1"/>
+      <node ref="U301" pin="1"/>
+    </net>
+    <net code="49" name="Net-(R303-Pad2)">
+      <node ref="R303" pin="2"/>
+      <node ref="R304" pin="1"/>
+      <node ref="U301" pin="3"/>
+    </net>
+  </nets>
+</export>

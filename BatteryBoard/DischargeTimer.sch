@@ -130,7 +130,7 @@ L C C301
 U 1 1 59657937
 P 3000 2600
 F 0 "C301" H 3050 2700 50  0000 L CNN
-F 1 "68nF" H 3050 2500 50  0000 L CNN
+F 1 "0.1uF" H 3050 2500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3038 2450 30  0001 C CNN
 F 3 "" H 3000 2600 60  0000 C CNN
 	1    3000 2600
@@ -166,7 +166,7 @@ Connection ~ 3600 1300
 Wire Wire Line
 	4350 3000 4350 2550
 Text Notes 6650 1700 0    60   ~ 0
-Delay time from BMS_DISCHARGE_EN_L  ¯¯|_ _  to MAIN_FET_EN_L ¯¯|_ _\n		delay time = 0.7 * (R302 * C) = 50ms\n\n\nDelay time for pack off (rising edges):\n		delay time = 0.7 * (R301 * C) = 500us\n\nReference: http://home.cogeco.ca/~~rpaisley4/Comparators.html\nNote: remove the second tilde (~~) from URL source (it's an escape char)
+Delay time from BMS_DISCHARGE_EN_L  ¯¯|_ _  to MAIN_FET_EN_L ¯¯|_ _\n		delay time = 0.7 * (R302 * C) = 70ms\n\n\nDelay time for pack off (rising edges):\n		delay time = 0.7 * (R301 * C) = 700us\n\nReference: http://home.cogeco.ca/~~rpaisley4/Comparators.html\nNote: remove the second tilde (~~) from URL source (it's an escape char)
 Wire Wire Line
 	2050 2300 2400 2300
 Wire Wire Line
