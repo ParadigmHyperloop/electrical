@@ -1,0 +1,418 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:KiCAD_Tutorial
+LIBS:5vregulatortab
+LIBS:ssr
+LIBS:SSRBoard-cache
+LIBS:SSRBoard-rescue
+LIBS:Arduino_Uno_R3_From_Scratch
+LIBS:Arduino_Uno_R3_From_Scratch-cache
+LIBS:MFN_Atmel
+LIBS:xtr117
+LIBS:mmbt2222alt1g
+LIBS:VO14642AABTR
+LIBS:Led_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D1
+U 1 1 596D1E1C
+P 1900 1300
+F 0 "D1" H 1900 1400 50  0000 C CNN
+F 1 "LED" H 1900 1200 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 1900 1300 50  0001 C CNN
+F 3 "" H 1900 1300 50  0001 C CNN
+	1    1900 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 596D20A6
+P 2300 1300
+F 0 "D2" H 2300 1400 50  0000 C CNN
+F 1 "LED" H 2300 1200 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 2300 1300 50  0001 C CNN
+F 3 "" H 2300 1300 50  0001 C CNN
+	1    2300 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 596D219F
+P 2700 1300
+F 0 "D3" H 2700 1400 50  0000 C CNN
+F 1 "LED" H 2700 1200 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 2700 1300 50  0001 C CNN
+F 3 "" H 2700 1300 50  0001 C CNN
+	1    2700 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 596D223A
+P 3100 1300
+F 0 "D4" H 3100 1400 50  0000 C CNN
+F 1 "LED" H 3100 1200 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 3100 1300 50  0001 C CNN
+F 3 "" H 3100 1300 50  0001 C CNN
+	1    3100 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 596D2295
+P 3500 1300
+F 0 "D5" H 3500 1400 50  0000 C CNN
+F 1 "LED" H 3500 1200 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 3500 1300 50  0001 C CNN
+F 3 "" H 3500 1300 50  0001 C CNN
+	1    3500 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 596D22EE
+P 3900 1300
+F 0 "D6" H 3900 1400 50  0000 C CNN
+F 1 "LED" H 3900 1200 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 3900 1300 50  0001 C CNN
+F 3 "" H 3900 1300 50  0001 C CNN
+	1    3900 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D7
+U 1 1 596D233D
+P 4300 1300
+F 0 "D7" H 4300 1400 50  0000 C CNN
+F 1 "LED" H 4300 1200 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 4300 1300 50  0001 C CNN
+F 3 "" H 4300 1300 50  0001 C CNN
+	1    4300 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 596D337F
+P 3100 700
+F 0 "#PWR01" H 3100 450 50  0001 C CNN
+F 1 "GND" H 3100 550 50  0000 C CNN
+F 2 "" H 3100 700 50  0001 C CNN
+F 3 "" H 3100 700 50  0001 C CNN
+	1    3100 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L SSR U1
+U 1 1 596D39E9
+P 6650 1400
+F 0 "U1" H 6400 1700 60  0000 C CNN
+F 1 "SSR" H 6900 1100 60  0000 C CNN
+F 2 "VO14642AABTR:SOIC254P1005X390-6N" H 6650 1400 60  0001 C CNN
+F 3 "" H 6650 1400 60  0001 C CNN
+	1    6650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMBT2222ALT1G Q1
+U 1 1 596D3EC1
+P 8550 900
+F 0 "Q1" H 8550 750 50  0000 R CNN
+F 1 "MMBT2222ALT1G" H 8550 1050 50  0000 R CNN
+F 2 "foot:MMBF170LT1G" H 8550 900 60  0001 C CNN
+F 3 "" H 8550 900 60  0000 C CNN
+	1    8550 900 
+	0    -1   -1   0   
+$EndComp
+Text Label 8150 800  0    60   ~ 0
+Collector
+Text Label 7350 1250 0    60   ~ 0
+Collector
+$Comp
+L Buzzer BZ1
+U 1 1 596D4EEB
+P 8300 1700
+F 0 "BZ1" H 8450 1750 50  0000 L CNN
+F 1 "Buzzer" H 8450 1650 50  0000 L CNN
+F 2 "Buzzers_Beepers:BUZZER" V 8275 1800 50  0001 C CNN
+F 3 "" V 8275 1800 50  0001 C CNN
+	1    8300 1700
+	1    0    0    -1  
+$EndComp
+Text Label 7950 1600 0    60   ~ 0
+buzzer
+Text Label 7150 1550 0    60   ~ 0
+buzzer
+Text Label 8950 800  0    60   ~ 0
+GND
+Text Label 8550 1300 0    60   ~ 0
+A7
+Text Label 5900 1400 0    60   ~ 0
+GND
+$Comp
+L R R1
+U 1 1 596D5D3D
+P 1900 1700
+F 0 "R1" V 1980 1700 50  0000 C CNN
+F 1 "220" V 1900 1700 50  0000 C CNN
+F 2 "footprints:RC0402FR-072K2L" V 1830 1700 50  0001 C CNN
+F 3 "" H 1900 1700 50  0001 C CNN
+	1    1900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 596D60A3
+P 2300 1700
+F 0 "R2" V 2380 1700 50  0000 C CNN
+F 1 "220" V 2300 1700 50  0000 C CNN
+F 2 "footprints:RC0402FR-072K2L" V 2230 1700 50  0001 C CNN
+F 3 "" H 2300 1700 50  0001 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 596D60D6
+P 2700 1700
+F 0 "R3" V 2780 1700 50  0000 C CNN
+F 1 "220" V 2700 1700 50  0000 C CNN
+F 2 "footprints:RC0402FR-072K2L" V 2630 1700 50  0001 C CNN
+F 3 "" H 2700 1700 50  0001 C CNN
+	1    2700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 596D610D
+P 3100 1700
+F 0 "R4" V 3180 1700 50  0000 C CNN
+F 1 "220" V 3100 1700 50  0000 C CNN
+F 2 "footprints:RC0402FR-072K2L" V 3030 1700 50  0001 C CNN
+F 3 "" H 3100 1700 50  0001 C CNN
+	1    3100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 596D613E
+P 3500 1700
+F 0 "R5" V 3580 1700 50  0000 C CNN
+F 1 "220" V 3500 1700 50  0000 C CNN
+F 2 "footprints:RC0402FR-072K2L" V 3430 1700 50  0001 C CNN
+F 3 "" H 3500 1700 50  0001 C CNN
+	1    3500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 596D6177
+P 3900 1700
+F 0 "R6" V 3980 1700 50  0000 C CNN
+F 1 "220" V 3900 1700 50  0000 C CNN
+F 2 "footprints:RC0402FR-072K2L" V 3830 1700 50  0001 C CNN
+F 3 "" H 3900 1700 50  0001 C CNN
+	1    3900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 596D61BE
+P 4300 1700
+F 0 "R7" V 4380 1700 50  0000 C CNN
+F 1 "220" V 4300 1700 50  0000 C CNN
+F 2 "footprints:RC0402FR-072K2L" V 4230 1700 50  0001 C CNN
+F 3 "" H 4300 1700 50  0001 C CNN
+	1    4300 1700
+	1    0    0    -1  
+$EndComp
+Text Label 1900 2000 0    60   ~ 0
+A0
+Text Label 2300 2000 0    60   ~ 0
+A1
+Text Label 2700 2000 0    60   ~ 0
+A2
+Text Label 3100 2000 0    60   ~ 0
+A3
+Text Label 3500 2000 0    60   ~ 0
+A4
+Text Label 3900 2000 0    60   ~ 0
+A5
+Text Label 4300 2000 0    60   ~ 0
+A6
+Text Label 7950 1800 0    60   ~ 0
+GND
+NoConn ~ 6150 1550
+NoConn ~ 7150 1400
+NoConn ~ 5900 650 
+Wire Wire Line
+	1900 1150 1900 900 
+Wire Wire Line
+	1900 900  4300 900 
+Wire Wire Line
+	2300 900  2300 1150
+Wire Wire Line
+	2700 900  2700 1150
+Connection ~ 2300 900 
+Wire Wire Line
+	3100 700  3100 1150
+Connection ~ 2700 900 
+Wire Wire Line
+	3500 900  3500 1150
+Connection ~ 3100 900 
+Wire Wire Line
+	3900 900  3900 1150
+Connection ~ 3500 900 
+Wire Wire Line
+	4300 900  4300 1150
+Connection ~ 3900 900 
+Wire Wire Line
+	8350 800  8150 800 
+Wire Wire Line
+	5900 1250 6150 1250
+Wire Wire Line
+	6150 1400 5900 1400
+Wire Wire Line
+	7350 1250 7150 1250
+Wire Wire Line
+	8200 1600 7950 1600
+Wire Wire Line
+	7950 1800 8200 1800
+Wire Wire Line
+	8750 800  8950 800 
+Wire Wire Line
+	8550 1100 8550 1300
+Wire Wire Line
+	1900 1450 1900 1550
+Wire Wire Line
+	2300 1450 2300 1550
+Wire Wire Line
+	2700 1450 2700 1550
+Wire Wire Line
+	3100 1450 3100 1550
+Wire Wire Line
+	3500 1450 3500 1550
+Wire Wire Line
+	3900 1450 3900 1550
+Wire Wire Line
+	4300 1450 4300 1550
+Wire Wire Line
+	1900 1850 1900 2000
+Wire Wire Line
+	2300 1850 2300 2000
+Wire Wire Line
+	2700 1850 2700 2000
+Wire Wire Line
+	3100 1850 3100 2000
+Wire Wire Line
+	3500 1850 3500 2000
+Wire Wire Line
+	3900 1850 3900 2000
+Wire Wire Line
+	4300 1850 4300 2000
+Wire Wire Line
+	3400 2350 3650 2350
+Wire Wire Line
+	3400 2450 3650 2450
+Wire Wire Line
+	3400 2550 3650 2550
+Wire Wire Line
+	3400 2650 3650 2650
+Wire Wire Line
+	3400 2750 3650 2750
+Wire Wire Line
+	3400 2850 3650 2850
+Wire Wire Line
+	3400 2950 3650 2950
+Text Label 3650 2350 0    60   ~ 0
+A0
+Text Label 3650 2450 0    60   ~ 0
+A1
+Text Label 3650 2650 0    60   ~ 0
+A3
+Text Label 3650 2750 0    60   ~ 0
+A4
+Text Label 3650 2850 0    60   ~ 0
+A5
+Text Label 3650 2950 0    60   ~ 0
+A6
+Text Label 3650 3050 0    60   ~ 0
+A7
+$Comp
+L CONN_01X08 J1
+U 1 1 59700BBF
+P 3200 2700
+F 0 "J1" H 3200 3150 50  0000 C CNN
+F 1 "CONN_01X08" V 3300 2700 50  0000 C CNN
+F 2 "Connectors:Wafer_Vertical22.5x5.8x7RM2.5-8" H 3200 2700 50  0001 C CNN
+F 3 "" H 3200 2700 50  0001 C CNN
+	1    3200 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 3050 3650 3050
+Text Label 3650 2550 0    60   ~ 0
+A2
+$Comp
+L CONN_01X03 J2
+U 1 1 59701DD9
+P 4700 2500
+F 0 "J2" H 4700 2700 50  0000 C CNN
+F 1 "CONN_01X03" V 4800 2500 50  0000 C CNN
+F 2 "Connectors:Fan_Pin_Header_Straight_1x03" H 4700 2500 50  0001 C CNN
+F 3 "" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4500 2600
+Wire Wire Line
+	4500 2400 4300 2400
+Wire Wire Line
+	4500 2500 4300 2500
+Text Label 4300 2400 0    60   ~ 0
+GND
+Text Label 4300 2500 0    60   ~ 0
+24V
+Text Label 5900 1250 0    60   ~ 0
+24V
+$EndSCHEMATC
