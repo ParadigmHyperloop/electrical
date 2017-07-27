@@ -1,4 +1,4 @@
-update=Thursday, July 06, 2017 'AMt' 08:17:50 AM
+update=7/31/2017 8:13:15 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=hyperCustom.pretty
+LibDir=hyperCustom.pretty;moboFootprints.pretty
 [eeschema/libraries]
 LibName1=Motherboard-rescue
 LibName2=hyperLib
@@ -111,13 +121,3 @@ LibName79=video
 LibName80=Worldsemi
 LibName81=Xicor
 LibName82=Zilog
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
