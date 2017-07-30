@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/SolidStateRelayBoard/SSRBoard.sch</source>
-    <date>Thursday, January 05, 2017 'PMt' 11:43:32 PM</date>
-    <tool>Eeschema 4.0.4-stable</tool>
+    <source>/Users/chrisreusch/Documents/Hyperloop/full_electrical/SolidStateRelayBoard/SSRBoard.sch</source>
+    <date>Friday, July 14, 2017 'PMt' 01:17:50 PM</date>
+    <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -186,45 +186,6 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="15" name="/Solid State Relay Block 14/" tstamps="/586B797A/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>SSRBlock.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="16" name="/Solid State Relay Block 15/" tstamps="/586B7988/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>SSRBlock.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="17" name="/Solid State Relay Block 16/" tstamps="/586B7996/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>SSRBlock.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
   </design>
   <components>
     <comp ref="J101">
@@ -247,7 +208,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586B1E29</tstamp>
     </comp>
@@ -383,42 +344,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586CCDD5</tstamp>
     </comp>
-    <comp ref="J116">
-      <value>CONN_01X02</value>
-      <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
-      <fields>
-        <field name="Mfg.">Phoenix</field>
-        <field name="Mfg. PN">1844210</field>
-        <field name="DigiKey PN">277-2416-ND</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CD0FF</tstamp>
-    </comp>
-    <comp ref="J115">
-      <value>CONN_01X02</value>
-      <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
-      <fields>
-        <field name="Mfg.">Phoenix</field>
-        <field name="Mfg. PN">1844210</field>
-        <field name="DigiKey PN">277-2416-ND</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CD33F</tstamp>
-    </comp>
-    <comp ref="J114">
-      <value>CONN_01X02</value>
-      <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
-      <fields>
-        <field name="Mfg.">Phoenix</field>
-        <field name="Mfg. PN">1844210</field>
-        <field name="DigiKey PN">277-2416-ND</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CD56F</tstamp>
-    </comp>
     <comp ref="J113">
       <value>CONN_01X02</value>
       <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
@@ -439,7 +364,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D0E7F</tstamp>
     </comp>
@@ -451,7 +376,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D1092</tstamp>
     </comp>
@@ -463,7 +388,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D12A6</tstamp>
     </comp>
@@ -475,7 +400,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D14BE</tstamp>
     </comp>
@@ -487,7 +412,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D1A76</tstamp>
     </comp>
@@ -499,7 +424,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D1C97</tstamp>
     </comp>
@@ -511,7 +436,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D1EB7</tstamp>
     </comp>
@@ -523,7 +448,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D20DB</tstamp>
     </comp>
@@ -535,7 +460,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D2D61</tstamp>
     </comp>
@@ -547,45 +472,9 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D2F89</tstamp>
-    </comp>
-    <comp ref="JP115">
-      <value>JUMPER</value>
-      <footprint>Resistors_SMD:R_2512_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Stackpole</field>
-        <field name="Mfg. PN">RMCF2512ZT0R00</field>
-        <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
-      </fields>
-      <libsource lib="device" part="JUMPER"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586D31B8</tstamp>
-    </comp>
-    <comp ref="JP114">
-      <value>JUMPER</value>
-      <footprint>Resistors_SMD:R_2512_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Stackpole</field>
-        <field name="Mfg. PN">RMCF2512ZT0R00</field>
-        <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
-      </fields>
-      <libsource lib="device" part="JUMPER"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586D3424</tstamp>
-    </comp>
-    <comp ref="JP113">
-      <value>JUMPER</value>
-      <footprint>Resistors_SMD:R_2512_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Stackpole</field>
-        <field name="Mfg. PN">RMCF2512ZT0R00</field>
-        <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
-      </fields>
-      <libsource lib="device" part="JUMPER"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586D3657</tstamp>
     </comp>
     <comp ref="JP112">
       <value>JUMPER</value>
@@ -595,7 +484,7 @@
         <field name="Mfg. PN">RMCF2512ZT0R00</field>
         <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="device" part="JUMPER"/>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D388F</tstamp>
     </comp>
@@ -755,42 +644,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D572C</tstamp>
     </comp>
-    <comp ref="J130">
-      <value>CONN_01X02</value>
-      <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
-      <fields>
-        <field name="Mfg.">Phoenix</field>
-        <field name="Mfg. PN">1844210</field>
-        <field name="DigiKey PN">277-2416-ND</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586D5735</tstamp>
-    </comp>
-    <comp ref="J131">
-      <value>CONN_01X02</value>
-      <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
-      <fields>
-        <field name="Mfg.">Phoenix</field>
-        <field name="Mfg. PN">1844210</field>
-        <field name="DigiKey PN">277-2416-ND</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586D573E</tstamp>
-    </comp>
-    <comp ref="J132">
-      <value>CONN_01X02</value>
-      <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
-      <fields>
-        <field name="Mfg.">Phoenix</field>
-        <field name="Mfg. PN">1844210</field>
-        <field name="DigiKey PN">277-2416-ND</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586D5747</tstamp>
-    </comp>
     <comp ref="J134">
       <value>CONN_01X02</value>
       <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
@@ -802,210 +655,6 @@
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586D6043</tstamp>
-    </comp>
-    <comp ref="J133">
-      <value>CONN_01X16</value>
-      <footprint>hyperCustom:CONN_PHOENIX_1844359_16PIN</footprint>
-      <fields>
-        <field name="Mfg.">Phoenix</field>
-        <field name="Mfg. PN">1844359</field>
-        <field name="DigiKey PN">277-6211-ND</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X16"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586D6CAE</tstamp>
-    </comp>
-    <comp ref="R101">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586C9ADD</tstamp>
-    </comp>
-    <comp ref="R102">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CA945</tstamp>
-    </comp>
-    <comp ref="R103">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CAB74</tstamp>
-    </comp>
-    <comp ref="R104">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CADA6</tstamp>
-    </comp>
-    <comp ref="R105">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CB2BA</tstamp>
-    </comp>
-    <comp ref="R106">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CB4F2</tstamp>
-    </comp>
-    <comp ref="R107">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CB72D</tstamp>
-    </comp>
-    <comp ref="R108">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CB96B</tstamp>
-    </comp>
-    <comp ref="R109">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CCFBF</tstamp>
-    </comp>
-    <comp ref="R110">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CCFC8</tstamp>
-    </comp>
-    <comp ref="R111">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CCFD1</tstamp>
-    </comp>
-    <comp ref="R112">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CCFDA</tstamp>
-    </comp>
-    <comp ref="R113">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CCFE3</tstamp>
-    </comp>
-    <comp ref="R114">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CCFEC</tstamp>
-    </comp>
-    <comp ref="R115">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CCFF5</tstamp>
-    </comp>
-    <comp ref="R116">
-      <value>0</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-070RL</field>
-        <field name="DigiKey PN">311-0.0ERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>586CCFFE</tstamp>
     </comp>
     <comp ref="J135">
       <value>MOUNTING_HOLE</value>
@@ -1035,6 +684,769 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586DE29A</tstamp>
     </comp>
+    <comp ref="U101">
+      <value>LEDDriverSSR</value>
+      <footprint>Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Digikey PN">568-5931-1-ND</field>
+        <field name="Link">https://www.digikey.com/products/en?keywords=568-5931-1-ND</field>
+        <field name="MFR PN">PCA9685PW/Q900,118</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="LEDDriverSSR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59111ED8</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592D2D09</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>CONN_01X04</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1844236_4PIN</footprint>
+      <fields>
+        <field name="MFR PN">1844236</field>
+        <field name="Digikey PN">277-2419-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E27BA</tstamp>
+    </comp>
+    <comp ref="P105">
+      <value>Addressing</value>
+      <footprint>hyperCustom:TO-220-3_Vertical</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E64C4</tstamp>
+    </comp>
+    <comp ref="P106">
+      <value>Addressing</value>
+      <footprint>hyperCustom:TO-220-3_Vertical</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E88F3</tstamp>
+    </comp>
+    <comp ref="P108">
+      <value>Addressing</value>
+      <footprint>hyperCustom:TO-220-3_Vertical</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E8E7B</tstamp>
+    </comp>
+    <comp ref="P107">
+      <value>Addressing</value>
+      <footprint>hyperCustom:TO-220-3_Vertical</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E9343</tstamp>
+    </comp>
+    <comp ref="P109">
+      <value>Addressing</value>
+      <footprint>hyperCustom:TO-220-3_Vertical</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E9542</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594008C7</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59400ADE</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59400CF7</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59400F11</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5940112F</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5940134F</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59401572</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59401798</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594019CA</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59401BF6</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59401E25</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59402057</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5940228B</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594024C2</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594026FD</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ECT-ND</field>
+        <field name="MFR PN">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5940293D</tstamp>
+    </comp>
+    <comp ref="R127">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P2.00KCTR-ND</field>
+        <field name="MFR PN">ERJ-6ENF2001V</field>
+        <field name="Website">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF2001V/P2.00KCTR-ND/111341</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962987D</tstamp>
+    </comp>
+    <comp ref="R124">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ATR-ND</field>
+        <field name="MFR PN">ERJ-6GEY0R00V</field>
+        <field name="link">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ATR-ND/78163</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59629885</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="URL">https://www.digikey.com/product-detail/en/kemet/C1206C103JCGACAUTO/399-14845-6-ND/7364194</field>
+        <field name="Digikey PN">399-14845-6-ND</field>
+        <field name="MFR PN">C1206C103JCGACAUTO</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962BE39</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>15</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P15ATR-ND</field>
+        <field name="MFR PN">ERJ-6GEYJ150V</field>
+        <field name="website">https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/thick-film-chip-resistors/ERJ6GEYJ150V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962C302</tstamp>
+    </comp>
+    <comp ref="R121">
+      <value>15</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P15ATR-ND</field>
+        <field name="MFR PN">ERJ-6GEYJ150V</field>
+        <field name="website">https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/thick-film-chip-resistors/ERJ6GEYJ150V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962C57D</tstamp>
+    </comp>
+    <comp ref="R126">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P2.00KCTR-ND</field>
+        <field name="MFR PN">ERJ-6ENF2001V</field>
+        <field name="Website">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF2001V/P2.00KCTR-ND/111341</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962F9CC</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="URL">https://www.digikey.com/product-detail/en/kemet/C1206C103JCGACAUTO/399-14845-6-ND/7364194</field>
+        <field name="Digikey PN">399-14845-6-ND</field>
+        <field name="MFR PN">C1206C103JCGACAUTO</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962F9F4</tstamp>
+    </comp>
+    <comp ref="R119">
+      <value>15</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P15ATR-ND</field>
+        <field name="MFR PN">ERJ-6GEYJ150V</field>
+        <field name="website">https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/thick-film-chip-resistors/ERJ6GEYJ150V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962FA03</tstamp>
+    </comp>
+    <comp ref="R122">
+      <value>15</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P15ATR-ND</field>
+        <field name="MFR PN">ERJ-6GEYJ150V</field>
+        <field name="website">https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/thick-film-chip-resistors/ERJ6GEYJ150V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962FA0C</tstamp>
+    </comp>
+    <comp ref="R129">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P2.00KCTR-ND</field>
+        <field name="MFR PN">ERJ-6ENF2001V</field>
+        <field name="Website">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF2001V/P2.00KCTR-ND/111341</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962FE72</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="URL">https://www.digikey.com/product-detail/en/kemet/C1206C103JCGACAUTO/399-14845-6-ND/7364194</field>
+        <field name="Digikey PN">399-14845-6-ND</field>
+        <field name="MFR PN">C1206C103JCGACAUTO</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962FE9A</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>15</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P15ATR-ND</field>
+        <field name="MFR PN">ERJ-6GEYJ150V</field>
+        <field name="website">https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/thick-film-chip-resistors/ERJ6GEYJ150V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962FEA9</tstamp>
+    </comp>
+    <comp ref="R123">
+      <value>15</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P15ATR-ND</field>
+        <field name="MFR PN">ERJ-6GEYJ150V</field>
+        <field name="website">https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/thick-film-chip-resistors/ERJ6GEYJ150V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962FEB2</tstamp>
+    </comp>
+    <comp ref="P112">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
+      <fields>
+        <field name="Digikey PN">277-2416-ND</field>
+        <field name="MFR PN">1844210</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962FD53</tstamp>
+    </comp>
+    <comp ref="P111">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
+      <fields>
+        <field name="Digikey PN">277-2416-ND</field>
+        <field name="MFR PN">1844210</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59630DE2</tstamp>
+    </comp>
+    <comp ref="P110">
+      <value>CONN_01X02</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1844210_2PIN</footprint>
+      <fields>
+        <field name="Digikey PN">277-2416-ND</field>
+        <field name="MFR PN">1844210</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59631054</tstamp>
+    </comp>
+    <comp ref="JP113">
+      <value>JUMPER</value>
+      <footprint>Resistors_SMD:R_2512_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Stackpole</field>
+        <field name="Mfg. PN">RMCF2512ZT0R00</field>
+        <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59632DF4</tstamp>
+    </comp>
+    <comp ref="JP114">
+      <value>JUMPER</value>
+      <footprint>Resistors_SMD:R_2512_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Stackpole</field>
+        <field name="Mfg. PN">RMCF2512ZT0R00</field>
+        <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59633607</tstamp>
+    </comp>
+    <comp ref="JP115">
+      <value>JUMPER</value>
+      <footprint>Resistors_SMD:R_2512_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg.">Stackpole</field>
+        <field name="Mfg. PN">RMCF2512ZT0R00</field>
+        <field name="DigiKey PN">RMCF2512ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59633888</tstamp>
+    </comp>
+    <comp ref="J115">
+      <value>CONN_01X04</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1844236_4PIN</footprint>
+      <fields>
+        <field name="Digikey PN">277-2419-ND</field>
+        <field name="MFR PN">1844236</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59645046</tstamp>
+    </comp>
+    <comp ref="J116">
+      <value>CONN_01X04</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1844236_4PIN</footprint>
+      <fields>
+        <field name="Digikey PN">277-2419-ND</field>
+        <field name="MFR PN">1844236</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59646163</tstamp>
+    </comp>
+    <comp ref="J114">
+      <value>CONN_01X04</value>
+      <footprint>hyperCustom:CONN_PHOENIX_1844236_4PIN</footprint>
+      <fields>
+        <field name="Digikey PN">277-2419-ND</field>
+        <field name="MFR PN">1844236</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596463E1</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/avx-corporation/08055C104KAT2A/478-1395-1-ND/564427</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="Mfr PN">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596521A0</tstamp>
+    </comp>
+    <comp ref="R132">
+      <value>20K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ203V/P20KATR-ND/83076</field>
+        <field name="MFR PN">ERJ-6GEYJ203V</field>
+        <field name="Digikey PN">P20KATR-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59652D06</tstamp>
+    </comp>
+    <comp ref="Q106">
+      <value>Q_PNP_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="site">https://www.digikey.com/products/en?keywords=MMBT5087CT-ND</field>
+        <field name="Digikey PN">MMBT5087CT-ND</field>
+        <field name="MFR PN">MMBT5087</field>
+      </fields>
+      <libsource lib="device" part="Q_PNP_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596580B9</tstamp>
+    </comp>
+    <comp ref="Q104">
+      <value>Q_PNP_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="site">https://www.digikey.com/products/en?keywords=MMBT5087CT-ND</field>
+        <field name="Digikey PN">MMBT5087CT-ND</field>
+        <field name="MFR PN">MMBT5087</field>
+      </fields>
+      <libsource lib="device" part="Q_PNP_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5965C29D</tstamp>
+    </comp>
+    <comp ref="Q103">
+      <value>Q_PNP_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="site">https://www.digikey.com/products/en?keywords=MMBT5087CT-ND</field>
+        <field name="Digikey PN">MMBT5087CT-ND</field>
+        <field name="MFR PN">MMBT5087</field>
+      </fields>
+      <libsource lib="device" part="Q_PNP_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5965C525</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/avx-corporation/08055C104KAT2A/478-1395-1-ND/564427</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="Mfr PN">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5965FAEA</tstamp>
+    </comp>
+    <comp ref="R131">
+      <value>20K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ203V/P20KATR-ND/83076</field>
+        <field name="MFR PN">ERJ-6GEYJ203V</field>
+        <field name="Digikey PN">P20KATR-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5965FAF6</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/avx-corporation/08055C104KAT2A/478-1395-1-ND/564427</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="Mfr PN">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59660608</tstamp>
+    </comp>
+    <comp ref="R130">
+      <value>20K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ203V/P20KATR-ND/83076</field>
+        <field name="MFR PN">ERJ-6GEYJ203V</field>
+        <field name="Digikey PN">P20KATR-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59660614</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966C4DA</tstamp>
+    </comp>
+    <comp ref="R133">
+      <value>R</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966C810</tstamp>
+    </comp>
+    <comp ref="R125">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ATR-ND</field>
+        <field name="MFR PN">ERJ-6GEY0R00V</field>
+        <field name="link">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ATR-ND/78163</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596407B1</tstamp>
+    </comp>
+    <comp ref="R128">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">P0.0ATR-ND</field>
+        <field name="MFR PN">ERJ-6GEY0R00V</field>
+        <field name="link">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ATR-ND/78163</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59640A4D</tstamp>
+    </comp>
+    <comp ref="Q102">
+      <value>Q_PMOS_DGS_SSR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</footprint>
+      <fields>
+        <field name="Digikey PN">NTF2955T1GOSTR-ND</field>
+        <field name="MFR PN">NTF2955T1G</field>
+        <field name="link">https://www.digikey.com/product-detail/en/on-semiconductor/NTF2955T1G/NTF2955T1GOSTR-ND/1749071</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="Q_PMOS_DGS_SSR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596439AB</tstamp>
+    </comp>
+    <comp ref="Q105">
+      <value>Q_PMOS_DGS_SSR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</footprint>
+      <fields>
+        <field name="Digikey PN">NTF2955T1GOSTR-ND</field>
+        <field name="MFR PN">NTF2955T1G</field>
+        <field name="link">https://www.digikey.com/product-detail/en/on-semiconductor/NTF2955T1G/NTF2955T1GOSTR-ND/1749071</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="Q_PMOS_DGS_SSR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59645B0C</tstamp>
+    </comp>
+    <comp ref="Q101">
+      <value>Q_PMOS_DGS_SSR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</footprint>
+      <fields>
+        <field name="Digikey PN">NTF2955T1GOSTR-ND</field>
+        <field name="MFR PN">NTF2955T1G</field>
+        <field name="link">https://www.digikey.com/product-detail/en/on-semiconductor/NTF2955T1G/NTF2955T1GOSTR-ND/1749071</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="Q_PMOS_DGS_SSR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59645DAA</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>XTR111</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/xtr111.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">296-39545-2-ND</field>
+        <field name="MFR PN">XTR111AIDGQR</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="XTR111"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59649C10</tstamp>
+    </comp>
+    <comp ref="U103">
+      <value>XTR111</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/xtr111.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">296-39545-2-ND</field>
+        <field name="MFR PN">XTR111AIDGQR</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="XTR111"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5964A55D</tstamp>
+    </comp>
+    <comp ref="U104">
+      <value>XTR111</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/xtr111.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">296-39545-2-ND</field>
+        <field name="MFR PN">XTR111AIDGQR</field>
+      </fields>
+      <libsource lib="SSRBoard-cache" part="XTR111"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5964B147</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/avx-corporation/08055C104KAT2A/478-1395-1-ND/564427</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="Mfr PN">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596428B3</tstamp>
+    </comp>
+    <comp ref="R135">
+      <value>5K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59648BAA</tstamp>
+    </comp>
+    <comp ref="R136">
+      <value>5K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59649A42</tstamp>
+    </comp>
+    <comp ref="R134">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5964C5B7</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/avx-corporation/08055C104KAT2A/478-1395-1-ND/564427</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="Mfr PN">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5964CF8C</tstamp>
+    </comp>
     <comp ref="Q201">
       <value>MMBT2222ALT1G</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
@@ -1055,7 +1467,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 1/" tstamps="/586B2B8E/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1067,7 +1479,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 1/" tstamps="/586B2B8E/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1079,7 +1491,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 1/" tstamps="/586B2B8E/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1091,7 +1503,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 1/" tstamps="/586B2B8E/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1115,7 +1527,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 1/" tstamps="/586B2B8E/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1127,9 +1539,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 1/" tstamps="/586B2B8E/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P201">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 1/" tstamps="/586B2B8E/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q301">
       <value>MMBT2222ALT1G</value>
@@ -1151,7 +1573,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 2/" tstamps="/586B3F68/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1163,7 +1585,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 2/" tstamps="/586B3F68/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1175,7 +1597,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 2/" tstamps="/586B3F68/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1187,7 +1609,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 2/" tstamps="/586B3F68/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1211,7 +1633,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 2/" tstamps="/586B3F68/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1223,9 +1645,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 2/" tstamps="/586B3F68/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P301">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 2/" tstamps="/586B3F68/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q401">
       <value>MMBT2222ALT1G</value>
@@ -1247,7 +1679,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 3/" tstamps="/586B4A2A/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1259,7 +1691,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 3/" tstamps="/586B4A2A/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1271,7 +1703,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 3/" tstamps="/586B4A2A/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1283,7 +1715,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 3/" tstamps="/586B4A2A/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1307,7 +1739,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 3/" tstamps="/586B4A2A/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1319,9 +1751,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 3/" tstamps="/586B4A2A/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P401">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 3/" tstamps="/586B4A2A/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q501">
       <value>MMBT2222ALT1G</value>
@@ -1343,7 +1785,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 4/" tstamps="/586B4A38/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1355,7 +1797,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 4/" tstamps="/586B4A38/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1367,7 +1809,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 4/" tstamps="/586B4A38/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1379,7 +1821,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 4/" tstamps="/586B4A38/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1403,7 +1845,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 4/" tstamps="/586B4A38/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1415,9 +1857,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 4/" tstamps="/586B4A38/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P501">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 4/" tstamps="/586B4A38/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q601">
       <value>MMBT2222ALT1G</value>
@@ -1439,7 +1891,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 5/" tstamps="/586B65A6/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1451,7 +1903,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 5/" tstamps="/586B65A6/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1463,7 +1915,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 5/" tstamps="/586B65A6/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1475,7 +1927,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 5/" tstamps="/586B65A6/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1499,7 +1951,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 5/" tstamps="/586B65A6/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1511,9 +1963,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 5/" tstamps="/586B65A6/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P601">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 5/" tstamps="/586B65A6/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q701">
       <value>MMBT2222ALT1G</value>
@@ -1535,7 +1997,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 6/" tstamps="/586B65B4/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1547,7 +2009,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 6/" tstamps="/586B65B4/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1559,7 +2021,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 6/" tstamps="/586B65B4/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1571,7 +2033,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 6/" tstamps="/586B65B4/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1595,7 +2057,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 6/" tstamps="/586B65B4/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1607,9 +2069,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 6/" tstamps="/586B65B4/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P701">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 6/" tstamps="/586B65B4/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q801">
       <value>MMBT2222ALT1G</value>
@@ -1631,7 +2103,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 7/" tstamps="/586B65C2/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1643,7 +2115,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 7/" tstamps="/586B65C2/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1655,7 +2127,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 7/" tstamps="/586B65C2/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1667,7 +2139,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 7/" tstamps="/586B65C2/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1691,7 +2163,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 7/" tstamps="/586B65C2/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1703,9 +2175,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 7/" tstamps="/586B65C2/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P801">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 7/" tstamps="/586B65C2/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q901">
       <value>MMBT2222ALT1G</value>
@@ -1727,7 +2209,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 8/" tstamps="/586B65D0/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1739,7 +2221,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 8/" tstamps="/586B65D0/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1751,7 +2233,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 8/" tstamps="/586B65D0/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1763,7 +2245,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 8/" tstamps="/586B65D0/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1787,7 +2269,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 8/" tstamps="/586B65D0/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1799,9 +2281,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 8/" tstamps="/586B65D0/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P901">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 8/" tstamps="/586B65D0/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q1001">
       <value>MMBT2222ALT1G</value>
@@ -1823,7 +2315,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 9/" tstamps="/586B7934/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1835,7 +2327,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 9/" tstamps="/586B7934/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1847,7 +2339,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 9/" tstamps="/586B7934/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1859,7 +2351,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 9/" tstamps="/586B7934/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1883,7 +2375,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 9/" tstamps="/586B7934/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1895,9 +2387,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 9/" tstamps="/586B7934/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P1001">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 9/" tstamps="/586B7934/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q1101">
       <value>MMBT2222ALT1G</value>
@@ -1919,7 +2421,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 10/" tstamps="/586B7942/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -1931,7 +2433,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 10/" tstamps="/586B7942/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -1943,7 +2445,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 10/" tstamps="/586B7942/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -1955,7 +2457,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 10/" tstamps="/586B7942/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -1979,7 +2481,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 10/" tstamps="/586B7942/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -1991,9 +2493,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 10/" tstamps="/586B7942/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P1101">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 10/" tstamps="/586B7942/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q1201">
       <value>MMBT2222ALT1G</value>
@@ -2015,7 +2527,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 11/" tstamps="/586B7950/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -2027,7 +2539,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 11/" tstamps="/586B7950/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -2039,7 +2551,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 11/" tstamps="/586B7950/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -2051,7 +2563,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 11/" tstamps="/586B7950/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -2075,7 +2587,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 11/" tstamps="/586B7950/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -2087,9 +2599,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 11/" tstamps="/586B7950/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P1201">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 11/" tstamps="/586B7950/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q1301">
       <value>MMBT2222ALT1G</value>
@@ -2111,7 +2633,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 12/" tstamps="/586B795E/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -2123,7 +2645,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 12/" tstamps="/586B795E/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -2135,7 +2657,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 12/" tstamps="/586B795E/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -2147,7 +2669,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 12/" tstamps="/586B795E/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -2171,7 +2693,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 12/" tstamps="/586B795E/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -2183,9 +2705,19 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 12/" tstamps="/586B795E/"/>
       <tstamp>586E6B5D</tstamp>
+    </comp>
+    <comp ref="P1301">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="DigiKey PN">36-5000-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 12/" tstamps="/586B795E/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
     <comp ref="Q1401">
       <value>MMBT2222ALT1G</value>
@@ -2207,7 +2739,7 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 13/" tstamps="/586B796C/"/>
       <tstamp>586B33E9</tstamp>
     </comp>
@@ -2219,7 +2751,7 @@
         <field name="Mfg. PN">RC1206FR-0710KL</field>
         <field name="DigiKey PN">311-10.0KFRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 13/" tstamps="/586B796C/"/>
       <tstamp>586B3431</tstamp>
     </comp>
@@ -2231,7 +2763,7 @@
         <field name="Mfg. PN">MMSZ5232B-7-F</field>
         <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
       </fields>
-      <libsource lib="device" part="ZENER"/>
+      <libsource lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 13/" tstamps="/586B796C/"/>
       <tstamp>586B3681</tstamp>
     </comp>
@@ -2243,7 +2775,7 @@
         <field name="Mfg. PN">RC1206JR-071ML</field>
         <field name="DigiKey PN">311-1.0MERCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 13/" tstamps="/586B796C/"/>
       <tstamp>586B39A4</tstamp>
     </comp>
@@ -2267,7 +2799,7 @@
         <field name="Mfg. PN">APT2012LZGCK</field>
         <field name="DigiKey PN">754-1939-1-ND</field>
       </fields>
-      <libsource lib="device" part="LED"/>
+      <libsource lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 13/" tstamps="/586B796C/"/>
       <tstamp>586E6B18</tstamp>
     </comp>
@@ -2279,309 +2811,62 @@
         <field name="Mfg. PN">RC1206FR-07910RL</field>
         <field name="DigiKey PN">311-910FRCT-ND</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard"/>
       <sheetpath names="/Solid State Relay Block 13/" tstamps="/586B796C/"/>
       <tstamp>586E6B5D</tstamp>
     </comp>
-    <comp ref="Q1501">
-      <value>MMBT2222ALT1G</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+    <comp ref="P1401">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
       <fields>
-        <field name="Mfg.">ON Semi</field>
-        <field name="Mfg. PN">MMBT2222ALT1G</field>
-        <field name="DigiKey PN">MMBT2222ALT1GOSCT-ND</field>
+        <field name="DigiKey PN">36-5000-ND</field>
       </fields>
-      <libsource lib="mmbt2222alt1g" part="MMBT2222ALT1G"/>
-      <sheetpath names="/Solid State Relay Block 14/" tstamps="/586B797A/"/>
-      <tstamp>586B33BB</tstamp>
-    </comp>
-    <comp ref="R1503">
-      <value>910</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206FR-07910RL</field>
-        <field name="DigiKey PN">311-910FRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 14/" tstamps="/586B797A/"/>
-      <tstamp>586B33E9</tstamp>
-    </comp>
-    <comp ref="R1501">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206FR-0710KL</field>
-        <field name="DigiKey PN">311-10.0KFRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 14/" tstamps="/586B797A/"/>
-      <tstamp>586B3431</tstamp>
-    </comp>
-    <comp ref="D1501">
-      <value>5.6V</value>
-      <footprint>hyperCustom:SOD-123</footprint>
-      <fields>
-        <field name="Mfg.">Diodes</field>
-        <field name="Mfg. PN">MMSZ5232B-7-F</field>
-        <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
-      </fields>
-      <libsource lib="device" part="ZENER"/>
-      <sheetpath names="/Solid State Relay Block 14/" tstamps="/586B797A/"/>
-      <tstamp>586B3681</tstamp>
-    </comp>
-    <comp ref="R1502">
-      <value>1M</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-071ML</field>
-        <field name="DigiKey PN">311-1.0MERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 14/" tstamps="/586B797A/"/>
-      <tstamp>586B39A4</tstamp>
-    </comp>
-    <comp ref="U1501">
-      <value>SSR</value>
-      <footprint>hyperCustom:VISHAY_6SMD_OPTOCOUPLER</footprint>
-      <fields>
-        <field name="Mfg.">Vishay</field>
-        <field name="Mfg. PN">VO14642AABTR</field>
-        <field name="DigiKey PN">VO14642AABCT-ND</field>
-      </fields>
-      <libsource lib="ssr" part="SSR"/>
-      <sheetpath names="/Solid State Relay Block 14/" tstamps="/586B797A/"/>
-      <tstamp>586D88E1</tstamp>
-    </comp>
-    <comp ref="D1502">
-      <value>LED</value>
-      <footprint>hyperCustom:SOD-123</footprint>
-      <fields>
-        <field name="Mfg.">Kingbright</field>
-        <field name="Mfg. PN">APT2012LZGCK</field>
-        <field name="DigiKey PN">754-1939-1-ND</field>
-      </fields>
-      <libsource lib="device" part="LED"/>
-      <sheetpath names="/Solid State Relay Block 14/" tstamps="/586B797A/"/>
-      <tstamp>586E6B18</tstamp>
-    </comp>
-    <comp ref="R1504">
-      <value>910</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206FR-07910RL</field>
-        <field name="DigiKey PN">311-910FRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 14/" tstamps="/586B797A/"/>
-      <tstamp>586E6B5D</tstamp>
-    </comp>
-    <comp ref="Q1601">
-      <value>MMBT2222ALT1G</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
-      <fields>
-        <field name="Mfg.">ON Semi</field>
-        <field name="Mfg. PN">MMBT2222ALT1G</field>
-        <field name="DigiKey PN">MMBT2222ALT1GOSCT-ND</field>
-      </fields>
-      <libsource lib="mmbt2222alt1g" part="MMBT2222ALT1G"/>
-      <sheetpath names="/Solid State Relay Block 15/" tstamps="/586B7988/"/>
-      <tstamp>586B33BB</tstamp>
-    </comp>
-    <comp ref="R1603">
-      <value>910</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206FR-07910RL</field>
-        <field name="DigiKey PN">311-910FRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 15/" tstamps="/586B7988/"/>
-      <tstamp>586B33E9</tstamp>
-    </comp>
-    <comp ref="R1601">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206FR-0710KL</field>
-        <field name="DigiKey PN">311-10.0KFRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 15/" tstamps="/586B7988/"/>
-      <tstamp>586B3431</tstamp>
-    </comp>
-    <comp ref="D1601">
-      <value>5.6V</value>
-      <footprint>hyperCustom:SOD-123</footprint>
-      <fields>
-        <field name="Mfg.">Diodes</field>
-        <field name="Mfg. PN">MMSZ5232B-7-F</field>
-        <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
-      </fields>
-      <libsource lib="device" part="ZENER"/>
-      <sheetpath names="/Solid State Relay Block 15/" tstamps="/586B7988/"/>
-      <tstamp>586B3681</tstamp>
-    </comp>
-    <comp ref="R1602">
-      <value>1M</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-071ML</field>
-        <field name="DigiKey PN">311-1.0MERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 15/" tstamps="/586B7988/"/>
-      <tstamp>586B39A4</tstamp>
-    </comp>
-    <comp ref="U1601">
-      <value>SSR</value>
-      <footprint>hyperCustom:VISHAY_6SMD_OPTOCOUPLER</footprint>
-      <fields>
-        <field name="Mfg.">Vishay</field>
-        <field name="Mfg. PN">VO14642AABTR</field>
-        <field name="DigiKey PN">VO14642AABCT-ND</field>
-      </fields>
-      <libsource lib="ssr" part="SSR"/>
-      <sheetpath names="/Solid State Relay Block 15/" tstamps="/586B7988/"/>
-      <tstamp>586D88E1</tstamp>
-    </comp>
-    <comp ref="D1602">
-      <value>LED</value>
-      <footprint>hyperCustom:SOD-123</footprint>
-      <fields>
-        <field name="Mfg.">Kingbright</field>
-        <field name="Mfg. PN">APT2012LZGCK</field>
-        <field name="DigiKey PN">754-1939-1-ND</field>
-      </fields>
-      <libsource lib="device" part="LED"/>
-      <sheetpath names="/Solid State Relay Block 15/" tstamps="/586B7988/"/>
-      <tstamp>586E6B18</tstamp>
-    </comp>
-    <comp ref="R1604">
-      <value>910</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206FR-07910RL</field>
-        <field name="DigiKey PN">311-910FRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 15/" tstamps="/586B7988/"/>
-      <tstamp>586E6B5D</tstamp>
-    </comp>
-    <comp ref="Q1701">
-      <value>MMBT2222ALT1G</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
-      <fields>
-        <field name="Mfg.">ON Semi</field>
-        <field name="Mfg. PN">MMBT2222ALT1G</field>
-        <field name="DigiKey PN">MMBT2222ALT1GOSCT-ND</field>
-      </fields>
-      <libsource lib="mmbt2222alt1g" part="MMBT2222ALT1G"/>
-      <sheetpath names="/Solid State Relay Block 16/" tstamps="/586B7996/"/>
-      <tstamp>586B33BB</tstamp>
-    </comp>
-    <comp ref="R1703">
-      <value>910</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206FR-07910RL</field>
-        <field name="DigiKey PN">311-910FRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 16/" tstamps="/586B7996/"/>
-      <tstamp>586B33E9</tstamp>
-    </comp>
-    <comp ref="R1701">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206FR-0710KL</field>
-        <field name="DigiKey PN">311-10.0KFRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 16/" tstamps="/586B7996/"/>
-      <tstamp>586B3431</tstamp>
-    </comp>
-    <comp ref="D1701">
-      <value>5.6V</value>
-      <footprint>hyperCustom:SOD-123</footprint>
-      <fields>
-        <field name="Mfg.">Diodes</field>
-        <field name="Mfg. PN">MMSZ5232B-7-F</field>
-        <field name="DigiKey PN">MMSZ5232B-FDICT-ND</field>
-      </fields>
-      <libsource lib="device" part="ZENER"/>
-      <sheetpath names="/Solid State Relay Block 16/" tstamps="/586B7996/"/>
-      <tstamp>586B3681</tstamp>
-    </comp>
-    <comp ref="R1702">
-      <value>1M</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206JR-071ML</field>
-        <field name="DigiKey PN">311-1.0MERCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 16/" tstamps="/586B7996/"/>
-      <tstamp>586B39A4</tstamp>
-    </comp>
-    <comp ref="U1701">
-      <value>SSR</value>
-      <footprint>hyperCustom:VISHAY_6SMD_OPTOCOUPLER</footprint>
-      <fields>
-        <field name="Mfg.">Vishay</field>
-        <field name="Mfg. PN">VO14642AABTR</field>
-        <field name="DigiKey PN">VO14642AABCT-ND</field>
-      </fields>
-      <libsource lib="ssr" part="SSR"/>
-      <sheetpath names="/Solid State Relay Block 16/" tstamps="/586B7996/"/>
-      <tstamp>586D88E1</tstamp>
-    </comp>
-    <comp ref="D1702">
-      <value>LED</value>
-      <footprint>hyperCustom:SOD-123</footprint>
-      <fields>
-        <field name="Mfg.">Kingbright</field>
-        <field name="Mfg. PN">APT2012LZGCK</field>
-        <field name="DigiKey PN">754-1939-1-ND</field>
-      </fields>
-      <libsource lib="device" part="LED"/>
-      <sheetpath names="/Solid State Relay Block 16/" tstamps="/586B7996/"/>
-      <tstamp>586E6B18</tstamp>
-    </comp>
-    <comp ref="R1704">
-      <value>910</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <fields>
-        <field name="Mfg.">Yageo</field>
-        <field name="Mfg. PN">RC1206FR-07910RL</field>
-        <field name="DigiKey PN">311-910FRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/Solid State Relay Block 16/" tstamps="/586B7996/"/>
-      <tstamp>586E6B5D</tstamp>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Solid State Relay Block 13/" tstamps="/586B796C/"/>
+      <tstamp>5941E360</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="conn" part="CONN_01X02">
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
       <footprints>
-        <fp>Pin_Header_Straight_1X02</fp>
-        <fp>Pin_Header_Angled_1X02</fp>
-        <fp>Socket_Strip_Straight_1X02</fp>
-        <fp>Socket_Strip_Angled_1X02</fp>
+        <fp>C_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">P</field>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
         <field name="Value">CONN_01X02</field>
       </fields>
       <pins>
@@ -2589,37 +2874,44 @@
         <pin num="2" name="P2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X16">
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03, pin header</description>
       <footprints>
-        <fp>Pin_Header_Straight_1X16</fp>
-        <fp>Pin_Header_Angled_1X16</fp>
-        <fp>Socket_Strip_Straight_1X16</fp>
-        <fp>Socket_Strip_Angled_1X16</fp>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
       </footprints>
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X16</field>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X04</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
         <pin num="2" name="P2" type="passive"/>
         <pin num="3" name="P3" type="passive"/>
         <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
-        <pin num="15" name="P15" type="passive"/>
-        <pin num="16" name="P16" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="JUMPER">
+    <libpart lib="SSRBoard-cache" part="JUMPER">
       <fields>
         <field name="Reference">JP</field>
         <field name="Value">JUMPER</field>
@@ -2630,6 +2922,20 @@
       </pins>
     </libpart>
     <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SSRBoard-rescue" part="LED-RESCUE-SSRBoard">
       <footprints>
         <fp>LED-3MM</fp>
         <fp>LED-5MM</fp>
@@ -2641,11 +2947,47 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">LED</field>
+        <field name="Value">LED-RESCUE-SSRBoard</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SSRBoard-cache" part="LEDDriverSSR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LEDDriverSSR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A3" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="LED0" type="input"/>
+        <pin num="7" name="LED1" type="input"/>
+        <pin num="8" name="LED2" type="input"/>
+        <pin num="9" name="LED3" type="input"/>
+        <pin num="10" name="LED4" type="input"/>
+        <pin num="11" name="LED5" type="input"/>
+        <pin num="12" name="LED6" type="input"/>
+        <pin num="13" name="LED7" type="input"/>
+        <pin num="14" name="Vss" type="input"/>
+        <pin num="15" name="LED8" type="input"/>
+        <pin num="16" name="LED9" type="input"/>
+        <pin num="17" name="LED10" type="input"/>
+        <pin num="18" name="LED11" type="input"/>
+        <pin num="19" name="LED12" type="input"/>
+        <pin num="20" name="LED13" type="input"/>
+        <pin num="21" name="LED14" type="input"/>
+        <pin num="22" name="LED15" type="input"/>
+        <pin num="23" name="OE" type="input"/>
+        <pin num="24" name="A5" type="input"/>
+        <pin num="25" name="EXTCLK" type="input"/>
+        <pin num="26" name="SCL" type="input"/>
+        <pin num="27" name="SDA" type="input"/>
+        <pin num="28" name="Vdd" type="input"/>
       </pins>
     </libpart>
     <libpart lib="mmbt2222alt1g" part="MMBT2222ALT1G">
@@ -2669,8 +3011,46 @@
         <pin num="1" name="~" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="SSRBoard-cache" part="Q_PMOS_DGS_SSR">
+      <description>Transistor P-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_DGS_SSR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PNP_BEC">
+      <description>Transistor PNP (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="R">
-      <description>Resistance</description>
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SSRBoard-rescue" part="R-RESCUE-SSRBoard">
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -2680,7 +3060,7 @@
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R</field>
+        <field name="Value">R-RESCUE-SSRBoard</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -2701,8 +3081,26 @@
         <pin num="6" name="SUPPLY1" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="ZENER">
-      <description>Diode zener</description>
+    <libpart lib="SSRBoard-cache" part="XTR111">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XTR111</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSP" type="input"/>
+        <pin num="2" name="IS" type="input"/>
+        <pin num="3" name="VG" type="input"/>
+        <pin num="4" name="REGS" type="input"/>
+        <pin num="5" name="REGF" type="input"/>
+        <pin num="6" name="VIN" type="input"/>
+        <pin num="7" name="SET" type="input"/>
+        <pin num="8" name="EF" type="input"/>
+        <pin num="9" name="OD" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="GND_PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SSRBoard-rescue" part="ZENER-RESCUE-SSRBoard">
       <footprints>
         <fp>D?</fp>
         <fp>SO*</fp>
@@ -2710,7 +3108,7 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">ZENER</field>
+        <field name="Value">ZENER-RESCUE-SSRBoard</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
@@ -2719,798 +3117,950 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="SSRBoard-rescue">
+      <uri>/Users/chrisreusch/Documents/Hyperloop/full_electrical/SolidStateRelayBoard/SSRBoard-rescue.lib</uri>
+    </library>
     <library logical="device">
-      <uri>/Users/jmassucco17/Library/Application Support/kicad/library/device.lib</uri>
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
-      <uri>/Users/jmassucco17/Library/Application Support/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="mounting_hole">
-      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/SolidStateRelayBoard/mounting_hole.lib</uri>
-    </library>
-    <library logical="mmbt2222alt1g">
-      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/SolidStateRelayBoard/mmbt2222alt1g.lib</uri>
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
     </library>
     <library logical="ssr">
-      <uri>/Users/jmassucco17/Documents/Northeastern/Past Semesters/2016 Fall/OpenLoop/full_electrical/SolidStateRelayBoard/ssr.lib</uri>
+      <uri>/Users/chrisreusch/Documents/Hyperloop/full_electrical/SolidStateRelayBoard/ssr.lib</uri>
+    </library>
+    <library logical="mmbt2222alt1g">
+      <uri>/Users/chrisreusch/Documents/Hyperloop/full_electrical/SolidStateRelayBoard/mmbt2222alt1g.lib</uri>
+    </library>
+    <library logical="mounting_hole">
+      <uri>/Users/chrisreusch/Documents/Hyperloop/full_electrical/SolidStateRelayBoard/mounting_hole.lib</uri>
+    </library>
+    <library logical="SSRBoard-cache">
+      <uri>/Users/chrisreusch/Documents/Hyperloop/full_electrical/SolidStateRelayBoard/SSRBoard-cache.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/CTRL16">
-      <node ref="R116" pin="1"/>
-      <node ref="R1701" pin="2"/>
-      <node ref="D1701" pin="1"/>
-      <node ref="D1702" pin="2"/>
+    <net code="1" name="Net-(R124-Pad2)">
+      <node ref="U102" pin="9"/>
+      <node ref="R124" pin="2"/>
     </net>
-    <net code="2" name="/LOAD16">
-      <node ref="U1701" pin="5"/>
-      <node ref="J132" pin="1"/>
+    <net code="2" name="Net-(Q101-Pad1)">
+      <node ref="Q103" pin="3"/>
+      <node ref="Q101" pin="1"/>
+      <node ref="U102" pin="3"/>
     </net>
-    <net code="3" name="/SUPPLY16">
-      <node ref="JP115" pin="1"/>
-      <node ref="J116" pin="1"/>
-      <node ref="U1701" pin="4"/>
-      <node ref="U1701" pin="6"/>
+    <net code="3" name="Net-(C101-Pad1)">
+      <node ref="C101" pin="1"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="R118" pin="1"/>
     </net>
-    <net code="4" name="/LOAD14">
-      <node ref="J130" pin="1"/>
-      <node ref="U1501" pin="5"/>
-    </net>
-    <net code="5" name="/CTRL14">
-      <node ref="D1501" pin="1"/>
-      <node ref="D1502" pin="2"/>
-      <node ref="R1501" pin="2"/>
-      <node ref="R114" pin="1"/>
-    </net>
-    <net code="6" name="/SUPPLY14">
-      <node ref="U1501" pin="4"/>
-      <node ref="U1501" pin="6"/>
-      <node ref="JP114" pin="2"/>
-      <node ref="JP113" pin="1"/>
-      <node ref="J114" pin="1"/>
-    </net>
-    <net code="7" name="/5V0">
-      <node ref="R303" pin="1"/>
-      <node ref="R1603" pin="1"/>
-      <node ref="R1003" pin="1"/>
-      <node ref="R503" pin="1"/>
-      <node ref="R1703" pin="1"/>
-      <node ref="R1303" pin="1"/>
-      <node ref="R903" pin="1"/>
-      <node ref="R1103" pin="1"/>
-      <node ref="R403" pin="1"/>
-      <node ref="J134" pin="1"/>
-      <node ref="R1503" pin="1"/>
-      <node ref="R203" pin="1"/>
-      <node ref="R703" pin="1"/>
-      <node ref="R1203" pin="1"/>
-      <node ref="R1403" pin="1"/>
-      <node ref="R803" pin="1"/>
-      <node ref="R603" pin="1"/>
-    </net>
-    <net code="8" name="/SUPPLY15">
-      <node ref="U1601" pin="6"/>
-      <node ref="U1601" pin="4"/>
-      <node ref="JP115" pin="2"/>
-      <node ref="JP114" pin="1"/>
-      <node ref="J115" pin="1"/>
-    </net>
-    <net code="9" name="/CTRL15">
-      <node ref="R115" pin="1"/>
-      <node ref="D1602" pin="2"/>
-      <node ref="R1601" pin="2"/>
-      <node ref="D1601" pin="1"/>
-    </net>
-    <net code="10" name="/LOAD15">
-      <node ref="U1601" pin="5"/>
-      <node ref="J131" pin="1"/>
-    </net>
-    <net code="11" name="/CTRL9">
-      <node ref="R1001" pin="2"/>
-      <node ref="D1001" pin="1"/>
-      <node ref="R109" pin="1"/>
-      <node ref="D1002" pin="2"/>
-    </net>
-    <net code="12" name="/LOAD9">
-      <node ref="U1001" pin="5"/>
-      <node ref="J125" pin="1"/>
-    </net>
-    <net code="13" name="/SUPPLY9">
-      <node ref="JP109" pin="1"/>
-      <node ref="J109" pin="1"/>
-      <node ref="JP108" pin="2"/>
-      <node ref="U1001" pin="4"/>
-      <node ref="U1001" pin="6"/>
-    </net>
-    <net code="14" name="/SUPPLY10">
-      <node ref="JP109" pin="2"/>
-      <node ref="JP110" pin="1"/>
-      <node ref="U1101" pin="4"/>
-      <node ref="U1101" pin="6"/>
-      <node ref="J110" pin="1"/>
-    </net>
-    <net code="15" name="/CTRL10">
-      <node ref="R1101" pin="2"/>
-      <node ref="D1102" pin="2"/>
-      <node ref="R110" pin="1"/>
-      <node ref="D1101" pin="1"/>
-    </net>
-    <net code="16" name="/LOAD10">
-      <node ref="J126" pin="1"/>
-      <node ref="U1101" pin="5"/>
-    </net>
-    <net code="17" name="/CTRL7">
-      <node ref="R107" pin="1"/>
-      <node ref="R801" pin="2"/>
-      <node ref="D802" pin="2"/>
-      <node ref="D801" pin="1"/>
-    </net>
-    <net code="18" name="/LOAD7">
-      <node ref="U801" pin="5"/>
-      <node ref="J123" pin="1"/>
-    </net>
-    <net code="19" name="/SUPPLY8">
-      <node ref="JP107" pin="2"/>
-      <node ref="JP108" pin="1"/>
-      <node ref="J108" pin="1"/>
-      <node ref="U901" pin="4"/>
-      <node ref="U901" pin="6"/>
-    </net>
-    <net code="20" name="/CTRL8">
-      <node ref="D901" pin="1"/>
-      <node ref="D902" pin="2"/>
-      <node ref="R108" pin="1"/>
-      <node ref="R901" pin="2"/>
-    </net>
-    <net code="21" name="/LOAD8">
-      <node ref="U901" pin="5"/>
-      <node ref="J124" pin="1"/>
-    </net>
-    <net code="22" name="/CTRL12">
-      <node ref="D1301" pin="1"/>
-      <node ref="R1301" pin="2"/>
-      <node ref="D1302" pin="2"/>
-      <node ref="R112" pin="1"/>
-    </net>
-    <net code="23" name="/SUPPLY12">
-      <node ref="JP111" pin="2"/>
-      <node ref="J112" pin="1"/>
-      <node ref="JP112" pin="1"/>
-      <node ref="U1301" pin="6"/>
-      <node ref="U1301" pin="4"/>
-    </net>
-    <net code="24" name="/SUPPLY13">
-      <node ref="U1401" pin="6"/>
-      <node ref="U1401" pin="4"/>
-      <node ref="JP112" pin="2"/>
-      <node ref="JP113" pin="2"/>
-      <node ref="J113" pin="1"/>
-    </net>
-    <net code="25" name="/CTRL13">
-      <node ref="D1402" pin="2"/>
-      <node ref="R1401" pin="2"/>
-      <node ref="D1401" pin="1"/>
-      <node ref="R113" pin="1"/>
-    </net>
-    <net code="26" name="/LOAD13">
-      <node ref="J129" pin="1"/>
-      <node ref="U1401" pin="5"/>
-    </net>
-    <net code="27" name="/SUPPLY11">
-      <node ref="JP110" pin="2"/>
-      <node ref="J111" pin="1"/>
-      <node ref="U1201" pin="6"/>
-      <node ref="U1201" pin="4"/>
-      <node ref="JP111" pin="1"/>
-    </net>
-    <net code="28" name="/CTRL11">
-      <node ref="D1202" pin="2"/>
-      <node ref="R111" pin="1"/>
-      <node ref="R1201" pin="2"/>
-      <node ref="D1201" pin="1"/>
-    </net>
-    <net code="29" name="/LOAD11">
-      <node ref="J127" pin="1"/>
-      <node ref="U1201" pin="5"/>
-    </net>
-    <net code="30" name="/LOAD12">
-      <node ref="U1301" pin="5"/>
-      <node ref="J128" pin="1"/>
-    </net>
-    <net code="31" name="Net-(J133-Pad5)">
-      <node ref="R105" pin="2"/>
-      <node ref="J133" pin="5"/>
-    </net>
-    <net code="32" name="Net-(J133-Pad4)">
-      <node ref="J133" pin="4"/>
-      <node ref="R104" pin="2"/>
-    </net>
-    <net code="33" name="Net-(J133-Pad3)">
-      <node ref="R103" pin="2"/>
-      <node ref="J133" pin="3"/>
-    </net>
-    <net code="34" name="Net-(J133-Pad2)">
-      <node ref="R102" pin="2"/>
-      <node ref="J133" pin="2"/>
-    </net>
-    <net code="35" name="Net-(J133-Pad1)">
-      <node ref="R101" pin="2"/>
-      <node ref="J133" pin="1"/>
-    </net>
-    <net code="36" name="Net-(J133-Pad11)">
-      <node ref="J133" pin="11"/>
-      <node ref="R111" pin="2"/>
-    </net>
-    <net code="37" name="Net-(J133-Pad12)">
-      <node ref="J133" pin="12"/>
-      <node ref="R112" pin="2"/>
-    </net>
-    <net code="38" name="Net-(J133-Pad8)">
-      <node ref="J133" pin="8"/>
-      <node ref="R108" pin="2"/>
-    </net>
-    <net code="39" name="Net-(J133-Pad9)">
-      <node ref="J133" pin="9"/>
-      <node ref="R109" pin="2"/>
-    </net>
-    <net code="40" name="Net-(J133-Pad7)">
-      <node ref="R107" pin="2"/>
-      <node ref="J133" pin="7"/>
-    </net>
-    <net code="41" name="Net-(J133-Pad10)">
-      <node ref="J133" pin="10"/>
-      <node ref="R110" pin="2"/>
-    </net>
-    <net code="42" name="Net-(J133-Pad6)">
-      <node ref="J133" pin="6"/>
-      <node ref="R106" pin="2"/>
-    </net>
-    <net code="43" name="GND">
-      <node ref="R502" pin="2"/>
-      <node ref="R504" pin="2"/>
-      <node ref="Q501" pin="2"/>
-      <node ref="Q1701" pin="2"/>
-      <node ref="D501" pin="2"/>
-      <node ref="R402" pin="2"/>
-      <node ref="R404" pin="2"/>
-      <node ref="Q401" pin="2"/>
-      <node ref="R902" pin="2"/>
-      <node ref="D401" pin="2"/>
-      <node ref="D1701" pin="2"/>
-      <node ref="R1704" pin="2"/>
-      <node ref="R804" pin="2"/>
-      <node ref="R702" pin="2"/>
-      <node ref="R704" pin="2"/>
-      <node ref="R802" pin="2"/>
-      <node ref="D701" pin="2"/>
-      <node ref="R1702" pin="2"/>
-      <node ref="Q701" pin="2"/>
-      <node ref="D801" pin="2"/>
-      <node ref="R602" pin="2"/>
-      <node ref="R604" pin="2"/>
-      <node ref="Q801" pin="2"/>
-      <node ref="Q601" pin="2"/>
-      <node ref="D601" pin="2"/>
-      <node ref="Q1201" pin="2"/>
-      <node ref="R1204" pin="2"/>
-      <node ref="R1202" pin="2"/>
-      <node ref="D1401" pin="2"/>
-      <node ref="D1101" pin="2"/>
-      <node ref="R1502" pin="2"/>
-      <node ref="R1504" pin="2"/>
-      <node ref="Q1101" pin="2"/>
-      <node ref="D1301" pin="2"/>
-      <node ref="Q1301" pin="2"/>
-      <node ref="R1402" pin="2"/>
-      <node ref="R1304" pin="2"/>
-      <node ref="R1302" pin="2"/>
-      <node ref="R1404" pin="2"/>
-      <node ref="D1201" pin="2"/>
-      <node ref="Q1401" pin="2"/>
-      <node ref="R1004" pin="2"/>
-      <node ref="Q1601" pin="2"/>
-      <node ref="R1002" pin="2"/>
-      <node ref="D1601" pin="2"/>
-      <node ref="D901" pin="2"/>
-      <node ref="Q901" pin="2"/>
-      <node ref="R904" pin="2"/>
-      <node ref="Q1501" pin="2"/>
-      <node ref="R1104" pin="2"/>
-      <node ref="R1102" pin="2"/>
-      <node ref="D1001" pin="2"/>
-      <node ref="D1501" pin="2"/>
-      <node ref="Q1001" pin="2"/>
-      <node ref="R1602" pin="2"/>
-      <node ref="R1604" pin="2"/>
-      <node ref="D201" pin="2"/>
-      <node ref="J124" pin="2"/>
-      <node ref="J125" pin="2"/>
-      <node ref="J131" pin="2"/>
-      <node ref="Q201" pin="2"/>
-      <node ref="J130" pin="2"/>
-      <node ref="J129" pin="2"/>
-      <node ref="J128" pin="2"/>
-      <node ref="J127" pin="2"/>
-      <node ref="J126" pin="2"/>
-      <node ref="R302" pin="2"/>
-      <node ref="J138" pin="1"/>
-      <node ref="J137" pin="1"/>
-      <node ref="J136" pin="1"/>
-      <node ref="J118" pin="2"/>
-      <node ref="R204" pin="2"/>
-      <node ref="J117" pin="2"/>
-      <node ref="J134" pin="2"/>
-      <node ref="J132" pin="2"/>
-      <node ref="J123" pin="2"/>
-      <node ref="J122" pin="2"/>
-      <node ref="J121" pin="2"/>
-      <node ref="J120" pin="2"/>
-      <node ref="J119" pin="2"/>
-      <node ref="R202" pin="2"/>
+    <net code="4" name="GND">
+      <node ref="J104" pin="2"/>
+      <node ref="J105" pin="2"/>
+      <node ref="J106" pin="2"/>
       <node ref="J107" pin="2"/>
       <node ref="J108" pin="2"/>
       <node ref="J109" pin="2"/>
       <node ref="J110" pin="2"/>
-      <node ref="Q301" pin="2"/>
       <node ref="J111" pin="2"/>
       <node ref="J112" pin="2"/>
-      <node ref="J102" pin="2"/>
-      <node ref="J101" pin="2"/>
-      <node ref="J103" pin="2"/>
-      <node ref="J104" pin="2"/>
-      <node ref="J105" pin="2"/>
-      <node ref="J106" pin="2"/>
-      <node ref="D301" pin="2"/>
-      <node ref="R304" pin="2"/>
-      <node ref="J135" pin="1"/>
-      <node ref="J116" pin="2"/>
-      <node ref="J115" pin="2"/>
-      <node ref="J114" pin="2"/>
       <node ref="J113" pin="2"/>
+      <node ref="Q1401" pin="2"/>
+      <node ref="D401" pin="2"/>
+      <node ref="R1102" pin="2"/>
+      <node ref="R1404" pin="2"/>
+      <node ref="R404" pin="2"/>
+      <node ref="J101" pin="2"/>
+      <node ref="Q401" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="Q601" pin="2"/>
+      <node ref="R604" pin="2"/>
+      <node ref="R1004" pin="2"/>
+      <node ref="R602" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="P111" pin="1"/>
+      <node ref="P110" pin="1"/>
+      <node ref="D601" pin="2"/>
+      <node ref="R1002" pin="2"/>
+      <node ref="Q501" pin="2"/>
+      <node ref="R504" pin="2"/>
+      <node ref="R502" pin="2"/>
+      <node ref="D1001" pin="2"/>
+      <node ref="J102" pin="2"/>
+      <node ref="J103" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="D501" pin="2"/>
+      <node ref="J115" pin="2"/>
+      <node ref="J115" pin="3"/>
+      <node ref="J116" pin="2"/>
+      <node ref="J116" pin="3"/>
+      <node ref="Q1001" pin="2"/>
+      <node ref="J114" pin="2"/>
+      <node ref="J114" pin="3"/>
+      <node ref="R304" pin="2"/>
+      <node ref="P101" pin="4"/>
+      <node ref="P105" pin="3"/>
+      <node ref="R1304" pin="2"/>
+      <node ref="D1101" pin="2"/>
+      <node ref="R302" pin="2"/>
+      <node ref="R1302" pin="2"/>
+      <node ref="J128" pin="2"/>
+      <node ref="J129" pin="2"/>
+      <node ref="J134" pin="2"/>
+      <node ref="J135" pin="1"/>
+      <node ref="J136" pin="1"/>
+      <node ref="J137" pin="1"/>
+      <node ref="J138" pin="1"/>
+      <node ref="Q1101" pin="2"/>
+      <node ref="J117" pin="2"/>
+      <node ref="J118" pin="2"/>
+      <node ref="J119" pin="2"/>
+      <node ref="Q301" pin="2"/>
+      <node ref="Q1301" pin="2"/>
+      <node ref="Q1201" pin="2"/>
+      <node ref="Q201" pin="2"/>
+      <node ref="R1202" pin="2"/>
+      <node ref="R1204" pin="2"/>
+      <node ref="D201" pin="2"/>
+      <node ref="U101" pin="24"/>
+      <node ref="U101" pin="14"/>
+      <node ref="D1201" pin="2"/>
+      <node ref="R202" pin="2"/>
+      <node ref="R204" pin="2"/>
+      <node ref="P106" pin="3"/>
+      <node ref="P108" pin="3"/>
+      <node ref="P107" pin="3"/>
+      <node ref="P109" pin="3"/>
+      <node ref="R402" pin="2"/>
+      <node ref="R1104" pin="2"/>
+      <node ref="R1402" pin="2"/>
+      <node ref="R117" pin="1"/>
+      <node ref="J120" pin="2"/>
+      <node ref="J121" pin="2"/>
+      <node ref="J122" pin="2"/>
+      <node ref="J123" pin="2"/>
+      <node ref="D301" pin="2"/>
+      <node ref="J124" pin="2"/>
+      <node ref="J125" pin="2"/>
+      <node ref="J126" pin="2"/>
+      <node ref="J127" pin="2"/>
+      <node ref="D1301" pin="2"/>
+      <node ref="Q801" pin="2"/>
+      <node ref="R904" pin="2"/>
+      <node ref="D801" pin="2"/>
+      <node ref="D101" pin="1"/>
+      <node ref="D701" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="D1401" pin="2"/>
+      <node ref="U102" pin="11"/>
+      <node ref="U102" pin="10"/>
+      <node ref="Q901" pin="2"/>
+      <node ref="R128" pin="1"/>
+      <node ref="R802" pin="2"/>
+      <node ref="R804" pin="2"/>
+      <node ref="R126" pin="1"/>
+      <node ref="R129" pin="1"/>
+      <node ref="C101" pin="2"/>
+      <node ref="R124" pin="1"/>
+      <node ref="R127" pin="1"/>
+      <node ref="R902" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="R702" pin="2"/>
+      <node ref="D901" pin="2"/>
+      <node ref="R704" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="R134" pin="1"/>
+      <node ref="Q701" pin="2"/>
+      <node ref="R125" pin="1"/>
+      <node ref="P112" pin="1"/>
+      <node ref="C107" pin="1"/>
+      <node ref="U104" pin="11"/>
+      <node ref="U104" pin="10"/>
+      <node ref="U103" pin="11"/>
+      <node ref="U103" pin="10"/>
     </net>
-    <net code="44" name="Net-(J133-Pad13)">
-      <node ref="R113" pin="2"/>
-      <node ref="J133" pin="13"/>
+    <net code="5" name="Net-(J114-Pad4)">
+      <node ref="R118" pin="2"/>
+      <node ref="J114" pin="4"/>
     </net>
-    <net code="45" name="Net-(J133-Pad14)">
-      <node ref="R114" pin="2"/>
-      <node ref="J133" pin="14"/>
+    <net code="6" name="Net-(Q103-Pad2)">
+      <node ref="Q103" pin="2"/>
+      <node ref="R121" pin="2"/>
+      <node ref="U102" pin="2"/>
     </net>
-    <net code="46" name="Net-(J133-Pad15)">
-      <node ref="J133" pin="15"/>
-      <node ref="R115" pin="2"/>
+    <net code="7" name="Net-(P109-Pad2)">
+      <node ref="P109" pin="2"/>
+      <node ref="U101" pin="1"/>
     </net>
-    <net code="47" name="Net-(J133-Pad16)">
-      <node ref="J133" pin="16"/>
-      <node ref="R116" pin="2"/>
+    <net code="8" name="Net-(P108-Pad2)">
+      <node ref="P108" pin="2"/>
+      <node ref="U101" pin="2"/>
     </net>
-    <net code="48" name="/LOAD3">
-      <node ref="J119" pin="1"/>
-      <node ref="U401" pin="5"/>
+    <net code="9" name="Net-(P107-Pad2)">
+      <node ref="P107" pin="2"/>
+      <node ref="U101" pin="3"/>
     </net>
-    <net code="49" name="/LOAD4">
-      <node ref="U501" pin="5"/>
-      <node ref="J120" pin="1"/>
+    <net code="10" name="Net-(P106-Pad2)">
+      <node ref="P106" pin="2"/>
+      <node ref="U101" pin="4"/>
     </net>
-    <net code="50" name="/LOAD5">
-      <node ref="U601" pin="5"/>
-      <node ref="J121" pin="1"/>
+    <net code="11" name="Net-(P105-Pad2)">
+      <node ref="P105" pin="2"/>
+      <node ref="U101" pin="5"/>
     </net>
-    <net code="51" name="/LOAD1">
-      <node ref="U201" pin="5"/>
-      <node ref="J117" pin="1"/>
+    <net code="12" name="Net-(U102-Pad5)">
+      <node ref="U102" pin="5"/>
     </net>
-    <net code="52" name="/LOAD2">
-      <node ref="J118" pin="1"/>
-      <node ref="U301" pin="5"/>
+    <net code="13" name="Net-(U102-Pad4)">
+      <node ref="U102" pin="4"/>
     </net>
-    <net code="53" name="/SUPPLY3">
-      <node ref="J103" pin="1"/>
-      <node ref="U401" pin="6"/>
-      <node ref="U401" pin="4"/>
+    <net code="14" name="Net-(U102-Pad8)">
+      <node ref="U102" pin="8"/>
+    </net>
+    <net code="15" name="Net-(Q104-Pad2)">
+      <node ref="Q104" pin="2"/>
+      <node ref="R122" pin="2"/>
+      <node ref="U103" pin="2"/>
+    </net>
+    <net code="16" name="Net-(C102-Pad1)">
+      <node ref="Q102" pin="2"/>
+      <node ref="C102" pin="1"/>
+      <node ref="R119" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Q102-Pad3)">
+      <node ref="Q102" pin="3"/>
+      <node ref="R122" pin="1"/>
+      <node ref="Q104" pin="1"/>
+    </net>
+    <net code="18" name="Net-(U104-Pad5)">
+      <node ref="U104" pin="5"/>
+    </net>
+    <net code="19" name="Net-(U104-Pad4)">
+      <node ref="U104" pin="4"/>
+    </net>
+    <net code="20" name="Net-(U104-Pad8)">
+      <node ref="U104" pin="8"/>
+    </net>
+    <net code="21" name="Net-(R129-Pad2)">
+      <node ref="R129" pin="2"/>
+      <node ref="U104" pin="7"/>
+    </net>
+    <net code="22" name="Net-(Q101-Pad3)">
+      <node ref="Q101" pin="3"/>
+      <node ref="R121" pin="1"/>
+      <node ref="Q103" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U103-Pad5)">
+      <node ref="U103" pin="5"/>
+    </net>
+    <net code="24" name="Net-(U103-Pad4)">
+      <node ref="U103" pin="4"/>
+    </net>
+    <net code="25" name="Net-(U103-Pad8)">
+      <node ref="U103" pin="8"/>
+    </net>
+    <net code="26" name="Net-(R126-Pad2)">
+      <node ref="U103" pin="7"/>
+      <node ref="R126" pin="2"/>
+    </net>
+    <net code="27" name="Net-(Q102-Pad1)">
+      <node ref="Q102" pin="1"/>
+      <node ref="U103" pin="3"/>
+      <node ref="Q104" pin="3"/>
+    </net>
+    <net code="28" name="Net-(J115-Pad4)">
+      <node ref="R119" pin="2"/>
+      <node ref="J115" pin="4"/>
+    </net>
+    <net code="29" name="/SUPPLY9">
+      <node ref="J109" pin="1"/>
+      <node ref="U1001" pin="4"/>
+      <node ref="JP109" pin="1"/>
+      <node ref="JP108" pin="2"/>
+      <node ref="U1001" pin="6"/>
+    </net>
+    <net code="30" name="/CTRL8">
+      <node ref="R1001" pin="2"/>
+      <node ref="P1001" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="D1002" pin="2"/>
+      <node ref="D1001" pin="1"/>
+    </net>
+    <net code="31" name="/SUPPLY10">
+      <node ref="JP109" pin="2"/>
+      <node ref="JP110" pin="1"/>
+      <node ref="U1101" pin="6"/>
+      <node ref="U1101" pin="4"/>
+      <node ref="J110" pin="1"/>
+    </net>
+    <net code="32" name="/CTRL9">
+      <node ref="D1101" pin="1"/>
+      <node ref="D1102" pin="2"/>
+      <node ref="R1101" pin="2"/>
+      <node ref="R110" pin="1"/>
+      <node ref="P1101" pin="1"/>
+    </net>
+    <net code="33" name="/SUPPLY11">
+      <node ref="U1201" pin="4"/>
+      <node ref="U1201" pin="6"/>
+      <node ref="J111" pin="1"/>
+      <node ref="JP111" pin="1"/>
+      <node ref="JP110" pin="2"/>
+    </net>
+    <net code="34" name="/CTRL10">
+      <node ref="R111" pin="1"/>
+      <node ref="R1201" pin="2"/>
+      <node ref="P1201" pin="1"/>
+      <node ref="D1201" pin="1"/>
+      <node ref="D1202" pin="2"/>
+    </net>
+    <net code="35" name="/SUPPLY12">
+      <node ref="JP112" pin="1"/>
+      <node ref="JP111" pin="2"/>
+      <node ref="U1301" pin="6"/>
+      <node ref="U1301" pin="4"/>
+      <node ref="J112" pin="1"/>
+    </net>
+    <net code="36" name="/CTRL11">
+      <node ref="D1301" pin="1"/>
+      <node ref="D1302" pin="2"/>
+      <node ref="P1301" pin="1"/>
+      <node ref="R112" pin="1"/>
+      <node ref="R1301" pin="2"/>
+    </net>
+    <net code="37" name="/SUPPLY13">
+      <node ref="JP112" pin="2"/>
+      <node ref="JP115" pin="1"/>
+      <node ref="U1401" pin="6"/>
+      <node ref="U1401" pin="4"/>
+      <node ref="J113" pin="1"/>
+    </net>
+    <net code="38" name="/CTRL12">
+      <node ref="R1401" pin="2"/>
+      <node ref="D1402" pin="2"/>
+      <node ref="P1401" pin="1"/>
+      <node ref="R113" pin="1"/>
+      <node ref="D1401" pin="1"/>
+    </net>
+    <net code="39" name="/CTRL1">
+      <node ref="D301" pin="1"/>
+      <node ref="R102" pin="2"/>
+      <node ref="D302" pin="2"/>
+      <node ref="R301" pin="2"/>
+      <node ref="P301" pin="1"/>
+    </net>
+    <net code="40" name="/SUPPLY3">
       <node ref="JP103" pin="1"/>
+      <node ref="J103" pin="1"/>
       <node ref="JP102" pin="2"/>
+      <node ref="U401" pin="4"/>
+      <node ref="U401" pin="6"/>
     </net>
-    <net code="54" name="/SUPPLY4">
-      <node ref="U501" pin="6"/>
-      <node ref="U501" pin="4"/>
+    <net code="41" name="/CTRL2">
+      <node ref="R103" pin="2"/>
+      <node ref="D402" pin="2"/>
+      <node ref="R401" pin="2"/>
+      <node ref="P401" pin="1"/>
+      <node ref="D401" pin="1"/>
+    </net>
+    <net code="42" name="/SUPPLY4">
+      <node ref="J104" pin="1"/>
       <node ref="JP104" pin="1"/>
       <node ref="JP103" pin="2"/>
-      <node ref="J104" pin="1"/>
+      <node ref="U501" pin="6"/>
+      <node ref="U501" pin="4"/>
     </net>
-    <net code="55" name="/SUPPLY1">
-      <node ref="J101" pin="1"/>
-      <node ref="U201" pin="4"/>
-      <node ref="U201" pin="6"/>
-      <node ref="JP101" pin="1"/>
+    <net code="43" name="/CTRL3">
+      <node ref="D502" pin="2"/>
+      <node ref="R501" pin="2"/>
+      <node ref="D501" pin="1"/>
+      <node ref="R104" pin="2"/>
+      <node ref="P501" pin="1"/>
     </net>
-    <net code="56" name="/SUPPLY2">
-      <node ref="JP101" pin="2"/>
-      <node ref="U301" pin="4"/>
-      <node ref="U301" pin="6"/>
-      <node ref="JP102" pin="1"/>
-      <node ref="J102" pin="1"/>
-    </net>
-    <net code="57" name="/SUPPLY5">
+    <net code="44" name="/SUPPLY5">
       <node ref="U601" pin="6"/>
-      <node ref="U601" pin="4"/>
       <node ref="J105" pin="1"/>
+      <node ref="U601" pin="4"/>
       <node ref="JP104" pin="2"/>
       <node ref="JP105" pin="1"/>
     </net>
-    <net code="58" name="/SUPPLY6">
-      <node ref="J106" pin="1"/>
-      <node ref="JP105" pin="2"/>
-      <node ref="U701" pin="4"/>
-      <node ref="U701" pin="6"/>
-      <node ref="JP106" pin="1"/>
-    </net>
-    <net code="59" name="/SUPPLY7">
-      <node ref="JP106" pin="2"/>
-      <node ref="JP107" pin="1"/>
-      <node ref="U801" pin="4"/>
-      <node ref="U801" pin="6"/>
-      <node ref="J107" pin="1"/>
-    </net>
-    <net code="60" name="/CTRL2">
-      <node ref="R102" pin="1"/>
-      <node ref="R301" pin="2"/>
-      <node ref="D301" pin="1"/>
-      <node ref="D302" pin="2"/>
-    </net>
-    <net code="61" name="/CTRL3">
-      <node ref="D402" pin="2"/>
-      <node ref="D401" pin="1"/>
-      <node ref="R401" pin="2"/>
-      <node ref="R103" pin="1"/>
-    </net>
-    <net code="62" name="/CTRL1">
-      <node ref="R201" pin="2"/>
-      <node ref="D201" pin="1"/>
-      <node ref="D202" pin="2"/>
-      <node ref="R101" pin="1"/>
-    </net>
-    <net code="63" name="/CTRL6">
-      <node ref="D702" pin="2"/>
-      <node ref="D701" pin="1"/>
-      <node ref="R106" pin="1"/>
-      <node ref="R701" pin="2"/>
-    </net>
-    <net code="64" name="/LOAD6">
-      <node ref="U701" pin="5"/>
-      <node ref="J122" pin="1"/>
-    </net>
-    <net code="65" name="/CTRL4">
-      <node ref="R501" pin="2"/>
-      <node ref="D501" pin="1"/>
-      <node ref="R104" pin="1"/>
-      <node ref="D502" pin="2"/>
-    </net>
-    <net code="66" name="/CTRL5">
-      <node ref="R105" pin="1"/>
+    <net code="45" name="/CTRL4">
       <node ref="D601" pin="1"/>
+      <node ref="P601" pin="1"/>
+      <node ref="R105" pin="2"/>
       <node ref="R601" pin="2"/>
       <node ref="D602" pin="2"/>
     </net>
-    <net code="67" name="Net-(U201-Pad3)">
+    <net code="46" name="/SUPPLY6">
+      <node ref="U701" pin="4"/>
+      <node ref="U701" pin="6"/>
+      <node ref="JP105" pin="2"/>
+      <node ref="JP106" pin="1"/>
+      <node ref="J106" pin="1"/>
+    </net>
+    <net code="47" name="/CTRL5">
+      <node ref="R701" pin="2"/>
+      <node ref="D701" pin="1"/>
+      <node ref="D702" pin="2"/>
+      <node ref="P701" pin="1"/>
+      <node ref="R106" pin="2"/>
+    </net>
+    <net code="48" name="/SUPPLY7">
+      <node ref="J107" pin="1"/>
+      <node ref="U801" pin="4"/>
+      <node ref="U801" pin="6"/>
+      <node ref="JP106" pin="2"/>
+      <node ref="JP107" pin="1"/>
+    </net>
+    <net code="49" name="/CTRL6">
+      <node ref="R801" pin="2"/>
+      <node ref="P801" pin="1"/>
+      <node ref="R107" pin="2"/>
+      <node ref="D802" pin="2"/>
+      <node ref="D801" pin="1"/>
+    </net>
+    <net code="50" name="/SUPPLY8">
+      <node ref="U901" pin="6"/>
+      <node ref="U901" pin="4"/>
+      <node ref="JP108" pin="1"/>
+      <node ref="J108" pin="1"/>
+      <node ref="JP107" pin="2"/>
+    </net>
+    <net code="51" name="/CTRL7">
+      <node ref="R108" pin="2"/>
+      <node ref="D901" pin="1"/>
+      <node ref="R901" pin="2"/>
+      <node ref="P901" pin="1"/>
+      <node ref="D902" pin="2"/>
+    </net>
+    <net code="52" name="Net-(R128-Pad2)">
+      <node ref="U104" pin="9"/>
+      <node ref="R128" pin="2"/>
+    </net>
+    <net code="53" name="Net-(R130-Pad1)">
+      <node ref="R130" pin="1"/>
+      <node ref="U102" pin="6"/>
+    </net>
+    <net code="54" name="Net-(R127-Pad2)">
+      <node ref="U102" pin="7"/>
+      <node ref="R127" pin="2"/>
+    </net>
+    <net code="55" name="/SUPPLY15">
+      <node ref="J115" pin="1"/>
+      <node ref="JP114" pin="2"/>
+      <node ref="JP113" pin="1"/>
+      <node ref="P111" pin="2"/>
+      <node ref="U103" pin="1"/>
+    </net>
+    <net code="56" name="Net-(R131-Pad1)">
+      <node ref="R131" pin="1"/>
+      <node ref="U103" pin="6"/>
+    </net>
+    <net code="57" name="/MPYE0">
+      <node ref="R130" pin="2"/>
+      <node ref="C104" pin="1"/>
+      <node ref="R114" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2"/>
+      <node ref="R133" pin="1"/>
+    </net>
+    <net code="59" name="Net-(R125-Pad2)">
+      <node ref="U103" pin="9"/>
+      <node ref="R125" pin="2"/>
+    </net>
+    <net code="60" name="/Data_In">
+      <node ref="U101" pin="27"/>
+      <node ref="P101" pin="2"/>
+      <node ref="R135" pin="2"/>
+    </net>
+    <net code="61" name="/Clock_In">
+      <node ref="U101" pin="26"/>
+      <node ref="R136" pin="1"/>
+      <node ref="P101" pin="3"/>
+    </net>
+    <net code="62" name="Net-(R134-Pad2)">
+      <node ref="R134" pin="2"/>
+      <node ref="U101" pin="25"/>
+    </net>
+    <net code="63" name="/SUPPLY14">
+      <node ref="P112" pin="2"/>
+      <node ref="JP114" pin="1"/>
+      <node ref="J116" pin="1"/>
+      <node ref="U104" pin="1"/>
+      <node ref="JP115" pin="2"/>
+    </net>
+    <net code="64" name="Net-(Q105-Pad1)">
+      <node ref="U104" pin="3"/>
+      <node ref="Q105" pin="1"/>
+      <node ref="Q106" pin="3"/>
+    </net>
+    <net code="65" name="/5V0">
+      <node ref="R503" pin="1"/>
+      <node ref="R1303" pin="1"/>
+      <node ref="R136" pin="2"/>
+      <node ref="R135" pin="1"/>
+      <node ref="P106" pin="1"/>
+      <node ref="P105" pin="1"/>
+      <node ref="C107" pin="2"/>
+      <node ref="R603" pin="1"/>
+      <node ref="U101" pin="28"/>
+      <node ref="P101" pin="1"/>
+      <node ref="C108" pin="1"/>
+      <node ref="R1003" pin="1"/>
+      <node ref="P109" pin="1"/>
+      <node ref="P107" pin="1"/>
+      <node ref="P108" pin="1"/>
+      <node ref="R803" pin="1"/>
+      <node ref="R1203" pin="1"/>
+      <node ref="R903" pin="1"/>
+      <node ref="R1103" pin="1"/>
+      <node ref="J134" pin="1"/>
+      <node ref="R303" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="R1403" pin="1"/>
+      <node ref="R133" pin="2"/>
+      <node ref="R703" pin="1"/>
+      <node ref="R403" pin="1"/>
+    </net>
+    <net code="66" name="/SUPPLY16">
+      <node ref="J114" pin="1"/>
+      <node ref="P110" pin="2"/>
+      <node ref="JP113" pin="2"/>
+      <node ref="U102" pin="1"/>
+    </net>
+    <net code="67" name="Net-(C103-Pad1)">
+      <node ref="Q105" pin="2"/>
+      <node ref="R120" pin="1"/>
+      <node ref="C103" pin="1"/>
+    </net>
+    <net code="68" name="Net-(J116-Pad4)">
+      <node ref="R120" pin="2"/>
+      <node ref="J116" pin="4"/>
+    </net>
+    <net code="69" name="Net-(Q106-Pad2)">
+      <node ref="U104" pin="2"/>
+      <node ref="Q106" pin="2"/>
+      <node ref="R123" pin="2"/>
+    </net>
+    <net code="70" name="Net-(Q105-Pad3)">
+      <node ref="Q106" pin="1"/>
+      <node ref="R123" pin="1"/>
+      <node ref="Q105" pin="3"/>
+    </net>
+    <net code="71" name="Net-(R132-Pad1)">
+      <node ref="R132" pin="1"/>
+      <node ref="U104" pin="6"/>
+    </net>
+    <net code="72" name="/LOAD6">
+      <node ref="J122" pin="1"/>
+      <node ref="U701" pin="5"/>
+    </net>
+    <net code="73" name="/LOAD7">
+      <node ref="U801" pin="5"/>
+      <node ref="J123" pin="1"/>
+    </net>
+    <net code="74" name="/LOAD8">
+      <node ref="U901" pin="5"/>
+      <node ref="J124" pin="1"/>
+    </net>
+    <net code="75" name="/LOAD9">
+      <node ref="U1001" pin="5"/>
+      <node ref="J125" pin="1"/>
+    </net>
+    <net code="76" name="/LOAD3">
+      <node ref="U401" pin="5"/>
+      <node ref="J119" pin="1"/>
+    </net>
+    <net code="77" name="/LOAD4">
+      <node ref="U501" pin="5"/>
+      <node ref="J120" pin="1"/>
+    </net>
+    <net code="78" name="/LOAD5">
+      <node ref="J121" pin="1"/>
+      <node ref="U601" pin="5"/>
+    </net>
+    <net code="79" name="/LOAD10">
+      <node ref="J126" pin="1"/>
+      <node ref="U1101" pin="5"/>
+    </net>
+    <net code="80" name="/LOAD11">
+      <node ref="U1201" pin="5"/>
+      <node ref="J127" pin="1"/>
+    </net>
+    <net code="81" name="/LOAD12">
+      <node ref="J128" pin="1"/>
+      <node ref="U1301" pin="5"/>
+    </net>
+    <net code="82" name="/LOAD13">
+      <node ref="J129" pin="1"/>
+      <node ref="U1401" pin="5"/>
+    </net>
+    <net code="83" name="/LOAD1">
+      <node ref="U201" pin="5"/>
+      <node ref="J117" pin="1"/>
+    </net>
+    <net code="84" name="/LOAD2">
+      <node ref="U301" pin="5"/>
+      <node ref="J118" pin="1"/>
+    </net>
+    <net code="85" name="/SUPPLY1">
+      <node ref="J101" pin="1"/>
+      <node ref="JP101" pin="1"/>
+      <node ref="U201" pin="6"/>
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="86" name="Net-(R103-Pad1)">
+      <node ref="U101" pin="8"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="87" name="Net-(R104-Pad1)">
+      <node ref="U101" pin="9"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="88" name="Net-(R105-Pad1)">
+      <node ref="U101" pin="10"/>
+      <node ref="R105" pin="1"/>
+    </net>
+    <net code="89" name="Net-(R106-Pad1)">
+      <node ref="U101" pin="11"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="90" name="Net-(R107-Pad1)">
+      <node ref="U101" pin="12"/>
+      <node ref="R107" pin="1"/>
+    </net>
+    <net code="91" name="Net-(R108-Pad1)">
+      <node ref="R108" pin="1"/>
+      <node ref="U101" pin="13"/>
+    </net>
+    <net code="92" name="Net-(R117-Pad2)">
+      <node ref="R117" pin="2"/>
+      <node ref="U101" pin="23"/>
+    </net>
+    <net code="93" name="/MPYE2">
+      <node ref="R132" pin="2"/>
+      <node ref="R116" pin="1"/>
+      <node ref="C106" pin="1"/>
+    </net>
+    <net code="94" name="Net-(R116-Pad2)">
+      <node ref="R116" pin="2"/>
+      <node ref="U101" pin="22"/>
+    </net>
+    <net code="95" name="/MPYE1">
+      <node ref="C105" pin="1"/>
+      <node ref="R131" pin="2"/>
+      <node ref="R115" pin="1"/>
+    </net>
+    <net code="96" name="Net-(R115-Pad2)">
+      <node ref="R115" pin="2"/>
+      <node ref="U101" pin="21"/>
+    </net>
+    <net code="97" name="Net-(R114-Pad2)">
+      <node ref="R114" pin="2"/>
+      <node ref="U101" pin="20"/>
+    </net>
+    <net code="98" name="Net-(R113-Pad2)">
+      <node ref="U101" pin="19"/>
+      <node ref="R113" pin="2"/>
+    </net>
+    <net code="99" name="Net-(R112-Pad2)">
+      <node ref="U101" pin="18"/>
+      <node ref="R112" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R111-Pad2)">
+      <node ref="U101" pin="17"/>
+      <node ref="R111" pin="2"/>
+    </net>
+    <net code="101" name="Net-(R102-Pad1)">
+      <node ref="U101" pin="7"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="102" name="Net-(R110-Pad2)">
+      <node ref="R110" pin="2"/>
+      <node ref="U101" pin="16"/>
+    </net>
+    <net code="103" name="Net-(R109-Pad2)">
+      <node ref="R109" pin="2"/>
+      <node ref="U101" pin="15"/>
+    </net>
+    <net code="104" name="/SUPPLY2">
+      <node ref="JP102" pin="1"/>
+      <node ref="U301" pin="4"/>
+      <node ref="U301" pin="6"/>
+      <node ref="JP101" pin="2"/>
+      <node ref="J102" pin="1"/>
+    </net>
+    <net code="105" name="Net-(R101-Pad1)">
+      <node ref="R101" pin="1"/>
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="106" name="/CTRL0">
+      <node ref="R101" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="P201" pin="1"/>
+      <node ref="D202" pin="2"/>
+      <node ref="D201" pin="1"/>
+    </net>
+    <net code="107" name="Net-(U201-Pad3)">
       <node ref="U201" pin="3"/>
     </net>
-    <net code="68" name="Net-(D202-Pad1)">
+    <net code="108" name="Net-(D202-Pad1)">
       <node ref="R204" pin="1"/>
       <node ref="D202" pin="1"/>
     </net>
-    <net code="69" name="Net-(Q201-Pad3)">
+    <net code="109" name="Net-(Q201-Pad3)">
       <node ref="U201" pin="2"/>
       <node ref="Q201" pin="3"/>
     </net>
-    <net code="70" name="Net-(R203-Pad2)">
-      <node ref="U201" pin="1"/>
+    <net code="110" name="Net-(R203-Pad2)">
       <node ref="R203" pin="2"/>
+      <node ref="U201" pin="1"/>
     </net>
-    <net code="71" name="Net-(Q201-Pad1)">
-      <node ref="R202" pin="1"/>
+    <net code="111" name="Net-(Q201-Pad1)">
       <node ref="Q201" pin="1"/>
+      <node ref="R202" pin="1"/>
       <node ref="R201" pin="1"/>
     </net>
-    <net code="72" name="Net-(U301-Pad3)">
+    <net code="112" name="Net-(U301-Pad3)">
       <node ref="U301" pin="3"/>
     </net>
-    <net code="73" name="Net-(D302-Pad1)">
-      <node ref="R304" pin="1"/>
+    <net code="113" name="Net-(D302-Pad1)">
       <node ref="D302" pin="1"/>
+      <node ref="R304" pin="1"/>
     </net>
-    <net code="74" name="Net-(Q301-Pad3)">
-      <node ref="Q301" pin="3"/>
+    <net code="114" name="Net-(Q301-Pad3)">
       <node ref="U301" pin="2"/>
+      <node ref="Q301" pin="3"/>
     </net>
-    <net code="75" name="Net-(R303-Pad2)">
-      <node ref="U301" pin="1"/>
+    <net code="115" name="Net-(R303-Pad2)">
       <node ref="R303" pin="2"/>
+      <node ref="U301" pin="1"/>
     </net>
-    <net code="76" name="Net-(Q301-Pad1)">
-      <node ref="R302" pin="1"/>
-      <node ref="R301" pin="1"/>
+    <net code="116" name="Net-(Q301-Pad1)">
       <node ref="Q301" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="R302" pin="1"/>
     </net>
-    <net code="77" name="Net-(U401-Pad3)">
+    <net code="117" name="Net-(U401-Pad3)">
       <node ref="U401" pin="3"/>
     </net>
-    <net code="78" name="Net-(D402-Pad1)">
-      <node ref="R404" pin="1"/>
+    <net code="118" name="Net-(D402-Pad1)">
       <node ref="D402" pin="1"/>
+      <node ref="R404" pin="1"/>
     </net>
-    <net code="79" name="Net-(Q401-Pad3)">
-      <node ref="Q401" pin="3"/>
+    <net code="119" name="Net-(Q401-Pad3)">
       <node ref="U401" pin="2"/>
+      <node ref="Q401" pin="3"/>
     </net>
-    <net code="80" name="Net-(R403-Pad2)">
-      <node ref="R403" pin="2"/>
+    <net code="120" name="Net-(R403-Pad2)">
       <node ref="U401" pin="1"/>
+      <node ref="R403" pin="2"/>
     </net>
-    <net code="81" name="Net-(Q401-Pad1)">
-      <node ref="R402" pin="1"/>
+    <net code="121" name="Net-(Q401-Pad1)">
       <node ref="Q401" pin="1"/>
       <node ref="R401" pin="1"/>
+      <node ref="R402" pin="1"/>
     </net>
-    <net code="82" name="Net-(U501-Pad3)">
+    <net code="122" name="Net-(U501-Pad3)">
       <node ref="U501" pin="3"/>
     </net>
-    <net code="83" name="Net-(D502-Pad1)">
+    <net code="123" name="Net-(D502-Pad1)">
       <node ref="R504" pin="1"/>
       <node ref="D502" pin="1"/>
     </net>
-    <net code="84" name="Net-(Q501-Pad3)">
+    <net code="124" name="Net-(Q501-Pad3)">
       <node ref="Q501" pin="3"/>
       <node ref="U501" pin="2"/>
     </net>
-    <net code="85" name="Net-(R503-Pad2)">
+    <net code="125" name="Net-(R503-Pad2)">
       <node ref="R503" pin="2"/>
       <node ref="U501" pin="1"/>
     </net>
-    <net code="86" name="Net-(Q501-Pad1)">
-      <node ref="R502" pin="1"/>
+    <net code="126" name="Net-(Q501-Pad1)">
       <node ref="Q501" pin="1"/>
       <node ref="R501" pin="1"/>
+      <node ref="R502" pin="1"/>
     </net>
-    <net code="87" name="Net-(U601-Pad3)">
+    <net code="127" name="Net-(U601-Pad3)">
       <node ref="U601" pin="3"/>
     </net>
-    <net code="88" name="Net-(D602-Pad1)">
+    <net code="128" name="Net-(D602-Pad1)">
       <node ref="D602" pin="1"/>
       <node ref="R604" pin="1"/>
     </net>
-    <net code="89" name="Net-(Q601-Pad3)">
+    <net code="129" name="Net-(Q601-Pad3)">
       <node ref="U601" pin="2"/>
       <node ref="Q601" pin="3"/>
     </net>
-    <net code="90" name="Net-(R603-Pad2)">
+    <net code="130" name="Net-(R603-Pad2)">
       <node ref="U601" pin="1"/>
       <node ref="R603" pin="2"/>
     </net>
-    <net code="91" name="Net-(Q601-Pad1)">
+    <net code="131" name="Net-(Q601-Pad1)">
       <node ref="R601" pin="1"/>
       <node ref="Q601" pin="1"/>
       <node ref="R602" pin="1"/>
     </net>
-    <net code="92" name="Net-(U701-Pad3)">
+    <net code="132" name="Net-(U701-Pad3)">
       <node ref="U701" pin="3"/>
     </net>
-    <net code="93" name="Net-(D702-Pad1)">
-      <node ref="R704" pin="1"/>
+    <net code="133" name="Net-(D702-Pad1)">
       <node ref="D702" pin="1"/>
+      <node ref="R704" pin="1"/>
     </net>
-    <net code="94" name="Net-(Q701-Pad3)">
+    <net code="134" name="Net-(Q701-Pad3)">
       <node ref="Q701" pin="3"/>
       <node ref="U701" pin="2"/>
     </net>
-    <net code="95" name="Net-(R703-Pad2)">
+    <net code="135" name="Net-(R703-Pad2)">
       <node ref="R703" pin="2"/>
       <node ref="U701" pin="1"/>
     </net>
-    <net code="96" name="Net-(Q701-Pad1)">
-      <node ref="R701" pin="1"/>
-      <node ref="Q701" pin="1"/>
+    <net code="136" name="Net-(Q701-Pad1)">
       <node ref="R702" pin="1"/>
+      <node ref="Q701" pin="1"/>
+      <node ref="R701" pin="1"/>
     </net>
-    <net code="97" name="Net-(U801-Pad3)">
+    <net code="137" name="Net-(U801-Pad3)">
       <node ref="U801" pin="3"/>
     </net>
-    <net code="98" name="Net-(D802-Pad1)">
-      <node ref="R804" pin="1"/>
+    <net code="138" name="Net-(D802-Pad1)">
       <node ref="D802" pin="1"/>
+      <node ref="R804" pin="1"/>
     </net>
-    <net code="99" name="Net-(Q801-Pad3)">
+    <net code="139" name="Net-(Q801-Pad3)">
       <node ref="Q801" pin="3"/>
       <node ref="U801" pin="2"/>
     </net>
-    <net code="100" name="Net-(R803-Pad2)">
-      <node ref="R803" pin="2"/>
+    <net code="140" name="Net-(R803-Pad2)">
       <node ref="U801" pin="1"/>
+      <node ref="R803" pin="2"/>
     </net>
-    <net code="101" name="Net-(Q801-Pad1)">
+    <net code="141" name="Net-(Q801-Pad1)">
+      <node ref="R802" pin="1"/>
       <node ref="R801" pin="1"/>
       <node ref="Q801" pin="1"/>
-      <node ref="R802" pin="1"/>
     </net>
-    <net code="102" name="Net-(U901-Pad3)">
+    <net code="142" name="Net-(U901-Pad3)">
       <node ref="U901" pin="3"/>
     </net>
-    <net code="103" name="Net-(D902-Pad1)">
-      <node ref="R904" pin="1"/>
+    <net code="143" name="Net-(D902-Pad1)">
       <node ref="D902" pin="1"/>
+      <node ref="R904" pin="1"/>
     </net>
-    <net code="104" name="Net-(Q901-Pad3)">
-      <node ref="Q901" pin="3"/>
+    <net code="144" name="Net-(Q901-Pad3)">
       <node ref="U901" pin="2"/>
+      <node ref="Q901" pin="3"/>
     </net>
-    <net code="105" name="Net-(R903-Pad2)">
-      <node ref="R903" pin="2"/>
+    <net code="145" name="Net-(R903-Pad2)">
       <node ref="U901" pin="1"/>
+      <node ref="R903" pin="2"/>
     </net>
-    <net code="106" name="Net-(Q901-Pad1)">
+    <net code="146" name="Net-(Q901-Pad1)">
       <node ref="R902" pin="1"/>
-      <node ref="Q901" pin="1"/>
       <node ref="R901" pin="1"/>
+      <node ref="Q901" pin="1"/>
     </net>
-    <net code="107" name="Net-(U1001-Pad3)">
+    <net code="147" name="Net-(U1001-Pad3)">
       <node ref="U1001" pin="3"/>
     </net>
-    <net code="108" name="Net-(D1002-Pad1)">
-      <node ref="R1004" pin="1"/>
+    <net code="148" name="Net-(D1002-Pad1)">
       <node ref="D1002" pin="1"/>
+      <node ref="R1004" pin="1"/>
     </net>
-    <net code="109" name="Net-(Q1001-Pad3)">
-      <node ref="Q1001" pin="3"/>
+    <net code="149" name="Net-(Q1001-Pad3)">
       <node ref="U1001" pin="2"/>
+      <node ref="Q1001" pin="3"/>
     </net>
-    <net code="110" name="Net-(R1003-Pad2)">
+    <net code="150" name="Net-(R1003-Pad2)">
       <node ref="U1001" pin="1"/>
       <node ref="R1003" pin="2"/>
     </net>
-    <net code="111" name="Net-(Q1001-Pad1)">
-      <node ref="R1001" pin="1"/>
+    <net code="151" name="Net-(Q1001-Pad1)">
       <node ref="Q1001" pin="1"/>
+      <node ref="R1001" pin="1"/>
       <node ref="R1002" pin="1"/>
     </net>
-    <net code="112" name="Net-(U1101-Pad3)">
+    <net code="152" name="Net-(U1101-Pad3)">
       <node ref="U1101" pin="3"/>
     </net>
-    <net code="113" name="Net-(D1102-Pad1)">
+    <net code="153" name="Net-(D1102-Pad1)">
       <node ref="R1104" pin="1"/>
       <node ref="D1102" pin="1"/>
     </net>
-    <net code="114" name="Net-(Q1101-Pad3)">
-      <node ref="Q1101" pin="3"/>
+    <net code="154" name="Net-(Q1101-Pad3)">
       <node ref="U1101" pin="2"/>
+      <node ref="Q1101" pin="3"/>
     </net>
-    <net code="115" name="Net-(R1103-Pad2)">
+    <net code="155" name="Net-(R1103-Pad2)">
       <node ref="R1103" pin="2"/>
       <node ref="U1101" pin="1"/>
     </net>
-    <net code="116" name="Net-(Q1101-Pad1)">
+    <net code="156" name="Net-(Q1101-Pad1)">
       <node ref="Q1101" pin="1"/>
       <node ref="R1101" pin="1"/>
       <node ref="R1102" pin="1"/>
     </net>
-    <net code="117" name="Net-(U1201-Pad3)">
+    <net code="157" name="Net-(U1201-Pad3)">
       <node ref="U1201" pin="3"/>
     </net>
-    <net code="118" name="Net-(D1202-Pad1)">
+    <net code="158" name="Net-(D1202-Pad1)">
       <node ref="D1202" pin="1"/>
       <node ref="R1204" pin="1"/>
     </net>
-    <net code="119" name="Net-(Q1201-Pad3)">
-      <node ref="Q1201" pin="3"/>
+    <net code="159" name="Net-(Q1201-Pad3)">
       <node ref="U1201" pin="2"/>
+      <node ref="Q1201" pin="3"/>
     </net>
-    <net code="120" name="Net-(R1203-Pad2)">
-      <node ref="R1203" pin="2"/>
+    <net code="160" name="Net-(R1203-Pad2)">
       <node ref="U1201" pin="1"/>
+      <node ref="R1203" pin="2"/>
     </net>
-    <net code="121" name="Net-(Q1201-Pad1)">
-      <node ref="R1202" pin="1"/>
+    <net code="161" name="Net-(Q1201-Pad1)">
       <node ref="Q1201" pin="1"/>
       <node ref="R1201" pin="1"/>
+      <node ref="R1202" pin="1"/>
     </net>
-    <net code="122" name="Net-(U1301-Pad3)">
+    <net code="162" name="Net-(U1301-Pad3)">
       <node ref="U1301" pin="3"/>
     </net>
-    <net code="123" name="Net-(D1302-Pad1)">
+    <net code="163" name="Net-(D1302-Pad1)">
       <node ref="D1302" pin="1"/>
       <node ref="R1304" pin="1"/>
     </net>
-    <net code="124" name="Net-(Q1301-Pad3)">
+    <net code="164" name="Net-(Q1301-Pad3)">
       <node ref="U1301" pin="2"/>
       <node ref="Q1301" pin="3"/>
     </net>
-    <net code="125" name="Net-(R1303-Pad2)">
-      <node ref="U1301" pin="1"/>
+    <net code="165" name="Net-(R1303-Pad2)">
       <node ref="R1303" pin="2"/>
+      <node ref="U1301" pin="1"/>
     </net>
-    <net code="126" name="Net-(Q1301-Pad1)">
-      <node ref="R1301" pin="1"/>
-      <node ref="Q1301" pin="1"/>
+    <net code="166" name="Net-(Q1301-Pad1)">
       <node ref="R1302" pin="1"/>
+      <node ref="Q1301" pin="1"/>
+      <node ref="R1301" pin="1"/>
     </net>
-    <net code="127" name="Net-(U1401-Pad3)">
+    <net code="167" name="Net-(U1401-Pad3)">
       <node ref="U1401" pin="3"/>
     </net>
-    <net code="128" name="Net-(D1402-Pad1)">
+    <net code="168" name="Net-(D1402-Pad1)">
       <node ref="D1402" pin="1"/>
       <node ref="R1404" pin="1"/>
     </net>
-    <net code="129" name="Net-(Q1401-Pad3)">
+    <net code="169" name="Net-(Q1401-Pad3)">
       <node ref="U1401" pin="2"/>
       <node ref="Q1401" pin="3"/>
     </net>
-    <net code="130" name="Net-(R1403-Pad2)">
+    <net code="170" name="Net-(R1403-Pad2)">
       <node ref="U1401" pin="1"/>
       <node ref="R1403" pin="2"/>
     </net>
-    <net code="131" name="Net-(Q1401-Pad1)">
+    <net code="171" name="Net-(Q1401-Pad1)">
       <node ref="R1402" pin="1"/>
       <node ref="R1401" pin="1"/>
       <node ref="Q1401" pin="1"/>
-    </net>
-    <net code="132" name="Net-(U1501-Pad3)">
-      <node ref="U1501" pin="3"/>
-    </net>
-    <net code="133" name="Net-(D1502-Pad1)">
-      <node ref="R1504" pin="1"/>
-      <node ref="D1502" pin="1"/>
-    </net>
-    <net code="134" name="Net-(Q1501-Pad3)">
-      <node ref="Q1501" pin="3"/>
-      <node ref="U1501" pin="2"/>
-    </net>
-    <net code="135" name="Net-(R1503-Pad2)">
-      <node ref="U1501" pin="1"/>
-      <node ref="R1503" pin="2"/>
-    </net>
-    <net code="136" name="Net-(Q1501-Pad1)">
-      <node ref="Q1501" pin="1"/>
-      <node ref="R1501" pin="1"/>
-      <node ref="R1502" pin="1"/>
-    </net>
-    <net code="137" name="Net-(U1601-Pad3)">
-      <node ref="U1601" pin="3"/>
-    </net>
-    <net code="138" name="Net-(D1602-Pad1)">
-      <node ref="R1604" pin="1"/>
-      <node ref="D1602" pin="1"/>
-    </net>
-    <net code="139" name="Net-(Q1601-Pad3)">
-      <node ref="U1601" pin="2"/>
-      <node ref="Q1601" pin="3"/>
-    </net>
-    <net code="140" name="Net-(R1603-Pad2)">
-      <node ref="U1601" pin="1"/>
-      <node ref="R1603" pin="2"/>
-    </net>
-    <net code="141" name="Net-(Q1601-Pad1)">
-      <node ref="Q1601" pin="1"/>
-      <node ref="R1602" pin="1"/>
-      <node ref="R1601" pin="1"/>
-    </net>
-    <net code="142" name="Net-(U1701-Pad3)">
-      <node ref="U1701" pin="3"/>
-    </net>
-    <net code="143" name="Net-(D1702-Pad1)">
-      <node ref="D1702" pin="1"/>
-      <node ref="R1704" pin="1"/>
-    </net>
-    <net code="144" name="Net-(Q1701-Pad3)">
-      <node ref="Q1701" pin="3"/>
-      <node ref="U1701" pin="2"/>
-    </net>
-    <net code="145" name="Net-(R1703-Pad2)">
-      <node ref="R1703" pin="2"/>
-      <node ref="U1701" pin="1"/>
-    </net>
-    <net code="146" name="Net-(Q1701-Pad1)">
-      <node ref="R1702" pin="1"/>
-      <node ref="Q1701" pin="1"/>
-      <node ref="R1701" pin="1"/>
     </net>
   </nets>
 </export>

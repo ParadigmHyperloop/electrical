@@ -1,0 +1,42 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Mfr PN,Link,Digikey PN,URL,Mfg.,Mfg. PN,site,website
+1,Unpolarized capacitor,C,C104 C105 C106 C107 C108,0.1uF,C_0805_HandSoldering,5,,08055C104KAT2A,https://www.digikey.com/product-detail/en/avx-corporation/08055C104KAT2A/478-1395-1-ND/564427,478-1395-1-ND,,,,,
+2,Unpolarized capacitor,C,C101 C102 C103,10nF,C_1206_HandSoldering,3,,,,399-14845-6-ND,https://www.digikey.com/product-detail/en/kemet/C1206C103JCGACAUTO/399-14845-6-ND/7364194,,,,
+3,,ZENER-RESCUE-SSRBoard,D201 D301 D401 D501 D601 D701 D801 D901 D1001 D1101 D1201 D1301 D1401,5.6V,SOD-123,13,,,,,,Diodes,MMSZ5232B-7-F,,
+4,,LED-RESCUE-SSRBoard,D202 D302 D402 D502 D602 D702 D802 D902 D1002 D1102 D1202 D1302 D1402,LED,SOD-123,13,,,,,,Kingbright,APT2012LZGCK,,
+5,LED generic,LED,D101,LED,LED_0805_HandSoldering,1,,,,,,,,,
+6,"Connector, single row, 01x02, pin header",CONN_01X02,J101 J102 J103 J104 J105 J106 J107 J108 J109 J110 J111 J112 J113 J117 J118 J119 J120 J121 J122 J123 J124 J125 J126 J127 J128 J129 J134 P110 P111 P112,CONN_01X02,CONN_PHOENIX_1844210_2PIN,30,,,,277-2416-ND,,Phoenix,1844210,,
+7,"Connector, single row, 01x04, pin header",CONN_01X04,J114 J115 J116 P101,CONN_01X04,CONN_PHOENIX_1844236_4PIN,4,,,,277-2419-ND,,,,,
+8,,JUMPER,JP101 JP102 JP103 JP104 JP105 JP106 JP107 JP108 JP109 JP110 JP111 JP112 JP113 JP114 JP115,JUMPER,R_2512_HandSoldering,15,,,,,,Stackpole,RMCF2512ZT0R00,,
+9,"Connector, single row, 01x03, pin header",CONN_01X03,P105 P106 P107 P108 P109,Addressing,TO-220-3_Vertical,5,,,,,,,,,
+10,"Connector, single row, 01x01, pin header",CONN_01X01,P201 P301 P401 P501 P601 P701 P801 P901 P1001 P1101 P1201 P1301 P1401,CONN_01X01,1pin,13,,,,,,,,,
+11,,MMBT2222ALT1G,Q201 Q301 Q401 Q501 Q601 Q701 Q801 Q901 Q1001 Q1101 Q1201 Q1301 Q1401,MMBT2222ALT1G,SOT-23_Handsoldering,13,,,,,,ON Semi,MMBT2222ALT1G,,
+12,Transistor P-MOSFET with substrate diode (general),Q_PMOS_DGS_SSR,Q101 Q102 Q105,Q_PMOS_DGS_SSR,SOT-223-3Lead_TabPin2,3,,,,NTF2955T1GOSTR-ND,,,,,
+13,Transistor PNP (general),Q_PNP_BEC,Q103 Q104 Q106,Q_PNP_BEC,SOT-23_Handsoldering,3,,,,MMBT5087CT-ND,,,,https://www.digikey.com/products/en?keywords=MMBT5087CT-ND,
+14,Resistor,R,R101 R102 R103 R104 R105 R106 R107 R108 R109 R110 R111 R112 R113 R114 R115 R116 R117,0,R_1206_HandSoldering,17,,,,P0.0ECT-ND,,,,,
+15,Resistor,R,R124 R125 R128 R134,0,R_0805_HandSoldering,4,,,,P0.0ATR-ND,,,,,
+16,,R-RESCUE-SSRBoard,R201 R301 R401 R501 R601 R701 R801 R901 R1001 R1101 R1201 R1301 R1401,10k,R_1206_HandSoldering,13,,,,,,Yageo,RC1206FR-0710KL,,
+17,Resistor,R,R118 R119 R120 R121 R122 R123,15,R_0805_HandSoldering,6,,,,P15ATR-ND,,,,,https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/thick-film-chip-resistors/ERJ6GEYJ150V
+18,,R-RESCUE-SSRBoard,R202 R302 R402 R502 R602 R702 R802 R902 R1002 R1102 R1202 R1302 R1402,1M,R_1206_HandSoldering,13,,,,,,Yageo,RC1206JR-071ML,,
+19,Resistor,R,R130 R131 R132,20K,R_0805_HandSoldering,3,,,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ203V/P20KATR-ND/83076,P20KATR-ND,,,,,
+20,Resistor,R,R126 R127 R129,2k,R_0805_HandSoldering,3,,,,P2.00KCTR-ND,,,,,
+21,Resistor,R,R135 R136,5K,R_0805_HandSoldering,2,,,,,,,,,
+22,,R-RESCUE-SSRBoard,R203 R204 R303 R304 R403 R404 R503 R504 R603 R604 R703 R704 R803 R804 R903 R904 R1003 R1004 R1103 R1104 R1203 R1204 R1303 R1304 R1403 R1404,910,R_1206_HandSoldering,26,,,,,,Yageo,RC1206FR-07910RL,,
+23,Resistor,R,R133,R,C_0805_HandSoldering,1,,,,,,,,,
+24,,LEDDriverSSR,U101,LEDDriverSSR,TSSOP-28_4.4x9.7mm_Pitch0.65mm,1,,,https://www.digikey.com/products/en?keywords=568-5931-1-ND,568-5931-1-ND,,,,,
+25,,SSR,U201 U301 U401 U501 U601 U701 U801 U901 U1001 U1101 U1201 U1301 U1401,SSR,VISHAY_6SMD_OPTOCOUPLER,13,,,,,,Vishay,VO14642AABTR,,
+26,,XTR111,U102 U103 U104,XTR111,,3,http://www.ti.com/lit/ds/symlink/xtr111.pdf,,,296-39545-2-ND,,,,,
+
+
+
+
+
+Component Groups:,26
+Component Count:,226
+Fitted Components:,226
+Number of PCBs:,1
+Total components:,226
+Schematic Version:,
+Schematic Date:,
+BoM Date:,"Friday, July 14, 2017 'PMt' 01:02:05 PM"
+Schematic Source:,/Users/chrisreusch/Documents/Hyperloop/full_electrical/SolidStateRelayBoard/SSRBoard.sch
+KiCad Version:,Eeschema 4.0.6
