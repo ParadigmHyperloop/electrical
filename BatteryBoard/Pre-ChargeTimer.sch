@@ -94,7 +94,7 @@ PRECHG_FET_EN
 Text Notes 650  800  0    118  ~ 24
 Pre-charge Timer
 Text Notes 7150 1350 0    60   ~ 0
-Pre-charge time:\n		time = R114 * C = 100ms\n\nReference: http://www.bowdenshobbycircuits.info/page9.htm
+Pre-charge time:\n		time = (R203+R204) * C202 = 200ms\n\nReference: http://www.bowdenshobbycircuits.info/page9.htm
 $Comp
 L R R201
 U 1 1 59655F30
@@ -125,7 +125,11 @@ F 3 "" H 2500 3150 60  0000 C CNN
 $EndComp
 Connection ~ 2050 3150
 Wire Wire Line
-	4300 3150 2700 3150
+	4300 3150 3500 3150
+Wire Wire Line
+	3500 3150 2900 3150
+Wire Wire Line
+	2900 3150 2700 3150
 $Comp
 L R R202
 U 1 1 59655F45
@@ -160,7 +164,11 @@ Connection ~ 2900 2400
 Wire Wire Line
 	5450 1200 5450 1050
 Wire Wire Line
-	4400 1050 5750 1050
+	4400 1050 4700 1050
+Wire Wire Line
+	4700 1050 5450 1050
+Wire Wire Line
+	5450 1050 5750 1050
 Wire Wire Line
 	5750 1050 5750 1200
 Connection ~ 5450 1050
@@ -186,7 +194,7 @@ L R R203
 U 1 1 59655F72
 P 4700 1400
 F 0 "R203" H 4850 1600 50  0000 C CNN
-F 1 "1M" H 4850 1450 50  0000 C CNN
+F 1 "2M" H 4850 1450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4630 1400 30  0001 C CNN
 F 3 "" H 4700 1400 30  0000 C CNN
 	1    4700 1400
@@ -195,7 +203,11 @@ $EndComp
 Wire Wire Line
 	4700 1050 4700 1150
 Wire Wire Line
-	4700 1650 4700 2250
+	4700 1650 4700 2000
+Wire Wire Line
+	4700 2000 4700 2150
+Wire Wire Line
+	4700 2150 4700 2250
 Wire Wire Line
 	4700 2000 4900 2000
 Wire Wire Line
@@ -251,17 +263,25 @@ F 6 "LMC555CMX/NOPBCT-ND" H 5600 2000 60  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 3150 1800 3150
+	2300 3150 2050 3150
+Wire Wire Line
+	2050 3150 1800 3150
 Connection ~ 4700 1050
 Wire Wire Line
 	6300 2000 6650 2000
 Text HLabel 4200 3500 0    60   Input ~ 0
 BMS_GND
 Wire Wire Line
-	4200 3500 5750 3500
+	4200 3500 4700 3500
+Wire Wire Line
+	4700 3500 5450 3500
+Wire Wire Line
+	5450 3500 5750 3500
 Connection ~ 4700 3500
 Connection ~ 5450 3500
 Connection ~ 3500 3150
 Wire Wire Line
-	3500 2400 2050 2400
+	3500 2400 2900 2400
+Wire Wire Line
+	2900 2400 2050 2400
 $EndSCHEMATC
