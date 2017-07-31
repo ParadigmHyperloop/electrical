@@ -6,6 +6,7 @@ All boards are built using KiCad EDA (http://kicad-pcb.org/).  It is free and op
 
 1. Download and Install KiCAD
 2. Clone this Repo
+3. Checkout a new branch or your branch other than master
 3. Open the project file (.pro) for the board you are interested in
 4. Make any edits, create a branch, add and commit the changes to git, then push. 
 
