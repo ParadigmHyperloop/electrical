@@ -5,9 +5,10 @@
 //Bleed Valve Green-INPUT:A4 OUTPUT:LED_4
 //Bleed Valve Red - INPUT:A5 OUTPUT:LED_5
 //Battery Level Green-INPUT:A6 OUTPUT:LED_6
-//PSI BUZZER-INPUT:A7 OUTPUT:LED_7, Buzzer
-//Battery Level Yellow-INPUT:A8 OUTPUT:LED_8
-//Battery Level Red-INPUT:A9 OUTPUT:LED_9
+//Battery Level Yellow-INPUT:A7 OUTPUT:LED_7
+//Battery Level Red-INPUT:A8 OUTPUT:LED_8
+//Arduino Power LED -INPUT:A9 OUTPUT:LED_9
+//PSI BUZZER-INPUT:A10 OUTPUT:Transistor 
 
 int LED_0=0;
 int LED_1=1;
@@ -19,6 +20,7 @@ int LED_6=6;
 int LED_7=7;
 int LED_8=8;
 int LED_9=9;
+int Transistor_10=10;
 
 void setup() {
   Serial.begin(9600);
@@ -35,6 +37,8 @@ void setup() {
 }
 
 void loop() {
+  //Arduino Power LED
+  digitalWrite(LED_9, HIGH)
   //Pod On
   if((analogRead(A0)*(5.0/1023.0))==3.3){ 
     digitalWrite(LED_0, HIGH);
@@ -98,29 +102,29 @@ void loop() {
     digitalWrite(LED_6,LOW);
   }
 
-//PSI BUZZER
- if(((analogRead(A7)*(5.0/1023.0))>=4.5)&&(analogRead(A7)*(5.0/1023.0)<=5.5)){
+
+// Battery Level Yellow
+ if(((analogRead(A7)*(5.0/1023.0))>=30)&&(analogRead(A7)*(5.0/1023.0)<=33)){
     digitalWrite(LED_7, HIGH);
     }
   
   else {
     digitalWrite(LED_7,LOW);
   }
-
-// Battery Level Yellow
- if(((analogRead(A8)*(5.0/1023.0))>=30)&&(analogRead(A8)*(5.0/1023.0)<=33)){
+//Battery Level Red
+ if(9(analogRead(A8)*(5.0/1023.0))>=27)&&(analogRead(A8)*(5.0/1023.0)<=30)){
     digitalWrite(LED_8, HIGH);
     }
   
   else {
     digitalWrite(LED_8,LOW);
   }
-//Battery Level Red
- if(9(analogRead(A9)*(5.0/1023.0))>=27)&&(analogRead(A9)*(5.0/1023.0)<=30)){
-    digitalWrite(LED_9, HIGH);
+  //PSI BUZZER
+ if(((analogRead(A10)*(5.0/1023.0))>=4.5)&&(analogRead(A10)*(5.0/1023.0)<=5.5)){
+    digitalWrite(LED_10, HIGH);
     }
   
   else {
-    digitalWrite(LED_9,LOW);
+    digitalWrite(LED_10,LOW);
   }
 }
