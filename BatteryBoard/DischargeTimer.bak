@@ -109,7 +109,7 @@ L R R302
 U 1 1 59657923
 P 2600 2050
 F 0 "R302" V 2500 1900 50  0000 C CNN
-F 1 "1M" V 2500 2250 50  0000 C CNN
+F 1 "2M" V 2500 2250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2530 2050 30  0001 C CNN
 F 3 "" H 2600 2050 30  0000 C CNN
 	1    2600 2050
@@ -166,7 +166,7 @@ Connection ~ 3600 1300
 Wire Wire Line
 	4350 3000 4350 2550
 Text Notes 6650 1700 0    60   ~ 0
-Delay time from BMS_DISCHARGE_EN_L  ¯¯|_ _  to MAIN_FET_EN_L ¯¯|_ _\n		delay time = 0.7 * (R302 * C) = 70ms\n\n\nDelay time for pack off (rising edges):\n		delay time = 0.7 * (R301 * C) = 700us\n\nReference: http://home.cogeco.ca/~~rpaisley4/Comparators.html\nNote: remove the second tilde (~~) from URL source (it's an escape char)
+Delay time from BMS_DISCHARGE_EN_L  ¯¯|_ _  to MAIN_FET_EN_L ¯¯|_ _\n		delay time = 0.7 * (R302 * C) = 140ms\n\n\nDelay time for pack off (rising edges):\n		delay time = 0.7 * (R301 * C) = 700us\n\nReference: http://home.cogeco.ca/~~rpaisley4/Comparators.html\nNote: remove the second tilde (~~) from URL source (it's an escape char)
 Wire Wire Line
 	2050 2300 2400 2300
 Wire Wire Line
