@@ -1,4 +1,4 @@
-update=Wednesday, May 31, 2017 'PMt' 12:18:10 PM
+update=Tuesday, October 03, 2017 'PMt' 03:06:12 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,9 +27,9 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../Downloads/full_electrical-master/full_electrical-master;C:/Users/Nicola's computer/Downloads/full_electrical-master/full_electrical-master;C:/Users/Nicola's computer/Downloads/arduino_uno_r3_from_scratch-master;C:/Users/Nicola's computer/Downloads/VO14642AABTR
 [eeschema/libraries]
-LibName1=LEDBoard-rescue
+LibName1=Led_Board-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -59,4 +59,14 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=SOT2-cache
+LibName31=KiCAD_Tutorial/KiCAD_Tutorial
+LibName32=SolidStateRelayBoard/5vregulatortab
+LibName33=SolidStateRelayBoard/ssr
+LibName34=SolidStateRelayBoard/SSRBoard-cache
+LibName35=SolidStateRelayBoard/SSRBoard-rescue
+LibName36=arduino_uno_r3_from_scratch-master/Arduino_Uno_R3_From_Scratch
+LibName37=arduino_uno_r3_from_scratch-master/Arduino_Uno_R3_From_Scratch-cache
+LibName38=arduino_uno_r3_from_scratch-master/MFN_Atmel
+LibName39=SolidStateRelayBoard/xtr117
+LibName40=SolidStateRelayBoard/mmbt2222alt1g
+LibName41=VO14642AABTR

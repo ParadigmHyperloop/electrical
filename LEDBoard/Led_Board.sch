@@ -1,0 +1,832 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:KiCAD_Tutorial
+LIBS:5vregulatortab
+LIBS:ssr
+LIBS:SSRBoard-cache
+LIBS:SSRBoard-rescue
+LIBS:Arduino_Uno_R3_From_Scratch
+LIBS:Arduino_Uno_R3_From_Scratch-cache
+LIBS:MFN_Atmel
+LIBS:xtr117
+LIBS:mmbt2222alt1g
+LIBS:VO14642AABTR
+LIBS:Led_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SSR U1
+U 1 1 596D39E9
+P 6700 1000
+F 0 "U1" H 6450 1300 60  0000 C CNN
+F 1 "SSR" H 6950 700 60  0000 C CNN
+F 2 "VO14642AABTR:SOIC254P1005X390-6N" H 6700 1000 60  0001 C CNN
+F 3 "" H 6700 1000 60  0001 C CNN
+F 4 "VO14642AABCT-ND" H 6700 1000 60  0001 C CNN "Digikey PN"
+F 5 "Vishay Semiconductor Oppto Division" H 6700 1000 60  0001 C CNN "Mfg"
+F 6 "VO14642AABTR" H 6700 1000 60  0001 C CNN "Mfg. PN"
+	1    6700 1000
+	1    0    0    -1  
+$EndComp
+Text Label 5800 1550 3    60   ~ 0
+GND
+Text Label 5300 1350 3    60   ~ 0
+Transistor
+$Comp
+L R R7
+U 1 1 596D61BE
+P 8850 4650
+F 0 "R7" V 8930 4650 50  0000 C CNN
+F 1 "220" V 8850 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 8780 4650 50  0001 C CNN
+F 3 "" H 8850 4650 50  0001 C CNN
+F 4 "P.22RCT-ND" V 8850 4650 60  0001 C CNN "Digi key PN"
+F 5 "Panasonic Electronic Company" V 8850 4650 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 8850 4650 60  0001 C CNN "Mfg. PN"
+	1    8850 4650
+	1    0    0    -1  
+$EndComp
+Text Label 6450 4900 0    60   ~ 0
+A0
+Text Label 6850 4900 0    60   ~ 0
+A1
+Text Label 7250 4900 0    60   ~ 0
+A2
+Text Label 7650 4900 0    60   ~ 0
+A3
+Text Label 8050 4900 0    60   ~ 0
+A4
+Text Label 8450 4900 0    60   ~ 0
+A5
+Text Label 8850 4900 0    60   ~ 0
+A6
+Text Label 7950 1700 0    60   ~ 0
+GND
+NoConn ~ 6200 1150
+Wire Wire Line
+	6450 4500 6450 4250
+Wire Wire Line
+	6850 4250 6850 4500
+Wire Wire Line
+	7250 4250 7250 4500
+Connection ~ 6850 4250
+Connection ~ 7250 4250
+Wire Wire Line
+	8050 4250 8050 4500
+Connection ~ 7650 4250
+Wire Wire Line
+	8450 4250 8450 4500
+Connection ~ 8050 4250
+Connection ~ 8450 4250
+Wire Wire Line
+	5950 850  6200 850 
+Wire Wire Line
+	7400 850  7200 850 
+Wire Wire Line
+	8200 1600 7950 1600
+Wire Wire Line
+	7950 1700 8200 1700
+Wire Wire Line
+	5500 1350 5300 1350
+Wire Wire Line
+	6450 4800 6450 4900
+Wire Wire Line
+	6850 4800 6850 4900
+Wire Wire Line
+	7250 4800 7250 4900
+Wire Wire Line
+	7650 4800 7650 4900
+Wire Wire Line
+	8050 4800 8050 4900
+Wire Wire Line
+	8450 4800 8450 4900
+Wire Wire Line
+	8850 4800 8850 4900
+Wire Wire Line
+	2600 2350 2850 2350
+Wire Wire Line
+	2600 2450 2850 2450
+Wire Wire Line
+	2600 2550 2850 2550
+Wire Wire Line
+	2600 2650 2850 2650
+Wire Wire Line
+	2600 2750 2850 2750
+Wire Wire Line
+	2600 2850 2850 2850
+Wire Wire Line
+	2600 2950 2850 2950
+Text Label 2850 2350 0    60   ~ 0
+A0
+Text Label 2850 2450 0    60   ~ 0
+A1
+Text Label 2850 2650 0    60   ~ 0
+A3
+Text Label 2850 2750 0    60   ~ 0
+A4
+Text Label 2850 2850 0    60   ~ 0
+A5
+Text Label 2850 2950 0    60   ~ 0
+A6
+Text Label 2600 2050 0    60   ~ 0
+Transistor
+Wire Wire Line
+	2600 3050 2850 3050
+Text Label 2850 2550 0    60   ~ 0
+A2
+Text Label 2600 2250 0    60   ~ 0
+24V
+$Comp
+L R R6
+U 1 1 5979120A
+P 8450 4650
+F 0 "R6" V 8530 4650 50  0000 C CNN
+F 1 "220" V 8450 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 8380 4650 50  0001 C CNN
+F 3 "" H 8450 4650 50  0001 C CNN
+F 4 "Panasonic Electronic Company" V 8450 4650 60  0001 C CNN "Mfg."
+F 5 "ERJ-8RQFR22V" V 8450 4650 60  0001 C CNN "Mfg. PN"
+	1    8450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 59791257
+P 8050 4650
+F 0 "R5" V 8130 4650 50  0000 C CNN
+F 1 "220" V 8050 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7980 4650 50  0001 C CNN
+F 3 "" H 8050 4650 50  0001 C CNN
+F 4 "P.22RCT-ND" V 8050 4650 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 8050 4650 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 8050 4650 60  0001 C CNN "Mfg. PN"
+	1    8050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5979129A
+P 7650 4650
+F 0 "R4" V 7730 4650 50  0000 C CNN
+F 1 "220" V 7650 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7580 4650 50  0001 C CNN
+F 3 "" H 7650 4650 50  0001 C CNN
+F 4 "P.22RCT-ND" V 7650 4650 60  0001 C CNN "DiIgkey PN"
+F 5 "Panasonic Electronic Company" V 7650 4650 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 7650 4650 60  0001 C CNN "Mfg. PN"
+	1    7650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 597912DD
+P 7250 4650
+F 0 "R3" V 7330 4650 50  0000 C CNN
+F 1 "220" V 7250 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7180 4650 50  0001 C CNN
+F 3 "" H 7250 4650 50  0001 C CNN
+F 4 "P.22RCT-ND" V 7250 4650 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 7250 4650 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 7250 4650 60  0001 C CNN "Mfg. PN"
+	1    7250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59791323
+P 6850 4650
+F 0 "R2" V 6930 4650 50  0000 C CNN
+F 1 "220" V 6850 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6780 4650 50  0001 C CNN
+F 3 "" H 6850 4650 50  0001 C CNN
+F 4 "P.22RCT-ND" V 6850 4650 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 6850 4650 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 6850 4650 60  0001 C CNN "Mfg. PN"
+	1    6850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 59791378
+P 6450 4650
+F 0 "R1" V 6600 4650 50  0000 C CNN
+F 1 "220" V 6450 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6380 4650 50  0001 C CNN
+F 3 "" H 6450 4650 50  0001 C CNN
+F 4 "P.22RCT-ND" V 6450 4650 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 6450 4650 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 6450 4650 60  0001 C CNN "Mfg. Pn"
+	1    6450 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3150 2850 3150
+$Comp
+L MOUNTING_HOLE J1
+U 1 1 59795675
+P 1000 1000
+F 0 "J1" H 1100 1000 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 1550 1000 60  0000 C CNN
+F 2 "hyperCustom:MountingHole_5.5mm_Pad_Via" H 1000 1000 60  0001 C CNN
+F 3 "" H 1000 1000 60  0001 C CNN
+	1    1000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE J2
+U 1 1 59795785
+P 1000 1300
+F 0 "J2" H 1100 1300 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 1550 1300 60  0000 C CNN
+F 2 "hyperCustom:MountingHole_5.5mm_Pad_Via" H 1000 1300 60  0001 C CNN
+F 3 "" H 1000 1300 60  0001 C CNN
+	1    1000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE J3
+U 1 1 597957D1
+P 1000 1650
+F 0 "J3" H 1100 1650 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 1550 1650 60  0000 C CNN
+F 2 "hyperCustom:MountingHole_5.5mm_Pad_Via" H 1000 1650 60  0001 C CNN
+F 3 "" H 1000 1650 60  0001 C CNN
+	1    1000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE J4
+U 1 1 59795820
+P 1000 1900
+F 0 "J4" H 1100 1900 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 1600 1900 60  0000 C CNN
+F 2 "hyperCustom:MountingHole_5.5mm_Pad_Via" H 1000 1900 60  0001 C CNN
+F 3 "" H 1000 1900 60  0001 C CNN
+	1    1000 1900
+	1    0    0    -1  
+$EndComp
+Text Label 800  1000 2    60   ~ 0
+GND
+Text Label 800  1300 2    60   ~ 0
+GND
+Text Label 800  1650 2    60   ~ 0
+GND
+Text Label 800  1900 2    60   ~ 0
+GND
+$Comp
+L R R8
+U 1 1 59796B93
+P 4050 5900
+F 0 "R8" V 4130 5900 50  0000 C CNN
+F 1 "R" V 4050 5900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3980 5900 50  0001 C CNN
+F 3 "" H 4050 5900 50  0001 C CNN
+F 4 "Panasonic Electronic Company" V 4050 5900 60  0001 C CNN "Mfg."
+F 5 "ERJ-8RQJ3R9V" V 4050 5900 60  0001 C CNN "Mfg. PN"
+F 6 "P3-9PCT-ND" V 4050 5900 60  0001 C CNN "DigiKey PN"
+	1    4050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 59796C22
+P 4750 5900
+F 0 "R10" V 4830 5900 50  0000 C CNN
+F 1 "R" V 4750 5900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4680 5900 50  0001 C CNN
+F 3 "" H 4750 5900 50  0001 C CNN
+F 4 "P.22RCT-ND" V 4750 5900 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 4750 5900 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 4750 5900 60  0001 C CNN "Mfg. PN"
+	1    4750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 59796D34
+P 5350 5900
+F 0 "R12" V 5430 5900 50  0000 C CNN
+F 1 "R" V 5350 5900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5280 5900 50  0001 C CNN
+F 3 "" H 5350 5900 50  0001 C CNN
+F 4 "P.22RCT-ND" V 5350 5900 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 5350 5900 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 5350 5900 60  0001 C CNN "Mfg. PN"
+	1    5350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 59796D96
+P 4050 6350
+F 0 "R9" V 4130 6350 50  0000 C CNN
+F 1 "R" V 4050 6350 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3980 6350 50  0001 C CNN
+F 3 "" H 4050 6350 50  0001 C CNN
+F 4 "Panasonic Electronic Company" V 4050 6350 60  0001 C CNN "Mfg."
+F 5 "P17633CT-ND" V 4050 6350 60  0001 C CNN "Digi Key PN"
+F 6 "ERJ-8QFR62V" V 4050 6350 60  0001 C CNN "Mfg. PN"
+	1    4050 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6050 4050 6200
+Wire Wire Line
+	4750 6050 4750 6250
+Wire Wire Line
+	4750 6150 4500 6150
+Connection ~ 4750 6150
+Wire Wire Line
+	5350 6050 5350 6250
+Wire Wire Line
+	5350 6150 5100 6150
+Connection ~ 5350 6150
+Wire Wire Line
+	4050 6150 3750 6150
+Connection ~ 4050 6150
+$Comp
+L R R11
+U 1 1 59797502
+P 4750 6400
+F 0 "R11" V 4830 6400 50  0000 C CNN
+F 1 "R" V 4750 6400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4680 6400 50  0001 C CNN
+F 3 "" H 4750 6400 50  0001 C CNN
+F 4 "P.22RCT-ND" V 4750 6400 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 4750 6400 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 4750 6400 60  0001 C CNN "Mfg. PN"
+	1    4750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 5979757E
+P 5350 6400
+F 0 "R13" V 5430 6400 50  0000 C CNN
+F 1 "R" V 5350 6400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5280 6400 50  0001 C CNN
+F 3 "" H 5350 6400 50  0001 C CNN
+F 4 "P.22RCT-ND" V 5350 6400 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 5350 6400 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 5350 6400 60  0001 C CNN "Mfg. PN"
+	1    5350 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5650 4050 5750
+Wire Wire Line
+	4750 5750 4750 5650
+Wire Wire Line
+	5350 5750 5350 5600
+Wire Wire Line
+	4050 6500 4050 6700
+Wire Wire Line
+	4750 6550 4750 6750
+Wire Wire Line
+	5350 6550 5350 6750
+Text Label 4050 5650 0    60   ~ 0
+VDI0
+Text Label 4750 5650 0    60   ~ 0
+VDI1
+Text Label 5350 5600 0    60   ~ 0
+VDI2
+Text Label 4050 6700 3    60   ~ 0
+GND
+Text Label 4750 6750 3    60   ~ 0
+GND
+Text Label 5350 6750 3    60   ~ 0
+GND
+Text Label 4100 5050 3    60   ~ 0
+VDO0
+Text Label 4850 5050 3    60   ~ 0
+VDO1
+Text Label 5450 5050 3    60   ~ 0
+VDO2
+Text Label 3750 6150 3    60   ~ 0
+VDO0
+Text Label 4500 6150 3    60   ~ 0
+VDO1
+Text Label 5100 6150 3    60   ~ 0
+VDO2
+Text Label 4000 5050 3    60   ~ 0
+VDI0
+Text Label 4750 5050 3    60   ~ 0
+VDI1
+Text Label 5350 5050 3    60   ~ 0
+VDI2
+$Comp
+L CONN_01X04 J5
+U 1 1 5979ADB2
+P 2400 2200
+F 0 "J5" H 2500 2150 50  0000 C CNN
+F 1 "Arduino CONN 01X04" H 2850 2050 50  0000 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844236_4PIN" H 2400 2200 50  0001 C CNN
+F 3 "" H 2400 2200 50  0001 C CNN
+F 4 "277-2419-ND" H 2400 2200 60  0001 C CNN "Digikey PN"
+F 5 "Phoenix" H 2400 2200 60  0001 C CNN "Mfg. "
+F 6 "1844236" H 2400 2200 60  0001 C CNN "Mfg. PN"
+	1    2400 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 J6
+U 1 1 5979AE62
+P 2400 2600
+F 0 "J6" H 2500 2550 50  0000 C CNN
+F 1 "Arduino CONN_01X04" H 2850 2450 50  0000 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844236_4PIN" H 2400 2600 50  0001 C CNN
+F 3 "" H 2400 2600 50  0001 C CNN
+F 4 "277-2419-ND" H 2400 2600 60  0001 C CNN "Digikey PN"
+F 5 "Phoenix" H 2400 2600 60  0001 C CNN "Mfg. "
+F 6 "1844236" H 2400 2600 60  0001 C CNN "Mfg. PN"
+	1    2400 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 J8
+U 1 1 5979B230
+P 4050 4850
+F 0 "J8" H 4050 5000 50  0000 C CNN
+F 1 "VD 0 CONN_01X02" V 4150 5000 50  0000 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844210_2PIN" H 4050 4850 50  0001 C CNN
+F 3 "" H 4050 4850 50  0001 C CNN
+F 4 "277-2416-ND" H 4050 4850 60  0001 C CNN "Digikey PN"
+F 5 "Phoenix" H 4050 4850 60  0001 C CNN "Mfg."
+F 6 "1844210" H 4050 4850 60  0001 C CNN "Mfg. PN"
+	1    4050 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 J9
+U 1 1 5979B40E
+P 4800 4850
+F 0 "J9" H 4800 5000 50  0000 C CNN
+F 1 "CONN_01X02" V 4900 4850 50  0000 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844210_2PIN" H 4800 4850 50  0001 C CNN
+F 3 "" H 4800 4850 50  0001 C CNN
+F 4 "277-2416-ND" H 4800 4850 60  0001 C CNN "Digikey PN"
+F 5 "Phoenix" H 4800 4850 60  0001 C CNN "Mfg."
+F 6 "1844210" H 4800 4850 60  0001 C CNN "Mfg. PN"
+	1    4800 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 J10
+U 1 1 5979B47D
+P 5400 4850
+F 0 "J10" H 5400 5000 50  0000 C CNN
+F 1 "CONN_01X02" V 5500 4700 50  0000 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844210_2PIN" H 5400 4850 50  0001 C CNN
+F 3 "" H 5400 4850 50  0001 C CNN
+F 4 "277-2416-ND" H 5400 4850 60  0001 C CNN "DigiKey PN"
+F 5 "Phoenix" H 5400 4850 60  0001 C CNN "Mfg. "
+F 6 "1844210" H 5400 4850 60  0001 C CNN "Mfg. PN"
+	1    5400 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 5979BF70
+P 3050 6650
+F 0 "D1" H 3050 6750 50  0000 C CNN
+F 1 "LED" H 3050 6550 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 3050 6650 50  0001 C CNN
+F 3 "" H 3050 6650 50  0001 C CNN
+	1    3050 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6650 3900 6150
+Connection ~ 3900 6150
+Wire Wire Line
+	3200 6650 3350 6650
+$Comp
+L R R14
+U 1 1 5979C2F0
+P 3500 6650
+F 0 "R14" V 3580 6650 50  0000 C CNN
+F 1 "R" V 3500 6650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3430 6650 50  0001 C CNN
+F 3 "" H 3500 6650 50  0001 C CNN
+F 4 "Panasonic Electronic Company" V 3500 6650 60  0001 C CNN "Mfg."
+F 5 "P.22RCT-ND" V 3500 6650 60  0001 C CNN "digikey PN"
+F 6 "ERJ-8RQFR22V" V 3500 6650 60  0001 C CNN "Mfg. PN"
+	1    3500 6650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 6650 3900 6650
+Wire Wire Line
+	2900 6650 2600 6650
+Text Label 2600 6650 2    60   ~ 0
+GND
+Wire Wire Line
+	2600 3250 2850 3250
+Wire Wire Line
+	7650 4500 7650 4250
+Text Label 6450 4250 0    60   ~ 0
+L0
+Text Label 6850 4250 0    60   ~ 0
+L1
+Text Label 7250 4250 0    60   ~ 0
+L2
+Text Label 7650 4250 0    60   ~ 0
+L3
+Text Label 8050 4250 0    60   ~ 0
+L4
+Text Label 8450 4250 0    60   ~ 0
+L5
+Text Label 8850 4250 0    60   ~ 0
+L6
+Text Label 8350 3100 3    60   ~ 0
+L0
+Text Label 8550 3100 3    60   ~ 0
+L1
+Text Label 8750 3100 3    60   ~ 0
+L2
+Text Label 8950 3100 3    60   ~ 0
+L3
+Text Label 9150 3100 3    60   ~ 0
+L4
+Text Label 9350 3100 3    60   ~ 0
+L5
+Text Label 9550 3100 3    60   ~ 0
+L6
+$Comp
+L CONN_01X16 J11
+U 1 1 5979D2CD
+P 9100 2900
+F 0 "J11" H 9100 3750 50  0000 C CNN
+F 1 "LED CONN 01X16" V 9200 2900 50  0000 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844359_16PIN" H 9100 2900 50  0001 C CNN
+F 3 "" H 9100 2900 50  0001 C CNN
+F 4 "277-6211-ND" H 9100 2900 60  0001 C CNN "Digikey PN"
+F 5 "https://www.digikey.com/product-detail/en/phoenix-contact/1803413/277-1220-ND/260588" H 9100 2900 60  0001 C CNN "Link"
+F 6 "Phoenix" H 9100 2900 60  0001 C CNN "Mfg. "
+F 7 "1828003" H 9100 2900 60  0001 C CNN "Mfg. PN"
+	1    9100 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MMBT2222ALT1G Q1
+U 1 1 596D3EC1
+P 5700 1350
+F 0 "Q1" H 5700 1200 50  0000 R CNN
+F 1 "MMBT2222ALT1G" H 5700 1500 50  0000 R CNN
+F 2 "foot:MMBF170LT1G" H 5700 1350 60  0001 C CNN
+F 3 "" H 5700 1350 60  0000 C CNN
+F 4 "ON Semiconductors" H 5700 1350 60  0001 C CNN "Mfg."
+	1    5700 1350
+	1    0    0    -1  
+$EndComp
+Text Label 8450 3100 3    60   ~ 0
+GND
+Text Label 8650 3100 3    60   ~ 0
+GND
+Text Label 8850 3100 3    60   ~ 0
+GND
+Text Label 9050 3100 3    60   ~ 0
+GND
+Text Label 9250 3100 3    60   ~ 0
+GND
+Text Label 9450 3100 3    60   ~ 0
+GND
+Text Label 9650 3100 3    60   ~ 0
+GND
+$Comp
+L CONN_01X02 J12
+U 1 1 597A36E9
+P 8400 1650
+F 0 "J12" V 8600 1700 50  0000 C CNN
+F 1 "CONN_01X02" V 8500 1500 50  0000 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844210_2PIN" H 8400 1650 50  0001 C CNN
+F 3 "" H 8400 1650 50  0001 C CNN
+F 4 "277-2416-ND" V 8400 1650 60  0001 C CNN "Digikey PN"
+F 5 "Phoenix" V 8400 1650 60  0001 C CNN "Mfg. "
+F 6 "1844210" V 8400 1650 60  0001 C CNN "Mfg. PN"
+	1    8400 1650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6200 -1650
+$Comp
+L R R15
+U 1 1 597CCA20
+P 9200 4650
+F 0 "R15" V 9280 4650 50  0000 C CNN
+F 1 "220" V 9200 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 9130 4650 50  0001 C CNN
+F 3 "" H 9200 4650 50  0001 C CNN
+F 4 "P.22RCT-ND" V 9200 4650 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 9200 4650 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 9200 4650 60  0001 C CNN "Mfg. PN"
+	1    9200 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4800 9200 4900
+$Comp
+L R R16
+U 1 1 597CCC51
+P 9500 4650
+F 0 "R16" V 9580 4650 50  0000 C CNN
+F 1 "220" V 9500 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 9430 4650 50  0001 C CNN
+F 3 "" H 9500 4650 50  0001 C CNN
+F 4 "P.22RCT-ND" V 9500 4650 60  0001 C CNN "Digikey PN"
+F 5 "Panasonic Electronic Company" V 9500 4650 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 9500 4650 60  0001 C CNN "Mfg PN"
+	1    9500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4800 9500 4900
+Text Label 9200 4250 0    60   ~ 0
+L7
+Text Label 9500 4250 0    60   ~ 0
+L8
+Text Label 9750 3100 3    60   ~ 0
+L7
+Text Label 9850 3100 3    60   ~ 0
+GND
+Text Label 10200 3100 3    60   ~ 0
+L8
+Text Label 10300 3100 3    60   ~ 0
+GND
+Wire Wire Line
+	8850 4500 8850 4250
+Wire Wire Line
+	9200 4500 9200 4250
+Wire Wire Line
+	9500 4500 9500 4250
+Text Label 9200 4900 0    60   ~ 0
+A7
+Text Label 9500 4900 0    60   ~ 0
+A8
+$Comp
+L CONN_01X04 J13
+U 1 1 597D049A
+P 10350 2900
+F 0 "J13" H 10350 3150 50  0000 C CNN
+F 1 "LED CONN 01X04" V 10450 2900 50  0000 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844236_4PIN" H 10350 2900 50  0001 C CNN
+F 3 "" H 10350 2900 50  0001 C CNN
+F 4 "277-2419-ND" H 10350 2900 60  0001 C CNN "Digikey PN"
+F 5 "Phoenix" H 10350 2900 60  0001 C CNN "Mfg. "
+F 6 "1844236" H 10350 2900 60  0001 C CNN "Mfg. PN"
+	1    10350 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 1150 7300 1150
+Wire Wire Line
+	7300 1150 7300 850 
+Connection ~ 7300 850 
+Wire Wire Line
+	7200 1000 7450 1000
+Wire Wire Line
+	6200 1000 5800 1000
+Wire Wire Line
+	5800 1000 5800 1150
+Wire Wire Line
+	2600 3350 2850 3350
+Text Label 2600 2150 0    60   ~ 0
+5V0
+Text Label 2850 3050 0    60   ~ 0
+A7
+Text Label 2850 3150 0    60   ~ 0
+A8
+$Comp
+L CONN_01X06 J7
+U 1 1 597E4F88
+P 2400 3100
+F 0 "J7" H 2500 2950 50  0000 C CNN
+F 1 "Arduino CONN_01X06" H 2850 2850 50  0000 C CNN
+F 2 "hyperCustom:CONN_PHOENIX_1844252_6PIN" H 2400 3100 50  0001 C CNN
+F 3 "" H 2400 3100 50  0001 C CNN
+F 4 "277-2427-ND" H 2400 3100 60  0001 C CNN "Digikey PN"
+F 5 "Phoenix" H 2400 3100 60  0001 C CNN "Mfg. "
+F 6 "1844525" H 2400 3100 60  0001 C CNN "Mfg. PN"
+	1    2400 3100
+	-1   0    0    1   
+$EndComp
+Text Label 7400 850  0    60   ~ 0
+24V
+Text Label 7750 1000 0    60   ~ 0
+Buzzer
+Text Label 7950 1600 2    60   ~ 0
+Buzzer
+Text Label 5950 850  2    60   ~ 0
+5V0
+$Comp
+L Buzzer BZ101
+U 1 1 597D61D1
+P 1600 5200
+F 0 "BZ101" H 1750 5250 50  0000 L CNN
+F 1 "Buzzer" H 1750 5150 50  0000 L CNN
+F 2 "hyperCustom:nicolaBuzzer" V 1575 5300 50  0001 C CNN
+F 3 "" V 1575 5300 50  0001 C CNN
+F 4 "http://www.puiaudio.com/pdf/AI-3035-TWT-3V-R.pdf" H 1600 5200 60  0001 C CNN "Link"
+F 5 "668-1204-ND" H 1600 5200 60  0001 C CNN "Digikey PN"
+	1    1600 5200
+	1    0    0    -1  
+$EndComp
+Text Label 1050 5100 2    60   ~ 0
+5V
+$Comp
+L R R102
+U 1 1 597D6C18
+P 1350 5100
+F 0 "R102" V 1430 5100 50  0000 C CNN
+F 1 "R" V 1350 5100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1280 5100 50  0001 C CNN
+F 3 "" H 1350 5100 50  0001 C CNN
+	1    1350 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 5100 1050 5100
+$Comp
+L R R101
+U 1 1 597D728C
+P 7600 1000
+F 0 "R101" V 7680 1000 50  0000 C CNN
+F 1 "R" V 7600 1000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7530 1000 50  0001 C CNN
+F 3 "" H 7600 1000 50  0001 C CNN
+F 4 "P.22RCT-ND" V 7600 1000 60  0001 C CNN "Digikey"
+	1    7600 1000
+	0    1    1    0   
+$EndComp
+Text Label 1500 5300 2    60   ~ 0
+GND
+Text Label 2850 3250 0    60   ~ 0
+5V
+Text Label 2850 3350 0    60   ~ 0
+ArduinoLED
+$Comp
+L R R17
+U 1 1 597EBDF6
+P 9750 4650
+F 0 "R17" V 9830 4650 50  0000 C CNN
+F 1 "220" V 9750 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 9680 4650 50  0001 C CNN
+F 3 "" H 9750 4650 50  0001 C CNN
+F 4 "P.22RCT-ND" V 9750 4650 60  0001 C CNN "digikey PN "
+F 5 "Panasonic Electronic Company" V 9750 4650 60  0001 C CNN "Mfg."
+F 6 "ERJ-8RQFR22V" V 9750 4650 60  0001 C CNN "Mfg. PN"
+	1    9750 4650
+	1    0    0    -1  
+$EndComp
+Text Label 9750 4250 0    60   ~ 0
+L9
+Wire Wire Line
+	9750 4500 9750 4250
+Text Label 9750 4900 0    60   ~ 0
+ArduinoLED
+Wire Wire Line
+	9750 4800 9750 4900
+Text Label 10400 3100 3    60   ~ 0
+L9
+Text Label 10500 3100 3    60   ~ 0
+GND
+$EndSCHEMATC
