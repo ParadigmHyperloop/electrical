@@ -16,6 +16,7 @@ pipeline {
     }
     stage('Nothing') {
       steps {
+        slackSend channel: '#robots', color: 'good', message: 'Job Completed', teamDomain: 'nuhyperloop'
         sh 'true'
       }
     }
