@@ -5,9 +5,9 @@ set -v
 FORMATS=("pdf" "svg" "gerber")
 PLOTTING_DIR=../plots
 
-git fetch
+git fetch origin master
 
-for filename in $(git diff --staged --name-only origin/master | grep kicad_pcb); do
+for filename in $(git diff --staged --name-only FETCH_HEAD | grep kicad_pcb); do
   for format in "${FORMATS[@]}"; do
     outdir=$PLOTTING_DIR/$format/
     mkdir -p $outdir
