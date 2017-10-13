@@ -3,21 +3,12 @@ pipeline {
   stages {
     stage('Plot') {
       steps {
-        parallel(
-          "Build": {
-            sh './scripts/plot.sh'
-            sh 'true'
-          },
-          "Style": {
-            sh 'true'
-          }
-        )
+        sh './scripts/plot.sh'
       }
     }
-    stage('Nothing') {
+    stage('Slack') {
       steps {
         slackSend channel: '#robots', color: 'good', message: 'Job Completed'
-        sh 'true'
       }
     }
   }
