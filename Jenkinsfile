@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { label 'kicad' }
   stages {
     stage('Plot') {
       steps {
