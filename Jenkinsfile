@@ -23,7 +23,7 @@ pipeline {
   }
   post {
         always {
-            archive 'PLOT*.jar'
+            archive 'PLOT*.zip'
         }
     }
 }
