@@ -1,17 +1,18 @@
 #!/bin/bash
+set -e
+set -v
+
 FORMATS=("pdf" "svg" "gerber")
-PLOTTING_DIR=$(realpath ./plots)
-for filename in $(git diff --name-only master | grep kicad_pcb); do
-  rm -rf $PLOTTING_DIR
-  echo "Handling $filename"
+PLOTTING_DIR=../plots
+
+git fetch
+
+for filename in $(git diff --staged --name-only origin/master | grep kicad_pcb); do
   for format in "${FORMATS[@]}"; do
     outdir=$PLOTTING_DIR/$format/
     mkdir -p $outdir
-    ./scripts/plot_board.py $filename $outdir $format
+    ./pcb_plot.py ../$(filename) $outdir $format
   done
-  ZIPFILE=PLOT-$(dirname $filename)-$(git rev-parse --short HEAD).zip
-  echo "Generating $ZIPFILE archive"
-  zip -r $ZIPFILE $PLOTTING_DIR
 done
 
-
+zip -r PLOTS-$(git rev-parse --short head).zip $PLOTTING_DIR
