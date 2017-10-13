@@ -16,9 +16,14 @@ pipeline {
     }
     stage('Nothing') {
       steps {
-        slackSend channel: '#robots', color: 'good', message: 'Job Completed', teamDomain: 'nuhyperloop'
+        slackSend channel: '#robots', color: 'good', message: 'Job Completed'
         sh 'true'
       }
     }
   }
+  post {
+        always {
+            archive 'PLOT*.jar'
+        }
+    }
 }

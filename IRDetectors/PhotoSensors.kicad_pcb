@@ -337,7 +337,7 @@
   (module LEDs:LED_0603 (layer F.Cu) (tedit 595A139D) (tstamp 5954B039)
     (at 92.075 64.77)
     (descr "LED 0603 smd package")
-    (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (tags "LED led 0803 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /593F6CF3/59401862)
     (attr smd)
     (fp_text reference RXD (at 0 -1.2) (layer F.SilkS)
