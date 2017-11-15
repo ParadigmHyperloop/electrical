@@ -27,6 +27,7 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
+LIBS:Switch
 LIBS:valves
 LIBS:WIZnet_W5500_MagJack-cache
 LIBS:BBB-Cape-cache
@@ -45,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 1200 2250 0    118  ~ 0
-Index:\n\nPins and Connectors.............................Page 1\nRJ45 and WIZnet5500...........................Page 2
+Index:\n\nPins and Connectors.............................Page 1\nRJ45 and WIZnet W5500.......................Page 2
 $Sheet
 S 1250 2750 1050 900 
 U 5A08EFA4

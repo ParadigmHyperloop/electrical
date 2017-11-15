@@ -1,4 +1,4 @@
-update=Tuesday, November 14, 2017 'amt' 06:49:21 am
+update=Tuesday, November 14, 2017 'pmt' 07:11:59 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/Volumes/HDD/projects/kicad-library/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -57,6 +57,7 @@ LibName25=siliconi
 LibName26=opto
 LibName27=atmel
 LibName28=contrib
-LibName29=valves
-LibName30=WIZnet_W5500_MagJack-cache
-LibName31=/Users/mitchellstride/projects/hyperloop/Switch
+LibName29=Switch
+LibName30=valves
+LibName31=WIZnet_W5500_MagJack-cache
+LibName32=/Users/mitchellstride/projects/hyperloop/Switch
