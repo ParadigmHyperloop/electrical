@@ -281,7 +281,7 @@ U 1 1 5A091223
 P 1350 4100
 F 0 "PWR1" H 1400 4500 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 1400 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" H 1350 4100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm_SMD" H 1350 4100 50  0001 C CNN
 F 3 "" H 1350 4100 50  0001 C CNN
 	1    1350 4100
 	1    0    0    -1  
@@ -292,7 +292,7 @@ U 1 1 5A091629
 P 2950 5450
 F 0 "TIMER/PWM1" H 3000 5650 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 3000 5150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 2950 5450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 2950 5450 50  0001 C CNN
 F 3 "" H 2950 5450 50  0001 C CNN
 	1    2950 5450
 	1    0    0    -1  
@@ -303,7 +303,7 @@ U 1 1 5A0916A5
 P 1300 5500
 F 0 "AIN(1.8V)1" H 1350 5800 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1350 5200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 1300 5500 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm_SMD" H 1300 5500 50  0001 C CNN
 F 3 "" H 1300 5500 50  0001 C CNN
 	1    1300 5500
 	1    0    0    -1  
@@ -314,7 +314,7 @@ U 1 1 5A091713
 P 2750 4300
 F 0 "GPIO1" H 2800 4900 50  0000 C CNN
 F 1 "Conn_02x11_Odd_Even" H 2800 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x11_Pitch2.54mm" H 2750 4300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x11_Pitch2.54mm_SMD" H 2750 4300 50  0001 C CNN
 F 3 "" H 2750 4300 50  0001 C CNN
 	1    2750 4300
 	1    0    0    -1  
@@ -325,18 +325,18 @@ U 1 1 5A0917C5
 P 4300 4100
 F 0 "PRUs1" H 4350 4500 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H 4350 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm" H 4300 4100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm_SMD" H 4300 4100 50  0001 C CNN
 F 3 "" H 4300 4100 50  0001 C CNN
 	1    4300 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 I2C1_1
+L Conn_01x02 I2C1_0
 U 1 1 5A091929
 P 6600 3450
-F 0 "I2C1_1" H 6600 3550 50  0000 C CNN
+F 0 "I2C1_0" H 6600 3550 50  0000 C CNN
 F 1 "Conn_01x02" H 6600 3250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6600 3450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Left" H 6600 3450 50  0001 C CNN
 F 3 "" H 6600 3450 50  0001 C CNN
 	1    6600 3450
 	1    0    0    -1  
@@ -347,7 +347,7 @@ U 1 1 5A091B1D
 P 2150 7250
 F 0 "UART3" H 2150 7450 50  0000 C CNN
 F 1 "Conn_01x03" H 2150 7050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2150 7250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm_SMD_Pin1Left" H 2150 7250 50  0001 C CNN
 F 3 "" H 2150 7250 50  0001 C CNN
 	1    2150 7250
 	1    0    0    -1  
@@ -358,7 +358,7 @@ U 1 1 5A091B7A
 P 1400 6400
 F 0 "UART5" H 1400 6600 50  0000 C CNN
 F 1 "Conn_01x04" H 1400 6100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1400 6400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm_SMD_Pin1Left" H 1400 6400 50  0001 C CNN
 F 3 "" H 1400 6400 50  0001 C CNN
 	1    1400 6400
 	1    0    0    -1  
@@ -369,7 +369,7 @@ U 1 1 5A091C0D
 P 4750 6100
 F 0 "SPI0_1" H 4750 6300 50  0000 C CNN
 F 1 "Conn_01x04" H 4750 5800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4750 6100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm_SMD_Pin1Left" H 4750 6100 50  0001 C CNN
 F 3 "" H 4750 6100 50  0001 C CNN
 	1    4750 6100
 	1    0    0    -1  
@@ -380,86 +380,20 @@ U 1 1 5A091C82
 P 6550 6200
 F 0 "SPI1_1" H 6550 6500 50  0000 C CNN
 F 1 "Conn_01x05" H 6550 5900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 6550 6200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm_SMD_Pin1Left" H 6550 6200 50  0001 C CNN
 F 3 "" H 6550 6200 50  0001 C CNN
 	1    6550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 I2C1_2
-U 1 1 5A098726
-P 6600 3850
-F 0 "I2C1_2" H 6600 3950 50  0000 C CNN
-F 1 "Conn_01x02" H 6600 3650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6600 3850 50  0001 C CNN
-F 3 "" H 6600 3850 50  0001 C CNN
-	1    6600 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x02 I2C1_3
-U 1 1 5A098770
-P 6600 4250
-F 0 "I2C1_3" H 6600 4350 50  0000 C CNN
-F 1 "Conn_01x02" H 6600 4050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6600 4250 50  0001 C CNN
-F 3 "" H 6600 4250 50  0001 C CNN
-	1    6600 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x02 I2C2_1
-U 1 1 5A0987C2
-P 5050 5000
-F 0 "I2C2_1" H 5050 5100 50  0000 C CNN
-F 1 "Conn_01x02" H 5050 4800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5050 5000 50  0001 C CNN
-F 3 "" H 5050 5000 50  0001 C CNN
-	1    5050 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x02 I2C2_3
-U 1 1 5A098816
-P 6600 5200
-F 0 "I2C2_3" H 6600 5300 50  0000 C CNN
-F 1 "Conn_01x02" H 6600 5000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6600 5200 50  0001 C CNN
-F 3 "" H 6600 5200 50  0001 C CNN
-	1    6600 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x02 I2C2_2
+L Conn_01x02 I2C2_0
 U 1 1 5A098868
-P 6600 4800
-F 0 "I2C2_2" H 6600 4900 50  0000 C CNN
-F 1 "Conn_01x02" H 6600 4600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6600 4800 50  0001 C CNN
-F 3 "" H 6600 4800 50  0001 C CNN
-	1    6600 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x04 SPI0_2
-U 1 1 5A09907C
-P 4750 7000
-F 0 "SPI0_2" H 4750 7200 50  0000 C CNN
-F 1 "Conn_01x04" H 4750 6700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4750 7000 50  0001 C CNN
-F 3 "" H 4750 7000 50  0001 C CNN
-	1    4750 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x05 SPI1_2
-U 1 1 5A099147
-P 6550 7100
-F 0 "SPI1_2" H 6550 7400 50  0000 C CNN
-F 1 "Conn_01x05" H 6550 6800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 6550 7100 50  0001 C CNN
-F 3 "" H 6550 7100 50  0001 C CNN
-	1    6550 7100
+P 6600 4400
+F 0 "I2C2_0" H 6600 4500 50  0000 C CNN
+F 1 "Conn_01x02" H 6600 4200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Left" H 6600 4400 50  0001 C CNN
+F 3 "" H 6600 4400 50  0001 C CNN
+	1    6600 4400
 	1    0    0    -1  
 $EndComp
 Text Notes 7750 750  0    118  ~ 24
@@ -616,7 +550,7 @@ U 1 1 5A09EBA6
 P 2650 6400
 F 0 "UART4" H 2650 6600 50  0000 C CNN
 F 1 "Conn_01x04" H 2650 6100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 2650 6400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm_SMD_Pin1Left" H 2650 6400 50  0001 C CNN
 F 3 "" H 2650 6400 50  0001 C CNN
 	1    2650 6400
 	1    0    0    -1  
@@ -994,25 +928,9 @@ Wire Wire Line
 Wire Wire Line
 	6350 6400 6250 6400
 Wire Wire Line
-	6400 3850 6300 3850
+	6400 4400 6300 4400
 Wire Wire Line
-	6400 3950 6300 3950
-Wire Wire Line
-	6400 4250 6300 4250
-Wire Wire Line
-	6400 4350 6300 4350
-Wire Wire Line
-	4850 5000 4750 5000
-Wire Wire Line
-	4850 5100 4750 5100
-Wire Wire Line
-	6400 5200 6300 5200
-Wire Wire Line
-	6400 5300 6300 5300
-Wire Wire Line
-	6400 4800 6300 4800
-Wire Wire Line
-	6400 4900 6300 4900
+	6400 4500 6300 4500
 Wire Wire Line
 	4550 6000 4450 6000
 Wire Wire Line
@@ -1021,24 +939,6 @@ Wire Wire Line
 	4550 6200 4450 6200
 Wire Wire Line
 	4550 6300 4450 6300
-Wire Wire Line
-	4550 6900 4450 6900
-Wire Wire Line
-	4550 7000 4450 7000
-Wire Wire Line
-	4550 7100 4450 7100
-Wire Wire Line
-	4550 7200 4450 7200
-Wire Wire Line
-	6350 6900 6250 6900
-Wire Wire Line
-	6350 7000 6250 7000
-Wire Wire Line
-	6350 7100 6250 7100
-Wire Wire Line
-	6350 7200 6250 7200
-Wire Wire Line
-	6350 7300 6250 7300
 Wire Notes Line
 	7300 6500 6950 6500
 Wire Notes Line
@@ -1067,30 +967,14 @@ Text GLabel 1850 7350 0    39   Input ~ 8
 UART3_CTSn
 Text GLabel 1850 7150 0    39   Input ~ 8
 SPI1_CS1/UART3_TXD
-Text GLabel 6300 3850 0    39   Input ~ 8
-I2C1_SCL/UART1_TXD
-Text GLabel 6300 3950 0    39   Input ~ 8
-I2C1_SDA/UART1_RXD
 Text GLabel 6300 3450 0    39   Input ~ 8
 I2C1_SCL/UART1_TXD
 Text GLabel 6300 3550 0    39   Input ~ 8
 I2C1_SDA/UART1_RXD
-Text GLabel 6300 4250 0    39   Input ~ 8
-I2C1_SCL/UART1_TXD
-Text GLabel 6300 4350 0    39   Input ~ 8
-I2C1_SDA/UART1_RXD
-Text GLabel 6300 4900 0    39   Input ~ 8
+Text GLabel 6300 4500 0    39   Input ~ 8
 I2C2_SDA/SPIO_SCLK/UART2_RXD
-Text GLabel 6300 4800 0    39   Input ~ 8
+Text GLabel 6300 4400 0    39   Input ~ 8
 I2C2_SCL/SPI0_DO/UART2_TXD
-Text GLabel 6300 5200 0    39   Input ~ 8
-I2C2_SCL/SPI0_DO/UART2_TXD
-Text GLabel 6300 5300 0    39   Input ~ 8
-I2C2_SDA/SPIO_SCLK/UART2_RXD
-Text GLabel 4750 5000 0    39   Input ~ 8
-I2C2_SCL/SPI0_DO/UART2_TXD
-Text GLabel 4750 5100 0    39   Input ~ 8
-I2C2_SDA/SPIO_SCLK/UART2_RXD
 Text GLabel 6250 6000 0    39   Input ~ 8
 SPI1_D0
 Text GLabel 6250 6100 0    39   Input ~ 8
@@ -1101,16 +985,6 @@ Text GLabel 6250 6300 0    39   Input ~ 8
 SPI1_CS0
 Text GLabel 6250 6400 0    39   Input ~ 8
 I2C2_SCL/SPI1_CS1/UART1_RTSn
-Text GLabel 6250 6900 0    39   Input ~ 8
-SPI1_D0
-Text GLabel 6250 7000 0    39   Input ~ 8
-SPI1_DI
-Text GLabel 6250 7100 0    39   Input ~ 8
-SPI1_SCLK
-Text GLabel 6250 7200 0    39   Input ~ 8
-SPI1_CS0
-Text GLabel 6250 7300 0    39   Input ~ 8
-I2C2_SCL/SPI1_CS1/UART1_RTSn
 Text GLabel 4450 6200 0    39   Input ~ 8
 I2C2_SDA/SPIO_SCLK/UART2_RXD
 Text GLabel 4450 6000 0    39   Input ~ 8
@@ -1118,14 +992,6 @@ I2C2_SCL/SPI0_DO/UART2_TXD
 Text GLabel 4450 6100 0    39   Input ~ 8
 I2C1_SDA/SPI0_DI
 Text GLabel 4450 6300 0    39   Input ~ 8
-I2C1_SCL/SPI0_CS0
-Text GLabel 4450 6900 0    39   Input ~ 8
-I2C2_SCL/SPI0_DO/UART2_TXD
-Text GLabel 4450 7000 0    39   Input ~ 8
-I2C1_SDA/SPI0_DI
-Text GLabel 4450 7100 0    39   Input ~ 8
-I2C2_SDA/SPIO_SCLK/UART2_RXD
-Text GLabel 4450 7200 0    39   Input ~ 8
 I2C1_SCL/SPI0_CS0
 Wire Wire Line
 	6750 2450 6750 2650
@@ -1312,4 +1178,6 @@ Wire Wire Line
 	9900 2650 9900 2900
 Text GLabel 8550 2650 0    39   Input ~ 8
 PWR_BUT
+Text GLabel 2450 4800 0    39   Input ~ 8
+DGND
 $EndSCHEMATC
