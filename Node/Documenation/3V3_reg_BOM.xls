@@ -1,0 +1,7 @@
+Part	Manufacturer	Part Number	Quantity	Price	Attribute 1 Name	Attribute 1 Value	Attribute 2 Name	Attribute 2 Value	Attribute 3 Name	Attribute 3 Value	Footprint
+"Cin"	"TDK"	"C1005X6S1C105K050BC"	"1"	"0.02"	"Cap"	"1uF"	"ESR"	"0.011Ohm"	""	""	"0402"
+"Cout"	"MuRata"	"GRM188R60J105KA01D"	"1"	"0.01"	"Cap"	"1uF"	"ESR"	"6.065mOhm"	""	""	"0603"
+"U1"	"Texas Instruments"	"TPS79501DRBR"	"1"	"1"	""	""	""	""	""	""	"DRB0008B"
+"Cfb"	"Yageo America"	"CC0201JRNPO8BN150"	"1"	"0.01"	"Cap"	"15pF"	"ESR"	"0Ohm"	""	""	"0201"
+"Rfbb"	"Vishay-Dale"	"CRCW040230K1FKED"	"1"	"0.01"	"Resistance"	"30.1kOhm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"Rfbt"	"Yageo America"	"RC0603FR-0751KL"	"1"	"0.01"	"Resistance"	"51kOhm"	"Tolerance"	"1%"	"Power"	"0.1W"	"0603"
