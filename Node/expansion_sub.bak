@@ -1,0 +1,449 @@
+EESchema Schematic File Version 2
+LIBS:hyper_capstone
+LIBS:ac-dc
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:Battery_Management
+LIBS:bbd
+LIBS:Bosch
+LIBS:brooktre
+LIBS:Connector
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:Diode
+LIBS:Display
+LIBS:driver_gate
+LIBS:DSP_Microchip_DSPIC33
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:Espressif
+LIBS:FPGA_Actel
+LIBS:ftdi
+LIBS:gennum
+LIBS:Graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:LED
+LIBS:LEM
+LIBS:linear
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
+LIBS:maxim
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:Motor
+LIBS:motorola
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:Power_Management
+LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:Relay
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor_Current
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:supertex
+LIBS:Switch
+LIBS:texas
+LIBS:Transformer
+LIBS:Transistor
+LIBS:triac_thyristor
+LIBS:Valve
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:hyperLib
+LIBS:node-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 22
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X10 P?
+U 1 1 5A037757
+P 5350 3450
+F 0 "P?" H 5350 4000 50  0000 C CNN
+F 1 "CONN_01X10" V 5450 3450 50  0001 C CNN
+F 2 "" H 5350 3450 60  0000 C CNN
+F 3 "" H 5350 3450 60  0000 C CNN
+	1    5350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P?
+U 1 1 5A03777C
+P 2800 3450
+F 0 "P?" H 2800 3900 50  0000 C CNN
+F 1 "CONN_01X08" V 2900 3450 50  0001 C CNN
+F 2 "" H 2800 3450 60  0000 C CNN
+F 3 "" H 2800 3450 60  0000 C CNN
+	1    2800 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P?
+U 1 1 5A0377AC
+P 5350 4650
+F 0 "P?" H 5350 5100 50  0000 C CNN
+F 1 "CONN_01X08" V 5450 4650 50  0001 C CNN
+F 2 "" H 5350 4650 60  0000 C CNN
+F 3 "" H 5350 4650 60  0000 C CNN
+	1    5350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 5A0377CB
+P 3200 4750
+F 0 "P?" H 3200 5100 50  0000 C CNN
+F 1 "CONN_01X06" V 3300 4750 50  0001 C CNN
+F 2 "" H 3200 4750 60  0000 C CNN
+F 3 "" H 3200 4750 60  0000 C CNN
+	1    3200 4750
+	-1   0    0    -1  
+$EndComp
+Text HLabel 3150 2050 0    60   BiDi ~ 0
+EXP_PINS
+Text Notes 1950 3650 0    60   ~ 0
+POWER
+$Comp
+L CONN_01X01 P?
+U 1 1 5A038DB5
+P 4000 4050
+F 0 "P?" H 4000 4150 50  0000 C CNN
+F 1 "CONN_01X01" V 4100 4050 50  0001 C CNN
+F 2 "" H 4000 4050 60  0000 C CNN
+F 3 "" H 4000 4050 60  0000 C CNN
+	1    4000 4050
+	0    1    1    0   
+$EndComp
+Text Label 3250 3800 0    60   ~ 0
+EXP_PWR_IN_NC
+$Comp
+L GND #PWR?
+U 1 1 5A038EE4
+P 3150 3900
+F 0 "#PWR?" H 3150 3650 60  0001 C CNN
+F 1 "GND" H 3150 3750 60  0000 C CNN
+F 2 "" H 3150 3900 60  0000 C CNN
+F 3 "" H 3150 3900 60  0000 C CNN
+	1    3150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5A038F21
+P 3250 2850
+F 0 "#PWR?" H 3250 2700 60  0001 C CNN
+F 1 "+5V" H 3250 2990 60  0000 C CNN
+F 2 "" H 3250 2850 60  0000 C CNN
+F 3 "" H 3250 2850 60  0000 C CNN
+	1    3250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5A038F54
+P 3400 2700
+F 0 "#PWR?" H 3400 2550 60  0001 C CNN
+F 1 "+3V3" H 3400 2840 60  0000 C CNN
+F 2 "" H 3400 2700 60  0000 C CNN
+F 3 "" H 3400 2700 60  0000 C CNN
+	1    3400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VEE #PWR?
+U 1 1 5A03907B
+P 3100 2950
+F 0 "#PWR?" H 3100 2800 60  0001 C CNN
+F 1 "VEE" H 3100 3100 60  0000 C CNN
+F 2 "" H 3100 2950 60  0000 C CNN
+F 3 "" H 3100 2950 60  0000 C CNN
+	1    3100 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 2700 3850 2    65   ~ 0
+IOREF\nRESET\n3.3V\n5V\nGND\nGND\nVin
+Text Label 3500 4500 0    60   ~ 0
+EXP_AIN0
+Text Label 3500 4600 0    60   ~ 0
+EXP_AIN1
+Text Label 3500 4700 0    60   ~ 0
+EXP_AIN2
+Text Label 3500 4800 0    60   ~ 0
+EXP_AIN3
+Text Label 3500 4900 0    60   ~ 0
+EXP_AIN4
+Text Label 3500 5000 0    60   ~ 0
+EXP_AIN5
+Text Notes 3100 5050 2    65   ~ 0
+ADC | A0\nA1\nA2\nA3\nA4\nA5
+Text Notes 2450 4850 2    60   ~ 0
+ANALOG IN
+Text Notes 1850 1850 0    60   ~ 0
+Note: most capes have pin 1 no-connected\nMake sure this is the case, or you will fry\nthe cape with this 24V rail
+Text Label 4750 3000 2    60   ~ 0
+EXP_SCL
+Text Label 4750 3100 2    60   ~ 0
+EXP_SDA
+Text Label 5050 3200 2    60   ~ 0
+EXP_AREF_NC
+$Comp
+L CONN_01X01 P?
+U 1 1 5A037D1A
+P 5100 2600
+F 0 "P?" H 5100 2700 50  0000 C CNN
+F 1 "CONN_01X01" V 5200 2600 50  0001 C CNN
+F 2 "" H 5100 2600 60  0000 C CNN
+F 3 "" H 5100 2600 60  0000 C CNN
+	1    5100 2600
+	0    1    -1   0   
+$EndComp
+Text Label 4800 3400 2    60   ~ 0
+EXP_SCLK
+Text Label 4800 3500 2    60   ~ 0
+EXP_MISO
+Text Label 4800 3600 2    60   ~ 0
+EXP_MOSI
+Text Label 4700 3700 2    60   ~ 0
+EXP_CS
+Text Label 4850 3800 2    60   ~ 0
+EXP_GPIO1
+Text Label 4850 3900 2    60   ~ 0
+EXP_GPIO2
+Text Label 4850 4300 2    60   ~ 0
+EXP_GPIO3
+Text Label 3500 3300 0    60   ~ 0
+RESET_L
+Wire Wire Line
+	3000 3800 4000 3800
+Wire Wire Line
+	4000 3800 4000 3850
+Wire Wire Line
+	3000 3700 3150 3700
+Wire Wire Line
+	3150 3600 3150 3900
+Wire Wire Line
+	3150 3600 3000 3600
+Connection ~ 3150 3700
+Wire Wire Line
+	3000 3100 3100 3100
+Wire Wire Line
+	3100 3100 3100 2950
+Wire Notes Line
+	2300 3350 2300 3850
+Wire Notes Line
+	2300 3850 2400 3850
+Wire Wire Line
+	3400 4500 4150 4500
+Wire Wire Line
+	3400 4600 4150 4600
+Wire Wire Line
+	3400 4700 4150 4700
+Wire Wire Line
+	3400 4800 4150 4800
+Wire Wire Line
+	3400 4900 4150 4900
+Wire Wire Line
+	3400 5000 4150 5000
+Wire Notes Line
+	2500 4400 2500 5050
+Wire Notes Line
+	2500 5050 2600 5050
+Wire Wire Line
+	4350 3000 5150 3000
+Wire Wire Line
+	4350 3100 5150 3100
+Wire Wire Line
+	4350 3500 5150 3500
+Wire Wire Line
+	4350 3600 5150 3600
+Wire Wire Line
+	4350 3700 5150 3700
+Wire Wire Line
+	4350 3800 5150 3800
+Wire Wire Line
+	4350 3900 5150 3900
+Wire Wire Line
+	4350 3400 5150 3400
+Wire Wire Line
+	4350 4300 5150 4300
+Wire Wire Line
+	3000 3200 3400 3200
+Wire Wire Line
+	3400 2700 3400 3400
+Wire Wire Line
+	3400 3400 3000 3400
+Connection ~ 3400 3200
+Wire Wire Line
+	3000 3500 3250 3500
+Wire Wire Line
+	3250 3500 3250 2850
+Wire Wire Line
+	4350 4400 5150 4400
+Wire Wire Line
+	4350 4500 5150 4500
+Wire Wire Line
+	4350 4600 5150 4600
+Wire Wire Line
+	4350 4700 5150 4700
+Wire Wire Line
+	4350 4800 5150 4800
+Wire Wire Line
+	4350 4900 5150 4900
+Wire Wire Line
+	4350 5000 5150 5000
+Text Label 4850 4400 2    60   ~ 0
+EXP_GPIO4
+Text Label 4850 4500 2    60   ~ 0
+EXP_GPIO5
+Text Label 4850 4600 2    60   ~ 0
+EXP_GPIO6
+Text Label 4850 4700 2    60   ~ 0
+EXP_GPIO7
+Text Label 4850 4800 2    60   ~ 0
+EXP_GPIO8
+Text Label 4850 4900 2    60   ~ 0
+EXP_GPIO9
+Text Label 4900 5000 2    60   ~ 0
+EXP_GPIO10
+Text Notes 5450 3950 0    65   ~ 0
+SCL\nSDA\nAREF\nGND\n~~13\n~~12\n~~11\n~~10\n~~9\n~~8
+Text Notes 5450 5050 0    65   ~ 0
+~~7\n~~6\n~~5\n~~4\n~~3\n~~2\nTX->1\nRX<-0
+Wire Bus Line
+	3150 2050 4250 2050
+Wire Bus Line
+	4250 2050 4250 4900
+Wire Wire Line
+	5150 3200 4450 3200
+Wire Wire Line
+	5100 3200 5100 2800
+Connection ~ 5100 3200
+Entry Wire Line
+	4250 4900 4350 5000
+Entry Wire Line
+	4250 4200 4350 4300
+Entry Wire Line
+	4250 4300 4350 4400
+Entry Wire Line
+	4250 4400 4350 4500
+Entry Wire Line
+	4250 4500 4350 4600
+Entry Wire Line
+	4250 4600 4350 4700
+Entry Wire Line
+	4250 4700 4350 4800
+Entry Wire Line
+	4250 4800 4350 4900
+Entry Wire Line
+	4250 2900 4350 3000
+Entry Wire Line
+	4250 3000 4350 3100
+Entry Wire Line
+	4250 3300 4350 3400
+Entry Wire Line
+	4250 3400 4350 3500
+Entry Wire Line
+	4250 3500 4350 3600
+Entry Wire Line
+	4250 3600 4350 3700
+Entry Wire Line
+	4250 3700 4350 3800
+Entry Wire Line
+	4250 3800 4350 3900
+Wire Wire Line
+	5150 3300 5050 3300
+Wire Wire Line
+	5050 3300 5050 4000
+$Comp
+L GND #PWR?
+U 1 1 5A039A57
+P 5050 4000
+F 0 "#PWR?" H 5050 3750 60  0001 C CNN
+F 1 "GND" H 5050 3850 60  0000 C CNN
+F 2 "" H 5050 4000 60  0000 C CNN
+F 3 "" H 5050 4000 60  0000 C CNN
+	1    5050 4000
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	4150 4500 4250 4400
+Entry Wire Line
+	4150 4600 4250 4500
+Entry Wire Line
+	4150 4700 4250 4600
+Entry Wire Line
+	4150 4800 4250 4700
+Entry Wire Line
+	4150 4900 4250 4800
+Entry Wire Line
+	4150 5000 4250 4900
+Entry Wire Line
+	4150 3300 4250 3200
+Wire Wire Line
+	4150 3300 3000 3300
+Wire Notes Line
+	2500 4400 2600 4400
+Wire Notes Line
+	2300 3350 2400 3350
+$EndSCHEMATC

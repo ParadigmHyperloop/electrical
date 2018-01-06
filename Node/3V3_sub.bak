@@ -1,0 +1,489 @@
+EESchema Schematic File Version 2
+LIBS:hyper_capstone
+LIBS:ac-dc
+LIBS:adc-dac
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:bbd
+LIBS:brooktre
+LIBS:Connector
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:Diode
+LIBS:Display
+LIBS:driver_gate
+LIBS:DSP_Microchip_DSPIC33
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:Espressif
+LIBS:FPGA_Actel
+LIBS:ftdi
+LIBS:gennum
+LIBS:Graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:LED
+LIBS:LEM
+LIBS:linear
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
+LIBS:maxim
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:Motor
+LIBS:motorola
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:Power_Management
+LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:Relay
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor_Current
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:supertex
+LIBS:Switch
+LIBS:texas
+LIBS:Transformer
+LIBS:Transistor
+LIBS:triac_thyristor
+LIBS:Valve
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:Altera
+LIBS:Battery_Management
+LIBS:Bosch
+LIBS:w_connectors
+LIBS:RB1-125BAG1A
+LIBS:node-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 22
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1200 1800 0    60   Input ~ 0
+5V5
+Text HLabel 10750 1650 2    60   Output ~ 0
+3V3
+Text HLabel 1200 2500 0    60   Input ~ 0
+ENABLE
+$Comp
+L TPS795 U701
+U 1 1 59E0F3BD
+P 3700 2100
+F 0 "U701" H 3300 2700 60  0000 C CNN
+F 1 "TPS795" H 4100 2700 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-6" H 3700 2100 60  0001 C CNN
+F 3 "" H 3700 2100 60  0000 C CNN
+F 4 "TPS79501DCQR" H 3700 2100 60  0001 C CNN "Mfg. Part Num"
+F 5 "Texas Instruments" H 3700 2100 60  0001 C CNN "Mfg. Name"
+F 6 "296-13806-1-ND" H 3700 2100 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 3700 2100 60  0001 C CNN "Vendor Name"
+	1    3700 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1800 3050 1800
+$Comp
+L C_large C701
+U 1 1 59E0F650
+P 2350 2300
+F 0 "C701" H 2400 2400 50  0000 L CNN
+F 1 "1uF" H 2400 2200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2388 2150 30  0001 C CNN
+F 3 "" H 2350 2300 60  0000 C CNN
+F 4 "GRT21BC81E105KE13L" H 2350 2300 60  0001 C CNN "Mfg. Part Num"
+F 5 "Murata" H 2350 2300 60  0001 C CNN "Mfg. Name"
+F 6 "490-12351-1-ND" H 2350 2300 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 2350 2300 60  0001 C CNN "Vendor Name"
+	1    2350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2100 2350 1800
+Connection ~ 2350 1800
+Wire Wire Line
+	2350 2500 2350 2650
+$Comp
+L GND #PWR701
+U 1 1 59E0F6A4
+P 2350 2650
+F 0 "#PWR701" H 2350 2400 60  0001 C CNN
+F 1 "GND" H 2350 2500 60  0000 C CNN
+F 2 "" H 2350 2650 60  0000 C CNN
+F 3 "" H 2350 2650 60  0000 C CNN
+	1    2350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2400 3750 2500
+$Comp
+L GND #PWR702
+U 1 1 59E0F6D8
+P 3750 2500
+F 0 "#PWR702" H 3750 2250 60  0001 C CNN
+F 1 "GND" H 3750 2350 60  0000 C CNN
+F 2 "" H 3750 2500 60  0000 C CNN
+F 3 "" H 3750 2500 60  0000 C CNN
+	1    3750 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2050 4600 2050
+Wire Wire Line
+	4600 2050 4600 2500
+$Comp
+L GND #PWR703
+U 1 1 59E0F6FD
+P 4600 2500
+F 0 "#PWR703" H 4600 2250 60  0001 C CNN
+F 1 "GND" H 4600 2350 60  0000 C CNN
+F 2 "" H 4600 2500 60  0000 C CNN
+F 3 "" H 4600 2500 60  0000 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1650 7850 1650
+$Comp
+L R_large R702
+U 1 1 59E0F7E7
+P 5450 1950
+F 0 "R702" H 5600 2100 50  0000 C CNN
+F 1 "51k" H 5600 1800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5380 1950 30  0001 C CNN
+F 3 "" H 5450 1950 30  0000 C CNN
+F 4 "RC0805FR-0751KL" H 5450 1950 60  0001 C CNN "Mfg. Part Num"
+F 5 "Yageo" H 5450 1950 60  0001 C CNN "Mfg. Name"
+F 6 "311-51.0KCRCT-ND" H 5450 1950 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 5450 1950 60  0001 C CNN "Vendor Name"
+	1    5450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_large C703
+U 1 1 59E0F898
+P 7200 2050
+F 0 "C703" H 7250 2150 50  0000 L CNN
+F 1 "1uF" H 7250 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7238 1900 30  0001 C CNN
+F 3 "" H 7200 2050 60  0000 C CNN
+F 4 "CC0805KRX5R7BB105" H 7200 2050 60  0001 C CNN "Mfg. Part Num"
+F 5 "Yageo" H 7200 2050 60  0001 C CNN "Mfg. Name"
+F 6 "311-3427-1-ND" H 7200 2050 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 7200 2050 60  0001 C CNN "Vendor Name"
+	1    7200 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1700 5450 1650
+Connection ~ 5450 1650
+Wire Wire Line
+	5450 2200 5450 2350
+Wire Wire Line
+	5100 2250 6050 2250
+Wire Wire Line
+	5100 2250 5100 1850
+Wire Wire Line
+	5100 1850 4450 1850
+Connection ~ 5450 2250
+Wire Wire Line
+	7200 1650 7200 1850
+Wire Wire Line
+	7200 2250 7200 2350
+$Comp
+L GND #PWR705
+U 1 1 59E0FA28
+P 7200 2350
+F 0 "#PWR705" H 7200 2100 60  0001 C CNN
+F 1 "GND" H 7200 2200 60  0000 C CNN
+F 2 "" H 7200 2350 60  0000 C CNN
+F 3 "" H 7200 2350 60  0000 C CNN
+	1    7200 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 1650
+Wire Wire Line
+	8350 1650 10750 1650
+$Comp
+L C_large C704
+U 1 1 59E0FAF0
+P 8550 2050
+F 0 "C704" H 8600 2150 50  0000 L CNN
+F 1 "C" H 8600 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8588 1900 30  0001 C CNN
+F 3 "" H 8550 2050 60  0000 C CNN
+	1    8550 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 1650
+Wire Wire Line
+	8550 2250 8550 2350
+$Comp
+L GND #PWR706
+U 1 1 59E0FB72
+P 8550 2350
+F 0 "#PWR706" H 8550 2100 60  0001 C CNN
+F 1 "GND" H 8550 2200 60  0000 C CNN
+F 2 "" H 8550 2350 60  0000 C CNN
+F 3 "" H 8550 2350 60  0000 C CNN
+	1    8550 2350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7550 2600 7550 2700
+Wire Notes Line
+	7550 2700 8900 2700
+Wire Notes Line
+	8900 2700 8900 2600
+Text Notes 7900 2850 0    60   ~ 0
+Low pass filter
+$Comp
+L R_large R701
+U 1 1 59F24164
+P 1650 2100
+F 0 "R701" H 1800 2250 50  0000 C CNN
+F 1 "10k" H 1800 1950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1580 2100 30  0001 C CNN
+F 3 "" H 1650 2100 30  0000 C CNN
+	1    1650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2500 1950 2500
+Wire Wire Line
+	1650 2500 1650 2350
+Wire Wire Line
+	1650 1850 1650 1800
+Connection ~ 1650 1800
+Wire Wire Line
+	1950 2500 1950 2000
+Wire Wire Line
+	1950 2000 3050 2000
+Connection ~ 1650 2500
+$Comp
+L C_large C702
+U 1 1 59F28657
+P 6050 2000
+F 0 "C702" H 6100 2100 50  0000 L CNN
+F 1 "15pF" H 6100 1900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6088 1850 30  0001 C CNN
+F 3 "" H 6050 2000 60  0000 C CNN
+F 4 "CC0805JRNPO9BN150" H 6050 2000 60  0001 C CNN "Mfg. Part Num"
+F 5 "Yageo" H 6050 2000 60  0001 C CNN "Mfg. Name"
+F 6 "311-1101-1-ND" H 6050 2000 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 6050 2000 60  0001 C CNN "Vendor Name"
+	1    6050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1800 6050 1650
+Connection ~ 6050 1650
+Wire Wire Line
+	6050 2250 6050 2200
+$Comp
+L D_Zener_ALT D702
+U 1 1 59F28D0F
+P 9450 2300
+F 0 "D702" V 9550 2200 50  0000 C CNN
+F 1 "3.6V" V 9300 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 9450 2300 60  0001 C CNN
+F 3 "" H 9450 2300 60  0000 C CNN
+F 4 "MM3Z3V6T1G" H 9450 2300 60  0001 C CNN "Mfg. Part Num"
+F 5 "ON Semi" H 9450 2300 60  0001 C CNN "Mfg. Name"
+F 6 "MM3Z3V6T1GOSCT-ND" H 9450 2300 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 9450 2300 60  0001 C CNN "Vendor Name"
+	1    9450 2300
+	0    -1   1    0   
+$EndComp
+$Comp
+L R_large R704
+U 1 1 59F28D1A
+P 10100 2550
+F 0 "R704" H 10250 2750 50  0000 C CNN
+F 1 "330" H 10250 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 10030 2550 30  0001 C CNN
+F 3 "" H 10100 2550 30  0000 C CNN
+F 4 "RC0805JR-07330RL" H 10100 2550 60  0001 C CNN "Mfg. Part Num"
+F 5 "Yageo" H 10100 2550 60  0001 C CNN "Mfg. Name"
+F 6 "311-330ARCT-ND" H 10100 2550 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 10100 2550 60  0001 C CNN "Vendor Name"
+	1    10100 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2450 9450 2750
+$Comp
+L GND #PWR707
+U 1 1 59F28D22
+P 9450 2750
+F 0 "#PWR707" H 9450 2500 60  0001 C CNN
+F 1 "GND" H 9450 2600 60  0000 C CNN
+F 2 "" H 9450 2750 60  0000 C CNN
+F 3 "" H 9450 2750 60  0000 C CNN
+	1    9450 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2150 10100 2300
+$Comp
+L GND #PWR708
+U 1 1 59F28D2A
+P 10100 2900
+F 0 "#PWR708" H 10100 2650 60  0001 C CNN
+F 1 "GND" H 10100 2750 60  0000 C CNN
+F 2 "" H 10100 2900 60  0000 C CNN
+F 3 "" H 10100 2900 60  0000 C CNN
+	1    10100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2800 10100 2900
+$Comp
+L LED D701
+U 1 1 59F28D36
+P 10100 2000
+F 0 "D701" V 10200 2150 50  0000 C CNN
+F 1 "GRN" V 9950 2150 50  0000 C CNN
+F 2 "LEDs:LED_1206_HandSoldering" H 10100 2000 60  0001 C CNN
+F 3 "" H 10100 2000 60  0000 C CNN
+F 4 "APT3216LZGCK" H 10100 2000 60  0001 C CNN "Mfg. Part Num"
+F 5 "Kingbright" H 10100 2000 60  0001 C CNN "Mfg. Name"
+F 6 "754-1944-1-ND" H 10100 2000 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 10100 2000 60  0001 C CNN "Vendor Name"
+	1    10100 2000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9450 1650 9450 2150
+Connection ~ 9450 1650
+Wire Wire Line
+	10100 1650 10100 1850
+Connection ~ 10100 1650
+Text Label 4600 1650 0    60   ~ 0
+3V3_UNFILT
+$Comp
+L L_small L701
+U 1 1 5A1A3C7D
+P 8100 1650
+F 0 "L701" H 8100 1750 50  0000 C CNN
+F 1 "INDUCTOR_SMALL" H 8100 1600 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 8100 1650 60  0001 C CNN
+F 3 "" H 8100 1650 60  0000 C CNN
+F 4 "RC1206JR-070RL" H 8100 1650 60  0001 C CNN "Mfg. Part Num"
+F 5 "Yageo" H 8100 1650 60  0001 C CNN "Mfg. Name"
+F 6 "311-0.0ERCT-ND" H 8100 1650 60  0001 C CNN "Vendor Part Num"
+	1    8100 1650
+	1    0    0    -1  
+$EndComp
+Text Notes 7600 1400 0    60   ~ 0
+Stuff ferrite with 0Ω\nif no filter is required
+Wire Wire Line
+	8550 1650 8550 1850
+$Comp
+L GND #PWR704
+U 1 1 5A1AD23A
+P 5450 3600
+F 0 "#PWR704" H 5450 3350 60  0001 C CNN
+F 1 "GND" H 5450 3450 60  0000 C CNN
+F 2 "" H 5450 3600 60  0000 C CNN
+F 3 "" H 5450 3600 60  0000 C CNN
+	1    5450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT_large VR701
+U 1 1 5A1AD244
+P 5450 3250
+F 0 "VR701" V 5300 3050 50  0000 C CNN
+F 1 "1k" V 5600 3100 50  0000 C CNN
+F 2 "hyperCustom:TT_1k_potentiometer_23BR1KLFTR" H 5450 3250 60  0001 C CNN
+F 3 "" H 5450 3250 60  0000 C CNN
+F 4 "23BR1KLFTR" H 5450 3250 60  0001 C CNN "Mfg. Part Num"
+F 5 "987-1015-1-ND" H 5450 3250 60  0001 C CNN "Mfg. Name"
+F 6 "490-2881-ND" H 5450 3250 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 5450 3250 60  0001 C CNN "Vendor Name"
+	1    5450 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3250 5650 3250
+Wire Wire Line
+	5650 3250 5650 3550
+Wire Wire Line
+	5650 3550 5450 3550
+Wire Wire Line
+	5450 3500 5450 3600
+Connection ~ 5450 3550
+$Comp
+L R_large R703
+U 1 1 5A1AD252
+P 5450 2600
+F 0 "R703" H 5600 2700 50  0000 C CNN
+F 1 "29.4k" H 5600 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5380 2600 30  0001 C CNN
+F 3 "" H 5450 2600 30  0000 C CNN
+F 4 "Digi-Key" H 5450 2600 60  0001 C CNN "Vendor Name"
+F 5 "1%" H 5600 2500 60  0000 C CNN "Tolerance"
+	1    5450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2850 5450 3000
+$EndSCHEMATC
