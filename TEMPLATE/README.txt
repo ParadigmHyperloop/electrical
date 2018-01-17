@@ -11,4 +11,5 @@ Tolerance (%)
 All default values should be blank, except DigiKey. 
 All should be invisible except Tolerance
 
+*Change your default text size to 41 mil
 
