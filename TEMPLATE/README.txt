@@ -13,3 +13,7 @@ All should be invisible except Tolerance
 
 *Change your default text size to 41 mil
 
+****
+To load the template into the test project:
+click on the Page settings via GUI or file->page settings. Click 
+"browse" at the bottom and find the .wks file. 
