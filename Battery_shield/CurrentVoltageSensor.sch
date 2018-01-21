@@ -1,6 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -28,14 +31,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:symbols
 LIBS:mocd207m
-LIBS:CurrentVoltageSensor-cache
+LIBS:symbols
+LIBS:Battery_Shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 2 2
 Title "Current/Voltage Sensor"
 Date "2017-12-20"
 Rev ""
