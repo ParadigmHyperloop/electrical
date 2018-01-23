@@ -1,107 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:bbd
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:DSP_Microchip_DSPIC33
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:Motor
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:Power_Management
-LIBS:power
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:Altera
-LIBS:Battery_Management
-LIBS:Bosch
-LIBS:w_connectors
-LIBS:RB1-125BAG1A
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
@@ -126,10 +24,10 @@ ISP_SCLK
 Text Label 1950 4050 0    60   ~ 0
 ISP_RESET_L
 $Comp
-L +5V #PWR2103
+L +5V #PWR0209
 U 1 1 59F2693E
 P 3250 3700
-F 0 "#PWR2103" H 3250 3550 60  0001 C CNN
+F 0 "#PWR0209" H 3250 3550 60  0001 C CNN
 F 1 "+5V" H 3250 3840 60  0000 C CNN
 F 2 "" H 3250 3700 60  0000 C CNN
 F 3 "" H 3250 3700 60  0000 C CNN
@@ -139,10 +37,10 @@ $EndComp
 Text Label 3100 3950 0    60   ~ 0
 ISP_MOSI
 $Comp
-L GND #PWR2104
+L GND #PWR0210
 U 1 1 59F26978
 P 3250 4150
-F 0 "#PWR2104" H 3250 3900 60  0001 C CNN
+F 0 "#PWR0210" H 3250 3900 60  0001 C CNN
 F 1 "GND" H 3250 4000 60  0000 C CNN
 F 2 "" H 3250 4150 60  0000 C CNN
 F 3 "" H 3250 4150 60  0000 C CNN
@@ -166,10 +64,10 @@ USB_D+
 Text Label 1900 1500 0    60   ~ 0
 5V0_USB
 $Comp
-L GND #PWR2105
+L GND #PWR0211
 U 1 1 59F26F68
 P 3500 2350
-F 0 "#PWR2105" H 3500 2100 60  0001 C CNN
+F 0 "#PWR0211" H 3500 2100 60  0001 C CNN
 F 1 "GND" H 3500 2200 60  0000 C CNN
 F 2 "" H 3500 2350 60  0000 C CNN
 F 3 "" H 3500 2350 60  0000 C CNN
@@ -310,10 +208,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 5050 1350 4900
 $Comp
-L +3V3 #PWR2101
+L +3V3 #PWR0212
 U 1 1 5A127439
 P 1350 4900
-F 0 "#PWR2101" H 1350 4750 50  0001 C CNN
+F 0 "#PWR0212" H 1350 4750 50  0001 C CNN
 F 1 "+3V3" H 1350 5040 50  0000 C CNN
 F 2 "" H 1350 4900 50  0001 C CNN
 F 3 "" H 1350 4900 50  0001 C CNN
@@ -344,10 +242,10 @@ Wire Wire Line
 	1500 5150 1350 5150
 Connection ~ 1350 5250
 $Comp
-L GND #PWR2102
+L GND #PWR0213
 U 1 1 5A1277C9
 P 1350 5550
-F 0 "#PWR2102" H 1350 5300 60  0001 C CNN
+F 0 "#PWR0213" H 1350 5300 60  0001 C CNN
 F 1 "GND" H 1350 5400 60  0000 C CNN
 F 2 "" H 1350 5550 60  0000 C CNN
 F 3 "" H 1350 5550 60  0000 C CNN
@@ -398,10 +296,10 @@ Wire Wire Line
 	3900 2700 4350 2700
 Connection ~ 3900 2700
 $Comp
-L GND #PWR2106
+L GND #PWR0214
 U 1 1 5A0DC47F
 P 3900 2750
-F 0 "#PWR2106" H 3900 2500 60  0001 C CNN
+F 0 "#PWR0214" H 3900 2500 60  0001 C CNN
 F 1 "GND" H 3900 2600 60  0000 C CNN
 F 2 "" H 3900 2750 60  0000 C CNN
 F 3 "" H 3900 2750 60  0000 C CNN
