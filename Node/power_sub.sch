@@ -1,5 +1,105 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
+LIBS:ac-dc
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:Battery_Management
+LIBS:bbd
+LIBS:Bosch
+LIBS:brooktre
+LIBS:Connector
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:Diode
+LIBS:Display
+LIBS:driver_gate
+LIBS:dsp
+LIBS:DSP_Microchip_DSPIC33
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:Espressif
+LIBS:FPGA_Actel
+LIBS:ftdi
+LIBS:gennum
+LIBS:Graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:LED
+LIBS:LEM
+LIBS:linear
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
+LIBS:maxim
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:modules
+LIBS:Motor
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:Relay
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor_Current
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:supertex
+LIBS:Switch
+LIBS:texas
+LIBS:Transformer
+LIBS:Transistor
+LIBS:triac_thyristor
+LIBS:Valve
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
@@ -16,10 +116,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +3V3 #PWR305
+L +3V3 #PWR307
 U 1 1 59C9CC08
 P 9850 2800
-F 0 "#PWR305" H 9850 2650 50  0001 C CNN
+F 0 "#PWR307" H 9850 2650 50  0001 C CNN
 F 1 "+3V3" H 9850 2940 50  0000 C CNN
 F 2 "" H 9850 2800 50  0001 C CNN
 F 3 "" H 9850 2800 50  0001 C CNN
@@ -27,10 +127,10 @@ F 3 "" H 9850 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR307
+L +5V #PWR309
 U 1 1 59C9CDCE
 P 10000 5100
-F 0 "#PWR307" H 10000 4950 50  0001 C CNN
+F 0 "#PWR309" H 10000 4950 50  0001 C CNN
 F 1 "+5V" H 10000 5240 50  0000 C CNN
 F 2 "" H 10000 5100 50  0001 C CNN
 F 3 "" H 10000 5100 50  0001 C CNN
@@ -89,10 +189,10 @@ Actuators
 Text Notes 8500 5350 0    120  ~ 24
 5V
 $Comp
-L VEE #PWR304
+L VEE #PWR306
 U 1 1 59D34D09
 P 4750 2800
-F 0 "#PWR304" H 4750 2650 50  0001 C CNN
+F 0 "#PWR306" H 4750 2650 50  0001 C CNN
 F 1 "VEE" H 4750 2950 50  0000 C CNN
 F 2 "" H 4750 2800 50  0001 C CNN
 F 3 "" H 4750 2800 50  0001 C CNN
@@ -163,10 +263,10 @@ Wire Wire Line
 Wire Wire Line
 	1200 1250 1200 1400
 $Comp
-L GND #PWR301
+L GND #PWR302
 U 1 1 59EE4F11
 P 1200 1400
-F 0 "#PWR301" H 1200 1150 60  0001 C CNN
+F 0 "#PWR302" H 1200 1150 60  0001 C CNN
 F 1 "GND" H 1200 1250 60  0000 C CNN
 F 2 "" H 1200 1400 60  0000 C CNN
 F 3 "" H 1200 1400 60  0000 C CNN
@@ -180,10 +280,10 @@ V_SUPPLY must\nbe at least 27V\n\nMaximum power is 70W,\nnominal is 5W (no actua
 Text Notes 650  2600 0    120  ~ 24
 Power Supplies
 $Comp
-L +3.3V #PWR306
+L +3.3V #PWR308
 U 1 1 5A035284
 P 10200 2800
-F 0 "#PWR306" H 10200 2650 50  0001 C CNN
+F 0 "#PWR308" H 10200 2650 50  0001 C CNN
 F 1 "+3.3V" H 10200 2940 50  0000 C CNN
 F 2 "" H 10200 2800 50  0001 C CNN
 F 3 "" H 10200 2800 50  0001 C CNN
@@ -194,10 +294,10 @@ Wire Wire Line
 	10200 3600 10200 2800
 Connection ~ 9850 3600
 $Comp
-L +24V #PWR303
+L +24V #PWR305
 U 1 1 5A035531
 P 4500 2800
-F 0 "#PWR303" H 4500 2650 60  0001 C CNN
+F 0 "#PWR305" H 4500 2650 60  0001 C CNN
 F 1 "+24V" H 4500 2940 60  0000 C CNN
 F 2 "" H 4500 2800 60  0000 C CNN
 F 3 "" H 4500 2800 60  0000 C CNN
@@ -272,61 +372,61 @@ $EndComp
 $Comp
 L Mounting_Hole_PAD MK301
 U 1 1 5A0DEF34
-P 7650 1000
-F 0 "MK301" V 7800 1050 50  0000 C CNN
-F 1 "Mounting_Hole_PAD" H 7650 1175 50  0001 C CNN
-F 2 "hyperCustom:MountingHole_M3x0.5_3.5mm_hole" H 7650 1000 50  0001 C CNN
-F 3 "" H 7650 1000 50  0001 C CNN
-	1    7650 1000
+P 8350 1000
+F 0 "MK301" V 8500 1050 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 8350 1175 50  0001 C CNN
+F 2 "hyperCustom:MountingHole_M3x0.5_3.5mm_hole" H 8350 1000 50  0001 C CNN
+F 3 "" H 8350 1000 50  0001 C CNN
+	1    8350 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Mounting_Hole_PAD MK303
 U 1 1 5A0DF849
-P 7650 1700
-F 0 "MK303" V 7800 1750 50  0000 C CNN
-F 1 "Mounting_Hole_PAD" H 7650 1875 50  0001 C CNN
-F 2 "hyperCustom:MountingHole_M3x0.5_3.5mm_hole" H 7650 1700 50  0001 C CNN
-F 3 "" H 7650 1700 50  0001 C CNN
-	1    7650 1700
+P 8350 1700
+F 0 "MK303" V 8500 1750 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 8350 1875 50  0001 C CNN
+F 2 "hyperCustom:MountingHole_M3x0.5_3.5mm_hole" H 8350 1700 50  0001 C CNN
+F 3 "" H 8350 1700 50  0001 C CNN
+	1    8350 1700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Mounting_Hole_PAD MK304
 U 1 1 5A0DF856
-P 7650 2050
-F 0 "MK304" V 7800 2100 50  0000 C CNN
-F 1 "Mounting_Hole_PAD" H 7650 2225 50  0001 C CNN
-F 2 "hyperCustom:MountingHole_M3x0.5_3.5mm_hole" H 7650 2050 50  0001 C CNN
-F 3 "" H 7650 2050 50  0001 C CNN
-	1    7650 2050
+P 8350 2050
+F 0 "MK304" V 8500 2100 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 8350 2225 50  0001 C CNN
+F 2 "hyperCustom:MountingHole_M3x0.5_3.5mm_hole" H 8350 2050 50  0001 C CNN
+F 3 "" H 8350 2050 50  0001 C CNN
+	1    8350 2050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7750 1000 7950 1000
+	8450 1000 8650 1000
 Wire Wire Line
-	7950 1000 7950 2150
+	8650 1000 8650 2150
 Wire Wire Line
-	7750 2050 7950 2050
-Connection ~ 7950 2050
+	8450 2050 8650 2050
+Connection ~ 8650 2050
 Wire Wire Line
-	7750 1700 7950 1700
-Connection ~ 7950 1700
+	8450 1700 8650 1700
+Connection ~ 8650 1700
 Wire Wire Line
-	7750 1350 7950 1350
-Connection ~ 7950 1350
+	8450 1350 8650 1350
+Connection ~ 8650 1350
 $Comp
-L GND #PWR302
+L GND #PWR304
 U 1 1 5A0DFB32
-P 7950 2150
-F 0 "#PWR302" H 7950 1900 60  0001 C CNN
-F 1 "GND" H 7950 2000 60  0000 C CNN
-F 2 "" H 7950 2150 60  0000 C CNN
-F 3 "" H 7950 2150 60  0000 C CNN
-	1    7950 2150
+P 8650 2150
+F 0 "#PWR304" H 8650 1900 60  0001 C CNN
+F 1 "GND" H 8650 2000 60  0000 C CNN
+F 2 "" H 8650 2150 60  0000 C CNN
+F 3 "" H 8650 2150 60  0000 C CNN
+	1    8650 2150
 	1    0    0    -1  
 $EndComp
-Text Notes 7000 700  0    120  ~ 24
+Text Notes 7700 700  0    120  ~ 24
 Mounting Holes
 Wire Notes Line
 	500  2300 5000 2300
@@ -335,12 +435,58 @@ Wire Notes Line
 $Comp
 L Mounting_Hole_PAD MK302
 U 1 1 5A0DF772
-P 7650 1350
-F 0 "MK302" V 7800 1400 50  0000 C CNN
-F 1 "Mounting_Hole_PAD" H 7650 1525 50  0001 C CNN
-F 2 "hyperCustom:MountingHole_M3x0.5_3.5mm_hole" H 7650 1350 50  0001 C CNN
-F 3 "" H 7650 1350 50  0001 C CNN
-	1    7650 1350
+P 8350 1350
+F 0 "MK302" V 8500 1400 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 8350 1525 50  0001 C CNN
+F 2 "hyperCustom:MountingHole_M3x0.5_3.5mm_hole" H 8350 1350 50  0001 C CNN
+F 3 "" H 8350 1350 50  0001 C CNN
+	1    8350 1350
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Conn_01x02 J303
+U 1 1 5A6ED722
+P 5250 1400
+F 0 "J303" H 5250 1500 50  0000 C CNN
+F 1 "Conn_01x02" H 5250 1200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5250 1400 50  0001 C CNN
+F 3 "" H 5250 1400 50  0001 C CNN
+F 4 "DigiKey" H 5250 1400 60  0001 C CNN "Vendor"
+	1    5250 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR301
+U 1 1 5A6EDA31
+P 5650 1250
+F 0 "#PWR301" H 5650 1100 50  0001 C CNN
+F 1 "+5V" H 5650 1390 50  0000 C CNN
+F 2 "" H 5650 1250 50  0001 C CNN
+F 3 "" H 5650 1250 50  0001 C CNN
+	1    5650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR303
+U 1 1 5A6EDAB5
+P 5650 1450
+F 0 "#PWR303" H 5650 1200 50  0001 C CNN
+F 1 "GND" H 5650 1300 50  0000 C CNN
+F 2 "" H 5650 1450 50  0001 C CNN
+F 3 "" H 5650 1450 50  0001 C CNN
+	1    5650 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1300 5650 1300
+Wire Wire Line
+	5650 1300 5650 1250
+Wire Wire Line
+	5450 1400 5650 1400
+Wire Wire Line
+	5650 1400 5650 1450
+Text Notes 5050 700  0    120  ~ 24
+5V / GND Header\n
+Wire Notes Line
+	7150 2300 7150 500 
 $EndSCHEMATC
