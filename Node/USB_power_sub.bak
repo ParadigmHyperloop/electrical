@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
+LIBS:Connector
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
@@ -30,10 +31,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 1950 2600 1950
 $Comp
-L GND #PWR061
+L GND #PWR063
 U 1 1 59EE3A04
 P 2600 2250
-F 0 "#PWR061" H 2600 2000 60  0001 C CNN
+F 0 "#PWR063" H 2600 2000 60  0001 C CNN
 F 1 "GND" H 2600 2100 60  0000 C CNN
 F 2 "" H 2600 2250 60  0000 C CNN
 F 3 "" H 2600 2250 60  0000 C CNN
@@ -63,6 +64,10 @@ F 0 "J801" H 3000 1400 50  0000 C CNN
 F 1 "Conn_02x02_Odd_Even" H 3000 1100 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2950 1300 50  0001 C CNN
 F 3 "" H 2950 1300 50  0001 C CNN
+F 4 "Amphenol FCI" H 2950 1300 60  0001 C CNN "Manufacturer"
+F 5 "67997-404HLF" H 2950 1300 60  0001 C CNN "MFG. P/N"
+F 6 "DigiKey" H 2950 1300 60  0001 C CNN "Vendor"
+F 7 "609-3242-ND" H 2950 1300 60  0001 C CNN "Vendor P/N"
 	1    2950 1300
 	1    0    0    -1  
 $EndComp
@@ -74,21 +79,29 @@ F 0 "J802" H 3000 1800 50  0000 C CNN
 F 1 "Conn_02x01" H 3000 1600 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 2950 1700 50  0001 C CNN
 F 3 "" H 2950 1700 50  0001 C CNN
+F 4 "Harwin Inc" H 2950 1700 60  0001 C CNN "Manufacturer"
+F 5 "M20-9990246" H 2950 1700 60  0001 C CNN "MFG. P/N"
+F 6 "DigiKey" H 2950 1700 60  0001 C CNN "Vendor"
+F 7 "952-2262-ND" H 2950 1700 60  0001 C CNN "Vendor P/N"
 	1    2950 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x01 J803
-U 1 1 5A208EE3
-P 2950 1950
-F 0 "J803" H 3000 2050 50  0000 C CNN
-F 1 "Conn_02x01" H 3000 1850 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 2950 1950 50  0001 C CNN
-F 3 "" H 2950 1950 50  0001 C CNN
-	1    2950 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2750 1700 2600 1700
 Connection ~ 2600 1950
+$Comp
+L Conn_02x01 J803
+U 1 1 5A7168C7
+P 2950 1950
+F 0 "J803" H 3000 2050 50  0000 C CNN
+F 1 "Conn_02x01" H 3000 1850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 2950 1950 50  0001 C CNN
+F 3 "" H 2950 1950 50  0001 C CNN
+F 4 "Harwin Inc" H 2950 1950 60  0001 C CNN "Manufacturer"
+F 5 "M20-9990246" H 2950 1950 60  0001 C CNN "MFG. P/N"
+F 6 "DigiKey" H 2950 1950 60  0001 C CNN "Vendor"
+F 7 "952-2262-ND" H 2950 1950 60  0001 C CNN "Vendor P/N"
+	1    2950 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,105 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
 LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
@@ -116,10 +17,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +3V3 #PWR307
+L +3V3 #PWR013
 U 1 1 59C9CC08
 P 9850 2800
-F 0 "#PWR307" H 9850 2650 50  0001 C CNN
+F 0 "#PWR013" H 9850 2650 50  0001 C CNN
 F 1 "+3V3" H 9850 2940 50  0000 C CNN
 F 2 "" H 9850 2800 50  0001 C CNN
 F 3 "" H 9850 2800 50  0001 C CNN
@@ -127,10 +28,10 @@ F 3 "" H 9850 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR309
+L +5V #PWR014
 U 1 1 59C9CDCE
 P 10000 5100
-F 0 "#PWR309" H 10000 4950 50  0001 C CNN
+F 0 "#PWR014" H 10000 4950 50  0001 C CNN
 F 1 "+5V" H 10000 5240 50  0000 C CNN
 F 2 "" H 10000 5100 50  0001 C CNN
 F 3 "" H 10000 5100 50  0001 C CNN
@@ -174,7 +75,6 @@ F0 "3.3V (Clean) Supply" 60
 F1 "3V3_sub.sch" 60
 F2 "5V5" I L 7700 3600 60 
 F3 "3V3" O R 9550 3600 60 
-F4 "ENABLE" I L 7700 3200 60 
 $EndSheet
 Text Notes 8450 3600 0    120  ~ 24
 3.3V
@@ -189,10 +89,10 @@ Actuators
 Text Notes 8500 5350 0    120  ~ 24
 5V
 $Comp
-L VEE #PWR306
+L VEE #PWR015
 U 1 1 59D34D09
 P 4750 2800
-F 0 "#PWR306" H 4750 2650 50  0001 C CNN
+F 0 "#PWR015" H 4750 2650 50  0001 C CNN
 F 1 "VEE" H 4750 2950 50  0000 C CNN
 F 2 "" H 4750 2800 50  0001 C CNN
 F 3 "" H 4750 2800 50  0001 C CNN
@@ -263,10 +163,10 @@ Wire Wire Line
 Wire Wire Line
 	1200 1250 1200 1400
 $Comp
-L GND #PWR302
+L GND #PWR016
 U 1 1 59EE4F11
 P 1200 1400
-F 0 "#PWR302" H 1200 1150 60  0001 C CNN
+F 0 "#PWR016" H 1200 1150 60  0001 C CNN
 F 1 "GND" H 1200 1250 60  0000 C CNN
 F 2 "" H 1200 1400 60  0000 C CNN
 F 3 "" H 1200 1400 60  0000 C CNN
@@ -280,10 +180,10 @@ V_SUPPLY must\nbe at least 27V\n\nMaximum power is 70W,\nnominal is 5W (no actua
 Text Notes 650  2600 0    120  ~ 24
 Power Supplies
 $Comp
-L +3.3V #PWR308
+L +3.3V #PWR017
 U 1 1 5A035284
 P 10200 2800
-F 0 "#PWR308" H 10200 2650 50  0001 C CNN
+F 0 "#PWR017" H 10200 2650 50  0001 C CNN
 F 1 "+3.3V" H 10200 2940 50  0000 C CNN
 F 2 "" H 10200 2800 50  0001 C CNN
 F 3 "" H 10200 2800 50  0001 C CNN
@@ -294,10 +194,10 @@ Wire Wire Line
 	10200 3600 10200 2800
 Connection ~ 9850 3600
 $Comp
-L +24V #PWR305
+L +24V #PWR018
 U 1 1 5A035531
 P 4500 2800
-F 0 "#PWR305" H 4500 2650 60  0001 C CNN
+F 0 "#PWR018" H 4500 2650 60  0001 C CNN
 F 1 "+24V" H 4500 2940 60  0000 C CNN
 F 2 "" H 4500 2800 60  0000 C CNN
 F 3 "" H 4500 2800 60  0000 C CNN
@@ -339,6 +239,10 @@ F 0 "J302" H 850 2050 50  0000 C CNN
 F 1 "CONN_01X02" V 950 1900 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 850 1900 60  0001 C CNN
 F 3 "" H 850 1900 60  0000 C CNN
+F 4 "Sullins Conn. Solutions" H 850 1900 60  0001 C CNN "Manufacturer"
+F 5 "PPTC021LFBN-RC" H 850 1900 60  0001 C CNN "MFG. P/N"
+F 6 "DigiKey" H 850 1900 60  0001 C CNN "Vendor"
+F 7 "S7000-ND" H 850 1900 60  0001 C CNN "Vendor P/N"
 	1    850  1900
 	-1   0    0    -1  
 $EndComp
@@ -366,6 +270,10 @@ F 0 "J301" H 850 1300 50  0000 C CNN
 F 1 "CONN_01X02" V 950 1150 50  0001 C CNN
 F 2 "hyperCustom:Molex_2pin_power_0010844022" H 850 1150 50  0001 C CNN
 F 3 "" H 850 1150 50  0001 C CNN
+F 4 "Molex, LLC" H 850 1150 60  0001 C CNN "Manufacturer"
+F 5 "0010844022" H 850 1150 60  0001 C CNN "MFG. P/N"
+F 6 "DigiKey" H 850 1150 60  0001 C CNN "Vendor"
+F 7 "WM1263-ND" H 850 1150 60  0001 C CNN "Vendor P/N"
 	1    850  1150
 	-1   0    0    -1  
 $EndComp
@@ -416,10 +324,10 @@ Wire Wire Line
 	8450 1350 8650 1350
 Connection ~ 8650 1350
 $Comp
-L GND #PWR304
+L GND #PWR019
 U 1 1 5A0DFB32
 P 8650 2150
-F 0 "#PWR304" H 8650 1900 60  0001 C CNN
+F 0 "#PWR019" H 8650 1900 60  0001 C CNN
 F 1 "GND" H 8650 2000 60  0000 C CNN
 F 2 "" H 8650 2150 60  0000 C CNN
 F 3 "" H 8650 2150 60  0000 C CNN
@@ -444,22 +352,10 @@ F 3 "" H 8350 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x02 J303
-U 1 1 5A6ED722
-P 5250 1400
-F 0 "J303" H 5250 1500 50  0000 C CNN
-F 1 "Conn_01x02" H 5250 1200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5250 1400 50  0001 C CNN
-F 3 "" H 5250 1400 50  0001 C CNN
-F 4 "DigiKey" H 5250 1400 60  0001 C CNN "Vendor"
-	1    5250 1400
-	-1   0    0    1   
-$EndComp
-$Comp
-L +5V #PWR301
+L +5V #PWR020
 U 1 1 5A6EDA31
 P 5650 1250
-F 0 "#PWR301" H 5650 1100 50  0001 C CNN
+F 0 "#PWR020" H 5650 1100 50  0001 C CNN
 F 1 "+5V" H 5650 1390 50  0000 C CNN
 F 2 "" H 5650 1250 50  0001 C CNN
 F 3 "" H 5650 1250 50  0001 C CNN
@@ -467,10 +363,10 @@ F 3 "" H 5650 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR303
+L GND #PWR021
 U 1 1 5A6EDAB5
 P 5650 1450
-F 0 "#PWR303" H 5650 1200 50  0001 C CNN
+F 0 "#PWR021" H 5650 1200 50  0001 C CNN
 F 1 "GND" H 5650 1300 50  0000 C CNN
 F 2 "" H 5650 1450 50  0001 C CNN
 F 3 "" H 5650 1450 50  0001 C CNN
@@ -489,4 +385,19 @@ Text Notes 5050 700  0    120  ~ 24
 5V / GND Header\n
 Wire Notes Line
 	7150 2300 7150 500 
+$Comp
+L Conn_01x02 J303
+U 1 1 5A71D534
+P 5250 1400
+F 0 "J303" H 5250 1550 50  0000 C CNN
+F 1 "CONN_01X02" V 5350 1400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5250 1400 60  0001 C CNN
+F 3 "" H 5250 1400 60  0000 C CNN
+F 4 "Sullins Conn. Solutions" H 5250 1400 60  0001 C CNN "Manufacturer"
+F 5 "PPTC021LFBN-RC" H 5250 1400 60  0001 C CNN "MFG. P/N"
+F 6 "DigiKey" H 5250 1400 60  0001 C CNN "Vendor"
+F 7 "S7000-ND" H 5250 1400 60  0001 C CNN "Vendor P/N"
+	1    5250 1400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

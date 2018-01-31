@@ -1,7 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP LM1875
-D Generic Op-amp
-$ENDCMP
-#
 #End Doc Library

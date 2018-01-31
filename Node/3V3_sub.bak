@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
+LIBS:Connector
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
@@ -19,8 +20,6 @@ Text HLabel 1200 1800 0    60   Input ~ 0
 5V5
 Text HLabel 10750 1650 2    60   Output ~ 0
 3V3
-Text HLabel 1200 2500 0    60   Input ~ 0
-ENABLE
 $Comp
 L TPS795 U701
 U 1 1 59E0F3BD
@@ -36,8 +35,6 @@ F 7 "Digi-Key" H 3700 2100 60  0001 C CNN "Vendor Name"
 	1    3700 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 1800 3050 1800
 $Comp
 L C_large C701
 U 1 1 59E0F650
@@ -53,52 +50,39 @@ F 7 "Digi-Key" H 2350 2300 60  0001 C CNN "Vendor Name"
 	1    2350 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 2100 2350 1800
-Connection ~ 2350 1800
-Wire Wire Line
-	2350 2500 2350 2650
 $Comp
-L GND #PWR053
+L GND #PWR055
 U 1 1 59E0F6A4
 P 2350 2650
-F 0 "#PWR053" H 2350 2400 60  0001 C CNN
+F 0 "#PWR055" H 2350 2400 60  0001 C CNN
 F 1 "GND" H 2350 2500 60  0000 C CNN
 F 2 "" H 2350 2650 60  0000 C CNN
 F 3 "" H 2350 2650 60  0000 C CNN
 	1    2350 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 2400 3750 2500
 $Comp
-L GND #PWR054
+L GND #PWR056
 U 1 1 59E0F6D8
 P 3750 2500
-F 0 "#PWR054" H 3750 2250 60  0001 C CNN
+F 0 "#PWR056" H 3750 2250 60  0001 C CNN
 F 1 "GND" H 3750 2350 60  0000 C CNN
 F 2 "" H 3750 2500 60  0000 C CNN
 F 3 "" H 3750 2500 60  0000 C CNN
 	1    3750 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 2050 4600 2050
-Wire Wire Line
-	4600 2050 4600 2500
 $Comp
-L GND #PWR055
+L GND #PWR057
 U 1 1 59E0F6FD
 P 4600 2500
-F 0 "#PWR055" H 4600 2250 60  0001 C CNN
+F 0 "#PWR057" H 4600 2250 60  0001 C CNN
 F 1 "GND" H 4600 2350 60  0000 C CNN
 F 2 "" H 4600 2500 60  0000 C CNN
 F 3 "" H 4600 2500 60  0000 C CNN
 	1    4600 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 1650 7850 1650
 $Comp
 L R_large R702
 U 1 1 59E0F7E7
@@ -107,10 +91,15 @@ F 0 "R702" H 5600 2100 50  0000 C CNN
 F 1 "51k" H 5600 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5380 1950 30  0001 C CNN
 F 3 "" H 5450 1950 30  0000 C CNN
-F 4 "RC0805FR-0751KL" H 5450 1950 60  0001 C CNN "Mfg. Part Num"
-F 5 "Yageo" H 5450 1950 60  0001 C CNN "Mfg. Name"
-F 6 "311-51.0KCRCT-ND" H 5450 1950 60  0001 C CNN "Vendor Part Num"
-F 7 "Digi-Key" H 5450 1950 60  0001 C CNN "Vendor Name"
+F 4 "Yageo" H 5450 1950 60  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0751KL" H 5450 1950 60  0001 C CNN "MFG. P/N"
+F 6 "DigiKey" H 5450 1950 60  0001 C CNN "Vendor"
+F 7 "311-51.0KCRCT-ND" H 5450 1950 60  0001 C CNN "Vendor P/N"
+F 8 "1%" H 5450 1950 60  0001 C CNN "Tolerance"
+F 9 "RC0805FR-0751KL" H 5450 1950 60  0001 C CNN "Mfg. Part Num"
+F 10 "Yageo" H 5450 1950 60  0001 C CNN "Mfg. Name"
+F 11 "311-51.0KCRCT-ND" H 5450 1950 60  0001 C CNN "Vendor Part Num"
+F 12 "Digi-Key" H 5450 1950 60  0001 C CNN "Vendor Name"
 	1    5450 1950
 	1    0    0    -1  
 $EndComp
@@ -129,36 +118,17 @@ F 7 "Digi-Key" H 7200 2050 60  0001 C CNN "Vendor Name"
 	1    7200 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 1700 5450 1650
-Connection ~ 5450 1650
-Wire Wire Line
-	5450 2200 5450 2350
-Wire Wire Line
-	5100 2250 6050 2250
-Wire Wire Line
-	5100 2250 5100 1850
-Wire Wire Line
-	5100 1850 4450 1850
-Connection ~ 5450 2250
-Wire Wire Line
-	7200 1650 7200 1850
-Wire Wire Line
-	7200 2250 7200 2350
 $Comp
-L GND #PWR056
+L GND #PWR058
 U 1 1 59E0FA28
 P 7200 2350
-F 0 "#PWR056" H 7200 2100 60  0001 C CNN
+F 0 "#PWR058" H 7200 2100 60  0001 C CNN
 F 1 "GND" H 7200 2200 60  0000 C CNN
 F 2 "" H 7200 2350 60  0000 C CNN
 F 3 "" H 7200 2350 60  0000 C CNN
 	1    7200 2350
 	1    0    0    -1  
 $EndComp
-Connection ~ 7200 1650
-Wire Wire Line
-	8350 1650 10750 1650
 $Comp
 L C_large C704
 U 1 1 59E0FAF0
@@ -170,26 +140,17 @@ F 3 "" H 8550 2050 60  0000 C CNN
 	1    8550 2050
 	1    0    0    -1  
 $EndComp
-Connection ~ 8550 1650
-Wire Wire Line
-	8550 2250 8550 2350
 $Comp
-L GND #PWR057
+L GND #PWR059
 U 1 1 59E0FB72
 P 8550 2350
-F 0 "#PWR057" H 8550 2100 60  0001 C CNN
+F 0 "#PWR059" H 8550 2100 60  0001 C CNN
 F 1 "GND" H 8550 2200 60  0000 C CNN
 F 2 "" H 8550 2350 60  0000 C CNN
 F 3 "" H 8550 2350 60  0000 C CNN
 	1    8550 2350
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	7550 2600 7550 2700
-Wire Notes Line
-	7550 2700 8900 2700
-Wire Notes Line
-	8900 2700 8900 2600
 Text Notes 7900 2850 0    60   ~ 0
 Low pass filter
 $Comp
@@ -203,18 +164,6 @@ F 3 "" H 1650 2100 30  0000 C CNN
 	1    1650 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 2500 1950 2500
-Wire Wire Line
-	1650 2500 1650 2350
-Wire Wire Line
-	1650 1850 1650 1800
-Connection ~ 1650 1800
-Wire Wire Line
-	1950 2500 1950 2000
-Wire Wire Line
-	1950 2000 3050 2000
-Connection ~ 1650 2500
 $Comp
 L C_large C702
 U 1 1 59F28657
@@ -230,11 +179,6 @@ F 7 "Digi-Key" H 6050 2000 60  0001 C CNN "Vendor Name"
 	1    6050 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 1800 6050 1650
-Connection ~ 6050 1650
-Wire Wire Line
-	6050 2250 6050 2200
 $Comp
 L D_Zener_ALT D702
 U 1 1 59F28D0F
@@ -265,34 +209,28 @@ F 7 "Digi-Key" H 10100 2550 60  0001 C CNN "Vendor Name"
 	1    10100 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9450 2450 9450 2750
 $Comp
-L GND #PWR058
+L GND #PWR060
 U 1 1 59F28D22
 P 9450 2750
-F 0 "#PWR058" H 9450 2500 60  0001 C CNN
+F 0 "#PWR060" H 9450 2500 60  0001 C CNN
 F 1 "GND" H 9450 2600 60  0000 C CNN
 F 2 "" H 9450 2750 60  0000 C CNN
 F 3 "" H 9450 2750 60  0000 C CNN
 	1    9450 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 2150 10100 2300
 $Comp
-L GND #PWR059
+L GND #PWR061
 U 1 1 59F28D2A
 P 10100 2900
-F 0 "#PWR059" H 10100 2650 60  0001 C CNN
+F 0 "#PWR061" H 10100 2650 60  0001 C CNN
 F 1 "GND" H 10100 2750 60  0000 C CNN
 F 2 "" H 10100 2900 60  0000 C CNN
 F 3 "" H 10100 2900 60  0000 C CNN
 	1    10100 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 2800 10100 2900
 $Comp
 L LED D701
 U 1 1 59F28D36
@@ -308,12 +246,6 @@ F 7 "Digi-Key" H 10100 2000 60  0001 C CNN "Vendor Name"
 	1    10100 2000
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	9450 1650 9450 2150
-Connection ~ 9450 1650
-Wire Wire Line
-	10100 1650 10100 1850
-Connection ~ 10100 1650
 Text Label 4600 1650 0    60   ~ 0
 3V3_UNFILT
 $Comp
@@ -332,13 +264,11 @@ F 6 "311-0.0ERCT-ND" H 8100 1650 60  0001 C CNN "Vendor Part Num"
 $EndComp
 Text Notes 7600 1400 0    60   ~ 0
 Stuff ferrite with 0Ω\nif no filter is required
-Wire Wire Line
-	8550 1650 8550 1850
 $Comp
-L GND #PWR060
+L GND #PWR062
 U 1 1 5A1AD23A
 P 5450 3600
-F 0 "#PWR060" H 5450 3350 60  0001 C CNN
+F 0 "#PWR062" H 5450 3350 60  0001 C CNN
 F 1 "GND" H 5450 3450 60  0000 C CNN
 F 2 "" H 5450 3600 60  0000 C CNN
 F 3 "" H 5450 3600 60  0000 C CNN
@@ -360,6 +290,94 @@ F 7 "Digi-Key" H 5450 3250 60  0001 C CNN "Vendor Name"
 	1    5450 3250
 	0    1    1    0   
 $EndComp
+$Comp
+L R_large R703
+U 1 1 5A1AD252
+P 5450 2600
+F 0 "R703" H 5600 2700 50  0000 C CNN
+F 1 "29.4k" H 5600 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5380 2600 30  0001 C CNN
+F 3 "" H 5450 2600 30  0000 C CNN
+F 4 "Yageo" H 5450 2600 60  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0729K4L" H 5450 2600 60  0001 C CNN "MFG. P/N"
+F 6 "DigiKey" H 5450 2600 60  0001 C CNN "Vendor"
+F 7 "311-29.4KCRCT-ND" H 5450 2600 60  0001 C CNN "Vendor P/N"
+F 8 "1%" H 5600 2500 60  0000 C CNN "Tolerance"
+F 9 "Digi-Key" H 5450 2600 60  0001 C CNN "Vendor Name"
+	1    5450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1800 3050 1800
+Wire Wire Line
+	2350 2100 2350 1800
+Connection ~ 2350 1800
+Wire Wire Line
+	2350 2500 2350 2650
+Wire Wire Line
+	3750 2400 3750 2500
+Wire Wire Line
+	4450 2050 4600 2050
+Wire Wire Line
+	4600 2050 4600 2500
+Wire Wire Line
+	4450 1650 7850 1650
+Wire Wire Line
+	5450 1700 5450 1650
+Connection ~ 5450 1650
+Wire Wire Line
+	5450 2200 5450 2350
+Wire Wire Line
+	5100 2250 6050 2250
+Wire Wire Line
+	5100 2250 5100 1850
+Wire Wire Line
+	5100 1850 4450 1850
+Connection ~ 5450 2250
+Wire Wire Line
+	7200 1650 7200 1850
+Wire Wire Line
+	7200 2250 7200 2350
+Connection ~ 7200 1650
+Wire Wire Line
+	8350 1650 10750 1650
+Connection ~ 8550 1650
+Wire Wire Line
+	8550 2250 8550 2350
+Wire Notes Line
+	7550 2600 7550 2700
+Wire Notes Line
+	7550 2700 8900 2700
+Wire Notes Line
+	8900 2700 8900 2600
+Wire Wire Line
+	1650 2500 1650 2350
+Wire Wire Line
+	1650 1850 1650 1800
+Connection ~ 1650 1800
+Wire Wire Line
+	1950 2500 1950 2000
+Wire Wire Line
+	1950 2000 3050 2000
+Wire Wire Line
+	6050 1800 6050 1650
+Connection ~ 6050 1650
+Wire Wire Line
+	6050 2250 6050 2200
+Wire Wire Line
+	9450 2450 9450 2750
+Wire Wire Line
+	10100 2150 10100 2300
+Wire Wire Line
+	10100 2800 10100 2900
+Wire Wire Line
+	9450 1650 9450 2150
+Connection ~ 9450 1650
+Wire Wire Line
+	10100 1650 10100 1850
+Connection ~ 10100 1650
+Wire Wire Line
+	8550 1650 8550 1850
 Wire Wire Line
 	5600 3250 5650 3250
 Wire Wire Line
@@ -369,19 +387,8 @@ Wire Wire Line
 Wire Wire Line
 	5450 3500 5450 3600
 Connection ~ 5450 3550
-$Comp
-L R_large R703
-U 1 1 5A1AD252
-P 5450 2600
-F 0 "R703" H 5600 2700 50  0000 C CNN
-F 1 "29.4k" H 5600 2600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5380 2600 30  0001 C CNN
-F 3 "" H 5450 2600 30  0000 C CNN
-F 4 "Digi-Key" H 5450 2600 60  0001 C CNN "Vendor Name"
-F 5 "1%" H 5600 2500 60  0000 C CNN "Tolerance"
-	1    5450 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 2850 5450 3000
+Wire Wire Line
+	1950 2500 1650 2500
 $EndSCHEMATC

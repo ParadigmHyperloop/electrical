@@ -1,4 +1,4 @@
-update=Thursday, December 07, 2017 'AMt' 10:34:21 AM
+update=Tuesday, January 30, 2018 'PMt' 11:41:49 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=/Users/jmassucco17/Documents/Northeastern/Past Semesters/2017 Summer 2/Capstone/kicad-library
+LibDir=../../../Projects/kicad-library/library
 [eeschema/libraries]
 LibName1=hyper_capstone
 LibName2=library/ac-dc
@@ -132,13 +142,4 @@ LibName100=library/Battery_Management
 LibName101=library/Bosch
 LibName102=/Users/jmassucco17/Documents/Northeastern/Past Semesters/2017 Summer 2/Capstone/hyperCapstone/w_connectors
 LibName103=/Users/jmassucco17/Documents/Northeastern/Past Semesters/2017 Summer 2/Capstone/hyperCapstone/RB1-125BAG1A
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName104=Connector

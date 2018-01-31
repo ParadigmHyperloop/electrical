@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
+LIBS:Connector
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
