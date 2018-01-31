@@ -7,14 +7,14 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 22 22
-Title ""
+Title "Node Board"
 Date ""
-Rev ""
+Rev "Rev 1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Luke Merkl"
 $EndDescr
 Text HLabel 6250 1750 0    60   BiDi ~ 0
 NETW_S[0..3]

@@ -7,14 +7,14 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 20 22
-Title ""
+Title "Node Board"
 Date ""
-Rev ""
+Rev "Rev 1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "James Massucco"
 $EndDescr
 $Comp
 L DRV8806 U1501

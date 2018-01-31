@@ -7,9 +7,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 22
-Title ""
+Title "Node Board"
 Date ""
-Rev ""
+Rev "Rev 1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -102,6 +102,21 @@ F 5 "M20-9990246" H 2950 1950 60  0001 C CNN "MFG. P/N"
 F 6 "DigiKey" H 2950 1950 60  0001 C CNN "Vendor"
 F 7 "952-2262-ND" H 2950 1950 60  0001 C CNN "Vendor P/N"
 	1    2950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_Point TP?
+U 1 1 5A71F6F9
+P 2600 1300
+F 0 "TP?" H 2600 1570 50  0000 C CNN
+F 1 "Test_Point" H 2600 1500 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 2800 1300 50  0001 C CNN
+F 3 "" H 2800 1300 50  0001 C CNN
+F 4 "Keystone Electronics" H 2600 1300 60  0001 C CNN "Manufacturer"
+F 5 "5000" H 2600 1300 60  0001 C CNN "Manufacturer P/N"
+F 6 "DigiKey" H 2600 1300 60  0001 C CNN "Vendor"
+F 7 "36-5000-ND" H 2600 1300 60  0001 C CNN "Vendor P/N"
+	1    2600 1300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

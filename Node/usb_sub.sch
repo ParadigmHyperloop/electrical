@@ -7,14 +7,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 21 22
-Title ""
+Title "Node Board"
 Date ""
-Rev ""
+Rev "Rev 1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "James Massucco"
 $EndDescr
 Text HLabel 1100 3200 0    60   BiDi ~ 0
 ISP_S[0..3]

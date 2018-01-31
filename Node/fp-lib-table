@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name capstone_footprints)(type KiCad)(uri "$(KIPRJMOD)/capstone_footprints.pretty")(options "")(descr ""))
-  (lib (name hyperCustom)(type KiCad)(uri /Users/lukemerkl/Desktop/electrical/hyperCustom.pretty)(options "")(descr ""))
+  (lib (name hyperCustom)(type KiCad)(uri C:/Projects/electrical/hyperCustom.pretty)(options "")(descr ""))
 )

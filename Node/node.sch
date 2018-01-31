@@ -4,17 +4,17 @@ LIBS:Connector
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
-$Descr A 11000 8500
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 22
 Title "Node Board"
 Date "2017-09-07"
-Rev "Rev 1.0.0"
+Rev "Rev 1.0"
 Comp "Hyper-Capstone"
-Comment1 "Jared Miller, Justin Pietrocarlo, Younes Sherkat"
-Comment2 "Matan Kaminski, James Massucco, Luke Merkl,"
+Comment1 ""
+Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "JM, JP, YS, MK, JM, LM"
 $EndDescr
 $Sheet
 S 1300 2700 1650 1050

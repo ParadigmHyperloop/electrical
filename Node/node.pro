@@ -1,4 +1,4 @@
-update=Tuesday, January 30, 2018 'PMt' 11:41:49 PM
+update=1/31/2018 2:50:54 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=../../../Projects/kicad-library/library
@@ -143,3 +133,13 @@ LibName101=library/Bosch
 LibName102=/Users/jmassucco17/Documents/Northeastern/Past Semesters/2017 Summer 2/Capstone/hyperCapstone/w_connectors
 LibName103=/Users/jmassucco17/Documents/Northeastern/Past Semesters/2017 Summer 2/Capstone/hyperCapstone/RB1-125BAG1A
 LibName104=Connector
+[schematic_editor]
+version=1
+PageLayoutDescrFile=PARADIGM_TEMPLATE.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

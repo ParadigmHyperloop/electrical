@@ -7,14 +7,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 22
-Title ""
+Title "Node Board"
 Date ""
-Rev ""
+Rev "Rev 1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Luke Merkl, Justin Pietrocarlo"
 $EndDescr
 $Comp
 L ADS7953_38TSSOP U901
