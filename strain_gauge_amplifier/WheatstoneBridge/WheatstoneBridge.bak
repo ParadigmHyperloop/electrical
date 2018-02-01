@@ -1,0 +1,214 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:WheatstoneBridge-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +12V #PWR?
+U 1 1 5A69E84D
+P 2050 2500
+F 0 "#PWR?" H 2050 2350 50  0001 C CNN
+F 1 "+12V" H 2050 2640 50  0000 C CNN
+F 2 "" H 2050 2500 50  0001 C CNN
+F 3 "" H 2050 2500 50  0001 C CNN
+	1    2050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A69EB38
+P 950 3600
+F 0 "#PWR?" H 950 3350 50  0001 C CNN
+F 1 "GND" H 950 3450 50  0000 C CNN
+F 2 "" H 950 3600 50  0001 C CNN
+F 3 "" H 950 3600 50  0001 C CNN
+	1    950  3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A69ECEE
+P 950 2950
+F 0 "R?" V 1030 2950 50  0000 C CNN
+F 1 "R" V 950 2950 50  0000 C CNN
+F 2 "" V 880 2950 50  0001 C CNN
+F 3 "" H 950 2950 50  0001 C CNN
+	1    950  2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A69EDE3
+P 2050 2950
+F 0 "R?" V 2130 2950 50  0000 C CNN
+F 1 "R" V 2050 2950 50  0000 C CNN
+F 2 "" V 1980 2950 50  0001 C CNN
+F 3 "" H 2050 2950 50  0001 C CNN
+	1    2050 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A69EEB0
+P 1550 2500
+F 0 "R?" V 1630 2500 50  0000 C CNN
+F 1 "R" V 1550 2500 50  0000 C CNN
+F 2 "" V 1480 2500 50  0001 C CNN
+F 3 "" H 1550 2500 50  0001 C CNN
+	1    1550 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A69EF42
+P 1500 3550
+F 0 "R?" V 1580 3550 50  0000 C CNN
+F 1 "R" V 1500 3550 50  0000 C CNN
+F 2 "" V 1430 3550 50  0001 C CNN
+F 3 "" H 1500 3550 50  0001 C CNN
+	1    1500 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  3100 950  3600
+$Comp
+L Voltmeter_DC MES?
+U 1 1 5A69F172
+P 2700 2050
+F 0 "MES?" H 2570 2090 50  0000 R CNN
+F 1 "Voltmeter_DC" H 2570 2020 50  0000 R CNN
+F 2 "" V 2700 2150 50  0001 C CNN
+F 3 "" V 2700 2150 50  0001 C CNN
+	1    2700 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 2500 950  2500
+Wire Wire Line
+	950  2500 950  2800
+Wire Wire Line
+	950  3550 1350 3550
+Wire Wire Line
+	1650 3550 2050 3550
+Wire Wire Line
+	2050 3550 2050 3100
+Wire Wire Line
+	1700 2500 2050 2500
+Wire Wire Line
+	2050 2500 2050 2800
+$Comp
+L OP249 U?
+U 1 1 5A69F53C
+P 4400 3000
+F 0 "U?" H 4400 3200 50  0000 L CNN
+F 1 "OP249" H 4400 2800 50  0000 L CNN
+F 2 "" H 4400 3000 50  0001 C CNN
+F 3 "" H 4400 3000 50  0001 C CNN
+	1    4400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A69F615
+P 4300 3300
+F 0 "#PWR?" H 4300 3050 50  0001 C CNN
+F 1 "GND" H 4300 3150 50  0000 C CNN
+F 2 "" H 4300 3300 50  0001 C CNN
+F 3 "" H 4300 3300 50  0001 C CNN
+	1    4300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5A69F629
+P 4300 2700
+F 0 "#PWR?" H 4300 2550 50  0001 C CNN
+F 1 "+12V" H 4300 2840 50  0000 C CNN
+F 2 "" H 4300 2700 50  0001 C CNN
+F 3 "" H 4300 2700 50  0001 C CNN
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A69F684
+P 3950 3100
+F 0 "R?" V 4030 3100 50  0000 C CNN
+F 1 "R" V 3950 3100 50  0000 C CNN
+F 2 "" V 3880 3100 50  0001 C CNN
+F 3 "" H 3950 3100 50  0001 C CNN
+	1    3950 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A69F6C5
+P 3950 2900
+F 0 "R?" V 4030 2900 50  0000 C CNN
+F 1 "R" V 3950 2900 50  0000 C CNN
+F 2 "" V 3880 2900 50  0001 C CNN
+F 3 "" H 3950 2900 50  0001 C CNN
+	1    3950 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L OPA333xxDCK U?
+U 1 1 5A6CD86E
+P 3500 4750
+F 0 "U?" H 3500 4950 50  0000 L CNN
+F 1 "OPA333xxDCK" H 3500 4550 50  0000 L CNN
+F 2 "" H 3500 4750 50  0001 L CNN
+F 3 "" H 3500 4750 50  0001 C CNN
+	1    3500 4750
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8300 2250 1700 1100
+U 5A736D72
+F0 "Sheet5A736D71" 60
+F1 "Strain_Gauge1.sch" 60
+$EndSheet
+$EndSCHEMATC
