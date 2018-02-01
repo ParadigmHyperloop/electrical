@@ -1,4 +1,4 @@
-update=2018-01-21 2:32:26 PM
+update=2018-01-22 9:18:07 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,5 +61,3 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=exports/mocd207m
-LibName34=exports/symbols

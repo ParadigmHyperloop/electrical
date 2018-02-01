@@ -31,14 +31,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:mocd207m
-LIBS:symbols
 LIBS:Battery_Shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -49,13 +47,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 7300 1800 1300 650 
+S 7300 1850 1500 600 
 U 5A64EF94
 F0 "Current/Voltage Sensor" 60
 F1 "CurrentVoltageSensor.sch" 60
 $EndSheet
-Text Label 7600 2150 0    60   ~ 0
-Current/Voltage
 $Sheet
 S 7300 2700 1300 750 
 U 5A668B9B
@@ -75,9 +71,19 @@ F0 "On/Off Controller" 60
 F1 "On_Off.sch" 60
 $EndSheet
 $Sheet
-S 4350 1800 1200 700 
+S 3800 1700 1500 850 
 U 5A668BFB
 F0 "Pack Power Selector" 60
 F1 "Pack_Power_Selector.sch" 60
 $EndSheet
+Text Notes 7400 2300 0    120  ~ 0
+Current and \nVoltage Sensor
+Text Notes 7550 3200 0    120  ~ 0
+Isolation\nCircuit
+Text Notes 6050 3300 0    120  ~ 0
+On/Off\nController
+Text Notes 5950 2300 0    120  ~ 0
+Precharge\nCircuit
+Text Notes 3850 2300 0    120  ~ 0
+Pack Power\nSelector Circuit
 $EndSCHEMATC
