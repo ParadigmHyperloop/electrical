@@ -32,6 +32,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:LTC4151IMS-1-PBF
 LIBS:Battery_Shield-cache
 EELAYER 25 0
 EELAYER END

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:adc081c021
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -31,12 +32,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:LTC4151IMS-1-PBF
 LIBS:Battery_Shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title "Current/Voltage Sensor"
 Date "2017-12-20"
 Rev ""
@@ -124,13 +126,11 @@ F 3 "" H 2900 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1450 2550 1450 3350
+	1450 2550 1450 3450
 Wire Wire Line
 	850  2550 2750 2550
 Wire Wire Line
 	3050 2550 5850 2550
-Wire Wire Line
-	4250 2550 4250 3350
 $Comp
 L +48V #PWR01
 U 1 1 5A397857
@@ -142,27 +142,12 @@ F 3 "" H 850 2550 50  0001 C CNN
 	1    850  2550
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1450 3450 1200 3450
-Wire Wire Line
-	1200 2550 1200 3750
 Connection ~ 1200 2550
 Wire Wire Line
-	1200 3750 1450 3750
-Connection ~ 1200 3450
-Connection ~ 4250 2550
-Wire Wire Line
-	4250 3750 5850 3750
-Wire Wire Line
 	5850 4350 6450 4350
-Connection ~ 5850 3750
 Wire Wire Line
 	6450 3600 5450 3600
-Wire Wire Line
-	5450 3850 4250 3850
 Connection ~ 5450 3600
-Wire Wire Line
-	5000 3950 4250 3950
 Wire Wire Line
 	5000 3400 6450 3400
 Connection ~ 5000 3400
@@ -184,28 +169,10 @@ Wire Wire Line
 Wire Wire Line
 	6450 3700 6350 3700
 Connection ~ 6350 3700
-$Comp
-L GND #PWR03
-U 1 1 5A3985F4
-P 4400 4800
-F 0 "#PWR03" H 4400 4550 50  0001 C CNN
-F 1 "GND" H 4400 4650 50  0000 C CNN
-F 2 "" H 4400 4800 50  0001 C CNN
-F 3 "" H 4400 4800 50  0001 C CNN
-	1    4400 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4400 3650 4400 4800
-Wire Wire Line
-	4400 3650 4250 3650
-Wire Wire Line
-	1450 3950 1200 3950
-Wire Wire Line
-	1200 3950 1200 4450
+	1200 3750 1200 4450
 Wire Wire Line
 	1200 4450 6450 4450
-Connection ~ 4400 4450
 Wire Wire Line
 	8450 2850 8450 3400
 Wire Wire Line
@@ -271,26 +238,15 @@ SCL
 Text GLabel 10700 4350 2    60   Output ~ 0
 SDA
 $Comp
-L LTC4151IS-2-PBF U?
-U 1 1 5A50E715
-P 1450 3350
-F 0 "U?" H 2850 3750 60  0000 C CNN
-F 1 "LTC4151IS-2-PBF" H 2850 3650 60  0000 C CNN
-F 2 "SO-16_S" H 2850 3590 60  0001 C CNN
-F 3 "" H 1450 3350 60  0000 C CNN
-	1    1450 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L MOCD207M IC?
 U 1 1 5A50E7A2
-P 6450 3400
-F 0 "IC?" H 6630 2990 60  0000 C CNN
-F 1 "MOCD207M" H 6710 3530 60  0000 C CNN
-F 2 "" H 6450 3400 60  0000 C CNN
-F 3 "" H 6450 3400 60  0000 C CNN
-	1    6450 3400
-	1    0    0    -1  
+P 6950 3400
+F 0 "IC?" H 7130 2990 60  0000 C CNN
+F 1 "MOCD207M" H 7210 3530 60  0000 C CNN
+F 2 "" H 6950 3400 60  0000 C CNN
+F 3 "" H 6950 3400 60  0000 C CNN
+	1    6950 3400
+	-1   0    0    -1  
 $EndComp
 $Comp
 L MOCD207M IC?
@@ -307,13 +263,6 @@ NoConn ~ 6950 4550
 NoConn ~ 6950 4650
 NoConn ~ 6450 4650
 NoConn ~ 6450 4550
-NoConn ~ 4250 3450
-NoConn ~ 4250 3550
-NoConn ~ 4250 4050
-NoConn ~ 1450 3550
-NoConn ~ 1450 3650
-NoConn ~ 1450 3850
-NoConn ~ 1450 4050
 Wire Wire Line
 	5850 2550 5850 2600
 Wire Wire Line
@@ -323,15 +272,11 @@ Wire Wire Line
 	5000 2550 5000 2600
 Connection ~ 5000 2550
 Wire Wire Line
-	5000 2900 5000 3950
-Wire Wire Line
-	5450 2900 5450 3850
-Wire Wire Line
 	5850 2900 5850 4350
 Wire Wire Line
 	9950 2150 9950 2550
 Wire Wire Line
-	9950 2350 8450 2350
+	8450 2350 9950 2350
 Wire Wire Line
 	8450 2350 8450 2550
 Connection ~ 9950 2350
@@ -341,4 +286,61 @@ Connection ~ 8900 2350
 Wire Wire Line
 	9400 2350 9400 2550
 Connection ~ 9400 2350
+Wire Wire Line
+	1450 3450 1500 3450
+Wire Wire Line
+	4300 3450 4300 2550
+Connection ~ 4300 2550
+$Comp
+L GND #PWR?
+U 1 1 5A74F894
+P 4700 4800
+F 0 "#PWR?" H 4700 4550 50  0001 C CNN
+F 1 "GND" H 4700 4650 50  0000 C CNN
+F 2 "" H 4700 4800 50  0001 C CNN
+F 3 "" H 4700 4800 50  0001 C CNN
+	1    4700 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3550 4700 4800
+Connection ~ 4700 4450
+Wire Wire Line
+	4300 3550 4700 3550
+Wire Wire Line
+	4300 3650 5850 3650
+Connection ~ 5850 3650
+Wire Wire Line
+	5450 3750 4300 3750
+Wire Wire Line
+	5450 2900 5450 3750
+Wire Wire Line
+	5000 3850 4300 3850
+Wire Wire Line
+	5000 2900 5000 3850
+Wire Wire Line
+	1500 3750 1200 3750
+Wire Wire Line
+	1500 3650 1200 3650
+Wire Wire Line
+	1200 3650 1200 2550
+Wire Wire Line
+	1500 3550 1200 3550
+Connection ~ 1200 3550
+Connection ~ 1450 2550
+Text GLabel 900  3850 0    60   Input ~ 0
+VADIN
+Wire Wire Line
+	900  3850 1500 3850
+$Comp
+L ltc4151ims-1-pbf U?
+U 1 1 5A750026
+P 1500 3450
+F 0 "U?" H 2900 3850 60  0000 C CNN
+F 1 "LTC4151IMS-1" H 2900 3750 60  0000 C CNN
+F 2 "MSOP-10_MS" H 2900 3690 60  0001 C CNN
+F 3 "" H 1500 3450 60  0000 C CNN
+	1    1500 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:adc081c021
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -37,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title "Current/Voltage Sensor"
 Date "2017-12-20"
 Rev ""
@@ -232,10 +233,6 @@ F 3 "" H 9950 2150 50  0001 C CNN
 	1    9950 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 10650 3500 2    60   Output ~ 0
-SCL
-Text GLabel 10700 4350 2    60   Output ~ 0
-SDA
 $Comp
 L MOCD207M IC?
 U 1 1 5A50E7A2
@@ -285,17 +282,6 @@ Connection ~ 8900 2350
 Wire Wire Line
 	9400 2350 9400 2550
 Connection ~ 9400 2350
-$Comp
-L ltc4151ims-1-pbf U?
-U 1 1 5A74F567
-P 1500 3450
-F 0 "U?" H 2900 3850 60  0000 C CNN
-F 1 "LTC4151-1" H 2900 3750 60  0000 C CNN
-F 2 "MSOP-10_MS" H 2900 3690 60  0001 C CNN
-F 3 "" H 1500 3450 60  0000 C CNN
-	1    1500 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 3450 1500 3450
 Wire Wire Line
@@ -338,8 +324,23 @@ Wire Wire Line
 	1500 3550 1200 3550
 Connection ~ 1200 3550
 Connection ~ 1450 2550
-Text GLabel 900  3850 0    60   Input ~ 0
-VADIN
 Wire Wire Line
 	900  3850 1500 3850
+$Comp
+L ltc4151ims-1-pbf U?
+U 1 1 5A750026
+P 1500 3450
+F 0 "U?" H 2900 3850 60  0000 C CNN
+F 1 "LTC4151IMS-1" H 2900 3750 60  0000 C CNN
+F 2 "MSOP-10_MS" H 2900 3690 60  0001 C CNN
+F 3 "" H 1500 3450 60  0000 C CNN
+	1    1500 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 10650 3500 2    60   Input ~ 0
+SCL_BBB
+Text HLabel 10700 4350 2    60   Input ~ 0
+SDA_BBB
+Text HLabel 900  3850 0    60   Input ~ 0
+VadIN
 $EndSCHEMATC

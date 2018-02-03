@@ -1,4 +1,4 @@
-update=2018-02-02 5:39:59 PM
+update=2018-02-02 7:11:46 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
+LibName34=LTC4151IMS-1-PBF
