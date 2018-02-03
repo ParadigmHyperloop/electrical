@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:adc081c021
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -36,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""

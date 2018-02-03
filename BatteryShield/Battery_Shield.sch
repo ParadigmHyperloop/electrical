@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:adc081c021
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -36,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -86,4 +87,12 @@ Text Notes 5950 2300 0    120  ~ 0
 Precharge\nCircuit
 Text Notes 3850 2300 0    120  ~ 0
 Pack Power\nSelector Circuit
+$Sheet
+S 1950 2950 1750 900 
+U 5A767D76
+F0 "Temperature Sensor" 60
+F1 "TemperatureSensor.sch" 60
+$EndSheet
+Text Notes 2300 3600 0    120  ~ 0
+Temperature\nSensor
 $EndSCHEMATC

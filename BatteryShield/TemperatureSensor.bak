@@ -1,0 +1,110 @@
+EESchema Schematic File Version 2
+LIBS:adc081c021
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Battery_Shield-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Thermistor_NTC 22k
+U 1 1 5A767D85
+P 3600 4250
+F 0 "22k" V 3425 4250 50  0000 C CNN
+F 1 "Thermistor_NTC" V 3725 4250 50  0000 C CNN
+F 2 "" H 3600 4300 50  0001 C CNN
+F 3 "" H 3600 4300 50  0001 C CNN
+	1    3600 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3600 3600 4100
+$Comp
+L ADC081C021 U?
+U 1 1 5A74E8DD
+P 4800 3600
+F 0 "U?" H 4800 3950 60  0000 C CNN
+F 1 "ADC081C021" H 4800 3200 60  0000 C CNN
+F 2 "" H 4800 3900 60  0001 C CNN
+F 3 "" H 4800 3900 60  0001 C CNN
+	1    4800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 200k
+U 1 1 5A74EB66
+P 3600 3450
+F 0 "200k" V 3680 3450 50  0000 C CNN
+F 1 "R" V 3600 3450 50  0000 C CNN
+F 2 "" V 3530 3450 50  0001 C CNN
+F 3 "" H 3600 3450 50  0001 C CNN
+	1    3600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3850 4350 3850
+Connection ~ 3600 3850
+$Comp
+L R R?
+U 1 1 5A74EFDA
+P 4200 3000
+F 0 "R?" V 4280 3000 50  0000 C CNN
+F 1 "R" V 4200 3000 50  0000 C CNN
+F 2 "" V 4130 3000 50  0001 C CNN
+F 3 "" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A74F04F
+P 5450 3000
+F 0 "R?" V 5530 3000 50  0000 C CNN
+F 1 "R" V 5450 3000 50  0000 C CNN
+F 2 "" V 5380 3000 50  0001 C CNN
+F 3 "" H 5450 3000 50  0001 C CNN
+	1    5450 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
