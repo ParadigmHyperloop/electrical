@@ -1,5 +1,5 @@
-update=2018-02-01 6:17:58 PM
-last_client=kicad
+update=2/10/2018 2:02:46 AM
+last_client=eeschema
 [general]
 version=1
 [eeschema]
