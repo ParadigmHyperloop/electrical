@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TIP29
+D 15A, Silicon Power Transistors NPN, TO-220
+K  Power Transistor NPN
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf
+$ENDCMP
+#
+#End Doc Library
