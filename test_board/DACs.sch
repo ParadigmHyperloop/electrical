@@ -45,28 +45,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 2100 1950 1150 2350
-U 5A89B6BE
-F0 "Sheet_Nodeboard_connections" 60
-F1 "Nodeboard_connections.sch" 60
-$EndSheet
-$Sheet
-S 5750 1950 1350 700 
-U 5A89B6FA
-F0 "Sheet_DACs" 60
-F1 "DACs.sch" 60
-$EndSheet
-$Sheet
-S 5750 3100 1350 600 
-U 5A89B716
-F0 "Sheet_Current Sink" 60
-F1 "Current_Sink.sch" 60
-$EndSheet
-$Sheet
-S 5750 4050 1300 550 
-U 5A89B735
-F0 "Sheet_Current_Sense" 60
-F1 "Current_Sense.sch" 60
-$EndSheet
 $EndSCHEMATC

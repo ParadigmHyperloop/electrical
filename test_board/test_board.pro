@@ -1,4 +1,4 @@
-update=1/10/2018 7:44:12 PM
+update=Sun 18 Feb 2018 12:22:06 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,13 @@ LibName31=contrib
 LibName32=valves
 LibName33=DAC7578
 LibName34=Microcontroller i2c
+[schematic_editor]
+version=1
+PageLayoutDescrFile=/home/matkam11/Documents/hyperloop/full_electrical/TEMPLATE/PARADIGM_TEMPLATE.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
