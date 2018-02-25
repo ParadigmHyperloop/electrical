@@ -33,12 +33,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:LTC4151IMS-1-PBF
+LIBS:sensors
 LIBS:Battery_Shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 5 9
 Title ""
 Date ""
 Rev ""

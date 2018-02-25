@@ -1,4 +1,4 @@
-update=2018-02-02 7:11:46 PM
+update=2018-02-14 6:07:37 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=atmel
 LibName32=contrib
 LibName33=valves
 LibName34=LTC4151IMS-1-PBF
+LibName35=sensors

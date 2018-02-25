@@ -33,12 +33,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:LTC4151IMS-1-PBF
+LIBS:sensors
 LIBS:Battery_Shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -96,4 +97,18 @@ F1 "TemperatureSensor.sch" 60
 $EndSheet
 Text Notes 2300 3600 0    120  ~ 0
 Temperature\nSensor
+$Sheet
+S 2000 4150 1900 1050
+U 5A8239AC
+F0 "Temperature Sensor Design 2" 60
+F1 "TemperatureSensor_Alt.sch" 60
+$EndSheet
+Text Notes 2350 4900 0    120  ~ 0
+Temperature\nSensor\n(Design 2)
+$Sheet
+S 4900 4050 2300 1050
+U 5A86217E
+F0 "5V and 3.3V Regulators" 60
+F1 "Regulators.sch" 60
+$EndSheet
 $EndSCHEMATC
