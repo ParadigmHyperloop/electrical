@@ -1,0 +1,75 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3200 2650 850  600 
+U 5A1B4530
+F0 "Voltage Sense" 60
+F1 "Voltage Sense.sch" 60
+$EndSheet
+$Sheet
+S 3200 3650 850  650 
+U 5A1B453B
+F0 "Current Sense" 60
+F1 "Current Sense.sch" 60
+$EndSheet
+$Sheet
+S 4850 2650 800  600 
+U 5A1B454D
+F0 "Precharge Circuit" 60
+F1 "Precharge Circuit.sch" 60
+$EndSheet
+$Sheet
+S 4850 3650 800  650 
+U 5A1B4565
+F0 "On Off / Isolation Circuit" 60
+F1 "On Off / Isolation Circuit.sch" 60
+$EndSheet
+$Sheet
+S 6650 2650 800  600 
+U 5A1B45D2
+F0 "Pack Power Selector" 60
+F1 "Pack Power Selector.sch" 60
+$EndSheet
+$EndSCHEMATC
