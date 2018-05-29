@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -113,4 +113,12 @@ F1 "Regulators.sch" 60
 $EndSheet
 Text Notes 6850 4750 0    120  ~ 0
 5V and 3.3V\nRegulators
+$Sheet
+S 1750 1500 1200 1000
+U 5B0DE919
+F0 "Pack_Power_Selector (ALT)" 60
+F1 "Pack_Power_Selector (ALT).sch" 60
+$EndSheet
+Text Notes 1950 2100 0    60   ~ 0
+ALTERNATE POWER\nPACK SELECTOR\n
 $EndSCHEMATC
