@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 12
 Title ""
 Date ""
 Rev ""
@@ -117,7 +117,7 @@ F 3 "" H 4650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5900 5100 3    60   Input ~ 0
-48V
+V_BATT37_PC
 $Comp
 L 2N2219 Q?
 U 1 1 5B0B3A81

@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 8 12
 Title ""
 Date ""
 Rev ""
@@ -82,15 +82,21 @@ F 3 "" H 5450 3000 50  0001 C CNN
 	1    5450 3000
 	1    0    0    -1  
 $EndComp
-Text HLabel 4250 2300 1    60   Input ~ 0
-5V_BBB
 Wire Wire Line
 	3300 3850 4350 3850
 Connection ~ 3300 3850
 Wire Wire Line
-	4250 2300 4250 2850
+	4250 2300 4250 2550
 Wire Wire Line
-	4250 2650 6250 2650
+	4250 2550 4250 2650
+Wire Wire Line
+	4250 2650 4250 2850
+Wire Wire Line
+	4250 2650 4600 2650
+Wire Wire Line
+	4600 2650 5450 2650
+Wire Wire Line
+	5450 2650 6400 2650
 Wire Wire Line
 	5450 2650 5450 2850
 Connection ~ 4250 2650
@@ -122,11 +128,15 @@ Wire Wire Line
 	4150 2550 4250 2550
 Connection ~ 4250 2550
 Wire Wire Line
-	4100 3400 4350 3400
+	4100 3400 4250 3400
+Wire Wire Line
+	4250 3400 4350 3400
 Wire Wire Line
 	5450 3150 5450 3400
 Wire Wire Line
-	5250 3400 5600 3400
+	5250 3400 5450 3400
+Wire Wire Line
+	5450 3400 5600 3400
 $Comp
 L GND #PWR?
 U 1 1 5A754A05
@@ -141,15 +151,17 @@ $EndComp
 Wire Wire Line
 	5450 3550 5250 3550
 Text HLabel 4100 3400 0    60   Input ~ 0
-SCL_BBB
+TEMP_SCL_BBB
 Connection ~ 4250 3400
 Wire Wire Line
-	6250 2650 6250 3850
+	6400 2650 6400 3850
 Wire Wire Line
-	6250 3850 5250 3850
+	6400 3850 5250 3850
 Connection ~ 5450 2650
 Wire Wire Line
-	4000 3550 4350 3550
+	4000 3550 4200 3550
+Wire Wire Line
+	4200 3550 4350 3550
 $Comp
 L R 1k
 U 1 1 5A754BD3
@@ -174,13 +186,13 @@ Wire Wire Line
 	4250 3400 4250 3100
 Connection ~ 4200 3550
 Text HLabel 4000 3550 0    60   Input ~ 0
-DIN_BBB
+TEMP_DIN_BBB
 Text HLabel 4350 3700 0    60   Input ~ 0
-SLAVE_ADDR0
+TEMP_SLAVE_ADDR0
 Text HLabel 5250 3700 2    60   Input ~ 0
-SLAVE_ADDR1
+TEMP_SLAVE_ADDR1
 Text HLabel 5600 3400 2    60   Input ~ 0
-SDA_BBB
+TEMP_SDA_BBB
 Connection ~ 5450 3400
 $Comp
 L LM35-D U?
@@ -193,8 +205,6 @@ F 3 "" H 2900 3850 50  0001 C CNN
 	1    2900 3850
 	1    0    0    -1  
 $EndComp
-Text HLabel 2900 3550 1    60   Input ~ 0
-5V_BBB
 $Comp
 L GND #PWR?
 U 1 1 5A7E8DF6
@@ -208,4 +218,26 @@ F 3 "" H 2900 4150 50  0001 C CNN
 $EndComp
 Text Notes 2550 4500 0    60   ~ 0
 Alternate temperature sensor LM35. The package of this sensor would need to be fixed directly to the battery pack.
+$Comp
+L +5V #PWR?
+U 1 1 5B1226B0
+P 4250 2300
+F 0 "#PWR?" H 4250 2150 50  0001 C CNN
+F 1 "+5V" H 4250 2440 50  0000 C CNN
+F 2 "" H 4250 2300 50  0001 C CNN
+F 3 "" H 4250 2300 50  0001 C CNN
+	1    4250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5B123375
+P 2900 3550
+F 0 "#PWR?" H 2900 3400 50  0001 C CNN
+F 1 "+5V" H 2900 3690 50  0000 C CNN
+F 2 "" H 2900 3550 50  0001 C CNN
+F 3 "" H 2900 3550 50  0001 C CNN
+	1    2900 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

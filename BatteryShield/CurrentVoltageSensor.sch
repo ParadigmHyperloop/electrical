@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 12
 Title "Current/Voltage Sensor"
 Date "2017-12-20"
 Rev ""
@@ -129,20 +129,9 @@ $EndComp
 Wire Wire Line
 	1450 2550 1450 3450
 Wire Wire Line
-	850  2550 2750 2550
+	1000 2550 2750 2550
 Wire Wire Line
 	3050 2550 5850 2550
-$Comp
-L +48V #PWR01
-U 1 1 5A397857
-P 850 2550
-F 0 "#PWR01" H 850 2400 50  0001 C CNN
-F 1 "+48V" V 750 2600 50  0000 C CNN
-F 2 "" H 850 2550 50  0001 C CNN
-F 3 "" H 850 2550 50  0001 C CNN
-	1    850  2550
-	0    -1   -1   0   
-$EndComp
 Connection ~ 1200 2550
 Wire Wire Line
 	5850 4350 6450 4350
@@ -179,12 +168,12 @@ Wire Wire Line
 Wire Wire Line
 	8450 3400 6950 3400
 Wire Wire Line
-	6950 3500 10650 3500
+	6950 3500 10350 3500
 Wire Wire Line
 	9950 2850 9950 3500
 Connection ~ 9950 3500
 Wire Wire Line
-	6950 4350 10700 4350
+	6950 4350 10350 4350
 Wire Wire Line
 	6950 3600 8900 3600
 Wire Wire Line
@@ -318,9 +307,9 @@ Wire Wire Line
 Wire Wire Line
 	1500 3750 1200 3750
 Wire Wire Line
-	1500 3650 1200 3650
+	1200 3650 1500 3650
 Wire Wire Line
-	1200 3650 1200 2550
+	1200 2550 1200 3650
 Wire Wire Line
 	1500 3550 1200 3550
 Connection ~ 1200 3550
@@ -338,10 +327,12 @@ F 3 "" H 1500 3450 60  0000 C CNN
 	1    1500 3450
 	1    0    0    -1  
 $EndComp
-Text HLabel 10650 3500 2    60   Input ~ 0
-SCL_BBB
-Text HLabel 10700 4350 2    60   Input ~ 0
-SDA_BBB
+Text HLabel 10350 3500 2    60   Input ~ 0
+CV_SCL_BBB
+Text HLabel 10350 4350 2    60   Input ~ 0
+CV_SDA_BBB
 Text HLabel 900  3850 0    60   Input ~ 0
 VadIN
+Text GLabel 1000 2550 0    60   Input ~ 0
+V_BATT37
 $EndSCHEMATC

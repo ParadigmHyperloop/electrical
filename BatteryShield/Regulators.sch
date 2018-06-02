@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 9 12
 Title ""
 Date ""
 Rev ""
@@ -63,7 +63,7 @@ $EndComp
 Text Notes 2450 2650 0    60   ~ 0
 37V to 5V 1.5A step-down
 Text HLabel 1600 3050 0    60   Input ~ 0
-BAT_POS
+V_BATT37
 $Comp
 L C .
 U 1 1 5A863B09
@@ -277,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 3400 6500 3400
 Text HLabel 5650 3150 0    60   Input ~ 0
-BAT_POS
+V_BATT37
 Wire Wire Line
 	5650 3150 6050 3150
 Wire Wire Line
