@@ -93,11 +93,7 @@ F 3 "" H 3100 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3250 1200 3850 1200
-Wire Wire Line
-	3850 1200 4300 1200
-Wire Wire Line
-	4300 1200 4600 1200
+	3250 1200 4600 1200
 Connection ~ 3850 1200
 Connection ~ 4600 1200
 Wire Wire Line
@@ -106,15 +102,9 @@ Connection ~ 4300 1200
 Wire Wire Line
 	4300 1950 4300 1700
 Wire Wire Line
-	2750 3900 3100 3900
+	2750 3900 4200 3900
 Wire Wire Line
-	3100 3900 3750 3900
-Wire Wire Line
-	3750 3900 4200 3900
-Wire Wire Line
-	3100 3750 3100 3900
-Wire Wire Line
-	3100 3900 3100 4100
+	3100 3750 3100 4100
 Connection ~ 3100 3900
 $Comp
 L GND #PWR?
@@ -198,15 +188,9 @@ F 3 "" H 7050 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6700 1850 7050 1850
+	6700 1850 8150 1850
 Wire Wire Line
-	7050 1850 7700 1850
-Wire Wire Line
-	7700 1850 8150 1850
-Wire Wire Line
-	7050 1700 7050 1850
-Wire Wire Line
-	7050 1850 7050 2050
+	7050 1700 7050 2050
 Connection ~ 7050 1850
 $Comp
 L GND #PWR?
@@ -290,15 +274,9 @@ F 3 "" H 7050 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6700 3900 7050 3900
+	6700 3900 8150 3900
 Wire Wire Line
-	7050 3900 7700 3900
-Wire Wire Line
-	7700 3900 8150 3900
-Wire Wire Line
-	7050 3750 7050 3900
-Wire Wire Line
-	7050 3900 7050 4100
+	7050 3750 7050 4100
 Connection ~ 7050 3900
 $Comp
 L GND #PWR?
