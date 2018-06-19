@@ -70,8 +70,8 @@ U 1 1 5A863B09
 P 1750 3200
 F 0 "." H 1775 3300 50  0000 L CNN
 F 1 "4.7uF" H 1775 3100 50  0000 L CNN
-F 2 "" H 1788 3050 50  0001 C CNN
-F 3 "" H 1750 3200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 1788 3050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/10/14/Spec%20sheet_CL10B475KQ8NQNC.pdf" H 1750 3200 50  0001 C CNN
 	1    1750 3200
 	1    0    0    -1  
 $EndComp
@@ -103,8 +103,8 @@ U 1 1 5A86475C
 P 1850 3900
 F 0 "C?" H 1875 4000 50  0000 L CNN
 F 1 "1uF" H 1875 3800 50  0000 L CNN
-F 2 "" H 1888 3750 50  0001 C CNN
-F 3 "" H 1850 3900 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 1888 3750 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/27/Spec%20sheet_CL10B105MO8NNWC.pdf" H 1850 3900 50  0001 C CNN
 	1    1850 3900
 	1    0    0    -1  
 $EndComp
@@ -114,8 +114,8 @@ U 1 1 5A86484B
 P 2150 3900
 F 0 "18.2k" V 2230 3900 50  0000 C CNN
 F 1 "R" V 2150 3900 50  0000 C CNN
-F 2 "" V 2080 3900 50  0001 C CNN
-F 3 "" H 2150 3900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 3900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2150 3900 50  0001 C CNN
 	1    2150 3900
 	1    0    0    -1  
 $EndComp
@@ -141,8 +141,8 @@ U 1 1 5A864A58
 P 3600 3900
 F 0 "187k" V 3680 3900 50  0000 C CNN
 F 1 "R" V 3600 3900 50  0000 C CNN
-F 2 "" V 3530 3900 50  0001 C CNN
-F 3 "" H 3600 3900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 3530 3900 50  0001 C CNN
+F 3 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-6AEB1873V/P187KDACT-ND/3075001" H 3600 3900 50  0001 C CNN
 	1    3600 3900
 	1    0    0    -1  
 $EndComp
@@ -152,8 +152,8 @@ U 1 1 5A864CE7
 P 4050 3400
 F 0 "10pF" V 4000 3450 50  0000 L CNN
 F 1 "C" H 4075 3300 50  0000 L CNN
-F 2 "" H 4088 3250 50  0001 C CNN
-F 3 "" H 4050 3400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 4088 3250 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4050 3400 50  0001 C CNN
 	1    4050 3400
 	0    1    1    0   
 $EndComp
@@ -163,8 +163,8 @@ U 1 1 5A864D2A
 P 4050 3650
 F 0 "1M" V 4130 3650 50  0000 C CNN
 F 1 "R" V 4050 3650 50  0000 C CNN
-F 2 "" V 3980 3650 50  0001 C CNN
-F 3 "" H 4050 3650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 3980 3650 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4050 3650 50  0001 C CNN
 	1    4050 3650
 	0    1    1    0   
 $EndComp
@@ -174,8 +174,8 @@ U 1 1 5A864D65
 P 4550 3900
 F 0 "22uF" H 4575 4000 50  0000 L CNN
 F 1 "C" H 4575 3800 50  0000 L CNN
-F 2 "" H 4588 3750 50  0001 C CNN
-F 3 "" H 4550 3900 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 4588 3750 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL21A226MOCLRNC.pdf" H 4550 3900 50  0001 C CNN
 	1    4550 3900
 	1    0    0    -1  
 $EndComp
@@ -185,8 +185,8 @@ U 1 1 5A864FC2
 P 3550 3150
 F 0 "0.1uF" H 3575 3250 50  0000 L CNN
 F 1 "C" H 3575 3050 50  0000 L CNN
-F 2 "" H 3588 3000 50  0001 C CNN
-F 3 "" H 3550 3150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0402" H 3588 3000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05F104ZO5NNNC.pdf" H 3550 3150 50  0001 C CNN
 	1    3550 3150
 	1    0    0    -1  
 $EndComp
@@ -222,8 +222,8 @@ U 1 1 5A865D50
 P 4050 3150
 F 0 "2.2uH" V 4000 3150 50  0000 C CNN
 F 1 "L" V 4125 3150 50  0000 C CNN
-F 2 "" H 4050 3150 50  0001 C CNN
-F 3 "" H 4050 3150 50  0001 C CNN
+F 2 "Inductors_SMD:L_1812" H 4050 3150 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/34061/isc1812.pdf" H 4050 3150 50  0001 C CNN
 	1    4050 3150
 	0    -1   -1   0   
 $EndComp
@@ -283,17 +283,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 3150 6050 3400
 Connection ~ 6450 3400
-$Comp
-L C 1uF
-U 1 1 5A920FC1
-P 5750 3400
-F 0 "1uF" H 5775 3500 50  0000 L CNN
-F 1 "C" H 5775 3300 50  0000 L CNN
-F 2 "" H 5788 3250 50  0001 C CNN
-F 3 "" H 5750 3400 50  0001 C CNN
-	1    5750 3400
-	0    1    1    0   
-$EndComp
 Connection ~ 6050 3400
 $Comp
 L GND #PWR?
@@ -312,8 +301,8 @@ U 1 1 5A92157D
 P 8100 3250
 F 0 "150uH" V 8050 3250 50  0000 C CNN
 F 1 "L" V 8175 3250 50  0000 C CNN
-F 2 "" H 8100 3250 50  0001 C CNN
-F 3 "" H 8100 3250 50  0001 C CNN
+F 2 "Inductors_SMD:L_Wuerth_HCI-1350" H 8100 3250 50  0001 C CNN
+F 3 "http://katalog.we-online.de/pbs/datasheet/7447709151.pdf" H 8100 3250 50  0001 C CNN
 	1    8100 3250
 	1    0    0    -1  
 $EndComp
@@ -336,8 +325,8 @@ U 1 1 5A9217EC
 P 8250 3850
 F 0 "10uF" H 8275 3950 50  0000 L CNN
 F 1 "C" H 8275 3750 50  0000 L CNN
-F 2 "" H 8288 3700 50  0001 C CNN
-F 3 "" H 8250 3850 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 8288 3700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106KPCLQNC.jsp" H 8250 3850 50  0001 C CNN
 	1    8250 3850
 	1    0    0    -1  
 $EndComp
@@ -354,5 +343,16 @@ F 2 "" H 8250 4000 50  0001 C CNN
 F 3 "" H 8250 4000 50  0001 C CNN
 	1    8250 4000
 	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B29BC47
+P 5750 3400
+F 0 "C?" H 5775 3500 50  0000 L CNN
+F 1 "1uF" H 5775 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5788 3250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/27/Spec%20sheet_CL10B105MO8NNWC.pdf" H 5750 3400 50  0001 C CNN
+	1    5750 3400
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
