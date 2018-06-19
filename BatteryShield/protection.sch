@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 12
+Sheet 10 12
 Title ""
 Date ""
 Rev ""
@@ -81,17 +81,6 @@ Text GLabel 2750 3900 0    60   Input ~ 0
 PRECHARGE_N
 Text GLabel 4200 3900 2    60   Input ~ 0
 PRECHARGE_N
-$Comp
-L D_Zener D?
-U 1 1 5B1245DC
-P 3100 4250
-F 0 "D?" H 3100 4350 50  0000 C CNN
-F 1 "DZ2W03600L" H 3100 4150 50  0000 C CNN
-F 2 "" H 3100 4250 50  0001 C CNN
-F 3 "" H 3100 4250 50  0001 C CNN
-	1    3100 4250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3250 1200 4600 1200
 Connection ~ 3850 1200
@@ -119,17 +108,6 @@ F 3 "" H 3100 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3100 4650 3100 4400
-$Comp
-L C C?
-U 1 1 5B1248DC
-P 3700 4300
-F 0 "C?" H 3725 4400 50  0000 L CNN
-F 1 "10nF" H 3725 4200 50  0000 L CNN
-F 2 "" H 3738 4150 50  0001 C CNN
-F 3 "" H 3700 4300 50  0001 C CNN
-	1    3700 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 4150 3700 3900
 Wire Wire Line
@@ -149,17 +127,6 @@ $EndComp
 Wire Wire Line
 	3700 4650 3700 4450
 $Comp
-L D_Zener D?
-U 1 1 5B124AA1
-P 3100 3600
-F 0 "D?" H 3100 3700 50  0000 C CNN
-F 1 "DZ2W03600L" H 3100 3500 50  0000 C CNN
-F 2 "" H 3100 3600 50  0001 C CNN
-F 3 "" H 3100 3600 50  0001 C CNN
-	1    3100 3600
-	0    1    1    0   
-$EndComp
-$Comp
 L +5V #PWR?
 U 1 1 5B124B04
 P 3100 3350
@@ -176,17 +143,6 @@ Text GLabel 6700 1850 0    60   Input ~ 0
 PACK_A_ON
 Text GLabel 8150 1850 2    60   Input ~ 0
 PACK_A_ON
-$Comp
-L D_Zener D?
-U 1 1 5B125182
-P 7050 2200
-F 0 "D?" H 7050 2300 50  0000 C CNN
-F 1 "DZ2W03600L" H 7050 2100 50  0000 C CNN
-F 2 "" H 7050 2200 50  0001 C CNN
-F 3 "" H 7050 2200 50  0001 C CNN
-	1    7050 2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6700 1850 8150 1850
 Wire Wire Line
@@ -211,8 +167,8 @@ U 1 1 5B125195
 P 7650 2250
 F 0 "C?" H 7675 2350 50  0000 L CNN
 F 1 "10nF" H 7675 2150 50  0000 L CNN
-F 2 "" H 7688 2100 50  0001 C CNN
-F 3 "" H 7650 2250 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0402" H 7688 2100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C103KA01D/490-1313-1-ND/587926" H 7650 2250 50  0001 C CNN
 	1    7650 2250
 	1    0    0    -1  
 $EndComp
@@ -235,17 +191,6 @@ $EndComp
 Wire Wire Line
 	7650 2600 7650 2400
 $Comp
-L D_Zener D?
-U 1 1 5B1251A5
-P 7050 1550
-F 0 "D?" H 7050 1650 50  0000 C CNN
-F 1 "DZ2W03600L" H 7050 1450 50  0000 C CNN
-F 2 "" H 7050 1550 50  0001 C CNN
-F 3 "" H 7050 1550 50  0001 C CNN
-	1    7050 1550
-	0    1    1    0   
-$EndComp
-$Comp
 L +5V #PWR?
 U 1 1 5B1251AB
 P 7050 1300
@@ -262,17 +207,6 @@ Text GLabel 6700 3900 0    60   Input ~ 0
 PACK_B_ON
 Text GLabel 8150 3900 2    60   Input ~ 0
 PACK_B_ON
-$Comp
-L D_Zener D?
-U 1 1 5B12529D
-P 7050 4250
-F 0 "D?" H 7050 4350 50  0000 C CNN
-F 1 "DZ2W03600L" H 7050 4150 50  0000 C CNN
-F 2 "" H 7050 4250 50  0001 C CNN
-F 3 "" H 7050 4250 50  0001 C CNN
-	1    7050 4250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6700 3900 8150 3900
 Wire Wire Line
@@ -291,17 +225,6 @@ F 3 "" H 7050 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 4650 7050 4400
-$Comp
-L C C?
-U 1 1 5B1252B0
-P 7650 4300
-F 0 "C?" H 7675 4400 50  0000 L CNN
-F 1 "10nF" H 7675 4200 50  0000 L CNN
-F 2 "" H 7688 4150 50  0001 C CNN
-F 3 "" H 7650 4300 50  0001 C CNN
-	1    7650 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 4150 7650 3900
 Wire Wire Line
@@ -320,17 +243,6 @@ F 3 "" H 7650 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7650 4650 7650 4450
-$Comp
-L D_Zener D?
-U 1 1 5B1252C0
-P 7050 3600
-F 0 "D?" H 7050 3700 50  0000 C CNN
-F 1 "DZ2W03600L" H 7050 3500 50  0000 C CNN
-F 2 "" H 7050 3600 50  0001 C CNN
-F 3 "" H 7050 3600 50  0001 C CNN
-	1    7050 3600
-	0    1    1    0   
-$EndComp
 $Comp
 L +5V #PWR?
 U 1 1 5B1252C6
@@ -364,4 +276,92 @@ GND_TRACE
 Wire Wire Line
 	3750 6050 3200 6050
 Connection ~ 3200 6050
+$Comp
+L D_Zener D?
+U 1 1 5B1245DC
+P 3100 4250
+F 0 "D?" H 3100 4350 50  0000 C CNN
+F 1 "DZ2W03600L" H 3100 4150 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 3100 4250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2W03600L_E.pdf" H 3100 4250 50  0001 C CNN
+	1    3100 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5B29E487
+P 7050 4250
+F 0 "D?" H 7050 4350 50  0000 C CNN
+F 1 "DZ2W03600L" H 7050 4150 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 7050 4250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2W03600L_E.pdf" H 7050 4250 50  0001 C CNN
+	1    7050 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5B29E4E1
+P 7050 2200
+F 0 "D?" H 7050 2300 50  0000 C CNN
+F 1 "DZ2W03600L" H 7050 2100 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 7050 2200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2W03600L_E.pdf" H 7050 2200 50  0001 C CNN
+	1    7050 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5B29E546
+P 3100 3600
+F 0 "D?" H 3100 3700 50  0000 C CNN
+F 1 "DZ2W03600L" H 3100 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 3100 3600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2W03600L_E.pdf" H 3100 3600 50  0001 C CNN
+	1    3100 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5B29E588
+P 7050 3600
+F 0 "D?" H 7050 3700 50  0000 C CNN
+F 1 "DZ2W03600L" H 7050 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 7050 3600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2W03600L_E.pdf" H 7050 3600 50  0001 C CNN
+	1    7050 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5B29E5FF
+P 7050 1550
+F 0 "D?" H 7050 1650 50  0000 C CNN
+F 1 "DZ2W03600L" H 7050 1450 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 7050 1550 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2W03600L_E.pdf" H 7050 1550 50  0001 C CNN
+	1    7050 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5B29E6BD
+P 7650 4300
+F 0 "C?" H 7675 4400 50  0000 L CNN
+F 1 "10nF" H 7675 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7688 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C103KA01D/490-1313-1-ND/587926" H 7650 4300 50  0001 C CNN
+	1    7650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B29E73C
+P 3700 4300
+F 0 "C?" H 3725 4400 50  0000 L CNN
+F 1 "10nF" H 3725 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3738 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C103KA01D/490-1313-1-ND/587926" H 3700 4300 50  0001 C CNN
+	1    3700 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

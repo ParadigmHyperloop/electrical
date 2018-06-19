@@ -1,4 +1,4 @@
-update=2018-02-14 6:07:37 PM
+update=2018-06-19 5:08:58 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../electrical;exports
+LibDir=../../electrical;footprints.pretty/footprints.pretty
 [eeschema/libraries]
 LibName1=adc081c021
 LibName2=power

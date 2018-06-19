@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 12 12
 Title ""
 Date ""
 Rev ""
@@ -55,8 +55,8 @@ U 1 1 5A863A13
 P 2900 3350
 F 0 "U?" H 2900 3900 60  0000 C CNN
 F 1 "LT8608" H 2950 3800 60  0000 C CNN
-F 2 "" H 2900 3350 60  0001 C CNN
-F 3 "" H 2900 3350 60  0001 C CNN
+F 2 "footprints:MSOP10" H 2900 3350 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/lt8608.pdf" H 2900 3350 60  0001 C CNN
 	1    2900 3350
 	1    0    0    -1  
 $EndComp
@@ -245,8 +245,8 @@ U 1 1 5A91FF1E
 P 6950 3350
 F 0 "U?" H 7000 3700 60  0000 C CNN
 F 1 "LTC3642-3.3" H 7000 3600 60  0000 C CNN
-F 2 "" H 6950 3350 60  0001 C CNN
-F 3 "" H 6950 3350 60  0001 C CNN
+F 2 "footprints:MSOP8" H 6950 3350 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/3642fc.pdf?domain=www.linear.com" H 6950 3350 60  0001 C CNN
 	1    6950 3350
 	1    0    0    -1  
 $EndComp

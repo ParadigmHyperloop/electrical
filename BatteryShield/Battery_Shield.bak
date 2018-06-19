@@ -86,7 +86,7 @@ Isolation\nCircuit
 Text Notes 900  3900 0    120  ~ 0
 On/Off\nController
 Text Notes 7450 2350 0    120  ~ 0
-Precharge\nCircuit
+Precharge\nCircuit(s)
 Text Notes 5350 2350 0    120  ~ 0
 Pack Power\nSelector Circuit
 $Sheet
@@ -105,12 +105,6 @@ F1 "TemperatureSensor_Alt.sch" 60
 $EndSheet
 Text Notes 5550 3700 0    120  ~ 0
 Temperature\nSensor\n(Design 2)
-$Sheet
-S 8850 2800 2300 1050
-U 5A86217E
-F0 "5V and 3.3V Regulators" 60
-F1 "Regulators.sch" 60
-$EndSheet
 Text Notes 9400 3500 0    120  ~ 0
 5V and 3.3V\nRegulators
 $Sheet
@@ -141,4 +135,10 @@ F1 "bbb_interface.sch" 60
 $EndSheet
 Text Notes 5800 4900 0    60   ~ 0
 bbb_interface\n
+$Sheet
+S 8850 2800 2300 1050
+U 5A86217E
+F0 "5V and 3.3V Regulators" 60
+F1 "Regulators.sch" 60
+$EndSheet
 $EndSCHEMATC
