@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 11 12
 Title ""
 Date ""
 Rev ""
@@ -54,8 +54,8 @@ L Conn_02x08_Counter_Clockwise J?
 U 1 1 5B1207A7
 P 5400 3050
 F 0 "J?" H 5450 3450 50  0000 C CNN
-F 1 "WM6815CT" H 5450 2550 50  0000 C CNN
-F 2 "" H 5400 3050 50  0001 C CNN
+F 1 "MOLEX-MINIFIT-JR-5556" H 5450 2550 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5556-16A_2x08x4.20mm_Straight" H 5400 3050 50  0001 C CNN
 F 3 "" H 5400 3050 50  0001 C CNN
 	1    5400 3050
 	1    0    0    -1  
