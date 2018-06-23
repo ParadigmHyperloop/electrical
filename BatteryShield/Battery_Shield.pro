@@ -1,4 +1,4 @@
-update=2018-06-19 5:08:58 PM
+update=6/23/2018 1:42:17 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../../electrical;footprints.pretty/footprints.pretty
+LibDir=../../electrical;footprints.pretty/footprints.pretty;footprints.pretty/footprints.pretty
 [eeschema/libraries]
 LibName1=adc081c021
 LibName2=power
@@ -74,3 +74,4 @@ LibName32=contrib
 LibName33=valves
 LibName34=LTC4151IMS-1-PBF
 LibName35=sensors
+LibName36=powerRes
