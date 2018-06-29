@@ -328,10 +328,10 @@ F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/
 $EndComp
 Wire Wire Line
 	4300 1400 4300 1200
-Text GLabel 3100 3350 1    60   Input ~ 0
-5V_REG
-Text GLabel 7050 3350 1    60   Input ~ 0
-5V_REG
 Text GLabel 7050 1300 1    60   Input ~ 0
-5V_REG
+3.3V_REG
+Text GLabel 7050 3350 1    60   Input ~ 0
+3.3V_REG
+Text GLabel 3100 3350 1    60   Input ~ 0
+3.3V_REG
 $EndSCHEMATC
