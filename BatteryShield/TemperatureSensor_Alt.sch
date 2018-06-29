@@ -168,7 +168,7 @@ F 3 "" H 2900 4150 50  0001 C CNN
 	1    2900 4150
 	1    0    0    -1  
 $EndComp
-Text Notes 2550 4500 0    60   ~ 0
+Text Notes 2650 4850 0    60   ~ 0
 Alternate temperature sensor LM35. The package of this sensor would need to be fixed directly to the battery pack.
 $Comp
 L R R401
@@ -208,4 +208,29 @@ Text GLabel 4250 2300 1    60   Input ~ 0
 5V_REG
 Text GLabel 2900 3550 1    60   Input ~ 0
 5V_REG
+$Comp
+L C C401
+U 1 1 5B358D1D
+P 4000 4200
+F 0 "C401" H 4025 4300 50  0000 L CNN
+F 1 "10n" H 4025 4100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4038 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C103KA01D/490-1313-1-ND/587926" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5B358DF4
+P 4000 4350
+F 0 "#PWR013" H 4000 4100 50  0001 C CNN
+F 1 "GND" H 4000 4200 50  0000 C CNN
+F 2 "" H 4000 4350 50  0001 C CNN
+F 3 "" H 4000 4350 50  0001 C CNN
+	1    4000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4050 4000 3850
+Connection ~ 4000 3850
 $EndSCHEMATC
