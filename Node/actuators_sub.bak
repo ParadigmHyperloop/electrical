@@ -292,7 +292,7 @@ SOL1_DATAOUT
 Text Label 1400 5600 0    60   ~ 0
 SOL1_DATAOUT
 Text Label 1400 5500 0    60   ~ 0
-SOL_SCLK2
+SOL_SCLK
 Text Label 1400 5400 0    60   ~ 0
 SOL2_DATAOUT
 Text Notes 650  6800 0    118  ~ 24
@@ -1693,14 +1693,6 @@ Wire Bus Line
 	7900 9000 8150 9000
 Wire Bus Line
 	8150 9000 8150 9500
-Entry Bus Bus
-	8150 9200 8250 9300
-Entry Bus Bus
-	8150 9300 8250 9400
-Entry Bus Bus
-	8150 9400 8250 9500
-Entry Bus Bus
-	8150 9500 8250 9600
 Wire Wire Line
 	8250 9300 9650 9300
 $Comp
@@ -1765,8 +1757,6 @@ Wire Wire Line
 	10150 9600 11450 9600
 Wire Wire Line
 	10150 9500 11450 9500
-Text Label 8650 9400 0    60   ~ 0
-SOL_DAC_SCLK2
 Text Label 10450 9400 0    60   ~ 0
 SOL_SCLK
 Text Label 10450 9500 0    60   ~ 0
@@ -1776,9 +1766,27 @@ SOL_DAC_DATAIN
 Text Label 8650 9600 0    60   ~ 0
 SOL_DAC_DATAOUT
 Text Label 10450 9600 0    60   ~ 0
-SOL_DATAOUT
-Text HLabel 7900 9000 0    60   Input ~ 0
-SOL_DAC_S2[0..3]
+SOL2_DATAOUT
+Text HLabel 7900 9000 0    60   BiDi ~ 0
+D[0..3]
 Text Label 4400 9400 0    60   ~ 0
-SOL1_DATAIN
+DAC1_DATAIN
+Text Label 8650 9400 0    60   ~ 0
+SOL_DAC_SCLK2
+Entry Wire Line
+	8150 9500 8250 9600
+Entry Wire Line
+	8150 9400 8250 9500
+Entry Wire Line
+	8150 9300 8250 9400
+Entry Wire Line
+	8150 9200 8250 9300
+Text Label 8250 9300 0    60   ~ 0
+D0
+Text Label 8250 9400 0    60   ~ 0
+D1
+Text Label 8250 9500 0    60   ~ 0
+D2
+Text Label 8250 9600 0    60   ~ 0
+D3
 $EndSCHEMATC

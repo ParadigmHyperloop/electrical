@@ -1551,16 +1551,6 @@ Wire Bus Line
 	6300 6150 6850 6150
 Wire Bus Line
 	6850 6150 6850 6600
-Entry Bus Bus
-	6850 6250 6950 6350
-Entry Bus Bus
-	6850 6350 6950 6450
-Entry Bus Bus
-	6850 6450 6950 6550
-Entry Bus Bus
-	6850 6550 6950 6650
-Text HLabel 6300 6150 0    60   Input ~ 0
-SOL_DAC_S2[0..3]
 $Comp
 L R R2210
 U 1 1 5B3AF7DC
@@ -1622,7 +1612,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 6650 9700 6650
 Text Label 7200 6350 0    60   ~ 0
-SOLD_DAC_CS
+SOL_DAC_CS
 Text Label 7200 6450 0    60   ~ 0
 SOL_DAC_SCLK2
 Text Label 7200 6550 0    60   ~ 0
@@ -1637,4 +1627,24 @@ Text Label 9200 6550 0    60   ~ 0
 PB12
 Text Label 9200 6650 0    60   ~ 0
 PB13
+Text HLabel 6300 6150 0    60   BiDi ~ 0
+D[0..3]
+Entry Wire Line
+	6850 6550 6950 6650
+Entry Wire Line
+	6850 6450 6950 6550
+Entry Wire Line
+	6850 6350 6950 6450
+Entry Wire Line
+	6850 6250 6950 6350
+Text Notes 4600 6450 0    60   ~ 0
+SPI signal decoder:\nS20 = CS\nS21 = SCLK\nS22 = DATAIN\nS23=DATAOUT\n
+Text Label 6950 6350 0    60   ~ 0
+D0
+Text Label 6950 6450 0    60   ~ 0
+D1
+Text Label 6950 6550 0    60   ~ 0
+D2
+Text Label 6950 6650 0    60   ~ 0
+D3
 $EndSCHEMATC
