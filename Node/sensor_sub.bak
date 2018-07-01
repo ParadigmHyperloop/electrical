@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
-LIBS:Connector
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
@@ -14,7 +13,7 @@ Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Luke Merkl, Justin Pietrocarlo"
 $EndDescr
 $Comp
 L ADS7953_38TSSOP U901

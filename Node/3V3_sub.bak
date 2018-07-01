@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
-LIBS:Connector
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
@@ -392,10 +391,10 @@ Wire Wire Line
 Wire Wire Line
 	1950 2500 1650 2500
 $Comp
-L Test_Point TP?
+L Test_Point TP4
 U 1 1 5A71F396
 P 9450 1650
-F 0 "TP?" H 9450 1920 50  0000 C CNN
+F 0 "TP4" H 9450 1920 50  0000 C CNN
 F 1 "Test_Point" H 9450 1850 50  0000 C CNN
 F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 9650 1650 50  0001 C CNN
 F 3 "" H 9650 1650 50  0001 C CNN

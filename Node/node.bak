@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
-LIBS:Connector
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
@@ -43,7 +42,7 @@ Text Notes 1400 3450 0    120  ~ 24
 Network\nInterface
 Text Notes 5250 3600 0    120  ~ 24
 µC
-Text Notes 8250 2800 0    120  ~ 24
+Text Notes 9150 2800 0    120  ~ 24
 Actuator\nInterface
 Text Notes 5050 1750 0    120  ~ 24
 Power
@@ -52,12 +51,13 @@ Sensors
 Wire Bus Line
 	2950 3250 4500 3250
 $Sheet
-S 7800 2050 1650 900 
+S 7800 2050 2250 1150
 U 59B1B927
 F0 "Actuator Interface" 60
 F1 "actuators_sub.sch" 60
-F2 "SOL_DAC_S[0..4]" B L 7800 2350 60 
-F3 "SOL_DAC_C[0..5]" B L 7800 2200 60 
+F2 "SOL_DAC_C[0..5]" B L 7800 2200 60 
+F3 "SOL_DAC_S[1..4]" B L 7800 2350 60 
+F4 "Q[0..3]" B L 7800 2500 60 
 $EndSheet
 Wire Bus Line
 	7100 4100 7850 4100
@@ -102,7 +102,8 @@ F7 "USB_D-" B L 4500 3600 60
 F8 "USB_D+" B L 4500 3700 60 
 F9 "SOL_DAC_C[0..5]" B R 6300 3200 60 
 F10 "NETW_C[0..1]" B L 4500 3400 60 
-F11 "SOL_DAC_S[0..4]" B R 6300 3350 60 
+F11 "SOL_DAC_S[1..4]" B R 6300 3350 60 
+F12 "Q[0..3]" B R 6300 3450 60 
 $EndSheet
 Wire Bus Line
 	4500 3400 2950 3400
@@ -148,4 +149,10 @@ Wire Bus Line
 	4150 5650 4150 4100
 Wire Bus Line
 	4150 4100 4500 4100
+Wire Bus Line
+	6300 3450 7350 3450
+Wire Bus Line
+	7350 3450 7350 2500
+Wire Bus Line
+	7350 2500 7800 2500
 $EndSCHEMATC

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:hyper_capstone
-LIBS:Connector
 LIBS:node-cache
 EELAYER 25 0
 EELAYER END
@@ -588,10 +587,10 @@ F 9 "Digi-Key" H 7050 2000 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Test_Point TP?
+L Test_Point TP1
 U 1 1 5A71F218
 P 8600 1650
-F 0 "TP?" H 8600 1920 50  0000 C CNN
+F 0 "TP1" H 8600 1920 50  0000 C CNN
 F 1 "Test_Point" H 8600 1850 50  0000 C CNN
 F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 8800 1650 50  0001 C CNN
 F 3 "" H 8800 1650 50  0001 C CNN
