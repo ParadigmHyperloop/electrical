@@ -1232,7 +1232,7 @@ PA27
 Text Label 7900 6800 0    60   ~ 0
 PB12
 Text Label 7900 6900 0    60   ~ 0
-PA23
+PB13
 Wire Bus Line
 	6250 3250 6900 3250
 Wire Wire Line
