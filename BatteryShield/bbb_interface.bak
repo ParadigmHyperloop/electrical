@@ -73,49 +73,49 @@ Text GLabel 7200 2950 2    60   Input ~ 0
 PRECHARGE_N
 Wire Wire Line
 	4700 2950 5200 2950
-Text GLabel 6250 3450 2    60   Input ~ 0
+Text GLabel 6200 3900 2    60   Input ~ 0
 BBB_GND
 Wire Wire Line
 	3850 3050 5200 3050
-Text GLabel 3850 2850 0    60   Input ~ 0
+Text GLabel 7200 3350 2    60   Input ~ 0
 CV_SDA_BBB
-Text GLabel 4700 2750 0    60   Input ~ 0
+Text GLabel 6250 3450 2    60   Input ~ 0
 CV_SCL_BBB
 Wire Wire Line
 	3850 3250 5200 3250
 Wire Wire Line
 	3850 3450 5200 3450
-Text GLabel 4700 2950 0    60   Input ~ 0
+Text GLabel 5900 4450 0    60   Input ~ 0
 BBB_GND
-Text GLabel 7200 3350 2    60   Input ~ 0
+Text GLabel 6900 3800 2    60   Input ~ 0
 BBB_GND
 Wire Wire Line
 	4700 3150 5200 3150
 Wire Wire Line
 	4700 3350 5200 3350
-Text GLabel 3850 3250 0    60   Input ~ 0
+Text GLabel 4700 2950 0    60   Input ~ 0
 TEMP_SCL_BBB
-Text GLabel 4700 3150 0    60   Input ~ 0
-TEMP_SDA_BBB
-Text GLabel 3850 3450 0    60   Input ~ 0
-TEMP_SLAVE_ADDR0
 Text GLabel 3850 3050 0    60   Input ~ 0
+TEMP_SDA_BBB
+Text GLabel 3850 2850 0    60   Input ~ 0
+TEMP_SLAVE_ADDR0
+Text GLabel 4700 2750 0    60   Input ~ 0
 TEMP_SLAVE_ADDR1
-Text GLabel 4700 3350 0    60   Input ~ 0
+Text GLabel 4700 3150 0    60   Input ~ 0
 TEMP_DIN_BBB
-Text GLabel 7200 3150 2    60   Input ~ 0
+Text GLabel 6450 4100 2    60   Input ~ 0
 BBB_GND
 Wire Wire Line
 	7200 3150 5700 3150
 Wire Wire Line
 	6250 3050 5700 3050
-Text GLabel 6250 3050 2    60   Input ~ 0
+Text GLabel 5500 3850 2    60   Input ~ 0
 BBB_GND
 Wire Wire Line
 	5700 2950 7200 2950
 Wire Wire Line
 	6150 2850 5700 2850
-Text GLabel 6250 3250 2    60   Input ~ 0
+Text GLabel 5750 4150 2    60   Input ~ 0
 BBB_GND
 Wire Wire Line
 	7200 2750 5700 2750

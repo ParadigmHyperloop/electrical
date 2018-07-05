@@ -186,7 +186,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3350 4400 3800
 Text GLabel 4400 3050 1    60   Input ~ 0
-5V_REG
+3.3V_REG
 $Comp
 L R R203
 U 1 1 5B34256E
