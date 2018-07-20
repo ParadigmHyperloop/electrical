@@ -113,7 +113,7 @@ F 7 "Digi-Key" H 3350 4450 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 4300 3800 4300
+	3800 4300 4200 4300
 Wire Wire Line
 	3800 4300 3800 4700
 $Comp
@@ -154,9 +154,9 @@ F 0 "C505" H 4300 5550 50  0000 L CNN
 F 1 "10pF" H 4300 5350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4288 5300 30  0001 C CNN
 F 3 "" H 4250 5450 60  0000 C CNN
-F 4 "C0805C100K5GACTU" H 4250 5450 60  0001 C CNN "Mfg. Part Num"
+F 4 "C0805C100JDGACTU" H 4250 5450 60  0001 C CNN "Mfg. Part Num"
 F 5 "Kemet" H 4250 5450 60  0001 C CNN "Mfg. Name"
-F 6 "399-7975-1-ND" H 4250 5450 60  0001 C CNN "Vendor Part Num"
+F 6 "399-7062-1-ND" H 4250 5450 60  0001 C CNN "Vendor Part Num"
 F 7 "Digi-Key" H 4250 5450 60  0001 C CNN "Vendor Name"
 	1    4250 5450
 	1    0    0    -1  
@@ -397,7 +397,7 @@ F 0 "C501" H 2000 3950 50  0000 L CNN
 F 1 "2.2uF" H 2000 3750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1988 3700 30  0001 C CNN
 F 3 "" H 1950 3850 60  0000 C CNN
-F 4 "C2012X7R1H225K125AC" H 1950 3850 60  0001 C CNN "Mfg. Part Num"
+F 4 "CGA4J1X7R1V225K125AE" H 1950 3850 60  0001 C CNN "Mfg. Part Num"
 F 5 "TDK" H 1950 3850 60  0001 C CNN "Mfg. Name"
 F 6 "445-5968-1-ND" H 1950 3850 60  0001 C CNN "Vendor Part Num"
 F 7 "Digi-Key" H 1950 3850 60  0001 C CNN "Vendor Name"
@@ -560,21 +560,6 @@ F 7 "Digi-Key" H 8750 3600 60  0001 C CNN "Vendor Name"
 $EndComp
 Text Notes 7850 3400 0    60   ~ 0
 May want to sub this for a ferrite
-$Comp
-L C_large C502
-U 1 1 5A1A604D
-P 2350 3850
-F 0 "C502" H 2400 3950 50  0000 L CNN
-F 1 "2.2uF" H 2400 3750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2388 3700 30  0001 C CNN
-F 3 "" H 2350 3850 60  0000 C CNN
-F 4 "C2012X7R1H225K125AC" H 2350 3850 60  0001 C CNN "Mfg. Part Num"
-F 5 "TDK" H 2350 3850 60  0001 C CNN "Mfg. Name"
-F 6 "445-5968-1-ND" H 2350 3850 60  0001 C CNN "Vendor Part Num"
-F 7 "Digi-Key" H 2350 3850 60  0001 C CNN "Vendor Name"
-	1    2350 3850
-	1    0    0    -1  
-$EndComp
 Text Label 2550 3500 0    60   ~ 0
 24V0_R
 Text Label 3200 3900 0    60   ~ 0
@@ -634,4 +619,19 @@ F 7 "36-5000-ND" H 10050 3600 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 Connection ~ 10050 3600
+$Comp
+L C_large C502
+U 1 1 5B528C29
+P 2350 3850
+F 0 "C502" H 2400 3950 50  0000 L CNN
+F 1 "2.2uF" H 2400 3750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2388 3700 30  0001 C CNN
+F 3 "" H 2350 3850 60  0000 C CNN
+F 4 "CGA4J1X7R1V225K125AE" H 2350 3850 60  0001 C CNN "Mfg. Part Num"
+F 5 "TDK" H 2350 3850 60  0001 C CNN "Mfg. Name"
+F 6 "445-5968-1-ND" H 2350 3850 60  0001 C CNN "Vendor Part Num"
+F 7 "Digi-Key" H 2350 3850 60  0001 C CNN "Vendor Name"
+	1    2350 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

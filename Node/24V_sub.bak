@@ -44,9 +44,9 @@ F 0 "R403" V 3350 1750 50  0000 C CNN
 F 1 "0" V 3450 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3380 1750 30  0001 C CNN
 F 3 "" H 3450 1750 30  0000 C CNN
-F 4 "RC0805JR-070RL" H 3450 1750 60  0001 C CNN "Mfg. Part Num"
-F 5 "Yageo" H 3450 1750 60  0001 C CNN "Mfg. Name"
-F 6 "311-0.0ARCT-ND" H 3450 1750 60  0001 C CNN "Vendor Part Num"
+F 4 "ERJ-6GEY0R00V" H 3450 1750 60  0001 C CNN "Mfg. Part Num"
+F 5 "Panasonic Electronic Components" H 3450 1750 60  0001 C CNN "Mfg. Name"
+F 6 "P0.0ACT-ND" H 3450 1750 60  0001 C CNN "Vendor Part Num"
 F 7 "Digi-Key" H 3450 1750 60  0001 C CNN "Vendor Name"
 	1    3450 1750
 	0    1    1    0   
@@ -70,9 +70,9 @@ F 0 "R402" H 2750 2500 50  0000 C CNN
 F 1 "210k" H 2800 2100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2580 2300 30  0001 C CNN
 F 3 "" H 2650 2300 30  0000 C CNN
-F 4 "RC0805FR-07210KL" H 2650 2300 60  0001 C CNN "Mfg. Part Num"
-F 5 "Yageo" H 2650 2300 60  0001 C CNN "Mfg. Name"
-F 6 "311-210KCRCT-ND" H 2650 2300 60  0001 C CNN "Vendor Part Num"
+F 4 "ERA-6AEB2103V" H 2650 2300 60  0001 C CNN "Mfg. Part Num"
+F 5 "Panasonic Electronic Components" H 2650 2300 60  0001 C CNN "Mfg. Name"
+F 6 "P210KDACT-ND" H 2650 2300 60  0001 C CNN "Vendor Part Num"
 F 7 "Digi-Key" H 2650 2300 60  0001 C CNN "Vendor Name"
 	1    2650 2300
 	1    0    0    -1  
@@ -97,7 +97,7 @@ F 7 "Digi-Key" H 3150 2500 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 2350 3600 2350
+	3600 2350 4000 2350
 Wire Wire Line
 	3600 2350 3600 2750
 $Comp
@@ -363,8 +363,7 @@ F 2 "hyperCustom:TT_1k_potentiometer_23BR1KLFTR" H 7050 3350 60  0001 C CNN
 F 3 "" H 7050 3350 60  0000 C CNN
 F 4 "23BR1KLFTR" H 7050 3350 60  0001 C CNN "Mfg. Part Num"
 F 5 "987-1015-1-ND" H 7050 3350 60  0001 C CNN "Mfg. Name"
-F 6 "490-2881-ND" H 7050 3350 60  0001 C CNN "Vendor Part Num"
-F 7 "Digi-Key" H 7050 3350 60  0001 C CNN "Vendor Name"
+F 6 "Digi-Key" H 7050 3350 60  0001 C CNN "Vendor Name"
 	1    7050 3350
 	0    1    1    0   
 $EndComp
@@ -442,21 +441,6 @@ F 7 "Digi-Key" H 8050 1950 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Zener_ALT D403
-U 1 1 59F1A0B3
-P 8600 2300
-F 0 "D403" V 8750 2200 50  0000 C CNN
-F 1 "25V" V 8450 2150 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 8600 2300 60  0001 C CNN
-F 3 "" H 8600 2300 60  0000 C CNN
-F 4 "MMSZ4710T1G" H 8600 2300 60  0001 C CNN "Mfg. Part Num"
-F 5 "ON Semi" H 8600 2300 60  0001 C CNN "Mfg. Name"
-F 6 "MMSZ4710T1GOSCT-ND" H 8600 2300 60  0001 C CNN "Vendor Part Num"
-F 7 "Digi-Key" H 8600 2300 60  0001 C CNN "Vendor Name"
-	1    8600 2300
-	0    -1   1    0   
-$EndComp
-$Comp
 L LED D402
 U 1 1 59F1A2D3
 P 9050 2000
@@ -496,7 +480,7 @@ F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 9050 3100 60  0001 C CNN
 F 3 "" H 9050 3100 60  0000 C CNN
 F 4 "MM3Z20VT1G" H 9050 3100 60  0001 C CNN "Mfg. Part Num"
 F 5 "ON Semi" H 9050 3100 60  0001 C CNN "Mfg. Name"
-F 6 "MM3Z20VT1GOSCT-ND" H 9050 3100 60  0001 C CNN "Vendor Part Num"
+F 6 "MM3Z20VST1GOSCT-ND" H 9050 3100 60  0001 C CNN "Vendor Part Num"
 	1    9050 3100
 	0    -1   1    0   
 $EndComp
@@ -600,5 +584,19 @@ F 6 "DigiKey" H 8600 1650 60  0001 C CNN "Vendor"
 F 7 "36-5000-ND" H 8600 1650 60  0001 C CNN "Vendor P/N"
 	1    8600 1650
 	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener_ALT D403
+U 1 1 5B52792D
+P 8600 2300
+F 0 "D403" V 8700 2150 50  0000 C CNN
+F 1 "20V" V 8500 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 8600 2300 60  0001 C CNN
+F 3 "" H 8600 2300 60  0000 C CNN
+F 4 "MM3Z20VT1G" H 8600 2300 60  0001 C CNN "Mfg. Part Num"
+F 5 "ON Semi" H 8600 2300 60  0001 C CNN "Mfg. Name"
+F 6 "MM3Z20VST1GOSCT-ND" H 8600 2300 60  0001 C CNN "Vendor Part Num"
+	1    8600 2300
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
