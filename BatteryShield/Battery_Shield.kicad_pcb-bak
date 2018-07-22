@@ -1,14 +1,14 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 150)
-    (no_connects 8)
+    (links 0)
+    (no_connects 6)
     (area 119.304999 65.964999 228.675001 129.615001)
     (thickness 1.6)
     (drawings 5)
     (tracks 595)
     (zones 0)
-    (modules 66)
+    (modules 67)
     (nets 53)
   )
 
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.35)
+    (last_trace_width 0.15)
     (user_trace_width 0.15)
     (user_trace_width 0.35)
     (user_trace_width 0.6)
@@ -3225,6 +3225,19 @@
       (xy -1.396958 8.603286) (xy -1.817136 8.422084) (xy -1.871579 8.327919) (xy -3.341076 8.327919)
       (xy -2.98069 8.530726) (xy -2.852123 8.619113) (xy -2.30845 8.938194) (xy -1.685538 9.121556)
       (xy -0.818026 9.202881) (xy 0.084137 9.217174) (xy 1.19587 9.194766)) (layer B.SilkS) (width 0.01))
+  )
+
+  (module Wire_Pads:SolderWirePad_3x_0-8mmDrill (layer F.Cu) (tedit 0) (tstamp 5B54CA51)
+    (at 161.544 108.204)
+    (fp_text reference REF** (at 0 -2.54) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderWirePad_3x_0-8mmDrill (at 0 2.54) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -3.175 0) (size 1.99898 1.99898) (drill 0.8001) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 1.99898 1.99898) (drill 0.8001) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 3.175 0) (size 1.99898 1.99898) (drill 0.8001) (layers *.Cu *.Mask))
   )
 
   (gr_text "Paradigm Hyperloop 2018" (at 151.85 125.95) (layer B.SilkS)
