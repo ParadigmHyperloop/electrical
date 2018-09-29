@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Battery_Shield-rescue)(type Legacy)(uri ${KIPRJMOD}/Battery_Shield-rescue.lib)(options "")(descr ""))
+  (lib (name adc081c021)(type Legacy)(uri ${KIPRJMOD}/adc081c021.lib)(options "")(descr ""))
+  (lib (name sensors)(type Legacy)(uri ${KIPRJMOD}/sensors.lib)(options "")(descr ""))
+  (lib (name powerRes)(type Legacy)(uri ${KIPRJMOD}/powerRes.lib)(options "")(descr ""))
+)

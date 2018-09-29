@@ -2308,7 +2308,7 @@
     (tags "resistor 0603")
     (path /5A64EF94/5B2A2BCD)
     (attr smd)
-    (fp_text reference R300 (at 0 -1.45) (layer F.SilkS)
+    (fp_text reference R300 (at 3.34518 0.11176) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.02 (at 0 1.5) (layer F.Fab)
@@ -2336,6 +2336,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B3C1553)
@@ -2344,7 +2349,7 @@
     (tags "resistor 0603")
     (path /5A64EF94/5B29EC47)
     (attr smd)
-    (fp_text reference R301 (at 3.8862 -1.86944 270) (layer F.SilkS)
+    (fp_text reference R301 (at -0.00254 -4.4577 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 18.2k (at 0 1.5 270) (layer F.Fab)
@@ -2372,6 +2377,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B3C1564)
@@ -2380,7 +2390,7 @@
     (tags "resistor 0603")
     (path /5A64EF94/5B2A2100)
     (attr smd)
-    (fp_text reference R302 (at 3.80492 -1.63068 270) (layer F.SilkS)
+    (fp_text reference R302 (at -0.0254 -4.0005 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 18.2k (at 0 1.5 270) (layer F.Fab)
@@ -2408,6 +2418,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B3C1575)
@@ -2416,7 +2431,7 @@
     (tags "resistor 0603")
     (path /5A64EF94/5B2A2152)
     (attr smd)
-    (fp_text reference R303 (at 3.84556 -1.72974 270) (layer F.SilkS)
+    (fp_text reference R303 (at 0.01778 -4.25958 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 18.2k (at 0 1.5 270) (layer F.Fab)
@@ -2440,6 +2455,11 @@
     (pad 2 smd rect (at 0.75 0 270) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 33 "Net-(R303-Pad2)"))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2480,6 +2500,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B3C1597)
@@ -2512,6 +2537,11 @@
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 35 "Net-(R305-Pad2)"))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2552,6 +2582,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B3C15B9)
@@ -2584,6 +2619,11 @@
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 22 CV_SCL_BBB))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2876,6 +2916,11 @@
       (net 1 BBB_GND))
     (pad 10 smd rect (at 2.2 -1 180) (size 1.6 0.3) (layers F.Cu F.Paste F.SilkS F.Mask)
       (net 30 "Net-(R300-Pad1)"))
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/MSOP-10_3x3mm_P0.5mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 58CD0CDA) (tstamp 5B3C1652)
@@ -2930,6 +2975,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 58CD0CDA) (tstamp 5B3C166F)
@@ -2980,6 +3030,11 @@
     (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 33 "Net-(R303-Pad2)"))
     (model ${KISYS3DMOD}/Housings_SOIC.3dshapes/SOIC-8_3.9x4.9mm_Pitch1.27mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3180,6 +3235,11 @@
       (net 48 "Net-(U601-Pad7)"))
     (pad 8 smd rect (at 2.2 -0.975) (size 1.4 0.4) (layers F.Cu F.Paste F.SilkS F.Mask)
       (net 1 BBB_GND))
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Mounting_Holes:MountingHole_3.5mm_Pad_Via (layer F.Cu) (tedit 5B5332E3) (tstamp 5B533527)
