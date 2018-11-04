@@ -1,0 +1,64 @@
+EESchema Schematic File Version 2
+LIBS:valves
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:BeagleBone-Black-Cape-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 8800 2850 1350 700 
+U 5BDF4B21
+F0 "BBB Expansion Connectors" 60
+F1 "ExpansionConnectors.sch" 60
+$EndSheet
+$Sheet
+S 3150 2200 1200 600 
+U 5BDF4ECE
+F0 "USB" 60
+F1 "USB.sch" 60
+$EndSheet
+Text Notes 3600 2500 0    60   ~ 0
+\n
+Text Notes 700  800  0    157  ~ 31
+BBB Cape
+Text Notes 3500 2550 0    120  ~ 24
+USB
+$EndSCHEMATC

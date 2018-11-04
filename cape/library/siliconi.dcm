@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D469
+D Quad High-Current Power Driver
+K High-Current Driver
+F http://www.go-gddq.com/downlocal/D/D469CJ.PDF
+$ENDCMP
+#
+#End Doc Library

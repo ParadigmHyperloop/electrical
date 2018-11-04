@@ -1,0 +1,135 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CP2102N-A01-GQFN24
+D USB to UART master bridge
+K USB UART bridge
+F http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP CP2104
+D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
+K uart usb bridge interface transceiver
+F https://www.silabs.com/Support%20Documents/TechnicalDocs/cp2104.pdf
+$ENDCMP
+#
+$CMP CP2112
+D HID USB to SMBUS master bridge
+K USB SMBUS bridge
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2112.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F2A-A-QFN20
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 2K flash, 256B RAM, -40 to +125 C (automotive), QFN20
+K 8051 microcontroller PWM UART SPI I2C ADC QFN20 automotive
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F2G-A-QFN20
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 2K flash, 256B RAM, -40 to +85 C, QFN20
+K 8051 microcontroller PWM UART SPI I2C ADC QFN20
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F2I-A-QFN20
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 2K flash, 256B RAM, -40 to +125 C, QFN20
+K 8051 microcontroller PWM UART SPI I2C ADC QFN20
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F4A-A-QFN20
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 4K flash, 512B RAM, -40 to +125 C (automotive), QFN20
+K 8051 microcontroller PWM UART SPI I2C ADC QFN20 automotive
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F4G-A-QFN20
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 4K flash, 512B RAM, -40 to +85 C, QFN20
+K 8051 microcontroller PWM UART SPI I2C ADC QFN20
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F4I-A-QFN20
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 4K flash, 512B RAM, -40 to +125 C, QFN20
+K 8051 microcontroller PWM UART SPI I2C ADC QFN20
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8A-A-QFN20
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C (automotive), QFN20
+K 8051 microcontroller PWM UART SPI I2C ADC QFN20 automotive
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8G-A-QFN20
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +85 C, QFN20
+K 8051 microcontroller PWM UART SPI I2C ADC QFN20
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8G-A-QSOP24
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +85 C, QSOP24
+K 8051 microcontroller PWM UART SPI I2C ADC QSOP24
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8G-A-SOIC16
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +85 C, SOIC16
+K 8051 microcontroller PWM UART SPI I2C ADC SOIC16
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8I-A-QFN20
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C, QFN20
+K 8051 microcontroller PWM UART SPI I2C ADC QFN20
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8I-A-QSOP24
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C, QSOP24
+K 8051 microcontroller PWM UART SPI I2C ADC QSOP24
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8I-A-SOIC16
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C, SOIC16
+K 8051 microcontroller PWM UART SPI I2C ADC SOIC16
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP Si3210
+D ProSLIC Programmable cmos slic/codec with ringing/battery voltage generation
+K ProSLIC slic
+F http://www.mouser.com/ds/2/368/si3210-38974.pdf
+$ENDCMP
+#
+$CMP Si4362
+D EZRadioPRO Low Current Receiver
+K radio receiver
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4362.pdf
+$ENDCMP
+#
+$CMP Si4730-D60-GU
+D AM/FM Broadcast Radio Receiver
+K Broadcast AM FM Radio Receiver
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf
+$ENDCMP
+#
+$CMP Si4731-D60-GU
+D AM/FM Broadcast Radio Receiver with RDS/RBDS
+K Broadcast AM FM Radio Receiver RDS RBDS
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf
+$ENDCMP
+#
+$CMP Si4734-D60-GU
+D AM/FM/SW/LW Broadcast Radio Receiver
+K Broadcast AM FM SW LW Radio Receiver
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf
+$ENDCMP
+#
+$CMP Si4735-D60-GU
+D AM/FM/SW/LW Broadcast Radio Receiver with RDS/RBDS
+K Broadcast AM FM SW LW Radio Receiver RDS RBDS
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,276 @@
+EESchema Schematic File Version 2
+LIBS:valves
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:BeagleBone-Black-Cape-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GNDD #PWR?
+U 1 1 5BDF4C69
+P 2850 3950
+F 0 "#PWR?" H 2850 3700 50  0001 C CNN
+F 1 "GNDD" H 2850 3800 50  0000 C CNN
+F 2 "" H 2850 3950 60  0000 C CNN
+F 3 "" H 2850 3950 60  0000 C CNN
+	1    2850 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3550 3250 3550
+Wire Wire Line
+	3250 3550 3250 3850
+Wire Wire Line
+	3250 3850 2450 3850
+Wire Wire Line
+	2450 3850 2450 3550
+Wire Wire Line
+	2450 3550 2600 3550
+Wire Wire Line
+	2600 3650 2450 3650
+Connection ~ 2450 3650
+Wire Wire Line
+	3100 3650 3250 3650
+Connection ~ 3250 3650
+Wire Wire Line
+	2850 3950 2850 3850
+Connection ~ 2850 3850
+$Comp
+L GNDD #PWR?
+U 1 1 5BDF4C7A
+P 3900 1450
+F 0 "#PWR?" H 3900 1200 50  0001 C CNN
+F 1 "GNDD" H 3900 1300 50  0000 C CNN
+F 2 "" H 3900 1450 60  0000 C CNN
+F 3 "" H 3900 1450 60  0000 C CNN
+	1    3900 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5BDF4C80
+P 1800 1450
+F 0 "#PWR?" H 1800 1200 50  0001 C CNN
+F 1 "GNDD" H 1800 1300 50  0000 C CNN
+F 2 "" H 1800 1450 60  0000 C CNN
+F 3 "" H 1800 1450 60  0000 C CNN
+	1    1800 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5BDF4C86
+P 5050 1450
+F 0 "#PWR?" H 5050 1200 50  0001 C CNN
+F 1 "GNDD" H 5050 1300 50  0000 C CNN
+F 2 "" H 5050 1450 60  0000 C CNN
+F 3 "" H 5050 1450 60  0000 C CNN
+	1    5050 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5BDF4C8C
+P 6050 1450
+F 0 "#PWR?" H 6050 1200 50  0001 C CNN
+F 1 "GNDD" H 6050 1300 50  0000 C CNN
+F 2 "" H 6050 1450 60  0000 C CNN
+F 3 "" H 6050 1450 60  0000 C CNN
+	1    6050 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5BDF4C92
+P 3250 1250
+F 0 "#PWR?" H 3250 1100 50  0001 C CNN
+F 1 "+3V3" H 3250 1390 50  0000 C CNN
+F 2 "" H 3250 1250 60  0000 C CNN
+F 3 "" H 3250 1250 60  0000 C CNN
+	1    3250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5BDF4C98
+P 3450 1250
+F 0 "#PWR?" H 3450 1100 50  0001 C CNN
+F 1 "+5V" H 3450 1390 50  0000 C CNN
+F 2 "" H 3450 1250 60  0000 C CNN
+F 3 "" H 3450 1250 60  0000 C CNN
+	1    3450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1550 3250 1550
+Wire Wire Line
+	3250 1550 3250 1250
+Wire Wire Line
+	3100 1650 3450 1650
+Wire Wire Line
+	3450 1650 3450 1250
+Wire Wire Line
+	3700 1250 3700 1750
+Wire Wire Line
+	3700 1750 3100 1750
+$Comp
+L +3V3 #PWR?
+U 1 1 5BDF4CA4
+P 2450 1250
+F 0 "#PWR?" H 2450 1100 50  0001 C CNN
+F 1 "+3V3" H 2450 1390 50  0000 C CNN
+F 2 "" H 2450 1250 60  0000 C CNN
+F 3 "" H 2450 1250 60  0000 C CNN
+	1    2450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5BDF4CAA
+P 2250 1250
+F 0 "#PWR?" H 2250 1100 50  0001 C CNN
+F 1 "+5V" H 2250 1390 50  0000 C CNN
+F 2 "" H 2250 1250 60  0000 C CNN
+F 3 "" H 2250 1250 60  0000 C CNN
+	1    2250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1550 2450 1550
+Wire Wire Line
+	2450 1550 2450 1250
+Wire Wire Line
+	2600 1650 2250 1650
+Wire Wire Line
+	2250 1650 2250 1250
+Wire Wire Line
+	2600 1750 2000 1750
+Wire Wire Line
+	2000 1750 2000 1250
+Wire Wire Line
+	3100 1450 3900 1450
+Wire Wire Line
+	2600 1450 1800 1450
+Wire Wire Line
+	5050 1450 5300 1450
+Wire Wire Line
+	5800 1450 6050 1450
+$Comp
+L SYS_5V #PWR?
+U 1 1 5BDF4CBA
+P 3700 1250
+F 0 "#PWR?" H 3700 1100 50  0001 C CNN
+F 1 "SYS_5V" H 3700 1390 50  0000 C CNN
+F 2 "" H 3700 1250 60  0000 C CNN
+F 3 "" H 3700 1250 60  0000 C CNN
+	1    3700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SYS_5V #PWR?
+U 1 1 5BDF4CC0
+P 2000 1250
+F 0 "#PWR?" H 2000 1100 50  0001 C CNN
+F 1 "SYS_5V" H 2000 1390 50  0000 C CNN
+F 2 "" H 2000 1250 60  0000 C CNN
+F 3 "" H 2000 1250 60  0000 C CNN
+	1    2000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD_ADC #PWR?
+U 1 1 5BDF4CC6
+P 3450 2850
+F 0 "#PWR?" H 3450 2700 50  0001 C CNN
+F 1 "VDD_ADC" H 3450 2990 50  0000 C CNN
+F 2 "" H 3450 2850 60  0000 C CNN
+F 3 "" H 3450 2850 60  0000 C CNN
+	1    3450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2950 3450 2950
+Wire Wire Line
+	3450 2950 3450 2850
+$Comp
+L GNDA_ADC #PWR?
+U 1 1 5BDF4CCE
+P 3450 3050
+F 0 "#PWR?" H 3450 2800 50  0001 C CNN
+F 1 "GNDA_ADC" H 3450 2900 50  0000 C CNN
+F 2 "" H 3450 3050 60  0000 C CNN
+F 3 "" H 3450 3050 60  0000 C CNN
+	1    3450 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 3050 3450 3050
+Text GLabel 3200 1850 2    50   Input ~ 0
+SYS_RESETN
+Wire Wire Line
+	3100 1850 3200 1850
+Text GLabel 2500 1850 0    50   Input ~ 0
+PWR_BUT
+Wire Wire Line
+	2600 1850 2500 1850
+$Comp
+L BeagleBone_Black_Header P?
+U 1 1 5BDF4CD9
+P 2850 2550
+F 0 "P?" H 2850 3750 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 2850 2550 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 2850 1700 60  0001 C CNN
+F 3 "" H 2850 1700 60  0000 C CNN
+	1    2850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BeagleBone_Black_Header P?
+U 1 1 5BDF4CE0
+P 5550 2550
+F 0 "P?" H 5550 3750 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 5550 2550 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 5550 1700 60  0001 C CNN
+F 3 "" H 5550 1700 60  0000 C CNN
+	1    5550 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
