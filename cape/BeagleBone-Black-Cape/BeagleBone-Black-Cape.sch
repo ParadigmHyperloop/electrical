@@ -28,37 +28,521 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
+LIBS:can
 LIBS:BeagleBone-Black-Cape-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
-Title ""
+Sheet 1 1
+Title "Beagle Bone Black Top Transition Module"
 Date ""
-Rev ""
-Comp ""
+Rev "000"
+Comp "Paradigm Hyperloop"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Designed by: Brody McKeown"
 $EndDescr
-$Sheet
-S 8800 2850 1350 700 
-U 5BDF4B21
-F0 "BBB Expansion Connectors" 60
-F1 "ExpansionConnectors.sch" 60
-$EndSheet
-$Sheet
-S 3150 2200 1200 600 
-U 5BDF4ECE
-F0 "USB" 60
-F1 "USB.sch" 60
-$EndSheet
-Text Notes 3600 2500 0    60   ~ 0
-\n
 Text Notes 700  800  0    157  ~ 31
 BBB Cape
-Text Notes 3500 2550 0    120  ~ 24
-USB
+$Comp
+L BeagleBone_Black_Header P8
+U 1 1 5BE8A0D0
+P 9050 3450
+F 0 "P8" H 9050 4650 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 9050 3450 50  0000 C CNN
+F 2 "" H 9050 2600 60  0000 C CNN
+F 3 "" H 9050 2600 60  0000 C CNN
+	1    9050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BeagleBone_Black_Header P9
+U 1 1 5BE8A135
+P 3800 3500
+F 0 "P9" H 3800 4700 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 3800 3500 50  0000 C CNN
+F 2 "" H 3800 2650 60  0000 C CNN
+F 3 "" H 3800 2650 60  0000 C CNN
+	1    3800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5BE8A155
+P 4800 2400
+F 0 "#PWR?" H 4800 2150 50  0001 C CNN
+F 1 "GNDD" H 4800 2275 50  0000 C CNN
+F 2 "" H 4800 2400 50  0001 C CNN
+F 3 "" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5BE8A171
+P 2800 2400
+F 0 "#PWR?" H 2800 2150 50  0001 C CNN
+F 1 "GNDD" H 2800 2275 50  0000 C CNN
+F 2 "" H 2800 2400 50  0001 C CNN
+F 3 "" H 2800 2400 50  0001 C CNN
+	1    2800 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5BE8A1FB
+P 4200 2100
+F 0 "#PWR?" H 4200 1950 50  0001 C CNN
+F 1 "+3V3" H 4200 2240 50  0000 C CNN
+F 2 "" H 4200 2100 50  0001 C CNN
+F 3 "" H 4200 2100 50  0001 C CNN
+	1    4200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5BE8A22E
+P 3400 2100
+F 0 "#PWR?" H 3400 1950 50  0001 C CNN
+F 1 "+3V3" H 3400 2240 50  0000 C CNN
+F 2 "" H 3400 2100 50  0001 C CNN
+F 3 "" H 3400 2100 50  0001 C CNN
+	1    3400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5BE8A24A
+P 3200 2100
+F 0 "#PWR?" H 3200 1950 50  0001 C CNN
+F 1 "+5V" H 3200 2240 50  0000 C CNN
+F 2 "" H 3200 2100 50  0001 C CNN
+F 3 "" H 3200 2100 50  0001 C CNN
+	1    3200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5BE8A266
+P 4400 2100
+F 0 "#PWR?" H 4400 1950 50  0001 C CNN
+F 1 "+5V" H 4400 2240 50  0000 C CNN
+F 2 "" H 4400 2100 50  0001 C CNN
+F 3 "" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SYS_5V #PWR?
+U 1 1 5BE8A282
+P 4650 2100
+F 0 "#PWR?" H 4650 1950 50  0001 C CNN
+F 1 "SYS_5V" H 4650 2240 50  0000 C CNN
+F 2 "" H 4650 2100 60  0000 C CNN
+F 3 "" H 4650 2100 60  0000 C CNN
+	1    4650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SYS_5V #PWR?
+U 1 1 5BE8A29E
+P 2950 2100
+F 0 "#PWR?" H 2950 1950 50  0001 C CNN
+F 1 "SYS_5V" H 2950 2240 50  0000 C CNN
+F 2 "" H 2950 2100 60  0000 C CNN
+F 3 "" H 2950 2100 60  0000 C CNN
+	1    2950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5BE8A2F6
+P 9700 2350
+F 0 "#PWR?" H 9700 2100 50  0001 C CNN
+F 1 "GNDD" H 9700 2225 50  0000 C CNN
+F 2 "" H 9700 2350 50  0001 C CNN
+F 3 "" H 9700 2350 50  0001 C CNN
+	1    9700 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5BE8A312
+P 8400 2350
+F 0 "#PWR?" H 8400 2100 50  0001 C CNN
+F 1 "GNDD" H 8400 2225 50  0000 C CNN
+F 2 "" H 8400 2350 50  0001 C CNN
+F 3 "" H 8400 2350 50  0001 C CNN
+	1    8400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L VDD_ADC #PWR?
+U 1 1 5BE8A348
+P 4500 3850
+F 0 "#PWR?" H 4500 3700 50  0001 C CNN
+F 1 "VDD_ADC" H 4500 3990 50  0000 C CNN
+F 2 "" H 4500 3850 60  0000 C CNN
+F 3 "" H 4500 3850 60  0000 C CNN
+	1    4500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA_ADC #PWR?
+U 1 1 5BE8A382
+P 4500 4050
+F 0 "#PWR?" H 4500 3800 50  0001 C CNN
+F 1 "GNDA_ADC" H 4500 3900 50  0000 C CNN
+F 2 "" H 4500 4050 60  0000 C CNN
+F 3 "" H 4500 4050 60  0000 C CNN
+	1    4500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5BE8A421
+P 3800 4950
+F 0 "#PWR?" H 3800 4700 50  0001 C CNN
+F 1 "GNDD" H 3800 4825 50  0000 C CNN
+F 2 "" H 3800 4950 50  0001 C CNN
+F 3 "" H 3800 4950 50  0001 C CNN
+	1    3800 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2400 4800 2400
+Wire Wire Line
+	3550 2400 2800 2400
+Wire Wire Line
+	4050 2500 4200 2500
+Wire Wire Line
+	4200 2500 4200 2100
+Wire Wire Line
+	3550 2500 3400 2500
+Wire Wire Line
+	3400 2500 3400 2100
+Wire Wire Line
+	4050 2600 4400 2600
+Wire Wire Line
+	4400 2600 4400 2100
+Wire Wire Line
+	3550 2600 3200 2600
+Wire Wire Line
+	3200 2600 3200 2100
+Wire Wire Line
+	4050 2700 4650 2700
+Wire Wire Line
+	4650 2700 4650 2100
+Wire Wire Line
+	3550 2700 2950 2700
+Wire Wire Line
+	2950 2700 2950 2100
+Wire Wire Line
+	9300 2350 9700 2350
+Wire Wire Line
+	8800 2350 8400 2350
+Wire Wire Line
+	4050 3900 4500 3900
+Wire Wire Line
+	4500 3900 4500 3850
+Wire Wire Line
+	4050 4500 4300 4500
+Wire Wire Line
+	4300 4800 4300 4500
+Wire Wire Line
+	3300 4800 4300 4800
+Wire Wire Line
+	3300 4500 3300 4800
+Wire Wire Line
+	3300 4500 3550 4500
+Wire Wire Line
+	3550 4600 3300 4600
+Connection ~ 3300 4600
+Wire Wire Line
+	4050 4600 4300 4600
+Connection ~ 4300 4600
+Wire Wire Line
+	3800 4800 3800 4950
+Connection ~ 3800 4800
+$Comp
+L USB_B J1
+U 1 1 5BE8A60A
+P 7900 3050
+F 0 "J1" H 7700 3500 50  0000 L CNN
+F 1 "USB_B" H 7700 3400 50  0000 L CNN
+F 2 "" H 8050 3000 50  0001 C CNN
+F 3 "" H 8050 3000 50  0001 C CNN
+	1    7900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3050 8800 3050
+Wire Wire Line
+	8200 3150 8800 3150
+$Comp
+L GND #PWR?
+U 1 1 5BE8A6C6
+P 7900 3450
+F 0 "#PWR?" H 7900 3200 50  0001 C CNN
+F 1 "GND" H 7900 3300 50  0000 C CNN
+F 2 "" H 7900 3450 50  0001 C CNN
+F 3 "" H 7900 3450 50  0001 C CNN
+	1    7900 3450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7800 3450
+Text Label 8600 3050 2    60   ~ 0
+USB1+
+Text Label 8600 3150 2    60   ~ 0
+USB1-
+Wire Wire Line
+	8200 2850 8300 2850
+Wire Wire Line
+	8300 2850 8300 2800
+$Comp
+L +5V #PWR?
+U 1 1 5BE8A73C
+P 8300 2800
+F 0 "#PWR?" H 8300 2650 50  0001 C CNN
+F 1 "+5V" H 8300 2940 50  0000 C CNN
+F 2 "" H 8300 2800 50  0001 C CNN
+F 3 "" H 8300 2800 50  0001 C CNN
+	1    8300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_B J2
+U 1 1 5BE8A784
+P 10200 3050
+F 0 "J2" H 10000 3500 50  0000 L CNN
+F 1 "USB_B" H 10000 3400 50  0000 L CNN
+F 2 "" H 10350 3000 50  0001 C CNN
+F 3 "" H 10350 3000 50  0001 C CNN
+	1    10200 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3050 9300 3050
+Wire Wire Line
+	9900 3150 9300 3150
+$Comp
+L GND #PWR?
+U 1 1 5BE8A78C
+P 10200 3450
+F 0 "#PWR?" H 10200 3200 50  0001 C CNN
+F 1 "GND" H 10200 3300 50  0000 C CNN
+F 2 "" H 10200 3450 50  0001 C CNN
+F 3 "" H 10200 3450 50  0001 C CNN
+	1    10200 3450
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 10300 3450
+Text Label 9500 3050 0    60   ~ 0
+USB2+
+Text Label 9500 3150 0    60   ~ 0
+USB2-
+Wire Wire Line
+	9900 2850 9800 2850
+Wire Wire Line
+	9800 2850 9800 2800
+$Comp
+L +5V #PWR?
+U 1 1 5BE8A797
+P 9800 2800
+F 0 "#PWR?" H 9800 2650 50  0001 C CNN
+F 1 "+5V" H 9800 2940 50  0000 C CNN
+F 2 "" H 9800 2800 50  0001 C CNN
+F 3 "" H 9800 2800 50  0001 C CNN
+	1    9800 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2800 3300 2800
+Text GLabel 3300 2800 0    60   Input ~ 0
+PWR_BUT
+Wire Wire Line
+	4050 2800 4300 2800
+Text GLabel 4300 2800 2    60   Input ~ 0
+SYS_RESETN
+$Comp
+L SN65HVD232 U?
+U 1 1 5BE8AFAC
+P 6200 4400
+F 0 "U?" H 6100 4800 50  0000 R CNN
+F 1 "SN65HVD232" H 6100 4700 50  0000 R CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6200 3900 50  0001 C CNN
+F 3 "" H 6100 4800 50  0001 C CNN
+	1    6200 4400
+	1    0    0    -1  
+$EndComp
+Text Label 5250 3500 2    60   ~ 0
+CAN_TX
+Text Label 5250 3600 2    60   ~ 0
+CAN_RX
+Wire Wire Line
+	2000 3700 3550 3700
+Text Label 2900 3700 2    60   ~ 0
+TACH_IN
+$Comp
+L +3V3 #PWR?
+U 1 1 5BE8B231
+P 6200 4100
+F 0 "#PWR?" H 6200 3950 50  0001 C CNN
+F 1 "+3V3" H 6200 4240 50  0000 C CNN
+F 2 "" H 6200 4100 50  0001 C CNN
+F 3 "" H 6200 4100 50  0001 C CNN
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5BE8B26D
+P 6200 4800
+F 0 "#PWR?" H 6200 4550 50  0001 C CNN
+F 1 "GND" H 6200 4650 50  0000 C CNN
+F 2 "" H 6200 4800 50  0001 C CNN
+F 3 "" H 6200 4800 50  0001 C CNN
+	1    6200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4400 7050 4400
+Wire Wire Line
+	6600 4500 7050 4500
+Text Label 6900 4400 2    60   ~ 0
+CANH
+Text Label 6900 4500 2    60   ~ 0
+CANL
+Text Notes 1250 1050 2    118  ~ 0
+Notes:
+Text Notes 1350 1400 0    60   ~ 0
+1.	CANbus tranceiver has two sister chips that offer a \n	offer "Standby" mode and "Sleep mode"\n2.	Should we add any status LEDs for debug/functionality?\n3.	Not sure if the shield option should be used for the USB.\n4.	Bosch 928000453 for tachometer connection?\n
+$Comp
+L Conn_01x03_Male J3
+U 1 1 5BE8B481
+P 1800 3700
+F 0 "J3" H 1800 3900 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1700 3450 50  0000 C CNN
+F 2 "" H 1800 3700 50  0001 C CNN
+F 3 "" H 1800 3700 50  0001 C CNN
+	1    1800 3700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2000 3800 2100 3800
+Wire Wire Line
+	2100 3800 2100 3900
+$Comp
+L GND #PWR?
+U 1 1 5BE8B64A
+P 2100 3900
+F 0 "#PWR?" H 2100 3650 50  0001 C CNN
+F 1 "GND" H 2100 3750 50  0000 C CNN
+F 2 "" H 2100 3900 50  0001 C CNN
+F 3 "" H 2100 3900 50  0001 C CNN
+	1    2100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3600 2100 3600
+Wire Wire Line
+	2100 3600 2100 3450
+$Comp
+L +5V #PWR?
+U 1 1 5BE8B6E1
+P 2100 3450
+F 0 "#PWR?" H 2100 3300 50  0001 C CNN
+F 1 "+5V" H 2100 3590 50  0000 C CNN
+F 2 "" H 2100 3450 50  0001 C CNN
+F 3 "" H 2100 3450 50  0001 C CNN
+	1    2100 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02_Male J4
+U 1 1 5BE8B753
+P 7250 4400
+F 0 "J4" H 7250 4500 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 7250 4200 50  0000 C CNN
+F 2 "" H 7250 4400 50  0001 C CNN
+F 3 "" H 7250 4400 50  0001 C CNN
+	1    7250 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3500 5500 3500
+Wire Wire Line
+	5500 3500 5500 4300
+Wire Wire Line
+	5500 4300 5800 4300
+Wire Wire Line
+	4000 3600 5400 3600
+Wire Wire Line
+	5400 3600 5400 4400
+Wire Wire Line
+	5400 4400 5800 4400
+Wire Wire Line
+	4050 4000 4500 4000
+Wire Wire Line
+	4500 4000 4500 4050
+Wire Wire Line
+	4050 3400 4600 3400
+Wire Wire Line
+	4050 3200 4600 3200
+Wire Wire Line
+	3550 3200 3000 3200
+Wire Wire Line
+	3000 3400 3550 3400
+Text Label 4600 3200 2    60   ~ 0
+SPI_MOSI
+Text Label 4600 3400 2    60   ~ 0
+SPI_SCK
+Text Label 3000 3200 0    60   ~ 0
+SPI_SS
+Text Label 3000 3400 0    60   ~ 0
+SPI_MISO
+$Comp
+L Conn_01x05_Male J5
+U 1 1 5BE8BDD2
+P 6750 2350
+F 0 "J5" H 6750 2650 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 6750 2050 50  0000 C CNN
+F 2 "" H 6750 2350 50  0001 C CNN
+F 3 "" H 6750 2350 50  0001 C CNN
+	1    6750 2350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2150 6550 2150
+Wire Wire Line
+	6550 2250 6050 2250
+Wire Wire Line
+	6550 2350 6050 2350
+Wire Wire Line
+	6550 2450 6050 2450
+Wire Wire Line
+	6550 2550 6050 2550
+Text Label 6050 2150 0    60   ~ 0
+SPI_SS
+Text Label 6050 2250 0    60   ~ 0
+SPI_MOSI
+Text Label 6050 2450 0    60   ~ 0
+SPI_SCK
+Text Label 6050 2350 0    60   ~ 0
+SPI_MISO
+$Comp
+L GND #PWR?
+U 1 1 5BE8C06E
+P 6050 2600
+F 0 "#PWR?" H 6050 2350 50  0001 C CNN
+F 1 "GND" H 6050 2450 50  0000 C CNN
+F 2 "" H 6050 2600 50  0001 C CNN
+F 3 "" H 6050 2600 50  0001 C CNN
+	1    6050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2550 6050 2600
 $EndSCHEMATC

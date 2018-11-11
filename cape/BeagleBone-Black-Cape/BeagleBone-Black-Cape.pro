@@ -1,4 +1,4 @@
-update=2015-08-27 22:41:46
+update=Thursday, November 08, 2018 'pmt' 08:43:29 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/Users/brody_mck/electrical/cape/template/canbus
 [eeschema/libraries]
 LibName1=valves
 LibName2=power
@@ -56,5 +58,4 @@ LibName26=siliconi
 LibName27=opto
 LibName28=atmel
 LibName29=contrib
-[general]
-version=1
+LibName30=can
