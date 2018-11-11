@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,7 +23,7 @@ ISP_SCLK
 Text Label 1950 4050 0    60   ~ 0
 ISP_RESET_L
 $Comp
-L +5V #PWR0212
+L node-rescue:+5V #PWR0212
 U 1 1 59F2693E
 P 3250 3700
 F 0 "#PWR0212" H 3250 3550 60  0001 C CNN
@@ -37,7 +36,7 @@ $EndComp
 Text Label 3100 3950 0    60   ~ 0
 ISP_MOSI
 $Comp
-L GND #PWR0213
+L node-rescue:GND #PWR0213
 U 1 1 59F26978
 P 3250 4150
 F 0 "#PWR0213" H 3250 3900 60  0001 C CNN
@@ -64,7 +63,7 @@ USB_D+
 Text Label 1900 1500 0    60   ~ 0
 5V0_USB
 $Comp
-L GND #PWR0214
+L node-rescue:GND #PWR0214
 U 1 1 59F26F68
 P 3500 2350
 F 0 "#PWR0214" H 3500 2100 60  0001 C CNN
@@ -105,7 +104,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 1500 2350 1500
 $Comp
-L Varistor VR1601
+L node-rescue:Varistor VR1601
 U 1 1 59F27E85
 P 2000 2250
 F 0 "VR1601" H 1800 2450 50  0000 C TNN
@@ -120,7 +119,7 @@ F 7 "Digi-Key" H 2000 2250 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Varistor VR1602
+L node-rescue:Varistor VR1602
 U 1 1 59F28073
 P 2250 2250
 F 0 "VR1602" H 2450 2450 50  0000 C TNN
@@ -145,7 +144,7 @@ Wire Wire Line
 	2250 1900 2250 2100
 Connection ~ 2250 1900
 $Comp
-L Conn_02x03_Odd_Even J1601
+L node-rescue:Conn_02x03_Odd_Even J1601
 U 1 1 5A0B6EC5
 P 2750 3950
 F 0 "J1601" H 2800 4150 50  0000 C CNN
@@ -160,7 +159,7 @@ F 7 "S9015E-03-ND" H 2750 3950 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_B_Micro J1602
+L Connector:USB_B_Micro J1602
 U 1 1 5A0B6F70
 P 3500 1800
 F 0 "J1602" H 3300 2250 50  0000 L CNN
@@ -174,7 +173,7 @@ F 6 "10103594-0001LF" H 3500 1800 60  0001 C CNN "Vendor Part Num"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Fuse F1601
+L node-rescue:Fuse F1601
 U 1 1 5A0B6FF5
 P 2500 1500
 F 0 "F1601" V 2580 1500 50  0000 C CNN
@@ -197,7 +196,7 @@ Wire Wire Line
 Text HLabel 3950 4950 2    60   BiDi ~ 0
 SWD_S[0..2]
 $Comp
-L Conn_02x05_Odd_Even J2201
+L node-rescue:Conn_02x05_Odd_Even J2201
 U 1 1 5A127060
 P 1700 5250
 F 0 "J2201" H 1750 5550 50  0000 C CNN
@@ -216,7 +215,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 5050 1350 4900
 $Comp
-L +3V3 #PWR0215
+L node-rescue:+3V3 #PWR0215
 U 1 1 5A127439
 P 1350 4900
 F 0 "#PWR0215" H 1350 4750 50  0001 C CNN
@@ -250,7 +249,7 @@ Wire Wire Line
 	1500 5150 1350 5150
 Connection ~ 1350 5250
 $Comp
-L GND #PWR0216
+L node-rescue:GND #PWR0216
 U 1 1 5A1277C9
 P 1350 5550
 F 0 "#PWR0216" H 1350 5300 60  0001 C CNN
@@ -277,7 +276,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2250 4350 2250
 $Comp
-L C C2201
+L node-rescue:C C2201
 U 1 1 5A0DC278
 P 3900 2450
 F 0 "C2201" H 3925 2550 50  0000 L CNN
@@ -288,7 +287,7 @@ F 3 "" H 3900 2450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R2201
+L node-rescue:R R2201
 U 1 1 5A0DC2A8
 P 4350 2450
 F 0 "R2201" H 4200 2550 50  0000 C CNN
@@ -304,7 +303,7 @@ Wire Wire Line
 	3900 2700 4350 2700
 Connection ~ 3900 2700
 $Comp
-L GND #PWR0217
+L node-rescue:GND #PWR0217
 U 1 1 5A0DC47F
 P 3900 2750
 F 0 "#PWR0217" H 3900 2500 60  0001 C CNN

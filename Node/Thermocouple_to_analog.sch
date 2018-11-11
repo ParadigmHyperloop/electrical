@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C1306
+L node-rescue:C C1306
 U 1 1 5A0A32E6
 P 4050 3350
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A32E6" Ref="C1306"  Part="1" 
@@ -34,7 +33,7 @@ F 4 "1276-1946-1-ND" H 4050 3350 60  0001 C CNN "Digikey P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C1305
+L node-rescue:C C1305
 U 1 1 5A0A32EE
 P 4050 3000
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A32EE" Ref="C1305"  Part="1" 
@@ -52,7 +51,7 @@ F 4 "311-1088-1-ND" H 4050 3000 60  0001 C CNN "Digikey P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1307
+L node-rescue:C C1307
 U 1 1 5A0A32F6
 P 4050 3750
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A32F6" Ref="C1307"  Part="1" 
@@ -70,7 +69,7 @@ F 4 "311-1088-1-ND" H 4050 3750 60  0001 C CNN "Digikey P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0131
+L node-rescue:GND #PWR0131
 U 1 1 5A0A32FD
 P 4050 3900
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A32FD" Ref="#PWR0131"  Part="1" 
@@ -87,7 +86,7 @@ F 3 "" H 4050 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1305
+L node-rescue:R R1305
 U 1 1 5A0A3304
 P 3050 2800
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A3304" Ref="R1305"  Part="1" 
@@ -105,7 +104,7 @@ F 4 "311-1.00MHRCT-ND" V 3050 2800 60  0001 C CNN "Digikey P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1307
+L node-rescue:R R1307
 U 1 1 5A0A330C
 P 3650 3600
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A330C" Ref="R1307"  Part="1" 
@@ -125,7 +124,7 @@ $EndComp
 Text HLabel 2900 3600 0    60   Input ~ 0
 +IN
 $Comp
-L GND #PWR0132
+L node-rescue:GND #PWR0132
 U 1 1 5A0A3314
 P 4400 2900
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A3314" Ref="#PWR0132"  Part="1" 
@@ -142,7 +141,7 @@ F 3 "" H 4400 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1306
+L node-rescue:R R1306
 U 1 1 5A0A331B
 P 3650 3150
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A331B" Ref="R1306"  Part="1" 
@@ -160,7 +159,7 @@ F 4 "311-150HRCT-ND" V 3650 3150 60  0001 C CNN "Digikey P/N"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0133
+L node-rescue:GND #PWR0133
 U 1 1 5A0A3322
 P 2750 2700
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A3322" Ref="#PWR0133"  Part="1" 
@@ -181,7 +180,7 @@ Low Pass Filter\n
 Text HLabel 2900 3150 0    60   Input ~ 0
 -IN
 $Comp
-L GND #PWR0134
+L node-rescue:GND #PWR0134
 U 1 1 5A0A332A
 P 6250 3000
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A332A" Ref="#PWR0134"  Part="1" 
@@ -198,7 +197,7 @@ F 3 "" H 6250 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1308
+L node-rescue:C C1308
 U 1 1 5A0A3332
 P 6250 2750
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A3332" Ref="C1308"  Part="1" 
@@ -247,7 +246,7 @@ Connection ~ 5650 2550
 Text Notes 3550 2400 0    60   ~ 0
 Filter Freq, Diff: 505.2 Hz\nFilter Freq, CM: 10610.3 Hz
 $Comp
-L AD849X U1301
+L hyper_capstone:AD849X U1301
 U 1 1 5A0A334F
 P 5550 3350
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A334F" Ref="U1301"  Part="1" 
@@ -281,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2500 3050 2650
 $Comp
-L GND #PWR0135
+L node-rescue:GND #PWR0135
 U 1 1 5A0A335F
 P 5350 2600
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A335F" Ref="#PWR0135"  Part="1" 
@@ -308,7 +307,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 2550 5650 2550
 $Comp
-L +5V #PWR0136
+L node-rescue:+5V #PWR0136
 U 1 1 5A0A3604
 P 5650 2450
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0A3604" Ref="#PWR0136"  Part="1" 
@@ -349,7 +348,7 @@ Wire Wire Line
 	3050 4350 5150 4350
 Connection ~ 3050 3600
 $Comp
-L R R1308
+L node-rescue:R R1308
 U 1 1 5A0B1DD9
 P 5300 4350
 AR Path="/59C995CB/59DBAF6F/5A0A2EE6/5A0B1DD9" Ref="R1308"  Part="1" 

@@ -1,0 +1,194 @@
+EESchema Schematic File Version 4
+LIBS:GT_Merge-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 5250 4250 0    60   Input ~ 0
+V_BATT37_PC
+$Comp
+L Relay:G5Q-1A K1
+U 1 1 5B0F0DA1
+P 6300 3450
+F 0 "K1" V 6050 3450 50  0000 L CNN
+F 1 "G5LE-14 DC3" V 6850 3400 50  0000 L CNN
+F 2 "footprints:Relay_SPDT_Omron-G5Q-1" H 6850 3600 50  0001 L CNN
+F 3 "" H 7400 3150 50  0001 C CNN
+	1    6300 3450
+	0    1    1    0   
+$EndComp
+Text GLabel 7500 4250 2    60   Input ~ 0
+V_BATT37
+$Comp
+L power:GND #PWR057
+U 1 1 5B0F1AA8
+P 7200 3450
+F 0 "#PWR057" H 7200 3200 50  0001 C CNN
+F 1 "GND" H 7200 3300 50  0000 C CNN
+F 2 "" H 7200 3450 50  0001 C CNN
+F 3 "" H 7200 3450 50  0001 C CNN
+	1    7200 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 3600 0    60   Input ~ 0
+PRECHARGE_N
+$Comp
+L Device:R R25
+U 1 1 5B0F1D2F
+P 4400 3200
+F 0 "R25" V 4480 3200 50  0000 C CNN
+F 1 "1k" V 4400 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4330 3200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5B0F22D2
+P 6300 2650
+F 0 "D6" H 6300 2750 50  0000 C CNN
+F 1 "D" H 6300 2550 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323F" H 6300 2650 50  0001 C CNN
+F 3 "http://www.comchiptech.com/cms/UserFiles/CDSF4148-RevD370195.pdf" H 6300 2650 50  0001 C CNN
+	1    6300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4250 5550 4250
+Wire Wire Line
+	5800 3650 6000 3650
+Wire Wire Line
+	6600 3650 6750 3650
+Wire Wire Line
+	5550 4250 5550 3800
+Connection ~ 5550 4250
+Wire Wire Line
+	5550 3400 5550 3250
+Wire Wire Line
+	5550 3250 5900 3250
+Wire Wire Line
+	7200 3250 7200 3450
+Wire Wire Line
+	3800 3600 4400 3600
+Connection ~ 4400 3600
+Wire Wire Line
+	5900 2650 6150 2650
+Connection ~ 5900 3250
+Wire Wire Line
+	6450 2650 6700 2650
+Wire Wire Line
+	6700 2650 6700 3250
+Connection ~ 6700 3250
+Wire Wire Line
+	6600 3250 6700 3250
+Wire Wire Line
+	7100 3250 7200 3250
+Text Notes 4700 4850 0    60   ~ 0
+NOTES:\n-IF NO PRECHARGE CIRCUIT IS IMPLEMENTED, STUFF R203\n-IF PRECHARGE CIRCUIT IS IMPLEMENTED DESTUFF R200, STUFF R200\n
+$Comp
+L Transistor_FET:BSS138 Q1
+U 1 1 5B298E62
+P 5650 3600
+F 0 "Q1" H 5850 3675 50  0000 L CNN
+F 1 "ZVP4525G" H 5850 3600 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 5850 3525 50  0001 L CIN
+F 3 "" H 5650 3600 50  0001 L CNN
+	1    5650 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5B2A2B88
+P 6950 3250
+F 0 "R27" V 7030 3250 50  0000 C CNN
+F 1 "1k" V 6950 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6880 3250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6950 3250 50  0001 C CNN
+	1    6950 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Battery_Shield-rescue:powerRes R38
+U 1 1 5B2E7ED6
+P 6300 4250
+F 0 "R38" V 6150 4250 60  0000 C CNN
+F 1 "powerRes" V 6450 4200 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 6300 4250 60  0001 C CNN
+F 3 "http://www.caddock.com/Online_catalog/Mrktg_Lit/MP725.pdf" H 6300 4250 60  0001 C CNN
+	1    6300 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 4250 6750 4250
+Wire Wire Line
+	6750 3650 6750 4250
+Connection ~ 6750 4250
+Wire Wire Line
+	5800 3650 5800 4250
+Connection ~ 5800 4250
+Wire Wire Line
+	5900 3600 5850 3600
+Wire Wire Line
+	5900 3400 5250 3400
+Wire Wire Line
+	5250 3400 5250 3600
+Wire Wire Line
+	4400 3350 4400 3600
+Text GLabel 4400 3050 1    60   Input ~ 0
+3.3V_REG
+$Comp
+L Device:R R26
+U 1 1 5B34256E
+P 4400 3950
+F 0 "R26" V 4480 3950 50  0000 C CNN
+F 1 "1k" V 4400 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4330 3950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4400 3950 50  0001 C CNN
+	1    4400 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR056
+U 1 1 5B342729
+P 4400 4250
+F 0 "#PWR056" H 4400 4000 50  0001 C CNN
+F 1 "GND" H 4400 4100 50  0000 C CNN
+F 2 "" H 4400 4250 50  0001 C CNN
+F 3 "" H 4400 4250 50  0001 C CNN
+	1    4400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4250 4400 4100
+Text Notes 4200 3350 1    60   ~ 0
+nostuff\n
+Wire Wire Line
+	5550 4250 5800 4250
+Wire Wire Line
+	4400 3600 5250 3600
+Wire Wire Line
+	4400 3600 4400 3800
+Wire Wire Line
+	5900 3250 6000 3250
+Wire Wire Line
+	6700 3250 6800 3250
+Wire Wire Line
+	6750 4250 7500 4250
+Wire Wire Line
+	5800 4250 6000 4250
+Wire Wire Line
+	5900 2650 5900 3250
+Wire Wire Line
+	5900 3400 5900 3600
+$EndSCHEMATC

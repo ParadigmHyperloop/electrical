@@ -1,0 +1,610 @@
+EESchema Schematic File Version 4
+LIBS:GT_Merge-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 14
+Title "Transmission Board"
+Date ""
+Rev "1"
+Comp "Paradigm Hyperloop"
+Comment1 "Richard Walmsley"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Fuse F10
+U 1 1 5BD09E8D
+P 7300 4800
+F 0 "F10" V 7380 4800 50  0000 C CNN
+F 1 "500mA" V 7225 4800 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 7230 4800 50  0001 C CNN
+F 3 "" H 7300 4800 50  0001 C CNN
+	1    7300 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J11
+U 1 1 5BD1C1C1
+P 7900 4900
+F 0 "J11" H 7900 5000 50  0000 C CNN
+F 1 "Conn_01x02" H 7900 4700 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 7900 4900 50  0001 C CNN
+F 3 "" H 7900 4900 50  0001 C CNN
+	1    7900 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J1
+U 1 1 5BD47231
+P 3400 1700
+F 0 "J1" H 3400 1800 50  0000 C CNN
+F 1 "Conn_01x02" H 3400 1500 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 3400 1700 50  0001 C CNN
+F 3 "" H 3400 1700 50  0001 C CNN
+	1    3400 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5BD48570
+P 4650 1600
+F 0 "F1" V 4730 1600 50  0000 C CNN
+F 1 "Fuse" V 4575 1600 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 4580 1600 50  0001 C CNN
+F 3 "" H 4650 1600 50  0001 C CNN
+	1    4650 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J2
+U 1 1 5BD48577
+P 5450 1700
+F 0 "J2" H 5450 1800 50  0000 C CNN
+F 1 "Conn_01x02" H 5450 1500 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 5450 1700 50  0001 C CNN
+F 3 "" H 5450 1700 50  0001 C CNN
+	1    5450 1700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4800 1600 5250 1600
+$Comp
+L Device:Fuse F2
+U 1 1 5BD485CB
+P 4650 1900
+F 0 "F2" V 4730 1900 50  0000 C CNN
+F 1 "Fuse" V 4575 1900 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 4580 1900 50  0001 C CNN
+F 3 "" H 4650 1900 50  0001 C CNN
+	1    4650 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J3
+U 1 1 5BD485D2
+P 5450 2000
+F 0 "J3" H 5450 2100 50  0000 C CNN
+F 1 "Conn_01x02" H 5450 1800 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 5450 2000 50  0001 C CNN
+F 3 "" H 5450 2000 50  0001 C CNN
+	1    5450 2000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4800 1900 5250 1900
+$Comp
+L Device:Fuse F3
+U 1 1 5BD4862F
+P 4650 2200
+F 0 "F3" V 4730 2200 50  0000 C CNN
+F 1 "Fuse" V 4575 2200 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 4580 2200 50  0001 C CNN
+F 3 "" H 4650 2200 50  0001 C CNN
+	1    4650 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J4
+U 1 1 5BD48636
+P 5450 2300
+F 0 "J4" H 5450 2400 50  0000 C CNN
+F 1 "Conn_01x02" H 5450 2100 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 5450 2300 50  0001 C CNN
+F 3 "" H 5450 2300 50  0001 C CNN
+	1    5450 2300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2200 5250 2200
+$Comp
+L Device:Fuse F4
+U 1 1 5BD48696
+P 4650 2500
+F 0 "F4" V 4730 2500 50  0000 C CNN
+F 1 "Fuse" V 4575 2500 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 4580 2500 50  0001 C CNN
+F 3 "" H 4650 2500 50  0001 C CNN
+	1    4650 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J5
+U 1 1 5BD4869D
+P 5450 2600
+F 0 "J5" H 5450 2700 50  0000 C CNN
+F 1 "Conn_01x02" H 5450 2400 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 5450 2600 50  0001 C CNN
+F 3 "" H 5450 2600 50  0001 C CNN
+	1    5450 2600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2500 5250 2500
+$Comp
+L Device:Fuse F5
+U 1 1 5BD48700
+P 4650 2800
+F 0 "F5" V 4730 2800 50  0000 C CNN
+F 1 "Fuse" V 4575 2800 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 4580 2800 50  0001 C CNN
+F 3 "" H 4650 2800 50  0001 C CNN
+	1    4650 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J6
+U 1 1 5BD48707
+P 5450 2900
+F 0 "J6" H 5450 3000 50  0000 C CNN
+F 1 "Conn_01x02" H 5450 2700 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 5450 2900 50  0001 C CNN
+F 3 "" H 5450 2900 50  0001 C CNN
+	1    5450 2900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2800 5250 2800
+Text Notes 8000 4900 0    60   ~ 0
+Beagle Bone Black
+Text Notes 5550 1700 0    60   ~ 0
+Sensor Node
+Text Notes 5550 2000 0    60   ~ 0
+BMS Node
+Text Notes 5550 2300 0    60   ~ 0
+Propulsion Node
+Text Notes 5550 2600 0    60   ~ 0
+Brake Node
+Text Notes 5550 2900 0    60   ~ 0
+Brake Node
+Wire Wire Line
+	7700 4800 7450 4800
+$Comp
+L Device:CP C1
+U 1 1 5BD7DCAE
+P 4400 5150
+F 0 "C1" H 4425 5250 50  0000 L CNN
+F 1 "680nF" H 4425 5050 50  0000 L CNN
+F 2 "" H 4438 5000 50  0001 C CNN
+F 3 "" H 4400 5150 50  0001 C CNN
+	1    4400 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4900 4950 4900
+Wire Wire Line
+	4400 5000 4400 4800
+Connection ~ 4400 4800
+$Comp
+L power:GND #PWR03
+U 1 1 5BD7E1C3
+P 4750 5350
+F 0 "#PWR03" H 4750 5100 50  0001 C CNN
+F 1 "GND" H 4750 5200 50  0000 C CNN
+F 2 "" H 4750 5350 50  0001 C CNN
+F 3 "" H 4750 5350 50  0001 C CNN
+	1    4750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5BD7E1FE
+P 4950 5350
+F 0 "#PWR04" H 4950 5100 50  0001 C CNN
+F 1 "GND" H 4950 5200 50  0000 C CNN
+F 2 "" H 4950 5350 50  0001 C CNN
+F 3 "" H 4950 5350 50  0001 C CNN
+	1    4950 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5000 4950 5350
+Wire Wire Line
+	4750 5350 4750 4900
+$Comp
+L Device:D_Zener D1
+U 1 1 5BD7E267
+P 6300 5150
+F 0 "D1" V 6300 5250 50  0000 C CNN
+F 1 "1N754A" V 6300 4950 50  0000 C CNN
+F 2 "" H 6300 5150 50  0001 C CNN
+F 3 "" H 6300 5150 50  0001 C CNN
+	1    6300 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 4950 6300 4950
+Wire Wire Line
+	6300 4950 6300 5000
+$Comp
+L power:GND #PWR010
+U 1 1 5BD7E38E
+P 6300 5350
+F 0 "#PWR010" H 6300 5100 50  0001 C CNN
+F 1 "GND" H 6300 5200 50  0000 C CNN
+F 2 "" H 6300 5350 50  0001 C CNN
+F 3 "" H 6300 5350 50  0001 C CNN
+	1    6300 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5300 6300 5350
+$Comp
+L Device:L L1
+U 1 1 5BD7E3E0
+P 6550 4950
+F 0 "L1" V 6500 4950 50  0000 C CNN
+F 1 "220uH" V 6650 4950 50  0000 C CNN
+F 2 "" H 6550 4950 50  0001 C CNN
+F 3 "" H 6550 4950 50  0001 C CNN
+	1    6550 4950
+	0    1    1    0   
+$EndComp
+Connection ~ 6300 4950
+$Comp
+L Device:CP C2
+U 1 1 5BD7E47A
+P 6900 5150
+F 0 "C2" H 6925 5250 50  0000 L CNN
+F 1 "6.8uF" H 6925 5050 50  0000 L CNN
+F 2 "" H 6938 5000 50  0001 C CNN
+F 3 "" H 6900 5150 50  0001 C CNN
+	1    6900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5BD7E9DC
+P 6900 5350
+F 0 "#PWR015" H 6900 5100 50  0001 C CNN
+F 1 "GND" H 6900 5200 50  0000 C CNN
+F 2 "" H 6900 5350 50  0001 C CNN
+F 3 "" H 6900 5350 50  0001 C CNN
+	1    6900 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5350 6900 5300
+$Comp
+L Transmission-Board-rescue:LM2594 U1
+U 1 1 5BD7F0E2
+P 5450 4900
+F 0 "U1" H 5200 5100 60  0000 C CNN
+F 1 "LM2594" H 5600 5100 60  0000 C CNN
+F 2 "" H 5450 4900 60  0001 C CNN
+F 3 "" H 5450 4900 60  0001 C CNN
+	1    5450 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4800 6900 4950
+Wire Wire Line
+	6000 4800 6900 4800
+$Comp
+L power:GND #PWR02
+U 1 1 5BD7F385
+P 4400 5350
+F 0 "#PWR02" H 4400 5100 50  0001 C CNN
+F 1 "GND" H 4400 5200 50  0000 C CNN
+F 2 "" H 4400 5350 50  0001 C CNN
+F 3 "" H 4400 5350 50  0001 C CNN
+	1    4400 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5350 4400 5300
+Wire Wire Line
+	6700 4950 6900 4950
+Connection ~ 6900 4950
+Connection ~ 6900 4800
+Wire Wire Line
+	4100 2800 4500 2800
+Connection ~ 4100 1600
+Wire Wire Line
+	4500 2500 4100 2500
+Connection ~ 4100 2500
+Wire Wire Line
+	4500 2200 4100 2200
+Connection ~ 4100 2200
+Wire Wire Line
+	4500 1900 4100 1900
+Connection ~ 4100 1900
+Connection ~ 4100 2800
+$Comp
+L power:GND #PWR09
+U 1 1 5BD858C7
+P 5250 2900
+F 0 "#PWR09" H 5250 2650 50  0001 C CNN
+F 1 "GND" H 5250 2750 50  0000 C CNN
+F 2 "" H 5250 2900 50  0001 C CNN
+F 3 "" H 5250 2900 50  0001 C CNN
+	1    5250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5BD85929
+P 5250 2600
+F 0 "#PWR08" H 5250 2350 50  0001 C CNN
+F 1 "GND" H 5250 2450 50  0000 C CNN
+F 2 "" H 5250 2600 50  0001 C CNN
+F 3 "" H 5250 2600 50  0001 C CNN
+	1    5250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5BD8598B
+P 5250 2300
+F 0 "#PWR07" H 5250 2050 50  0001 C CNN
+F 1 "GND" H 5250 2150 50  0000 C CNN
+F 2 "" H 5250 2300 50  0001 C CNN
+F 3 "" H 5250 2300 50  0001 C CNN
+	1    5250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5BD859ED
+P 5250 2000
+F 0 "#PWR06" H 5250 1750 50  0001 C CNN
+F 1 "GND" H 5250 1850 50  0000 C CNN
+F 2 "" H 5250 2000 50  0001 C CNN
+F 3 "" H 5250 2000 50  0001 C CNN
+	1    5250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5BD85A4F
+P 5250 1700
+F 0 "#PWR05" H 5250 1450 50  0001 C CNN
+F 1 "GND" H 5250 1550 50  0000 C CNN
+F 2 "" H 5250 1700 50  0001 C CNN
+F 3 "" H 5250 1700 50  0001 C CNN
+	1    5250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5BD888A5
+P 7700 4900
+F 0 "#PWR016" H 7700 4650 50  0001 C CNN
+F 1 "GND" H 7700 4750 50  0000 C CNN
+F 2 "" H 7700 4900 50  0001 C CNN
+F 3 "" H 7700 4900 50  0001 C CNN
+	1    7700 4900
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4400 3300 850  1100
+U 5BD8ABBE
+F0 "24V/12V Conversion" 60
+F1 "24V to 12V Conversion.sch" 60
+F2 "24V" I L 4400 3850 60 
+F3 "12V" O R 5250 3400 60 
+F4 "12V" O R 5250 3700 60 
+F5 "12V" O R 5250 4000 60 
+F6 "12V" O R 5250 4300 60 
+$EndSheet
+$Comp
+L Device:Fuse F6
+U 1 1 5BD8CD14
+P 5950 3400
+F 0 "F6" V 6030 3400 50  0000 C CNN
+F 1 "800mA" V 5875 3400 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 5880 3400 50  0001 C CNN
+F 3 "" H 5950 3400 50  0001 C CNN
+	1    5950 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J7
+U 1 1 5BD8CD1A
+P 6750 3500
+F 0 "J7" H 6750 3600 50  0000 C CNN
+F 1 "Conn_01x02" H 6750 3300 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 6750 3500 50  0001 C CNN
+F 3 "" H 6750 3500 50  0001 C CNN
+	1    6750 3500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3400 6550 3400
+$Comp
+L Device:Fuse F7
+U 1 1 5BD8CD21
+P 5950 3700
+F 0 "F7" V 6030 3700 50  0000 C CNN
+F 1 "20A" V 5875 3700 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 5880 3700 50  0001 C CNN
+F 3 "" H 5950 3700 50  0001 C CNN
+	1    5950 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J8
+U 1 1 5BD8CD27
+P 6750 3800
+F 0 "J8" H 6750 3900 50  0000 C CNN
+F 1 "Conn_01x02" H 6750 3600 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 6750 3800 50  0001 C CNN
+F 3 "" H 6750 3800 50  0001 C CNN
+	1    6750 3800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3700 6550 3700
+$Comp
+L Device:Fuse F8
+U 1 1 5BD8CD2E
+P 5950 4000
+F 0 "F8" V 6030 4000 50  0000 C CNN
+F 1 "20A" V 5875 4000 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 5880 4000 50  0001 C CNN
+F 3 "" H 5950 4000 50  0001 C CNN
+	1    5950 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J9
+U 1 1 5BD8CD34
+P 6750 4100
+F 0 "J9" H 6750 4200 50  0000 C CNN
+F 1 "Conn_01x02" H 6750 3900 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 6750 4100 50  0001 C CNN
+F 3 "" H 6750 4100 50  0001 C CNN
+	1    6750 4100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6100 4000 6550 4000
+$Comp
+L Device:Fuse F9
+U 1 1 5BD8CD3B
+P 5950 4300
+F 0 "F9" V 6030 4300 50  0000 C CNN
+F 1 "Fuse" V 5875 4300 50  0000 C CNN
+F 2 "custom:fuseholder_littelfuse_154series" V 5880 4300 50  0001 C CNN
+F 3 "" H 5950 4300 50  0001 C CNN
+	1    5950 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Transmission-Board-rescue:Conn_01x02 J10
+U 1 1 5BD8CD41
+P 6750 4400
+F 0 "J10" H 6750 4500 50  0000 C CNN
+F 1 "Conn_01x02" H 6750 4200 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x01x5.70mm_Angled" H 6750 4400 50  0001 C CNN
+F 3 "" H 6750 4400 50  0001 C CNN
+	1    6750 4400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6100 4300 6550 4300
+Text Notes 6850 3500 0    60   ~ 0
+BMS
+Text Notes 6850 3800 0    60   ~ 0
+Rinehart
+Text Notes 6850 4100 0    60   ~ 0
+Pump
+Text Notes 6850 4400 0    60   ~ 0
+Soft Start Circuit
+$Comp
+L power:GND #PWR014
+U 1 1 5BD8CD50
+P 6550 4400
+F 0 "#PWR014" H 6550 4150 50  0001 C CNN
+F 1 "GND" H 6550 4250 50  0000 C CNN
+F 2 "" H 6550 4400 50  0001 C CNN
+F 3 "" H 6550 4400 50  0001 C CNN
+	1    6550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5BD8CD56
+P 6550 4100
+F 0 "#PWR013" H 6550 3850 50  0001 C CNN
+F 1 "GND" H 6550 3950 50  0000 C CNN
+F 2 "" H 6550 4100 50  0001 C CNN
+F 3 "" H 6550 4100 50  0001 C CNN
+	1    6550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5BD8CD5C
+P 6550 3800
+F 0 "#PWR012" H 6550 3550 50  0001 C CNN
+F 1 "GND" H 6550 3650 50  0000 C CNN
+F 2 "" H 6550 3800 50  0001 C CNN
+F 3 "" H 6550 3800 50  0001 C CNN
+	1    6550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5BD8CD62
+P 6550 3500
+F 0 "#PWR011" H 6550 3250 50  0001 C CNN
+F 1 "GND" H 6550 3350 50  0000 C CNN
+F 2 "" H 6550 3500 50  0001 C CNN
+F 3 "" H 6550 3500 50  0001 C CNN
+	1    6550 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3400 5800 3400
+Wire Wire Line
+	5800 3700 5250 3700
+Wire Wire Line
+	5250 4000 5800 4000
+Wire Wire Line
+	5800 4300 5250 4300
+Connection ~ 4100 3850
+Wire Wire Line
+	4100 4800 4400 4800
+Wire Wire Line
+	4100 1600 4100 1900
+$Comp
+L power:GND #PWR01
+U 1 1 5BD8E6BD
+P 3600 1700
+F 0 "#PWR01" H 3600 1450 50  0001 C CNN
+F 1 "GND" H 3600 1550 50  0000 C CNN
+F 2 "" H 3600 1700 50  0001 C CNN
+F 3 "" H 3600 1700 50  0001 C CNN
+	1    3600 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 3250 1700 2    60   ~ 0
+Battery Board 24V
+Wire Wire Line
+	3600 1600 4100 1600
+Wire Wire Line
+	4100 3850 4400 3850
+Wire Wire Line
+	4400 4800 4950 4800
+Wire Wire Line
+	6300 4950 6400 4950
+Wire Wire Line
+	6900 4950 6900 5000
+Wire Wire Line
+	6900 4800 7150 4800
+Wire Wire Line
+	4100 1600 4500 1600
+Wire Wire Line
+	4100 2500 4100 2800
+Wire Wire Line
+	4100 2200 4100 2500
+Wire Wire Line
+	4100 1900 4100 2200
+Wire Wire Line
+	4100 2800 4100 3850
+Wire Wire Line
+	4100 3850 4100 4800
+$EndSCHEMATC

@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,7 +23,7 @@ LINK_LED_R
 Text Label 1050 2550 0    60   ~ 0
 ACT_LED_R
 $Comp
-L R-RESCUE-node R209
+L node-rescue:R-RESCUE-node R209
 U 1 1 59C8A073
 P 2050 2550
 F 0 "R209" V 2000 2750 50  0000 C CNN
@@ -35,7 +34,7 @@ F 3 "" H 2050 2550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R-RESCUE-node R211
+L node-rescue:R-RESCUE-node R211
 U 1 1 59C8A0FB
 P 2050 2350
 F 0 "R211" V 2000 2150 50  0000 C CNN
@@ -46,7 +45,7 @@ F 3 "" H 2050 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Crystal Y201
+L node-rescue:Crystal Y201
 U 1 1 59C973DA
 P 1000 3450
 F 0 "Y201" H 1000 3300 50  0000 C CNN
@@ -60,7 +59,7 @@ F 6 "490-5578-1-ND" H 1000 3450 60  0001 C CNN "Vendor Part Num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C203
+L node-rescue:C C203
 U 1 1 59C97669
 P 1250 3750
 F 0 "C203" H 1000 3650 50  0000 L CNN
@@ -71,7 +70,7 @@ F 3 "" H 1250 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C202
+L node-rescue:C C202
 U 1 1 59C976CA
 P 750 3750
 F 0 "C202" H 800 3650 50  0000 L CNN
@@ -82,7 +81,7 @@ F 3 "" H 750 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R202
+L node-rescue:R R202
 U 1 1 59C9925B
 P 1500 2950
 F 0 "R202" V 1450 3150 50  0000 C CNN
@@ -103,7 +102,7 @@ NETW_CS
 Text Label 3000 3350 0    60   ~ 0
 NETW_MOSI
 $Comp
-L W5500 U201
+L hyper_capstone:W5500 U201
 U 1 1 59E0CCFB
 P 4850 2900
 F 0 "U201" H 4850 2800 50  0000 C CNN
@@ -117,7 +116,7 @@ F 6 "1278-1021-ND" H 4850 2900 60  0001 C CNN "Vendor Part Num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R203
+L node-rescue:R R203
 U 1 1 59E12767
 P 1000 3050
 F 0 "R203" V 900 3050 50  0000 C CNN
@@ -128,7 +127,7 @@ F 3 "" H 1000 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L node-rescue:GND #PWR01
 U 1 1 59E1332B
 P 6300 4150
 F 0 "#PWR01" H 6300 3900 50  0001 C CNN
@@ -139,7 +138,7 @@ F 3 "" H 6300 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-node R222
+L node-rescue:R-RESCUE-node R222
 U 1 1 59E142FB
 P 8950 3850
 F 0 "R222" V 8900 3600 50  0000 C CNN
@@ -162,7 +161,7 @@ PMODE1
 Text Label 5350 4350 0    60   ~ 0
 PMODE0
 $Comp
-L R-RESCUE-node R214
+L node-rescue:R-RESCUE-node R214
 U 1 1 59E184F0
 P 3750 4150
 F 0 "R214" V 3700 3950 50  0000 C CNN
@@ -173,7 +172,7 @@ F 3 "" H 3750 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-node R215
+L node-rescue:R-RESCUE-node R215
 U 1 1 59E1866A
 P 3750 4250
 F 0 "R215" V 3700 4050 50  0000 C CNN
@@ -184,7 +183,7 @@ F 3 "" H 3750 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-node R216
+L node-rescue:R-RESCUE-node R216
 U 1 1 59E186DD
 P 3750 4350
 F 0 "R216" V 3700 4150 50  0000 C CNN
@@ -195,7 +194,7 @@ F 3 "" H 3750 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-node R217
+L node-rescue:R-RESCUE-node R217
 U 1 1 59E1874F
 P 3750 4450
 F 0 "R217" V 3700 4250 50  0000 C CNN
@@ -206,7 +205,7 @@ F 3 "" H 3750 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-node R218
+L node-rescue:R-RESCUE-node R218
 U 1 1 59E18B00
 P 3750 4550
 F 0 "R218" V 3700 4350 50  0000 C CNN
@@ -217,7 +216,7 @@ F 3 "" H 3750 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR02
+L node-rescue:GND #PWR02
 U 1 1 59E197CC
 P 3400 4700
 F 0 "#PWR02" H 3400 4450 50  0001 C CNN
@@ -228,7 +227,7 @@ F 3 "" H 3400 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-node R210
+L node-rescue:R-RESCUE-node R210
 U 1 1 59E19917
 P 2850 3950
 F 0 "R210" H 2700 3850 50  0000 C CNN
@@ -239,7 +238,7 @@ F 3 "" H 2850 3950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R221
+L node-rescue:R R221
 U 1 1 59E1A89C
 P 2400 1400
 F 0 "R221" H 2550 1300 50  0000 C CNN
@@ -250,7 +249,7 @@ F 3 "" H 2400 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR03
+L node-rescue:GND #PWR03
 U 1 1 59E1AA8B
 P 1700 1700
 F 0 "#PWR03" H 1700 1450 50  0001 C CNN
@@ -261,7 +260,7 @@ F 3 "" H 1700 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L node-rescue:GND #PWR04
 U 1 1 59E28D61
 P 8150 2650
 F 0 "#PWR04" H 8150 2400 50  0001 C CNN
@@ -272,7 +271,7 @@ F 3 "" H 8150 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C220
+L node-rescue:C C220
 U 1 1 59E2A59B
 P 9200 2300
 F 0 "C220" H 9225 2400 50  0000 L CNN
@@ -283,7 +282,7 @@ F 3 "" H 9200 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C221
+L node-rescue:C C221
 U 1 1 59E2A62D
 P 9550 2300
 F 0 "C221" H 9575 2400 50  0000 L CNN
@@ -294,7 +293,7 @@ F 3 "" H 9550 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C222
+L node-rescue:C C222
 U 1 1 59E2A77F
 P 9900 2300
 F 0 "C222" H 9925 2400 50  0000 L CNN
@@ -305,7 +304,7 @@ F 3 "" H 9900 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C223
+L node-rescue:C C223
 U 1 1 59E2A80A
 P 10250 2300
 F 0 "C223" H 10275 2400 50  0000 L CNN
@@ -316,7 +315,7 @@ F 3 "" H 10250 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C210
+L node-rescue:C C210
 U 1 1 59E2FFFB
 P 2050 1400
 F 0 "C210" H 1850 1500 50  0000 L CNN
@@ -327,7 +326,7 @@ F 3 "" H 2050 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C211
+L node-rescue:C C211
 U 1 1 59E30EC7
 P 1700 1400
 F 0 "C211" H 1500 1500 50  0000 L CNN
@@ -342,7 +341,7 @@ TX_N
 Text Label 6600 3350 0    60   ~ 0
 TX_P
 $Comp
-L R R228
+L node-rescue:R R228
 U 1 1 59E32292
 P 7400 2900
 F 0 "R228" H 7550 2800 50  0000 C CNN
@@ -357,7 +356,7 @@ F 7 "1%" H 7550 3000 60  0000 C CNN "Tolerance"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR05
+L node-rescue:GND #PWR05
 U 1 1 59E3242D
 P 7400 3200
 F 0 "#PWR05" H 7400 2950 50  0001 C CNN
@@ -372,7 +371,7 @@ RX_N
 Text Label 6600 2950 0    60   ~ 0
 RX_P
 $Comp
-L R R207
+L node-rescue:R R207
 U 1 1 59E3556C
 P 4000 5950
 F 0 "R207" V 4050 6150 50  0000 C CNN
@@ -390,7 +389,7 @@ TX_N
 Text Label 4900 5950 0    60   ~ 0
 TX_P
 $Comp
-L R R205
+L node-rescue:R R205
 U 1 1 59E3627B
 P 3050 5550
 F 0 "R205" H 2900 5700 50  0000 C CNN
@@ -405,7 +404,7 @@ F 7 "1%" H 2900 5500 60  0000 C CNN "Tolerance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-node R204
+L node-rescue:R-RESCUE-node R204
 U 1 1 59E36D14
 P 5700 7550
 F 0 "R204" V 5800 7550 50  0000 C CNN
@@ -417,7 +416,7 @@ F 4 "1%" V 5600 7300 60  0000 C CNN "Tolerance"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C205
+L node-rescue:C C205
 U 1 1 59E370BF
 P 5200 7850
 F 0 "C205" H 5225 7950 50  0000 L CNN
@@ -428,7 +427,7 @@ F 3 "" H 5200 7850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L node-rescue:GND #PWR06
 U 1 1 59E37657
 P 5200 8100
 F 0 "#PWR06" H 5200 7850 50  0001 C CNN
@@ -443,7 +442,7 @@ RX_P
 Text Label 4900 7350 0    60   ~ 0
 RX_N
 $Comp
-L C C208
+L node-rescue:C C208
 U 1 1 59E3BF90
 P 3350 6750
 F 0 "C208" V 3300 6500 50  0000 L CNN
@@ -454,7 +453,7 @@ F 3 "" H 3350 6750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C207
+L node-rescue:C C207
 U 1 1 59E3D4F4
 P 3350 7350
 F 0 "C207" V 3300 7100 50  0000 L CNN
@@ -465,7 +464,7 @@ F 3 "" H 3350 7350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C209
+L node-rescue:C C209
 U 1 1 59E3E014
 P 3900 8450
 F 0 "C209" H 3925 8550 50  0000 L CNN
@@ -476,7 +475,7 @@ F 3 "" H 3900 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L node-rescue:GND #PWR07
 U 1 1 59E3E1BA
 P 3900 8700
 F 0 "#PWR07" H 3900 8450 50  0001 C CNN
@@ -489,7 +488,7 @@ $EndComp
 Text Notes 600  5400 0    120  ~ 24
 RJ45 Receptacle\n(w/ Transformers)
 $Comp
-L C C218
+L node-rescue:C C218
 U 1 1 59E40659
 P 8150 2300
 F 0 "C218" H 8175 2400 50  0000 L CNN
@@ -500,7 +499,7 @@ F 3 "" H 8150 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C219
+L node-rescue:C C219
 U 1 1 59EF85D1
 P 8850 2300
 F 0 "C219" H 8875 2400 50  0000 L CNN
@@ -529,7 +528,7 @@ Entry Wire Line
 Entry Wire Line
 	2350 3450 2450 3350
 $Comp
-L +3V3 #PWR08
+L node-rescue:+3V3 #PWR08
 U 1 1 5A0C4EB5
 P 8150 1050
 F 0 "#PWR08" H 8150 900 50  0001 C CNN
@@ -560,7 +559,7 @@ ACT_LED
 Text Label 7000 2550 0    60   ~ 0
 REF_RES
 $Comp
-L GND #PWR09
+L node-rescue:GND #PWR09
 U 1 1 5A0DB5CE
 P 750 4000
 F 0 "#PWR09" H 750 3750 50  0001 C CNN
@@ -575,7 +574,7 @@ XTAL_IN
 Text Label 2150 2950 0    60   ~ 0
 XTAL_OUT
 $Comp
-L GND #PWR010
+L node-rescue:GND #PWR010
 U 1 1 5A0DEA66
 P 1250 4000
 F 0 "#PWR010" H 1250 3750 50  0001 C CNN
@@ -586,7 +585,7 @@ F 3 "" H 1250 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-node R219
+L node-rescue:R-RESCUE-node R219
 U 1 1 5A0E04B8
 P 2600 3950
 F 0 "R219" H 2750 3850 50  0000 C CNN
@@ -611,7 +610,7 @@ W5500 Ethernet Controller
 Text Notes 7800 750  0    120  ~ 24
 Power Supply Capacitors
 $Comp
-L C C224
+L node-rescue:C C224
 U 1 1 59E2A898
 P 10600 2300
 F 0 "C224" H 10625 2400 50  0000 L CNN
@@ -626,7 +625,7 @@ Place one near each W5500 3V3 pin
 Text Notes 7800 3150 0    120  ~ 24
 Network Mode Selection
 $Comp
-L R-RESCUE-node R223
+L node-rescue:R-RESCUE-node R223
 U 1 1 5A0EFF67
 P 8950 3950
 F 0 "R223" V 8900 3700 50  0000 C CNN
@@ -637,7 +636,7 @@ F 3 "" H 8950 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-node R224
+L node-rescue:R-RESCUE-node R224
 U 1 1 5A0F0007
 P 8950 4050
 F 0 "R224" V 8900 3800 50  0000 C CNN
@@ -1663,7 +1662,7 @@ Text GLabel 6600 1600 2    60   Input ~ 0
 Text GLabel 3350 5100 2    60   Input ~ 0
 3V3A_W5500
 $Comp
-L R R201
+L node-rescue:R R201
 U 1 1 5A100DF4
 P 2600 2050
 F 0 "R201" H 2450 1950 50  0000 C CNN
@@ -1690,7 +1689,7 @@ Note: all RSVD have internal 85kΩ pull-downs
 Text Notes 950  4850 0    60   ~ 0
 Note: CS and RST\nhave internal 77kΩ pull-ups
 $Comp
-L R R208
+L node-rescue:R R208
 U 1 1 5A111BD3
 P 4000 6550
 F 0 "R208" V 4050 6750 50  0000 C CNN
@@ -1704,7 +1703,7 @@ F 6 "311-33.0CRCT-ND" H 4000 6550 60  0001 C CNN "Vendor Part Num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R220
+L node-rescue:R R220
 U 1 1 5A111D11
 P 4600 6750
 F 0 "R220" V 4650 6950 50  0000 C CNN
@@ -1718,7 +1717,7 @@ F 6 "311-33.0CRCT-ND" H 4600 6750 60  0001 C CNN "Vendor Part Num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R225
+L node-rescue:R R225
 U 1 1 5A111DC3
 P 4600 7350
 F 0 "R225" V 4650 7550 50  0000 C CNN
@@ -1732,7 +1731,7 @@ F 6 "311-33.0CRCT-ND" H 4600 7350 60  0001 C CNN "Vendor Part Num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R206
+L node-rescue:R R206
 U 1 1 5A112C7F
 P 3250 5550
 F 0 "R206" H 3100 5700 50  0000 C CNN
@@ -1747,7 +1746,7 @@ F 7 "1%" H 3100 5500 60  0000 C CNN "Tolerance"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R212
+L node-rescue:R R212
 U 1 1 5A1131F9
 P 3900 7950
 F 0 "R212" H 3750 8100 50  0000 C CNN
@@ -1762,7 +1761,7 @@ F 7 "1%" H 3750 7900 60  0000 C CNN "Tolerance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R213
+L node-rescue:R R213
 U 1 1 5A113203
 P 4200 7950
 F 0 "R213" H 4050 8100 50  0000 C CNN
@@ -1777,7 +1776,7 @@ F 7 "1%" H 4050 7900 60  0000 C CNN "Tolerance"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 TP207
+L node-rescue:Conn_01x01 TP207
 U 1 1 5A115616
 P 5750 1350
 F 0 "TP207" H 5750 1250 50  0000 C CNN
@@ -1790,7 +1789,7 @@ $EndComp
 Text Label 4900 1350 0    60   ~ 0
 1V2_VBG_NC
 $Comp
-L Ferrite_Bead_Small L201
+L node-rescue:Ferrite_Bead_Small L201
 U 1 1 5A1179FB
 P 8150 1250
 F 0 "L201" H 8225 1300 50  0000 L CNN
@@ -1801,7 +1800,7 @@ F 3 "" H 8150 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 TP202
+L node-rescue:Conn_01x01 TP202
 U 1 1 5A118E5D
 P 1850 3250
 F 0 "TP202" V 1950 3250 50  0000 C CNN
@@ -1812,7 +1811,7 @@ F 3 "" H 1850 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 TP203
+L node-rescue:Conn_01x01 TP203
 U 1 1 5A119695
 P 2100 3250
 F 0 "TP203" V 2200 3250 50  0000 C CNN
@@ -1823,7 +1822,7 @@ F 3 "" H 2100 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 TP204
+L node-rescue:Conn_01x01 TP204
 U 1 1 5A11B2FA
 P 2800 4750
 F 0 "TP204" V 2900 4750 50  0000 C CNN
@@ -1834,7 +1833,7 @@ F 3 "" H 2800 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 TP205
+L node-rescue:Conn_01x01 TP205
 U 1 1 5A11B300
 P 3050 4750
 F 0 "TP205" V 3150 4750 50  0000 C CNN
@@ -1845,7 +1844,7 @@ F 3 "" H 3050 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 TP208
+L node-rescue:Conn_01x01 TP208
 U 1 1 5A11BDF2
 P 10950 1650
 F 0 "TP208" H 10950 1550 50  0000 C CNN
@@ -1858,7 +1857,7 @@ $EndComp
 Text Notes 1100 9350 0    60   ~ 0
 DO NOT route power/GND plane\nunder RJ45 connector
 $Comp
-L Conn_01x01 TP206
+L node-rescue:Conn_01x01 TP206
 U 1 1 5A108D50
 P 3500 1450
 F 0 "TP206" H 3500 1350 50  0000 C CNN
@@ -1869,7 +1868,7 @@ F 3 "" H 3500 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x01 TP201
+L node-rescue:Conn_01x01 TP201
 U 1 1 5A108A66
 P 800 2450
 F 0 "TP201" H 800 2350 50  0000 C CNN
@@ -2246,7 +2245,7 @@ Connection ~ 10600 2050
 Text Notes 1100 9550 0    60   ~ 0
 Route TX/RX traces far from power sources
 $Comp
-L RB1-125BAG1A J201
+L hyper_capstone:RB1-125BAG1A J201
 U 1 1 5A171A99
 P 1850 7350
 F 0 "J201" H 2350 8900 50  0000 L BNN
@@ -2281,7 +2280,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 8900 2850 8900
 $Comp
-L Ferrite_Bead_Small L202
+L node-rescue:Ferrite_Bead_Small L202
 U 1 1 5A17BDD0
 P 2950 8900
 F 0 "L202" V 2900 9050 50  0000 L CNN
@@ -2296,7 +2295,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 8900 3200 9000
 $Comp
-L GND #PWR011
+L node-rescue:GND #PWR011
 U 1 1 5A17C40E
 P 3200 9000
 F 0 "#PWR011" H 3200 8750 50  0001 C CNN
@@ -2313,7 +2312,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 3850 9650 4150
 $Comp
-L GND #PWR012
+L node-rescue:GND #PWR012
 U 1 1 5A1796AE
 P 9650 4150
 F 0 "#PWR012" H 9650 3900 50  0001 C CNN

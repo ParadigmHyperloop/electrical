@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -36,7 +35,7 @@ ISP_S[0..3]
 Text Notes 14450 6850 0    60   ~ 0
 I2C Capable Pins:\nSERCOM4: 21+22\nSERCOM3: 25+26\nSERCOM5: 31+32\nSERCOM2: 13+14\n
 $Comp
-L GND #PWR0218
+L node-rescue:GND #PWR0218
 U 1 1 59E6B342
 P 11400 9350
 F 0 "#PWR0218" H 11400 9100 50  0001 C CNN
@@ -49,7 +48,7 @@ $EndComp
 Text Notes 600  750  0    120  ~ 24
 Supply filtering\n
 $Comp
-L C C1702
+L node-rescue:C C1702
 U 1 1 59E720CD
 P 2100 3800
 F 0 "C1702" H 2125 3900 50  0000 L CNN
@@ -60,7 +59,7 @@ F 3 "" H 2100 3800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0219
+L node-rescue:GND #PWR0219
 U 1 1 59E72263
 P 1250 4350
 F 0 "#PWR0219" H 1250 4100 50  0001 C CNN
@@ -71,7 +70,7 @@ F 3 "" H 1250 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1702
+L node-rescue:R R1702
 U 1 1 59E725F0
 P 1750 3350
 F 0 "R1702" V 1650 3350 50  0000 C CNN
@@ -82,7 +81,7 @@ F 3 "" H 1750 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1701
+L node-rescue:R R1701
 U 1 1 59E72F55
 P 2700 3050
 F 0 "R1701" H 2900 2950 50  0000 C CNN
@@ -99,7 +98,7 @@ ISP_SCLK
 Text Label 7800 3750 0    60   ~ 0
 ISP_MOSI
 $Comp
-L Conn_01x01 TP2201
+L node-rescue:Conn_01x01 TP2201
 U 1 1 5A09E1DC
 P 12250 5100
 F 0 "TP2201" H 12250 5200 50  0000 C CNN
@@ -118,7 +117,7 @@ ISP_RESET_L
 Text Label 11300 5100 0    60   ~ 0
 VDDCORE_1V2
 $Comp
-L C C1707
+L node-rescue:C C1707
 U 1 1 5A0A9A01
 P 4500 1600
 F 0 "C1707" H 4600 1500 50  0000 L CNN
@@ -131,7 +130,7 @@ $EndComp
 Text Label 4550 1150 0    60   ~ 0
 VDDCORE_1V2
 $Comp
-L GND #PWR0220
+L node-rescue:GND #PWR0220
 U 1 1 5A0AA08F
 P 4500 2100
 F 0 "#PWR0220" H 4500 1850 50  0001 C CNN
@@ -146,7 +145,7 @@ Reset
 Text Label 9250 5950 0    60   ~ 0
 RESET_L
 $Comp
-L GND #PWR0221
+L node-rescue:GND #PWR0221
 U 1 1 5A0AC21B
 P 2100 4200
 F 0 "#PWR0221" H 2100 3950 50  0001 C CNN
@@ -191,7 +190,7 @@ PWR_SEQ_ADC
 Text Notes 5650 750  0    120  ~ 24
 Serial Bus Mapping
 $Comp
-L R R2322
+L node-rescue:R R2322
 U 1 1 5A12E371
 P 8750 3650
 F 0 "R2322" V 8700 3400 50  0000 C CNN
@@ -202,7 +201,7 @@ F 3 "" H 8750 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2321
+L node-rescue:R R2321
 U 1 1 5A12E333
 P 8750 3550
 F 0 "R2321" V 8700 3300 50  0000 C CNN
@@ -213,7 +212,7 @@ F 3 "" H 8750 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2320
+L node-rescue:R R2320
 U 1 1 5A12E1C0
 P 8750 3450
 F 0 "R2320" V 8700 3200 50  0000 C CNN
@@ -242,7 +241,7 @@ Entry Wire Line
 Text Label 7850 1950 0    60   ~ 0
 NETW_CS
 $Comp
-L R R2314
+L node-rescue:R R2314
 U 1 1 5A134A1A
 P 8750 1950
 F 0 "R2314" V 8700 1700 50  0000 C CNN
@@ -253,7 +252,7 @@ F 3 "" H 8750 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2313
+L node-rescue:R R2313
 U 1 1 5A134A20
 P 8750 2050
 F 0 "R2313" V 8700 1800 50  0000 C CNN
@@ -264,7 +263,7 @@ F 3 "" H 8750 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2312
+L node-rescue:R R2312
 U 1 1 5A134A26
 P 8750 2250
 F 0 "R2312" V 8700 2000 50  0000 C CNN
@@ -275,7 +274,7 @@ F 3 "" H 8750 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2315
+L node-rescue:R R2315
 U 1 1 5A134C81
 P 8750 2150
 F 0 "R2315" V 8700 1900 50  0000 C CNN
@@ -298,7 +297,7 @@ SOL_DAC_MOSI
 Entry Wire Line
 	6900 1300 7000 1400
 $Comp
-L R R2310
+L node-rescue:R R2310
 U 1 1 5A13A889
 P 8750 1400
 F 0 "R2310" V 8700 1150 50  0000 C CNN
@@ -309,7 +308,7 @@ F 3 "" H 8750 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2309
+L node-rescue:R R2309
 U 1 1 5A13A88F
 P 8750 1300
 F 0 "R2309" V 8700 1050 50  0000 C CNN
@@ -320,7 +319,7 @@ F 3 "" H 8750 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2311
+L node-rescue:R R2311
 U 1 1 5A13A8A2
 P 8750 1500
 F 0 "R2311" V 8700 1250 50  0000 C CNN
@@ -345,7 +344,7 @@ ADC_S0
 Entry Wire Line
 	6900 2800 7000 2900
 $Comp
-L R R2318
+L node-rescue:R R2318
 U 1 1 5A13D34D
 P 8750 2900
 F 0 "R2318" V 8700 2650 50  0000 C CNN
@@ -356,7 +355,7 @@ F 3 "" H 8750 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2317
+L node-rescue:R R2317
 U 1 1 5A13D353
 P 8750 2800
 F 0 "R2317" V 8700 2550 50  0000 C CNN
@@ -367,7 +366,7 @@ F 3 "" H 8750 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2316
+L node-rescue:R R2316
 U 1 1 5A13D359
 P 8750 2700
 F 0 "R2316" V 8700 2450 50  0000 C CNN
@@ -378,7 +377,7 @@ F 3 "" H 8750 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2319
+L node-rescue:R R2319
 U 1 1 5A13D366
 P 8750 3000
 F 0 "R2319" V 8700 2750 50  0000 C CNN
@@ -389,7 +388,7 @@ F 3 "" H 8750 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0222
+L node-rescue:GND #PWR0222
 U 1 1 5A13F166
 P 2800 2000
 F 0 "#PWR0222" H 2800 1750 50  0001 C CNN
@@ -400,7 +399,7 @@ F 3 "" H 2800 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2302
+L node-rescue:C C2302
 U 1 1 5A13F17A
 P 850 1650
 F 0 "C2302" H 875 1750 50  0000 L CNN
@@ -411,7 +410,7 @@ F 3 "" H 850 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2304
+L node-rescue:C C2304
 U 1 1 5A13F181
 P 1200 1650
 F 0 "C2304" H 1225 1750 50  0000 L CNN
@@ -422,7 +421,7 @@ F 3 "" H 1200 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2309
+L node-rescue:C C2309
 U 1 1 5A13F188
 P 2800 1650
 F 0 "C2309" H 2825 1750 50  0000 L CNN
@@ -433,7 +432,7 @@ F 3 "" H 2800 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2310
+L node-rescue:C C2310
 U 1 1 5A13F18F
 P 3150 1650
 F 0 "C2310" H 3175 1750 50  0000 L CNN
@@ -444,7 +443,7 @@ F 3 "" H 3150 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0223
+L node-rescue:+3V3 #PWR0223
 U 1 1 5A13F196
 P 850 1200
 F 0 "#PWR0223" H 850 1050 50  0001 C CNN
@@ -455,7 +454,7 @@ F 3 "" H 850 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2305
+L node-rescue:C C2305
 U 1 1 5A13F19C
 P 1550 1650
 F 0 "C2305" H 1575 1750 50  0000 L CNN
@@ -468,7 +467,7 @@ $EndComp
 Text GLabel 3250 950  2    60   Output ~ 0
 3V3A_SAMD
 $Comp
-L Ferrite_Bead_Small L2301
+L node-rescue:Ferrite_Bead_Small L2301
 U 1 1 5A13F1A5
 P 2450 1400
 F 0 "L2301" V 2300 1350 50  0000 L CNN
@@ -479,7 +478,7 @@ F 3 "" H 2450 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 TP2301
+L node-rescue:Conn_01x01 TP2301
 U 1 1 5A13F1AC
 P 3850 1400
 F 0 "TP2301" H 3850 1300 50  0000 C CNN
@@ -490,7 +489,7 @@ F 3 "" H 3850 1400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR0224
+L node-rescue:GND #PWR0224
 U 1 1 5A1411D0
 P 850 2000
 F 0 "#PWR0224" H 850 1750 50  0001 C CNN
@@ -501,7 +500,7 @@ F 3 "" H 850 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0225
+L node-rescue:+3V3 #PWR0225
 U 1 1 5A1416C8
 P 2700 2800
 F 0 "#PWR0225" H 2700 2650 50  0001 C CNN
@@ -514,7 +513,7 @@ $EndComp
 Text GLabel 12100 5400 2    60   Input ~ 0
 3V3A_SAMD
 $Comp
-L +3V3 #PWR0226
+L node-rescue:+3V3 #PWR0226
 U 1 1 5A142050
 P 11100 5400
 F 0 "#PWR0226" H 11100 5250 50  0001 C CNN
@@ -529,7 +528,7 @@ USB_D-
 Text Label 7800 4350 0    60   ~ 0
 USB_D+
 $Comp
-L R R2325
+L node-rescue:R R2325
 U 1 1 5A142C62
 P 8750 4250
 F 0 "R2325" V 8700 4000 50  0000 C CNN
@@ -540,7 +539,7 @@ F 3 "" H 8750 4250 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R2324
+L node-rescue:R R2324
 U 1 1 5A142C68
 P 8750 4350
 F 0 "R2324" V 8700 4100 50  0000 C CNN
@@ -567,7 +566,7 @@ SWDIO
 Text Label 7750 5200 0    60   ~ 0
 SWDCLK
 $Comp
-L R R2327
+L node-rescue:R R2327
 U 1 1 5A0D0072
 P 8750 5300
 F 0 "R2327" V 8700 5050 50  0000 C CNN
@@ -578,7 +577,7 @@ F 3 "" H 8750 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2326
+L node-rescue:R R2326
 U 1 1 5A0D0078
 P 8750 5200
 F 0 "R2326" V 8700 4950 50  0000 C CNN
@@ -593,7 +592,7 @@ Entry Wire Line
 Text Label 7750 5400 0    60   ~ 0
 SWD_RESET_L
 $Comp
-L R R2323
+L node-rescue:R R2323
 U 1 1 5A0D3241
 P 8750 3750
 F 0 "R2323" V 8700 3500 50  0000 C CNN
@@ -606,7 +605,7 @@ $EndComp
 Text Label 9100 3450 0    60   ~ 0
 EXT_RESET_L
 $Comp
-L R R2328
+L node-rescue:R R2328
 U 1 1 5A0D369E
 P 8750 5400
 F 0 "R2328" V 8700 5150 50  0000 C CNN
@@ -619,7 +618,7 @@ $EndComp
 Text Label 9100 5400 0    60   ~ 0
 EXT_RESET_L
 $Comp
-L R R2307
+L node-rescue:R R2307
 U 1 1 5A0D517F
 P 7700 4900
 F 0 "R2307" H 7900 4800 50  0000 C CNN
@@ -630,7 +629,7 @@ F 3 "" H 7700 4900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3V3 #PWR0227
+L node-rescue:+3V3 #PWR0227
 U 1 1 5A0D576C
 P 7700 4650
 F 0 "#PWR0227" H 7700 4500 50  0001 C CNN
@@ -641,7 +640,7 @@ F 3 "" H 7700 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2308
+L node-rescue:C C2308
 U 1 1 5A0D83D4
 P 1900 1650
 F 0 "C2308" H 1925 1750 50  0000 L CNN
@@ -660,7 +659,7 @@ VDDANA
 Text Notes 550  7200 0    120  ~ 24
 High-Frequency Crystal Oscillator
 $Comp
-L Crystal Y2301
+L node-rescue:Crystal Y2301
 U 1 1 5A0DE257
 P 1200 5950
 F 0 "Y2301" H 1200 6100 50  0000 C CNN
@@ -674,7 +673,7 @@ F 6 "887-2605-1-ND" H 1200 5950 60  0001 C CNN "Vendor Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2306
+L node-rescue:C C2306
 U 1 1 5A0DE8F7
 P 1600 6300
 F 0 "C2306" H 1625 6400 50  0000 L CNN
@@ -685,7 +684,7 @@ F 3 "" H 1600 6300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2301
+L node-rescue:C C2301
 U 1 1 5A0DEB53
 P 800 6300
 F 0 "C2301" H 825 6400 50  0000 L CNN
@@ -696,7 +695,7 @@ F 3 "" H 800 6300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R2301
+L node-rescue:R R2301
 U 1 1 5A0DEBE6
 P 1200 5550
 F 0 "R2301" V 1100 5550 50  0000 C CNN
@@ -707,7 +706,7 @@ F 3 "" H 1200 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0228
+L node-rescue:GND #PWR0228
 U 1 1 5A0DF272
 P 800 6600
 F 0 "#PWR0228" H 800 6350 50  0001 C CNN
@@ -718,7 +717,7 @@ F 3 "" H 800 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0229
+L node-rescue:GND #PWR0229
 U 1 1 5A0DF2F9
 P 1600 6600
 F 0 "#PWR0229" H 1600 6350 50  0001 C CNN
@@ -737,7 +736,7 @@ XTAL32K_IN
 Text Label 13600 6050 0    60   ~ 0
 XTAL32K_OUT
 $Comp
-L C C2307
+L node-rescue:C C2307
 U 1 1 5A0E332D
 P 1650 8600
 F 0 "C2307" H 1675 8700 50  0000 L CNN
@@ -748,7 +747,7 @@ F 3 "" H 1650 8600 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2303
+L node-rescue:C C2303
 U 1 1 5A0E3333
 P 850 8600
 F 0 "C2303" H 875 8700 50  0000 L CNN
@@ -759,7 +758,7 @@ F 3 "" H 850 8600 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R2302
+L node-rescue:R R2302
 U 1 1 5A0E3339
 P 1250 7850
 F 0 "R2302" V 1150 7850 50  0000 C CNN
@@ -770,7 +769,7 @@ F 3 "" H 1250 7850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0230
+L node-rescue:GND #PWR0230
 U 1 1 5A0E3348
 P 850 8900
 F 0 "#PWR0230" H 850 8650 50  0001 C CNN
@@ -781,7 +780,7 @@ F 3 "" H 850 8900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0231
+L node-rescue:GND #PWR0231
 U 1 1 5A0E334F
 P 1650 8900
 F 0 "#PWR0231" H 1650 8650 50  0001 C CNN
@@ -796,7 +795,7 @@ XTAL_OUT
 Text Label 1700 7650 0    60   ~ 0
 XTAL_IN
 $Comp
-L Crystal Y2302
+L node-rescue:Crystal Y2302
 U 1 1 5A0EC49E
 P 1250 8250
 F 0 "Y2302" H 1250 8100 50  0000 C CNN
@@ -864,7 +863,7 @@ PA30
 Text Label 13600 8850 0    60   ~ 0
 PA31
 $Comp
-L IC_MICROCHIP_SAMD21G18A-A U1701
+L hyper_capstone:IC_MICROCHIP_SAMD21G18A-A U1701
 U 1 1 59E6DC4F
 P 11700 7400
 F 0 "U1701" H 10050 9050 50  0000 C CNN
@@ -951,7 +950,7 @@ NETW_S2
 Text Label 7000 2250 0    60   ~ 0
 NETW_S3
 $Comp
-L SW_Push SW1701
+L node-rescue:SW_Push SW1701
 U 1 1 5A1AE516
 P 1250 3950
 F 0 "SW1701" V 1400 4050 50  0000 L CNN
@@ -1018,7 +1017,7 @@ DAC_CLR
 Text Label 12450 1350 0    60   ~ 0
 DAC_ALARM_L
 $Comp
-L R R2204
+L node-rescue:R R2204
 U 1 1 5A1D40A8
 P 13450 1050
 F 0 "R2204" V 13400 800 50  0000 C CNN
@@ -1029,7 +1028,7 @@ F 3 "" H 13450 1050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2205
+L node-rescue:R R2205
 U 1 1 5A1D46DA
 P 13450 1150
 F 0 "R2205" V 13400 900 50  0000 C CNN
@@ -1040,7 +1039,7 @@ F 3 "" H 13450 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2206
+L node-rescue:R R2206
 U 1 1 5A1D47B4
 P 13450 1250
 F 0 "R2206" V 13400 1000 50  0000 C CNN
@@ -1051,7 +1050,7 @@ F 3 "" H 13450 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2207
+L node-rescue:R R2207
 U 1 1 5A1D4894
 P 13450 1350
 F 0 "R2207" V 13400 1100 50  0000 C CNN
@@ -1062,7 +1061,7 @@ F 3 "" H 13450 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2208
+L node-rescue:R R2208
 U 1 1 5A1D4BE7
 P 13450 1800
 F 0 "R2208" V 13400 1550 50  0000 C CNN
@@ -1073,7 +1072,7 @@ F 3 "" H 13450 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2209
+L node-rescue:R R2209
 U 1 1 5A1D4BEE
 P 13450 1900
 F 0 "R2209" V 13400 1650 50  0000 C CNN
@@ -1084,7 +1083,7 @@ F 3 "" H 13450 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2203
+L node-rescue:R R2203
 U 1 1 5A1D4EEF
 P 12400 2350
 F 0 "R2203" V 12350 2100 50  0000 C CNN
@@ -1101,7 +1100,7 @@ SOL_DAC_S4
 Text Label 7700 1600 0    60   ~ 0
 SOL_DAC_CS2
 $Comp
-L R R2202
+L node-rescue:R R2202
 U 1 1 5A1D6230
 P 8750 1600
 F 0 "R2202" V 8700 1350 50  0000 C CNN
@@ -1166,7 +1165,7 @@ Entry Wire Line
 Entry Wire Line
 	5650 6800 5750 6900
 $Comp
-L R R2329
+L node-rescue:R R2329
 U 1 1 5B3B7E79
 P 7400 6600
 F 0 "R2329" V 7350 6350 50  0000 C CNN
@@ -1177,7 +1176,7 @@ F 3 "" H 7400 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2330
+L node-rescue:R R2330
 U 1 1 5B3B7F71
 P 7400 6700
 F 0 "R2330" V 7350 6450 50  0000 C CNN
@@ -1188,7 +1187,7 @@ F 3 "" H 7400 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2331
+L node-rescue:R R2331
 U 1 1 5B3B802A
 P 7400 6800
 F 0 "R2331" V 7350 6550 50  0000 C CNN
@@ -1199,7 +1198,7 @@ F 3 "" H 7400 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2332
+L node-rescue:R R2332
 U 1 1 5B3B80E2
 P 7400 6900
 F 0 "R2332" V 7350 6650 50  0000 C CNN

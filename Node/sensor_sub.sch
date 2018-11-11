@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 ""
 Comment4 "Luke Merkl, Justin Pietrocarlo"
 $EndDescr
 $Comp
-L ADS7953_38TSSOP U901
+L hyper_capstone:ADS7953_38TSSOP U901
 U 1 1 59C9AEB2
 P 5200 1250
 F 0 "U901" H 4950 1400 60  0000 C CNN
@@ -32,7 +31,7 @@ NoConn ~ 5400 1350
 NoConn ~ 5400 1450
 NoConn ~ 5400 1550
 $Comp
-L ADS7953_38TSSOP U901
+L hyper_capstone:ADS7953_38TSSOP U901
 U 2 1 59C9B1CC
 P 2850 1050
 F 0 "U901" V 2750 800 60  0000 C CNN
@@ -45,7 +44,7 @@ F 5 "ADS7953_38TSSOP" H 2850 1050 60  0001 C CNN "Mfg. Part Num"
 	0    -1   1    0   
 $EndComp
 $Comp
-L C_small C902
+L hyper_capstone:C_small C902
 U 1 1 59C9B6F9
 P 1500 1950
 F 0 "C902" H 1525 2050 50  0000 L CNN
@@ -56,7 +55,7 @@ F 3 "" H 1500 1950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_small C903
+L hyper_capstone:C_small C903
 U 1 1 59C9B7F7
 P 2200 1950
 F 0 "C903" H 2225 2050 50  0000 L CNN
@@ -67,7 +66,7 @@ F 3 "" H 2200 1950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_small C904
+L hyper_capstone:C_small C904
 U 1 1 59C9B83C
 P 2500 1950
 F 0 "C904" H 2525 2050 50  0000 L CNN
@@ -78,7 +77,7 @@ F 3 "" H 2500 1950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_small C901
+L hyper_capstone:C_small C901
 U 1 1 59C9B873
 P 1850 1950
 F 0 "C901" H 1875 2050 50  0000 L CNN
@@ -89,7 +88,7 @@ F 3 "" H 1850 1950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ADS7953_38TSSOP U901
+L hyper_capstone:ADS7953_38TSSOP U901
 U 3 1 59CAA4E2
 P 10100 1200
 F 0 "U901" H 10200 1300 60  0000 C CNN
@@ -101,7 +100,7 @@ F 4 "DigiKey" H 10100 1200 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADS7953_38TSSOP U901
+L hyper_capstone:ADS7953_38TSSOP U901
 U 4 1 59CAA5B0
 P 5550 3200
 F 0 "U901" H 5700 3300 60  0000 C CNN
@@ -177,7 +176,7 @@ MXO
 Text Label 9950 4900 0    60   ~ 0
 AINP
 $Comp
-L GND #PWR064
+L node-rescue:GND #PWR064
 U 1 1 59EF59B1
 P 8200 5400
 F 0 "#PWR064" H 8200 5150 50  0001 C CNN
@@ -188,7 +187,7 @@ F 3 "" H 8200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_small R904
+L hyper_capstone:R_small R904
 U 1 1 59EF9568
 P 9200 4900
 F 0 "R904" V 9100 4900 50  0000 C CNN
@@ -199,7 +198,7 @@ F 3 "" H 9200 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_small C905
+L hyper_capstone:C_small C905
 U 1 1 59EFA7C9
 P 9600 5100
 F 0 "C905" H 9625 5200 50  0000 L CNN
@@ -210,7 +209,7 @@ F 3 "" H 9600 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR065
+L node-rescue:GND #PWR065
 U 1 1 59EFA848
 P 9600 5350
 F 0 "#PWR065" H 9600 5100 50  0001 C CNN
@@ -221,7 +220,7 @@ F 3 "" H 9600 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_small R902
+L hyper_capstone:R_small R902
 U 1 1 59EFB78E
 P 8400 4100
 F 0 "R902" V 8480 4100 50  0000 C CNN
@@ -232,7 +231,7 @@ F 3 "" H 8400 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L IC_Texas_Intruments_LM4132_LDO-REF U904
+L hyper_capstone:IC_Texas_Intruments_LM4132_LDO-REF U904
 U 1 1 59EFB46C
 P 1350 3900
 F 0 "U904" H 1850 4200 60  0000 C CNN
@@ -247,7 +246,7 @@ F 7 "LM4132BMF-2.5/NOPBCT-ND" H 1350 3900 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_small C907
+L hyper_capstone:C_small C907
 U 1 1 59EFC25B
 P 1350 3250
 F 0 "C907" H 1375 3350 50  0000 L CNN
@@ -258,7 +257,7 @@ F 3 "" H 1350 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_small C909
+L hyper_capstone:C_small C909
 U 1 1 59EFC358
 P 2500 4100
 F 0 "C909" H 2525 4200 50  0000 L CNN
@@ -269,7 +268,7 @@ F 3 "" H 2500 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR066
+L node-rescue:GND #PWR066
 U 1 1 59EFC565
 P 1050 3300
 F 0 "#PWR066" H 1050 3050 50  0001 C CNN
@@ -280,7 +279,7 @@ F 3 "" H 1050 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR067
+L node-rescue:GND #PWR067
 U 1 1 59EFC664
 P 2500 4300
 F 0 "#PWR067" H 2500 4050 50  0001 C CNN
@@ -291,7 +290,7 @@ F 3 "" H 2500 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR068
+L node-rescue:GND #PWR068
 U 1 1 59EFC75E
 P 1750 4600
 F 0 "#PWR068" H 1750 4350 50  0001 C CNN
@@ -302,7 +301,7 @@ F 3 "" H 1750 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR069
+L node-rescue:+5V #PWR069
 U 1 1 59EFDB87
 P 1650 3150
 F 0 "#PWR069" H 1650 3000 50  0001 C CNN
@@ -317,7 +316,7 @@ Voltage Reference\n
 Text Label 2300 3900 0    60   ~ 0
 VREF
 $Comp
-L IC_TexasInstruments_Sequencer U903
+L hyper_capstone:IC_TexasInstruments_Sequencer U903
 U 1 1 5A021A81
 P 4900 5400
 F 0 "U903" H 5100 5750 60  0000 C CNN
@@ -332,7 +331,7 @@ F 7 "LM3880MF-1AA/NOPBCT-ND" H 4900 5400 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R903
+L hyper_capstone:R_large R903
 U 1 1 5A022E5A
 P 5800 4950
 F 0 "R903" H 5650 5100 50  0000 C CNN
@@ -344,7 +343,7 @@ F 4 "DigiKey" H 5800 4950 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R905
+L hyper_capstone:R_large R905
 U 1 1 5A022EF4
 P 6150 4950
 F 0 "R905" H 6000 5100 50  0000 C CNN
@@ -355,7 +354,7 @@ F 3 "" H 6150 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R906
+L hyper_capstone:R_large R906
 U 1 1 5A022F8E
 P 6500 4950
 F 0 "R906" H 6350 5100 50  0000 C CNN
@@ -366,7 +365,7 @@ F 3 "" H 6500 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R901
+L hyper_capstone:R_large R901
 U 1 1 5A023850
 P 4250 5750
 F 0 "R901" H 4100 5900 50  0000 C CNN
@@ -378,7 +377,7 @@ F 4 "DigiKey" H 4250 5750 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L node-rescue:GND #PWR070
 U 1 1 5A023AC3
 P 4250 6100
 F 0 "#PWR070" H 4250 5850 50  0001 C CNN
@@ -399,7 +398,7 @@ VREF_EN
 Text Notes 3650 4250 0    120  ~ 24
 Power Sequencer\n
 $Comp
-L +5V #PWR071
+L node-rescue:+5V #PWR071
 U 1 1 5A073421
 P 4800 4550
 F 0 "#PWR071" H 4800 4400 50  0001 C CNN
@@ -410,7 +409,7 @@ F 3 "" H 4800 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLV71333PDBV U905
+L node-rescue:TLV71333PDBV U905
 U 1 1 5A078380
 P 1600 5700
 F 0 "U905" H 1450 5925 50  0000 C CNN
@@ -425,7 +424,7 @@ F 7 "TLV71333PDBV" H 1600 5700 60  0001 C CNN "Mfg. Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_small C908
+L hyper_capstone:C_small C908
 U 1 1 5A079857
 P 2200 5950
 F 0 "C908" H 2225 6050 50  0000 L CNN
@@ -436,7 +435,7 @@ F 3 "" H 2200 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR072
+L node-rescue:GND #PWR072
 U 1 1 5A079A4E
 P 2200 6150
 F 0 "#PWR072" H 2200 5900 50  0001 C CNN
@@ -447,7 +446,7 @@ F 3 "" H 2200 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR073
+L node-rescue:GND #PWR073
 U 1 1 5A07AF26
 P 1600 6100
 F 0 "#PWR073" H 1600 5850 50  0001 C CNN
@@ -460,7 +459,7 @@ $EndComp
 Text Label 650  5700 0    60   ~ 0
 3V3_EN
 $Comp
-L +5V #PWR074
+L node-rescue:+5V #PWR074
 U 1 1 5A07EB7D
 P 1100 5400
 F 0 "#PWR074" H 1100 5250 50  0001 C CNN
@@ -471,7 +470,7 @@ F 3 "" H 1100 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_small C906
+L hyper_capstone:C_small C906
 U 1 1 5A07FD88
 P 1100 5950
 F 0 "C906" H 1125 6050 50  0000 L CNN
@@ -494,7 +493,7 @@ $EndSheet
 Text Notes 8800 750  0    60   ~ 0
 All "special" channels have option\nto convert to standard (0-5V) mode
 $Comp
-L +5V #PWR075
+L node-rescue:+5V #PWR075
 U 1 1 59EF5F44
 P 8200 4450
 F 0 "#PWR075" H 8200 4300 50  0001 C CNN
@@ -505,7 +504,7 @@ F 3 "" H 8200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Texas_Instruments_OPA192 U902
+L hyper_capstone:IC_Texas_Instruments_OPA192 U902
 U 1 1 59EF2CB6
 P 8100 4900
 F 0 "U902" H 8500 5050 60  0000 C CNN
@@ -524,7 +523,7 @@ LPF values\nrecommended by TI
 Text Label 4600 3750 1    60   ~ 0
 ADC_S[0...3]
 $Comp
-L GND #PWR076
+L node-rescue:GND #PWR076
 U 1 1 5A0FADD9
 P 3800 1900
 F 0 "#PWR076" H 3800 1650 50  0001 C CNN
@@ -543,7 +542,7 @@ ADC_3V3
 Text GLabel 1300 1500 0    60   Input ~ 0
 ADC_3V3
 $Comp
-L +5V #PWR077
+L node-rescue:+5V #PWR077
 U 1 1 5A0FE59F
 P 2500 950
 F 0 "#PWR077" H 2500 800 50  0001 C CNN
@@ -554,7 +553,7 @@ F 3 "" H 2500 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR078
+L node-rescue:GND #PWR078
 U 1 1 5A100B9A
 P 1500 2300
 F 0 "#PWR078" H 1500 2050 50  0001 C CNN
@@ -565,7 +564,7 @@ F 3 "" H 1500 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR079
+L node-rescue:GND #PWR079
 U 1 1 5A102673
 P 1100 6150
 F 0 "#PWR079" H 1100 5900 50  0001 C CNN
@@ -578,7 +577,7 @@ $EndComp
 Text Notes 600  5100 0    120  ~ 24
 3.3V Linear Regulator\n
 $Comp
-L GND #PWR080
+L node-rescue:GND #PWR080
 U 1 1 5A107283
 P 4800 6100
 F 0 "#PWR080" H 4800 5850 50  0001 C CNN
@@ -928,7 +927,7 @@ Wire Wire Line
 Text Notes 3600 3500 0    60   ~ 0
 SPI signal decoder:\nS0 = CS\nS1 = SCLK\nS2 = MISO\nS3 = MOSI
 $Comp
-L R R907
+L node-rescue:R R907
 U 1 1 5A685A6D
 P 7050 4650
 F 0 "R907" V 7130 4650 50  0000 C CNN
@@ -940,7 +939,7 @@ F 4 "DigiKey" H 7050 4650 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR081
+L node-rescue:+5V #PWR081
 U 1 1 5A6863FD
 P 7050 4400
 F 0 "#PWR081" H 7050 4250 50  0001 C CNN
