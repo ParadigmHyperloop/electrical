@@ -566,7 +566,7 @@ F 3 "" H 7750 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 1250 8650 1250
+	8450 1250 9150 1250
 Wire Wire Line
 	8450 1350 9150 1350
 Text Label 8850 1250 0    50   ~ 0
@@ -577,33 +577,4 @@ Wire Wire Line
 	8450 1650 9150 1650
 Text Label 8850 1650 0    50   ~ 0
 RESET_L
-$Comp
-L Device:R R?
-U 1 1 5BF30901
-P 8650 950
-F 0 "R?" H 8720 996 50  0000 L CNN
-F 1 "1K" H 8720 905 50  0000 L CNN
-F 2 "" V 8580 950 50  0001 C CNN
-F 3 "~" H 8650 950 50  0001 C CNN
-	1    8650 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BF30943
-P 8650 700
-F 0 "#PWR?" H 8650 550 50  0001 C CNN
-F 1 "+3V3" H 8665 873 50  0000 C CNN
-F 2 "" H 8650 700 50  0001 C CNN
-F 3 "" H 8650 700 50  0001 C CNN
-	1    8650 700 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8650 800  8650 700 
-Wire Wire Line
-	8650 1100 8650 1250
-Connection ~ 8650 1250
-Wire Wire Line
-	8650 1250 9150 1250
 $EndSCHEMATC
