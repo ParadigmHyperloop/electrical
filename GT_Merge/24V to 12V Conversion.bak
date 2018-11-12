@@ -17,7 +17,7 @@ $EndDescr
 Text HLabel 1700 1250 0    60   Input ~ 0
 24V
 $Comp
-L Transmission-Board-rescue:TPS54540B-Q1 U2
+L Transmission_Board-rescue:TPS54540B-Q1 U2
 U 1 1 5BD8B6F0
 P 4000 1350
 F 0 "U2" H 4000 750 60  0000 C CNN
@@ -296,7 +296,7 @@ Wire Wire Line
 	5700 1750 5700 1400
 Connection ~ 5700 1400
 $Comp
-L Transmission-Board-rescue:TPS54540B-Q1 U3
+L Transmission_Board-rescue:TPS54540B-Q1 U3
 U 1 1 5BD8BA57
 P 4000 2800
 F 0 "U3" H 4000 2200 60  0000 C CNN
@@ -575,7 +575,7 @@ Wire Wire Line
 	5700 3200 5700 2850
 Connection ~ 5700 2850
 $Comp
-L Transmission-Board-rescue:TPS54540B-Q1 U4
+L Transmission_Board-rescue:TPS54540B-Q1 U4
 U 1 1 5BD8BC38
 P 4000 4250
 F 0 "U4" H 4000 3650 60  0000 C CNN
@@ -854,7 +854,7 @@ Wire Wire Line
 	5700 4650 5700 4300
 Connection ~ 5700 4300
 $Comp
-L Transmission-Board-rescue:TPS54540B-Q1 U5
+L Transmission_Board-rescue:TPS54540B-Q1 U5
 U 1 1 5BD8BF0B
 P 4000 5750
 F 0 "U5" H 4000 5150 60  0000 C CNN
