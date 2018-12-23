@@ -33,13 +33,13 @@ F0 "Power Outputs" 118
 F1 "Power Outputs.sch" 118
 $EndSheet
 $Sheet
-S 4420 4080 2720 1560
+S 2950 3990 2720 1560
 U 5BFB304F
 F0 "SAMD21uC" 118
 F1 "SAMD21uC.sch" 118
 $EndSheet
 $Sheet
-S 8000 4070 2420 1560
+S 6530 3980 2420 1560
 U 5BFB3065
 F0 "Wiznet Ethernet" 118
 F1 "Wiznet Ethernet.sch" 118
@@ -48,9 +48,9 @@ Text Notes 2310 2070 0    197  Italic 39
 Inputs
 Text Notes 8560 2060 0    197  Italic 39
 Outputs
-Text Notes 5130 4970 0    197  Italic 39
+Text Notes 3660 4880 0    197  Italic 39
 SAMD21
-Text Notes 8700 5000 0    197  Italic 39
+Text Notes 7230 4910 0    197  Italic 39
 WIZNET
 $Sheet
 S 4750 1180 2440 1660

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LVDC-Library)(type Legacy)(uri "D:/Paradigm/GitHub/electrical/LVDC Distribution Board/LVDC-Library.lib")(options "")(descr ""))
+)
