@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -201,7 +201,6 @@ Wire Wire Line
 Connection ~ 7620 2300
 Wire Wire Line
 	7620 2300 8140 2300
-Connection ~ 5260 4150
 Wire Wire Line
 	5260 2900 5260 4150
 Connection ~ 5550 4150
@@ -209,19 +208,6 @@ Wire Wire Line
 	5550 4150 6110 4150
 Wire Wire Line
 	5550 3660 5550 4150
-$Comp
-L power:Earth #PWR?
-U 1 1 5C030C09
-P 5260 4290
-F 0 "#PWR?" H 5260 4040 50  0001 C CNN
-F 1 "Earth" H 5260 4140 50  0001 C CNN
-F 2 "" H 5260 4290 50  0001 C CNN
-F 3 "~" H 5260 4290 50  0001 C CNN
-	1    5260 4290
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5260 4150 5260 4290
 Text Notes 8520 4320 0    47   Italic 9
 POD_GND
 $Comp
@@ -280,12 +266,10 @@ F 3 "~" H 3380 4370 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3380 4370 3380 4140
+	3380 4380 3380 4370
 Wire Wire Line
-	3380 4140 3180 4140
-Wire Wire Line
-	3380 4140 3580 4140
-Connection ~ 3380 4140
+	3380 4150 3180 4150
+Connection ~ 3380 4150
 Wire Wire Line
 	3180 3560 3180 3480
 Wire Wire Line
@@ -355,10 +339,10 @@ F 3 "~" H 2550 3610 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3180 4140 2920 4140
+	3180 4150 2920 4150
 Wire Wire Line
 	2920 3610 2750 3610
-Connection ~ 3180 4140
+Connection ~ 3180 4150
 Wire Wire Line
 	2920 3270 2750 3270
 Text Notes 2380 2260 0    47   Italic 9
@@ -378,17 +362,25 @@ Wire Wire Line
 Connection ~ 3700 2910
 Wire Wire Line
 	3700 2910 3740 2910
-Text Notes 5340 4410 0    47   Italic 9
-BAT_GND
-Wire Wire Line
-	3580 3850 3580 4140
-Wire Wire Line
-	3180 3860 3180 4140
 Wire Wire Line
 	2920 3270 2920 3610
-Connection ~ 2920 3610
 Wire Wire Line
-	2920 3610 2920 4140
+	2920 3620 2920 4150
 Text Notes 1860 2660 0    50   ~ 0
 Lug Terminals
+Connection ~ 5260 4150
+Connection ~ 3380 4370
+Wire Wire Line
+	3380 4370 3380 4150
+Wire Wire Line
+	3380 4150 3580 4150
+Wire Wire Line
+	3580 3850 3580 4150
+Connection ~ 3580 4150
+Wire Wire Line
+	3580 4150 5260 4150
+Wire Wire Line
+	3180 3860 3180 4150
+Text Notes 2310 4820 0    50   ~ 0
+Temp Sensor Inputs?
 $EndSCHEMATC
