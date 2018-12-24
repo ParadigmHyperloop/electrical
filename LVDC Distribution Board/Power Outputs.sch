@@ -74,12 +74,12 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x01 J?
 U 1 1 5C1A6C0C
-P 7930 4320
-F 0 "J?" H 8009 4362 50  0000 L CNN
-F 1 "Lug Terminal" H 8009 4271 50  0000 L CNN
-F 2 "" H 7930 4320 50  0001 C CNN
-F 3 "~" H 7930 4320 50  0001 C CNN
-	1    7930 4320
+P 7920 4240
+F 0 "J?" H 7999 4282 50  0000 L CNN
+F 1 "Lug Terminal" H 7999 4191 50  0000 L CNN
+F 2 "" H 7920 4240 50  0001 C CNN
+F 3 "~" H 7920 4240 50  0001 C CNN
+	1    7920 4240
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -155,16 +155,16 @@ $EndComp
 $Comp
 L Device:Fuse F?
 U 1 1 5C1A85EB
-P 7290 4320
-F 0 "F?" V 7093 4320 50  0000 C CNN
-F 1 "Fuse" V 7184 4320 50  0000 C CNN
-F 2 "" V 7220 4320 50  0001 C CNN
-F 3 "~" H 7290 4320 50  0001 C CNN
-	1    7290 4320
+P 7300 4240
+F 0 "F?" V 7210 4100 50  0000 C CNN
+F 1 "Fuse" V 7220 4430 50  0000 C CNN
+F 2 "" V 7230 4240 50  0001 C CNN
+F 3 "~" H 7300 4240 50  0001 C CNN
+	1    7300 4240
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7440 4320 7730 4320
+	7450 4240 7720 4240
 Wire Wire Line
 	7440 3550 7740 3550
 Wire Wire Line
@@ -189,7 +189,7 @@ Text Notes 7850 3410 0    50   ~ 0
 Cooling Pump #2
 Text Notes 7050 4040 0    79   ~ 16
 Low Power 24V Channels
-Text Notes 7880 4190 0    50   ~ 0
+Text Notes 7900 4150 0    50   ~ 0
 3 Node Boards
 $Comp
 L Connector:Screw_Terminal_01x01 J?
@@ -240,7 +240,7 @@ L Device:Q_NMOS_GDS Q?
 U 1 1 5C1FAAEA
 P 8910 3340
 F 0 "Q?" V 9060 3490 50  0000 C CNN
-F 1 "Q_NMOS_GDS" V 8900 2980 50  0000 C CNN
+F 1 "NMOS_GDS" V 8900 2980 50  0000 C CNN
 F 2 "" H 9110 3440 50  0001 C CNN
 F 3 "~" H 8910 3340 50  0001 C CNN
 	1    8910 3340
@@ -257,7 +257,7 @@ L Device:Q_NMOS_GDS Q?
 U 1 1 5C1FC0A5
 P 8910 2870
 F 0 "Q?" V 9060 3020 50  0000 C CNN
-F 1 "Q_NMOS_GDS" V 8890 2510 50  0000 C CNN
+F 1 "NMOS_GDS" V 8890 2510 50  0000 C CNN
 F 2 "" H 9110 2970 50  0001 C CNN
 F 3 "~" H 8910 2870 50  0001 C CNN
 	1    8910 2870
@@ -285,7 +285,7 @@ L Device:Q_NMOS_GDS Q?
 U 1 1 5C1FD39E
 P 8900 3820
 F 0 "Q?" V 9050 3970 50  0000 C CNN
-F 1 "Q_NMOS_GDS" V 8880 3460 50  0000 C CNN
+F 1 "NMOS_GDS" V 8880 3460 50  0000 C CNN
 F 2 "" H 9100 3920 50  0001 C CNN
 F 3 "~" H 8900 3820 50  0001 C CNN
 	1    8900 3820
@@ -303,29 +303,19 @@ Text GLabel 9040 3560 2    50   Input ~ 0
 COOL_PUMP_CTRL_1
 Text GLabel 9020 4040 2    50   Input ~ 0
 COOL_PUMP_CTRL_2
-$Sheet
-S 7690 4910 600  380 
-U 5C1FF0D4
-F0 "NAP_POE" 50
-F1 "NAP_POE.sch" 50
-$EndSheet
-Text HLabel 7690 5000 2    50   Input ~ 0
-VIN
 $Comp
 L Device:Fuse F?
 U 1 1 5C1FF2B5
-P 7270 5000
-F 0 "F?" V 7073 5000 50  0000 C CNN
-F 1 "Fuse" V 7164 5000 50  0000 C CNN
-F 2 "" V 7200 5000 50  0001 C CNN
-F 3 "~" H 7270 5000 50  0001 C CNN
-	1    7270 5000
+P 7270 5140
+F 0 "F?" V 7073 5140 50  0000 C CNN
+F 1 "Fuse" V 7164 5140 50  0000 C CNN
+F 2 "" V 7200 5140 50  0001 C CNN
+F 3 "~" H 7270 5140 50  0001 C CNN
+	1    7270 5140
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7690 5000 7420 5000
-Text HLabel 8290 5230 0    50   Output ~ 0
-GND
+	7700 5140 7420 5140
 Text Notes 7040 5640 0    79   ~ 16
 Low Power 5V Channels
 $Comp
@@ -365,17 +355,17 @@ F 3 "~" H 7920 6100 50  0001 C CNN
 $EndComp
 Text Notes 7900 5780 0    50   ~ 0
 BeagleBone
-Text Notes 7900 4770 0    50   ~ 0
+Text Notes 8340 5080 0    50   ~ 0
 NAP PoE
 $Comp
 L Connector:Screw_Terminal_01x01 J?
 U 1 1 5C204A2E
-P 7930 4530
-F 0 "J?" H 8009 4572 50  0000 L CNN
-F 1 "Lug Terminal" H 8009 4481 50  0000 L CNN
-F 2 "" H 7930 4530 50  0001 C CNN
-F 3 "~" H 7930 4530 50  0001 C CNN
-	1    7930 4530
+P 7920 4830
+F 0 "J?" H 7999 4872 50  0000 L CNN
+F 1 "Lug Terminal" H 7999 4781 50  0000 L CNN
+F 2 "" H 7920 4830 50  0001 C CNN
+F 3 "~" H 7920 4830 50  0001 C CNN
+	1    7920 4830
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -401,19 +391,9 @@ Wire Wire Line
 	9990 1380 8170 1380
 Connection ~ 9990 1930
 Wire Wire Line
-	8130 4530 9990 4530
-Wire Wire Line
-	9990 3720 9990 4530
-Wire Wire Line
-	9990 5230 9990 4530
-Wire Wire Line
-	8290 5230 9990 5230
-Connection ~ 9990 4530
+	8300 5370 9990 5370
 Wire Wire Line
 	8120 6100 9990 6100
-Wire Wire Line
-	9990 6100 9990 5230
-Connection ~ 9990 5230
 Wire Wire Line
 	9990 6200 9990 6100
 Connection ~ 9990 6100
@@ -429,11 +409,7 @@ Connection ~ 6920 1190
 Wire Wire Line
 	7150 2580 6850 2580
 Wire Wire Line
-	7120 5000 6860 5000
-Wire Wire Line
-	6860 5000 6860 4320
-Wire Wire Line
-	6860 4320 7140 4320
+	6860 4240 7150 4240
 Wire Wire Line
 	7120 5890 6860 5890
 $Comp
@@ -557,12 +533,6 @@ Wire Wire Line
 Wire Wire Line
 	6020 5380 5930 5380
 Wire Wire Line
-	6020 5380 6860 5380
-Wire Wire Line
-	6860 5380 6860 5000
-Connection ~ 6020 5380
-Connection ~ 6860 5000
-Wire Wire Line
 	5930 6660 6030 6660
 Wire Wire Line
 	6030 6660 6030 6560
@@ -585,17 +555,17 @@ Wire Wire Line
 	5930 5680 6010 5680
 Wire Wire Line
 	5930 6860 6010 6860
-Text GLabel 6030 1140 2    50   Input ~ 0
+Text GLabel 6030 1140 2    50   Output ~ 0
 LP12V_Current
-Text GLabel 6000 2400 2    50   Input ~ 0
+Text GLabel 6000 2400 2    50   Output ~ 0
 Inverter12V_Current
-Text GLabel 6000 3420 2    50   Input ~ 0
+Text GLabel 6000 3420 2    50   Output ~ 0
 CoolingP1_Current
-Text GLabel 6020 4450 2    50   Input ~ 0
+Text GLabel 6020 4450 2    50   Output ~ 0
 CoolingP2_Current
-Text GLabel 6010 5680 2    50   Input ~ 0
+Text GLabel 6010 5680 2    50   Output ~ 0
 LP24V_Current
-Text GLabel 6010 6860 2    50   Input ~ 0
+Text GLabel 6010 6860 2    50   Output ~ 0
 LP5V_Current
 Wire Wire Line
 	5050 1440 4930 1440
@@ -640,11 +610,11 @@ Wire Wire Line
 Wire Wire Line
 	4850 1140 4850 1080
 $Comp
-L Device:R_US 1k
+L Device:R_US R?
 U 1 1 5C27A6BB
 P 4770 1250
-F 0 "1k" H 4700 1240 50  0000 R CNN
-F 1 "R_US" H 4702 1295 50  0001 R CNN
+F 0 "R?" H 4910 1190 50  0000 R CNN
+F 1 "1k" H 4910 1280 50  0000 R CNN
 F 2 "" V 4810 1240 50  0001 C CNN
 F 3 "~" H 4770 1250 50  0001 C CNN
 	1    4770 1250
@@ -768,7 +738,6 @@ Wire Wire Line
 	5030 5480 4960 5480
 Wire Wire Line
 	4960 5480 4960 5380
-Connection ~ 4960 5380
 Wire Wire Line
 	4960 5380 5030 5380
 Wire Wire Line
@@ -782,30 +751,12 @@ Wire Wire Line
 	5050 2400 4850 2400
 Wire Wire Line
 	4850 2400 4850 2340
-$Comp
-L Device:R_US 1k?
-U 1 1 5C2DF30C
-P 4770 2510
-F 0 "1k?" H 4700 2500 50  0000 R CNN
-F 1 "R_US" H 4702 2555 50  0001 R CNN
-F 2 "" V 4810 2500 50  0001 C CNN
-F 3 "~" H 4770 2510 50  0001 C CNN
-	1    4770 2510
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4850 2340 4770 2340
-Wire Wire Line
-	4770 2340 4770 2360
 Wire Wire Line
 	4840 2600 4840 2660
 Wire Wire Line
 	4840 2660 4770 2660
 Wire Wire Line
 	4840 2600 5050 2600
-Wire Wire Line
-	4770 2340 4770 2270
-Connection ~ 4770 2340
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5C2DF319
@@ -821,30 +772,12 @@ Wire Wire Line
 	5040 3420 4840 3420
 Wire Wire Line
 	4840 3420 4840 3360
-$Comp
-L Device:R_US 1k?
-U 1 1 5C2E5C6B
-P 4760 3530
-F 0 "1k?" H 4690 3520 50  0000 R CNN
-F 1 "R_US" H 4692 3575 50  0001 R CNN
-F 2 "" V 4800 3520 50  0001 C CNN
-F 3 "~" H 4760 3530 50  0001 C CNN
-	1    4760 3530
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4840 3360 4760 3360
-Wire Wire Line
-	4760 3360 4760 3380
 Wire Wire Line
 	4830 3620 4830 3680
 Wire Wire Line
 	4830 3680 4760 3680
 Wire Wire Line
 	4830 3620 5040 3620
-Wire Wire Line
-	4760 3360 4760 3290
-Connection ~ 4760 3360
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5C2E5C78
@@ -859,31 +792,11 @@ $EndComp
 Wire Wire Line
 	5040 4450 4840 4450
 Wire Wire Line
-	4840 4450 4840 4390
-$Comp
-L Device:R_US 1k?
-U 1 1 5C2ED268
-P 4760 4560
-F 0 "1k?" H 4690 4550 50  0000 R CNN
-F 1 "R_US" H 4692 4605 50  0001 R CNN
-F 2 "" V 4800 4550 50  0001 C CNN
-F 3 "~" H 4760 4560 50  0001 C CNN
-	1    4760 4560
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4840 4390 4760 4390
-Wire Wire Line
-	4760 4390 4760 4410
-Wire Wire Line
 	4830 4650 4830 4710
 Wire Wire Line
 	4830 4710 4760 4710
 Wire Wire Line
 	4830 4650 5040 4650
-Wire Wire Line
-	4760 4390 4760 4320
-Connection ~ 4760 4390
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5C2ED276
@@ -899,30 +812,12 @@ Wire Wire Line
 	5030 5680 4830 5680
 Wire Wire Line
 	4830 5680 4830 5620
-$Comp
-L Device:R_US 1k?
-U 1 1 5C2F54CB
-P 4750 5790
-F 0 "1k?" H 4680 5780 50  0000 R CNN
-F 1 "R_US" H 4682 5835 50  0001 R CNN
-F 2 "" V 4790 5780 50  0001 C CNN
-F 3 "~" H 4750 5790 50  0001 C CNN
-	1    4750 5790
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4830 5620 4750 5620
-Wire Wire Line
-	4750 5620 4750 5640
 Wire Wire Line
 	4820 5880 4820 5940
 Wire Wire Line
 	4820 5940 4750 5940
 Wire Wire Line
 	4820 5880 5030 5880
-Wire Wire Line
-	4750 5620 4750 5550
-Connection ~ 4750 5620
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5C2F54D9
@@ -938,30 +833,12 @@ Wire Wire Line
 	5030 6860 4830 6860
 Wire Wire Line
 	4830 6860 4830 6800
-$Comp
-L Device:R_US 1k?
-U 1 1 5C2FE480
-P 4750 6970
-F 0 "1k?" H 4680 6960 50  0000 R CNN
-F 1 "R_US" H 4682 7015 50  0001 R CNN
-F 2 "" V 4790 6960 50  0001 C CNN
-F 3 "~" H 4750 6970 50  0001 C CNN
-	1    4750 6970
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4830 6800 4750 6800
-Wire Wire Line
-	4750 6800 4750 6820
 Wire Wire Line
 	4820 7060 4820 7120
 Wire Wire Line
 	4820 7120 4750 7120
 Wire Wire Line
 	4820 7060 5030 7060
-Wire Wire Line
-	4750 6800 4750 6730
-Connection ~ 4750 6800
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5C2FE48E
@@ -974,9 +851,7 @@ F 3 "" H 4750 6730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4140 840  4140 1550
-Wire Wire Line
-	4140 1550 2080 1550
+	4140 1800 2080 1800
 Wire Wire Line
 	4140 840  4980 840 
 Wire Wire Line
@@ -989,28 +864,20 @@ Connection ~ 4450 3120
 Wire Wire Line
 	4450 3120 2090 3120
 Wire Wire Line
-	3800 5380 3800 4440
-Wire Wire Line
-	3800 4440 2100 4440
-Wire Wire Line
-	3800 5380 4960 5380
-Wire Wire Line
-	3390 6560 3390 5860
-Wire Wire Line
 	3390 6560 4930 6560
 $Comp
 L power:+12L #PWR?
 U 1 1 5C35F97D
-P 2080 1470
-F 0 "#PWR?" H 2080 1320 50  0001 C CNN
-F 1 "+12L" H 2095 1643 50  0000 C CNN
-F 2 "" H 2080 1470 50  0001 C CNN
-F 3 "" H 2080 1470 50  0001 C CNN
-	1    2080 1470
+P 2080 1720
+F 0 "#PWR?" H 2080 1570 50  0001 C CNN
+F 1 "+12L" H 2095 1893 50  0000 C CNN
+F 2 "" H 2080 1720 50  0001 C CNN
+F 3 "" H 2080 1720 50  0001 C CNN
+	1    2080 1720
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2080 1550 2080 1470
+	2080 1800 2080 1720
 Wire Wire Line
 	2090 3120 2090 3050
 $Comp
@@ -1027,39 +894,290 @@ $EndComp
 $Comp
 L power:+24V #PWR?
 U 1 1 5C376FE4
-P 2100 4340
-F 0 "#PWR?" H 2100 4190 50  0001 C CNN
-F 1 "+24V" H 2115 4513 50  0000 C CNN
-F 2 "" H 2100 4340 50  0001 C CNN
-F 3 "" H 2100 4340 50  0001 C CNN
-	1    2100 4340
+P 2090 4190
+F 0 "#PWR?" H 2090 4040 50  0001 C CNN
+F 1 "+24V" H 2105 4363 50  0000 C CNN
+F 2 "" H 2090 4190 50  0001 C CNN
+F 3 "" H 2090 4190 50  0001 C CNN
+	1    2090 4190
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 4440 2100 4340
+	2090 4290 2090 4190
 Wire Wire Line
-	2110 5860 2110 5790
-Wire Wire Line
-	2110 5860 3390 5860
+	2080 5460 2080 5390
 $Comp
 L power:+5V #PWR?
 U 1 1 5C3A4816
-P 2110 5790
-F 0 "#PWR?" H 2110 5640 50  0001 C CNN
-F 1 "+5V" H 2125 5963 50  0000 C CNN
-F 2 "" H 2110 5790 50  0001 C CNN
-F 3 "" H 2110 5790 50  0001 C CNN
-	1    2110 5790
+P 2080 5390
+F 0 "#PWR?" H 2080 5240 50  0001 C CNN
+F 1 "+5V" H 2095 5563 50  0000 C CNN
+F 2 "" H 2080 5390 50  0001 C CNN
+F 3 "" H 2080 5390 50  0001 C CNN
+	1    2080 5390
 	1    0    0    -1  
 $EndComp
-Text Notes 1990 1120 0    79   ~ 16
+Text Notes 1990 1370 0    79   ~ 16
 Low Power 12V Rail
 Text Notes 1950 2730 0    79   ~ 16
 High Power 12V Rail
-Text Notes 1960 4000 0    79   ~ 16
+Text Notes 1950 3850 0    79   ~ 16
 Low Power 24V Rail
-Text Notes 1960 5490 0    79   ~ 16
+Text Notes 1930 5090 0    79   ~ 16
 Low Power 5V Rail
-Text Notes 5970 1440 0    50   ~ 0
+Text Notes 5710 650  0    50   ~ 0
 +-15A Capable
+Text Notes 5720 1950 0    50   ~ 0
++-15A Capable
+Text Notes 5730 2980 0    50   ~ 0
++-15A Capable
+Text Notes 5720 4020 0    50   ~ 0
++-15A Capable
+Text Notes 5720 5230 0    50   ~ 0
++-15A Capable
+Text Notes 5690 6420 0    50   ~ 0
++-15A Capable
+$Sheet
+S 7700 5050 600  380 
+U 5C1FF0D4
+F0 "NAP_PoE" 50
+F1 "NAP_PoE.sch" 50
+F2 "NAP_Vin+" I L 7700 5140 50 
+F3 "NAP_Vin-" O R 8300 5370 50 
+$EndSheet
+$Comp
+L Device:R_US R?
+U 1 1 5C468773
+P 4770 2510
+F 0 "R?" H 4910 2450 50  0000 R CNN
+F 1 "1k" H 4910 2540 50  0000 R CNN
+F 2 "" V 4810 2500 50  0001 C CNN
+F 3 "~" H 4770 2510 50  0001 C CNN
+	1    4770 2510
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4770 2270 4770 2340
+Wire Wire Line
+	4760 3290 4760 3360
+Wire Wire Line
+	4760 4320 4760 4390
+Wire Wire Line
+	4750 5550 4750 5620
+Wire Wire Line
+	4750 6730 4750 6800
+$Comp
+L Device:R_US R?
+U 1 1 5C468F9D
+P 4760 3530
+F 0 "R?" H 4900 3470 50  0000 R CNN
+F 1 "1k" H 4900 3560 50  0000 R CNN
+F 2 "" V 4800 3520 50  0001 C CNN
+F 3 "~" H 4760 3530 50  0001 C CNN
+	1    4760 3530
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C4691C1
+P 4760 4560
+F 0 "R?" H 4900 4500 50  0000 R CNN
+F 1 "1k" H 4900 4590 50  0000 R CNN
+F 2 "" V 4800 4550 50  0001 C CNN
+F 3 "~" H 4760 4560 50  0001 C CNN
+	1    4760 4560
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C469403
+P 4750 5790
+F 0 "R?" H 4890 5730 50  0000 R CNN
+F 1 "1k" H 4890 5820 50  0000 R CNN
+F 2 "" V 4790 5780 50  0001 C CNN
+F 3 "~" H 4750 5790 50  0001 C CNN
+	1    4750 5790
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C4695F9
+P 4750 6970
+F 0 "R?" H 4890 6910 50  0000 R CNN
+F 1 "1k" H 4890 7000 50  0000 R CNN
+F 2 "" V 4790 6960 50  0001 C CNN
+F 3 "~" H 4750 6970 50  0001 C CNN
+	1    4750 6970
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4830 6800 4750 6800
+Connection ~ 4750 6800
+Wire Wire Line
+	4750 6800 4750 6820
+Wire Wire Line
+	4830 5620 4750 5620
+Connection ~ 4750 5620
+Wire Wire Line
+	4750 5620 4750 5640
+Wire Wire Line
+	4840 3360 4760 3360
+Connection ~ 4760 3360
+Wire Wire Line
+	4760 3360 4760 3380
+Wire Wire Line
+	4840 4390 4760 4390
+Wire Wire Line
+	4840 4390 4840 4450
+Connection ~ 4760 4390
+Wire Wire Line
+	4760 4390 4760 4410
+Wire Wire Line
+	4850 2340 4770 2340
+Connection ~ 4770 2340
+Wire Wire Line
+	4770 2340 4770 2360
+Wire Wire Line
+	2080 1800 1900 1800
+Connection ~ 2080 1800
+Wire Wire Line
+	2090 3120 1900 3120
+Connection ~ 2090 3120
+Wire Wire Line
+	2090 4290 1900 4290
+Connection ~ 2090 4290
+Connection ~ 2080 5460
+Text HLabel 1900 1800 0    50   Input ~ 0
+LP12V
+Text HLabel 1900 3120 0    50   Input ~ 0
+HP12V
+Text HLabel 1900 4290 0    50   Input ~ 0
+LP24V
+Text HLabel 1870 5460 0    50   Input ~ 0
+LP5V
+Wire Wire Line
+	1870 5460 2080 5460
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C5014FA
+P 2140 6590
+F 0 "#PWR?" H 2140 6440 50  0001 C CNN
+F 1 "+3V3" H 1990 6670 50  0000 C CNN
+F 2 "" H 2140 6590 50  0001 C CNN
+F 3 "" H 2140 6590 50  0001 C CNN
+	1    2140 6590
+	1    0    0    -1  
+$EndComp
+Text Notes 1960 6350 0    79   ~ 16
+Low Power 3V3 Rail
+Text HLabel 1930 6760 0    50   Input ~ 0
+LP3V3
+Wire Wire Line
+	2140 6760 2140 6590
+Wire Wire Line
+	1930 6760 2140 6760
+Wire Wire Line
+	3390 5460 3390 6560
+Wire Wire Line
+	2080 5460 3390 5460
+Wire Wire Line
+	3800 4290 3800 5140
+Wire Wire Line
+	2090 4290 3800 4290
+Wire Wire Line
+	4140 840  4140 1800
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5C5A4CC0
+P 7920 4430
+F 0 "J?" H 7999 4472 50  0000 L CNN
+F 1 "Lug Terminal" H 7999 4381 50  0000 L CNN
+F 2 "" H 7920 4430 50  0001 C CNN
+F 3 "~" H 7920 4430 50  0001 C CNN
+	1    7920 4430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5C5A4EBC
+P 7920 4620
+F 0 "J?" H 7999 4662 50  0000 L CNN
+F 1 "Lug Terminal" H 7999 4571 50  0000 L CNN
+F 2 "" H 7920 4620 50  0001 C CNN
+F 3 "~" H 7920 4620 50  0001 C CNN
+	1    7920 4620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9990 3720 9990 4830
+Wire Wire Line
+	8120 4830 9990 4830
+Connection ~ 9990 4830
+Wire Wire Line
+	9990 4830 9990 5370
+$Comp
+L Device:Fuse F?
+U 1 1 5C5EC6AD
+P 7290 4430
+F 0 "F?" V 7210 4300 50  0000 C CNN
+F 1 "Fuse" V 7210 4640 50  0000 C CNN
+F 2 "" V 7220 4430 50  0001 C CNN
+F 3 "~" H 7290 4430 50  0001 C CNN
+	1    7290 4430
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5C5EC733
+P 7290 4620
+F 0 "F?" V 7200 4490 50  0000 C CNN
+F 1 "Fuse" V 7200 4830 50  0000 C CNN
+F 2 "" V 7220 4620 50  0001 C CNN
+F 3 "~" H 7290 4620 50  0001 C CNN
+	1    7290 4620
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7440 4430 7720 4430
+Wire Wire Line
+	7720 4620 7440 4620
+Wire Wire Line
+	7140 4430 6860 4430
+Connection ~ 6860 4430
+Wire Wire Line
+	6860 4430 6860 4240
+Wire Wire Line
+	7140 4620 6860 4620
+Wire Wire Line
+	6860 4620 6860 4430
+Connection ~ 9990 5370
+Wire Wire Line
+	9990 5370 9990 6100
+Wire Wire Line
+	6020 5380 6860 5380
+Connection ~ 6020 5380
+Connection ~ 6860 4620
+Wire Wire Line
+	6480 5140 6480 4980
+Wire Wire Line
+	6480 4980 5160 4980
+Wire Wire Line
+	5160 4980 5160 5140
+Wire Wire Line
+	5160 5140 3800 5140
+Wire Wire Line
+	6480 5140 7120 5140
+Connection ~ 4960 5380
+Wire Wire Line
+	3630 5380 3630 4730
+Wire Wire Line
+	3630 4730 1900 4730
+Wire Wire Line
+	3630 5380 4960 5380
+Text HLabel 1900 4730 0    50   Input ~ 0
+LP_Vin+
+Wire Wire Line
+	6860 4620 6860 5380
+Text Notes 1910 4580 0    79   ~ 16
+Low Power Battery Input
 $EndSCHEMATC
