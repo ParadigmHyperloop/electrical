@@ -1180,4 +1180,6 @@ Wire Wire Line
 	6860 4620 6860 5380
 Text Notes 1910 4580 0    79   ~ 16
 Low Power Battery Input
+Text Notes 4860 7720 0    79   ~ 16
+Current Sensor Array
 $EndSCHEMATC
