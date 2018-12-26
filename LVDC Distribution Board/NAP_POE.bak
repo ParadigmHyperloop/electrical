@@ -17,10 +17,10 @@ $EndDescr
 Text Notes 8350 6960 0    197  Italic 39
 NAP PoE
 $Comp
-L Connector:RJ45_LED_Shielded J?
+L Connector:RJ45_LED_Shielded J402
 U 1 1 5C650637
 P 6680 4150
-F 0 "J?" H 6680 4817 50  0000 C CNN
+F 0 "J402" H 6680 4817 50  0000 C CNN
 F 1 "RJ45_LED_Shielded" H 6680 4726 50  0000 C CNN
 F 2 "" V 6680 4175 50  0001 C CNN
 F 3 "~" V 6680 4175 50  0001 C CNN
@@ -28,10 +28,10 @@ F 3 "~" V 6680 4175 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:RJ45_LED_Shielded J?
+L Connector:RJ45_LED_Shielded J401
 U 1 1 5C650693
 P 6670 2430
-F 0 "J?" H 6670 3097 50  0000 C CNN
+F 0 "J401" H 6670 3097 50  0000 C CNN
 F 1 "RJ45_LED_Shielded" H 6670 3006 50  0000 C CNN
 F 2 "" V 6670 2455 50  0001 C CNN
 F 3 "~" V 6670 2455 50  0001 C CNN
@@ -107,7 +107,7 @@ Wire Wire Line
 Wire Wire Line
 	6180 4550 6280 4550
 Wire Wire Line
-	6180 4550 6180 4710
+	6180 4550 6180 4670
 Connection ~ 6180 4550
 $Comp
 L power:GND #PWR0130
@@ -130,11 +130,26 @@ Wire Wire Line
 	6200 4150 4410 4150
 Connection ~ 6200 4150
 Text HLabel 4410 4150 0    50   Input ~ 0
-LP24V
+NAP_Vin+
 Text Notes 7230 2220 0    50   ~ 0
 Should probably light the green LED on startup,\nas a debugging "she got power bys" check
 Text Notes 6580 1590 0    50   Italic 10
 Input
 Text Notes 6610 3420 0    50   Italic 10
 Output
+Text HLabel 5860 4670 0    50   Output ~ 0
+NAP_Vin-
+Wire Wire Line
+	5860 4670 6180 4670
+Connection ~ 6180 4670
+Wire Wire Line
+	6180 4670 6180 4710
+NoConn ~ 7070 2130
+NoConn ~ 7070 2230
+NoConn ~ 7070 2730
+NoConn ~ 7070 2830
+NoConn ~ 7080 3850
+NoConn ~ 7080 3950
+NoConn ~ 7080 4450
+NoConn ~ 7080 4550
 $EndSCHEMATC

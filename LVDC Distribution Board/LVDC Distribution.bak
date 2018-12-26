@@ -54,6 +54,7 @@ S 6530 3980 2420 1560
 U 5BFB3065
 F0 "Wiznet Ethernet" 118
 F1 "Wiznet Ethernet.sch" 118
+F2 "LP3V3" I L 6530 4160 50 
 $EndSheet
 Text Notes 2310 2070 0    197  Italic 39
 Inputs
@@ -92,7 +93,7 @@ Wire Wire Line
 Wire Wire Line
 	7190 1480 7820 1480
 Wire Wire Line
-	7380 3030 4620 3030
+	7380 3030 6300 3030
 Wire Wire Line
 	4620 3030 4620 2230
 Wire Wire Line
@@ -134,4 +135,11 @@ Wire Wire Line
 	7490 2460 7190 2460
 Wire Wire Line
 	7490 2460 7490 3200
+Wire Wire Line
+	6300 4160 6300 3030
+Connection ~ 6300 3030
+Wire Wire Line
+	6300 3030 4620 3030
+Wire Wire Line
+	6300 4160 6530 4160
 $EndSCHEMATC
