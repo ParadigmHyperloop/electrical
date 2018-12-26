@@ -39,10 +39,10 @@ F 3 "~" V 6670 2455 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 5C650810
 P 6890 3510
-F 0 "#PWR?" H 6890 3260 50  0001 C CNN
+F 0 "#PWR0128" H 6890 3260 50  0001 C CNN
 F 1 "GND" H 6895 3337 50  0000 C CNN
 F 2 "" H 6890 3510 50  0001 C CNN
 F 3 "" H 6890 3510 50  0001 C CNN
@@ -50,10 +50,10 @@ F 3 "" H 6890 3510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0129
 U 1 1 5C65082E
 P 6920 1760
-F 0 "#PWR?" H 6920 1510 50  0001 C CNN
+F 0 "#PWR0129" H 6920 1510 50  0001 C CNN
 F 1 "GND" H 6925 1587 50  0000 C CNN
 F 2 "" H 6920 1760 50  0001 C CNN
 F 3 "" H 6920 1760 50  0001 C CNN
@@ -110,10 +110,10 @@ Wire Wire Line
 	6180 4550 6180 4710
 Connection ~ 6180 4550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0130
 U 1 1 5C65173A
 P 6180 4710
-F 0 "#PWR?" H 6180 4460 50  0001 C CNN
+F 0 "#PWR0130" H 6180 4460 50  0001 C CNN
 F 1 "GND" H 6185 4537 50  0000 C CNN
 F 2 "" H 6180 4710 50  0001 C CNN
 F 3 "" H 6180 4710 50  0001 C CNN
@@ -133,4 +133,8 @@ Text HLabel 4410 4150 0    50   Input ~ 0
 LP24V
 Text Notes 7230 2220 0    50   ~ 0
 Should probably light the green LED on startup,\nas a debugging "she got power bys" check
+Text Notes 6580 1590 0    50   Italic 10
+Input
+Text Notes 6610 3420 0    50   Italic 10
+Output
 $EndSCHEMATC

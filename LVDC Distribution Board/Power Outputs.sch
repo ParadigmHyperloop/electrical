@@ -83,10 +83,10 @@ F 3 "~" H 7920 4240 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5C1A737D
 P 9990 6200
-F 0 "#PWR?" H 9990 5950 50  0001 C CNN
+F 0 "#PWR0110" H 9990 5950 50  0001 C CNN
 F 1 "GND" H 9995 6027 50  0000 C CNN
 F 2 "" H 9990 6200 50  0001 C CNN
 F 3 "" H 9990 6200 50  0001 C CNN
@@ -403,8 +403,6 @@ Wire Wire Line
 	6920 1740 6920 1190
 Wire Wire Line
 	6920 1190 7150 1190
-Wire Wire Line
-	6920 1190 6730 1190
 Connection ~ 6920 1190
 Wire Wire Line
 	7150 2580 6850 2580
@@ -481,14 +479,14 @@ $EndComp
 Wire Wire Line
 	5950 840  6030 840 
 Wire Wire Line
-	6730 840  6730 1190
+	6920 840  6920 1190
 Wire Wire Line
 	5950 940  6030 940 
 Wire Wire Line
 	6030 940  6030 840 
 Connection ~ 6030 840 
 Wire Wire Line
-	6030 840  6730 840 
+	6030 840  6920 840 
 Wire Wire Line
 	5950 2200 6030 2200
 Wire Wire Line
@@ -556,7 +554,7 @@ Wire Wire Line
 Wire Wire Line
 	5930 6860 6010 6860
 Text GLabel 6030 1140 2    50   Output ~ 0
-LP12V_Current
+LP12V_Output_Current
 Text GLabel 6000 2400 2    50   Output ~ 0
 Inverter12V_Current
 Text GLabel 6000 3420 2    50   Output ~ 0
@@ -564,9 +562,9 @@ CoolingP1_Current
 Text GLabel 6020 4450 2    50   Output ~ 0
 CoolingP2_Current
 Text GLabel 6010 5680 2    50   Output ~ 0
-LP24V_Current
+Nodes_Current
 Text GLabel 6010 6860 2    50   Output ~ 0
-LP5V_Current
+LP5V_Output_Current
 Wire Wire Line
 	5050 1440 4930 1440
 Wire Wire Line
@@ -582,10 +580,10 @@ Wire Wire Line
 Wire Wire Line
 	4930 7160 4930 7260
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5C258BDA
 P 4930 7260
-F 0 "#PWR?" H 4930 7010 50  0001 C CNN
+F 0 "#PWR0111" H 4930 7010 50  0001 C CNN
 F 1 "GND" H 4935 7087 50  0000 C CNN
 F 2 "" H 4930 7260 50  0001 C CNN
 F 3 "" H 4930 7260 50  0001 C CNN
@@ -634,10 +632,10 @@ Wire Wire Line
 	4770 1080 4770 1010
 Connection ~ 4770 1080
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0112
 U 1 1 5C286E02
 P 4770 1010
-F 0 "#PWR?" H 4770 860 50  0001 C CNN
+F 0 "#PWR0112" H 4770 860 50  0001 C CNN
 F 1 "+3V3" H 4620 1090 50  0000 C CNN
 F 2 "" H 4770 1010 50  0001 C CNN
 F 3 "" H 4770 1010 50  0001 C CNN
@@ -656,10 +654,10 @@ Connection ~ 4990 2100
 Wire Wire Line
 	4930 1440 4930 1540
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 5C2947E8
 P 4930 1540
-F 0 "#PWR?" H 4930 1290 50  0001 C CNN
+F 0 "#PWR0113" H 4930 1290 50  0001 C CNN
 F 1 "GND" H 4935 1367 50  0000 C CNN
 F 2 "" H 4930 1540 50  0001 C CNN
 F 3 "" H 4930 1540 50  0001 C CNN
@@ -667,10 +665,10 @@ F 3 "" H 4930 1540 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 5C294B13
 P 4950 2790
-F 0 "#PWR?" H 4950 2540 50  0001 C CNN
+F 0 "#PWR0114" H 4950 2540 50  0001 C CNN
 F 1 "GND" H 4955 2617 50  0000 C CNN
 F 2 "" H 4950 2790 50  0001 C CNN
 F 3 "" H 4950 2790 50  0001 C CNN
@@ -691,10 +689,10 @@ Connection ~ 4970 3120
 Wire Wire Line
 	4930 3720 4930 3820
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 5C2A6DFF
 P 4930 3820
-F 0 "#PWR?" H 4930 3570 50  0001 C CNN
+F 0 "#PWR0115" H 4930 3570 50  0001 C CNN
 F 1 "GND" H 4935 3647 50  0000 C CNN
 F 2 "" H 4930 3820 50  0001 C CNN
 F 3 "" H 4930 3820 50  0001 C CNN
@@ -704,10 +702,10 @@ $EndComp
 Wire Wire Line
 	4930 4750 4930 4830
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 5C2B4AB1
 P 4930 4830
-F 0 "#PWR?" H 4930 4580 50  0001 C CNN
+F 0 "#PWR0116" H 4930 4580 50  0001 C CNN
 F 1 "GND" H 4935 4657 50  0000 C CNN
 F 2 "" H 4930 4830 50  0001 C CNN
 F 3 "" H 4930 4830 50  0001 C CNN
@@ -715,10 +713,10 @@ F 3 "" H 4930 4830 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 5C2B9538
 P 4930 6070
-F 0 "#PWR?" H 4930 5820 50  0001 C CNN
+F 0 "#PWR0117" H 4930 5820 50  0001 C CNN
 F 1 "GND" H 4935 5897 50  0000 C CNN
 F 2 "" H 4930 6070 50  0001 C CNN
 F 3 "" H 4930 6070 50  0001 C CNN
@@ -758,10 +756,10 @@ Wire Wire Line
 Wire Wire Line
 	4840 2600 5050 2600
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0118
 U 1 1 5C2DF319
 P 4770 2270
-F 0 "#PWR?" H 4770 2120 50  0001 C CNN
+F 0 "#PWR0118" H 4770 2120 50  0001 C CNN
 F 1 "+3V3" H 4620 2350 50  0000 C CNN
 F 2 "" H 4770 2270 50  0001 C CNN
 F 3 "" H 4770 2270 50  0001 C CNN
@@ -779,10 +777,10 @@ Wire Wire Line
 Wire Wire Line
 	4830 3620 5040 3620
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0119
 U 1 1 5C2E5C78
 P 4760 3290
-F 0 "#PWR?" H 4760 3140 50  0001 C CNN
+F 0 "#PWR0119" H 4760 3140 50  0001 C CNN
 F 1 "+3V3" H 4610 3370 50  0000 C CNN
 F 2 "" H 4760 3290 50  0001 C CNN
 F 3 "" H 4760 3290 50  0001 C CNN
@@ -798,10 +796,10 @@ Wire Wire Line
 Wire Wire Line
 	4830 4650 5040 4650
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0120
 U 1 1 5C2ED276
 P 4760 4320
-F 0 "#PWR?" H 4760 4170 50  0001 C CNN
+F 0 "#PWR0120" H 4760 4170 50  0001 C CNN
 F 1 "+3V3" H 4610 4400 50  0000 C CNN
 F 2 "" H 4760 4320 50  0001 C CNN
 F 3 "" H 4760 4320 50  0001 C CNN
@@ -819,10 +817,10 @@ Wire Wire Line
 Wire Wire Line
 	4820 5880 5030 5880
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0121
 U 1 1 5C2F54D9
 P 4750 5550
-F 0 "#PWR?" H 4750 5400 50  0001 C CNN
+F 0 "#PWR0121" H 4750 5400 50  0001 C CNN
 F 1 "+3V3" H 4600 5630 50  0000 C CNN
 F 2 "" H 4750 5550 50  0001 C CNN
 F 3 "" H 4750 5550 50  0001 C CNN
@@ -840,18 +838,16 @@ Wire Wire Line
 Wire Wire Line
 	4820 7060 5030 7060
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0122
 U 1 1 5C2FE48E
 P 4750 6730
-F 0 "#PWR?" H 4750 6580 50  0001 C CNN
+F 0 "#PWR0122" H 4750 6580 50  0001 C CNN
 F 1 "+3V3" H 4600 6810 50  0000 C CNN
 F 2 "" H 4750 6730 50  0001 C CNN
 F 3 "" H 4750 6730 50  0001 C CNN
 	1    4750 6730
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4140 1800 2080 1800
 Wire Wire Line
 	4140 840  4980 840 
 Wire Wire Line
@@ -862,68 +858,14 @@ Wire Wire Line
 	4450 2100 4450 3120
 Connection ~ 4450 3120
 Wire Wire Line
-	4450 3120 2090 3120
-Wire Wire Line
 	3390 6560 4930 6560
-$Comp
-L power:+12L #PWR?
-U 1 1 5C35F97D
-P 2080 1720
-F 0 "#PWR?" H 2080 1570 50  0001 C CNN
-F 1 "+12L" H 2095 1893 50  0000 C CNN
-F 2 "" H 2080 1720 50  0001 C CNN
-F 3 "" H 2080 1720 50  0001 C CNN
-	1    2080 1720
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2080 1800 2080 1720
-Wire Wire Line
-	2090 3120 2090 3050
-$Comp
-L power:+12P #PWR?
-U 1 1 5C375FEC
-P 2090 3050
-F 0 "#PWR?" H 2090 2900 50  0001 C CNN
-F 1 "+12P" H 2105 3223 50  0000 C CNN
-F 2 "" H 2090 3050 50  0001 C CNN
-F 3 "" H 2090 3050 50  0001 C CNN
-	1    2090 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR?
-U 1 1 5C376FE4
-P 2090 4190
-F 0 "#PWR?" H 2090 4040 50  0001 C CNN
-F 1 "+24V" H 2105 4363 50  0000 C CNN
-F 2 "" H 2090 4190 50  0001 C CNN
-F 3 "" H 2090 4190 50  0001 C CNN
-	1    2090 4190
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2090 4290 2090 4190
-Wire Wire Line
-	2080 5460 2080 5390
-$Comp
-L power:+5V #PWR?
-U 1 1 5C3A4816
-P 2080 5390
-F 0 "#PWR?" H 2080 5240 50  0001 C CNN
-F 1 "+5V" H 2095 5563 50  0000 C CNN
-F 2 "" H 2080 5390 50  0001 C CNN
-F 3 "" H 2080 5390 50  0001 C CNN
-	1    2080 5390
-	1    0    0    -1  
-$EndComp
-Text Notes 1990 1370 0    79   ~ 16
+Text Notes 1990 1740 0    79   ~ 16
 Low Power 12V Rail
 Text Notes 1950 2730 0    79   ~ 16
 High Power 12V Rail
-Text Notes 1950 3850 0    79   ~ 16
+Text Notes 1960 3580 0    79   ~ 16
 Low Power 24V Rail
-Text Notes 1930 5090 0    79   ~ 16
+Text Notes 1950 5090 0    79   ~ 16
 Low Power 5V Rail
 Text Notes 5710 650  0    50   ~ 0
 +-15A Capable
@@ -1037,55 +979,35 @@ Wire Wire Line
 Connection ~ 4770 2340
 Wire Wire Line
 	4770 2340 4770 2360
-Wire Wire Line
-	2080 1800 1900 1800
-Connection ~ 2080 1800
-Wire Wire Line
-	2090 3120 1900 3120
-Connection ~ 2090 3120
-Wire Wire Line
-	2090 4290 1900 4290
-Connection ~ 2090 4290
-Connection ~ 2080 5460
-Text HLabel 1900 1800 0    50   Input ~ 0
+Text HLabel 1900 2170 0    50   Input ~ 0
 LP12V
 Text HLabel 1900 3120 0    50   Input ~ 0
 HP12V
-Text HLabel 1900 4290 0    50   Input ~ 0
+Text HLabel 1900 3850 0    50   Input ~ 0
 LP24V
 Text HLabel 1870 5460 0    50   Input ~ 0
 LP5V
-Wire Wire Line
-	1870 5460 2080 5460
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0127
 U 1 1 5C5014FA
-P 2140 6590
-F 0 "#PWR?" H 2140 6440 50  0001 C CNN
-F 1 "+3V3" H 1990 6670 50  0000 C CNN
-F 2 "" H 2140 6590 50  0001 C CNN
-F 3 "" H 2140 6590 50  0001 C CNN
-	1    2140 6590
+P 2130 6190
+F 0 "#PWR0127" H 2130 6040 50  0001 C CNN
+F 1 "+3V3" H 1980 6270 50  0000 C CNN
+F 2 "" H 2130 6190 50  0001 C CNN
+F 3 "" H 2130 6190 50  0001 C CNN
+	1    2130 6190
 	1    0    0    -1  
 $EndComp
-Text Notes 1960 6350 0    79   ~ 16
+Text Notes 1950 5950 0    79   ~ 16
 Low Power 3V3 Rail
-Text HLabel 1930 6760 0    50   Input ~ 0
+Text HLabel 1920 6360 0    50   Input ~ 0
 LP3V3
 Wire Wire Line
-	2140 6760 2140 6590
+	2130 6360 2130 6190
 Wire Wire Line
-	1930 6760 2140 6760
+	1920 6360 2130 6360
 Wire Wire Line
 	3390 5460 3390 6560
-Wire Wire Line
-	2080 5460 3390 5460
-Wire Wire Line
-	3800 4290 3800 5140
-Wire Wire Line
-	2090 4290 3800 4290
-Wire Wire Line
-	4140 840  4140 1800
 $Comp
 L Connector:Screw_Terminal_01x01 J?
 U 1 1 5C5A4CC0
@@ -1169,17 +1091,29 @@ Wire Wire Line
 	6480 5140 7120 5140
 Connection ~ 4960 5380
 Wire Wire Line
-	3630 5380 3630 4730
-Wire Wire Line
-	3630 4730 1900 4730
-Wire Wire Line
 	3630 5380 4960 5380
-Text HLabel 1900 4730 0    50   Input ~ 0
+Text HLabel 1890 4540 0    50   Input ~ 0
 LP_Vin+
 Wire Wire Line
 	6860 4620 6860 5380
-Text Notes 1910 4580 0    79   ~ 16
+Text Notes 1920 4290 0    79   ~ 16
 Low Power Battery Input
 Text Notes 4860 7720 0    79   ~ 16
 Current Sensor Array
+Wire Wire Line
+	3630 4540 3630 5380
+Wire Wire Line
+	1890 4540 3630 4540
+Wire Wire Line
+	4140 840  4140 2170
+Wire Wire Line
+	1900 2170 4140 2170
+Wire Wire Line
+	1900 3120 4450 3120
+Wire Wire Line
+	1900 3850 3800 3850
+Wire Wire Line
+	1870 5460 3390 5460
+Wire Wire Line
+	3800 3850 3800 5140
 $EndSCHEMATC
