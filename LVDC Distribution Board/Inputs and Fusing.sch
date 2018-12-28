@@ -20,8 +20,8 @@ $Comp
 L Device:Q_NMOS_GDS Q202
 U 1 1 5C01F186
 P 7520 4170
-F 0 "Q202" V 7770 4170 50  0000 C CNN
-F 1 "Q_NMOS_GDS" V 7861 4170 50  0000 C CNN
+F 0 "Q202" V 7760 4420 50  0000 C CNN
+F 1 "Q_NMOS_GDS" V 7760 4050 50  0000 C CNN
 F 2 "" H 7720 4270 50  0001 C CNN
 F 3 "DMTH6004SK3-13DICT-ND" H 7520 4170 50  0001 C CNN
 	1    7520 4170
@@ -60,8 +60,8 @@ $Comp
 L Device:Q_NMOS_GDS Q201
 U 1 1 5C02823A
 P 6600 4170
-F 0 "Q201" V 6850 4170 50  0000 C CNN
-F 1 "Q_NMOS_GDS" V 6941 4170 50  0000 C CNN
+F 0 "Q201" V 6820 3930 50  0000 C CNN
+F 1 "Q_NMOS_GDS" V 6830 4480 50  0000 C CNN
 F 2 "" H 6800 4270 50  0001 C CNN
 F 3 "DMTH6004SK3-13DICT-ND" H 6600 4170 50  0001 C CNN
 	1    6600 4170
@@ -85,7 +85,7 @@ L Device:R_US R210
 U 1 1 5C0292B3
 P 6970 3980
 F 0 "R210" H 6902 3934 50  0000 R CNN
-F 1 "200k" H 6902 4025 50  0000 R CNN
+F 1 "500k" H 6902 4025 50  0000 R CNN
 F 2 "" V 7010 3970 50  0001 C CNN
 F 3 "~" H 6970 3980 50  0001 C CNN
 	1    6970 3980
@@ -100,9 +100,6 @@ Wire Wire Line
 Connection ~ 6970 3760
 Wire Wire Line
 	6970 3760 6970 3680
-Connection ~ 6970 4270
-Wire Wire Line
-	6970 4270 7320 4270
 Wire Wire Line
 	7520 3770 7910 3770
 Wire Wire Line
@@ -123,7 +120,7 @@ L Device:R_US R212
 U 1 1 5C0211AB
 P 7910 4010
 F 0 "R212" H 7842 3964 50  0000 R CNN
-F 1 "200k" H 7842 4055 50  0000 R CNN
+F 1 "500k" H 7842 4055 50  0000 R CNN
 F 2 "" V 7950 4000 50  0001 C CNN
 F 3 "~" H 7910 4010 50  0001 C CNN
 	1    7910 4010
@@ -172,7 +169,6 @@ F 3 "~" H 5540 3550 50  0001 C CNN
 	1    5540 3550
 	-1   0    0    1   
 $EndComp
-Connection ~ 5360 4270
 Wire Wire Line
 	5170 3770 5170 3700
 Wire Wire Line
@@ -199,8 +195,6 @@ F 3 "~" H 2040 3310 50  0001 C CNN
 	1    2040 3310
 	-1   0    0    1   
 $EndComp
-Text Notes 5420 4500 0    47   Italic 9
-BAT_GND
 Text GLabel 3640 1500 2    47   Output Italic 0
 LPBAT_Voltage
 Text GLabel 3580 2920 2    47   Output Italic 0
@@ -221,13 +215,12 @@ L Connector:Screw_Terminal_01x01 J203
 U 1 1 5C03BA42
 P 2040 4810
 F 0 "J203" H 1960 4585 50  0000 C CNN
-F 1 "BAT_LP_IN-" H 1960 4676 50  0000 C CNN
+F 1 "BAT_HP_IN-" H 1960 4676 50  0000 C CNN
 F 2 "" H 2040 4810 50  0001 C CNN
 F 3 "~" H 2040 4810 50  0001 C CNN
 	1    2040 4810
 	-1   0    0    1   
 $EndComp
-Connection ~ 5170 4270
 Text Notes 1920 1460 0    47   Italic 9
 BATTERY INPUTS
 Text Notes 6510 3080 0    47   Italic 9
@@ -236,10 +229,6 @@ Text Notes 7200 4670 0    20   Italic 4
 Rerverse Voltage Polarity Protection \nIf any battery is installed backwards,\nno current will flow, protecting downstream circuitry
 Text Notes 1960 2640 0    50   ~ 0
 Lug Terminals
-Wire Wire Line
-	5360 4490 5360 4270
-Wire Wire Line
-	5360 4270 5540 4270
 Wire Wire Line
 	5540 4070 5540 4270
 Wire Wire Line
@@ -268,7 +257,6 @@ F 3 "620-1482-1-ND" H 3870 3560 50  0001 C CNN
 	1    3970 3560
 	1    0    0    -1  
 $EndComp
-Connection ~ 5540 4270
 Wire Wire Line
 	5170 2420 5170 3400
 Wire Wire Line
@@ -341,9 +329,6 @@ Wire Wire Line
 Wire Wire Line
 	3410 3310 3520 3310
 Connection ~ 3410 3310
-Connection ~ 2990 4270
-Wire Wire Line
-	2990 4270 2990 4810
 Wire Wire Line
 	3520 3610 3320 3610
 Wire Wire Line
@@ -429,22 +414,7 @@ Wire Wire Line
 Wire Wire Line
 	3410 2920 3580 2920
 Wire Wire Line
-	5170 4270 5360 4270
-Wire Wire Line
 	5540 4270 6400 4270
-Wire Wire Line
-	2990 4270 5170 4270
-$Comp
-L power:Earth #PWR0106
-U 1 1 5C034112
-P 5360 4490
-F 0 "#PWR0106" H 5360 4240 50  0001 C CNN
-F 1 "Earth" H 5360 4340 50  0001 C CNN
-F 2 "" H 5360 4490 50  0001 C CNN
-F 3 "~" H 5360 4490 50  0001 C CNN
-	1    5360 4490
-	1    0    0    -1  
-$EndComp
 Text Notes 4140 3160 0    50   ~ 0
 +-15A Capable
 $Comp
@@ -483,10 +453,6 @@ Wire Wire Line
 	2720 3310 3410 3310
 Wire Wire Line
 	2420 3310 2240 3310
-Wire Wire Line
-	2240 4810 2990 4810
-Wire Wire Line
-	2230 4270 2990 4270
 Text HLabel 8430 2420 2    50   Output ~ 0
 LP_Vin+
 Text HLabel 8440 3240 2    50   Output ~ 0
@@ -643,4 +609,27 @@ Text GLabel 5410 5570 2    47   Output Italic 0
 HPBAT_VSense
 Text Notes 3500 5010 0    50   ~ 0
 Battery Voltage Sense (30V --> 3V)
+Wire Wire Line
+	6970 4270 6970 4500
+Wire Wire Line
+	6970 4500 7910 4500
+Wire Wire Line
+	7910 4500 7910 4280
+Connection ~ 6970 4270
+Wire Wire Line
+	2230 4270 5170 4270
+Wire Wire Line
+	5540 4270 5540 4810
+Wire Wire Line
+	2240 4810 5540 4810
+Connection ~ 5540 4270
+Wire Wire Line
+	7320 4270 7140 4270
+Wire Wire Line
+	7140 4270 7140 4450
+Wire Wire Line
+	7140 4450 5170 4450
+Wire Wire Line
+	5170 4450 5170 4270
+Connection ~ 5170 4270
 $EndSCHEMATC

@@ -542,7 +542,7 @@ Wire Wire Line
 	6860 6560 6860 5890
 Connection ~ 6030 6560
 Wire Wire Line
-	5950 1140 6030 1140
+	5950 1140 6010 1140
 Wire Wire Line
 	5950 2400 6000 2400
 Wire Wire Line
@@ -553,7 +553,7 @@ Wire Wire Line
 	5930 5680 6010 5680
 Wire Wire Line
 	5930 6860 6010 6860
-Text GLabel 6030 1140 2    50   Output ~ 0
+Text GLabel 6010 1140 2    50   Output ~ 0
 LP12V_Output_Current
 Text GLabel 6000 2400 2    50   Output ~ 0
 Inverter12V_Current

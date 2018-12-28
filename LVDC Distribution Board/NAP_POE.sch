@@ -152,4 +152,12 @@ NoConn ~ 7080 3850
 NoConn ~ 7080 3950
 NoConn ~ 7080 4450
 NoConn ~ 7080 4550
+Text Label 6080 2630 0    50   ~ 0
+TX-
+Text Label 6090 2330 0    50   ~ 0
+TX+
+Text Label 6090 2230 0    50   ~ 0
+RX-
+Text Label 6090 2130 0    50   ~ 0
+RX+
 $EndSCHEMATC
