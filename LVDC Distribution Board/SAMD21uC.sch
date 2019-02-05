@@ -7994,7 +7994,7 @@ U 1 1 5D54CEB5
 P 1700 2480
 F 0 "F501" V 1503 2480 50  0000 C CNN
 F 1 "500mA" V 1594 2480 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_FAB_0031-355x_Horizontal_Closed" V 1630 2480 50  0001 C CNN
+F 2 "LVDC:Fuse_clip_Littelfuse_5x20mm" V 1630 2480 50  0001 C CNN
 F 3 "~" H 1700 2480 50  0001 C CNN
 	1    1700 2480
 	0    1    1    0   
@@ -8129,7 +8129,7 @@ U 1 1 5D55FA72
 P 1300 4410
 F 0 "J502" H 1350 4827 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1350 4736 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1300 4410 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 1300 4410 50  0001 C CNN
 F 3 "~" H 1300 4410 50  0001 C CNN
 	1    1300 4410
 	1    0    0    -1  
