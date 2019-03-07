@@ -142,4 +142,81 @@ Wire Wire Line
 	6300 3030 4620 3030
 Wire Wire Line
 	6300 4160 6530 4160
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5C8309D4
+P 10300 6075
+F 0 "H3" H 10400 6126 50  0000 L CNN
+F 1 "Mount" H 10400 6035 50  0000 L CNN
+F 2 "µ104KiCAD:3.4mm_mounting_hole_SILK" H 10300 6075 50  0001 C CNN
+F 3 "~" H 10300 6075 50  0001 C CNN
+	1    10300 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C830BC6
+P 10300 5825
+F 0 "H1" H 10400 5876 50  0000 L CNN
+F 1 "Mount" H 10400 5785 50  0000 L CNN
+F 2 "µ104KiCAD:3.4mm_mounting_hole_SILK" H 10300 5825 50  0001 C CNN
+F 3 "~" H 10300 5825 50  0001 C CNN
+	1    10300 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5C830BF2
+P 10725 5825
+F 0 "H2" H 10825 5876 50  0000 L CNN
+F 1 "Mount" H 10825 5785 50  0000 L CNN
+F 2 "µ104KiCAD:3.4mm_mounting_hole_SILK" H 10725 5825 50  0001 C CNN
+F 3 "~" H 10725 5825 50  0001 C CNN
+	1    10725 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5C830C2E
+P 10725 6075
+F 0 "H4" H 10825 6126 50  0000 L CNN
+F 1 "Mount" H 10825 6035 50  0000 L CNN
+F 2 "µ104KiCAD:3.4mm_mounting_hole_SILK" H 10725 6075 50  0001 C CNN
+F 3 "~" H 10725 6075 50  0001 C CNN
+	1    10725 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo2
+U 1 1 5C830CFA
+P 10375 5475
+F 0 "lo2" H 10553 5513 39  0000 L CNN
+F 1 "Logo" H 10553 5438 39  0000 L CNN
+F 2 "µ104KiCAD:ParadigmLogo_0_5x0_5" H 10375 5475 39  0001 C CNN
+F 3 "" H 10375 5475 39  0001 C CNN
+	1    10375 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo1
+U 1 1 5C830E1C
+P 10375 5325
+F 0 "lo1" H 10553 5363 39  0000 L CNN
+F 1 "Serial Block" H 10553 5288 39  0000 L CNN
+F 2 "µ104KiCAD:SN_BLOCK" H 10375 5325 39  0001 C CNN
+F 3 "" H 10375 5325 39  0001 C CNN
+	1    10375 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo3
+U 1 1 5C8321C7
+P 10375 5625
+F 0 "lo3" H 10553 5663 39  0000 L CNN
+F 1 "Logo" H 10553 5588 39  0000 L CNN
+F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 10375 5625 39  0001 C CNN
+F 3 "" H 10375 5625 39  0001 C CNN
+	1    10375 5625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

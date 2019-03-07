@@ -916,6 +916,22 @@ X GNDA 9 -1350 -250 300 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Regulator_Linear_AZ1117-3.3
 #
 DEF Regulator_Linear_AZ1117-3.3 U 0 10 Y Y 1 F N
@@ -997,6 +1013,18 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# u104_KICAD_misc_Logo
+#
+DEF u104_KICAD_misc_Logo logo 0 40 Y Y 1 F N
+F0 "logo" -50 100 39 H V C CNN
+F1 "u104_KICAD_misc_Logo" 0 0 39 H V C CNN
+F2 "" 0 0 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+DRAW
+S -150 50 150 -50 0 1 0 N
 ENDDRAW
 ENDDEF
 #
