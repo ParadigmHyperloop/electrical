@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name node-rescue)(type Legacy)(uri ${KIPRJMOD}/node-rescue.lib)(options "")(descr ""))
-  (lib (name hyper_capstone)(type Legacy)(uri ${KIPRJMOD}/hyper_capstone.lib)(options "")(descr ""))
-)
