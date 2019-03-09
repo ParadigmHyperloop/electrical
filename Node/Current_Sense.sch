@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -18,7 +17,7 @@ $EndDescr
 Text HLabel 4550 1600 2    60   Output ~ 0
 out_1
 $Comp
-L R R1005
+L node-rescue:R R1005
 U 1 1 59F12C7E
 P 2200 1800
 F 0 "R1005" H 2100 1950 50  0000 C CNN
@@ -29,7 +28,7 @@ F 3 "" H 2200 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J1001
+L node-rescue:Conn_01x03 J1001
 U 1 1 59F12EE2
 P 1150 1500
 F 0 "J1001" H 1150 1300 50  0000 C CNN
@@ -43,7 +42,7 @@ F 6 "A19470-ND" H 1150 1500 60  0001 C CNN "Vendor Part Num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LM358 U1001
+L node-rescue:LM358 U1001
 U 1 1 59F15A26
 P 3300 1600
 F 0 "U1001" H 3300 1800 50  0000 L CNN
@@ -57,7 +56,7 @@ F 6 "296-14601-1-ND" H 3300 1600 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR082
+L node-rescue:+5V #PWR082
 U 1 1 5A0B8F0B
 P 1450 1250
 F 0 "#PWR082" H 1450 1100 50  0001 C CNN
@@ -68,7 +67,7 @@ F 3 "" H 1450 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR083
+L node-rescue:GND #PWR083
 U 1 1 5A0B9017
 P 1450 1750
 F 0 "#PWR083" H 1450 1500 50  0001 C CNN
@@ -79,7 +78,7 @@ F 3 "" H 1450 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR084
+L node-rescue:GND #PWR084
 U 1 1 5A0B9199
 P 2200 2000
 F 0 "#PWR084" H 2200 1750 50  0001 C CNN
@@ -90,7 +89,7 @@ F 3 "" H 2200 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1017
+L node-rescue:R R1017
 U 1 1 5A0BA528
 P 3500 2000
 F 0 "R1017" V 3580 2000 50  0000 C CNN
@@ -101,7 +100,7 @@ F 3 "" H 3500 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1013
+L node-rescue:R R1013
 U 1 1 5A0BA601
 P 2750 2000
 F 0 "R1013" V 2830 2000 50  0000 C CNN
@@ -112,7 +111,7 @@ F 3 "" H 2750 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR085
+L node-rescue:GND #PWR085
 U 1 1 5A0BABD3
 P 3200 2100
 F 0 "#PWR085" H 3200 1850 50  0001 C CNN
@@ -123,7 +122,7 @@ F 3 "" H 3200 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR086
+L node-rescue:+5V #PWR086
 U 1 1 5A0BB106
 P 2500 1850
 F 0 "#PWR086" H 2500 1700 50  0001 C CNN
@@ -134,7 +133,7 @@ F 3 "" H 2500 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR087
+L node-rescue:+5V #PWR087
 U 1 1 5A0BB212
 P 3200 1200
 F 0 "#PWR087" H 3200 1050 50  0001 C CNN
@@ -145,7 +144,7 @@ F 3 "" H 3200 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1001
+L node-rescue:R R1001
 U 1 1 5A0BBB86
 P 1850 1500
 F 0 "R1001" V 1930 1500 50  0000 C CNN
@@ -156,7 +155,7 @@ F 3 "" H 1850 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1009
+L node-rescue:R R1009
 U 1 1 5A0BC1EB
 P 2650 850
 F 0 "R1009" V 2730 850 50  0000 C CNN
@@ -169,7 +168,7 @@ $EndComp
 Text Notes 2050 750  0    60   ~ 0
 Stuff bypass 0Ω and unstuff series 0Ωs\nconverts to normal 0-5V input
 $Comp
-L R R1021
+L node-rescue:R R1021
 U 1 1 5A0BCADB
 P 4050 1600
 F 0 "R1021" V 4130 1600 50  0000 C CNN
@@ -231,7 +230,7 @@ Connection ~ 4350 1600
 Wire Wire Line
 	1350 1500 1700 1500
 $Comp
-L C C1001
+L node-rescue:C C1001
 U 1 1 5A0BD6E2
 P 4450 1900
 F 0 "C1001" H 4475 2000 50  0000 L CNN
@@ -247,7 +246,7 @@ Connection ~ 4450 1600
 Wire Wire Line
 	4450 2050 4450 2150
 $Comp
-L GND #PWR088
+L node-rescue:GND #PWR088
 U 1 1 5A0BD766
 P 4450 2150
 F 0 "#PWR088" H 4450 1900 50  0001 C CNN
@@ -264,7 +263,7 @@ Make sure to leave\nspace around connector
 Text HLabel 4550 3300 2    60   Output ~ 0
 out_2
 $Comp
-L R R1006
+L node-rescue:R R1006
 U 1 1 5A0BE9DC
 P 2200 3500
 F 0 "R1006" H 2100 3650 50  0000 C CNN
@@ -275,7 +274,7 @@ F 3 "" H 2200 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM358 U1001
+L node-rescue:LM358 U1001
 U 2 1 5A0BE9EE
 P 3300 3300
 F 0 "U1001" H 3300 3500 50  0000 L CNN
@@ -289,7 +288,7 @@ F 6 "296-14601-1-ND" H 3300 3300 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR089
+L node-rescue:+5V #PWR089
 U 1 1 5A0BE9F4
 P 1450 2950
 F 0 "#PWR089" H 1450 2800 50  0001 C CNN
@@ -300,7 +299,7 @@ F 3 "" H 1450 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR090
+L node-rescue:GND #PWR090
 U 1 1 5A0BE9FA
 P 1450 3450
 F 0 "#PWR090" H 1450 3200 50  0001 C CNN
@@ -311,7 +310,7 @@ F 3 "" H 1450 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR091
+L node-rescue:GND #PWR091
 U 1 1 5A0BEA00
 P 2200 3700
 F 0 "#PWR091" H 2200 3450 50  0001 C CNN
@@ -322,7 +321,7 @@ F 3 "" H 2200 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1018
+L node-rescue:R R1018
 U 1 1 5A0BEA06
 P 3500 3700
 F 0 "R1018" V 3580 3700 50  0000 C CNN
@@ -333,7 +332,7 @@ F 3 "" H 3500 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1014
+L node-rescue:R R1014
 U 1 1 5A0BEA0C
 P 2750 3700
 F 0 "R1014" V 2830 3700 50  0000 C CNN
@@ -344,7 +343,7 @@ F 3 "" H 2750 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR092
+L node-rescue:GND #PWR092
 U 1 1 5A0BEA12
 P 3200 3800
 F 0 "#PWR092" H 3200 3550 50  0001 C CNN
@@ -355,7 +354,7 @@ F 3 "" H 3200 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR093
+L node-rescue:+5V #PWR093
 U 1 1 5A0BEA18
 P 2500 3550
 F 0 "#PWR093" H 2500 3400 50  0001 C CNN
@@ -366,7 +365,7 @@ F 3 "" H 2500 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR094
+L node-rescue:+5V #PWR094
 U 1 1 5A0BEA1E
 P 3200 2900
 F 0 "#PWR094" H 3200 2750 50  0001 C CNN
@@ -377,7 +376,7 @@ F 3 "" H 3200 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1002
+L node-rescue:R R1002
 U 1 1 5A0BEA24
 P 1850 3200
 F 0 "R1002" V 1930 3200 50  0000 C CNN
@@ -388,7 +387,7 @@ F 3 "" H 1850 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1010
+L node-rescue:R R1010
 U 1 1 5A0BEA2A
 P 2650 2550
 F 0 "R1010" V 2730 2550 50  0000 C CNN
@@ -399,7 +398,7 @@ F 3 "" H 2650 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1022
+L node-rescue:R R1022
 U 1 1 5A0BEA30
 P 4050 3300
 F 0 "R1022" V 4130 3300 50  0000 C CNN
@@ -461,7 +460,7 @@ Connection ~ 4350 3300
 Wire Wire Line
 	1350 3200 1700 3200
 $Comp
-L C C1002
+L node-rescue:C C1002
 U 1 1 5A0BEA52
 P 4450 3600
 F 0 "C1002" H 4475 3700 50  0000 L CNN
@@ -477,7 +476,7 @@ Connection ~ 4450 3300
 Wire Wire Line
 	4450 3750 4450 3850
 $Comp
-L GND #PWR095
+L node-rescue:GND #PWR095
 U 1 1 5A0BEA5B
 P 4450 3850
 F 0 "#PWR095" H 4450 3600 50  0001 C CNN
@@ -490,7 +489,7 @@ $EndComp
 Text HLabel 4550 5000 2    60   Output ~ 0
 out_3
 $Comp
-L R R1007
+L node-rescue:R R1007
 U 1 1 5A0BEC63
 P 2200 5200
 F 0 "R1007" H 2100 5350 50  0000 C CNN
@@ -501,7 +500,7 @@ F 3 "" H 2200 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM358 U1002
+L node-rescue:LM358 U1002
 U 1 1 5A0BEC75
 P 3300 5000
 F 0 "U1002" H 3300 5200 50  0000 L CNN
@@ -515,7 +514,7 @@ F 6 "296-14601-1-ND" H 3300 5000 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR096
+L node-rescue:+5V #PWR096
 U 1 1 5A0BEC7B
 P 1450 4650
 F 0 "#PWR096" H 1450 4500 50  0001 C CNN
@@ -526,7 +525,7 @@ F 3 "" H 1450 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR097
+L node-rescue:GND #PWR097
 U 1 1 5A0BEC81
 P 1450 5150
 F 0 "#PWR097" H 1450 4900 50  0001 C CNN
@@ -537,7 +536,7 @@ F 3 "" H 1450 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR098
+L node-rescue:GND #PWR098
 U 1 1 5A0BEC87
 P 2200 5400
 F 0 "#PWR098" H 2200 5150 50  0001 C CNN
@@ -548,7 +547,7 @@ F 3 "" H 2200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1019
+L node-rescue:R R1019
 U 1 1 5A0BEC8D
 P 3500 5400
 F 0 "R1019" V 3580 5400 50  0000 C CNN
@@ -559,7 +558,7 @@ F 3 "" H 3500 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1015
+L node-rescue:R R1015
 U 1 1 5A0BEC93
 P 2750 5400
 F 0 "R1015" V 2830 5400 50  0000 C CNN
@@ -570,7 +569,7 @@ F 3 "" H 2750 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR099
+L node-rescue:GND #PWR099
 U 1 1 5A0BEC99
 P 3200 5500
 F 0 "#PWR099" H 3200 5250 50  0001 C CNN
@@ -581,7 +580,7 @@ F 3 "" H 3200 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0100
+L node-rescue:+5V #PWR0100
 U 1 1 5A0BEC9F
 P 2500 5250
 F 0 "#PWR0100" H 2500 5100 50  0001 C CNN
@@ -592,7 +591,7 @@ F 3 "" H 2500 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0101
+L node-rescue:+5V #PWR0101
 U 1 1 5A0BECA5
 P 3200 4600
 F 0 "#PWR0101" H 3200 4450 50  0001 C CNN
@@ -603,7 +602,7 @@ F 3 "" H 3200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1003
+L node-rescue:R R1003
 U 1 1 5A0BECAB
 P 1850 4900
 F 0 "R1003" V 1930 4900 50  0000 C CNN
@@ -614,7 +613,7 @@ F 3 "" H 1850 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1011
+L node-rescue:R R1011
 U 1 1 5A0BECB1
 P 2650 4250
 F 0 "R1011" V 2730 4250 50  0000 C CNN
@@ -625,7 +624,7 @@ F 3 "" H 2650 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1023
+L node-rescue:R R1023
 U 1 1 5A0BECB7
 P 4050 5000
 F 0 "R1023" V 4130 5000 50  0000 C CNN
@@ -687,7 +686,7 @@ Connection ~ 4350 5000
 Wire Wire Line
 	1350 4900 1700 4900
 $Comp
-L C C1003
+L node-rescue:C C1003
 U 1 1 5A0BECD9
 P 4450 5300
 F 0 "C1003" H 4475 5400 50  0000 L CNN
@@ -703,7 +702,7 @@ Connection ~ 4450 5000
 Wire Wire Line
 	4450 5450 4450 5550
 $Comp
-L GND #PWR0102
+L node-rescue:GND #PWR0102
 U 1 1 5A0BECE2
 P 4450 5550
 F 0 "#PWR0102" H 4450 5300 50  0001 C CNN
@@ -716,7 +715,7 @@ $EndComp
 Text HLabel 4550 6750 2    60   Output ~ 0
 out_4
 $Comp
-L R R1008
+L node-rescue:R R1008
 U 1 1 5A0BF06D
 P 2200 6950
 F 0 "R1008" H 2100 7100 50  0000 C CNN
@@ -727,7 +726,7 @@ F 3 "" H 2200 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM358 U1002
+L node-rescue:LM358 U1002
 U 2 1 5A0BF07F
 P 3300 6750
 F 0 "U1002" H 3300 6950 50  0000 L CNN
@@ -741,7 +740,7 @@ F 6 "296-14601-1-ND" H 3300 6750 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0103
+L node-rescue:+5V #PWR0103
 U 1 1 5A0BF085
 P 1450 6400
 F 0 "#PWR0103" H 1450 6250 50  0001 C CNN
@@ -752,7 +751,7 @@ F 3 "" H 1450 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0104
+L node-rescue:GND #PWR0104
 U 1 1 5A0BF08B
 P 1450 6900
 F 0 "#PWR0104" H 1450 6650 50  0001 C CNN
@@ -763,7 +762,7 @@ F 3 "" H 1450 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0105
+L node-rescue:GND #PWR0105
 U 1 1 5A0BF091
 P 2200 7150
 F 0 "#PWR0105" H 2200 6900 50  0001 C CNN
@@ -774,7 +773,7 @@ F 3 "" H 2200 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1020
+L node-rescue:R R1020
 U 1 1 5A0BF097
 P 3500 7150
 F 0 "R1020" V 3580 7150 50  0000 C CNN
@@ -785,7 +784,7 @@ F 3 "" H 3500 7150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1016
+L node-rescue:R R1016
 U 1 1 5A0BF09D
 P 2750 7150
 F 0 "R1016" V 2830 7150 50  0000 C CNN
@@ -796,7 +795,7 @@ F 3 "" H 2750 7150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0106
+L node-rescue:GND #PWR0106
 U 1 1 5A0BF0A3
 P 3200 7250
 F 0 "#PWR0106" H 3200 7000 50  0001 C CNN
@@ -807,7 +806,7 @@ F 3 "" H 3200 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0107
+L node-rescue:+5V #PWR0107
 U 1 1 5A0BF0A9
 P 2500 7000
 F 0 "#PWR0107" H 2500 6850 50  0001 C CNN
@@ -818,7 +817,7 @@ F 3 "" H 2500 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0108
+L node-rescue:+5V #PWR0108
 U 1 1 5A0BF0AF
 P 3200 6350
 F 0 "#PWR0108" H 3200 6200 50  0001 C CNN
@@ -829,7 +828,7 @@ F 3 "" H 3200 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1004
+L node-rescue:R R1004
 U 1 1 5A0BF0B5
 P 1850 6650
 F 0 "R1004" V 1930 6650 50  0000 C CNN
@@ -840,7 +839,7 @@ F 3 "" H 1850 6650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1012
+L node-rescue:R R1012
 U 1 1 5A0BF0BB
 P 2650 6000
 F 0 "R1012" V 2730 6000 50  0000 C CNN
@@ -851,7 +850,7 @@ F 3 "" H 2650 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1024
+L node-rescue:R R1024
 U 1 1 5A0BF0C1
 P 4050 6750
 F 0 "R1024" V 4130 6750 50  0000 C CNN
@@ -913,7 +912,7 @@ Connection ~ 4350 6750
 Wire Wire Line
 	1350 6650 1700 6650
 $Comp
-L C C1004
+L node-rescue:C C1004
 U 1 1 5A0BF0E3
 P 4450 7050
 F 0 "C1004" H 4475 7150 50  0000 L CNN
@@ -929,7 +928,7 @@ Connection ~ 4450 6750
 Wire Wire Line
 	4450 7200 4450 7300
 $Comp
-L GND #PWR0109
+L node-rescue:GND #PWR0109
 U 1 1 5A0BF0EC
 P 4450 7300
 F 0 "#PWR0109" H 4450 7050 50  0001 C CNN
@@ -942,7 +941,7 @@ $EndComp
 Text Notes 4900 1050 0    60   ~ 0
 Operating equation:\nV_out = 1.25 * (I_in*250Ω - 1V)
 $Comp
-L Conn_01x03 J1002
+L node-rescue:Conn_01x03 J1002
 U 1 1 5A0B6D0A
 P 1150 3200
 F 0 "J1002" H 1150 3000 50  0000 C CNN
@@ -956,7 +955,7 @@ F 6 "A19470-ND" H 1150 3200 60  0001 C CNN "Vendor Part Num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x03 J1003
+L node-rescue:Conn_01x03 J1003
 U 1 1 5A0B6DEF
 P 1150 4900
 F 0 "J1003" H 1150 4700 50  0000 C CNN
@@ -970,7 +969,7 @@ F 6 "A19470-ND" H 1150 4900 60  0001 C CNN "Vendor Part Num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x03 J1004
+L node-rescue:Conn_01x03 J1004
 U 1 1 5A0B6E86
 P 1150 6650
 F 0 "J1004" H 1150 6450 50  0000 C CNN

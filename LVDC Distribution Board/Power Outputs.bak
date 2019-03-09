@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -992,7 +992,7 @@ F 3 "" H 2130 6190 50  0001 C CNN
 	1    2130 6190
 	1    0    0    -1  
 $EndComp
-Text Notes 1950 5950 0    79   ~ 16
+Text Notes 2000 6000 0    79   ~ 16
 Low Power 3V3 Rail
 Text HLabel 1920 6360 0    50   Input ~ 0
 LP3V3
@@ -1530,4 +1530,23 @@ F 3 "" H 5050 1240 50  0001 C CNN
 	1    5050 1240
 	0    1    1    0   
 $EndComp
+Text HLabel 1850 7050 0    50   Input ~ 0
+LP5V
+$Comp
+L node-rescue:+5V #PWR?
+U 1 1 5C8DD805
+P 2100 6850
+F 0 "#PWR?" H 2100 6700 50  0001 C CNN
+F 1 "+5V" H 2115 7023 50  0000 C CNN
+F 2 "" H 2100 6850 50  0001 C CNN
+F 3 "" H 2100 6850 50  0001 C CNN
+	1    2100 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 7050 2100 7050
+Wire Wire Line
+	2100 7050 2100 6850
+Text Notes 1900 6550 0    79   ~ 16
+Low Power 5V Rail
 $EndSCHEMATC

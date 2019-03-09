@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,7 +29,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 1950 2600 1950
 $Comp
-L GND #PWR063
+L node-rescue:GND #PWR063
 U 1 1 59EE3A04
 P 2600 2250
 F 0 "#PWR063" H 2600 2000 60  0001 C CNN
@@ -56,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 1950 3250 1950
 $Comp
-L Conn_02x02_Odd_Even J801
+L node-rescue:Conn_02x02_Odd_Even J801
 U 1 1 5A208E50
 P 2950 1300
 F 0 "J801" H 3000 1400 50  0000 C CNN
@@ -71,7 +70,7 @@ F 7 "609-3242-ND" H 2950 1300 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x01 J802
+L node-rescue:Conn_02x01 J802
 U 1 1 5A208E91
 P 2950 1700
 F 0 "J802" H 3000 1800 50  0000 C CNN
@@ -89,7 +88,7 @@ Wire Wire Line
 	2750 1700 2600 1700
 Connection ~ 2600 1950
 $Comp
-L Conn_02x01 J803
+L node-rescue:Conn_02x01 J803
 U 1 1 5A7168C7
 P 2950 1950
 F 0 "J803" H 3000 2050 50  0000 C CNN
@@ -104,7 +103,7 @@ F 7 "952-2262-ND" H 2950 1950 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Test_Point TP5
+L node-rescue:Test_Point TP5
 U 1 1 5A71F6F9
 P 2600 1300
 F 0 "TP5" H 2600 1570 50  0000 C CNN

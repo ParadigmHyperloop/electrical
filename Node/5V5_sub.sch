@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,7 +21,7 @@ Text HLabel 10500 3600 2    60   Output ~ 0
 Text HLabel 3150 2700 0    60   Input ~ 0
 ENABLE
 $Comp
-L TPS54361 U501
+L node-rescue:TPS54361 U501
 U 1 1 59F1BB94
 P 4850 3950
 F 0 "U501" H 4450 4600 60  0000 C CNN
@@ -37,7 +36,7 @@ F 7 "Digi-Key" H 4850 3950 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R501
+L node-rescue:R_large R501
 U 1 1 59F1BB9F
 P 1500 3500
 F 0 "R501" V 1400 3500 50  0000 C CNN
@@ -56,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 3500 4200 3500
 $Comp
-L R_large R503
+L node-rescue:R_large R503
 U 1 1 59F1BBAC
 P 3650 3700
 F 0 "R503" V 3550 3700 50  0000 C CNN
@@ -79,7 +78,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 3900 2850 4000
 $Comp
-L R_large R502
+L node-rescue:R_large R502
 U 1 1 59F1BBBD
 P 2850 4250
 F 0 "R502" H 3000 4450 50  0000 C CNN
@@ -98,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 4100 3350 4250
 $Comp
-L C_large C503
+L node-rescue:C_large C503
 U 1 1 59F1BBCA
 P 3350 4450
 F 0 "C503" H 3400 4550 50  0000 L CNN
@@ -117,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 4300 3800 4700
 $Comp
-L C_large C504
+L node-rescue:C_large C504
 U 1 1 59F1BBD7
 P 3800 4900
 F 0 "C504" H 3850 5000 50  0000 L CNN
@@ -132,7 +131,7 @@ F 7 "Digi-Key" H 3800 4900 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R504
+L node-rescue:R_large R504
 U 1 1 59F1BBE2
 P 4250 4900
 F 0 "R504" H 4450 5050 50  0000 C CNN
@@ -147,7 +146,7 @@ F 7 "Digi-Key" H 4250 4900 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C505
+L node-rescue:C_large C505
 U 1 1 59F1BBED
 P 4250 5450
 F 0 "C505" H 4300 5550 50  0000 L CNN
@@ -179,7 +178,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 4650 3350 4850
 $Comp
-L GND #PWR034
+L node-rescue:GND #PWR034
 U 1 1 59F1BBFD
 P 3350 4850
 F 0 "#PWR034" H 3350 4600 60  0001 C CNN
@@ -192,7 +191,7 @@ $EndComp
 Wire Wire Line
 	2850 4500 2850 4850
 $Comp
-L GND #PWR035
+L node-rescue:GND #PWR035
 U 1 1 59F1BC04
 P 2850 4850
 F 0 "#PWR035" H 2850 4600 60  0001 C CNN
@@ -204,7 +203,7 @@ F 3 "" H 2850 4850 60  0000 C CNN
 $EndComp
 Connection ~ 3800 5750
 $Comp
-L GND #PWR036
+L node-rescue:GND #PWR036
 U 1 1 59F1BC0B
 P 3800 5800
 F 0 "#PWR036" H 3800 5550 60  0001 C CNN
@@ -215,7 +214,7 @@ F 3 "" H 3800 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C506
+L node-rescue:C_large C506
 U 1 1 59F1BC15
 P 6000 3600
 F 0 "C506" V 5850 3550 50  0000 L CNN
@@ -242,7 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3600 6250 4200
 $Comp
-L L_large L501
+L node-rescue:L_large L501
 U 1 1 59F1BC26
 P 6700 3600
 F 0 "L501" V 6800 3600 50  0000 C CNN
@@ -257,7 +256,7 @@ F 7 "Digi-Key" H 6700 3600 60  0001 C CNN "Vendor Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODESCH D501
+L node-rescue:DIODESCH D501
 U 1 1 59F1BC31
 P 6250 4400
 F 0 "D501" V 6350 4250 50  0000 C CNN
@@ -276,7 +275,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 4300 5750 4450
 $Comp
-L GND #PWR037
+L node-rescue:GND #PWR037
 U 1 1 59F1BC3A
 P 5750 4450
 F 0 "#PWR037" H 5750 4200 60  0001 C CNN
@@ -290,7 +289,7 @@ Connection ~ 6250 3900
 Wire Wire Line
 	6250 4600 6250 4700
 $Comp
-L GND #PWR038
+L node-rescue:GND #PWR038
 U 1 1 59F1BC42
 P 6250 4700
 F 0 "#PWR038" H 6250 4450 60  0001 C CNN
@@ -302,7 +301,7 @@ F 3 "" H 6250 4700 60  0000 C CNN
 $EndComp
 Connection ~ 6250 3600
 $Comp
-L R_large R505
+L node-rescue:R_large R505
 U 1 1 59F1BC4D
 P 7250 3950
 F 0 "R505" H 7400 4100 50  0000 C CNN
@@ -333,7 +332,7 @@ Wire Wire Line
 	7250 3600 7250 3700
 Connection ~ 7250 4300
 $Comp
-L GND #PWR039
+L node-rescue:GND #PWR039
 U 1 1 59F1BC5A
 P 7250 5000
 F 0 "#PWR039" H 7250 4750 60  0001 C CNN
@@ -344,7 +343,7 @@ F 3 "" H 7250 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C507
+L node-rescue:C_large C507
 U 1 1 59F1BC64
 P 7850 3900
 F 0 "C507" H 7900 4000 50  0000 L CNN
@@ -364,7 +363,7 @@ Connection ~ 7250 3600
 Wire Wire Line
 	7850 4100 7850 4250
 $Comp
-L GND #PWR040
+L node-rescue:GND #PWR040
 U 1 1 59F1BC6E
 P 7850 4250
 F 0 "#PWR040" H 7850 4000 60  0001 C CNN
@@ -379,7 +378,7 @@ NoConn ~ 5600 3500
 Wire Wire Line
 	4900 4600 4900 4700
 $Comp
-L GND #PWR041
+L node-rescue:GND #PWR041
 U 1 1 59F1BC77
 P 4900 4700
 F 0 "#PWR041" H 4900 4450 60  0001 C CNN
@@ -390,7 +389,7 @@ F 3 "" H 4900 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C501
+L node-rescue:C_large C501
 U 1 1 59F1BC91
 P 1950 3850
 F 0 "C501" H 2000 3950 50  0000 L CNN
@@ -410,7 +409,7 @@ Connection ~ 1950 3500
 Wire Wire Line
 	1950 4050 1950 4800
 $Comp
-L GND #PWR042
+L node-rescue:GND #PWR042
 U 1 1 59F1BC9B
 P 1950 4800
 F 0 "#PWR042" H 1950 4550 60  0001 C CNN
@@ -421,7 +420,7 @@ F 3 "" H 1950 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Zener_ALT D503
+L node-rescue:D_Zener_ALT D503
 U 1 1 59F1BCB6
 P 9700 4250
 F 0 "D503" V 9800 4150 50  0000 C CNN
@@ -436,7 +435,7 @@ F 7 "Digi-Key" H 9700 4250 60  0001 C CNN "Vendor Name"
 	0    -1   1    0   
 $EndComp
 $Comp
-L R_large R507
+L node-rescue:R_large R507
 U 1 1 59F1BCC4
 P 10350 4500
 F 0 "R507" H 10500 4700 50  0000 C CNN
@@ -453,7 +452,7 @@ $EndComp
 Wire Wire Line
 	9700 4400 9700 4700
 $Comp
-L GND #PWR043
+L node-rescue:GND #PWR043
 U 1 1 59F1BCD5
 P 9700 4700
 F 0 "#PWR043" H 9700 4450 60  0001 C CNN
@@ -469,7 +468,7 @@ Connection ~ 10350 3600
 Wire Wire Line
 	10350 4100 10350 4250
 $Comp
-L GND #PWR044
+L node-rescue:GND #PWR044
 U 1 1 59F1BCE0
 P 10350 4850
 F 0 "#PWR044" H 10350 4600 60  0001 C CNN
@@ -487,7 +486,7 @@ Connection ~ 4000 3700
 Wire Wire Line
 	2350 4050 2350 4800
 $Comp
-L GND #PWR045
+L node-rescue:GND #PWR045
 U 1 1 59F1CBAA
 P 2350 4800
 F 0 "#PWR045" H 2350 4550 60  0001 C CNN
@@ -506,7 +505,7 @@ Connection ~ 9700 3600
 Wire Wire Line
 	10350 4750 10350 4850
 $Comp
-L LED D502
+L node-rescue:LED D502
 U 1 1 59F25D8B
 P 10350 3950
 F 0 "D502" V 10450 4100 50  0000 C CNN
@@ -525,7 +524,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 3600 10500 3600
 $Comp
-L R_large R508
+L node-rescue:R_large R508
 U 1 1 5A10B1CD
 P 7250 4650
 F 0 "R508" H 7400 4800 50  0000 C CNN
@@ -544,7 +543,7 @@ $EndComp
 Wire Wire Line
 	7250 4900 7250 5000
 $Comp
-L R_large R506
+L node-rescue:R_large R506
 U 1 1 5A0E1EE6
 P 8750 3600
 F 0 "R506" V 8650 3600 50  0000 C CNN
@@ -575,7 +574,7 @@ SW
 Text Label 7950 3600 0    60   ~ 0
 5V5_UNFILT
 $Comp
-L C_large C508
+L node-rescue:C_large C508
 U 1 1 5A1A8886
 P 9200 4150
 F 0 "C508" H 9250 4250 50  0000 L CNN
@@ -591,7 +590,7 @@ Connection ~ 9200 3600
 Wire Wire Line
 	9200 4350 9200 4700
 $Comp
-L GND #PWR046
+L node-rescue:GND #PWR046
 U 1 1 5A1A8A0F
 P 9200 4700
 F 0 "#PWR046" H 9200 4450 60  0001 C CNN
@@ -604,7 +603,7 @@ $EndComp
 Text Label 3550 2700 0    60   ~ 0
 ENABLE
 $Comp
-L Test_Point TP2
+L node-rescue:Test_Point TP2
 U 1 1 5A71E940
 P 10050 3600
 F 0 "TP2" H 10050 3870 50  0000 C CNN
@@ -620,7 +619,7 @@ F 7 "36-5000-ND" H 10050 3600 60  0001 C CNN "Vendor P/N"
 $EndComp
 Connection ~ 10050 3600
 $Comp
-L C_large C502
+L node-rescue:C_large C502
 U 1 1 5B528C29
 P 2350 3850
 F 0 "C502" H 2400 3950 50  0000 L CNN

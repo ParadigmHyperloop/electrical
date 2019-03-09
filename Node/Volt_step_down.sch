@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +19,7 @@ out_1
 Text HLabel 2700 5550 2    60   Output ~ 0
 out_2
 $Comp
-L Conn_01x03 J1101
+L node-rescue:Conn_01x03 J1101
 U 1 1 5A0C421B
 P 1200 2700
 F 0 "J1101" H 1200 2500 50  0000 C CNN
@@ -34,7 +33,7 @@ F 6 "A19470-ND" H 1200 2700 60  0001 C CNN "Vendor Part Num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR0110
+L node-rescue:+5V #PWR0110
 U 1 1 5A0C4553
 P 1600 2050
 F 0 "#PWR0110" H 1600 1900 50  0001 C CNN
@@ -45,7 +44,7 @@ F 3 "" H 1600 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0111
+L node-rescue:GND #PWR0111
 U 1 1 5A0C4559
 P 1500 2950
 F 0 "#PWR0111" H 1500 2700 50  0001 C CNN
@@ -64,7 +63,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 2800 1500 2950
 $Comp
-L R R1101
+L node-rescue:R R1101
 U 1 1 5A0C458D
 P 1600 2350
 F 0 "R1101" H 1450 2500 50  0000 C CNN
@@ -93,7 +92,7 @@ Connection ~ 2150 3200
 Wire Wire Line
 	2150 3600 2150 3700
 $Comp
-L GND #PWR0112
+L node-rescue:GND #PWR0112
 U 1 1 5A0C511D
 P 2150 3700
 F 0 "#PWR0112" H 2150 3450 50  0001 C CNN
@@ -104,7 +103,7 @@ F 3 "" H 2150 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1101
+L node-rescue:C C1101
 U 1 1 5A0C516E
 P 2500 3450
 F 0 "C1101" H 2525 3550 50  0000 L CNN
@@ -115,7 +114,7 @@ F 3 "" H 2500 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0113
+L node-rescue:GND #PWR0113
 U 1 1 5A0C521E
 P 2500 3700
 F 0 "#PWR0113" H 2500 3450 50  0001 C CNN
@@ -133,7 +132,7 @@ Connection ~ 2500 3200
 Text Notes 2750 3600 0    60   ~ 0
 Cap for optional\nLPF
 $Comp
-L R R1104
+L node-rescue:R R1104
 U 1 1 5A0C5E78
 P 2150 3450
 F 0 "R1104" H 1950 3550 50  0000 C CNN
@@ -144,7 +143,7 @@ F 3 "" H 2150 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1103
+L node-rescue:R R1103
 U 1 1 5A0C5E9E
 P 2150 2950
 F 0 "R1103" H 1950 3050 50  0000 C CNN
@@ -155,7 +154,7 @@ F 3 "" H 2150 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fuse F1101
+L node-rescue:Fuse F1101
 U 1 1 5A0C5F81
 P 2300 2600
 F 0 "F1101" V 2380 2600 50  0000 C CNN
@@ -171,7 +170,7 @@ $EndComp
 Wire Wire Line
 	2600 2600 2450 2600
 $Comp
-L Conn_01x03 J1102
+L node-rescue:Conn_01x03 J1102
 U 1 1 5A0C65D7
 P 1250 5050
 F 0 "J1102" H 1250 4850 50  0000 C CNN
@@ -185,7 +184,7 @@ F 6 "A19470-ND" H 1250 5050 60  0001 C CNN "Vendor Part Num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR0114
+L node-rescue:+5V #PWR0114
 U 1 1 5A0C65DD
 P 1650 4400
 F 0 "#PWR0114" H 1650 4250 50  0001 C CNN
@@ -196,7 +195,7 @@ F 3 "" H 1650 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0115
+L node-rescue:GND #PWR0115
 U 1 1 5A0C65E3
 P 1550 5300
 F 0 "#PWR0115" H 1550 5050 50  0001 C CNN
@@ -215,7 +214,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 5150 1550 5300
 $Comp
-L R R1102
+L node-rescue:R R1102
 U 1 1 5A0C65ED
 P 1650 4700
 F 0 "R1102" H 1450 4800 50  0000 C CNN
@@ -242,7 +241,7 @@ Connection ~ 2200 5550
 Wire Wire Line
 	2200 5950 2200 6050
 $Comp
-L GND #PWR0116
+L node-rescue:GND #PWR0116
 U 1 1 5A0C6603
 P 2200 6050
 F 0 "#PWR0116" H 2200 5800 50  0001 C CNN
@@ -253,7 +252,7 @@ F 3 "" H 2200 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1102
+L node-rescue:C C1102
 U 1 1 5A0C6609
 P 2550 5800
 F 0 "C1102" H 2575 5900 50  0000 L CNN
@@ -264,7 +263,7 @@ F 3 "" H 2550 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0117
+L node-rescue:GND #PWR0117
 U 1 1 5A0C660F
 P 2550 6050
 F 0 "#PWR0117" H 2550 5800 50  0001 C CNN
@@ -280,7 +279,7 @@ Wire Wire Line
 	2550 5550 2550 5650
 Connection ~ 2550 5550
 $Comp
-L R R1106
+L node-rescue:R R1106
 U 1 1 5A0C661F
 P 2200 5800
 F 0 "R1106" H 2000 5900 50  0000 C CNN
@@ -291,7 +290,7 @@ F 3 "" H 2200 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1105
+L node-rescue:R R1105
 U 1 1 5A0C6625
 P 2200 5300
 F 0 "R1105" H 2000 5400 50  0000 C CNN
@@ -306,7 +305,7 @@ Wire Wire Line
 Text Notes 3000 2850 0    60   ~ 0
 For 0-5V operation, simply remove 20kΩ\nand replaced 82kΩ with a 0Ω
 $Comp
-L Fuse F1102
+L node-rescue:Fuse F1102
 U 1 1 5A0A8A91
 P 2350 4950
 F 0 "F1102" V 2430 4950 50  0000 C CNN
@@ -320,7 +319,7 @@ F 6 "507-1073-1-ND" H 2350 4950 60  0001 C CNN "Vendor Part Num"
 	0    1    1    0   
 $EndComp
 $Comp
-L +24V #PWR0118
+L node-rescue:+24V #PWR0118
 U 1 1 5A0E14DC
 P 2600 2050
 F 0 "#PWR0118" H 2600 1900 50  0001 C CNN
@@ -331,7 +330,7 @@ F 3 "" H 2600 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +24V #PWR0119
+L node-rescue:+24V #PWR0119
 U 1 1 5A0E156A
 P 2650 4400
 F 0 "#PWR0119" H 2650 4250 50  0001 C CNN

@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 ""
 Comment4 "James Massucco"
 $EndDescr
 $Comp
-L DRV8806 U1501
+L node-rescue:DRV8806 U1501
 U 1 1 59B1B930
 P 2400 1750
 AR Path="/59B1B930" Ref="U1501"  Part="1" 
@@ -32,7 +31,7 @@ F 6 "296-34887-1-ND" H 2400 1750 60  0001 C CNN "Vendor Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1501
+L node-rescue:Conn_01x02 J1501
 U 1 1 59B1BF64
 P 4950 2150
 AR Path="/59B1BF64" Ref="J1501"  Part="1" 
@@ -49,7 +48,7 @@ F 7 "WM1263-ND" H 4950 2150 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0179
+L node-rescue:GND #PWR0179
 U 1 1 59C92B55
 P 4400 1850
 F 0 "#PWR0179" H 4400 1600 50  0001 C CNN
@@ -62,7 +61,7 @@ $EndComp
 Text Notes 550  750  0    118  ~ 24
 Solenoid Controller 1
 $Comp
-L GND #PWR0180
+L node-rescue:GND #PWR0180
 U 1 1 59D3097E
 P 2950 3350
 F 0 "#PWR0180" H 2950 3100 60  0001 C CNN
@@ -79,7 +78,7 @@ Digital-to-Analog Converter (DAC) 1
 Text Notes 550  3900 0    118  ~ 24
 Solenoid Controller 2
 $Comp
-L DAC7760 U1503
+L node-rescue:DAC7760 U1503
 U 1 1 59D36BFA
 P 8250 2800
 F 0 "U1503" H 8750 3850 60  0000 C CNN
@@ -94,7 +93,7 @@ F 7 "296-37188-1-ND" H 8250 2800 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0181
+L node-rescue:GND #PWR0181
 U 1 1 59D8335A
 P 8050 4150
 F 0 "#PWR0181" H 8050 3900 50  0001 C CNN
@@ -105,7 +104,7 @@ F 3 "" H 8050 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_small C1514
+L node-rescue:C_small C1514
 U 1 1 59D86147
 P 9150 2350
 F 0 "C1514" H 8900 2250 50  0000 L CNN
@@ -116,7 +115,7 @@ F 3 "" H 9150 2350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0182
+L node-rescue:GND #PWR0182
 U 1 1 59D86349
 P 9400 4400
 F 0 "#PWR0182" H 9400 4150 50  0001 C CNN
@@ -127,7 +126,7 @@ F 3 "" H 9400 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0183
+L node-rescue:GND #PWR0183
 U 1 1 59D896FA
 P 7400 2700
 F 0 "#PWR0183" H 7400 2450 50  0001 C CNN
@@ -138,7 +137,7 @@ F 3 "" H 7400 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_small C1516
+L node-rescue:C_small C1516
 U 1 1 59D89CD2
 P 9400 4200
 F 0 "C1516" H 9425 4300 50  0000 L CNN
@@ -154,7 +153,7 @@ Text Label 10200 3850 0    60   ~ 0
 DAC_ALARM_L
 NoConn ~ 7550 2350
 $Comp
-L C_small C1502
+L node-rescue:C_small C1502
 U 1 1 5A00F23F
 P 4000 1550
 F 0 "C1502" H 4050 1450 50  0000 L CNN
@@ -165,7 +164,7 @@ F 3 "" H 4000 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_small C1503
+L node-rescue:C_small C1503
 U 1 1 5A00F295
 P 4400 1550
 F 0 "C1503" H 4450 1450 50  0000 L CNN
@@ -176,7 +175,7 @@ F 3 "" H 4400 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x01 TP2102
+L node-rescue:Conn_01x01 TP2102
 U 1 1 5A0111EA
 P 750 2200
 F 0 "TP2102" H 750 2300 50  0000 C CNN
@@ -197,7 +196,7 @@ Entry Wire Line
 Text Label 1450 2000 0    60   ~ 0
 SOL_FAULT_L
 $Comp
-L R_large R1501
+L node-rescue:R_large R1501
 U 1 1 5A012248
 P 2100 1550
 F 0 "R1501" H 2250 1750 50  0000 C CNN
@@ -208,7 +207,7 @@ F 3 "" H 2100 1550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0184
+L node-rescue:+3V3 #PWR0184
 U 1 1 5A01238E
 P 2100 1200
 F 0 "#PWR0184" H 2100 1050 60  0001 C CNN
@@ -223,7 +222,7 @@ SOL_CS
 Text Label 1450 2700 0    60   ~ 0
 SOL1_DATAIN
 $Comp
-L GND #PWR0185
+L node-rescue:GND #PWR0185
 U 1 1 5A01ECE8
 P 4350 4750
 F 0 "#PWR0185" H 4350 4500 50  0001 C CNN
@@ -236,7 +235,7 @@ $EndComp
 Text HLabel 1650 8950 0    60   BiDi ~ 0
 SOL_DAC_S[1..4]
 $Comp
-L GND #PWR0186
+L node-rescue:GND #PWR0186
 U 1 1 5A01ECEF
 P 2900 6250
 F 0 "#PWR0186" H 2900 6000 60  0001 C CNN
@@ -255,7 +254,7 @@ Entry Wire Line
 Entry Wire Line
 	1800 9100 1900 9200
 $Comp
-L C_small C1505
+L node-rescue:C_small C1505
 U 1 1 5A01ED11
 P 3950 4450
 F 0 "C1505" H 4000 4350 50  0000 L CNN
@@ -266,7 +265,7 @@ F 3 "" H 3950 4450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_small C1506
+L node-rescue:C_small C1506
 U 1 1 5A01ED17
 P 4350 4450
 F 0 "C1506" H 4400 4350 50  0000 L CNN
@@ -277,7 +276,7 @@ F 3 "" H 4350 4450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x01 TP2101
+L node-rescue:Conn_01x01 TP2101
 U 1 1 5A01ED37
 P 700 5100
 F 0 "TP2101" H 700 5200 50  0000 C CNN
@@ -342,7 +341,7 @@ DAC Power Supply Sequencer
 Text Label 6350 1250 0    60   ~ 0
 24V0_DAC
 $Comp
-L C_small C1509
+L node-rescue:C_small C1509
 U 1 1 5A0264BC
 P 7050 1500
 F 0 "C1509" H 7100 1400 50  0000 L CNN
@@ -353,7 +352,7 @@ F 3 "" H 7050 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0187
+L node-rescue:GND #PWR0187
 U 1 1 5A0264C2
 P 7050 1800
 F 0 "#PWR0187" H 7050 1550 50  0001 C CNN
@@ -364,7 +363,7 @@ F 3 "" H 7050 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_small C1510
+L node-rescue:C_small C1510
 U 1 1 5A0264CA
 P 7450 1500
 F 0 "C1510" H 7500 1400 50  0000 L CNN
@@ -375,7 +374,7 @@ F 3 "" H 7450 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_small C1515
+L node-rescue:C_small C1515
 U 1 1 5A027012
 P 9350 1500
 F 0 "C1515" H 9400 1400 50  0000 L CNN
@@ -386,7 +385,7 @@ F 3 "" H 9350 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0188
+L node-rescue:GND #PWR0188
 U 1 1 5A02708A
 P 9350 1800
 F 0 "#PWR0188" H 9350 1550 50  0001 C CNN
@@ -397,7 +396,7 @@ F 3 "" H 9350 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0189
+L node-rescue:+3V3 #PWR0189
 U 1 1 5A02736B
 P 9500 1150
 F 0 "#PWR0189" H 9500 1000 60  0001 C CNN
@@ -410,7 +409,7 @@ $EndComp
 Text Label 6750 3100 0    60   ~ 0
 DAC1_DVDD_EN_L
 $Comp
-L R_large R1505
+L node-rescue:R_large R1505
 U 1 1 5A028172
 P 6400 3450
 F 0 "R1505" H 6250 3250 50  0000 C CNN
@@ -421,7 +420,7 @@ F 3 "" H 6400 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0190
+L node-rescue:GND #PWR0190
 U 1 1 5A0282C9
 P 6400 3800
 F 0 "#PWR0190" H 6400 3550 50  0001 C CNN
@@ -449,7 +448,7 @@ DAC_CLR
 Entry Wire Line
 	1550 7400 1650 7500
 $Comp
-L R_large R1504
+L node-rescue:R_large R1504
 U 1 1 5A029FEE
 P 6050 3450
 F 0 "R1504" H 5900 3250 50  0000 C CNN
@@ -460,7 +459,7 @@ F 3 "" H 6050 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0191
+L node-rescue:GND #PWR0191
 U 1 1 5A02A14C
 P 6050 3800
 F 0 "#PWR0191" H 6050 3550 50  0001 C CNN
@@ -475,7 +474,7 @@ DAC1_CLR_SEL
 Text Label 6750 2550 0    60   ~ 0
 DAC1_VSENSE+
 $Comp
-L R_large R1506
+L node-rescue:R_large R1506
 U 1 1 5A02B00F
 P 10100 3450
 F 0 "R1506" H 10250 3650 50  0000 C CNN
@@ -486,7 +485,7 @@ F 3 "" H 10100 3450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0192
+L node-rescue:+3V3 #PWR0192
 U 1 1 5A02B389
 P 10100 3100
 F 0 "#PWR0192" H 10100 2950 60  0001 C CNN
@@ -500,7 +499,7 @@ NoConn ~ 9000 3050
 Text Label 11000 2550 0    60   ~ 0
 DAC1_VIOUT
 $Comp
-L Conn_01x04 J1509
+L node-rescue:Conn_01x04 J1509
 U 1 1 5A02C8E3
 P 11850 2550
 F 0 "J1509" H 11850 2800 50  0000 C CNN
@@ -515,7 +514,7 @@ F 7 "WM1265-ND" H 11850 2550 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0193
+L node-rescue:GND #PWR0193
 U 1 1 5A02CFC3
 P 11500 2900
 F 0 "#PWR0193" H 11500 2650 50  0001 C CNN
@@ -526,7 +525,7 @@ F 3 "" H 11500 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R1508
+L node-rescue:R_large R1508
 U 1 1 5A02D077
 P 10600 2100
 F 0 "R1508" H 10500 1900 50  0000 C CNN
@@ -540,7 +539,7 @@ $EndComp
 Text Notes 5850 5000 0    120  ~ 24
 Digital-to-Analog Converter (DAC) 2
 $Comp
-L GND #PWR0194
+L node-rescue:GND #PWR0194
 U 1 1 5A02DA77
 P 7550 8400
 F 0 "#PWR0194" H 7550 8150 50  0001 C CNN
@@ -551,7 +550,7 @@ F 3 "" H 7550 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_small C1511
+L node-rescue:C_small C1511
 U 1 1 5A02DA7D
 P 8650 6600
 F 0 "C1511" H 8400 6500 50  0000 L CNN
@@ -562,7 +561,7 @@ F 3 "" H 8650 6600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0195
+L node-rescue:GND #PWR0195
 U 1 1 5A02DA83
 P 8900 8650
 F 0 "#PWR0195" H 8900 8400 50  0001 C CNN
@@ -573,7 +572,7 @@ F 3 "" H 8900 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0196
+L node-rescue:GND #PWR0196
 U 1 1 5A02DA89
 P 6900 6950
 F 0 "#PWR0196" H 6900 6700 50  0001 C CNN
@@ -584,7 +583,7 @@ F 3 "" H 6900 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_small C1513
+L node-rescue:C_small C1513
 U 1 1 5A02DA8F
 P 8900 8450
 F 0 "C1513" H 8950 8350 50  0000 L CNN
@@ -600,7 +599,7 @@ NoConn ~ 7050 6600
 Text Label 5850 5500 0    60   ~ 0
 24V0_DAC
 $Comp
-L C_small C1507
+L node-rescue:C_small C1507
 U 1 1 5A02DAAD
 P 6550 5750
 F 0 "C1507" H 6600 5650 50  0000 L CNN
@@ -611,7 +610,7 @@ F 3 "" H 6550 5750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0197
+L node-rescue:GND #PWR0197
 U 1 1 5A02DAB3
 P 6550 6050
 F 0 "#PWR0197" H 6550 5800 50  0001 C CNN
@@ -622,7 +621,7 @@ F 3 "" H 6550 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_small C1508
+L node-rescue:C_small C1508
 U 1 1 5A02DABA
 P 6950 5750
 F 0 "C1508" H 7000 5650 50  0000 L CNN
@@ -633,7 +632,7 @@ F 3 "" H 6950 5750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_small C1512
+L node-rescue:C_small C1512
 U 1 1 5A02DAC8
 P 8850 5750
 F 0 "C1512" H 8950 5650 50  0000 L CNN
@@ -644,7 +643,7 @@ F 3 "" H 8850 5750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0198
+L node-rescue:GND #PWR0198
 U 1 1 5A02DACE
 P 8850 6050
 F 0 "#PWR0198" H 8850 5800 50  0001 C CNN
@@ -655,7 +654,7 @@ F 3 "" H 8850 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0199
+L node-rescue:+3V3 #PWR0199
 U 1 1 5A02DAD8
 P 9000 5400
 F 0 "#PWR0199" H 9000 5250 60  0001 C CNN
@@ -668,7 +667,7 @@ $EndComp
 Text Label 6250 7350 0    60   ~ 0
 DAC2_DVDD_EN_L
 $Comp
-L R_large R1503
+L node-rescue:R_large R1503
 U 1 1 5A02DAE2
 P 5900 7700
 F 0 "R1503" H 6050 7500 50  0000 C CNN
@@ -679,7 +678,7 @@ F 3 "" H 5900 7700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0200
+L node-rescue:GND #PWR0200
 U 1 1 5A02DAE9
 P 5900 8050
 F 0 "#PWR0200" H 5900 7800 50  0001 C CNN
@@ -703,7 +702,7 @@ DAC2_VREF
 Text Label 6250 7150 0    60   ~ 0
 DAC_CLR
 $Comp
-L R_large R1502
+L node-rescue:R_large R1502
 U 1 1 5A02DAF8
 P 5550 7700
 F 0 "R1502" H 5700 7500 50  0000 C CNN
@@ -714,7 +713,7 @@ F 3 "" H 5550 7700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0201
+L node-rescue:GND #PWR0201
 U 1 1 5A02DAFF
 P 5550 8050
 F 0 "#PWR0201" H 5550 7800 50  0001 C CNN
@@ -734,7 +733,7 @@ DAC2_VIOUT
 Text Label 10650 5000 0    60   ~ 0
 24V0_DAC
 $Comp
-L GND #PWR0202
+L node-rescue:GND #PWR0202
 U 1 1 5A02DB30
 P 10500 5950
 F 0 "#PWR0202" H 10500 5700 50  0001 C CNN
@@ -747,7 +746,7 @@ $EndComp
 Text Label 11200 5450 0    60   ~ 0
 DAC2_VSENSE+
 $Comp
-L GND #PWR0203
+L node-rescue:GND #PWR0203
 U 1 1 5A02DB51
 P 11000 7150
 F 0 "#PWR0203" H 11000 6900 50  0001 C CNN
@@ -1201,7 +1200,7 @@ Wire Notes Line
 Wire Notes Line
 	12950 3800 16500 3800
 $Comp
-L R_large R1507
+L node-rescue:R_large R1507
 U 1 1 5A033FF4
 P 10100 6350
 F 0 "R1507" H 9950 6200 50  0000 C CNN
@@ -1219,7 +1218,7 @@ Wire Wire Line
 Text Label 11150 750  0    60   ~ 0
 24V0_DAC
 $Comp
-L GND #PWR0204
+L node-rescue:GND #PWR0204
 U 1 1 5A0A2362
 P 11000 1700
 F 0 "#PWR0204" H 11000 1450 50  0001 C CNN
@@ -1245,7 +1244,7 @@ Wire Wire Line
 Wire Wire Line
 	11600 1650 11600 1200
 $Comp
-L DRV8806 U1502
+L node-rescue:DRV8806 U1502
 U 1 1 5A0D0EBC
 P 2350 4650
 AR Path="/5A0D0EBC" Ref="U1502"  Part="1" 
@@ -1269,7 +1268,7 @@ Connection ~ 3000 6150
 Wire Wire Line
 	3150 3250 3150 3100
 $Comp
-L DAC7760 U1504
+L node-rescue:DAC7760 U1504
 U 1 1 5A0F2585
 P 7750 7050
 F 0 "U1504" H 8250 8100 60  0000 C CNN
@@ -1284,7 +1283,7 @@ F 7 "296-37188-1-ND" H 7750 7050 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +24V #PWR0205
+L node-rescue:+24V #PWR0205
 U 1 1 5A0E0826
 P 2850 1150
 F 0 "#PWR0205" H 2850 1000 50  0001 C CNN
@@ -1295,7 +1294,7 @@ F 3 "" H 2850 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +24V #PWR0206
+L node-rescue:+24V #PWR0206
 U 1 1 5A0E09C4
 P 2800 4050
 F 0 "#PWR0206" H 2800 3900 50  0001 C CNN
@@ -1306,7 +1305,7 @@ F 3 "" H 2800 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +24V #PWR0207
+L node-rescue:+24V #PWR0207
 U 1 1 5A0E0D00
 P 11050 6600
 F 0 "#PWR0207" H 11050 6450 50  0001 C CNN
@@ -1317,7 +1316,7 @@ F 3 "" H 11050 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +24V #PWR0208
+L node-rescue:+24V #PWR0208
 U 1 1 5A0E0DCC
 P 11550 2350
 F 0 "#PWR0208" H 11550 2200 50  0001 C CNN
@@ -1328,7 +1327,7 @@ F 3 "" H 11550 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R2103
+L node-rescue:R_large R2103
 U 1 1 5A11365D
 P 4050 9400
 F 0 "R2103" V 4100 9700 50  0000 C CNN
@@ -1339,7 +1338,7 @@ F 3 "" H 4050 9400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_large R2106
+L node-rescue:R_large R2106
 U 1 1 5A1137DF
 P 4050 9300
 F 0 "R2106" V 4100 9600 50  0000 C CNN
@@ -1350,7 +1349,7 @@ F 3 "" H 4050 9300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_large R2108
+L node-rescue:R_large R2108
 U 1 1 5A1137EB
 P 4050 9500
 F 0 "R2108" V 4100 9800 50  0000 C CNN
@@ -1397,7 +1396,7 @@ SOL_DAC_C2
 Text Label 1650 7600 0    60   ~ 0
 SOL_DAC_C3
 $Comp
-L R_large R2105
+L node-rescue:R_large R2105
 U 1 1 5A1137D9
 P 4050 9200
 F 0 "R2105" V 4100 9500 50  0000 C CNN
@@ -1422,7 +1421,7 @@ Wire Wire Line
 Text Notes 2150 10300 0    60   ~ 0
 For solenoid only, leave the following unstuffed:\nR2105\nR2106\nR2107\nR2108\nFor combined, unstuff R2104
 $Comp
-L BTS4300SGA U2001
+L node-rescue:BTS4300SGA U2001
 U 1 1 5A1F47A8
 P 14400 1950
 F 0 "U2001" H 14100 2250 60  0000 C CNN
@@ -1440,7 +1439,7 @@ Wire Wire Line
 Wire Wire Line
 	13650 1250 13650 2100
 $Comp
-L +24V #PWR0209
+L node-rescue:+24V #PWR0209
 U 1 1 5A1F4EFC
 P 13650 1250
 F 0 "#PWR0209" H 13650 1100 50  0001 C CNN
@@ -1460,7 +1459,7 @@ Wire Wire Line
 	13800 2000 13650 2000
 Connection ~ 13650 2000
 $Comp
-L R_large R2002
+L node-rescue:R_large R2002
 U 1 1 5A1F5602
 P 14400 2850
 F 0 "R2002" H 14550 3050 50  0000 C CNN
@@ -1475,7 +1474,7 @@ Wire Wire Line
 Wire Wire Line
 	14400 3100 14400 3200
 $Comp
-L GND #PWR0210
+L node-rescue:GND #PWR0210
 U 1 1 5A1F5B97
 P 14400 3200
 F 0 "#PWR0210" H 14400 2950 50  0001 C CNN
@@ -1486,7 +1485,7 @@ F 3 "" H 14400 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R2003
+L node-rescue:R_large R2003
 U 1 1 5A1F60B6
 P 15800 2000
 F 0 "R2003" V 15750 1700 50  0000 C CNN
@@ -1497,7 +1496,7 @@ F 3 "" H 15800 2000 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_large R2004
+L node-rescue:R_large R2004
 U 1 1 5A1F64DF
 P 15800 2100
 F 0 "R2004" V 15750 1800 50  0000 C CNN
@@ -1516,7 +1515,7 @@ Wire Wire Line
 Wire Wire Line
 	16250 1900 16250 2100
 $Comp
-L +3V3 #PWR0211
+L node-rescue:+3V3 #PWR0211
 U 1 1 5A1F698B
 P 16250 1900
 F 0 "#PWR0211" H 16250 1750 50  0001 C CNN
@@ -1530,7 +1529,7 @@ Wire Wire Line
 	16050 2000 16250 2000
 Connection ~ 16250 2000
 $Comp
-L Conn_01x01 TP2001
+L node-rescue:Conn_01x01 TP2001
 U 1 1 5A1F6CCC
 P 15950 2400
 F 0 "TP2001" H 15950 2500 50  0000 C CNN
@@ -1552,7 +1551,7 @@ SEQ_ST
 Text Notes 14550 2850 0    60   ~ 0
 Reverse current limiting
 $Comp
-L R_large R2001
+L node-rescue:R_large R2001
 U 1 1 5A1F7EC1
 P 14400 1400
 F 0 "R2001" V 14300 1100 50  0000 C CNN
@@ -1592,7 +1591,7 @@ SOL_DAC_C4
 Text Label 1650 7800 0    60   ~ 0
 SOL_DAC_C5
 $Comp
-L Conn_01x04 J1510
+L node-rescue:Conn_01x04 J1510
 U 1 1 5A717F82
 P 11350 6800
 F 0 "J1510" H 11350 7050 50  0000 C CNN
@@ -1607,7 +1606,7 @@ F 7 "WM1265-ND" H 11350 6800 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1502
+L node-rescue:Conn_01x02 J1502
 U 1 1 5A719660
 P 4950 2500
 F 0 "J1502" H 4950 2650 50  0000 C CNN
@@ -1622,7 +1621,7 @@ F 7 "WM1263-ND" H 4950 2500 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1503
+L node-rescue:Conn_01x02 J1503
 U 1 1 5A719720
 P 4950 2850
 F 0 "J1503" H 4950 3000 50  0000 C CNN
@@ -1637,7 +1636,7 @@ F 7 "WM1263-ND" H 4950 2850 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1504
+L node-rescue:Conn_01x02 J1504
 U 1 1 5A7197E3
 P 4950 3200
 F 0 "J1504" H 4950 3350 50  0000 C CNN
@@ -1652,7 +1651,7 @@ F 7 "WM1263-ND" H 4950 3200 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1505
+L node-rescue:Conn_01x02 J1505
 U 1 1 5A719D1A
 P 4900 5050
 F 0 "J1505" H 4900 5200 50  0000 C CNN
@@ -1667,7 +1666,7 @@ F 7 "WM1263-ND" H 4900 5050 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1506
+L node-rescue:Conn_01x02 J1506
 U 1 1 5A71A19C
 P 4900 5400
 F 0 "J1506" H 4900 5550 50  0000 C CNN
@@ -1682,7 +1681,7 @@ F 7 "WM1263-ND" H 4900 5400 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1507
+L node-rescue:Conn_01x02 J1507
 U 1 1 5A71A261
 P 4900 5750
 F 0 "J1507" H 4900 5900 50  0000 C CNN
@@ -1697,7 +1696,7 @@ F 7 "WM1263-ND" H 4900 5750 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1508
+L node-rescue:Conn_01x02 J1508
 U 1 1 5A71A329
 P 4900 6100
 F 0 "J1508" H 4900 6250 50  0000 C CNN
@@ -1712,7 +1711,7 @@ F 7 "WM1263-ND" H 4900 6100 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPA172 U1505
+L node-rescue:OPA172 U1505
 U 1 1 5A71D52F
 P 11100 1200
 F 0 "U1505" H 11100 1400 50  0000 L CNN
@@ -1727,7 +1726,7 @@ F 7 "296-40433-1-ND" H 11100 1200 60  0001 C CNN "Vendor P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPA172 U1506
+L node-rescue:OPA172 U1506
 U 1 1 5A71E264
 P 10600 5450
 F 0 "U1506" H 10600 5650 50  0000 L CNN
@@ -1758,7 +1757,7 @@ Q[0..3]
 Wire Wire Line
 	11050 8400 12200 8400
 $Comp
-L R_large R2109
+L node-rescue:R_large R2109
 U 1 1 5B3A464B
 P 12450 8400
 F 0 "R2109" V 12500 8700 50  0000 C CNN
@@ -1769,7 +1768,7 @@ F 3 "" H 12450 8400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_large R2110
+L node-rescue:R_large R2110
 U 1 1 5B3A476C
 P 12450 8500
 F 0 "R2110" V 12500 8800 50  0000 C CNN
@@ -1780,7 +1779,7 @@ F 3 "" H 12450 8500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_large R2111
+L node-rescue:R_large R2111
 U 1 1 5B3A4850
 P 12450 8600
 F 0 "R2111" V 12500 8900 50  0000 C CNN
@@ -1791,7 +1790,7 @@ F 3 "" H 12450 8600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_large R2112
+L node-rescue:R_large R2112
 U 1 1 5B3A49DF
 P 12450 8700
 F 0 "R2112" V 12500 9000 50  0000 C CNN

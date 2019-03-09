@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +19,7 @@ Text HLabel 1200 1800 0    60   Input ~ 0
 Text HLabel 10750 1650 2    60   Output ~ 0
 3V3
 $Comp
-L TPS795 U701
+L node-rescue:TPS795 U701
 U 1 1 59E0F3BD
 P 3700 2100
 F 0 "U701" H 3300 2700 60  0000 C CNN
@@ -35,7 +34,7 @@ F 7 "Digi-Key" H 3700 2100 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C701
+L node-rescue:C_large C701
 U 1 1 59E0F650
 P 2350 2300
 F 0 "C701" H 2400 2400 50  0000 L CNN
@@ -50,7 +49,7 @@ F 7 "Digi-Key" H 2350 2300 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR055
+L node-rescue:GND #PWR055
 U 1 1 59E0F6A4
 P 2350 2650
 F 0 "#PWR055" H 2350 2400 60  0001 C CNN
@@ -61,7 +60,7 @@ F 3 "" H 2350 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR056
+L node-rescue:GND #PWR056
 U 1 1 59E0F6D8
 P 3750 2500
 F 0 "#PWR056" H 3750 2250 60  0001 C CNN
@@ -72,7 +71,7 @@ F 3 "" H 3750 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR057
+L node-rescue:GND #PWR057
 U 1 1 59E0F6FD
 P 4600 2500
 F 0 "#PWR057" H 4600 2250 60  0001 C CNN
@@ -83,7 +82,7 @@ F 3 "" H 4600 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R702
+L node-rescue:R_large R702
 U 1 1 59E0F7E7
 P 5450 1950
 F 0 "R702" H 5600 2100 50  0000 C CNN
@@ -103,7 +102,7 @@ F 12 "Digi-Key" H 5450 1950 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C703
+L node-rescue:C_large C703
 U 1 1 59E0F898
 P 7200 2050
 F 0 "C703" H 7250 2150 50  0000 L CNN
@@ -118,7 +117,7 @@ F 7 "Digi-Key" H 7200 2050 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR058
+L node-rescue:GND #PWR058
 U 1 1 59E0FA28
 P 7200 2350
 F 0 "#PWR058" H 7200 2100 60  0001 C CNN
@@ -129,7 +128,7 @@ F 3 "" H 7200 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C704
+L node-rescue:C_large C704
 U 1 1 59E0FAF0
 P 8550 2050
 F 0 "C704" H 8600 2150 50  0000 L CNN
@@ -140,7 +139,7 @@ F 3 "" H 8550 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR059
+L node-rescue:GND #PWR059
 U 1 1 59E0FB72
 P 8550 2350
 F 0 "#PWR059" H 8550 2100 60  0001 C CNN
@@ -153,7 +152,7 @@ $EndComp
 Text Notes 7900 2850 0    60   ~ 0
 Low pass filter
 $Comp
-L R_large R701
+L node-rescue:R_large R701
 U 1 1 59F24164
 P 1650 2100
 F 0 "R701" H 1800 2250 50  0000 C CNN
@@ -164,7 +163,7 @@ F 3 "" H 1650 2100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C702
+L node-rescue:C_large C702
 U 1 1 59F28657
 P 6050 2000
 F 0 "C702" H 6100 2100 50  0000 L CNN
@@ -179,7 +178,7 @@ F 7 "Digi-Key" H 6050 2000 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Zener_ALT D702
+L node-rescue:D_Zener_ALT D702
 U 1 1 59F28D0F
 P 9450 2300
 F 0 "D702" V 9550 2200 50  0000 C CNN
@@ -194,7 +193,7 @@ F 7 "Digi-Key" H 9450 2300 60  0001 C CNN "Vendor Name"
 	0    -1   1    0   
 $EndComp
 $Comp
-L R_large R704
+L node-rescue:R_large R704
 U 1 1 59F28D1A
 P 10100 2550
 F 0 "R704" H 10250 2750 50  0000 C CNN
@@ -209,7 +208,7 @@ F 7 "Digi-Key" H 10100 2550 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L node-rescue:GND #PWR060
 U 1 1 59F28D22
 P 9450 2750
 F 0 "#PWR060" H 9450 2500 60  0001 C CNN
@@ -220,7 +219,7 @@ F 3 "" H 9450 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR061
+L node-rescue:GND #PWR061
 U 1 1 59F28D2A
 P 10100 2900
 F 0 "#PWR061" H 10100 2650 60  0001 C CNN
@@ -231,7 +230,7 @@ F 3 "" H 10100 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D701
+L node-rescue:LED D701
 U 1 1 59F28D36
 P 10100 2000
 F 0 "D701" V 10200 2150 50  0000 C CNN
@@ -248,7 +247,7 @@ $EndComp
 Text Label 4600 1650 0    60   ~ 0
 3V3_UNFILT
 $Comp
-L L_small L701
+L node-rescue:L_small L701
 U 1 1 5A1A3C7D
 P 8100 1650
 F 0 "L701" H 8100 1750 50  0000 C CNN
@@ -264,7 +263,7 @@ $EndComp
 Text Notes 7600 1400 0    60   ~ 0
 Stuff ferrite with 0Ω\nif no filter is required
 $Comp
-L GND #PWR062
+L node-rescue:GND #PWR062
 U 1 1 5A1AD23A
 P 5450 3600
 F 0 "#PWR062" H 5450 3350 60  0001 C CNN
@@ -275,7 +274,7 @@ F 3 "" H 5450 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT_large VR701
+L node-rescue:POT_large VR701
 U 1 1 5A1AD244
 P 5450 3250
 F 0 "VR701" V 5300 3050 50  0000 C CNN
@@ -290,7 +289,7 @@ F 7 "Digi-Key" H 5450 3250 60  0001 C CNN "Vendor Name"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_large R703
+L node-rescue:R_large R703
 U 1 1 5A1AD252
 P 5450 2600
 F 0 "R703" H 5600 2700 50  0000 C CNN
@@ -391,7 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 2500 1650 2500
 $Comp
-L Test_Point TP4
+L node-rescue:Test_Point TP4
 U 1 1 5A71F396
 P 9450 1650
 F 0 "TP4" H 9450 1920 50  0000 C CNN

@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:hyper_capstone
+EESchema Schematic File Version 4
 LIBS:node-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,7 +21,7 @@ Text HLabel 10650 2200 2    60   Output ~ 0
 Text HLabel 1100 3050 0    60   Input ~ 0
 ENABLE
 $Comp
-L TPS795 U601
+L node-rescue:TPS795 U601
 U 1 1 59F2577C
 P 3600 2650
 F 0 "U601" H 3200 3250 60  0000 C CNN
@@ -37,7 +36,7 @@ F 7 "Digi-Key" H 3600 2650 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C601
+L node-rescue:C_large C601
 U 1 1 59F25788
 P 2250 2850
 F 0 "C601" H 2300 2950 50  0000 L CNN
@@ -52,7 +51,7 @@ F 7 "Digi-Key" H 2250 2850 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L node-rescue:GND #PWR047
 U 1 1 59F25792
 P 2250 3200
 F 0 "#PWR047" H 2250 2950 60  0001 C CNN
@@ -63,7 +62,7 @@ F 3 "" H 2250 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L node-rescue:GND #PWR048
 U 1 1 59F25799
 P 3650 3050
 F 0 "#PWR048" H 3650 2800 60  0001 C CNN
@@ -74,7 +73,7 @@ F 3 "" H 3650 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR049
+L node-rescue:GND #PWR049
 U 1 1 59F257A1
 P 4500 3050
 F 0 "#PWR049" H 4500 2800 60  0001 C CNN
@@ -85,7 +84,7 @@ F 3 "" H 4500 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_small L601
+L node-rescue:L_small L601
 U 1 1 59F257A8
 P 8000 2200
 F 0 "L601" H 8000 2300 50  0000 C CNN
@@ -99,7 +98,7 @@ F 6 "311-0.0ERCT-ND" H 8000 2200 60  0001 C CNN "Vendor Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R602
+L node-rescue:R_large R602
 U 1 1 59F257B3
 P 5350 2500
 F 0 "R602" H 5500 2700 50  0000 C CNN
@@ -119,7 +118,7 @@ F 12 "Digi-Key" H 5350 2500 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C603
+L node-rescue:C_large C603
 U 1 1 59F257BE
 P 7100 2600
 F 0 "C603" H 7150 2700 50  0000 L CNN
@@ -134,7 +133,7 @@ F 7 "Digi-Key" H 7100 2600 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR050
+L node-rescue:GND #PWR050
 U 1 1 59F257E0
 P 7100 2900
 F 0 "#PWR050" H 7100 2650 60  0001 C CNN
@@ -145,7 +144,7 @@ F 3 "" H 7100 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C604
+L node-rescue:C_large C604
 U 1 1 59F257ED
 P 8450 2600
 F 0 "C604" H 8500 2700 50  0000 L CNN
@@ -156,7 +155,7 @@ F 3 "" H 8450 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR051
+L node-rescue:GND #PWR051
 U 1 1 59F257F6
 P 8450 2900
 F 0 "#PWR051" H 8450 2650 60  0001 C CNN
@@ -171,7 +170,7 @@ Low pass filter
 Text Notes 7500 1950 0    60   ~ 0
 Stuff ferrite with 0Ω\nif no filter is required
 $Comp
-L R_large R601
+L node-rescue:R_large R601
 U 1 1 59F25801
 P 1550 2650
 F 0 "R601" H 1700 2800 50  0000 C CNN
@@ -182,7 +181,7 @@ F 3 "" H 1550 2650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_large C602
+L node-rescue:C_large C602
 U 1 1 59F25813
 P 5950 2550
 F 0 "C602" H 6000 2650 50  0000 L CNN
@@ -197,7 +196,7 @@ F 7 "Digi-Key" H 5950 2550 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_large R604
+L node-rescue:R_large R604
 U 1 1 59F2582C
 P 10000 3100
 F 0 "R604" H 10150 3300 50  0000 C CNN
@@ -212,7 +211,7 @@ F 7 "Digi-Key" H 10000 3100 60  0001 C CNN "Vendor Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR052
+L node-rescue:GND #PWR052
 U 1 1 59F25834
 P 9350 3300
 F 0 "#PWR052" H 9350 3050 60  0001 C CNN
@@ -223,7 +222,7 @@ F 3 "" H 9350 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR053
+L node-rescue:GND #PWR053
 U 1 1 59F2583B
 P 10000 3450
 F 0 "#PWR053" H 10000 3200 60  0001 C CNN
@@ -234,7 +233,7 @@ F 3 "" H 10000 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D601
+L node-rescue:LED D601
 U 1 1 59F25846
 P 10000 2550
 F 0 "D601" V 10100 2700 50  0000 C CNN
@@ -249,7 +248,7 @@ F 7 "Digi-Key" H 10000 2550 60  0001 C CNN "Vendor Name"
 	0    1    -1   0   
 $EndComp
 $Comp
-L D_Zener_ALT D602
+L node-rescue:D_Zener_ALT D602
 U 1 1 59F26834
 P 9350 2850
 F 0 "D602" V 9250 2750 50  0000 C CNN
@@ -340,7 +339,7 @@ Text Label 4500 2200 0    60   ~ 0
 Wire Wire Line
 	8450 2400 8450 2200
 $Comp
-L GND #PWR054
+L node-rescue:GND #PWR054
 U 1 1 5A1AD9F4
 P 5350 4150
 F 0 "#PWR054" H 5350 3900 60  0001 C CNN
@@ -351,7 +350,7 @@ F 3 "" H 5350 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT_large VR601
+L node-rescue:POT_large VR601
 U 1 1 5A1AD9FE
 P 5350 3800
 F 0 "VR601" V 5200 3600 50  0000 C CNN
@@ -375,7 +374,7 @@ Wire Wire Line
 	5350 4050 5350 4150
 Connection ~ 5350 4100
 $Comp
-L R_large R603
+L node-rescue:R_large R603
 U 1 1 5A1ADA0C
 P 5350 3150
 F 0 "R603" H 5500 3250 50  0000 C CNN
@@ -390,7 +389,7 @@ $EndComp
 Wire Wire Line
 	5350 3400 5350 3550
 $Comp
-L Test_Point TP3
+L node-rescue:Test_Point TP3
 U 1 1 5A71F5FF
 P 9350 2200
 F 0 "TP3" H 9350 2470 50  0000 C CNN
