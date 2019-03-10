@@ -227,8 +227,6 @@ Text Notes 6535 3080 0    47   Italic 9
 BATTERY PROTECTION
 Text Notes 7225 4670 0    20   Italic 4
 Rerverse Voltage Polarity Protection \nIf any battery is installed backwards,\nno current will flow, protecting downstream circuitry
-Text Notes 1985 2640 0    50   ~ 0
-Lug Terminals
 Wire Wire Line
 	5565 4070 5565 4270
 Wire Wire Line
@@ -420,7 +418,7 @@ L Device:Fuse F201
 U 1 1 5C439696
 P 2595 1940
 F 0 "F201" V 2398 1940 50  0000 C CNN
-F 1 "Fuse" V 2489 1940 50  0000 C CNN
+F 1 "40A" V 2489 1940 50  0000 C CNN
 F 2 "LVDC:Fuse_clip_Littelfuse_5x20mm" V 2525 1940 50  0001 C CNN
 F 3 "~" H 2595 1940 50  0001 C CNN
 	1    2595 1940
@@ -441,7 +439,7 @@ L Device:Fuse F202
 U 1 1 5C44409B
 P 2595 3310
 F 0 "F202" V 2398 3310 50  0000 C CNN
-F 1 "Fuse" V 2489 3310 50  0000 C CNN
+F 1 "25A" V 2489 3310 50  0000 C CNN
 F 2 "LVDC:Fuse_clip_Littelfuse_5x20mm" V 2525 3310 50  0001 C CNN
 F 3 "~" H 2595 3310 50  0001 C CNN
 	1    2595 3310
