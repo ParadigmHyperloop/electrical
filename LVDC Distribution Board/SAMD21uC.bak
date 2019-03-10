@@ -8571,7 +8571,7 @@ $EndSheet
 Text Notes 2320 6070 0    118  ~ 24
 ADC and Sensors\n
 $Comp
-L LVDC_Distribution-cache:LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers U501
+L LVDC-Distribution-rescue:LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache U501
 U 1 1 5D537F1E
 P 9110 2670
 AR Path="/5D537F1E" Ref="U501"  Part="1" 

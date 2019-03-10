@@ -187,7 +187,7 @@ F 3 "~" H 10725 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LVDC-Distribution-rescue:Logo-u104_KICAD_misc lo2
+L LVDC-Distribution-rescue:Logo-u104_KICAD_misc-LVDC-Distribution-rescue lo2
 U 1 1 5C830CFA
 P 10375 5475
 F 0 "lo2" H 10553 5513 39  0000 L CNN
@@ -198,7 +198,7 @@ F 3 "" H 10375 5475 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LVDC-Distribution-rescue:Logo-u104_KICAD_misc lo1
+L LVDC-Distribution-rescue:Logo-u104_KICAD_misc-LVDC-Distribution-rescue lo1
 U 1 1 5C830E1C
 P 10375 5325
 F 0 "lo1" H 10553 5363 39  0000 L CNN
@@ -209,7 +209,7 @@ F 3 "" H 10375 5325 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LVDC-Distribution-rescue:Logo-u104_KICAD_misc lo3
+L LVDC-Distribution-rescue:Logo-u104_KICAD_misc-LVDC-Distribution-rescue lo3
 U 1 1 5C8321C7
 P 10375 5625
 F 0 "lo3" H 10553 5663 39  0000 L CNN
