@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -31,26 +31,8 @@ F 3 "1102-1501-ND" H 5710 1400 50  0001 C CNN
 	1    5660 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L LVDC-Library:PI33XX-00 U702
-U 1 1 5C6D4A67
-P 5660 2490
-F 0 "U702" H 5635 3005 50  0000 C CNN
-F 1 "PI3302-00-LGIZ" H 5635 2914 50  0000 C CNN
-F 2 "LVDC:PI330X" H 5710 2690 50  0001 C CNN
-F 3 "1102-1506-ND" H 5710 2690 50  0001 C CNN
-	1    5660 2490
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	870  1570 1590 1570
-Wire Wire Line
-	5210 2840 5130 2840
-Wire Wire Line
-	5130 2940 5210 2940
-Wire Wire Line
-	5130 2940 5130 3030
-Connection ~ 5130 2940
 Wire Wire Line
 	5210 1550 5120 1550
 Wire Wire Line
@@ -67,17 +49,6 @@ F 1 "GND" H 5125 1637 50  0000 C CNN
 F 2 "" H 5120 1810 50  0001 C CNN
 F 3 "" H 5120 1810 50  0001 C CNN
 	1    5120 1810
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0132
-U 1 1 5C6D516F
-P 5130 3040
-F 0 "#PWR0132" H 5130 2790 50  0001 C CNN
-F 1 "GND" H 5135 2867 50  0000 C CNN
-F 2 "" H 5130 3040 50  0001 C CNN
-F 3 "" H 5130 3040 50  0001 C CNN
-	1    5130 3040
 	1    0    0    -1  
 $EndComp
 Text Notes 3200 3690 0    79   Italic 16
@@ -105,35 +76,8 @@ F 3 "587-2994-1-ND" H 4170 1190 50  0001 C CNN
 	1    4170 1190
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:L_Core_Ferrite_Coupled L704
-U 1 1 5C6D7FF4
-P 6510 2040
-F 0 "L704" V 6556 1853 50  0000 R CNN
-F 1 "FPT705-200-R" V 6465 1853 50  0000 R CNN
-F 2 "LVDC:Inductor_Dual_Eaton" H 6510 2040 50  0001 C CNN
-F 3 "283-4146-1-ND" H 6510 2040 50  0001 C CNN
-	1    6510 2040
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5210 2490 5130 2490
-Connection ~ 5130 2840
-Wire Wire Line
-	5130 2840 5130 2940
-NoConn ~ 6060 2690
-NoConn ~ 5210 2590
-NoConn ~ 5210 2390
-Wire Wire Line
-	6060 2490 6200 2490
-Wire Wire Line
-	6200 2490 6200 2340
-Wire Wire Line
-	6200 2340 6060 2340
 Text Notes 5370 610  0    50   Italic 10
-12V Converter
-Text Notes 5390 1910 0    50   Italic 10
-5V Converter
+Low Power 12V Converter
 Wire Wire Line
 	6370 550  6370 520 
 Wire Wire Line
@@ -164,10 +108,6 @@ Connection ~ 6640 950
 Wire Wire Line
 	6640 950  6790 950 
 Wire Wire Line
-	6060 2240 6410 2240
-Wire Wire Line
-	6610 2240 6710 2240
-Wire Wire Line
 	6790 980  6790 950 
 Connection ~ 6790 950 
 Wire Wire Line
@@ -187,12 +127,6 @@ F 3 "" H 7040 1480 50  0001 C CNN
 	1    7040 1480
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 2340 6420 2340
-Wire Wire Line
-	6710 2340 6710 2240
-Connection ~ 6200 2340
-Connection ~ 6710 2240
 Wire Wire Line
 	6410 1840 6410 1780
 Wire Wire Line
@@ -267,84 +201,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 950  3250 950 
 $Comp
-L Device:C C724
-U 1 1 5C7096A3
-P 4290 2480
-F 0 "C724" H 4405 2526 50  0000 L CNN
-F 1 "4.7uF" H 4405 2435 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4328 2330 50  0001 C CNN
-F 3 "587-2994-1-ND" H 4290 2480 50  0001 C CNN
-	1    4290 2480
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C720
-U 1 1 5C7096A9
-P 3830 2470
-F 0 "C720" H 3945 2516 50  0000 L CNN
-F 1 "4.7uF" H 3945 2425 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3868 2320 50  0001 C CNN
-F 3 "587-2994-1-ND" H 3830 2470 50  0001 C CNN
-	1    3830 2470
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C716
-U 1 1 5C7096AF
-P 3370 2470
-F 0 "C716" H 3485 2516 50  0000 L CNN
-F 1 "4.7uF" H 3485 2425 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3408 2320 50  0001 C CNN
-F 3 "587-2994-1-ND" H 3370 2470 50  0001 C CNN
-	1    3370 2470
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C712
-U 1 1 5C7096B5
-P 2920 2480
-F 0 "C712" H 3035 2526 50  0000 L CNN
-F 1 "4.7uF" H 3035 2435 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2958 2330 50  0001 C CNN
-F 3 "587-2994-1-ND" H 2920 2480 50  0001 C CNN
-	1    2920 2480
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2920 2770 2920 2630
-Wire Wire Line
-	2920 2770 3370 2770
-Wire Wire Line
-	3370 2620 3370 2770
-Connection ~ 3370 2770
-Wire Wire Line
-	3370 2770 3830 2770
-Wire Wire Line
-	3830 2620 3830 2770
-Connection ~ 3830 2770
-Wire Wire Line
-	3830 2770 4290 2770
-Wire Wire Line
-	4290 2630 4290 2770
-Connection ~ 4290 2770
-Wire Wire Line
-	4290 2330 4290 2240
-Wire Wire Line
-	3830 2320 3830 2240
-Wire Wire Line
-	3370 2320 3370 2240
-Wire Wire Line
-	2920 2330 2920 2240
-Wire Wire Line
-	2920 2240 3370 2240
-Connection ~ 3370 2240
-Wire Wire Line
-	3370 2240 3830 2240
-Connection ~ 3830 2240
-Wire Wire Line
-	3830 2240 4290 2240
-Connection ~ 4290 2240
-$Comp
 L Device:C C703
 U 1 1 5C70DE64
 P 1860 1190
@@ -386,48 +242,6 @@ Wire Wire Line
 	1860 1040 1860 950 
 Wire Wire Line
 	1860 950  2330 950 
-Connection ~ 2920 2240
-$Comp
-L Device:C C704
-U 1 1 5C71DC10
-P 1980 2480
-F 0 "C704" H 2095 2526 50  0000 L CNN
-F 1 "22uF" H 2095 2435 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2018 2330 50  0001 C CNN
-F 3 "445-11739-1-ND" H 1980 2480 50  0001 C CNN
-	1    1980 2480
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C708
-U 1 1 5C71DC16
-P 2450 2480
-F 0 "C708" H 2565 2526 50  0000 L CNN
-F 1 "22uF" H 2565 2435 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2488 2330 50  0001 C CNN
-F 3 "445-11739-1-ND" H 2450 2480 50  0001 C CNN
-	1    2450 2480
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1980 2630 1980 2770
-Wire Wire Line
-	1980 2770 2450 2770
-Wire Wire Line
-	2450 2630 2450 2770
-Connection ~ 2450 2770
-Wire Wire Line
-	2450 2770 2920 2770
-Wire Wire Line
-	2450 2330 2450 2240
-Wire Wire Line
-	1980 2330 1980 2240
-Wire Wire Line
-	1980 2240 2450 2240
-Connection ~ 2450 2240
-Wire Wire Line
-	2450 2240 2920 2240
-Connection ~ 2920 2770
 $Comp
 L Device:C C725
 U 1 1 5C721AF1
@@ -565,167 +379,6 @@ Wire Wire Line
 	9340 950  9340 980 
 Connection ~ 8960 950 
 Connection ~ 9340 950 
-Wire Wire Line
-	6710 2240 6860 2240
-Wire Wire Line
-	6860 2600 6860 2690
-Wire Wire Line
-	6860 2690 7110 2690
-Wire Wire Line
-	7110 2690 7110 2800
-$Comp
-L power:GND #PWR0134
-U 1 1 5C755F0C
-P 7110 2800
-F 0 "#PWR0134" H 7110 2550 50  0001 C CNN
-F 1 "GND" H 7115 2627 50  0000 C CNN
-F 2 "" H 7110 2800 50  0001 C CNN
-F 3 "" H 7110 2800 50  0001 C CNN
-	1    7110 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C728
-U 1 1 5C755F12
-P 6860 2450
-F 0 "C728" H 6975 2496 50  0000 L CNN
-F 1 "47uF" H 6975 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6898 2300 50  0001 C CNN
-F 3 "490-14660-1-ND" H 6860 2450 50  0001 C CNN
-	1    6860 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C732
-U 1 1 5C755F18
-P 7300 2450
-F 0 "C732" H 7415 2496 50  0000 L CNN
-F 1 "47uF" H 7415 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7338 2300 50  0001 C CNN
-F 3 "490-14660-1-ND" H 7300 2450 50  0001 C CNN
-	1    7300 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C736
-U 1 1 5C755F1E
-P 7740 2450
-F 0 "C736" H 7855 2496 50  0000 L CNN
-F 1 "47uF" H 7855 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7778 2300 50  0001 C CNN
-F 3 "490-14660-1-ND" H 7740 2450 50  0001 C CNN
-	1    7740 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C740
-U 1 1 5C755F24
-P 8200 2450
-F 0 "C740" H 8315 2496 50  0000 L CNN
-F 1 "47uF" H 8315 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8238 2300 50  0001 C CNN
-F 3 "490-14660-1-ND" H 8200 2450 50  0001 C CNN
-	1    8200 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C745
-U 1 1 5C755F2A
-P 8620 2450
-F 0 "C745" H 8735 2496 50  0000 L CNN
-F 1 "1uF" H 8735 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8658 2300 50  0001 C CNN
-F 3 "1276-1102-1-ND" H 8620 2450 50  0001 C CNN
-	1    8620 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C749
-U 1 1 5C755F30
-P 9030 2450
-F 0 "C749" H 9145 2496 50  0000 L CNN
-F 1 "1uF" H 9145 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9068 2300 50  0001 C CNN
-F 3 "1276-1102-1-ND" H 9030 2450 50  0001 C CNN
-	1    9030 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C754
-U 1 1 5C755F36
-P 9410 2450
-F 0 "C754" H 9525 2496 50  0000 L CNN
-F 1 "0.1uF" H 9525 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9448 2300 50  0001 C CNN
-F 3 "1276-1000-1-ND" H 9410 2450 50  0001 C CNN
-	1    9410 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7110 2690 7300 2690
-Wire Wire Line
-	7300 2690 7300 2600
-Connection ~ 7110 2690
-Wire Wire Line
-	7300 2690 7740 2690
-Wire Wire Line
-	7740 2690 7740 2600
-Connection ~ 7300 2690
-Wire Wire Line
-	7740 2690 8200 2690
-Wire Wire Line
-	8200 2690 8200 2600
-Connection ~ 7740 2690
-Wire Wire Line
-	8200 2690 8620 2690
-Wire Wire Line
-	8620 2690 8620 2600
-Connection ~ 8200 2690
-Wire Wire Line
-	8620 2690 9030 2690
-Wire Wire Line
-	9030 2690 9030 2600
-Connection ~ 8620 2690
-Wire Wire Line
-	9030 2690 9410 2690
-Wire Wire Line
-	9410 2690 9410 2600
-Connection ~ 9030 2690
-Wire Wire Line
-	6860 2300 6860 2240
-Connection ~ 6860 2240
-Wire Wire Line
-	6860 2240 7300 2240
-Wire Wire Line
-	7300 2300 7300 2240
-Connection ~ 7300 2240
-Wire Wire Line
-	7740 2240 7740 2300
-Wire Wire Line
-	7300 2240 7740 2240
-Wire Wire Line
-	8200 2300 8200 2240
-Wire Wire Line
-	8200 2240 7740 2240
-Connection ~ 7740 2240
-Wire Wire Line
-	8200 2240 8620 2240
-Wire Wire Line
-	8620 2240 8620 2300
-Connection ~ 8200 2240
-Wire Wire Line
-	8620 2240 9030 2240
-Wire Wire Line
-	9030 2240 9030 2300
-Connection ~ 8620 2240
-Wire Wire Line
-	9030 2240 9410 2240
-Wire Wire Line
-	9410 2240 9410 2300
-Connection ~ 9030 2240
-Wire Wire Line
-	9410 2240 9900 2240
-Connection ~ 9410 2240
 Text Notes 8020 3060 0    50   Italic 10
 3V3 Converter
 Text HLabel 10870 950  2    50   Output ~ 0
@@ -1499,26 +1152,9 @@ Wire Wire Line
 Wire Wire Line
 	1590 950  1590 1570
 Connection ~ 1590 1570
-Wire Wire Line
-	1590 1570 1590 2240
 Connection ~ 6800 6440
 Wire Wire Line
 	6800 6440 7240 6440
-$Sheet
-S 3120 3260 990  800 
-U 5CD7BF51
-F0 "24V Converter" 50
-F1 "24V Converter.sch" 50
-F2 "LP_Vin+" I L 3120 3420 50 
-F3 "LP5V" I R 4110 3430 50 
-F4 "LP24V" O R 4110 3860 50 
-$EndSheet
-Wire Wire Line
-	1840 2240 1840 3420
-Wire Wire Line
-	1840 3420 3120 3420
-Wire Wire Line
-	1590 2240 1840 2240
 Wire Wire Line
 	9900 2240 9900 2900
 Wire Wire Line
@@ -1527,7 +1163,6 @@ Wire Wire Line
 	7460 2900 7460 3290
 Wire Wire Line
 	7460 3430 4110 3430
-Connection ~ 9900 2240
 Wire Wire Line
 	9900 2240 10050 2240
 Text HLabel 10890 4100 2    50   Output ~ 0
@@ -2087,39 +1722,6 @@ Wire Wire Line
 Connection ~ 4960 950 
 Wire Wire Line
 	4960 950  5210 950 
-Wire Wire Line
-	1980 2240 1840 2240
-Connection ~ 1980 2240
-Connection ~ 1840 2240
-Wire Wire Line
-	4290 2770 5130 2770
-Wire Wire Line
-	5130 2490 5130 2770
-Connection ~ 5130 2770
-Wire Wire Line
-	5130 2770 5130 2840
-Wire Wire Line
-	4290 2240 4960 2240
-$Comp
-L Device:R_US R?
-U 1 1 5CAB49A6
-P 4960 2460
-F 0 "R?" H 4790 2480 50  0000 L CNN
-F 1 "10k" H 4750 2410 50  0000 L CNN
-F 2 "" V 5000 2450 50  0001 C CNN
-F 3 "~" H 4960 2460 50  0001 C CNN
-	1    4960 2460
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5210 2690 4960 2690
-Wire Wire Line
-	4960 2690 4960 2610
-Wire Wire Line
-	4960 2310 4960 2240
-Connection ~ 4960 2240
-Wire Wire Line
-	4960 2240 5210 2240
 $Comp
 L Device:C_Small C?
 U 1 1 5CB0D699
@@ -2148,84 +1750,6 @@ F 3 "" H 6110 1850 50  0001 C CNN
 $EndComp
 Text Notes 6150 1850 0    50   ~ 0
 DNP\n
-$Comp
-L Device:C_Small C?
-U 1 1 5CB36A20
-P 6110 3040
-F 0 "C?" H 6140 3180 50  0000 L CNN
-F 1 "0.1u" H 6150 3110 50  0000 L CNN
-F 2 "" H 6110 3040 50  0001 C CNN
-F 3 "~" H 6110 3040 50  0001 C CNN
-	1    6110 3040
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6060 2890 6110 2890
-Wire Wire Line
-	6110 2890 6110 2940
-$Comp
-L power:GND #PWR?
-U 1 1 5CB36A29
-P 6110 3140
-F 0 "#PWR?" H 6110 2890 50  0001 C CNN
-F 1 "GND" H 6115 2967 50  0000 C CNN
-F 2 "" H 6110 3140 50  0001 C CNN
-F 3 "" H 6110 3140 50  0001 C CNN
-	1    6110 3140
-	1    0    0    -1  
-$EndComp
-Text Notes 6150 3140 0    50   ~ 0
-DNP\n
-$Comp
-L Device:R_US R?
-U 1 1 5CBB3C59
-P 6420 2590
-F 0 "R?" H 6470 2640 50  0000 L CNN
-F 1 "100k" H 6460 2570 50  0000 L CNN
-F 2 "" V 6460 2580 50  0001 C CNN
-F 3 "~" H 6420 2590 50  0001 C CNN
-	1    6420 2590
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6060 2790 6420 2790
-Wire Wire Line
-	6420 2740 6420 2790
-Wire Wire Line
-	6420 2440 6420 2340
-Connection ~ 6420 2340
-Wire Wire Line
-	6420 2340 6710 2340
-$Comp
-L Device:R_POT RV?
-U 1 1 5CC062B8
-P 6420 2990
-F 0 "RV?" H 6620 2930 50  0000 R CNN
-F 1 "R_POT" H 6720 2860 50  0000 R CNN
-F 2 "" H 6420 2990 50  0001 C CNN
-F 3 "~" H 6420 2990 50  0001 C CNN
-	1    6420 2990
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6570 2990 6770 2990
-Wire Wire Line
-	6770 2990 6770 3190
-$Comp
-L power:GND #PWR?
-U 1 1 5CC2F9EC
-P 6770 3190
-F 0 "#PWR?" H 6770 2940 50  0001 C CNN
-F 1 "GND" H 6775 3017 50  0000 C CNN
-F 2 "" H 6770 3190 50  0001 C CNN
-F 3 "" H 6770 3190 50  0001 C CNN
-	1    6770 3190
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6420 2840 6420 2790
-Connection ~ 6420 2790
-NoConn ~ 6420 3140
 $Comp
 L Device:R_US R?
 U 1 1 5CC836B4
@@ -2355,25 +1879,6 @@ Wire Wire Line
 	6170 6310 6170 5510
 $Comp
 L Device:R_US R?
-U 1 1 5CF50A91
-P 4960 2880
-F 0 "R?" H 4790 2900 50  0000 L CNN
-F 1 "10k" H 4750 2830 50  0000 L CNN
-F 2 "" V 5000 2870 50  0001 C CNN
-F 3 "~" H 4960 2880 50  0001 C CNN
-	1    4960 2880
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4960 2730 4960 2690
-Connection ~ 4960 2690
-Wire Wire Line
-	4960 3030 5130 3030
-Connection ~ 5130 3030
-Wire Wire Line
-	5130 3030 5130 3040
-$Comp
-L Device:R_US R?
 U 1 1 5CFAC07D
 P 4960 1590
 F 0 "R?" H 4790 1610 50  0000 L CNN
@@ -2397,6 +1902,37 @@ Wire Wire Line
 Connection ~ 5120 1790
 Text Notes 4580 1660 0    50   ~ 0
 DNP\n
-Text Notes 4580 2950 0    50   ~ 0
-DNP\n
+$Sheet
+S 3120 3260 990  800 
+U 5CD7BF51
+F0 "24V Converter" 50
+F1 "24V Converter.sch" 50
+F2 "LP_Vin+" I L 3120 3420 50 
+F3 "LP5V" I R 4110 3430 50 
+F4 "LP24V" O R 4110 3860 50 
+$EndSheet
+Wire Wire Line
+	1590 3420 3120 3420
+$Sheet
+S 4850 2350 1180 760 
+U 5D255DF4
+F0 "5V_Converter" 50
+F1 "5V_Converter.sch" 50
+F2 "LP_Batt" I L 4850 2570 50 
+F3 "LP_5V" I R 6030 2570 50 
+$EndSheet
+Wire Wire Line
+	4850 2570 1590 2570
+Wire Wire Line
+	1590 1570 1590 2570
+Connection ~ 1590 2570
+Wire Wire Line
+	1590 2570 1590 3420
+Wire Wire Line
+	6030 2570 7460 2570
+Wire Wire Line
+	7460 2570 7460 2900
+Connection ~ 7460 2900
+Text Notes 5060 2850 0    79   Italic 16
+5V Converter
 $EndSCHEMATC
