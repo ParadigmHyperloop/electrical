@@ -23,16 +23,7 @@ LP5V
 Text HLabel 9980 3310 2    50   Output ~ 0
 LP24V
 Wire Wire Line
-	1770 2760 3820 2760
-Wire Wire Line
 	1770 3410 2200 3410
-Wire Wire Line
-	4260 3810 3820 3810
-Wire Wire Line
-	3820 3810 3820 2760
-Connection ~ 3820 2760
-Wire Wire Line
-	3820 2760 3970 2760
 Wire Wire Line
 	4260 3060 4080 3060
 Wire Wire Line
@@ -488,4 +479,26 @@ F 3 "~" H 6140 4480 50  0001 C CNN
 	1    6140 4480
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1770 2760 3750 2760
+$Comp
+L Device:R_US R805
+U 1 1 5C88FA7D
+P 3750 2980
+F 0 "R805" H 3560 3000 50  0000 C CNN
+F 1 "10k" H 3600 2920 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3790 2970 50  0001 C CNN
+F 3 "~" H 3750 2980 50  0001 C CNN
+	1    3750 2980
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2830 3750 2760
+Connection ~ 3750 2760
+Wire Wire Line
+	3750 2760 3970 2760
+Wire Wire Line
+	3750 3130 3750 3810
+Wire Wire Line
+	3750 3810 4260 3810
 $EndSCHEMATC
