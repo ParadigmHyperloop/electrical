@@ -494,8 +494,6 @@ F 3 "~" H 3145 3920 50  0001 C CNN
 $EndComp
 Text HLabel 3145 3820 0    50   Input ~ 0
 LP_Batt
-Wire Wire Line
-	3115 3665 3375 3655
 $Comp
 L Device:C_Small C26
 U 1 1 5CA4946E

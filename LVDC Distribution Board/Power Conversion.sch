@@ -51,7 +51,7 @@ F 3 "" H 5120 1810 50  0001 C CNN
 	1    5120 1810
 	1    0    0    -1  
 $EndComp
-Text Notes 3200 3690 0    79   Italic 16
+Text Notes 5020 3760 0    79   Italic 16
 24V Converter
 NoConn ~ 5210 1100
 NoConn ~ 5210 1300
@@ -1162,13 +1162,9 @@ Wire Wire Line
 Wire Wire Line
 	7460 2900 7460 3290
 Wire Wire Line
-	7460 3430 4110 3430
-Wire Wire Line
 	9900 2240 10050 2240
 Text HLabel 10890 4100 2    50   Output ~ 0
 LP24V
-Wire Wire Line
-	7470 4100 9835 4100
 $Comp
 L Device:LED D701
 U 1 1 5CF0E2D2
@@ -1330,10 +1326,6 @@ Wire Wire Line
 Wire Wire Line
 	10060 5510 10060 5420
 Wire Wire Line
-	7470 4100 7470 3860
-Wire Wire Line
-	7470 3860 4110 3860
-Wire Wire Line
 	9800 4860 9800 5420
 Wire Wire Line
 	10060 5420 9800 5420
@@ -1457,9 +1449,6 @@ Wire Wire Line
 Wire Wire Line
 	8290 3290 7460 3290
 Connection ~ 8290 3290
-Connection ~ 7460 3290
-Wire Wire Line
-	7460 3290 7460 3430
 Wire Wire Line
 	9340 950  9750 950 
 Connection ~ 9750 950 
@@ -1900,16 +1889,14 @@ Connection ~ 5120 1790
 Text Notes 4580 1660 0    50   ~ 0
 DNP\n
 $Sheet
-S 3120 3260 990  800 
+S 4950 3310 990  800 
 U 5CD7BF51
 F0 "24V Converter" 50
 F1 "24V Converter.sch" 50
-F2 "LP_Vin+" I L 3120 3420 50 
-F3 "LP5V" I R 4110 3430 50 
-F4 "LP24V" O R 4110 3860 50 
+F2 "LP_Vin+" I L 4950 3470 50 
+F3 "LP5V" I R 5940 3480 50 
+F4 "LP24V" O R 5940 3910 50 
 $EndSheet
-Wire Wire Line
-	1590 3420 3120 3420
 $Sheet
 S 4850 2350 1180 760 
 U 5D255DF4
@@ -1923,8 +1910,6 @@ Wire Wire Line
 Wire Wire Line
 	1590 1570 1590 2570
 Connection ~ 1590 2570
-Wire Wire Line
-	1590 2570 1590 3420
 Wire Wire Line
 	6030 2570 7460 2570
 Wire Wire Line
@@ -2044,8 +2029,6 @@ $EndComp
 Connection ~ 9580 3290
 Wire Wire Line
 	9580 3430 9580 3290
-Wire Wire Line
-	9900 2240 10050 2240
 $Comp
 L Connector_Generic:Conn_01x01 TP?
 U 1 1 5CA245DA
@@ -2078,4 +2061,19 @@ $EndComp
 Connection ~ 10260 5420
 Wire Wire Line
 	10260 5420 10060 5420
+Wire Wire Line
+	4950 3470 1590 3470
+Wire Wire Line
+	1590 2570 1590 3470
+Wire Wire Line
+	5940 3910 6810 3910
+Wire Wire Line
+	6810 3910 6810 4100
+Wire Wire Line
+	6810 4100 9835 4100
+Wire Wire Line
+	5940 3480 7460 3480
+Wire Wire Line
+	7460 3480 7460 3290
+Connection ~ 7460 3290
 $EndSCHEMATC

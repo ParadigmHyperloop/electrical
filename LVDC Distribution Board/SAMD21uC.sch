@@ -8237,8 +8237,6 @@ Wire Wire Line
 	9110 860  9210 860 
 Connection ~ 9410 860 
 Wire Wire Line
-	9410 860  9410 740 
-Wire Wire Line
 	9210 1070 9210 860 
 Connection ~ 9210 860 
 Wire Wire Line
@@ -8639,9 +8637,6 @@ F 3 "" H 9410 710 50  0001 C CNN
 	1    9410 710 
 	1    0    0    -1  
 $EndComp
-Connection ~ 9410 740 
-Wire Wire Line
-	9410 740  9410 710 
 $Comp
 L Device:R_US R8
 U 1 1 5CA2F3DF
@@ -9162,6 +9157,8 @@ Wire Wire Line
 	8160 5940 8160 6030
 Text Label 8040 5840 0    50   ~ 0
 AIN_3
+Wire Wire Line
+	9410 710  9410 860 
 Wire Bus Line
 	4420 5620 4420 6020
 $EndSCHEMATC
