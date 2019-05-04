@@ -1,0 +1,379 @@
+EESchema Schematic File Version 4
+LIBS:bmsDropIn-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C1
+U 1 1 5CCA1A39
+P 1500 2000
+F 0 "C1" H 1615 2046 50  0000 L CNN
+F 1 "0.1u" H 1615 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 1538 1850 50  0001 C CNN
+F 3 "~" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5CCA1A6B
+P 1500 2600
+F 0 "C2" H 1615 2646 50  0000 L CNN
+F 1 "0.1u" H 1615 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 1538 2450 50  0001 C CNN
+F 3 "~" H 1500 2600 50  0001 C CNN
+	1    1500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2150 1500 2450
+Wire Wire Line
+	1500 1850 1500 1600
+Wire Wire Line
+	1500 2750 1500 3000
+$Comp
+L power:GND #PWR0101
+U 1 1 5CCB6349
+P 5500 3600
+F 0 "#PWR0101" H 5500 3350 50  0001 C CNN
+F 1 "GND" H 5505 3427 50  0000 C CNN
+F 2 "" H 5500 3600 50  0001 C CNN
+F 3 "" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5CCB6524
+P 5500 1050
+F 0 "#PWR0102" H 5500 900 50  0001 C CNN
+F 1 "VCC" H 5517 1223 50  0000 C CNN
+F 2 "" H 5500 1050 50  0001 C CNN
+F 3 "" H 5500 1050 50  0001 C CNN
+	1    5500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5CCABA02
+P 1950 2000
+F 0 "C3" H 2065 2046 50  0000 L CNN
+F 1 "0.1u" H 2065 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 1988 1850 50  0001 C CNN
+F 3 "~" H 1950 2000 50  0001 C CNN
+	1    1950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5CCABA09
+P 1950 2600
+F 0 "C4" H 2065 2646 50  0000 L CNN
+F 1 "0.1u" H 2065 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 1988 2450 50  0001 C CNN
+F 3 "~" H 1950 2600 50  0001 C CNN
+	1    1950 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2150 1950 2450
+Wire Wire Line
+	1950 1850 1950 1600
+Wire Wire Line
+	1950 2750 1950 3000
+$Comp
+L Device:C C5
+U 1 1 5CCABAD8
+P 2400 2000
+F 0 "C5" H 2515 2046 50  0000 L CNN
+F 1 "0.1u" H 2515 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 2438 1850 50  0001 C CNN
+F 3 "~" H 2400 2000 50  0001 C CNN
+	1    2400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5CCABADF
+P 2400 2600
+F 0 "C6" H 2515 2646 50  0000 L CNN
+F 1 "0.1u" H 2515 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 2438 2450 50  0001 C CNN
+F 3 "~" H 2400 2600 50  0001 C CNN
+	1    2400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2150 2400 2450
+Wire Wire Line
+	2400 1850 2400 1600
+Wire Wire Line
+	2400 2750 2400 3000
+$Comp
+L Device:C C7
+U 1 1 5CCABAE9
+P 2850 2000
+F 0 "C7" H 2965 2046 50  0000 L CNN
+F 1 "0.1u" H 2965 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 2888 1850 50  0001 C CNN
+F 3 "~" H 2850 2000 50  0001 C CNN
+	1    2850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5CCABAF0
+P 2850 2600
+F 0 "C8" H 2965 2646 50  0000 L CNN
+F 1 "0.1u" H 2965 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 2888 2450 50  0001 C CNN
+F 3 "~" H 2850 2600 50  0001 C CNN
+	1    2850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2150 2850 2450
+Wire Wire Line
+	2850 1850 2850 1600
+Wire Wire Line
+	2850 2750 2850 3000
+$Comp
+L Device:C C9
+U 1 1 5CCABC14
+P 3300 2000
+F 0 "C9" H 3415 2046 50  0000 L CNN
+F 1 "0.1u" H 3415 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 3338 1850 50  0001 C CNN
+F 3 "~" H 3300 2000 50  0001 C CNN
+	1    3300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5CCABC1B
+P 3300 2600
+F 0 "C10" H 3415 2646 50  0000 L CNN
+F 1 "0.1u" H 3415 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 3338 2450 50  0001 C CNN
+F 3 "~" H 3300 2600 50  0001 C CNN
+	1    3300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2150 3300 2450
+Wire Wire Line
+	3300 1850 3300 1600
+Wire Wire Line
+	3300 2750 3300 3000
+$Comp
+L Device:C C11
+U 1 1 5CCABC25
+P 3750 2000
+F 0 "C11" H 3865 2046 50  0000 L CNN
+F 1 "0.1u" H 3865 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 3788 1850 50  0001 C CNN
+F 3 "~" H 3750 2000 50  0001 C CNN
+	1    3750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5CCABC2C
+P 3750 2600
+F 0 "C12" H 3865 2646 50  0000 L CNN
+F 1 "0.1u" H 3865 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 3788 2450 50  0001 C CNN
+F 3 "~" H 3750 2600 50  0001 C CNN
+	1    3750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2150 3750 2450
+Wire Wire Line
+	3750 1850 3750 1600
+Wire Wire Line
+	3750 2750 3750 3000
+$Comp
+L Device:C C15
+U 1 1 5CCABE74
+P 4650 2000
+F 0 "C15" H 4765 2046 50  0000 L CNN
+F 1 "0.1u" H 4765 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 4688 1850 50  0001 C CNN
+F 3 "~" H 4650 2000 50  0001 C CNN
+	1    4650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5CCABE7B
+P 4650 2600
+F 0 "C16" H 4765 2646 50  0000 L CNN
+F 1 "0.1u" H 4765 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 4688 2450 50  0001 C CNN
+F 3 "~" H 4650 2600 50  0001 C CNN
+	1    4650 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2150 4650 2450
+Wire Wire Line
+	4650 1850 4650 1600
+Wire Wire Line
+	4650 2750 4650 3000
+$Comp
+L Device:C C19
+U 1 1 5CCAC25E
+P 5550 2000
+F 0 "C19" H 5665 2046 50  0000 L CNN
+F 1 "0.1u" H 5665 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 5588 1850 50  0001 C CNN
+F 3 "~" H 5550 2000 50  0001 C CNN
+	1    5550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5CCAC265
+P 5550 2600
+F 0 "C20" H 5665 2646 50  0000 L CNN
+F 1 "0.1u" H 5665 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 5588 2450 50  0001 C CNN
+F 3 "~" H 5550 2600 50  0001 C CNN
+	1    5550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2150 5550 2450
+$Comp
+L Device:C C23
+U 1 1 5CCACAE1
+P 6450 2000
+F 0 "C23" H 6565 2046 50  0000 L CNN
+F 1 "0.1u" H 6565 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 6488 1850 50  0001 C CNN
+F 3 "~" H 6450 2000 50  0001 C CNN
+	1    6450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 5CCACAE8
+P 6450 2600
+F 0 "C24" H 6565 2646 50  0000 L CNN
+F 1 "0.1u" H 6565 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 6488 2450 50  0001 C CNN
+F 3 "~" H 6450 2600 50  0001 C CNN
+	1    6450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2150 6450 2450
+Wire Wire Line
+	6450 1850 6450 1600
+Wire Wire Line
+	6450 2750 6450 3000
+$Comp
+L Device:C C27
+U 1 1 5CCACB03
+P 7350 2000
+F 0 "C27" H 7465 2046 50  0000 L CNN
+F 1 "0.1u" H 7465 1955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 7388 1850 50  0001 C CNN
+F 3 "~" H 7350 2000 50  0001 C CNN
+	1    7350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 5CCACB0A
+P 7350 2600
+F 0 "C28" H 7465 2646 50  0000 L CNN
+F 1 "0.1u" H 7465 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_1812_HandSoldering" H 7388 2450 50  0001 C CNN
+F 3 "~" H 7350 2600 50  0001 C CNN
+	1    7350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2150 7350 2450
+Wire Wire Line
+	7350 1850 7350 1600
+Wire Wire Line
+	7350 2750 7350 3000
+Wire Wire Line
+	1500 1600 1950 1600
+Connection ~ 1950 1600
+Wire Wire Line
+	1950 1600 2400 1600
+Connection ~ 2400 1600
+Wire Wire Line
+	2400 1600 2850 1600
+Connection ~ 2850 1600
+Wire Wire Line
+	2850 1600 3300 1600
+Connection ~ 3300 1600
+Wire Wire Line
+	3300 1600 3750 1600
+Wire Wire Line
+	1500 3000 1950 3000
+Connection ~ 1950 3000
+Wire Wire Line
+	1950 3000 2400 3000
+Connection ~ 2400 3000
+Wire Wire Line
+	2400 3000 2850 3000
+Connection ~ 2850 3000
+Wire Wire Line
+	2850 3000 3300 3000
+Connection ~ 3300 3000
+Wire Wire Line
+	3300 3000 3750 3000
+Wire Wire Line
+	5550 3600 5500 3600
+Wire Wire Line
+	5550 1050 5500 1050
+Wire Wire Line
+	3750 1600 4650 1600
+Connection ~ 3750 1600
+Wire Wire Line
+	6450 1600 7350 1600
+Wire Wire Line
+	3750 3000 4650 3000
+Connection ~ 3750 3000
+Connection ~ 4650 3000
+Wire Wire Line
+	4650 3000 5550 3000
+Connection ~ 6450 3000
+Wire Wire Line
+	6450 3000 7350 3000
+Wire Wire Line
+	5550 2750 5550 3000
+Connection ~ 5550 3000
+Wire Wire Line
+	5550 3000 6450 3000
+Wire Wire Line
+	5550 3000 5550 3600
+Wire Wire Line
+	4650 1600 5550 1600
+Connection ~ 4650 1600
+Connection ~ 6450 1600
+Wire Wire Line
+	5550 1850 5550 1600
+Connection ~ 5550 1600
+Wire Wire Line
+	5550 1600 6450 1600
+Wire Wire Line
+	5550 1600 5550 1050
+$EndSCHEMATC
