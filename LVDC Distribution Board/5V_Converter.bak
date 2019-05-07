@@ -521,4 +521,5 @@ F 3 "" H 3145 4020 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3145 4020
+NoConn ~ 4470 4200
 $EndSCHEMATC

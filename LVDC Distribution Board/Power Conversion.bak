@@ -1162,13 +1162,9 @@ Wire Wire Line
 Wire Wire Line
 	7460 2900 7460 3290
 Wire Wire Line
-	7460 3430 5940 3480
-Wire Wire Line
 	9900 2240 10050 2240
 Text HLabel 10890 4100 2    50   Output ~ 0
 LP24V
-Wire Wire Line
-	7470 4100 9835 4100
 $Comp
 L Device:LED D701
 U 1 1 5CF0E2D2
@@ -1330,10 +1326,6 @@ Wire Wire Line
 Wire Wire Line
 	10060 5510 10060 5420
 Wire Wire Line
-	7470 4100 7470 3860
-Wire Wire Line
-	7470 3860 5940 3910
-Wire Wire Line
 	9800 4860 9800 5420
 Wire Wire Line
 	10060 5420 9800 5420
@@ -1457,9 +1449,6 @@ Wire Wire Line
 Wire Wire Line
 	8290 3290 7460 3290
 Connection ~ 8290 3290
-Connection ~ 7460 3290
-Wire Wire Line
-	7460 3290 7460 3430
 Wire Wire Line
 	9340 950  9750 950 
 Connection ~ 9750 950 
@@ -1908,8 +1897,6 @@ F2 "LP_Vin+" I L 4950 3470 50
 F3 "LP5V" I R 5940 3480 50 
 F4 "LP24V" O R 5940 3910 50 
 $EndSheet
-Wire Wire Line
-	1590 3420 4950 3470
 $Sheet
 S 4850 2350 1180 760 
 U 5D255DF4
@@ -1923,8 +1910,6 @@ Wire Wire Line
 Wire Wire Line
 	1590 1570 1590 2570
 Connection ~ 1590 2570
-Wire Wire Line
-	1590 2570 1590 3420
 Wire Wire Line
 	6030 2570 7460 2570
 Wire Wire Line
@@ -2076,4 +2061,19 @@ $EndComp
 Connection ~ 10260 5420
 Wire Wire Line
 	10260 5420 10060 5420
+Wire Wire Line
+	4950 3470 1590 3470
+Wire Wire Line
+	1590 2570 1590 3470
+Wire Wire Line
+	5940 3910 6810 3910
+Wire Wire Line
+	6810 3910 6810 4100
+Wire Wire Line
+	6810 4100 9835 4100
+Wire Wire Line
+	5940 3480 7460 3480
+Wire Wire Line
+	7460 3480 7460 3290
+Connection ~ 7460 3290
 $EndSCHEMATC

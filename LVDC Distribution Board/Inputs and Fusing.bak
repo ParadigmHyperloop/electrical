@@ -40,9 +40,6 @@ F 3 "~" H 7935 3530 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7935 4270 7935 4160
-Wire Wire Line
-	7745 4270 7935 4270
-Connection ~ 7935 4270
 $Comp
 L power:GND #PWR0101
 U 1 1 5C021752
@@ -107,8 +104,6 @@ Wire Wire Line
 Connection ~ 6995 3240
 Wire Wire Line
 	6995 3240 8465 3240
-Wire Wire Line
-	7935 4270 8735 4270
 Wire Wire Line
 	8735 4270 8735 4390
 Wire Wire Line
@@ -609,8 +604,6 @@ Wire Wire Line
 	6995 4270 6995 4500
 Wire Wire Line
 	6995 4500 7935 4500
-Wire Wire Line
-	7935 4500 7935 4280
 Connection ~ 6995 4270
 Wire Wire Line
 	2255 4270 5195 4270
@@ -668,12 +661,12 @@ $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 5C843B9E
-P 2975 2475
-F 0 "#PWR0123" H 2975 2225 50  0001 C CNN
-F 1 "GND" H 2980 2302 50  0000 C CNN
-F 2 "" H 2975 2475 50  0001 C CNN
-F 3 "" H 2975 2475 50  0001 C CNN
-	1    2975 2475
+P 2975 2480
+F 0 "#PWR0123" H 2975 2230 50  0001 C CNN
+F 1 "GND" H 2980 2307 50  0000 C CNN
+F 2 "" H 2975 2480 50  0001 C CNN
+F 3 "" H 2975 2480 50  0001 C CNN
+	1    2975 2480
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -791,4 +784,11 @@ F 3 "" H 5565 3040 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Connection ~ 5195 1940
+Wire Wire Line
+	7745 4270 7935 4270
+Wire Wire Line
+	7935 4270 7935 4500
+Connection ~ 7935 4270
+Wire Wire Line
+	7935 4270 8735 4270
 $EndSCHEMATC

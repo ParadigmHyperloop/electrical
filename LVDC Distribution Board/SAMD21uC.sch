@@ -8407,7 +8407,7 @@ F 1 "1k" H 2288 4025 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2260 4060 50  0001 C CNN
 F 3 "~" H 2220 4070 50  0001 C CNN
 	1    2220 4070
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+3.3V #PWR0164
