@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name connectors)(type Legacy)(uri "/home/francis/Documents/github/Wiring Harnesses/wiringHarnesses/connectors.lib")(options "")(descr ""))
+  (lib (name wiringHarnesses-rescue)(type Legacy)(uri ${KIPRJMOD}/wiringHarnesses-rescue.lib)(options "")(descr ""))
 )

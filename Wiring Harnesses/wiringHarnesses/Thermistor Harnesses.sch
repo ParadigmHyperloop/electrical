@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:wiringHarnesses-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 14
 Title ""
 Date ""
 Rev ""
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U13
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U13
 U 1 1 5CCEFED5
 P 10780 1010
 F 0 "U13" H 10720 1430 50  0000 L CNN
@@ -25,7 +26,7 @@ F 3 "" H 10780 1010 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U14
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U14
 U 1 1 5CCF002D
 P 10780 1830
 F 0 "U14" H 10720 2240 50  0000 L CNN
@@ -36,7 +37,7 @@ F 3 "" H 10780 1830 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U15
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U15
 U 1 1 5CCF00B3
 P 10780 2700
 F 0 "U15" H 10710 3120 50  0000 L CNN
@@ -47,7 +48,7 @@ F 3 "" H 10780 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U16
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U16
 U 1 1 5CCF014B
 P 10780 3590
 F 0 "U16" H 10730 4000 50  0000 L CNN
@@ -58,7 +59,7 @@ F 3 "" H 10780 3590 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U9
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U9
 U 1 1 5CCF0853
 P 9620 1010
 F 0 "U9" H 9580 1430 50  0000 L CNN
@@ -69,7 +70,7 @@ F 3 "" H 9620 1010 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U10
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U10
 U 1 1 5CCF085A
 P 9620 1850
 F 0 "U10" H 9550 2240 50  0000 L CNN
@@ -80,7 +81,7 @@ F 3 "" H 9620 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U11
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U11
 U 1 1 5CCF0861
 P 9620 2710
 F 0 "U11" H 9560 3110 50  0000 L CNN
@@ -91,7 +92,7 @@ F 3 "" H 9620 2710 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U12
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U12
 U 1 1 5CCF0868
 P 9620 3590
 F 0 "U12" H 9590 3990 50  0000 L CNN
@@ -102,7 +103,7 @@ F 3 "" H 9620 3590 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U5
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U5
 U 1 1 5CCF0AD3
 P 8480 1000
 F 0 "U5" H 8450 1440 50  0000 L CNN
@@ -113,7 +114,7 @@ F 3 "" H 8480 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U6
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U6
 U 1 1 5CCF0ADA
 P 8480 1830
 F 0 "U6" H 8440 2240 50  0000 L CNN
@@ -124,7 +125,7 @@ F 3 "" H 8480 1830 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U7
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U7
 U 1 1 5CCF0AE1
 P 8480 2690
 F 0 "U7" H 8380 3110 50  0000 L CNN
@@ -135,7 +136,7 @@ F 3 "" H 8480 2690 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U8
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U8
 U 1 1 5CCF0AE8
 P 8480 3590
 F 0 "U8" H 8410 4000 50  0000 L CNN
@@ -146,7 +147,7 @@ F 3 "" H 8480 3590 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U1
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U1
 U 1 1 5CCF0E47
 P 7200 990
 F 0 "U1" H 7180 1420 50  0000 L CNN
@@ -157,7 +158,7 @@ F 3 "" H 7200 990 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U2
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U2
 U 1 1 5CCF0E4E
 P 7200 1810
 F 0 "U2" H 7150 2220 50  0000 L CNN
@@ -168,7 +169,7 @@ F 3 "" H 7200 1810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U3
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U3
 U 1 1 5CCF0E55
 P 7200 2670
 F 0 "U3" H 7190 3060 50  0000 L CNN
@@ -179,7 +180,7 @@ F 3 "" H 7200 2670 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female U4
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U4
 U 1 1 5CCF0E5C
 P 7200 3570
 F 0 "U4" H 7160 3980 50  0000 L CNN
@@ -190,7 +191,7 @@ F 3 "" H 7200 3570 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:PADP-24V-1-S J1
+L wiringHarnesses-rescue:PADP-24V-1-S-connectors J1
 U 1 1 5CCF5D92
 P 1300 2140
 F 0 "J1" H 1300 2715 50  0000 C CNN
@@ -5989,7 +5990,7 @@ Entry Wire Line
 Entry Wire Line
 	7820 3990 7920 3890
 $Comp
-L connectors:PADP-24V-1-S J2
+L wiringHarnesses-rescue:PADP-24V-1-S-connectors J2
 U 1 1 5CD2E802
 P 3120 2130
 F 0 "J2" H 3120 2705 50  0000 C CNN
@@ -6150,7 +6151,7 @@ therm29
 Text Label 2860 2480 2    50   ~ 0
 therm30
 $Comp
-L connectors:PADP-24V-1-S J3
+L wiringHarnesses-rescue:PADP-24V-1-S-connectors J3
 U 1 1 5CD52B6A
 P 4850 2140
 F 0 "J3" H 4850 2715 50  0000 C CNN
