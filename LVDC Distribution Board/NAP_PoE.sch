@@ -14,4 +14,84 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector:RJ45_LED J6
+U 1 1 5CD6F222
+P 6020 5020
+F 0 "J6" H 6020 5687 50  0000 C CNN
+F 1 "RJ45_LED" H 6020 5596 50  0000 C CNN
+F 2 "Connectors:RJ45_8" V 6020 5045 50  0001 C CNN
+F 3 "~" V 6020 5045 50  0001 C CNN
+	1    6020 5020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45_LED J7
+U 1 1 5CD6F46E
+P 7890 5020
+F 0 "J7" H 7890 5687 50  0000 C CNN
+F 1 "RJ45_LED" H 7890 5596 50  0000 C CNN
+F 2 "Connectors:RJ45_8" V 7890 5045 50  0001 C CNN
+F 3 "~" V 7890 5045 50  0001 C CNN
+	1    7890 5020
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6420 5320 7490 5320
+Wire Wire Line
+	6420 5220 7490 5220
+Wire Wire Line
+	6420 5120 7490 5120
+Wire Wire Line
+	7225 5020 7225 4920
+Connection ~ 7225 4920
+Wire Wire Line
+	7225 4920 7225 4350
+Wire Wire Line
+	7490 4620 7405 4620
+Wire Wire Line
+	7405 4720 7490 4720
+Wire Wire Line
+	7405 4620 7405 4720
+Wire Wire Line
+	7405 4350 7405 4620
+Connection ~ 7405 4620
+Wire Wire Line
+	6420 4820 7490 4820
+Wire Wire Line
+	7225 4920 7490 4920
+Wire Wire Line
+	7225 5020 7490 5020
+$Comp
+L node-rescue:GND #PWR0236
+U 1 1 5CD706BF
+P 7225 4350
+F 0 "#PWR0236" H 7225 4100 50  0001 C CNN
+F 1 "GND" H 7230 4177 50  0000 C CNN
+F 2 "" H 7225 4350 50  0001 C CNN
+F 3 "" H 7225 4350 50  0001 C CNN
+	1    7225 4350
+	-1   0    0    1   
+$EndComp
+Text Notes 6830 4180 0    39   ~ 0
+****Australia GND\nfor Frank
+Text Label 6480 4820 0    50   ~ 0
+TX-
+Text Label 6480 5120 0    50   ~ 0
+TX+
+Text Label 6480 5220 0    50   ~ 0
+RX-
+Text Label 6480 5320 0    50   ~ 0
+RX+
+$Comp
+L node-rescue:GND #PWR0237
+U 1 1 5CD74622
+P 7405 4350
+F 0 "#PWR0237" H 7405 4100 50  0001 C CNN
+F 1 "GND" H 7410 4177 50  0000 C CNN
+F 2 "" H 7405 4350 50  0001 C CNN
+F 3 "" H 7405 4350 50  0001 C CNN
+	1    7405 4350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
