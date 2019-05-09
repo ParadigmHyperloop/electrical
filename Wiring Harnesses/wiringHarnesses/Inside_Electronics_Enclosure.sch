@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 14
+Sheet 2 20
 Title ""
 Date ""
 Rev ""
@@ -42,7 +42,7 @@ U 5CCEFA30
 F0 "BulkHeads" 50
 F1 "BulkHeads.sch" 50
 $EndSheet
-Text Notes 2840 5150 0    118  ~ 24
+Text Notes 3090 5110 0    118  ~ 24
 Bulk Heads\n
 Text Notes 8150 5170 0    118  ~ 24
 High Voltage\n
