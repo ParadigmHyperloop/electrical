@@ -1,0 +1,163 @@
+EESchema Schematic File Version 4
+LIBS:contactor-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:DIODE D?
+U 1 1 5CD35D3E
+P 3050 4650
+F 0 "D?" H 3050 4385 50  0000 C CNN
+F 1 "DIODE" H 3050 4476 50  0000 C CNN
+F 2 "" H 3050 4650 50  0001 C CNN
+F 3 "~" H 3050 4650 50  0001 C CNN
+	1    3050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 5CD35D5B
+P 3050 4200
+F 0 "D?" H 3050 3935 50  0000 C CNN
+F 1 "DIODE" H 3050 4026 50  0000 C CNN
+F 2 "" H 3050 4200 50  0001 C CNN
+F 3 "~" H 3050 4200 50  0001 C CNN
+	1    3050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 5CD35E33
+P 3050 5550
+F 0 "D?" H 3050 5285 50  0000 C CNN
+F 1 "DIODE" H 3050 5376 50  0000 C CNN
+F 2 "" H 3050 5550 50  0001 C CNN
+F 3 "~" H 3050 5550 50  0001 C CNN
+	1    3050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 5CD35E3A
+P 3050 5100
+F 0 "D?" H 3050 4835 50  0000 C CNN
+F 1 "DIODE" H 3050 4926 50  0000 C CNN
+F 2 "" H 3050 5100 50  0001 C CNN
+F 3 "~" H 3050 5100 50  0001 C CNN
+	1    3050 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4200 3250 4200
+Wire Wire Line
+	3250 4650 3700 4650
+Wire Wire Line
+	3700 4200 3700 4650
+Connection ~ 3700 4650
+Wire Wire Line
+	3700 4650 3700 5100
+Wire Wire Line
+	3250 5100 3700 5100
+Connection ~ 3700 5100
+Wire Wire Line
+	3700 5100 3700 5550
+Wire Wire Line
+	3250 5550 3700 5550
+$Comp
+L Device:R R?
+U 1 1 5CD3654F
+P 4400 5150
+F 0 "R?" H 4470 5196 50  0000 L CNN
+F 1 "R" H 4470 5105 50  0000 L CNN
+F 2 "" V 4330 5150 50  0001 C CNN
+F 3 "~" H 4400 5150 50  0001 C CNN
+	1    4400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CD3659E
+P 5050 4650
+F 0 "R?" V 4843 4650 50  0000 C CNN
+F 1 "R" V 4934 4650 50  0000 C CNN
+F 2 "" V 4980 4650 50  0001 C CNN
+F 3 "~" H 5050 4650 50  0001 C CNN
+	1    5050 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 4650 4400 4650
+Wire Wire Line
+	4400 5000 4400 4650
+Connection ~ 4400 4650
+Wire Wire Line
+	4400 5300 4400 5550
+$Comp
+L power:GND #PWR?
+U 1 1 5CD366FF
+P 4400 5550
+F 0 "#PWR?" H 4400 5300 50  0001 C CNN
+F 1 "GND" H 4405 5377 50  0000 C CNN
+F 2 "" H 4400 5550 50  0001 C CNN
+F 3 "" H 4400 5550 50  0001 C CNN
+	1    4400 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4200 2850 4200
+Wire Wire Line
+	1950 4650 2850 4650
+Wire Wire Line
+	2850 5100 1950 5100
+Wire Wire Line
+	1950 5550 2850 5550
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5CD4AC33
+P 5750 4650
+F 0 "Q?" H 5955 4696 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5955 4605 50  0000 L CNN
+F 2 "" H 5950 4750 50  0001 C CNN
+F 3 "~" H 5750 4650 50  0001 C CNN
+	1    5750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4650 4900 4650
+Wire Wire Line
+	5200 4650 5550 4650
+Text GLabel 1950 4200 0    50   Input ~ 0
+Master_Fault
+Text GLabel 1950 4650 0    50   Input ~ 0
+ISO
+Text GLabel 1950 5100 0    50   Input ~ 0
+Slave_Fault
+Text GLabel 1950 5550 0    50   Input ~ 0
+Inverter_Relay
+$Comp
+L power:GND #PWR?
+U 1 1 5CD4B498
+P 5850 5500
+F 0 "#PWR?" H 5850 5250 50  0001 C CNN
+F 1 "GND" H 5855 5327 50  0000 C CNN
+F 2 "" H 5850 5500 50  0001 C CNN
+F 3 "" H 5850 5500 50  0001 C CNN
+	1    5850 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4850 5850 5500
+Wire Wire Line
+	5850 4450 5850 3700
+$EndSCHEMATC
