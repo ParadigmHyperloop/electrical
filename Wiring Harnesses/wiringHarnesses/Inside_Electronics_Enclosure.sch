@@ -20,16 +20,8 @@ U 5CCEFA19
 F0 "BMS" 50
 F1 "BMS.sch" 50
 $EndSheet
-$Sheet
-S 7270 1110 2900 1540
-U 5CCEFA1C
-F0 "controlsCircuitry" 50
-F1 "controlsCircuitry.sch" 50
-$EndSheet
 Text Notes 3090 2060 0    118  ~ 24
 BMS\n
-Text Notes 8000 2140 0    118  ~ 24
-Controls Circuitry\n\n
 $Sheet
 S 7120 3980 3260 2100
 U 5CCEFA29

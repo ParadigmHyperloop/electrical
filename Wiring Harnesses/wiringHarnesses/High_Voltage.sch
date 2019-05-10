@@ -14,4 +14,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 1050 750  2350 1350
+U 5CD64CBA
+F0 "motorLowVoltage" 79
+F1 "motorLowVoltage.sch" 79
+$EndSheet
+Text Notes 1400 1500 0    118  ~ 0
+Motor Low Voltage\n
 $EndSCHEMATC

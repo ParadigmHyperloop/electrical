@@ -21,7 +21,7 @@ F0 "PowerBoardToNode" 79
 F1 "Power Board to Node.sch" 79
 $EndSheet
 Text Notes 1260 1840 0    118  ~ 24
-Power Board to Node
+Power Board to Nodes
 $Sheet
 S 4710 1090 2900 1340
 U 5CD47BE9

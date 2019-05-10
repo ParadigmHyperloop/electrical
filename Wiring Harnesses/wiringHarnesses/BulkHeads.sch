@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 20
+Sheet 11 20
 Title ""
 Date ""
 Rev ""
@@ -36,6 +36,6 @@ U 5CD47BDF
 F0 "RJ45MiscBulkhead" 79
 F1 "RJ45MiscBulkhead.sch" 79
 $EndSheet
-Text Notes 8620 3630 0    118  ~ 24
-RJ45 Misc Bulkhead
+Text Notes 8800 3650 0    118  ~ 24
+RJ45 (Motor)\n
 $EndSCHEMATC
