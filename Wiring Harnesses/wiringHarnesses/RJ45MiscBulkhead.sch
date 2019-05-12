@@ -28,7 +28,7 @@ $EndComp
 Text Notes 3650 3800 0    79   ~ 0
 MALE RJ45\n
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female_8 U?
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female_8-connectors U?
 U 1 1 5CD6483F
 P 5900 4250
 F 0 "U?" H 6027 5423 79  0000 L CNN

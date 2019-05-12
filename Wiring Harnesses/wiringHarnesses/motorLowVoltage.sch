@@ -26,7 +26,7 @@ F 3 "~" V 7800 3075 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L connectors:Remy250 J?
+L wiringHarnesses-rescue:Remy250-connectors J?
 U 1 1 5CD65637
 P 4050 3200
 F 0 "J?" H 3944 1919 79  0000 C CNN
