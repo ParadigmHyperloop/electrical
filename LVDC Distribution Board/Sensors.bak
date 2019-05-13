@@ -598,7 +598,7 @@ F 3 "" H 4380 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4380 4150 4380 3950
+	4380 4150 4380 4015
 $Comp
 L Device:R_US R907
 U 1 1 5C9EE38D
@@ -1048,4 +1048,29 @@ Text Label 9150 5250 0    50   ~ 0
 ADC_S3
 Wire Bus Line
 	9050 4750 9050 5150
+$Comp
+L Device:C_Small C?
+U 1 1 5CDB49FA
+P 4480 4015
+F 0 "C?" H 4388 3969 50  0000 R CNN
+F 1 "1u" H 4388 4060 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0402" H 4480 4015 50  0001 C CNN
+F 3 "~" H 4480 4015 50  0001 C CNN
+	1    4480 4015
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4380 4015
+Wire Wire Line
+	4380 4015 4380 3950
+$Comp
+L node-rescue:GND #PWR?
+U 1 1 5CDB5295
+P 4580 4015
+F 0 "#PWR?" H 4580 3765 50  0001 C CNN
+F 1 "GND" H 4585 3842 50  0000 C CNN
+F 2 "" H 4580 4015 50  0001 C CNN
+F 3 "" H 4580 4015 50  0001 C CNN
+	1    4580 4015
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
