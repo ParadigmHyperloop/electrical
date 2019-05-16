@@ -189,13 +189,13 @@ F 3 "~" H 3800 3100 50  0001 C CNN
 	1    3800 3100
 	1    0    0    -1  
 $EndComp
-Text Label 3500 4250 2    50   ~ 0
+Text Label 3450 5450 2    50   ~ 0
 BMS_Fault_L
 Text Label 3400 4850 2    50   ~ 0
 BMS_ISO_L
 Text Label 3700 6050 2    50   ~ 0
 BMS_Spare_Fault_L
-Text Label 3600 5450 2    50   ~ 0
+Text Label 3600 4250 2    50   ~ 0
 Inverter_Relay_L
 $Comp
 L Connector:Screw_Terminal_01x01 J1
@@ -550,6 +550,127 @@ F 1 "GND" H 2455 4377 50  0000 C CNN
 F 2 "" H 2450 4550 50  0001 C CNN
 F 3 "" H 2450 4550 50  0001 C CNN
 	1    2450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5CDC9CD1
+P 10300 5200
+F 0 "H2" H 10400 5251 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10400 5160 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10300 5200 50  0001 C CNN
+F 3 "~" H 10300 5200 50  0001 C CNN
+	1    10300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5CDCCB43
+P 10300 5300
+F 0 "#PWR0110" H 10300 5050 50  0001 C CNN
+F 1 "GND" H 10305 5127 50  0000 C CNN
+F 2 "" H 10300 5300 50  0001 C CNN
+F 3 "" H 10300 5300 50  0001 C CNN
+	1    10300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5CDD3E6E
+P 10300 4700
+F 0 "H1" H 10400 4751 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10400 4660 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10300 4700 50  0001 C CNN
+F 3 "~" H 10300 4700 50  0001 C CNN
+	1    10300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5CDD3E75
+P 10300 4800
+F 0 "#PWR0111" H 10300 4550 50  0001 C CNN
+F 1 "GND" H 10305 4627 50  0000 C CNN
+F 2 "" H 10300 4800 50  0001 C CNN
+F 3 "" H 10300 4800 50  0001 C CNN
+	1    10300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5CDD4E54
+P 10300 6200
+F 0 "H4" H 10400 6251 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10400 6160 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10300 6200 50  0001 C CNN
+F 3 "~" H 10300 6200 50  0001 C CNN
+	1    10300 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5CDD4E5B
+P 10300 6300
+F 0 "#PWR0112" H 10300 6050 50  0001 C CNN
+F 1 "GND" H 10305 6127 50  0000 C CNN
+F 2 "" H 10300 6300 50  0001 C CNN
+F 3 "" H 10300 6300 50  0001 C CNN
+	1    10300 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5CDD4E61
+P 10300 5700
+F 0 "H3" H 10400 5751 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10400 5660 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10300 5700 50  0001 C CNN
+F 3 "~" H 10300 5700 50  0001 C CNN
+	1    10300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5CDD4E68
+P 10300 5800
+F 0 "#PWR0113" H 10300 5550 50  0001 C CNN
+F 1 "GND" H 10305 5627 50  0000 C CNN
+F 2 "" H 10300 5800 50  0001 C CNN
+F 3 "" H 10300 5800 50  0001 C CNN
+	1    10300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS21 U?
+U 3 1 5CDD71C4
+P 6450 5500
+F 0 "U?" H 6680 5546 50  0000 L CNN
+F 1 "74LS21" H 6680 5455 50  0000 L CNN
+F 2 "" H 6450 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS21" H 6450 5500 50  0001 C CNN
+	3    6450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD7236
+P 6450 5000
+F 0 "#PWR?" H 6450 4850 50  0001 C CNN
+F 1 "+12V" H 6465 5173 50  0000 C CNN
+F 2 "" H 6450 5000 50  0001 C CNN
+F 3 "" H 6450 5000 50  0001 C CNN
+	1    6450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD7281
+P 6450 6000
+F 0 "#PWR?" H 6450 5750 50  0001 C CNN
+F 1 "GND" H 6455 5827 50  0000 C CNN
+F 2 "" H 6450 6000 50  0001 C CNN
+F 3 "" H 6450 6000 50  0001 C CNN
+	1    6450 6000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
