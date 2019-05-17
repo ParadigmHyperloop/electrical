@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +24V
+# +24V-node-rescue
 #
-DEF +24V #PWR 0 0 Y Y 1 F P
+DEF +24V-node-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+24V" 0 140 50 H V C CNN
+F1 "+24V-node-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +24V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +3.3V
+# +3.3V-node-rescue
 #
-DEF +3.3V #PWR 0 0 Y Y 1 F P
+DEF +3.3V-node-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3.3V" 0 140 50 H V C CNN
+F1 "+3.3V-node-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +3V3
+# +3V3-node-rescue
 #
-DEF +3V3 #PWR 0 0 Y Y 1 F P
+DEF +3V3-node-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3V3" 0 140 50 H V C CNN
+F1 "+3V3-node-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +5V
+# +5V-node-rescue
 #
-DEF +5V #PWR 0 0 Y Y 1 F P
+DEF +5V-node-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+5V" 0 140 50 H V C CNN
+F1 "+5V-node-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -61,11 +61,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AD849X
+# AD849X-node-rescue
 #
-DEF AD849X U 0 40 Y Y 1 F N
+DEF AD849X-node-rescue U 0 40 Y Y 1 F N
 F0 "U" 350 300 60 H V C CNN
-F1 "AD849X" 200 -300 60 H V C CNN
+F1 "AD849X-node-rescue" 200 -300 60 H V C CNN
 F2 "" -400 250 60 H I C CNN
 F3 "" -400 250 60 H I C CNN
 DRAW
@@ -81,11 +81,11 @@ X +IN 8 -600 -100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ADS7953_38TSSOP
+# ADS7953_38TSSOP-node-rescue
 #
-DEF ADS7953_38TSSOP U 0 40 Y Y 4 L N
+DEF ADS7953_38TSSOP-node-rescue U 0 40 Y Y 4 L N
 F0 "U" -250 150 60 H V C CNN
-F1 "ADS7953_38TSSOP" -450 250 60 H V C CNN
+F1 "ADS7953_38TSSOP-node-rescue" -450 250 60 H V C CNN
 F2 "" 0 200 60 H I C CNN
 F3 "" 0 200 60 H I C CNN
 DRAW
@@ -134,11 +134,11 @@ X SDO 34 -200 -300 200 R 50 50 4 1 I
 ENDDRAW
 ENDDEF
 #
-# BTS4300SGA
+# BTS4300SGA-node-rescue
 #
-DEF BTS4300SGA U 0 40 Y Y 1 F N
+DEF BTS4300SGA-node-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 300 60 H V C CNN
-F1 "BTS4300SGA" 400 -400 60 H V C CNN
+F1 "BTS4300SGA-node-rescue" 400 -400 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -154,11 +154,11 @@ X IN 8 -600 -150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# C
+# C-node-rescue
 #
-DEF C C 0 10 N Y 1 F N
+DEF C-node-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C" 25 -100 50 H V L CNN
+F1 "C-node-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -172,11 +172,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_large
+# C_large-node-rescue
 #
-DEF C_large C 0 10 N Y 1 F N
+DEF C_large-node-rescue C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
-F1 "C_large" 50 -100 50 H V L CNN
+F1 "C_large-node-rescue" 50 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -192,11 +192,11 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_small
+# C_small-node-rescue
 #
-DEF C_small C 0 10 N Y 1 F N
+DEF C_small-node-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_small" 25 -100 50 H V L CNN
+F1 "C_small-node-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -210,11 +210,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x01
+# Conn_01x01-node-rescue
 #
-DEF Conn_01x01 J 0 40 Y N 1 F N
+DEF Conn_01x01-node-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Conn_01x01" 0 -100 50 H V C CNN
+F1 "Conn_01x01-node-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -232,11 +232,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x02
+# Conn_01x02-node-rescue
 #
-DEF Conn_01x02 J 0 40 Y N 1 F N
+DEF Conn_01x02-node-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Conn_01x02" 0 -200 50 H V C CNN
+F1 "Conn_01x02-node-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -256,11 +256,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x03
+# Conn_01x03-node-rescue
 #
-DEF Conn_01x03 J 0 40 Y N 1 F N
+DEF Conn_01x03-node-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Conn_01x03" 0 -200 50 H V C CNN
+F1 "Conn_01x03-node-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -282,11 +282,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x04
+# Conn_01x04-node-rescue
 #
-DEF Conn_01x04 J 0 40 Y N 1 F N
+DEF Conn_01x04-node-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Conn_01x04" 0 -300 50 H V C CNN
+F1 "Conn_01x04-node-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -310,11 +310,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x01
+# Conn_02x01-node-rescue
 #
-DEF Conn_02x01 J 0 40 Y N 1 F N
+DEF Conn_02x01-node-rescue J 0 40 Y N 1 F N
 F0 "J" 50 100 50 H V C CNN
-F1 "Conn_02x01" 50 -100 50 H V C CNN
+F1 "Conn_02x01-node-rescue" 50 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -334,11 +334,11 @@ X Pin_2 2 300 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x02_Odd_Even
+# Conn_02x02_Odd_Even-node-rescue
 #
-DEF Conn_02x02_Odd_Even J 0 40 Y N 1 F N
+DEF Conn_02x02_Odd_Even-node-rescue J 0 40 Y N 1 F N
 F0 "J" 50 100 50 H V C CNN
-F1 "Conn_02x02_Odd_Even" 50 -200 50 H V C CNN
+F1 "Conn_02x02_Odd_Even-node-rescue" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -362,11 +362,11 @@ X Pin_4 4 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x03_Odd_Even
+# Conn_02x03_Odd_Even-node-rescue
 #
-DEF Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+DEF Conn_02x03_Odd_Even-node-rescue J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F1 "Conn_02x03_Odd_Even-node-rescue" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -394,11 +394,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x05_Odd_Even
+# Conn_02x05_Odd_Even-node-rescue
 #
-DEF Conn_02x05_Odd_Even J 0 40 Y N 1 F N
+DEF Conn_02x05_Odd_Even-node-rescue J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
+F1 "Conn_02x05_Odd_Even-node-rescue" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -434,11 +434,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Crystal
+# Crystal-node-rescue
 #
-DEF Crystal Y 0 40 N N 1 F N
+DEF Crystal-node-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Crystal" 0 -150 50 H V C CNN
+F1 "Crystal-node-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -455,11 +455,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DAC7760
+# DAC7760-node-rescue
 #
-DEF DAC7760 U 0 40 Y Y 1 F N
+DEF DAC7760-node-rescue U 0 40 Y Y 1 F N
 F0 "U" 450 1100 60 H V C CNN
-F1 "DAC7760" 800 -900 60 H V C CNN
+F1 "DAC7760-node-rescue" 800 -900 60 H V C CNN
 F2 "" 450 100 60 H I C CNN
 F3 "" 450 100 60 H I C CNN
 DRAW
@@ -491,11 +491,11 @@ X DIN 9 -700 -700 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# DIODESCH
+# DIODESCH-node-rescue
 #
-DEF DIODESCH D 0 40 Y N 1 F N
+DEF DIODESCH-node-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "DIODESCH" 0 -100 50 H V C CNN
+F1 "DIODESCH-node-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -510,11 +510,11 @@ X K 2 -200 0 150 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8806
+# DRV8806-node-rescue
 #
-DEF DRV8806 U 0 40 Y Y 1 F N
+DEF DRV8806-node-rescue U 0 40 Y Y 1 F N
 F0 "U" 100 50 60 H V C CNN
-F1 "DRV8806" 200 -1250 60 H V C CNN
+F1 "DRV8806-node-rescue" 200 -1250 60 H V C CNN
 F2 "" 50 50 60 H I C CNN
 F3 "" 50 50 60 H I C CNN
 DRAW
@@ -539,11 +539,11 @@ X RESET 9 -200 -450 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# D_Zener_ALT
+# D_Zener_ALT-node-rescue
 #
-DEF D_Zener_ALT D 0 40 N N 1 F N
+DEF D_Zener_ALT-node-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_ALT" 0 -100 50 H V C CNN
+F1 "D_Zener_ALT-node-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -562,11 +562,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ferrite_Bead_Small
+# Ferrite_Bead_Small-node-rescue
 #
-DEF Ferrite_Bead_Small L 0 0 N Y 1 F N
+DEF Ferrite_Bead_Small-node-rescue L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
-F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F1 "Ferrite_Bead_Small-node-rescue" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -583,11 +583,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Fuse
+# Fuse-node-rescue
 #
-DEF Fuse F 0 0 N Y 1 F N
+DEF Fuse-node-rescue F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "Fuse" -75 0 50 V V C CNN
+F1 "Fuse-node-rescue" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -601,11 +601,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND
+# GND-node-rescue
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF GND-node-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "GND-node-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -614,11 +614,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# IC_MICROCHIP_SAMD21G18A-A
+# IC_MICROCHIP_SAMD21G18A-A-node-rescue
 #
-DEF IC_MICROCHIP_SAMD21G18A-A U 0 40 Y Y 1 F N
+DEF IC_MICROCHIP_SAMD21G18A-A-node-rescue U 0 40 Y Y 1 F N
 F0 "U" -1650 1650 50 H V C CNN
-F1 "IC_MICROCHIP_SAMD21G18A-A" 1450 -1650 50 H V C CNN
+F1 "IC_MICROCHIP_SAMD21G18A-A-node-rescue" 1450 -1650 50 H V C CNN
 F2 "TQFP48" 0 -1150 50 H V C CIN
 F3 "" 0 250 50 H V C CNN
 $FPLIST
@@ -677,11 +677,11 @@ X TC0WO0/SERCOM0P0/Y2/AIN0/AIN4/VREFB/PA04 9 1850 1050 150 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# IC_TexasInstruments_Sequencer
+# IC_TexasInstruments_Sequencer-node-rescue
 #
-DEF IC_TexasInstruments_Sequencer U 0 40 Y Y 1 F N
+DEF IC_TexasInstruments_Sequencer-node-rescue U 0 40 Y Y 1 F N
 F0 "U" 300 400 60 H V C CNN
-F1 "IC_TexasInstruments_Sequencer" 700 -400 60 H V C CNN
+F1 "IC_TexasInstruments_Sequencer-node-rescue" 700 -400 60 H V C CNN
 F2 "" -100 500 60 H I C CNN
 F3 "" -100 500 60 H I C CNN
 $FPLIST
@@ -698,11 +698,11 @@ X FLAG1 6 500 100 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# IC_Texas_Instruments_OPA192
+# IC_Texas_Instruments_OPA192-node-rescue
 #
-DEF IC_Texas_Instruments_OPA192 U 0 40 Y Y 1 F N
+DEF IC_Texas_Instruments_OPA192-node-rescue U 0 40 Y Y 1 F N
 F0 "U" 400 200 60 H V C CNN
-F1 "IC_Texas_Instruments_OPA192" 100 -500 60 H V C CNN
+F1 "IC_Texas_Instruments_OPA192-node-rescue" 100 -500 60 H V C CNN
 F2 "" -300 100 60 H I C CNN
 F3 "" -300 100 60 H I C CNN
 DRAW
@@ -715,11 +715,11 @@ X V+ 5 100 300 161 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# IC_Texas_Intruments_LM4132_LDO-REF
+# IC_Texas_Intruments_LM4132_LDO-REF-node-rescue
 #
-DEF IC_Texas_Intruments_LM4132_LDO-REF U 0 40 Y Y 1 F N
+DEF IC_Texas_Intruments_LM4132_LDO-REF-node-rescue U 0 40 Y Y 1 F N
 F0 "U" 500 300 60 H V C CNN
-F1 "IC_Texas_Intruments_LM4132_LDO-REF" 400 -600 60 H V C CNN
+F1 "IC_Texas_Intruments_LM4132_LDO-REF-node-rescue" 400 -600 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -732,11 +732,11 @@ X Vref 5 700 0 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# LED
+# LED-node-rescue
 #
-DEF LED D 0 40 Y N 1 F N
+DEF LED-node-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED" 0 -100 50 H V C CNN
+F1 "LED-node-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -753,11 +753,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LM358
+# LM358-node-rescue
 #
-DEF LM358 U 0 20 Y Y 2 F N
+DEF LM358-node-rescue U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "LM358" 0 -200 50 H V L CNN
+F1 "LM358-node-rescue" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -786,11 +786,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# LMV601
+# LMV601-node-rescue
 #
-DEF LMV601 U 0 20 Y Y 1 F N
+DEF LMV601-node-rescue U 0 20 Y Y 1 F N
 F0 "U" 150 250 50 H V C CNN
-F1 "LMV601" 150 150 50 H V C CNN
+F1 "LMV601-node-rescue" 150 150 50 H V C CNN
 F2 "" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -804,11 +804,11 @@ X V+ 6 -100 300 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# L_large
+# L_large-node-rescue
 #
-DEF L_large L 0 40 N N 1 F N
+DEF L_large-node-rescue L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "L_large" 100 0 50 V V C CNN
+F1 "L_large-node-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -821,11 +821,11 @@ X 2 2 0 -300 100 U 70 70 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_small
+# L_small-node-rescue
 #
-DEF L_small L 0 0 N N 1 F N
+DEF L_small-node-rescue L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "L_small" 0 -50 50 H V C CNN
+F1 "L_small-node-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -838,11 +838,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Mounting_Hole_PAD
+# Mounting_Hole_PAD-node-rescue
 #
-DEF Mounting_Hole_PAD MK 0 40 N N 1 F N
+DEF Mounting_Hole_PAD-node-rescue MK 0 40 N N 1 F N
 F0 "MK" 0 250 50 H V C CNN
-F1 "Mounting_Hole_PAD" 0 175 50 H V C CNN
+F1 "Mounting_Hole_PAD-node-rescue" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -855,11 +855,11 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# OPA172
+# OPA172-node-rescue
 #
-DEF OPA172 U 0 20 Y Y 1 F N
+DEF OPA172-node-rescue U 0 20 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "OPA172" 0 -200 50 H V L CNN
+F1 "OPA172-node-rescue" 0 -200 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-5" 0 0 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -875,11 +875,11 @@ X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# POT_large
+# POT_large-node-rescue
 #
-DEF POT_large RV 0 40 Y N 1 F N
+DEF POT_large-node-rescue RV 0 40 Y N 1 F N
 F0 "RV" 0 -100 50 H V C CNN
-F1 "POT_large" 0 0 50 H V C CNN
+F1 "POT_large-node-rescue" 0 0 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -891,11 +891,11 @@ X 3 3 250 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R
+# R-RESCUE-node-node-rescue
 #
-DEF R R 0 0 N Y 1 F N
+DEF R-RESCUE-node-node-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "R-RESCUE-node-node-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -909,11 +909,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R-RESCUE-node
+# R-node-rescue
 #
-DEF R-RESCUE-node R 0 0 N Y 1 F N
+DEF R-node-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R-RESCUE-node" 0 0 50 V V C CNN
+F1 "R-node-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -927,11 +927,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RB1-125BAG1A
+# RB1-125BAG1A-node-rescue
 #
-DEF RB1-125BAG1A P 0 40 Y Y 1 L N
+DEF RB1-125BAG1A-node-rescue P 0 40 Y Y 1 L N
 F0 "P" -702 1555 50 H V L BNN
-F1 "RB1-125BAG1A" -700 -1750 50 H V L BNN
+F1 "RB1-125BAG1A-node-rescue" -700 -1750 50 H V L BNN
 F2 "WIZNET_RB1-125BAG1A" 0 0 50 H I L BNN
 F3 "2.18 USD" 0 0 50 H I L BNN
 F4 "Good" 0 0 50 H I L BNN "Availability"
@@ -1172,11 +1172,11 @@ X SHIELD SH -800 -1550 100 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# R_large
+# R_large-node-rescue
 #
-DEF R_large R 0 0 N Y 1 F N
+DEF R_large-node-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_large" 7 1 50 V V C CNN
+F1 "R_large-node-rescue" 7 1 50 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -1193,11 +1193,11 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_small
+# R_small-node-rescue
 #
-DEF R_small R 0 0 N Y 1 F N
+DEF R_small-node-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_small" 0 0 50 V V C CNN
+F1 "R_small-node-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1211,11 +1211,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SW_Push
+# SW_Push-node-rescue
 #
-DEF SW_Push SW 0 40 N N 1 F N
+DEF SW_Push-node-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "SW_Push" 0 -60 50 H V C CNN
+F1 "SW_Push-node-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -1228,11 +1228,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# TLV71333PDBV
+# TLV71333PDBV-node-rescue
 #
-DEF TLV71333PDBV U 0 10 Y Y 1 F N
+DEF TLV71333PDBV-node-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 225 50 H V C CNN
-F1 "TLV71333PDBV" 0 225 50 H V L CNN
+F1 "TLV71333PDBV-node-rescue" 0 225 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-5" 0 325 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1248,11 +1248,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# TPS54361
+# TPS54361-node-rescue
 #
-DEF TPS54361 U 0 40 Y Y 1 F N
+DEF TPS54361-node-rescue U 0 40 Y Y 1 F N
 F0 "U" -400 650 60 H V C CNN
-F1 "TPS54361" -350 -550 60 H V C CNN
+F1 "TPS54361-node-rescue" -350 -550 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1271,11 +1271,11 @@ X SW 9 750 50 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TPS795
+# TPS795-node-rescue
 #
-DEF TPS795 U 0 40 Y Y 1 F N
+DEF TPS795-node-rescue U 0 40 Y Y 1 F N
 F0 "U" -400 650 60 H V C CNN
-F1 "TPS795" -300 -200 60 H V C CNN
+F1 "TPS795-node-rescue" -300 -200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1289,11 +1289,11 @@ X THRM 6 50 -300 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Test_Point
+# Test_Point-node-rescue
 #
-DEF Test_Point TP 0 30 N N 1 F N
+DEF Test_Point-node-rescue TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "Test_Point" 0 200 50 H V C CNN
+F1 "Test_Point-node-rescue" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -1306,11 +1306,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_B_Micro
+# USB_B_Micro-node-rescue
 #
-DEF USB_B_Micro J 0 40 Y Y 1 F N
+DEF USB_B_Micro-node-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_B_Micro" -200 350 50 H V L CNN
+F1 "USB_B_Micro-node-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -1341,11 +1341,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# VEE
+# VEE-node-rescue
 #
-DEF VEE #PWR 0 0 Y Y 1 F P
+DEF VEE-node-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VEE" 0 150 50 H V C CNN
+F1 "VEE-node-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1355,11 +1355,11 @@ X VEE 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Varistor
+# Varistor-node-rescue
 #
-DEF Varistor RV 0 0 N Y 1 F N
+DEF Varistor-node-rescue RV 0 0 N Y 1 F N
 F0 "RV" 125 0 50 V V C CNN
-F1 "Varistor" -125 0 50 V V C CNN
+F1 "Varistor-node-rescue" -125 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1375,11 +1375,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# W5500
+# W5500-node-rescue
 #
-DEF W5500 U 0 40 Y Y 1 F N
+DEF W5500-node-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 -100 50 H V C CNN
-F1 "W5500" 0 100 50 H V C CNN
+F1 "W5500-node-rescue" 0 100 50 H V C CNN
 F2 "MODULE" 0 0 50 H I C CNN
 F3 "DOCUMENTATION" 0 0 50 H I C CNN
 DRAW

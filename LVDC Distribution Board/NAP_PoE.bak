@@ -62,17 +62,6 @@ Wire Wire Line
 	7225 4920 7490 4920
 Wire Wire Line
 	7225 5020 7490 5020
-$Comp
-L node-rescue:GND #PWR0236
-U 1 1 5CD706BF
-P 7225 4350
-F 0 "#PWR0236" H 7225 4100 50  0001 C CNN
-F 1 "GND" H 7230 4177 50  0000 C CNN
-F 2 "" H 7225 4350 50  0001 C CNN
-F 3 "" H 7225 4350 50  0001 C CNN
-	1    7225 4350
-	-1   0    0    1   
-$EndComp
 Text Notes 6830 4180 0    39   ~ 0
 ****Australia GND\nfor Frank
 Text Label 6480 4820 0    50   ~ 0
@@ -83,15 +72,19 @@ Text Label 6480 5220 0    50   ~ 0
 RX-
 Text Label 6480 5320 0    50   ~ 0
 RX+
+Text Notes 5980 3965 0    39   ~ 0
+ROCKECT DATASHEET PASSIVE POE\n
 $Comp
-L node-rescue:GND #PWR0237
-U 1 1 5CD74622
+L power:GND #PWR0250
+U 1 1 5CE38D35
 P 7405 4350
-F 0 "#PWR0237" H 7405 4100 50  0001 C CNN
+F 0 "#PWR0250" H 7405 4100 50  0001 C CNN
 F 1 "GND" H 7410 4177 50  0000 C CNN
 F 2 "" H 7405 4350 50  0001 C CNN
 F 3 "" H 7405 4350 50  0001 C CNN
 	1    7405 4350
 	-1   0    0    1   
 $EndComp
+Text HLabel 7225 4350 0    50   Input ~ 0
+NAP_Vin+
 $EndSCHEMATC

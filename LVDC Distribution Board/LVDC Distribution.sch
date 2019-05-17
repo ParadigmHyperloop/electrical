@@ -187,7 +187,7 @@ F 3 "~" H 10725 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LVDC-Distribution-rescue:Logo-u104_KICAD_misc-LVDC-Distribution-rescue lo2
+L u104_KICAD_misc:Logo lo2
 U 1 1 5C830CFA
 P 10375 5475
 F 0 "lo2" H 10553 5513 39  0000 L CNN
@@ -198,7 +198,7 @@ F 3 "" H 10375 5475 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LVDC-Distribution-rescue:Logo-u104_KICAD_misc-LVDC-Distribution-rescue lo1
+L u104_KICAD_misc:Logo lo1
 U 1 1 5C830E1C
 P 10375 5325
 F 0 "lo1" H 10553 5363 39  0000 L CNN
@@ -209,7 +209,7 @@ F 3 "" H 10375 5325 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LVDC-Distribution-rescue:Logo-u104_KICAD_misc-LVDC-Distribution-rescue lo3
+L u104_KICAD_misc:Logo lo3
 U 1 1 5C8321C7
 P 10375 5625
 F 0 "lo3" H 10553 5663 39  0000 L CNN
@@ -217,6 +217,116 @@ F 1 "Logo" H 10553 5588 39  0000 L CNN
 F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 10375 5625 39  0001 C CNN
 F 3 "" H 10375 5625 39  0001 C CNN
 	1    10375 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo7
+U 1 1 5CE4F45E
+P 9710 6125
+F 0 "lo7" H 9888 6163 39  0000 L CNN
+F 1 "Logo" H 9888 6088 39  0000 L CNN
+F 2 "Symbols:ESD-Logo_22x20mm_SilkScreen" H 9710 6125 39  0001 C CNN
+F 3 "" H 9710 6125 39  0001 C CNN
+	1    9710 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo6
+U 1 1 5CE4F520
+P 9710 5940
+F 0 "lo6" H 9888 5978 39  0000 L CNN
+F 1 "Logo" H 9888 5903 39  0000 L CNN
+F 2 "Symbols:KiCad-Logo_40mm_SilkScreen" H 9710 5940 39  0001 C CNN
+F 3 "" H 9710 5940 39  0001 C CNN
+	1    9710 5940
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo9
+U 1 1 5CE4F5DF
+P 9710 6330
+F 0 "lo9" H 9888 6368 39  0000 L CNN
+F 1 "Logo" H 9888 6293 39  0000 L CNN
+F 2 "Symbols:ESD-Logo_22x20mm_SilkScreen" H 9710 6330 39  0001 C CNN
+F 3 "" H 9710 6330 39  0001 C CNN
+	1    9710 6330
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo5
+U 1 1 5CE4F637
+P 9175 5940
+F 0 "lo5" H 9353 5978 39  0000 L CNN
+F 1 "Logo" H 9353 5903 39  0000 L CNN
+F 2 "µ104KiCAD:Symbol_HighVoltage_Type2_SilkTop_VerySmall" H 9175 5940 39  0001 C CNN
+F 3 "" H 9175 5940 39  0001 C CNN
+	1    9175 5940
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo8
+U 1 1 5CE4F75D
+P 9185 6150
+F 0 "lo8" H 9363 6188 39  0000 L CNN
+F 1 "Logo" H 9363 6113 39  0000 L CNN
+F 2 "µ104KiCAD:ParadigmLogo_0_5x0_5" H 9185 6150 39  0001 C CNN
+F 3 "" H 9185 6150 39  0001 C CNN
+	1    9185 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo10
+U 1 1 5CE4F7E5
+P 9165 6340
+F 0 "lo10" H 9343 6378 39  0000 L CNN
+F 1 "Logo" H 9343 6303 39  0000 L CNN
+F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 9165 6340 39  0001 C CNN
+F 3 "" H 9165 6340 39  0001 C CNN
+	1    9165 6340
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo4
+U 1 1 5CE4F867
+P 9725 5725
+F 0 "lo4" H 9903 5763 39  0000 L CNN
+F 1 "Logo" H 9903 5688 39  0000 L CNN
+F 2 "µ104KiCAD:ParadigmLogo_0_5x0_5" H 9725 5725 39  0001 C CNN
+F 3 "" H 9725 5725 39  0001 C CNN
+	1    9725 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo13
+U 1 1 5CE50B94
+P 8615 6320
+F 0 "lo13" H 8793 6358 39  0000 L CNN
+F 1 "Logo" H 8793 6283 39  0000 L CNN
+F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 8615 6320 39  0001 C CNN
+F 3 "" H 8615 6320 39  0001 C CNN
+	1    8615 6320
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo12
+U 1 1 5CE50C0C
+P 8645 6120
+F 0 "lo12" H 8823 6158 39  0000 L CNN
+F 1 "Logo" H 8823 6083 39  0000 L CNN
+F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 8645 6120 39  0001 C CNN
+F 3 "" H 8645 6120 39  0001 C CNN
+	1    8645 6120
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo lo11
+U 1 1 5CE50C5E
+P 8655 5925
+F 0 "lo11" H 8833 5963 39  0000 L CNN
+F 1 "Logo" H 8833 5888 39  0000 L CNN
+F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 8655 5925 39  0001 C CNN
+F 3 "" H 8655 5925 39  0001 C CNN
+	1    8655 5925
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

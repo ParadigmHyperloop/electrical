@@ -594,11 +594,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LVDC-Distribution-rescue_LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache
+# LVDC-Distribution-rescue_LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache-LVDC-Distribution-rescue
 #
-DEF LVDC-Distribution-rescue_LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache U 0 40 Y Y 1 F N
+DEF LVDC-Distribution-rescue_LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache-LVDC-Distribution-rescue U 0 40 Y Y 1 F N
 F0 "U" -400 1550 60 H V L CNN
-F1 "LVDC-Distribution-rescue_LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache" 0 0 60 V V C CNN
+F1 "LVDC-Distribution-rescue_LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache-LVDC-Distribution-rescue" 0 0 60 V V C CNN
 F2 "digikey-footprints:TQFP-48_7x7mm" 200 200 60 H I L CNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590209" 200 300 60 H I L CNN
 F4 "ATSAMD21G18A-AUTCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -660,18 +660,6 @@ X VDD/ANA 6 -100 1600 100 D 50 50 1 1 W
 X PB08 7 500 500 100 L 50 50 1 1 B
 X PB09 8 500 600 100 L 50 50 1 1 B
 X PA04 9 -500 700 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# LVDC-Distribution-rescue_Logo-u104_KICAD_misc-LVDC-Distribution-rescue
-#
-DEF LVDC-Distribution-rescue_Logo-u104_KICAD_misc-LVDC-Distribution-rescue logo 0 40 Y Y 1 F N
-F0 "logo" -50 100 39 H V C CNN
-F1 "LVDC-Distribution-rescue_Logo-u104_KICAD_misc-LVDC-Distribution-rescue" 0 0 39 H V C CNN
-F2 "" 0 0 39 H I C CNN
-F3 "" 0 0 39 H I C CNN
-DRAW
-S -150 50 150 -50 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -1254,49 +1242,6 @@ X GNDA 9 -1350 -250 300 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# node-rescue_+3V3
-#
-DEF node-rescue_+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "node-rescue_+3V3" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# node-rescue_+5V
-#
-DEF node-rescue_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "node-rescue_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# node-rescue_GND
-#
-DEF node-rescue_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "node-rescue_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # power_+3.3V
 #
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P
@@ -1328,6 +1273,21 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
@@ -1338,6 +1298,33 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# u104_KICAD_misc_Logo
+#
+DEF u104_KICAD_misc_Logo logo 0 40 Y Y 1 F N
+F0 "logo" -50 100 39 H V C CNN
+F1 "u104_KICAD_misc_Logo" 0 0 39 H V C CNN
+F2 "" 0 0 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+DRAW
+S -150 50 150 -50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# u104_KICAD_pwr_+5V
+#
+DEF u104_KICAD_pwr_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 10 H I C CNN
+F1 "u104_KICAD_pwr_+5V" 0 140 40 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 L 10 10 1 1 W N
 ENDDRAW
 ENDDEF
 #

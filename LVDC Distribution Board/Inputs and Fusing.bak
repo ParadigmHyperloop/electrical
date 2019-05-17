@@ -174,7 +174,7 @@ U 1 1 5C036982
 P 2085 1940
 F 0 "J204" H 2005 1715 50  0000 C CNN
 F 1 "BAT_LP_IN+" H 2005 1806 50  0000 C CNN
-F 2 "LVDC:Screw_mount_Keystone" H 2085 1940 50  0001 C CNN
+F 2 "µ104KiCAD:LVDC_M3_Lug" H 2085 1940 50  0001 C CNN
 F 3 "~" H 2085 1940 50  0001 C CNN
 	1    2085 1940
 	-1   0    0    1   
@@ -185,7 +185,7 @@ U 1 1 5C036A9C
 P 2065 3310
 F 0 "J202" H 1985 3085 50  0000 C CNN
 F 1 "BAT_HP_IN+" H 1985 3176 50  0000 C CNN
-F 2 "LVDC:Screw_mount_Keystone" H 2065 3310 50  0001 C CNN
+F 2 "µ104KiCAD:LVDC_M3_Lug" H 2065 3310 50  0001 C CNN
 F 3 "~" H 2065 3310 50  0001 C CNN
 	1    2065 3310
 	-1   0    0    1   
@@ -200,8 +200,8 @@ U 1 1 5C03B9DA
 P 2055 4270
 F 0 "J201" H 1975 4045 50  0000 C CNN
 F 1 "BAT_LP_IN-" H 1975 4136 50  0000 C CNN
-F 2 "LVDC:Screw_mount_Keystone" H 2055 4270 50  0001 C CNN
-F 3 "~" H 2055 4270 50  0001 C CNN
+F 2 "µ104KiCAD:LVDC_M3_Lug" H 2055 4270 50  0001 C CNN
+F 3 "36-7771-ND" H 2055 4270 50  0001 C CNN
 	1    2055 4270
 	-1   0    0    1   
 $EndComp
@@ -211,7 +211,7 @@ U 1 1 5C03BA42
 P 2065 4810
 F 0 "J203" H 1985 4585 50  0000 C CNN
 F 1 "BAT_HP_IN-" H 1985 4676 50  0000 C CNN
-F 2 "LVDC:Screw_mount_Keystone" H 2065 4810 50  0001 C CNN
+F 2 "µ104KiCAD:LVDC_M3_Lug" H 2065 4810 50  0001 C CNN
 F 3 "~" H 2065 4810 50  0001 C CNN
 	1    2065 4810
 	-1   0    0    1   
@@ -414,8 +414,8 @@ U 1 1 5C439696
 P 2595 1940
 F 0 "F201" V 2398 1940 50  0000 C CNN
 F 1 "40A" V 2489 1940 50  0000 C CNN
-F 2 "LVDC:Fuse_clip_Littelfuse_5x20mm" V 2525 1940 50  0001 C CNN
-F 3 "~" H 2595 1940 50  0001 C CNN
+F 2 "µ104KiCAD:FUSE_MAXI_36-3555-2-ND" V 2525 1940 50  0001 C CNN
+F 3 "36-3555-2-ND" H 2595 1940 50  0001 C CNN
 	1    2595 1940
 	0    1    1    0   
 $EndComp
@@ -435,8 +435,8 @@ U 1 1 5C44409B
 P 2595 3310
 F 0 "F202" V 2398 3310 50  0000 C CNN
 F 1 "25A" V 2489 3310 50  0000 C CNN
-F 2 "LVDC:Fuse_clip_Littelfuse_5x20mm" V 2525 3310 50  0001 C CNN
-F 3 "~" H 2595 3310 50  0001 C CNN
+F 2 "µ104KiCAD:FUSE_MINI_36-3568-ND" V 2525 3310 50  0001 C CNN
+F 3 "36-3568-ND" H 2595 3310 50  0001 C CNN
 	1    2595 3310
 	0    1    1    0   
 $EndComp
@@ -791,4 +791,10 @@ Wire Wire Line
 Connection ~ 7935 4270
 Wire Wire Line
 	7935 4270 8735 4270
+Text Notes 1320 2280 0    50   ~ 0
+F: F6785-ND\n   Axial F4846-ND\n   Blade F10801-ND (SLOWB!)\n
+Text Notes 1850 3715 0    50   ~ 0
+F: F4829-ND\nAxial F1872-ND\nBlade F1877-ND
+Text Notes 560  1075 0    50   ~ 0
+For fuses no holders exist in a reasonable package with 40A rating in a cylindrical fuse glass or ceramic.(on digikey)\n\nThe options was automotive blade fuses but they only have 58VDC rating (Slow blow on 40A!) on them, but big pro easily replaceable, and cheaper.\n\nOr an axial soldered in fuse
 $EndSCHEMATC

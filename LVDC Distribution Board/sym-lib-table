@@ -3,4 +3,5 @@
   (lib (name node-rescue)(type Legacy)(uri ${KIPRJMOD}/../Node/node-rescue.lib)(options "")(descr ""))
   (lib (name hyper_capstone)(type Legacy)(uri ${KIPRJMOD}/../Node/hyper_capstone.lib)(options "")(descr ""))
   (lib (name LVDC-Distribution-rescue)(type Legacy)(uri "${KIPRJMOD}/LVDC Distribution-rescue.lib")(options "")(descr ""))
+  (lib (name New_SAMD_RESCUE)(type Legacy)(uri "C:/backup/hyperloop/electrical/LVDC Distribution Board/New_SAMD_RESCUE.lib")(options "")(descr ""))
 )

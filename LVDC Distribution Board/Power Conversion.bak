@@ -2076,4 +2076,43 @@ Wire Wire Line
 Wire Wire Line
 	7460 3480 7460 3290
 Connection ~ 7460 3290
+Text GLabel 4280 1825 0    50   Input ~ 0
+LP12V_EN
+$Comp
+L Device:R_US R43
+U 1 1 5CE5999A
+P 4430 1825
+F 0 "R43" H 4480 1875 50  0000 L CNN
+F 1 "0" H 4470 1805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" V 4470 1815 50  0001 C CNN
+F 3 "~" H 4430 1825 50  0001 C CNN
+	1    4430 1825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4580 1825 4635 1825
+Wire Wire Line
+	4635 1825 4630 1400
+Wire Wire Line
+	4630 1400 4960 1400
+Text GLabel 4635 6905 0    50   Input ~ 0
+HP12V_EN
+$Comp
+L Device:R_US R44
+U 1 1 5CE89C8A
+P 4785 6905
+F 0 "R44" H 4835 6955 50  0000 L CNN
+F 1 "0" H 4825 6885 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" V 4825 6895 50  0001 C CNN
+F 3 "~" H 4785 6905 50  0001 C CNN
+	1    4785 6905
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4935 6905 4990 6905
+Wire Wire Line
+	4990 6905 4985 6480
+Wire Wire Line
+	5100 6470 4985 6480
+Connection ~ 5100 6470
 $EndSCHEMATC

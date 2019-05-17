@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache
+# LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache-LVDC-Distribution-rescue
 #
-DEF LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache U 0 40 Y Y 1 F N
+DEF LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache-LVDC-Distribution-rescue U 0 40 Y Y 1 F N
 F0 "U" -400 1550 60 H V L CNN
-F1 "LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache" 0 0 60 V V C CNN
+F1 "LVDC-Distribution-rescue_ATSAMD21G18A-AUT-dk_Embedded-Microcontrollers-LVDC_Distribution-cache-LVDC-Distribution-rescue" 0 0 60 V V C CNN
 F2 "digikey-footprints:TQFP-48_7x7mm" 200 200 60 H I L CNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590209" 200 300 60 H I L CNN
 F4 "ATSAMD21G18A-AUTCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -67,18 +67,6 @@ X VDD/ANA 6 -100 1600 100 D 50 50 1 1 W
 X PB08 7 500 500 100 L 50 50 1 1 B
 X PB09 8 500 600 100 L 50 50 1 1 B
 X PA04 9 -500 700 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# Logo-u104_KICAD_misc-LVDC-Distribution-rescue
-#
-DEF Logo-u104_KICAD_misc-LVDC-Distribution-rescue logo 0 40 Y Y 1 F N
-F0 "logo" -50 100 39 H V C CNN
-F1 "Logo-u104_KICAD_misc-LVDC-Distribution-rescue" 0 0 39 H V C CNN
-F2 "" 0 0 39 H I C CNN
-F3 "" 0 0 39 H I C CNN
-DRAW
-S -150 50 150 -50 0 1 0 N
 ENDDRAW
 ENDDEF
 #

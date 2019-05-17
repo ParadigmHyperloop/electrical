@@ -500,5 +500,29 @@ Wire Wire Line
 Wire Wire Line
 	3750 3130 3750 3810
 Wire Wire Line
-	3750 3810 4260 3810
+	3750 3810 3835 3810
+Text GLabel 3490 4635 0    50   Input ~ 0
+LP24V_EN
+$Comp
+L Device:R_US R?
+U 1 1 5CE84BC2
+P 3640 4635
+AR Path="/5C1AA320/5CE84BC2" Ref="R?"  Part="1" 
+AR Path="/5C1AA320/5CD7BF51/5CE84BC2" Ref="R45"  Part="1" 
+F 0 "R45" H 3690 4685 50  0000 L CNN
+F 1 "0" H 3680 4615 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" V 3680 4625 50  0001 C CNN
+F 3 "~" H 3640 4635 50  0001 C CNN
+	1    3640 4635
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3790 4635 3845 4635
+Wire Wire Line
+	3845 4635 3840 4210
+Wire Wire Line
+	3840 4210 3835 3810
+Connection ~ 3835 3810
+Wire Wire Line
+	3835 3810 4260 3810
 $EndSCHEMATC
