@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:IndicatorLEDs_PCB-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1908,7 +1909,7 @@ P 6100 2180
 F 0 "D1" H 5840 2110 50  0000 C CNN
 F 1 "GREEN" H 5770 2190 50  0000 C CNN
 F 2 "" H 6100 2180 50  0001 C CNN
-F 3 "1092D5-12V-ND" H 6100 2180 50  0001 C CNN
+F 3 "1092QD5-12V-ND" H 6100 2180 50  0001 C CNN
 	1    6100 2180
 	-1   0    0    1   
 $EndComp
@@ -1959,7 +1960,7 @@ P 6100 2910
 F 0 "D3" H 5840 2840 50  0000 C CNN
 F 1 "GREEN" H 5770 2920 50  0000 C CNN
 F 2 "" H 6100 2910 50  0001 C CNN
-F 3 "1092D5-12V-ND" H 6100 2910 50  0001 C CNN
+F 3 "1092QD5-12V-ND" H 6100 2910 50  0001 C CNN
 	1    6100 2910
 	-1   0    0    1   
 $EndComp
@@ -2183,5 +2184,60 @@ F 2 "µ104KiCAD_IC:SOT-23-3" H 3650 2020 50  0001 C CNN
 F 3 "785-1001-1-ND" H 3450 1920 50  0001 C CNN
 	1    3450 1920
 	1    0    0    1   
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo logo5
+U 1 1 5CE77220
+P 6550 980
+F 0 "logo5" H 6728 1018 39  0000 L CNN
+F 1 "Logo" H 6728 943 39  0000 L CNN
+F 2 "µ104KiCAD:Symbol_HighVoltage_Type2_SilkTop_VerySmall" H 6550 980 39  0001 C CNN
+F 3 "" H 6550 980 39  0001 C CNN
+	1    6550 980 
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo logo6
+U 1 1 5CE7744F
+P 6550 1130
+F 0 "logo6" H 6728 1168 39  0000 L CNN
+F 1 "Logo" H 6728 1093 39  0000 L CNN
+F 2 "Symbol:ESD-Logo_6.6x6mm_SilkScreen" H 6550 1130 39  0001 C CNN
+F 3 "" H 6550 1130 39  0001 C CNN
+	1    6550 1130
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo logo7
+U 1 1 5CE77531
+P 6550 1290
+F 0 "logo7" H 6728 1328 39  0000 L CNN
+F 1 "Logo" H 6728 1253 39  0000 L CNN
+F 2 "Symbol:KiCad-Logo_8mm_SilkScreen" H 6550 1290 39  0001 C CNN
+F 3 "" H 6550 1290 39  0001 C CNN
+	1    6550 1290
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo logo4
+U 1 1 5CE775FE
+P 6550 810
+F 0 "logo4" H 6728 848 39  0000 L CNN
+F 1 "Logo" H 6728 773 39  0000 L CNN
+F 2 "Symbol:ESD-Logo_6.6x6mm_SilkScreen" H 6550 810 39  0001 C CNN
+F 3 "" H 6550 810 39  0001 C CNN
+	1    6550 810 
+	1    0    0    -1  
+$EndComp
+$Comp
+L u104_KICAD_misc:Logo logo8
+U 1 1 5CE77C68
+P 5810 830
+F 0 "logo8" H 5988 868 39  0000 L CNN
+F 1 "Logo" H 5988 793 39  0000 L CNN
+F 2 "µ104KiCAD:Symbol_HighVoltage_Type2_SilkTop_VerySmall" H 5810 830 39  0001 C CNN
+F 3 "" H 5810 830 39  0001 C CNN
+	1    5810 830 
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

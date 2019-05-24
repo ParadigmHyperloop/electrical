@@ -1,0 +1,32 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Crimp,Mating
+1,Light emitting diode,LED,D1 D3,GREEN,,2,1092D5-12V-ND,,
+2,Light emitting diode,LED,D2 D4,RED,,2,1092QD1-12V-ND,,
+3,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J3,BMS_I,Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled,1,WM1351-ND,WM2501CT-ND,WM3700-ND
+4,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J4,FRNT_LEDs,Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled,1,WM1352-ND,WM2501CT-ND,WM3701-ND
+5,"Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x01,J1 J2 J5 J6,M3 LUG,LVDC_M3_Lug,4,36-7771-ND,,
+6,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J7,REAR_LEDs,Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled,1,WM1352-ND,WM2501CT-ND,WM3701-ND
+7,"P-MOSFET transistor, gate/source/drain",Q_PMOS_GSD,Q1 Q2,Q_PMOS_GSD,SOT-23-3,2,785-1001-1-ND,,
+8,Resistor,R,R4 R5,10k,R_0805,2,RR12P10.0KDCT-ND,,
+9,Resistor,R,R1 R2 R3,1M,R_2512,3,A121173CT-ND,,
+10,"DC Optocoupler, Vce 80V, CTR 50-200%, DIP4",SFH617A-1,U1,LTV-357,Optocoupler_SOIC-4_LTV-357,1,160-1339-1-ND,,
+11,,Logo,logo2,Logo,ParadigmLogo_0_5x0_5,1,,,
+12,,Logo,logo3,Logo,Paradigm_Logo_Very_Small,1,,,
+13,,Logo,logo4 logo6,Logo,ESD-Logo_6.6x6mm_SilkScreen,2,,,
+14,,Logo,logo5 logo8,Logo,Symbol_HighVoltage_Type2_SilkTop_VerySmall,2,,,
+15,,Logo,logo7,Logo,KiCad-Logo_8mm_SilkScreen,1,,,
+16,,Logo,logo1,SN_Block,SN_BLOCK,1,,,
+
+
+
+
+
+Component Groups:,16
+Component Count:,27
+Fitted Components:,27
+Number of PCBs:,1
+Total components:,27
+Schematic Version:,
+Schematic Date:,
+BoM Date:,5/24/2019 1:01:14 AM
+Schematic Source:,C:\projects\hyperloop\electrical\IndicatorLEDs_PCB\IndicatorLEDs_PCB.sch
+KiCad Version:,Eeschema (5.0.2)-1
