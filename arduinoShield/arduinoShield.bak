@@ -601,30 +601,4 @@ U 5D492DEA
 F0 "wiznet" 50
 F1 "wiznet.sch" 50
 $EndSheet
-Text Notes 1200 1300 0    98   ~ 20
-WIZNET
-Text GLabel 2750 1450 0    50   BiDi ~ 0
-NETW_SS
-Text GLabel 2750 1550 0    50   BiDi ~ 0
-NETW_SCLK
-Text GLabel 2750 1650 0    50   BiDi ~ 0
-NETW_MISO
-Text GLabel 2750 1750 0    50   BiDi ~ 0
-NETW_MOSI
-Text Label 3300 1550 2    47   ~ 0
-52(SCK)
-Text Label 3300 1650 2    47   ~ 0
-50(MISO)
-Text Label 3300 1750 2    47   ~ 0
-51(MOSI)
-Text Label 3300 1450 2    47   ~ 0
-53(SS)
-Wire Wire Line
-	2750 1450 3300 1450
-Wire Wire Line
-	2750 1550 3300 1550
-Wire Wire Line
-	2750 1650 3300 1650
-Wire Wire Line
-	2750 1750 3300 1750
 $EndSCHEMATC
