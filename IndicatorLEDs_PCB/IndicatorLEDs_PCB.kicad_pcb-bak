@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.1524)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.3048)
     (user_trace_width 0.4064)
@@ -95,9 +95,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "FAB_PACK/"))
   )
 
   (net 0 "")
@@ -2547,7 +2547,7 @@
   (gr_text "REAR LEDs\n" (at 93.25 111) (layer F.SilkS) (tstamp 5CE7AA33)
     (effects (font (size 1 1) (thickness 0.25)) (justify left))
   )
-  (gr_text "ORION BMS SHORT\n" (at 92.5 125) (layer F.SilkS) (tstamp 5CE7AA2B)
+  (gr_text "ISO FAULT BMS" (at 92.5 125) (layer F.SilkS) (tstamp 5CE7AA2B)
     (effects (font (size 1 1) (thickness 0.25)) (justify left))
   )
   (gr_text "HV GND\n" (at 62.5 127.75 90) (layer F.SilkS) (tstamp 5CE7AA25)
@@ -2825,7 +2825,7 @@
       )
     )
   )
-  (zone (net 7) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 7) (net_name GND) (layer F.Cu) (tstamp 5CE7AF3D) (hatch edge 0.508)
     (connect_pads (clearance 2))
     (min_thickness 0.54)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 1))
@@ -2945,7 +2945,7 @@
       )
     )
   )
-  (zone (net 7) (net_name GND) (layer B.Cu) (tstamp 5CE7A414) (hatch edge 0.508)
+  (zone (net 7) (net_name GND) (layer B.Cu) (tstamp 5CE7AF3A) (hatch edge 0.508)
     (connect_pads (clearance 2))
     (min_thickness 0.54)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 1))
