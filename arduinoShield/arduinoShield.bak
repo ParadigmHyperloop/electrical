@@ -601,4 +601,303 @@ U 5D492DEA
 F0 "wiznet" 50
 F1 "wiznet.sch" 50
 $EndSheet
+Text Notes 1200 1300 0    98   ~ 20
+WIZNET
+Text GLabel 2750 1450 0    50   BiDi ~ 0
+NETW_SS
+Text GLabel 2750 1550 0    50   BiDi ~ 0
+NETW_SCLK
+Text GLabel 2750 1650 0    50   BiDi ~ 0
+NETW_MISO
+Text GLabel 2750 1750 0    50   BiDi ~ 0
+NETW_MOSI
+Text Label 3300 1550 2    47   ~ 0
+52(SCK)
+Text Label 3300 1650 2    47   ~ 0
+50(MISO)
+Text Label 3300 1750 2    47   ~ 0
+51(MOSI)
+Text Label 3300 1450 2    47   ~ 0
+53(SS)
+Wire Wire Line
+	2750 1450 3300 1450
+Wire Wire Line
+	2750 1550 3300 1550
+Wire Wire Line
+	2750 1650 3300 1650
+Wire Wire Line
+	2750 1750 3300 1750
+$Comp
+L Sensor_Magnetic:TLV493D U?
+U 1 1 5CECA600
+P 1700 7000
+F 0 "U?" H 1980 7096 50  0000 L CNN
+F 1 "TC74" H 1980 7005 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 1650 6500 50  0001 C CNN
+F 3 "http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80" H 1550 7500 50  0001 C CNN
+	1    1700 7000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 6900
+NoConn ~ 1300 7000
+$Comp
+L power:GND #PWR?
+U 1 1 5CED2D41
+P 1700 7500
+F 0 "#PWR?" H 1700 7250 50  0001 C CNN
+F 1 "GND" H 1705 7327 50  0000 C CNN
+F 2 "" H 1700 7500 50  0001 C CNN
+F 3 "" H 1700 7500 50  0001 C CNN
+	1    1700 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 7500 1700 7400
+Wire Wire Line
+	1800 7400 1800 7450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CED9096
+P 2300 7350
+F 0 "#PWR?" H 2300 7200 50  0001 C CNN
+F 1 "+3.3V" V 2300 7600 50  0000 C CNN
+F 2 "" H 2300 7350 50  0000 C CNN
+F 3 "" H 2300 7350 50  0000 C CNN
+	1    2300 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 7350 2300 7450
+Wire Wire Line
+	1800 7450 2300 7450
+Wire Wire Line
+	1700 6500 1700 6400
+Wire Wire Line
+	1700 6400 2200 6400
+Wire Wire Line
+	1600 7400 1600 7500
+Wire Wire Line
+	800  7500 1600 7500
+Text Label 800  7500 0    50   ~ 0
+TC74_SDA
+Text Label 2200 6400 2    50   ~ 0
+TC74_SCLK
+$Comp
+L Sensor_Pressure:BMP280 U?
+U 1 1 5CECB28C
+P 5550 6850
+F 0 "U?" H 5780 6946 50  0000 L CNN
+F 1 "HSCDANN030PA2A3" H 5780 6855 50  0000 L CNN
+F 2 "SMD_Packages:DIP-8_SMD" H 5550 6150 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 5550 6850 50  0001 C CNN
+	1    5550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CECB325
+P 5550 7200
+F 0 "#PWR?" H 5550 6950 50  0001 C CNN
+F 1 "GND" H 5555 7027 50  0000 C CNN
+F 2 "" H 5550 7200 50  0001 C CNN
+F 3 "" H 5550 7200 50  0001 C CNN
+	1    5550 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 7200 5550 7150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CECECE7
+P 4300 6950
+F 0 "#PWR?" H 4300 6800 50  0001 C CNN
+F 1 "+3.3V" V 4300 7200 50  0000 C CNN
+F 2 "" H 4300 6950 50  0000 C CNN
+F 3 "" H 4300 6950 50  0000 C CNN
+	1    4300 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 6950 5150 6950
+Wire Wire Line
+	4550 6750 5150 6750
+Wire Wire Line
+	4550 6650 5150 6650
+Text Label 4550 6650 0    50   ~ 0
+HSC_SCLK_A
+Text Label 4550 6750 0    50   ~ 0
+HSC_SDA_A
+NoConn ~ 5550 6450
+NoConn ~ 5650 6450
+NoConn ~ 5650 7150
+NoConn ~ 5150 6850
+$Comp
+L Sensor_Pressure:BMP280 U?
+U 1 1 5CEFB052
+P 5500 5750
+F 0 "U?" H 5730 5846 50  0000 L CNN
+F 1 "HSCDANN030PA2A3" H 5730 5755 50  0000 L CNN
+F 2 "SMD_Packages:DIP-8_SMD" H 5500 5050 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 5500 5750 50  0001 C CNN
+	1    5500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEFB059
+P 5500 6100
+F 0 "#PWR?" H 5500 5850 50  0001 C CNN
+F 1 "GND" H 5505 5927 50  0000 C CNN
+F 2 "" H 5500 6100 50  0001 C CNN
+F 3 "" H 5500 6100 50  0001 C CNN
+	1    5500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 6100 5500 6050
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CEFB060
+P 4250 5850
+F 0 "#PWR?" H 4250 5700 50  0001 C CNN
+F 1 "+3.3V" V 4250 6100 50  0000 C CNN
+F 2 "" H 4250 5850 50  0000 C CNN
+F 3 "" H 4250 5850 50  0000 C CNN
+	1    4250 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5850 5100 5850
+Wire Wire Line
+	4500 5650 5100 5650
+Wire Wire Line
+	4500 5550 5100 5550
+Text Label 4500 5550 0    50   ~ 0
+HSC_SCLK_B
+Text Label 4500 5650 0    50   ~ 0
+HSC_SDA_B
+NoConn ~ 5500 5350
+NoConn ~ 5600 5350
+NoConn ~ 5600 6050
+NoConn ~ 5100 5750
+Wire Notes Line
+	4050 5000 6650 5000
+Wire Notes Line
+	6650 5000 6650 7550
+Wire Notes Line
+	6650 7550 4050 7550
+Wire Notes Line
+	4050 7550 4050 5000
+Text Notes 4200 5200 0    98   ~ 20
+Pressure Transducers
+Text Label 900  4700 2    60   ~ 0
+SDA
+Text Label 900  4600 2    60   ~ 0
+SCL
+Wire Wire Line
+	900  4600 1200 4600
+Wire Wire Line
+	1200 4600 1200 4300
+Connection ~ 1200 4600
+Wire Wire Line
+	1500 4700 1500 4300
+$Comp
+L Device:R R?
+U 1 1 5CF469E7
+P 1500 4150
+F 0 "R?" H 1570 4196 50  0000 L CNN
+F 1 "10k" V 1500 4100 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 1430 4150 50  0001 C CNN
+F 3 "~" H 1500 4150 50  0001 C CNN
+	1    1500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF46A95
+P 1200 4150
+F 0 "R?" H 1270 4196 50  0000 L CNN
+F 1 "10k" V 1200 4100 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 1130 4150 50  0001 C CNN
+F 3 "~" H 1200 4150 50  0001 C CNN
+	1    1200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4000 1500 3900
+Wire Wire Line
+	1200 4000 1200 3900
+Wire Wire Line
+	1350 3900 1350 3750
+Connection ~ 1350 3900
+Wire Wire Line
+	1350 3900 1200 3900
+Connection ~ 1500 4700
+Wire Wire Line
+	900  4700 1500 4700
+Wire Wire Line
+	1350 3900 1500 3900
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CF6D8DD
+P 1350 3750
+F 0 "#PWR?" H 1350 3600 50  0001 C CNN
+F 1 "+3V3" V 1350 4000 50  0000 C CNN
+F 2 "" H 1350 3750 50  0000 C CNN
+F 3 "" H 1350 3750 50  0000 C CNN
+	1    1350 3750
+	1    0    0    -1  
+$EndComp
+Text Label 2500 5500 2    50   ~ 0
+TC74_SDA
+Wire Wire Line
+	1500 4700 1800 4700
+Wire Wire Line
+	1200 4600 1900 4600
+Wire Wire Line
+	2200 4700 2200 5000
+Wire Wire Line
+	2300 4600 2300 4900
+Text Label 2500 5400 2    50   ~ 0
+TC74_SCLK
+Wire Wire Line
+	1800 4700 1800 5500
+Connection ~ 1800 4700
+Wire Wire Line
+	1800 4700 2000 4700
+Wire Wire Line
+	1900 4600 1900 5400
+Connection ~ 1900 4600
+Wire Wire Line
+	1900 4600 2100 4600
+Wire Wire Line
+	2000 4700 2000 5250
+Connection ~ 2000 4700
+Wire Wire Line
+	2000 4700 2200 4700
+Wire Wire Line
+	2100 4600 2100 5150
+Connection ~ 2100 4600
+Wire Wire Line
+	2100 4600 2300 4600
+Text Label 2750 5150 2    50   ~ 0
+HSC_SCLK_B
+Text Label 2750 5250 2    50   ~ 0
+HSC_SDA_B
+Text Label 2950 4900 2    50   ~ 0
+HSC_SCLK_A
+Text Label 2950 5000 2    50   ~ 0
+HSC_SDA_A
+Wire Wire Line
+	2300 4900 2950 4900
+Wire Wire Line
+	2200 5000 2950 5000
+Wire Wire Line
+	2100 5150 2750 5150
+Wire Wire Line
+	2000 5250 2750 5250
+Wire Wire Line
+	1900 5400 2500 5400
+Wire Wire Line
+	1800 5500 2500 5500
 $EndSCHEMATC
