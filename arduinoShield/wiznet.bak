@@ -821,14 +821,14 @@ Wire Wire Line
 	3050 4900 3050 5050
 Text Label 5200 4900 2    50   ~ 0
 PMODE0
+Text Label 3750 4500 0    50   ~ 0
+RSVD1
 Text Label 3750 4600 0    50   ~ 0
-RSVD1
+RSVD2
 Text Label 3750 4700 0    50   ~ 0
-RSVD1
+RSVD3
 Text Label 3750 4800 0    50   ~ 0
-RSVD1
-Text Label 3750 4900 0    50   ~ 0
-RSVD1
+RSVD4
 Wire Wire Line
 	700  3050 1850 3050
 Connection ~ 1850 3050
@@ -2950,4 +2950,6 @@ Text Label 8850 2450 0    50   ~ 0
 RX_C_P
 Text Label 8850 3050 0    50   ~ 0
 RX_C_N
+Text Label 3750 4900 0    50   ~ 0
+RSVD5
 $EndSCHEMATC
