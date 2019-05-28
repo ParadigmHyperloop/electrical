@@ -634,7 +634,7 @@ P 1700 7000
 F 0 "U1" H 1980 7096 50  0000 L CNN
 F 1 "TC74" H 1980 7005 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 1650 6500 50  0001 C CNN
-F 3 "http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80" H 1550 7500 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21462D.pdf" H 1550 7500 50  0001 C CNN
 	1    1700 7000
 	1    0    0    -1  
 $EndComp

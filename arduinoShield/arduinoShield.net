@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/brody_mck/electrical/arduinoShield/arduinoShield.sch)
-    (date "Monday, May 27, 2019 at 10:15:17 pm")
+    (date "Tuesday, May 28, 2019 at 06:41:25 pm")
     (tool "Eeschema (5.0.2-5-10.14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -141,8 +141,8 @@
       (tstamp 5CF46A95))
     (comp (ref U4)
       (value W5500)
-      (footprint MODULE)
-      (datasheet DOCUMENTATION)
+      (footprint footprints:QFP50P900X900X160-48N)
+      (datasheet http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v106e_141230.pdf)
       (libsource (lib hyper_capstone) (part W5500) (description ""))
       (sheetpath (names /wiznet/) (tstamps /5D492DEA/))
       (tstamp 5D492E66))
@@ -416,7 +416,7 @@
       (tstamp 5D787706))
     (comp (ref P14)
       (value RB1-125BAG1A)
-      (footprint WIZNET_RB1-125BAG1A)
+      (footprint footprints:WIZNET_RB1-125BAG1A)
       (datasheet "2.18 USD")
       (fields
         (field (name Availability) Good)
