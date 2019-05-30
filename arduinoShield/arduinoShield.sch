@@ -900,4 +900,10 @@ Wire Wire Line
 	1900 5400 2500 5400
 Wire Wire Line
 	1800 5500 2500 5500
+Text GLabel 2750 1150 0    50   BiDi ~ 0
+NETW_RST_L
+Text Label 3300 1150 2    60   ~ 0
+Reset
+Wire Wire Line
+	2750 1150 3300 1150
 $EndSCHEMATC

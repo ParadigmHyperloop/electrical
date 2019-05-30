@@ -219,7 +219,7 @@ Connection ~ 3400 7350
 Wire Wire Line
 	3400 7350 3850 7350
 Wire Wire Line
-	1600 7350 900  7350
+	1600 7350 1250 7350
 Wire Wire Line
 	900  7350 900  7250
 Connection ~ 1600 7350
@@ -643,7 +643,7 @@ Wire Wire Line
 Text GLabel 1900 4450 0    50   BiDi ~ 0
 NETW_INT_L
 Text GLabel 1900 4550 0    50   BiDi ~ 0
-NETW_MOSI
+NETW_RST_L
 $Comp
 L Device:R R7
 U 1 1 5D58C83F
@@ -2952,4 +2952,20 @@ Text Label 8850 3050 0    50   ~ 0
 RX_C_N
 Text Label 3750 4900 0    50   ~ 0
 RSVD5
+$Comp
+L power:GND #PWR?
+U 1 1 5CF3217B
+P 1250 7450
+F 0 "#PWR?" H 1250 7200 50  0001 C CNN
+F 1 "GND" H 1255 7277 50  0000 C CNN
+F 2 "" H 1250 7450 50  0001 C CNN
+F 3 "" H 1250 7450 50  0001 C CNN
+	1    1250 7450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 7350
+Wire Wire Line
+	1250 7350 900  7350
+Wire Wire Line
+	1250 7450 1250 7350
 $EndSCHEMATC
