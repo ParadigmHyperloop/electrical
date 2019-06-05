@@ -1062,10 +1062,10 @@ Wire Wire Line
 Text Label 5850 3350 2    39   ~ 0
 sevseg_DP
 $Comp
-L Mechanical:MountingHole_Pad H5
+L Mechanical:MountingHole_Pad H?
 U 1 1 5D1225F7
 P 10500 5500
-F 0 "H5" V 10454 5650 50  0000 L CNN
+F 0 "H?" V 10454 5650 50  0000 L CNN
 F 1 "M2" V 10545 5650 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 10500 5500 50  0001 C CNN
 F 3 "~" H 10500 5500 50  0001 C CNN
@@ -1073,10 +1073,10 @@ F 3 "~" H 10500 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
+L Mechanical:MountingHole_Pad H?
 U 1 1 5D122AED
 P 10500 5300
-F 0 "H4" V 10454 5450 50  0000 L CNN
+F 0 "H?" V 10454 5450 50  0000 L CNN
 F 1 "M2" V 10545 5450 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 10500 5300 50  0001 C CNN
 F 3 "~" H 10500 5300 50  0001 C CNN
@@ -1084,10 +1084,10 @@ F 3 "~" H 10500 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L Mechanical:MountingHole_Pad H?
 U 1 1 5D122DB2
 P 10500 5100
-F 0 "H3" V 10454 5250 50  0000 L CNN
+F 0 "H?" V 10454 5250 50  0000 L CNN
 F 1 "M2" V 10545 5250 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 10500 5100 50  0001 C CNN
 F 3 "~" H 10500 5100 50  0001 C CNN
@@ -1095,10 +1095,10 @@ F 3 "~" H 10500 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2
+L Mechanical:MountingHole_Pad H?
 U 1 1 5D123219
 P 10500 4900
-F 0 "H2" V 10454 5050 50  0000 L CNN
+F 0 "H?" V 10454 5050 50  0000 L CNN
 F 1 "M2" V 10545 5050 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 10500 4900 50  0001 C CNN
 F 3 "~" H 10500 4900 50  0001 C CNN

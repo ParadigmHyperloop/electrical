@@ -1,0 +1,37 @@
+value,footprint,libsource/_lib,libsource/_part,libsource/_description,sheetpath/_names,sheetpath/_tstamps,tstamp,_ref,fields/field/0/_name,fields/field/0/__text,datasheet
+BeagleBone_Black_Header,Socket_BeagleBone_Black:Socket_BeagleBone_Black,Connector_Generic,Conn_02x23_Odd_Even,"Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",/,/,55DF7DBA,P9,,,
+BeagleBone_Black_Header,Socket_BeagleBone_Black:Socket_BeagleBone_Black,Connector_Generic,Conn_02x23_Odd_Even,"Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",/,/,55DF7DE1,P8,,,
+HSCDANN030PA2A3,BeagleCape V2-STRIDE:DIP8_2.54_W13.8,BeagleCapeV2-STRIDE,HSCDANN030PA2A3,,/,/,5CF7032E,U3,Mouser,785-HSCDANN030PA2A3,
+0,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5CF7A958,R3,,,~
+0,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5CF7CCD4,R4,,,~
+4k7,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5CF811C7,R7,,,~
+4k7,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5CF8676D,R8,,,~
+0.1u,Capacitors_SMD:C_0805,Device,C_Small,"Unpolarized capacitor, small symbol",/,/,5CF8BE13,C2,,,~
+HSCMAND060PA3A3,BeagleCape V2-STRIDE:SOIC-8-2.54-W9.4,BeagleCapeV2-STRIDE,HSCDANN030PA2A3,,/,/,5CF94785,U4,Mouser,785-HSCDANN030PA2A3,
+0,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5CF94798,R5,,,~
+0,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5CF9479E,R6,,,~
+0.1u,Capacitors_SMD:C_0805,Device,C_Small,"Unpolarized capacitor, small symbol",/,/,5CF947AC,C3,,,~
+M3,Mounting_Holes:MountingHole_2.5mm,Mechanical,MountingHole_Pad,Mounting Hole with connection,/,/,5CF96392,H1,,,~
+0,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5CFB3B67,R1,,,~
+0,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5CFB3B6D,R2,,,~
+0.1u,Capacitors_SMD:C_0805,Device,C_Small,"Unpolarized capacitor, small symbol",/,/,5CFB3B7B,C1,,,~
+TC74A0-3.3VCTTR,TO_SOT_Packages_SMD:TSOT-23-5,BeagleCapeV2-STRIDE,TC74A0-3.3VCTTR,,/,/,5CFB9552,U2,,,TC74A0-3.3VCTCT-ND
+HDSP-A151,Displays_7-Segment:HDSP-78xx,Display_Character,HDSP-A151,"One digit 7 segment red, common anode",/,/,5CFC3075,U1,Field4,https://docs.broadcom.com/docs/AV02-2553EN,516-3243-ND
+SN65HVD230,µ104KiCAD_IC:SOIC-8_N,Interface_CAN_LIN,SN65HVD230,"CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC",/,/,5CFAAF7A,U5,,,296-11654-1-ND
+0.1u,Capacitors_SMD:C_0805,Device,C_Small,"Unpolarized capacitor, small symbol",/,/,5CFBFE2A,C4,,,~
+120,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5CFF8668,R9,,,~
+Open,µ104KiCAD:JUMPER_EGG,Jumper,SolderJumper_2_Open,"Solder Jumper, 2-pole, open",/,/,5CFFB4F6,JP1,,,~
+CAN,Connectors_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled,Connector_Generic,Conn_01x02,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",/,/,5D007401,J1,,,~
+Conn_01x04,Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled,Connector_Generic,Conn_01x04,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",/,/,5D017692,J2,,,~
+300,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5D04087F,R10,,,~
+300,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5D041D1E,R11,,,~
+300,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5D04205B,R12,,,~
+300,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5D0422DB,R13,,,~
+300,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5D042753,R14,,,~
+300,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5D042AA5,R15,,,~
+300,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5D042D3A,R16,,,~
+300,Resistors_SMD:R_0805,Device,R,Resistor,/,/,5D043023,R17,,,~
+M2,Mounting_Holes:MountingHole_2.2mm_M2_Pad,Mechanical,MountingHole_Pad,Mounting Hole with connection,/,/,5D1225F7,H5,,,~
+M2,Mounting_Holes:MountingHole_2.2mm_M2_Pad,Mechanical,MountingHole_Pad,Mounting Hole with connection,/,/,5D122AED,H4,,,~
+M2,Mounting_Holes:MountingHole_2.2mm_M2_Pad,Mechanical,MountingHole_Pad,Mounting Hole with connection,/,/,5D122DB2,H3,,,~
+M2,Mounting_Holes:MountingHole_2.2mm_M2_Pad,Mechanical,MountingHole_Pad,Mounting Hole with connection,/,/,5D123219,H2,,,~

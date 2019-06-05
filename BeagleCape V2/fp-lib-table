@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Socket_BeagleBone_Black)(type KiCad)(uri "$(KIPRJMOD)/Socket_BeagleBone_Black.pretty")(options "")(descr ""))
+  (lib (name "BeagleCape V2-STRIDE")(type KiCad)(uri "${KIPRJMOD}/BeagleCape V2-STRIDE.pretty")(options "")(descr ""))
 )
