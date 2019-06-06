@@ -19,38 +19,16 @@ Text Label 9250 1200 1    60   ~ 0
 IOREF
 Text Label 8900 1200 1    60   ~ 0
 Vin
-Text Label 8900 2450 0    60   ~ 0
-A0
-Text Label 8900 2550 0    60   ~ 0
-A1
-Text Label 8900 2650 0    60   ~ 0
-A2
-Text Label 8900 2750 0    60   ~ 0
-A3
-Text Label 8900 2850 0    60   ~ 0
-A4
 Text Label 8900 2950 0    60   ~ 0
 A5
 Text Label 8900 3050 0    60   ~ 0
 A6
 Text Label 8900 3150 0    60   ~ 0
 A7
-Text Label 8900 3400 0    60   ~ 0
-A8
-Text Label 8900 3500 0    60   ~ 0
-A9
-Text Label 8900 3600 0    60   ~ 0
-A10
-Text Label 8900 3700 0    60   ~ 0
-A11
-Text Label 8900 3800 0    60   ~ 0
-A12
 Text Label 8900 3900 0    60   ~ 0
 A13
 Text Label 8900 4000 0    60   ~ 0
 A14
-Text Label 8900 4100 0    60   ~ 0
-A15
 Text Label 10500 4650 1    60   ~ 0
 22
 Text Label 10400 4650 1    60   ~ 0
@@ -424,16 +402,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 1450 10150 1450
 Wire Wire Line
-	9350 2450 8900 2450
-Wire Wire Line
-	8900 2550 9350 2550
-Wire Wire Line
-	9350 2650 8900 2650
-Wire Wire Line
-	8900 2750 9350 2750
-Wire Wire Line
-	9350 2850 8900 2850
-Wire Wire Line
 	8900 2950 9350 2950
 Wire Wire Line
 	9350 3050 8900 3050
@@ -456,21 +424,9 @@ Wire Wire Line
 Wire Wire Line
 	10150 3150 10400 3150
 Wire Wire Line
-	9350 3400 8900 3400
-Wire Wire Line
-	8900 3500 9350 3500
-Wire Wire Line
-	9350 3600 8900 3600
-Wire Wire Line
-	8900 3700 9350 3700
-Wire Wire Line
-	9350 3800 8900 3800
-Wire Wire Line
 	8900 3900 9350 3900
 Wire Wire Line
 	9350 4000 8900 4000
-Wire Wire Line
-	8900 4100 9350 4100
 Wire Wire Line
 	10400 3400 10150 3400
 Wire Wire Line
@@ -907,34 +863,12 @@ Reset
 Wire Wire Line
 	2750 1150 3300 1150
 $Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5CF61719
-P 6200 4000
-F 0 "J3" H 6280 3992 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 6280 3901 50  0000 L CNN
-F 2 "" H 6200 4000 50  0001 C CNN
-F 3 "~" H 6200 4000 50  0001 C CNN
-	1    6200 4000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 5CF6ECD8
-P 6200 3100
-F 0 "J2" H 6280 3092 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 6280 3001 50  0000 L CNN
-F 2 "" H 6200 3100 50  0001 C CNN
-F 3 "~" H 6200 3100 50  0001 C CNN
-	1    6200 3100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5CF6ED14
 P 6200 2300
 F 0 "J1" H 6120 1975 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 6120 2066 50  0000 C CNN
-F 2 "" H 6200 2300 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled" H 6200 2300 50  0001 C CNN
 F 3 "~" H 6200 2300 50  0001 C CNN
 	1    6200 2300
 	-1   0    0    1   
@@ -1118,4 +1052,101 @@ Wire Wire Line
 Connection ~ 7150 3900
 Text Label 7650 3900 2    43   ~ 0
 20(SDA)
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5CFC233A
+P 6200 3100
+F 0 "J2" H 6120 2775 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 6120 2866 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled" H 6200 3100 50  0001 C CNN
+F 3 "~" H 6200 3100 50  0001 C CNN
+	1    6200 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5CFC238A
+P 6200 4000
+F 0 "J3" H 6120 3675 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 6120 3766 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled" H 6200 4000 50  0001 C CNN
+F 3 "~" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 4100 9350 4100
+Text Label 8900 4100 0    60   ~ 0
+A15
+Wire Wire Line
+	8900 2750 9350 2750
+Wire Wire Line
+	9350 2650 8900 2650
+Wire Wire Line
+	8900 2450 9350 2450
+Text Label 8900 2750 0    60   ~ 0
+A3
+Text Label 8900 2650 0    60   ~ 0
+A2
+Text Label 8900 2450 0    60   ~ 0
+A0
+Wire Wire Line
+	9350 2850 8900 2850
+Text Label 8900 2850 0    60   ~ 0
+A4
+Wire Wire Line
+	8900 2550 9350 2550
+Text Label 8900 2550 0    60   ~ 0
+A1
+Text Label 8900 3600 0    60   ~ 0
+A10
+Text Label 8900 3700 0    60   ~ 0
+A11
+Text Label 8900 3800 0    60   ~ 0
+A12
+Wire Wire Line
+	8900 3600 9350 3600
+Wire Wire Line
+	9350 3700 8900 3700
+Wire Wire Line
+	8900 3800 9350 3800
+Wire Wire Line
+	8900 3400 9350 3400
+Text Label 8900 3400 0    60   ~ 0
+A8
+Wire Wire Line
+	9350 3500 8900 3500
+Text Label 8900 3500 0    60   ~ 0
+A9
+$Comp
+L Connector:Screw_Terminal_01x05 J4
+U 1 1 5D14DF8E
+P 3850 2750
+F 0 "J4" H 3930 2792 50  0000 L CNN
+F 1 "Screw_Terminal_01x05" H 3930 2701 50  0000 L CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MSTBVA-G_05x5.00mm_Vertical" H 3850 2750 50  0001 C CNN
+F 3 "~" H 3850 2750 50  0001 C CNN
+	1    3850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2850 3650 2850
+Wire Wire Line
+	3650 2750 3200 2750
+Wire Wire Line
+	3200 2550 3650 2550
+Text Label 3200 2850 0    60   ~ 0
+A3
+Text Label 3200 2750 0    60   ~ 0
+A4
+Text Label 3200 2550 0    60   ~ 0
+A9
+Wire Wire Line
+	3650 2950 3200 2950
+Text Label 3200 2950 0    60   ~ 0
+A2
+Wire Wire Line
+	3200 2650 3650 2650
+Text Label 3200 2650 0    60   ~ 0
+A8
 $EndSCHEMATC
