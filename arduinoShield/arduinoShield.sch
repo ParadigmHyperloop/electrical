@@ -907,34 +907,12 @@ Reset
 Wire Wire Line
 	2750 1150 3300 1150
 $Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5CF61719
-P 6200 4000
-F 0 "J3" H 6280 3992 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 6280 3901 50  0000 L CNN
-F 2 "" H 6200 4000 50  0001 C CNN
-F 3 "~" H 6200 4000 50  0001 C CNN
-	1    6200 4000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 5CF6ECD8
-P 6200 3100
-F 0 "J2" H 6280 3092 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 6280 3001 50  0000 L CNN
-F 2 "" H 6200 3100 50  0001 C CNN
-F 3 "~" H 6200 3100 50  0001 C CNN
-	1    6200 3100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5CF6ED14
 P 6200 2300
 F 0 "J1" H 6120 1975 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 6120 2066 50  0000 C CNN
-F 2 "" H 6200 2300 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled" H 6200 2300 50  0001 C CNN
 F 3 "~" H 6200 2300 50  0001 C CNN
 	1    6200 2300
 	-1   0    0    1   
@@ -1118,4 +1096,37 @@ Wire Wire Line
 Connection ~ 7150 3900
 Text Label 7650 3900 2    43   ~ 0
 20(SDA)
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5CFC233A
+P 6200 3100
+F 0 "J2" H 6120 2775 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 6120 2866 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled" H 6200 3100 50  0001 C CNN
+F 3 "~" H 6200 3100 50  0001 C CNN
+	1    6200 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5CFC238A
+P 6200 4000
+F 0 "J3" H 6120 3675 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 6120 3766 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled" H 6200 4000 50  0001 C CNN
+F 3 "~" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5CFC3225
+P 3300 2750
+F 0 "J?" H 3380 2742 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3380 2651 50  0000 L CNN
+F 2 "" H 3300 2750 50  0001 C CNN
+F 3 "~" H 3300 2750 50  0001 C CNN
+	1    3300 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
