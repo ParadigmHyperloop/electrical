@@ -746,12 +746,6 @@ Wire Notes Line
 	4050 7550 4050 5000
 Text Notes 4100 5200 0    98   ~ 20
 Pressure Transducers
-Text Label 1050 4350 2    60   ~ 0
-SDA
-Text Label 1050 4250 2    60   ~ 0
-SCL
-Wire Wire Line
-	1050 4250 1350 4250
 Wire Wire Line
 	1350 4250 1350 3950
 Connection ~ 1350 4250
@@ -789,8 +783,6 @@ Connection ~ 1500 3550
 Wire Wire Line
 	1500 3550 1350 3550
 Connection ~ 1650 4350
-Wire Wire Line
-	1050 4350 1650 4350
 Wire Wire Line
 	1500 3550 1650 3550
 $Comp
@@ -873,10 +865,6 @@ F 3 "~" H 6200 2300 50  0001 C CNN
 	1    6200 2300
 	-1   0    0    1   
 $EndComp
-Text Label 7650 3000 2    43   ~ 0
-19(Rx1)
-Text Label 7650 2200 2    43   ~ 0
-18(Tx1)
 Text Notes 5150 1700 0    98   ~ 20
 Off Board Sensors
 Wire Notes Line
@@ -1050,7 +1038,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 3900 7150 3900
 Connection ~ 7150 3900
-Text Label 7650 3900 2    43   ~ 0
+Text Label 800  4350 0    59   ~ 0
 20(SDA)
 $Comp
 L Connector:Screw_Terminal_01x02 J2
@@ -1149,4 +1137,16 @@ Wire Wire Line
 	3200 2650 3650 2650
 Text Label 3200 2650 0    60   ~ 0
 A8
+Text Label 800  4250 0    59   ~ 0
+21(SCL)
+Wire Wire Line
+	800  4250 1350 4250
+Wire Wire Line
+	800  4350 1650 4350
+Text Label 7650 3900 2    60   ~ 0
+19(Rx1)
+Text Label 7650 3000 2    60   ~ 0
+18(Tx1)
+Text Label 7650 2200 2    60   ~ 0
+AREF
 $EndSCHEMATC
