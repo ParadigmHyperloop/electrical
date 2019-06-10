@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L connectors:PAVE_4762 J?
+L wiringHarnesses-rescue:PAVE_4762-connectors J?
 U 1 1 5CD609CA
 P 5650 3900
 F 0 "J?" H 5140 4770 79  0000 C CNN
@@ -66,15 +66,13 @@ GND
 Wire Wire Line
 	5350 4300 4500 4300
 Text Label 4600 4300 0    50   ~ 0
-TXD
+800V_PASS
 Wire Wire Line
 	5350 4400 4500 4400
 Text Label 4600 4400 0    50   ~ 0
-RXD
+HVGND_PASS
 Wire Wire Line
 	5350 4500 4500 4500
-Text Label 4600 4500 0    50   ~ 0
-~PROG_EN
 Text Label 6700 4200 2    50   ~ 0
 GND
 Text Label 6700 4100 2    50   ~ 0
@@ -93,18 +91,6 @@ Text Label 6700 3600 2    50   ~ 0
 Shield
 Text Label 6700 4000 2    50   ~ 0
 GND
-Wire Wire Line
-	5950 4300 6800 4300
-Text Label 6700 4300 2    50   ~ 0
-TXD
-Wire Wire Line
-	5950 4400 6800 4400
-Text Label 6700 4400 2    50   ~ 0
-RXD
-Wire Wire Line
-	5950 4500 6800 4500
-Text Label 6700 4500 2    50   ~ 0
-~PROG_EN
 $Comp
 L Connector:Conn_01x02_Female J?
 U 1 1 5CD67CB3
@@ -157,4 +143,18 @@ Wire Wire Line
 	5950 4000 8150 4000
 Wire Wire Line
 	5950 3800 7350 3800
+Wire Wire Line
+	5950 4500 6800 4500
+Text Label 6700 4400 2    50   ~ 0
+HVGND_PASS
+Wire Wire Line
+	5950 4400 6800 4400
+Text Label 6700 4300 2    50   ~ 0
+800V_PASS
+Wire Wire Line
+	5950 4300 6800 4300
+Text Label 4600 4500 0    50   ~ 0
+SPARE
+Text Label 6200 4500 0    50   ~ 0
+SPARE
 $EndSCHEMATC

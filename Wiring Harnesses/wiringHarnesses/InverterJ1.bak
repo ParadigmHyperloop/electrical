@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L connectors:Inverter_J1 J?
+L wiringHarnesses-rescue:Inverter_J1-connectors J?
 U 1 1 5CD61F33
 P 4450 3800
 F 0 "J?" H 4506 5331 79  0000 C CNN
@@ -42,7 +42,7 @@ GND
 Text Label 4850 4400 0    50   ~ 0
 AIN2
 $Comp
-L connectors:Molex_Micro_Fit_Jr_Female_8 U?
+L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female_8-connectors U?
 U 1 1 5CD62F1E
 P 7750 4500
 F 0 "U?" H 7877 5673 79  0000 L CNN
