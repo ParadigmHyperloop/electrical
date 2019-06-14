@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name arduinoShield-rescue)(type Legacy)(uri ${KIPRJMOD}/arduinoShield-rescue.lib)(options "")(descr ""))
 )

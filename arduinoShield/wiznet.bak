@@ -15,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L hyper_capstone:W5500 U4
+L arduinoShield-rescue:W5500-hyper_capstone U4
 U 1 1 5D492E66
 P 4500 3100
+AR Path="/5D492E66" Ref="U4"  Part="1" 
+AR Path="/5D492DEA/5D492E66" Ref="U4"  Part="1" 
 F 0 "U4" H 4700 3000 50  0000 R CNN
 F 1 "W5500" H 4700 3150 50  0000 R CNN
 F 2 "footprints:QFP50P900X900X160-48N" H 4500 3100 50  0001 C CNN
@@ -510,56 +512,48 @@ F 3 "~" H 850 3400 50  0001 C CNN
 	1    850  3400
 	0    1    1    0   
 $EndComp
-Text GLabel 2700 3250 0    50   BiDi ~ 0
+Text GLabel 2170 3250 0    50   BiDi ~ 0
 NETW_SS
 Text Label 2750 3250 0    50   ~ 0
 NETW_S0
-Wire Wire Line
-	2700 3250 3150 3250
-Text GLabel 2700 3350 0    50   BiDi ~ 0
+Text GLabel 2170 3350 0    50   BiDi ~ 0
 NETW_SCLK
 Text Label 2750 3350 0    50   ~ 0
 NETW_S1
-Wire Wire Line
-	2700 3350 3150 3350
-Text GLabel 2700 3450 0    50   BiDi ~ 0
+Text GLabel 2170 3450 0    50   BiDi ~ 0
 NETW_MISO
 Text Label 2750 3450 0    50   ~ 0
 NETW_S2
-Wire Wire Line
-	2700 3450 3150 3450
-Text GLabel 2700 3550 0    50   BiDi ~ 0
+Text GLabel 2170 3550 0    50   BiDi ~ 0
 NETW_MOSI
 Text Label 2750 3550 0    50   ~ 0
 NETW_S3
-Wire Wire Line
-	2700 3550 3150 3550
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5D524E62
-P 1850 3200
-F 0 "TP3" V 1750 3350 50  0000 C CNN
-F 1 " " V 1954 3274 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2050 3200 50  0001 C CNN
-F 3 "~" H 2050 3200 50  0001 C CNN
-	1    1850 3200
+P 1620 3220
+F 0 "TP3" V 1620 3470 50  0000 C CNN
+F 1 " " V 1724 3294 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1820 3220 50  0001 C CNN
+F 3 "~" H 1820 3220 50  0001 C CNN
+	1    1620 3220
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5D524F1D
-P 1650 3200
-F 0 "TP2" V 1550 3350 50  0000 C CNN
-F 1 " " V 1754 3274 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1850 3200 50  0001 C CNN
-F 3 "~" H 1850 3200 50  0001 C CNN
-	1    1650 3200
+P 1450 3210
+F 0 "TP2" V 1430 3470 50  0000 C CNN
+F 1 " " V 1554 3284 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1650 3210 50  0001 C CNN
+F 3 "~" H 1650 3210 50  0001 C CNN
+	1    1450 3210
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1850 3200 1850 3050
+	1620 3220 1850 3050
 Wire Wire Line
-	1650 3200 1650 3150
+	1450 3210 1650 3150
 Connection ~ 1650 3150
 Wire Wire Line
 	1450 3150 1650 3150
@@ -2615,9 +2609,11 @@ CA 98 28 FC 0A 8A 51 55 30 26 6A 8D 2D 57 3B 1A 10 11 13 9E F3 B9 E8 4F 31 2E EA
 EndData
 $EndBitmap
 $Comp
-L hyper_capstone:RB1-125BAG1A P14
+L arduinoShield-rescue:RB1-125BAG1A-hyper_capstone P14
 U 1 1 5D7A0B8B
 P 10100 3050
+AR Path="/5D7A0B8B" Ref="P14"  Part="1" 
+AR Path="/5D492DEA/5D7A0B8B" Ref="P14"  Part="1" 
 F 0 "P14" H 9650 4650 50  0000 L CNN
 F 1 "RB1-125BAG1A" H 10200 1300 50  0000 L CNN
 F 2 "footprints:WIZNET_RB1-125BAG1A" H 10100 3050 50  0001 L BNN
@@ -2968,4 +2964,45 @@ Wire Wire Line
 	1250 7350 900  7350
 Wire Wire Line
 	1250 7450 1250 7350
+$Comp
+L Device:R R?
+U 1 1 5D0E7532
+P 2320 3250
+F 0 "R?" V 2320 3250 50  0000 L CNN
+F 1 "0" V 2320 3200 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 2250 3250 50  0001 C CNN
+F 3 "~" H 2320 3250 50  0001 C CNN
+	1    2320 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D0E785D
+P 2320 3350
+F 0 "R?" V 2320 3350 50  0000 L CNN
+F 1 "0" V 2320 3300 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 2250 3350 50  0001 C CNN
+F 3 "~" H 2320 3350 50  0001 C CNN
+	1    2320 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D0E798B
+P 2320 3550
+F 0 "R?" V 2320 3550 50  0000 L CNN
+F 1 "0" V 2320 3500 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 2250 3550 50  0001 C CNN
+F 3 "~" H 2320 3550 50  0001 C CNN
+	1    2320 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2170 3450 3150 3450
+Wire Wire Line
+	2470 3550 3150 3550
+Wire Wire Line
+	2470 3350 3150 3350
+Wire Wire Line
+	2470 3250 3150 3250
 $EndSCHEMATC
