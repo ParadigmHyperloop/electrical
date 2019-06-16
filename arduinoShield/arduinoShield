@@ -1,0 +1,92 @@
+Source,/Users/mitchellstride/projects/hyperloop/electrical/arduinoShield/arduinoShield.sch
+Kicad Rev,Eeschema (5.1.2-1)-1
+Generated Date,Thursday, June 13, 2019 at 12:10:21 pm
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,mar. 31 mars 2015
+
+Reference,Value,Tolerance,Library,Library Ref
+P8,CONN_01X01,Connector_Generic,Conn_01x01
+P9,CONN_01X01,Connector_Generic,Conn_01x01
+P10,CONN_01X01,Connector_Generic,Conn_01x01
+P11,CONN_01X01,Connector_Generic,Conn_01x01
+P12,CONN_01X01,Connector_Generic,Conn_01x01
+P13,CONN_01X01,Connector_Generic,Conn_01x01
+P2,Power,Connector_Generic,Conn_01x08
+P5,PWM,Connector_Generic,Conn_01x10
+P3,Analog,Connector_Generic,Conn_01x08
+P6,PWM,Connector_Generic,Conn_01x08
+P4,Analog,Connector_Generic,Conn_01x08
+P7,Communication,Connector_Generic,Conn_01x08
+P1,Digital,Connector_Generic,Conn_02x18_Odd_Even
+U1,TC74,Sensor_Magnetic,TLV493D
+U3,HSCDANN030PA2A3,Sensor_Pressure,BMP280
+U2,HSCDANN030PA2A3,Sensor_Pressure,BMP280
+R2,10k,Device,R
+R1,10k,Device,R
+J1,Screw_Terminal_01x02,Connector,Screw_Terminal_01x02
+R32,10k,Device,R
+R33,10k,Device,R
+R34,10k,Device,R
+R29,14k,Device,R
+R30,14k,Device,R
+R31,300,Device,R
+J2,Screw_Terminal_01x02,Connector,Screw_Terminal_01x02
+J3,Screw_Terminal_01x02,Connector,Screw_Terminal_01x02
+J4,Screw_Terminal_01x05,Connector,Screw_Terminal_01x05
+R35,10k,Device,R
+R36,10k,Device,R
+R8,0,Device,R
+C11,0.1uF,Device,C
+C2,10uF,Device,C
+C10,0.1uF,Device,C
+C9,0.1uF,Device,C
+C8,0.1uF,Device,C
+C7,0.1uF,Device,C
+C5,0.1uF,Device,C
+FB1,Ferrite_Bead_Small,Device,Ferrite_Bead_Small
+TP7,TestPoint,Connector,TestPoint
+R6,330,Device,R
+R5,330,Device,R
+TP1, ,Connector,TestPoint
+C6,10nF,Device,C
+C4,4.7uF,Device,C
+R10,10k,Device,R
+TP6, ,Connector,TestPoint
+TP8, ,Connector,TestPoint
+R4,0,Device,R
+R3,1M,Device,R
+TP3, ,Connector,TestPoint
+TP2, ,Connector,TestPoint
+C1,4.7uF,Device,C
+Y1,25MHz,Device,Crystal
+C3,4.7uF,Device,C
+R7,10k,Device,R
+R9,10k,Device,R
+TP4, ,Connector,TestPoint
+TP5, ,Connector,TestPoint
+R11,10k,Device,R
+R12,10k,Device,R
+R13,10k,Device,R
+R14,10k,Device,R
+R15,10k,Device,R
+R16,10k,Device,R
+R17,10k,Device,R
+R18,10k,Device,R
+R19,12.4k,1%,Device,R
+FB2,Ferrite_Bead_Small,Device,Ferrite_Bead_Small
+R23,33,Device,R
+R24,33,Device,R
+R26,49.9,1%,Device,R
+R27,49.9,1%,Device,R
+C13,6.8nF,Device,C
+C14,6.8nF,Device,C
+R22,49.9,1%,Device,R
+R25,49.9,1%,Device,R
+C12,10nF,Device,C
+C15,100nF,Device,C
+R28,49.9,1%,Device,R
+R21,33,Device,R
+R20,33,Device,R
