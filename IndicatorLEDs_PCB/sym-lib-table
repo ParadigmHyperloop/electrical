@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name IndicatorLEDs_PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/IndicatorLEDs_PCB-rescue.lib)(options "")(descr ""))
+)

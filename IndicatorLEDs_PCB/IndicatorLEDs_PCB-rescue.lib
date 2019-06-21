@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ISO_GND-u104_KICAD_pwr
+#
+DEF ISO_GND-u104_KICAD_pwr #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 10 H I C CNN
+F1 "ISO_GND-u104_KICAD_pwr" 0 -175 40 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 -75 79 0 1 0 N
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X ISO_GND 1 0 0 0 R 10 10 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Logo-u104_KICAD_misc
+#
+DEF Logo-u104_KICAD_misc logo 0 40 Y Y 1 F N
+F0 "logo" -50 100 39 H V C CNN
+F1 "Logo-u104_KICAD_misc" 0 0 39 H V C CNN
+F2 "" 0 0 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+DRAW
+S -150 50 150 -50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
