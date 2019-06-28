@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 20
+Sheet 13 20
 Title ""
 Date ""
 Rev ""
@@ -30,30 +30,30 @@ MALE RJ45\n
 $Comp
 L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female_8-connectors U?
 U 1 1 5CD6483F
-P 8450 6750
-F 0 "U?" H 8577 7923 79  0000 L CNN
-F 1 "Molex_Micro_Fit_Jr_Female_8" H 8577 7788 79  0000 L CNN
-F 2 "" H 8450 6750 79  0001 C CNN
-F 3 "" H 8450 6750 79  0001 C CNN
-	1    8450 6750
+P 8550 3750
+F 0 "U?" H 8677 4923 79  0000 L CNN
+F 1 "Molex_Micro_Fit_Jr_Female_8" H 7900 5450 79  0000 L CNN
+F 2 "" H 8550 3750 79  0001 C CNN
+F 3 "" H 8550 3750 79  0001 C CNN
+	1    8550 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 5300 6900 5300
+	8300 2300 7000 2300
 Wire Wire Line
-	6900 5400 8200 5400
+	7000 2400 8300 2400
 Wire Wire Line
-	8200 5500 6900 5500
+	8300 2500 7000 2500
 Wire Wire Line
-	6900 5600 8200 5600
+	7000 2600 8300 2600
 Wire Wire Line
-	8200 5700 6900 5700
+	8300 2700 7000 2700
 Wire Wire Line
-	6900 5800 8200 5800
+	7000 2800 8300 2800
 Wire Wire Line
-	8200 5900 6900 5900
+	8300 2900 7000 2900
 Wire Wire Line
-	6900 6000 8200 6000
+	7000 3000 8300 3000
 Text Notes 1000 1000 0    79   ~ 0
 Automotive Connectors 18POS AMP MCP1.5K REC HSG ASSY\nMouser #: 571-1-1563759-1
 $Bitmap
@@ -7576,15 +7576,15 @@ Temp_AGND
 $Comp
 L Connector:RJ45 J?
 U 1 1 5CFF0E95
-P 6500 5700
-F 0 "J?" H 6555 6367 50  0000 C CNN
-F 1 "RJ45" H 6555 6276 50  0000 C CNN
-F 2 "" V 6500 5725 50  0001 C CNN
-F 3 "~" V 6500 5725 50  0001 C CNN
-	1    6500 5700
+P 6600 2700
+F 0 "J?" H 6655 3367 50  0000 C CNN
+F 1 "RJ45" H 6655 3276 50  0000 C CNN
+F 2 "" V 6600 2725 50  0001 C CNN
+F 3 "~" V 6600 2725 50  0001 C CNN
+	1    6600 2700
 	1    0    0    -1  
 $EndComp
-Text Notes 6200 6300 0    79   ~ 0
+Text Notes 6300 3300 0    79   ~ 0
 MALE RJ45\n
 Text Notes 4250 2700 0    59   ~ 0
 BLUE
@@ -7644,6 +7644,16 @@ Text Label 3300 2400 0    59   ~ 0
 COS-
 Text Label 3300 2300 0    59   ~ 0
 COS+
-Text Notes 6600 3200 0    79   ~ 0
+Text Notes 8900 3150 0    79   ~ 0
 Excitation- [B]\nExcitation+ [A]\nCOS- [F]\nCOS+ [E]\nSIN- [D]\nSIN+ [C]\nTEMP AIN2 [G]\nTEMP GND [H]
+Wire Notes Line
+	5550 1850 5550 3600
+Wire Notes Line
+	6600 3600 6600 1850
+Wire Notes Line
+	5550 3600 6600 3600
+Wire Notes Line
+	5550 1850 6600 1850
+Text Notes 5800 1800 0    79   ~ 0
+BULKHEAD
 $EndSCHEMATC

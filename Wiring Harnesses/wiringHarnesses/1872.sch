@@ -15,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L wiringHarnesses:1872 U?
+L wiringHarnesses-rescue:1872-wiringHarnesses U?
 U 1 1 5D0D49DD
 P 5900 3650
+AR Path="/5D0D49DD" Ref="U?"  Part="1" 
+AR Path="/5CCEF9CB/5CCEFA30/5CD2F05E/5D0D49DD" Ref="U?"  Part="1" 
 F 0 "U?" H 5500 5050 79  0000 C CNN
 F 1 "1872" H 5500 4900 79  0000 C CNN
 F 2 "" H 6000 4200 79  0001 C CNN

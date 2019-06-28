@@ -15,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L wiringHarnesses:1872 U?
+L wiringHarnesses-rescue:1872-wiringHarnesses U?
 U 1 1 5D0D49DD
 P 5900 3650
+AR Path="/5D0D49DD" Ref="U?"  Part="1" 
+AR Path="/5CCEF9CB/5CCEFA30/5CD2F05E/5D0D49DD" Ref="U?"  Part="1" 
 F 0 "U?" H 5500 5050 79  0000 C CNN
 F 1 "1872" H 5500 4900 79  0000 C CNN
 F 2 "" H 6000 4200 79  0001 C CNN
@@ -93,4 +95,31 @@ Wire Wire Line
 	5350 4500 4700 4500
 Wire Wire Line
 	5350 4600 4700 4600
+Text Label 4800 3800 0    39   ~ 0
+spare
+Text Label 4800 3900 0    39   ~ 0
+spare
+Text Label 4800 4000 0    39   ~ 0
+spare
+Text Label 4800 4100 0    39   ~ 0
+spare
+Text Label 4800 4200 0    39   ~ 0
+spare
+Text Label 4800 4300 0    39   ~ 0
+spare
+Text Label 4800 4400 0    39   ~ 0
+spare
+Text Label 4800 4500 0    39   ~ 0
+spare
+Text Label 4800 4600 0    39   ~ 0
+spare
+NoConn ~ 4700 4600
+NoConn ~ 4700 4500
+NoConn ~ 4700 4400
+NoConn ~ 4700 4300
+NoConn ~ 4700 4200
+NoConn ~ 4700 4100
+NoConn ~ 4700 4000
+NoConn ~ 4700 3900
+NoConn ~ 4700 3800
 $EndSCHEMATC
