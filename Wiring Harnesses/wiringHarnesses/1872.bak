@@ -51,16 +51,6 @@ Text Label 4800 3900 0    39   ~ 0
 RS232_GND
 Text Label 4800 3800 0    39   ~ 0
 prog_en
-Text Label 4500 4300 0    39   ~ 0
-bb_BMS1_CANH
-Text Label 4500 4400 0    39   ~ 0
-bb_BMS1_CANL
-Text Label 4500 4000 0    39   ~ 0
-bb_BMS_CHRG_EN
-Text Label 4500 4100 0    39   ~ 0
-bb_BMS_Discharge_EN
-Text Label 4500 4200 0    39   ~ 0
-bb_BMS_Discharge_SFTY_EN
 $Comp
 L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U?
 U 1 1 5D20E234
@@ -100,72 +90,15 @@ Wire Wire Line
 	3750 3300 5350 3300
 $Comp
 L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U?
-U 1 1 5D216095
-P 1850 4550
-F 0 "U?" H 1794 4035 50  0000 C CNN
-F 1 "6_pos_minifit_jr" H 1794 4126 50  0000 C CNN
-F 2 "" H 1850 4550 50  0001 C CNN
-F 3 "" H 1850 4550 50  0001 C CNN
-	1    1850 4550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2050 4450 3500 4450
-Wire Wire Line
-	3500 4450 3500 4000
-Wire Wire Line
-	2050 4550 3600 4550
-Wire Wire Line
-	3600 4550 3600 4100
-Wire Wire Line
-	3700 4200 3700 4650
-Wire Wire Line
-	2050 4650 3700 4650
-Wire Wire Line
-	3700 4200 5350 4200
-Wire Wire Line
-	3600 4100 5350 4100
-Wire Wire Line
-	3500 4000 5350 4000
-Text Label 4500 4500 0    39   ~ 0
-bb_BMS2_CANH
-Text Label 4500 4600 0    39   ~ 0
-bb_BMS2_CANL
-$Comp
-L wiringHarnesses-rescue:Molex_Micro_Fit_Jr_Female-connectors U?
 U 1 1 5D2223E7
-P 3300 5300
-F 0 "U?" H 3244 4785 50  0000 C CNN
-F 1 "6_pos_minifit_jr" H 3244 4876 50  0000 C CNN
-F 2 "" H 3300 5300 50  0001 C CNN
-F 3 "" H 3300 5300 50  0001 C CNN
-	1    3300 5300
+P 3050 5300
+F 0 "U?" H 2994 4785 50  0000 C CNN
+F 1 "6_pos_minifit_jr" H 2994 4876 50  0000 C CNN
+F 2 "" H 3050 5300 50  0001 C CNN
+F 3 "" H 3050 5300 50  0001 C CNN
+	1    3050 5300
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3900 4300 3900 5000
-Wire Wire Line
-	3900 5000 3500 5000
-Wire Wire Line
-	3900 4300 5350 4300
-Wire Wire Line
-	4000 4400 4000 5100
-Wire Wire Line
-	4000 5100 3500 5100
-Wire Wire Line
-	4000 4400 5350 4400
-Wire Wire Line
-	3500 5200 4100 5200
-Wire Wire Line
-	4100 5200 4100 4500
-Wire Wire Line
-	4100 4500 5350 4500
-Wire Wire Line
-	4200 4600 4200 5300
-Wire Wire Line
-	4200 5300 3500 5300
-Wire Wire Line
-	4200 4600 5350 4600
 Text Notes 1850 2150 0    52   ~ 0
 To Flight Computer\nFrom Master BMS + Inverter
 Text Notes 1250 3050 0    52   ~ 0
@@ -174,7 +107,7 @@ Text Notes 1000 4000 0    52   ~ 0
 From Inverter RS232\nStays as connector on other \nside to be used for debugging \ninverter\n
 Text Notes 750  4600 0    52   ~ 0
 From LP batt BMS \nGoes to 12V Charger +\nto controls computer\n
-Text Notes 2200 5350 0    52   ~ 0
+Text Notes 1950 5350 0    52   ~ 0
 From HP batt BMS \nGoes to 12V Charger +\nto controls computer\n
 Wire Wire Line
 	3550 3500 3550 3300
@@ -218,11 +151,8 @@ Wire Wire Line
 	5350 2800 4250 2800
 Wire Wire Line
 	5350 2700 4350 2700
-NoConn ~ 2050 4750
-NoConn ~ 2050 4350
-NoConn ~ 2050 4250
-NoConn ~ 3500 5400
-NoConn ~ 3500 5500
+NoConn ~ 3250 5400
+NoConn ~ 3250 5500
 NoConn ~ 2550 2900
 NoConn ~ 2550 2800
 $Bitmap
@@ -4777,4 +4707,62 @@ Text Notes 2600 3600 0    59   Italic 0
 ORANGE/WHITE
 Text Notes 850  7650 0    79   Italic 0
 MOLEX MINI FIT
+Wire Wire Line
+	5350 4000 3500 4000
+Wire Wire Line
+	3500 4000 3500 4250
+Wire Wire Line
+	3500 4250 2050 4250
+Text Label 4800 4000 0    39   ~ 0
+pull_string
+Wire Wire Line
+	4100 5000 4100 4100
+Wire Wire Line
+	4100 4100 5350 4100
+Wire Wire Line
+	4200 5100 4200 4200
+Wire Wire Line
+	4200 4200 5350 4200
+Wire Wire Line
+	4350 5200 4350 4300
+Wire Wire Line
+	4350 4300 5350 4300
+Text Label 4800 4100 0    39   ~ 0
+shield_a
+Text Label 4800 4200 0    36   ~ 0
+shield_b
+Text Label 4800 4300 0    39   ~ 0
+Shield_c
+Text Notes 2600 3100 0    59   Italic 0
+BROWN/WHITE
+Text Notes 2600 3300 0    59   Italic 0
+BROWN/WHITE
+Text Notes 2600 3200 0    59   Italic 0
+ORANGE
+Text Notes 2600 3000 0    59   Italic 0
+BLUE
+Wire Wire Line
+	3250 5000 4100 5000
+Wire Wire Line
+	3250 5100 4200 5100
+Wire Wire Line
+	3250 5200 4350 5200
+Text Notes 3350 5200 0    59   Italic 0
+WHITE
+Text Notes 3350 5100 0    59   Italic 0
+YELLOW/WHITE
+Text Notes 3350 5000 0    59   Italic 0
+YELLOW
+NoConn ~ 3250 5300
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5D21D481
+P 1850 4250
+F 0 "J?" H 1742 4025 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1850 4350 50  0000 C CNN
+F 2 "" H 1850 4250 50  0001 C CNN
+F 3 "~" H 1850 4250 50  0001 C CNN
+	1    1850 4250
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
