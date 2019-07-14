@@ -4681,8 +4681,6 @@ Text Notes 3400 2150 0    59   Italic 0
 RED
 Text Notes 3400 2050 0    59   Italic 0
 BLACK
-Text Notes 2600 4250 0    59   Italic 0
-BROWN
 Wire Wire Line
 	5350 3900 3400 3900
 Wire Wire Line
@@ -4767,4 +4765,8 @@ F 3 "~" H 1850 4250 50  0001 C CNN
 $EndComp
 Text Notes 3000 6950 0    79   ~ 0
 Note:\nExtra passthroughs are:\n-BLUE/WHITE\n-PURPLE/WHITE\n-BROWN/BLACK\n-WHITE/BLACK
+Text Notes 2600 4100 0    59   Italic 0
+BLACK/WHITE
+Text Notes 2600 4250 0    59   Italic 0
+BROWN
 $EndSCHEMATC
