@@ -36,7 +36,7 @@ LP_12V
 Text Label 3600 3900 0    50   ~ 0
 CHARGE
 Text Label 3600 3800 0    50   ~ 0
-READY
+READY\DISCHARGE
 Text Label 4300 4100 0    50   ~ 0
 GND
 Text Label 4150 4400 0    50   ~ 0
@@ -242,29 +242,29 @@ F 3 "~" H 7000 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5950 3700 7350 3700
-Text Notes 4850 3400 0    59   Italic 0
+Text Notes 4750 3400 0    59   Italic 0
 RED/WHITE
-Text Notes 4850 3500 0    59   Italic 0
+Text Notes 4750 3500 0    59   Italic 0
 GREEN
-Text Notes 4850 3600 0    59   Italic 0
+Text Notes 4750 3600 0    59   Italic 0
 YELLOW
-Text Notes 4850 3900 0    59   Italic 0
+Text Notes 4750 3900 0    59   Italic 0
 LIGHT GREY
-Text Notes 4850 3800 0    59   Italic 0
+Text Notes 4750 3800 0    59   Italic 0
 WHITE
 Text Notes 4750 3700 0    59   Italic 0
 BLACK/WHITE
-Text Notes 4850 4300 0    59   Italic 0
+Text Notes 4750 4300 0    59   Italic 0
 BROWN
-Text Notes 4850 4200 0    59   Italic 0
+Text Notes 4750 4200 0    59   Italic 0
 RED
-Text Notes 4850 4000 0    59   Italic 0
+Text Notes 4750 4000 0    59   Italic 0
 BLUE
-Text Notes 4850 4100 0    59   Italic 0
+Text Notes 4750 4100 0    59   Italic 0
 PURPLE
-Text Notes 4850 4400 0    59   Italic 0
+Text Notes 4750 4400 0    59   Italic 0
 HEATSHRONK
-Text Notes 4850 4500 0    59   Italic 0
+Text Notes 4750 4500 0    59   Italic 0
 HEATSHRONK
 Wire Wire Line
 	3950 4500 5350 4500

@@ -36,7 +36,7 @@ LP_12V
 Text Label 3600 3900 0    50   ~ 0
 CHARGE
 Text Label 3600 3800 0    50   ~ 0
-READY
+READY\DISCHARGE
 Text Label 4300 4100 0    50   ~ 0
 GND
 Text Label 4150 4400 0    50   ~ 0
