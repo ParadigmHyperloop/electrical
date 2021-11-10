@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-All boards are built using KiCad EDA (http://kicad-pcb.org/).  It is free and open source software!
+All boards are built using KiCad EDA (http://kicad.org/).  It is free and open source software!
 
 1. Download and Install KiCAD
 2. Clone this Repo
